@@ -134,7 +134,7 @@
           tbody.append(el("tr", { class: "group" }, el("th", { colspan: 8 }, head)));
         }
         const gon = c.gonality.exact ? String(c.gonality.lb) : c.gonality.ub ? c.gonality.lb + "–" + c.gonality.ub : "≥ " + c.gonality.lb;
-        const rank = c.rank.value === null ? "?" : String(c.rank.value);
+        const rank = c.rank.value !== null ? String(c.rank.value) : c.rank.analytic_rank !== undefined ? "(" + c.rank.analytic_rank + ")" : "?";
         const href = "curve.html?m=" + c.m + "&n=" + c.n;
         const tr = el("tr", { class: "row-link" + (c.genus === 0 ? " dim" : ""), onclick: (e) => { if (e.target.tagName !== "A") location.href = href; } },
           el("td", null, el("a", { href, class: "id" }, curveLabel(c.m, c.n))),
@@ -200,7 +200,9 @@
         el("span", { class: "src" }, "(", sourceLinks(sources, [gon.source]), gon.source === "torsion_inf" && c.table_note ? "; " + c.table_note : "", ")")),
       el("dt", null, "Abramovich bound"), el("dd", null, "γ ≥ " + c.abramovich_bound, " ", el("span", { class: "src" }, "(", sourceLinks(sources, ["Abramovich96"]), ")")),
       el("dt", null, "rank of J₁ over " + (m <= 2 ? "ℚ" : "ℚ(ζ" + m + ")")),
-      el("dd", null, c.rank.value === null ? el("span", { class: "empty" }, "not recorded") : [el("b", null, c.rank.value), " ", el("span", { class: "src" }, "(", sourceLinks(sources, c.rank.source.split("+")), ")")]),
+      el("dd", null, c.rank.value === null
+        ? (c.rank.analytic_rank !== undefined ? ["analytic rank ", el("b", null, c.rank.analytic_rank), " ", el("span", { class: "src" }, "(", sourceLinks(sources, ["torsion_inf"]), "; the Mordell–Weil rank is not recorded)")] : el("span", { class: "empty" }, "not recorded"))
+        : [el("b", null, c.rank.value), " ", el("span", { class: "src" }, "(", sourceLinks(sources, c.rank.source.split("+")), ")")]),
       el("dt", null, "finitely many points in degree"),
       el("dd", null, Object.keys(c.degrees_finite).length ? Object.entries(c.degrees_finite).sort((a, b) => a[0] - b[0]).map(([d, s], i) => [i ? ", " : "", el("b", null, d), " ", el("span", { class: "src" }, "(", sourceLinks(sources, [s]), ")")]) : el("span", { class: "empty" }, "nothing recorded")),
       el("dt", null, "infinitely many points in degree"),

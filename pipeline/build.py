@@ -72,6 +72,9 @@ def curve_record(m, n, magma_rec, table_row):
     if genus == 0:
         rank_val, rank_src = 0, "genus 0"
     rank = {"value": rank_val, "source": rank_src} if rank_val is not None else {"value": None, "source": None}
+    if table_row is not None:
+        rank["analytic_rank"] = table_row["an_r"]
+        rank.setdefault("source", "torsion_inf")
     inf, fin = knowledge.phi_infinity_degrees(m, n)
     degrees_infinite = {str(d): s for d, s in sorted(inf.items())}
     degrees_finite = {str(d): s for d, s in sorted(fin.items())}

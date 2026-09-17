@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 09:23 UTC",
+  "generated": "2026-09-17 09:24 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -31,7 +31,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -62,7 +63,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -93,7 +95,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -124,7 +127,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -155,7 +159,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -186,7 +191,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -217,7 +223,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -248,7 +255,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -279,7 +287,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -310,7 +319,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -341,7 +351,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -381,7 +392,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -412,7 +424,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -452,7 +465,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -492,7 +506,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -532,7 +547,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -572,7 +588,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "4": "JKP06",
@@ -612,7 +629,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -652,7 +670,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "5": "DS17",
@@ -692,7 +711,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "3": "JKS04",
@@ -732,7 +752,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "4": "JKP06",
@@ -792,7 +813,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "4": "JKP06",
@@ -832,7 +854,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "7": "torsion_inf",
@@ -872,7 +895,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "4": "JKP06",
@@ -912,7 +936,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "5": "DS17",
@@ -990,7 +1015,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "6": "DS17",
@@ -1030,7 +1056,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "6": "DS17",
@@ -1070,7 +1097,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "6": "DS17",
@@ -1130,7 +1158,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "11": "Hilbert"
@@ -1227,7 +1256,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "6": "DS17",
@@ -1304,7 +1334,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "12": "Hilbert"
@@ -1437,7 +1468,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "8": "torsion_inf"
@@ -1616,7 +1648,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "10": "Hilbert"
@@ -1867,7 +1900,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "10": "Hilbert"
@@ -2031,7 +2065,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "12": "Hilbert"
@@ -2216,7 +2251,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "8": "torsion_inf",
@@ -2293,7 +2329,8 @@
       },
       "rank": {
         "value": null,
-        "source": null
+        "source": null,
+        "analytic_rank": 1
       },
       "degrees_infinite": {
         "18": "Hilbert"
@@ -2904,7 +2941,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "12": "Hilbert"
@@ -3001,7 +3039,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "14": "Hilbert"
@@ -3376,7 +3415,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "12": "Hilbert"
@@ -4004,7 +4044,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4043,7 +4084,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4082,7 +4124,8 @@
       },
       "rank": {
         "value": null,
-        "source": null
+        "source": null,
+        "analytic_rank": 1
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4121,7 +4164,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4160,7 +4204,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4199,7 +4244,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4238,7 +4284,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4278,7 +4325,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4317,7 +4365,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4358,7 +4407,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4397,7 +4447,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4438,7 +4489,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4477,7 +4529,8 @@
       },
       "rank": {
         "value": null,
-        "source": null
+        "source": null,
+        "analytic_rank": 1
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4516,7 +4569,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4555,7 +4609,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4597,7 +4652,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4638,7 +4694,8 @@
       },
       "rank": {
         "value": null,
-        "source": null
+        "source": null,
+        "analytic_rank": 1
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4677,7 +4734,8 @@
       },
       "rank": {
         "value": null,
-        "source": null
+        "source": null,
+        "analytic_rank": 1
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4716,7 +4774,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4758,7 +4817,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4799,7 +4859,8 @@
       },
       "rank": {
         "value": null,
-        "source": null
+        "source": null,
+        "analytic_rank": 3
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4838,7 +4899,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4880,7 +4942,8 @@
       },
       "rank": {
         "value": null,
-        "source": null
+        "source": null,
+        "analytic_rank": 2
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -4919,7 +4982,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6440,7 +6504,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -6471,7 +6536,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -6502,7 +6568,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -6533,7 +6600,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "genus 0"
+        "source": "genus 0",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -6564,7 +6632,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -6604,7 +6673,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -6644,7 +6714,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "3": "JKS04",
@@ -6684,7 +6755,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "4": "JKP06",
@@ -6724,7 +6796,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "4": "JKP06",
@@ -6764,7 +6837,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "6": "DS17",
@@ -6804,7 +6878,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "8": "torsion_inf",
@@ -6844,7 +6919,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "8": "torsion_inf",
@@ -6884,7 +6960,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "12": "Hilbert"
@@ -6927,7 +7004,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {
         "12": "Hilbert"
@@ -6970,7 +7048,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7009,7 +7088,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7048,7 +7128,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7087,7 +7168,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7126,7 +7208,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7166,7 +7249,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7207,7 +7291,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "DS17"
+        "source": "DS17",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7248,7 +7333,8 @@
       },
       "rank": {
         "value": null,
-        "source": null
+        "source": null,
+        "analytic_rank": 1
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7287,7 +7373,8 @@
       },
       "rank": {
         "value": null,
-        "source": null
+        "source": null,
+        "analytic_rank": 1
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7326,7 +7413,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7368,7 +7456,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7410,7 +7499,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7452,7 +7542,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7494,7 +7585,8 @@
       },
       "rank": {
         "value": null,
-        "source": null
+        "source": null,
+        "analytic_rank": 1
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7535,7 +7627,8 @@
       },
       "rank": {
         "value": null,
-        "source": null
+        "source": null,
+        "analytic_rank": 2
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -7577,7 +7670,8 @@
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev"
+        "source": "torsion_inf+KolyvaginLogachev",
+        "analytic_rank": 0
       },
       "degrees_infinite": {},
       "degrees_finite": {

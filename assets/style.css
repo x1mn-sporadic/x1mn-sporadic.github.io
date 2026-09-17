@@ -271,8 +271,8 @@ table.data tr.group th {
 table.data tr.row-link { cursor: pointer; }
 table.data tr.row-link:hover td { background: var(--panel-soft); }
 table.data tr.dim td { color: var(--muted); }
-table.data td .m { white-space: nowrap; }
-table.data td.poly { font-family: var(--math); font-size: 0.95rem; max-width: 26rem; word-break: break-word; }
+table.data td.poly { font-family: var(--math); font-size: 0.95rem; min-width: 16rem; max-width: 30rem; overflow-wrap: anywhere; }
+table.data td.num { white-space: nowrap; }
 table.data a.id { font-family: var(--mono); font-size: 0.9rem; text-decoration: none; }
 table.data a.id:hover { text-decoration: underline; }
 .degs { display: inline-flex; flex-wrap: wrap; gap: 0.15em; max-width: 14rem; }
