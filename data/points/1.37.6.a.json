@@ -12,14 +12,14 @@
       "value": "no",
       "rule": "X_1(37) has only finitely many points of degree 6",
       "sources": [
-        "DS17"
+        "DvH14"
       ]
     },
     "sporadic": {
       "value": "yes",
       "rule": "finitely many points of each degree <= 6 on X_1(37)",
       "sources": [
-        "DS17",
+        "DvH14",
         "JKP06",
         "JKS04",
         "KKM",
@@ -30,7 +30,7 @@
       "value": "yes",
       "rule": "finitely many points of degree 6 on X_1(37), so the point lies in no positive-dimensional family",
       "sources": [
-        "DS17",
+        "DvH14",
         "BELOV"
       ]
     }

@@ -19,7 +19,7 @@
       "value": "yes",
       "rule": "finitely many points of each degree <= 10 on X_1(40)",
       "sources": [
-        "DS17",
+        "DvH14",
         "JKP06",
         "JKS04",
         "KKM",
@@ -53,7 +53,7 @@
   },
   "discovery": {
     "by": "M. van Hoeij",
-    "year": 2013
+    "year": 2012
   },
   "field": {
     "poly": "x^10 + x^8 - 2*x^2 - 1",

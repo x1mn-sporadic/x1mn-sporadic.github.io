@@ -12,14 +12,14 @@
       "value": "no",
       "rule": "X_1(30) has only finitely many points of degree 5",
       "sources": [
-        "DS17"
+        "DvH14"
       ]
     },
     "sporadic": {
       "value": "yes",
       "rule": "finitely many points of each degree <= 5 on X_1(30)",
       "sources": [
-        "DS17",
+        "DvH14",
         "JKP06",
         "JKS04",
         "KKM",
@@ -30,7 +30,7 @@
       "value": "yes",
       "rule": "finitely many points of degree 5 on X_1(30), so the point lies in no positive-dimensional family",
       "sources": [
-        "DS17",
+        "DvH14",
         "BELOV"
       ]
     }
@@ -51,7 +51,7 @@
   },
   "discovery": {
     "by": "M. van Hoeij",
-    "year": 2013
+    "year": 2012
   },
   "field": {
     "poly": "x^5 + 2*x^4 - 2*x^3 - 5*x^2 + 3",

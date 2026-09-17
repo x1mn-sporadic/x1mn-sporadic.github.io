@@ -19,7 +19,7 @@
       "value": "yes",
       "rule": "finitely many points of each degree <= 10 on X_1(29)",
       "sources": [
-        "DS17",
+        "DvH14",
         "JKP06",
         "JKS04",
         "KKM",

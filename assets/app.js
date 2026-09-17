@@ -113,14 +113,15 @@
   }
 
   // ---------------------------------------------------------------- index page
-  function degChips(map, cls) {
+  function degChips(map, cls, sources) {
     const ds = Object.keys(map).filter((k) => k !== "all").map(Number).sort((a, b) => a - b);
     if (map.all) return el("span", { class: "degs" }, el("span", { class: "d " + cls }, "all"));
-    return el("span", { class: "degs" }, ds.map((d) => el("span", { class: "d " + cls, title: map[d] }, d)));
+    return el("span", { class: "degs" }, ds.map((d) => el("span", { class: "d " + cls, title: shortSource(sources, map[d]) }, d)));
   }
 
   async function renderIndex() {
-    const data = await load("curves");
+    const [data, srcData] = await Promise.all([load("curves"), load("sources")]);
+    const sources = srcData.sources;
     $("#stat-curves").textContent = data.n_curves;
     $("#stat-certified").textContent = data.n_certified;
     $("#stat-sporadic").textContent = data.n_sporadic;
@@ -143,15 +144,17 @@
           tbody.append(el("tr", { class: "group" }, el("th", { colspan: 8 }, head)));
         }
         const gon = c.gonality.exact ? String(c.gonality.lb) : c.gonality.ub ? c.gonality.lb + "–" + c.gonality.ub : "≥ " + c.gonality.lb;
+        const gonTitle = c.gonality.exact ? "gonality over " + c.base_field + " (" + shortSource(sources, c.gonality.source) + ")"
+          : "lower bound: " + shortSource(sources, c.gonality.lb_source) + (c.gonality.ub ? "; upper bound: " + shortSource(sources, c.gonality.ub_source) : "");
         const rank = c.rank.value !== null ? String(c.rank.value) : c.rank.analytic_rank !== undefined ? "(" + c.rank.analytic_rank + ")" : "?";
         const href = "curve.html?m=" + c.m + "&n=" + c.n;
         const tr = el("tr", { class: "row-link" + (c.genus === 0 ? " dim" : ""), onclick: (e) => { if (e.target.tagName !== "A") location.href = href; } },
           el("td", null, el("a", { href, class: "id" }, curveLabel(c.m, c.n))),
           el("td", { class: "num" }, c.genus),
-          el("td", { class: "num", title: "gonality over " + c.base_field + " (source: " + c.gonality.source + ")" }, gon),
-          el("td", { class: "num", title: c.rank.source ? "source: " + c.rank.source : "rank not recorded" }, rank),
-          el("td", null, c.genus === 0 ? el("span", { class: "empty" }, "—") : degChips(c.degrees_finite, "fin")),
-          el("td", null, degChips(c.degrees_infinite, "inf")),
+          el("td", { class: "num", title: gonTitle }, gon),
+          el("td", { class: "num", title: c.rank.source ? shortSource(sources, c.rank.source.split("+")[0]) : "rank not recorded" }, rank),
+          el("td", null, c.genus === 0 ? el("span", { class: "empty" }, "—") : degChips(c.degrees_finite, "fin", sources)),
+          el("td", null, degChips(c.degrees_infinite, "inf", sources)),
           el("td", { class: "num", "data-sort": c.n_certified + c.n_verified }, c.points.length
             ? [el("b", null, c.points.length), el("span", { class: "muted", title: "sporadic / isolated / undecided" },
                  " (" + c.n_sporadic + " sp · " + c.n_isolated + " iso" + (c.n_verified ? " · " + c.n_verified + " ?" : "") + ")")] : ""),
@@ -180,15 +183,19 @@
   }
 
   // ---------------------------------------------------------------- curve page
+  // citations: a source key (or "key1+key2") -> short labels linked to the sources list
   function sourceLinks(sources, keys) {
     const out = [];
-    (keys || []).filter(Boolean).forEach((k, i) => {
+    const flat = [];
+    (keys || []).filter(Boolean).forEach((k) => k.split("+").forEach((kk) => { if (!flat.includes(kk)) flat.push(kk); }));
+    flat.forEach((k, i) => {
       if (i) out.push(", ");
-      const s = sources[k.split("+")[0]];
-      out.push(el("a", { href: "about.html#src-" + k.split("+")[0], title: s ? s.cite : k }, k));
+      const s = sources[k];
+      out.push(s ? el("a", { href: "about.html#src-" + k, title: s.cite }, s.short || k) : k);
     });
     return out;
   }
+  const shortSource = (sources, k) => (sources[k] && sources[k].short) || k;
 
   async function renderCurve() {
     const m = parseInt(params.get("m"), 10), n = parseInt(params.get("n"), 10);
@@ -207,11 +214,13 @@
       el("dt", null, "index in PSL₂(ℤ)"), el("dd", null, el("b", null, c.index)),
       el("dt", null, "gonality over " + (m <= 2 ? "ℚ" : "ℚ(ζ" + m + ")")),
       el("dd", null, el("b", null, gon.exact ? String(gon.lb) : (gon.ub ? gon.lb + " ≤ γ ≤ " + gon.ub : "γ ≥ " + gon.lb)), " ",
-        el("span", { class: "src" }, "(", sourceLinks(sources, [gon.source]), gon.source === "torsion_inf" && c.table_note ? "; " + c.table_note : "", ")")),
+        el("span", { class: "src" }, "(", gon.exact ? sourceLinks(sources, [gon.source])
+          : ["lower bound: ", sourceLinks(sources, [gon.lb_source]), gon.ub ? ["; upper bound: ", sourceLinks(sources, [gon.ub_source])] : null],
+          c.table_note && (gon.lb_source === "torsion_inf" || gon.source === "torsion_inf") ? "; " + c.table_note : "", ")")),
       el("dt", null, "Abramovich bound"), el("dd", null, "γ ≥ " + c.abramovich_bound, " ", el("span", { class: "src" }, "(", sourceLinks(sources, ["Abramovich96"]), ")")),
       el("dt", null, "rank of J₁ over " + (m <= 2 ? "ℚ" : "ℚ(ζ" + m + ")")),
       el("dd", null, c.rank.value === null
-        ? (c.rank.analytic_rank !== undefined ? ["analytic rank ", el("b", null, c.rank.analytic_rank), " ", el("span", { class: "src" }, "(", sourceLinks(sources, ["torsion_inf"]), "; the Mordell–Weil rank is not recorded)")] : el("span", { class: "empty" }, "not recorded"))
+        ? (c.rank.analytic_rank !== undefined ? ["analytic rank ", el("b", null, c.rank.analytic_rank), " ", el("span", { class: "src" }, "(", sourceLinks(sources, ["torsion_inf"]), "; a positive rank is not certified here)")] : el("span", { class: "empty" }, "not recorded"))
         : [el("b", null, c.rank.value), " ", el("span", { class: "src" }, "(", sourceLinks(sources, c.rank.source.split("+")), ")")]),
       el("dt", null, "finitely many points in degree"),
       el("dd", null, Object.keys(c.degrees_finite).length ? Object.entries(c.degrees_finite).sort((a, b) => a[0] - b[0]).map(([d, s], i) => [i ? ", " : "", el("b", null, d), " ", el("span", { class: "src" }, "(", sourceLinks(sources, [s]), ")")]) : el("span", { class: "empty" }, "nothing recorded")),
@@ -342,7 +351,7 @@
     const srcData = await load("sources");
     const ul = $("#sources");
     for (const [k, s] of Object.entries(srcData.sources)) {
-      ul.append(el("li", { id: "src-" + k }, el("b", null, k), " — ", s.cite, s.used_for ? el("span", { class: "muted" }, " Used for: " + s.used_for + ".") : null));
+      ul.append(el("li", { id: "src-" + k }, el("b", null, s.short || k), " — ", s.cite, s.used_for ? el("span", { class: "muted" }, " Used for: " + s.used_for + ".") : null));
     }
     const curves = await load("curves");
     $("#generated").textContent = curves.generated;

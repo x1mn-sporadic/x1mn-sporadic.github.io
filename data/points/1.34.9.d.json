@@ -19,7 +19,7 @@
       "value": "yes",
       "rule": "finitely many points of each degree <= 9 on X_1(34)",
       "sources": [
-        "DS17",
+        "DvH14",
         "JKP06",
         "JKS04",
         "KKM",
@@ -52,7 +52,7 @@
   },
   "discovery": {
     "by": "M. van Hoeij",
-    "year": 2013
+    "year": 2012
   },
   "field": {
     "poly": "x^9 + 4*x^8 + 3*x^7 - 7*x^6 - 14*x^5 - 3*x^4 + 14*x^3 + 8*x^2 - 3*x - 2",

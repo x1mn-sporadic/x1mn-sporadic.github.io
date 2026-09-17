@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 11:10 UTC",
+  "generated": "2026-09-17 11:29 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -31,7 +31,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -65,7 +67,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -99,7 +103,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -133,7 +139,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -167,7 +175,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -201,7 +211,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -235,7 +247,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -269,7 +283,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -303,7 +319,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -337,7 +355,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -371,21 +391,23 @@
         "lb": 2,
         "ub": 2,
         "source": "genus 1",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 1",
+        "ub_source": "genus 1"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -414,7 +436,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -447,22 +471,24 @@
       "gonality": {
         "lb": 2,
         "ub": 2,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -491,21 +517,23 @@
         "lb": 2,
         "ub": 2,
         "source": "genus 1",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 1",
+        "ub_source": "genus 1"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -534,21 +562,23 @@
         "lb": 2,
         "ub": 2,
         "source": "genus 1",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 1",
+        "ub_source": "genus 1"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -576,22 +606,24 @@
       "gonality": {
         "lb": 2,
         "ub": 2,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -619,20 +651,22 @@
       "gonality": {
         "lb": 4,
         "ub": 4,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -662,22 +696,24 @@
       "gonality": {
         "lb": 2,
         "ub": 2,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -705,19 +741,21 @@
       "gonality": {
         "lb": 5,
         "ub": 5,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -748,21 +786,23 @@
       "gonality": {
         "lb": 3,
         "ub": 3,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -791,20 +831,22 @@
       "gonality": {
         "lb": 4,
         "ub": 4,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -837,7 +879,7 @@
             "isolated": "finitely many points of degree 3 on X_1(21), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "F. Najman",
-          "year": 2012,
+          "year": 2011,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 44 (point found earlier by Najman, arXiv:1211.2188)",
           "verified": "2026-09-17 10:31:43 UTC"
@@ -864,20 +906,22 @@
       "gonality": {
         "lb": 4,
         "ub": 4,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -907,17 +951,19 @@
       "gonality": {
         "lb": 7,
         "ub": 7,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -925,8 +971,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17"
+        "5": "DvH14",
+        "6": "DvH14"
       },
       "table_note": "",
       "in_tables": true,
@@ -950,20 +996,22 @@
       "gonality": {
         "lb": 4,
         "ub": 4,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -993,17 +1041,19 @@
       "gonality": {
         "lb": 5,
         "ub": 5,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "5": "DS17",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -1011,8 +1061,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "6": "DS17",
-        "7": "torsion_inf"
+        "6": "DvH14",
+        "7": "DvH14"
       },
       "table_note": "DvH14 shows that no func of degree 6 and 7",
       "in_tables": true,
@@ -1039,7 +1089,7 @@
             "isolated": "finitely many points of degree 6 on X_1(25), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 48",
           "verified": "2026-09-17 10:31:43 UTC"
@@ -1066,7 +1116,7 @@
             "isolated": "finitely many points of degree 7 on X_1(25), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 49",
           "verified": "2026-09-17 10:31:44 UTC"
@@ -1094,18 +1144,20 @@
       "gonality": {
         "lb": 6,
         "ub": 6,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -1113,7 +1165,7 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17"
+        "5": "DvH14"
       },
       "table_note": "",
       "in_tables": true,
@@ -1137,18 +1189,20 @@
       "gonality": {
         "lb": 6,
         "ub": 6,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -1156,7 +1210,7 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17"
+        "5": "DvH14"
       },
       "table_note": "",
       "in_tables": true,
@@ -1180,18 +1234,20 @@
       "gonality": {
         "lb": 6,
         "ub": 6,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -1199,7 +1255,7 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17"
+        "5": "DvH14"
       },
       "table_note": "",
       "in_tables": true,
@@ -1226,7 +1282,7 @@
             "isolated": "finitely many points of degree 5 on X_1(28), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 53",
           "verified": "2026-09-17 10:31:44 UTC"
@@ -1253,26 +1309,28 @@
       "gonality": {
         "lb": 11,
         "ub": 11,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "11": "Hilbert"
+        "11": "DvH14"
       },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma"
       },
@@ -1383,18 +1441,20 @@
       "gonality": {
         "lb": 6,
         "ub": 6,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -1402,7 +1462,7 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17"
+        "5": "DvH14"
       },
       "table_note": "",
       "in_tables": true,
@@ -1429,7 +1489,7 @@
             "isolated": "finitely many points of degree 5 on X_1(30), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 63",
           "verified": "2026-09-17 10:31:49 UTC"
@@ -1456,7 +1516,7 @@
             "isolated": "finitely many points of degree 5 on X_1(30), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 64",
           "verified": "2026-09-17 10:31:49 UTC"
@@ -1483,26 +1543,28 @@
       "gonality": {
         "lb": 12,
         "ub": 12,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "12": "Hilbert"
+        "12": "DvH14"
       },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
@@ -1669,25 +1731,27 @@
       "gonality": {
         "lb": 8,
         "ub": 8,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "8": "torsion_inf"
+        "8": "DvH14"
       },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "we used a special computation to show that degree 9 functions don't exist",
@@ -1711,11 +1775,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "X_1(32) has only finitely many points of degree 9",
-            "sporadic": "not sporadic: X_1(32) has infinitely many points of degree 8",
+            "sporadic": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
             "isolated": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 76",
           "verified": "2026-09-17 10:32:27 UTC"
@@ -1738,11 +1802,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "X_1(32) has only finitely many points of degree 9",
-            "sporadic": "not sporadic: X_1(32) has infinitely many points of degree 8",
+            "sporadic": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
             "isolated": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 77",
           "verified": "2026-09-17 10:32:28 UTC"
@@ -1765,11 +1829,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "X_1(32) has only finitely many points of degree 9",
-            "sporadic": "not sporadic: X_1(32) has infinitely many points of degree 8",
+            "sporadic": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
             "isolated": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 78",
           "verified": "2026-09-17 10:32:28 UTC"
@@ -1792,11 +1856,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "X_1(32) has only finitely many points of degree 9",
-            "sporadic": "not sporadic: X_1(32) has infinitely many points of degree 8",
+            "sporadic": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
             "isolated": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 79",
           "verified": "2026-09-17 10:32:29 UTC"
@@ -1819,11 +1883,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "X_1(32) has only finitely many points of degree 9",
-            "sporadic": "not sporadic: X_1(32) has infinitely many points of degree 8",
+            "sporadic": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
             "isolated": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 80",
           "verified": "2026-09-17 10:32:30 UTC"
@@ -1846,11 +1910,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "X_1(32) has only finitely many points of degree 9",
-            "sporadic": "not sporadic: X_1(32) has infinitely many points of degree 8",
+            "sporadic": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
             "isolated": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 81",
           "verified": "2026-09-17 10:32:30 UTC"
@@ -1873,11 +1937,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "X_1(32) has only finitely many points of degree 9",
-            "sporadic": "not sporadic: X_1(32) has infinitely many points of degree 8",
+            "sporadic": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
             "isolated": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 82",
           "verified": "2026-09-17 10:32:31 UTC"
@@ -1900,11 +1964,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "X_1(32) has only finitely many points of degree 9",
-            "sporadic": "not sporadic: X_1(32) has infinitely many points of degree 8",
+            "sporadic": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
             "isolated": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 83",
           "verified": "2026-09-17 10:32:31 UTC"
@@ -1931,26 +1995,28 @@
       "gonality": {
         "lb": 10,
         "ub": 10,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "10": "Hilbert"
+        "10": "DvH14"
       },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "",
@@ -1978,7 +2044,7 @@
             "isolated": "finitely many points of degree 7 on X_1(33), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 87",
           "verified": "2026-09-17 10:33:15 UTC"
@@ -2005,7 +2071,7 @@
             "isolated": "finitely many points of degree 8 on X_1(33), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 88",
           "verified": "2026-09-17 10:33:19 UTC"
@@ -2032,7 +2098,7 @@
             "isolated": "finitely many points of degree 9 on X_1(33), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 89",
           "verified": "2026-09-17 10:33:23 UTC"
@@ -2055,11 +2121,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
-            "sporadic": "not sporadic: X_1(33) has infinitely many points of degree 10",
+            "sporadic": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 90",
           "verified": "2026-09-17 10:32:36 UTC"
@@ -2082,11 +2148,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
-            "sporadic": "not sporadic: X_1(33) has infinitely many points of degree 10",
+            "sporadic": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 91",
           "verified": "2026-09-17 10:32:40 UTC"
@@ -2109,11 +2175,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
-            "sporadic": "not sporadic: X_1(33) has infinitely many points of degree 10",
+            "sporadic": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 92",
           "verified": "2026-09-17 10:32:44 UTC"
@@ -2136,11 +2202,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
-            "sporadic": "not sporadic: X_1(33) has infinitely many points of degree 10",
+            "sporadic": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 93",
           "verified": "2026-09-17 10:32:49 UTC"
@@ -2163,11 +2229,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
-            "sporadic": "not sporadic: X_1(33) has infinitely many points of degree 10",
+            "sporadic": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 94",
           "verified": "2026-09-17 10:32:53 UTC"
@@ -2190,11 +2256,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
-            "sporadic": "not sporadic: X_1(33) has infinitely many points of degree 10",
+            "sporadic": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 95",
           "verified": "2026-09-17 10:32:57 UTC"
@@ -2217,11 +2283,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
-            "sporadic": "not sporadic: X_1(33) has infinitely many points of degree 10",
+            "sporadic": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 96",
           "verified": "2026-09-17 10:33:02 UTC"
@@ -2244,11 +2310,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
-            "sporadic": "not sporadic: X_1(33) has infinitely many points of degree 10",
+            "sporadic": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 97",
           "verified": "2026-09-17 10:33:06 UTC"
@@ -2271,11 +2337,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
-            "sporadic": "not sporadic: X_1(33) has infinitely many points of degree 10",
+            "sporadic": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 98",
           "verified": "2026-09-17 10:33:11 UTC"
@@ -2305,26 +2371,28 @@
       "gonality": {
         "lb": 10,
         "ub": 10,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "10": "Hilbert"
+        "10": "DvH14"
       },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "",
@@ -2352,7 +2420,7 @@
             "isolated": "finitely many points of degree 8 on X_1(34), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 102",
           "verified": "2026-09-17 10:33:25 UTC"
@@ -2379,7 +2447,7 @@
             "isolated": "finitely many points of degree 8 on X_1(34), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 103",
           "verified": "2026-09-17 10:33:26 UTC"
@@ -2406,7 +2474,7 @@
             "isolated": "finitely many points of degree 8 on X_1(34), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 104",
           "verified": "2026-09-17 10:33:28 UTC"
@@ -2433,7 +2501,7 @@
             "isolated": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 105",
           "verified": "2026-09-17 10:33:29 UTC"
@@ -2460,7 +2528,7 @@
             "isolated": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 106",
           "verified": "2026-09-17 10:33:31 UTC"
@@ -2487,7 +2555,7 @@
             "isolated": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 107",
           "verified": "2026-09-17 10:33:32 UTC"
@@ -2514,7 +2582,7 @@
             "isolated": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 108",
           "verified": "2026-09-17 10:33:33 UTC"
@@ -2542,26 +2610,28 @@
       "gonality": {
         "lb": 12,
         "ub": 12,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "12": "Hilbert"
+        "12": "DvH14"
       },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
@@ -2591,7 +2661,7 @@
             "isolated": "finitely many points of degree 8 on X_1(35), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 112",
           "verified": "2026-09-17 10:34:19 UTC"
@@ -2618,7 +2688,7 @@
             "isolated": "finitely many points of degree 10 on X_1(35), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 113",
           "verified": "2026-09-17 10:33:39 UTC"
@@ -2645,7 +2715,7 @@
             "isolated": "finitely many points of degree 10 on X_1(35), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 114",
           "verified": "2026-09-17 10:33:45 UTC"
@@ -2672,7 +2742,7 @@
             "isolated": "finitely many points of degree 11 on X_1(35), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 115",
           "verified": "2026-09-17 10:33:50 UTC"
@@ -2695,11 +2765,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(35) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(35) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(35) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 116",
           "verified": "2026-09-17 10:33:55 UTC"
@@ -2722,11 +2792,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(35) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(35) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(35) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 117",
           "verified": "2026-09-17 10:34:02 UTC"
@@ -2749,11 +2819,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(35) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(35) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(35) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 118",
           "verified": "2026-09-17 10:34:07 UTC"
@@ -2776,11 +2846,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(35) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(35) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(35) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 119",
           "verified": "2026-09-17 10:34:14 UTC"
@@ -2810,16 +2880,18 @@
       "gonality": {
         "lb": 8,
         "ub": 8,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "DS17",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "8": "torsion_inf",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "degrees_finite": {
@@ -2827,9 +2899,9 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf"
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14"
       },
       "table_note": "",
       "in_tables": true,
@@ -2856,7 +2928,7 @@
             "isolated": "finitely many points of degree 7 on X_1(36), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 123",
           "verified": "2026-09-17 10:34:20 UTC"
@@ -2883,7 +2955,7 @@
             "isolated": "finitely many points of degree 7 on X_1(36), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 124",
           "verified": "2026-09-17 10:34:21 UTC"
@@ -2910,8 +2982,10 @@
       "gonality": {
         "lb": 18,
         "ub": 18,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": null,
@@ -2919,17 +2993,17 @@
         "analytic_rank": 1
       },
       "degrees_infinite": {
-        "18": "Hilbert"
+        "18": "DvH14"
       },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf"
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14"
       },
       "table_note": "",
       "in_tables": true,
@@ -2983,7 +3057,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 129",
           "verified": "2026-09-17 10:34:34 UTC"
@@ -3010,7 +3084,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 130",
           "verified": "2026-09-17 10:34:51 UTC"
@@ -3037,7 +3111,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 131",
           "verified": "2026-09-17 10:35:04 UTC"
@@ -3064,7 +3138,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 132",
           "verified": "2026-09-17 10:35:18 UTC"
@@ -3091,7 +3165,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 133",
           "verified": "2026-09-17 10:35:31 UTC"
@@ -3118,7 +3192,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 134",
           "verified": "2026-09-17 10:35:45 UTC"
@@ -3145,7 +3219,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 135",
           "verified": "2026-09-17 10:35:59 UTC"
@@ -3172,7 +3246,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 136",
           "verified": "2026-09-17 10:36:13 UTC"
@@ -3199,7 +3273,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 137",
           "verified": "2026-09-17 10:36:27 UTC"
@@ -3226,7 +3300,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 138",
           "verified": "2026-09-17 10:36:43 UTC"
@@ -3253,7 +3327,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 147",
           "verified": "2026-09-17 10:36:57 UTC"
@@ -3280,7 +3354,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 148",
           "verified": "2026-09-17 10:37:12 UTC"
@@ -3307,7 +3381,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 139",
           "verified": "2026-09-17 10:37:28 UTC"
@@ -3334,7 +3408,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 140",
           "verified": "2026-09-17 10:37:44 UTC"
@@ -3361,7 +3435,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 141",
           "verified": "2026-09-17 10:37:58 UTC"
@@ -3388,7 +3462,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 142",
           "verified": "2026-09-17 10:38:12 UTC"
@@ -3415,7 +3489,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 143",
           "verified": "2026-09-17 10:38:26 UTC"
@@ -3442,7 +3516,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 144",
           "verified": "2026-09-17 10:38:40 UTC"
@@ -3469,7 +3543,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 145",
           "verified": "2026-09-17 10:38:52 UTC"
@@ -3496,7 +3570,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 146",
           "verified": "2026-09-17 10:39:07 UTC"
@@ -3523,7 +3597,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 149",
           "verified": "2026-09-17 10:39:21 UTC"
@@ -3550,7 +3624,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 158",
           "verified": "2026-09-17 10:39:35 UTC"
@@ -3577,7 +3651,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 159",
           "verified": "2026-09-17 10:39:49 UTC"
@@ -3604,7 +3678,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 160",
           "verified": "2026-09-17 10:40:06 UTC"
@@ -3631,7 +3705,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 150",
           "verified": "2026-09-17 10:40:20 UTC"
@@ -3658,7 +3732,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 151",
           "verified": "2026-09-17 10:40:34 UTC"
@@ -3685,7 +3759,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 152",
           "verified": "2026-09-17 10:40:48 UTC"
@@ -3712,7 +3786,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 153",
           "verified": "2026-09-17 10:41:02 UTC"
@@ -3739,7 +3813,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 154",
           "verified": "2026-09-17 10:41:17 UTC"
@@ -3766,7 +3840,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 155",
           "verified": "2026-09-17 10:41:33 UTC"
@@ -3793,7 +3867,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 156",
           "verified": "2026-09-17 10:41:46 UTC"
@@ -3820,7 +3894,7 @@
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 157",
           "verified": "2026-09-17 10:42:00 UTC"
@@ -3854,26 +3928,28 @@
       "gonality": {
         "lb": 12,
         "ub": 12,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "12": "Hilbert"
+        "12": "DvH14"
       },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
@@ -3903,7 +3979,7 @@
             "isolated": "finitely many points of degree 10 on X_1(38), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 164",
           "verified": "2026-09-17 10:42:16 UTC"
@@ -3930,7 +4006,7 @@
             "isolated": "finitely many points of degree 10 on X_1(38), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 165",
           "verified": "2026-09-17 10:42:19 UTC"
@@ -3957,7 +4033,7 @@
             "isolated": "finitely many points of degree 10 on X_1(38), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 166",
           "verified": "2026-09-17 10:42:23 UTC"
@@ -3984,26 +4060,28 @@
       "gonality": {
         "lb": 14,
         "ub": 14,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "14": "Hilbert"
+        "14": "DvH14"
       },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
@@ -4034,7 +4112,7 @@
             "isolated": "finitely many points of degree 8 on X_1(39), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 170",
           "verified": "2026-09-17 10:58:16 UTC"
@@ -4061,7 +4139,7 @@
             "isolated": "finitely many points of degree 9 on X_1(39), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 171",
           "verified": "2026-09-17 10:59:05 UTC"
@@ -4088,7 +4166,7 @@
             "isolated": "finitely many points of degree 10 on X_1(39), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 172",
           "verified": "2026-09-17 10:43:12 UTC"
@@ -4115,7 +4193,7 @@
             "isolated": "finitely many points of degree 12 on X_1(39), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 173",
           "verified": "2026-09-17 10:44:05 UTC"
@@ -4142,7 +4220,7 @@
             "isolated": "finitely many points of degree 12 on X_1(39), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 174",
           "verified": "2026-09-17 10:44:53 UTC"
@@ -4169,7 +4247,7 @@
             "isolated": "finitely many points of degree 12 on X_1(39), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 175",
           "verified": "2026-09-17 10:45:40 UTC"
@@ -4196,7 +4274,7 @@
             "isolated": "finitely many points of degree 13 on X_1(39), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 176",
           "verified": "2026-09-17 10:46:29 UTC"
@@ -4223,7 +4301,7 @@
             "isolated": "finitely many points of degree 13 on X_1(39), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 177",
           "verified": "2026-09-17 10:47:19 UTC"
@@ -4250,7 +4328,7 @@
             "isolated": "finitely many points of degree 13 on X_1(39), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 178",
           "verified": "2026-09-17 10:48:15 UTC"
@@ -4273,11 +4351,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
-            "sporadic": "not sporadic: X_1(39) has infinitely many points of degree 14",
+            "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 179",
           "verified": "2026-09-17 10:49:08 UTC"
@@ -4300,11 +4378,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
-            "sporadic": "not sporadic: X_1(39) has infinitely many points of degree 14",
+            "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 188",
           "verified": "2026-09-17 10:49:59 UTC"
@@ -4327,11 +4405,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
-            "sporadic": "not sporadic: X_1(39) has infinitely many points of degree 14",
+            "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 180",
           "verified": "2026-09-17 10:50:55 UTC"
@@ -4354,11 +4432,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
-            "sporadic": "not sporadic: X_1(39) has infinitely many points of degree 14",
+            "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 181",
           "verified": "2026-09-17 10:51:54 UTC"
@@ -4381,11 +4459,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
-            "sporadic": "not sporadic: X_1(39) has infinitely many points of degree 14",
+            "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 182",
           "verified": "2026-09-17 10:52:48 UTC"
@@ -4408,11 +4486,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
-            "sporadic": "not sporadic: X_1(39) has infinitely many points of degree 14",
+            "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 183",
           "verified": "2026-09-17 10:53:49 UTC"
@@ -4435,11 +4513,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
-            "sporadic": "not sporadic: X_1(39) has infinitely many points of degree 14",
+            "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 184",
           "verified": "2026-09-17 10:54:46 UTC"
@@ -4462,11 +4540,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
-            "sporadic": "not sporadic: X_1(39) has infinitely many points of degree 14",
+            "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 185",
           "verified": "2026-09-17 10:55:43 UTC"
@@ -4489,11 +4567,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
-            "sporadic": "not sporadic: X_1(39) has infinitely many points of degree 14",
+            "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 186",
           "verified": "2026-09-17 10:56:36 UTC"
@@ -4516,11 +4594,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
-            "sporadic": "not sporadic: X_1(39) has infinitely many points of degree 14",
+            "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 187",
           "verified": "2026-09-17 10:57:26 UTC"
@@ -4552,26 +4630,28 @@
       "gonality": {
         "lb": 12,
         "ub": 12,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "DvH14",
+        "lb_source": "DvH14",
+        "source": "DvH14"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "12": "Hilbert"
+        "12": "DvH14"
       },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
@@ -4601,7 +4681,7 @@
             "isolated": "finitely many points of degree 8 on X_1(40), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 192",
           "verified": "2026-09-17 11:09:23 UTC"
@@ -4628,7 +4708,7 @@
             "isolated": "finitely many points of degree 9 on X_1(40), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 193",
           "verified": "2026-09-17 11:09:57 UTC"
@@ -4655,7 +4735,7 @@
             "isolated": "finitely many points of degree 10 on X_1(40), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 194",
           "verified": "2026-09-17 10:59:22 UTC"
@@ -4682,7 +4762,7 @@
             "isolated": "finitely many points of degree 10 on X_1(40), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 195",
           "verified": "2026-09-17 10:59:38 UTC"
@@ -4709,7 +4789,7 @@
             "isolated": "finitely many points of degree 11 on X_1(40), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 196",
           "verified": "2026-09-17 10:59:54 UTC"
@@ -4736,7 +4816,7 @@
             "isolated": "finitely many points of degree 11 on X_1(40), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 197",
           "verified": "2026-09-17 11:00:15 UTC"
@@ -4763,7 +4843,7 @@
             "isolated": "finitely many points of degree 11 on X_1(40), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 198",
           "verified": "2026-09-17 11:00:31 UTC"
@@ -4790,7 +4870,7 @@
             "isolated": "finitely many points of degree 11 on X_1(40), so the point lies in no positive-dimensional family"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 199",
           "verified": "2026-09-17 11:00:46 UTC"
@@ -4813,11 +4893,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 200",
           "verified": "2026-09-17 11:01:03 UTC"
@@ -4840,11 +4920,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 209",
           "verified": "2026-09-17 11:01:27 UTC"
@@ -4867,11 +4947,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 210",
           "verified": "2026-09-17 11:01:44 UTC"
@@ -4894,11 +4974,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 211",
           "verified": "2026-09-17 11:02:01 UTC"
@@ -4921,11 +5001,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 212",
           "verified": "2026-09-17 11:02:18 UTC"
@@ -4948,11 +5028,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 213",
           "verified": "2026-09-17 11:02:35 UTC"
@@ -4975,11 +5055,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 214",
           "verified": "2026-09-17 11:02:53 UTC"
@@ -5002,11 +5082,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 215",
           "verified": "2026-09-17 11:03:12 UTC"
@@ -5029,11 +5109,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 216",
           "verified": "2026-09-17 11:03:29 UTC"
@@ -5056,11 +5136,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 217",
           "verified": "2026-09-17 11:03:47 UTC"
@@ -5083,11 +5163,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 218",
           "verified": "2026-09-17 11:04:05 UTC"
@@ -5110,11 +5190,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 201",
           "verified": "2026-09-17 11:04:29 UTC"
@@ -5137,11 +5217,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 219",
           "verified": "2026-09-17 11:04:47 UTC"
@@ -5164,11 +5244,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 220",
           "verified": "2026-09-17 11:05:06 UTC"
@@ -5191,11 +5271,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 221",
           "verified": "2026-09-17 11:05:24 UTC"
@@ -5218,11 +5298,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 222",
           "verified": "2026-09-17 11:05:42 UTC"
@@ -5245,11 +5325,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 223",
           "verified": "2026-09-17 11:06:21 UTC"
@@ -5272,11 +5352,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 224",
           "verified": "2026-09-17 11:06:39 UTC"
@@ -5299,11 +5379,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 225",
           "verified": "2026-09-17 11:07:04 UTC"
@@ -5326,11 +5406,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 202",
           "verified": "2026-09-17 11:07:22 UTC"
@@ -5353,11 +5433,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 203",
           "verified": "2026-09-17 11:07:39 UTC"
@@ -5380,11 +5460,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 204",
           "verified": "2026-09-17 11:07:56 UTC"
@@ -5407,11 +5487,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 205",
           "verified": "2026-09-17 11:08:15 UTC"
@@ -5434,11 +5514,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 206",
           "verified": "2026-09-17 11:08:31 UTC"
@@ -5461,11 +5541,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 207",
           "verified": "2026-09-17 11:08:49 UTC"
@@ -5488,11 +5568,11 @@
           "isolated": "yes",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
-            "sporadic": "not sporadic: X_1(40) has infinitely many points of degree 12",
+            "sporadic": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
             "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
           },
           "discovered_by": "M. van Hoeij",
-          "year": 2013,
+          "year": 2012,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 208",
           "verified": "2026-09-17 11:09:07 UTC"
@@ -5523,12 +5603,14 @@
       "gonality": {
         "lb": 10,
         "ub": 22,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -5537,10 +5619,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "DT",
@@ -5565,12 +5647,14 @@
       "gonality": {
         "lb": 10,
         "ub": 12,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -5579,10 +5663,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "DT",
@@ -5607,8 +5691,10 @@
       "gonality": {
         "lb": 19,
         "ub": 24,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": null,
@@ -5621,10 +5707,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "cover search",
@@ -5649,12 +5735,14 @@
       "gonality": {
         "lb": 10,
         "ub": 15,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -5663,10 +5751,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "DT",
@@ -5691,12 +5779,14 @@
       "gonality": {
         "lb": 10,
         "ub": 18,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -5705,10 +5795,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "DT",
@@ -5733,12 +5823,14 @@
       "gonality": {
         "lb": 10,
         "ub": 19,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -5747,10 +5839,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "DT",
@@ -5775,12 +5867,14 @@
       "gonality": {
         "lb": 11,
         "ub": 29,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -5789,10 +5883,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma"
       },
@@ -5818,12 +5912,14 @@
       "gonality": {
         "lb": 10,
         "ub": 16,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -5832,10 +5928,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "DT",
@@ -5860,12 +5956,14 @@
       "gonality": {
         "lb": 12,
         "ub": 21,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -5874,10 +5972,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
@@ -5904,12 +6002,14 @@
       "gonality": {
         "lb": 10,
         "ub": 15,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -5918,10 +6018,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "DT",
@@ -5946,12 +6046,14 @@
       "gonality": {
         "lb": 12,
         "ub": 24,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -5960,10 +6062,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
@@ -5990,12 +6092,14 @@
       "gonality": {
         "lb": 10,
         "ub": 21,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -6004,10 +6108,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "abramovich",
@@ -6032,8 +6136,10 @@
       "gonality": {
         "lb": 19,
         "ub": 37,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": null,
@@ -6046,10 +6152,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "cover search",
@@ -6074,12 +6180,14 @@
       "gonality": {
         "lb": 10,
         "ub": 18,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -6088,10 +6196,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "abramovich",
@@ -6116,12 +6224,14 @@
       "gonality": {
         "lb": 15,
         "ub": 30,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -6130,10 +6240,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
@@ -6161,12 +6271,14 @@
       "gonality": {
         "lb": 12,
         "ub": 24,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -6175,10 +6287,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
@@ -6205,8 +6317,10 @@
       "gonality": {
         "lb": 19,
         "ub": 30,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": null,
@@ -6219,10 +6333,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "cover search",
@@ -6247,8 +6361,10 @@
       "gonality": {
         "lb": 13,
         "ub": 31,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": null,
@@ -6261,10 +6377,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "abramovich - we know that X1(58) has finitely many points of degree <= 10 because of X1(58)->X1(29)",
@@ -6289,12 +6405,14 @@
       "gonality": {
         "lb": 18,
         "ub": 46,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -6303,10 +6421,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
@@ -6334,12 +6452,14 @@
       "gonality": {
         "lb": 12,
         "ub": 24,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -6348,10 +6468,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
@@ -6378,8 +6498,10 @@
       "gonality": {
         "lb": 19,
         "ub": 49,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": null,
@@ -6392,10 +6514,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "abramovich",
@@ -6420,12 +6542,14 @@
       "gonality": {
         "lb": 15,
         "ub": 36,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -6434,10 +6558,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
@@ -6465,8 +6589,10 @@
       "gonality": {
         "lb": 18,
         "ub": 36,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": null,
@@ -6479,10 +6605,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf"
       },
       "table_note": "abramovich - X1(63)->63.576.25.g.4 is a map to a curve where the latter has finitely many points of degree <= 11",
@@ -6507,12 +6633,14 @@
       "gonality": {
         "lb": 16,
         "ub": 32,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "DvH14",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "DvH14",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -6521,10 +6649,10 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "DvH14",
+        "8": "DvH14",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
@@ -6553,7 +6681,9 @@
         "lb": 20,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -6565,8 +6695,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94"
@@ -6594,11 +6724,13 @@
         "lb": 15,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
-        "value": null,
-        "source": null
+        "value": 0,
+        "source": "DvH14"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6606,9 +6738,14 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
-        "7": "Frey94"
+        "5": "DvH14",
+        "6": "DvH14",
+        "7": "Frey94",
+        "8": "RankZeroLemma",
+        "9": "RankZeroLemma",
+        "10": "RankZeroLemma",
+        "11": "RankZeroLemma",
+        "12": "RankZeroLemma"
       },
       "table_note": "",
       "in_tables": false,
@@ -6633,7 +6770,9 @@
         "lb": 23,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -6645,8 +6784,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -6676,7 +6815,9 @@
         "lb": 18,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -6688,8 +6829,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94"
       },
@@ -6716,7 +6857,9 @@
         "lb": 21,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -6728,8 +6871,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -6758,7 +6901,9 @@
         "lb": 18,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -6770,8 +6915,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94"
       },
@@ -6798,7 +6943,9 @@
         "lb": 25,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -6810,8 +6957,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -6842,7 +6989,9 @@
         "lb": 18,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -6854,8 +7003,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94"
       },
@@ -6882,7 +7031,9 @@
         "lb": 27,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -6894,8 +7045,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -6926,7 +7077,9 @@
         "lb": 21,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -6938,8 +7091,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -6968,7 +7121,9 @@
         "lb": 24,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -6980,8 +7135,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7011,7 +7166,9 @@
         "lb": 22,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7023,8 +7180,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7053,7 +7210,9 @@
         "lb": 29,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7065,8 +7224,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7097,7 +7256,9 @@
         "lb": 20,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7109,8 +7270,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94"
@@ -7138,7 +7299,9 @@
         "lb": 31,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7150,8 +7313,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7182,7 +7345,9 @@
         "lb": 23,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7194,8 +7359,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7225,7 +7390,9 @@
         "lb": 29,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7237,8 +7404,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7269,7 +7436,9 @@
         "lb": 25,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7281,8 +7450,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7313,7 +7482,9 @@
         "lb": 35,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7325,8 +7496,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7357,7 +7528,9 @@
         "lb": 23,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7369,8 +7542,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7400,7 +7573,9 @@
         "lb": 35,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7412,8 +7587,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7444,7 +7619,9 @@
         "lb": 28,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7456,8 +7633,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7488,7 +7665,9 @@
         "lb": 34,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7500,8 +7679,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7532,7 +7711,9 @@
         "lb": 29,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7544,8 +7725,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7576,7 +7757,9 @@
         "lb": 40,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7588,8 +7771,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7620,7 +7803,9 @@
         "lb": 26,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7632,8 +7817,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7664,7 +7849,9 @@
         "lb": 40,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7676,8 +7863,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7708,7 +7895,9 @@
         "lb": 32,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7720,8 +7909,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7752,7 +7941,9 @@
         "lb": 39,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7764,8 +7955,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7796,7 +7987,9 @@
         "lb": 33,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7808,8 +8001,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7840,7 +8033,9 @@
         "lb": 43,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7852,8 +8047,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7884,7 +8079,9 @@
         "lb": 31,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7896,8 +8093,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7928,7 +8125,9 @@
         "lb": 47,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7940,8 +8139,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -7972,7 +8171,9 @@
         "lb": 35,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -7984,8 +8185,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -8016,7 +8217,9 @@
         "lb": 43,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -8028,8 +8231,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -8060,7 +8263,9 @@
         "lb": 36,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -8072,8 +8277,8 @@
         "2": "KKM",
         "3": "JKS04",
         "4": "JKP06",
-        "5": "DS17",
-        "6": "DS17",
+        "5": "DvH14",
+        "6": "DvH14",
         "7": "Frey94",
         "8": "Frey94",
         "9": "Frey94",
@@ -8104,7 +8309,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -8138,7 +8345,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -8172,7 +8381,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -8206,7 +8417,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -8240,7 +8453,9 @@
         "lb": 2,
         "ub": 2,
         "source": "genus 1",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 1",
+        "ub_source": "genus 1"
       },
       "rank": {
         "value": 0,
@@ -8253,7 +8468,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf"
       },
@@ -8283,7 +8498,9 @@
         "lb": 2,
         "ub": 2,
         "source": "genus 1",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 1",
+        "ub_source": "genus 1"
       },
       "rank": {
         "value": 0,
@@ -8296,7 +8513,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf"
       },
@@ -8325,8 +8542,10 @@
       "gonality": {
         "lb": 3,
         "ub": 3,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8338,7 +8557,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf"
       },
@@ -8368,8 +8587,10 @@
       "gonality": {
         "lb": 4,
         "ub": 4,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8380,7 +8601,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf"
       },
@@ -8411,8 +8632,10 @@
       "gonality": {
         "lb": 4,
         "ub": 4,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8422,7 +8645,7 @@
       "degrees_infinite": {
         "4": "JKP06",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf"
       },
@@ -8454,8 +8677,10 @@
       "gonality": {
         "lb": 6,
         "ub": 6,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8464,7 +8689,7 @@
       },
       "degrees_infinite": {
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf"
       },
@@ -8497,8 +8722,10 @@
       "gonality": {
         "lb": 8,
         "ub": 8,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8540,8 +8767,10 @@
       "gonality": {
         "lb": 8,
         "ub": 8,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8583,8 +8812,10 @@
       "gonality": {
         "lb": 12,
         "ub": 12,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8592,7 +8823,7 @@
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "12": "Hilbert"
+        "12": "torsion_inf"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8629,8 +8860,10 @@
       "gonality": {
         "lb": 12,
         "ub": 12,
-        "source": "torsion_inf",
-        "exact": true
+        "exact": true,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8638,7 +8871,7 @@
         "analytic_rank": 0
       },
       "degrees_infinite": {
-        "12": "Hilbert"
+        "12": "torsion_inf"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8675,8 +8908,10 @@
       "gonality": {
         "lb": 10,
         "ub": 12,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8717,8 +8952,10 @@
       "gonality": {
         "lb": 10,
         "ub": 16,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8733,7 +8970,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf"
       },
@@ -8759,8 +8996,10 @@
       "gonality": {
         "lb": 10,
         "ub": 20,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8775,7 +9014,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf"
       },
@@ -8801,8 +9040,10 @@
       "gonality": {
         "lb": 10,
         "ub": 16,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "torsion_inf",
+        "source": "torsion_inf"
       },
       "rank": {
         "value": 0,
@@ -8817,7 +9058,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf"
       },
@@ -8843,8 +9084,10 @@
       "gonality": {
         "lb": 11,
         "ub": 24,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
@@ -8859,7 +9102,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf",
         "10": "RankZeroLemma"
@@ -8886,8 +9129,10 @@
       "gonality": {
         "lb": 12,
         "ub": 24,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
@@ -8902,7 +9147,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
@@ -8930,8 +9175,10 @@
       "gonality": {
         "lb": 12,
         "ub": 24,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
@@ -8946,7 +9193,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
@@ -8974,8 +9221,10 @@
       "gonality": {
         "lb": 15,
         "ub": 30,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": null,
@@ -8990,7 +9239,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf"
       },
@@ -9016,8 +9265,10 @@
       "gonality": {
         "lb": 16,
         "ub": 38,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": null,
@@ -9032,7 +9283,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf"
       },
@@ -9058,12 +9309,14 @@
       "gonality": {
         "lb": 16,
         "ub": 32,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "torsion_inf+Kato",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -9074,7 +9327,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
@@ -9103,12 +9356,14 @@
       "gonality": {
         "lb": 18,
         "ub": 30,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "torsion_inf+Kato",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -9119,7 +9374,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
@@ -9148,12 +9403,14 @@
       "gonality": {
         "lb": 20,
         "ub": 42,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "torsion_inf+Kato",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -9164,7 +9421,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
@@ -9193,12 +9450,14 @@
       "gonality": {
         "lb": 20,
         "ub": 36,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "torsion_inf+Kato",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -9209,7 +9468,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf",
         "10": "RankZeroLemma",
@@ -9238,8 +9497,10 @@
       "gonality": {
         "lb": 23,
         "ub": 48,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": null,
@@ -9254,7 +9515,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf",
         "10": "Frey94",
@@ -9282,8 +9543,10 @@
       "gonality": {
         "lb": 25,
         "ub": 62,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": null,
@@ -9298,7 +9561,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf",
         "10": "Frey94",
@@ -9327,12 +9590,14 @@
       "gonality": {
         "lb": 23,
         "ub": 48,
-        "source": "torsion_inf",
-        "exact": false
+        "exact": false,
+        "ub_source": "torsion_inf",
+        "lb_source": "Abramovich96",
+        "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+KolyvaginLogachev",
+        "source": "torsion_inf+Kato",
         "analytic_rank": 0
       },
       "degrees_infinite": {},
@@ -9343,7 +9608,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
+        "7": "DS17",
         "8": "torsion_inf",
         "9": "torsion_inf",
         "10": "Frey94",
@@ -9373,7 +9638,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -9406,7 +9673,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -9439,7 +9708,9 @@
         "lb": 2,
         "ub": 2,
         "source": "genus 1",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 1",
+        "ub_source": "genus 1"
       },
       "rank": {
         "value": 0,
@@ -9475,7 +9746,9 @@
         "lb": 2,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -9511,7 +9784,9 @@
         "lb": 3,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -9546,7 +9821,9 @@
         "lb": 4,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -9581,7 +9858,9 @@
         "lb": 6,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -9618,7 +9897,9 @@
         "lb": 6,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -9655,7 +9936,9 @@
         "lb": 10,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -9693,7 +9976,9 @@
         "lb": 9,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -9731,7 +10016,9 @@
         "lb": 15,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -9769,7 +10056,9 @@
         "lb": 13,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -9807,7 +10096,9 @@
         "lb": 20,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -9845,7 +10136,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -9878,7 +10171,9 @@
         "lb": 2,
         "ub": 2,
         "source": "genus 1",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 1",
+        "ub_source": "genus 1"
       },
       "rank": {
         "value": 0,
@@ -9914,7 +10209,9 @@
         "lb": 2,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -9949,7 +10246,9 @@
         "lb": 4,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -9984,7 +10283,9 @@
         "lb": 6,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -10021,7 +10322,9 @@
         "lb": 8,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -10059,7 +10362,9 @@
         "lb": 12,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -10096,7 +10401,9 @@
         "lb": 16,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -10134,7 +10441,9 @@
         "lb": 18,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -10172,7 +10481,9 @@
         "lb": 1,
         "ub": 1,
         "source": "genus 0",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 0",
+        "ub_source": "genus 0"
       },
       "rank": {
         "value": 0,
@@ -10205,7 +10516,9 @@
         "lb": 2,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -10238,7 +10551,9 @@
         "lb": 5,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -10273,7 +10588,9 @@
         "lb": 8,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -10308,7 +10625,9 @@
         "lb": 2,
         "ub": 2,
         "source": "genus 1",
-        "exact": true
+        "exact": true,
+        "lb_source": "genus 1",
+        "ub_source": "genus 1"
       },
       "rank": {
         "value": 0,
@@ -10344,7 +10663,9 @@
         "lb": 3,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -10379,7 +10700,9 @@
         "lb": 7,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": 0,
@@ -10417,7 +10740,9 @@
         "lb": 2,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -10450,7 +10775,9 @@
         "lb": 5,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -10484,7 +10811,9 @@
         "lb": 2,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -10517,7 +10846,9 @@
         "lb": 8,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -10552,7 +10883,9 @@
         "lb": 4,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,
@@ -10585,7 +10918,9 @@
         "lb": 4,
         "ub": null,
         "source": "Abramovich96",
-        "exact": false
+        "exact": false,
+        "lb_source": "Abramovich96",
+        "ub_source": null
       },
       "rank": {
         "value": null,

@@ -14,6 +14,7 @@ fetch_issues.py (GitHub issues)           build.py ──► data/curves.json, d
 | `build.py` | rebuilds the JSON files the site reads from `data/knowledge/` + `data/points/`. `--check` fails if they are stale (used by CI). |
 | `knowledge.py` | curated, cited facts: Φ^∞(d) for d ≤ 6, the rank-0 theorem, Frey/Abramovich, and the three yes/no/maybe answers (sporadic = finitely many points of degree ≤ d; isolated; infinitely many points of degree d). |
 | `import_vanhoeij.py` | converts van Hoeij's `LowDegreePlaces` into submissions (`--max-N`). |
+| `reclassify.py` | recomputes the three answers and the status of every certificate from the current knowledge (no Magma); run after editing `knowledge.py` or the tables, then `build.py`. |
 | `magma/verify_lib.m` | the Magma checks (see its header). `magma/curve_invariants.m` computed genus/index of every curve. |
 | `magma/isolation_lib.m` | P¹-isolation: reduces the point to a divisor on Sutherland's model over 𝔽_q and computes dim L (semicontinuity gives l(x) = 1 over ℚ); m ≤ 2. Needs `external/mdmagma` (git submodule, pinned) and `models/X1_m_n/`. |
 | `tests/fixtures/` | known positives (van Hoeij) and a negative control; `tests/private/` (git-ignored) holds unpublished points. |

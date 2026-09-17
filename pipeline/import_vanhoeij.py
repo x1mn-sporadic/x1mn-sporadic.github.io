@@ -49,14 +49,13 @@ def main():
             continue
         k = counts.get((N, degv), 0) + 1
         counts[(N, degv)] = k
-        # attribution, from the header of the file: the 2012 version had N = 29, 31 and the degree-6
-        # point for N = 37; the 2013 version added the table for N <= 60; N = 21 was found by Najman
+        # attribution: the point on X_1(21) was found by Najman and presented in 2011 (arXiv:1211.2188);
+        # van Hoeij's data first appeared with the 2012 preprint of arXiv:1202.4355 (the file header lists
+        # what the 2012 and 2013 versions contained; the census dates all of it to the first preprint)
         if N == 21:
-            disc_by, year = "F. Najman", 2012
-        elif N in (29, 31) or (N, degv) == (37, 6):
-            disc_by, year = "M. van Hoeij", 2012
+            disc_by, year = "F. Najman", 2011
         else:
-            disc_by, year = "M. van Hoeij", 2013
+            disc_by, year = "M. van Hoeij", 2012
         sub = {
             "schema": SCHEMA_SUBMISSION,
             "m": 1, "n": N,

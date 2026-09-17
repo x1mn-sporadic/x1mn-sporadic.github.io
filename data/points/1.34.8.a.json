@@ -12,26 +12,25 @@
       "value": "no",
       "rule": "X_1(34) has only finitely many points of degree 8",
       "sources": [
-        "torsion_inf"
+        "DvH14"
       ]
     },
     "sporadic": {
       "value": "yes",
       "rule": "finitely many points of each degree <= 8 on X_1(34)",
       "sources": [
-        "DS17",
+        "DvH14",
         "JKP06",
         "JKS04",
         "KKM",
-        "Mazur77",
-        "torsion_inf"
+        "Mazur77"
       ]
     },
     "isolated": {
       "value": "yes",
       "rule": "finitely many points of degree 8 on X_1(34), so the point lies in no positive-dimensional family",
       "sources": [
-        "torsion_inf",
+        "DvH14",
         "BELOV"
       ]
     }
@@ -52,7 +51,7 @@
   },
   "discovery": {
     "by": "M. van Hoeij",
-    "year": 2013
+    "year": 2012
   },
   "field": {
     "poly": "x^8 + 4*x^7 + 7*x^6 + 8*x^5 + 8*x^4 + 6*x^3 + 4*x^2 + 2*x + 1",

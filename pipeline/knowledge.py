@@ -40,12 +40,14 @@ from math import gcd
 
 SOURCES = {
     "Mazur77": {
+        "short": "Mazur 1977",
         "cite": "B. Mazur, Modular curves and the Eisenstein ideal, Publ. Math. IHES 47 (1977), 33-186; "
                 "Rational isogenies of prime degree, Invent. Math. 44 (1978), 129-162.",
         "used_for": "Phi(1) = Phi^infty(1)",
         "transcribed_from": "arXiv:1608.07549 (Derickx-Sutherland), Introduction",
     },
     "KKM": {
+        "short": "Kenku–Momose 1988, Kamienny 1992",
         "cite": "M. A. Kenku, F. Momose, Torsion points on elliptic curves defined over quadratic fields, "
                 "Nagoya Math. J. 109 (1988), 125-149; S. Kamienny, Torsion points on elliptic curves and "
                 "q-coefficients of modular forms, Invent. Math. 109 (1992), 221-229.",
@@ -53,57 +55,72 @@ SOURCES = {
         "transcribed_from": "arXiv:1608.07549 (Derickx-Sutherland), Introduction",
     },
     "JKS04": {
+        "short": "Jeon–Kim–Schweizer 2004",
         "cite": "D. Jeon, C. H. Kim, A. Schweizer, On the torsion of elliptic curves over cubic number fields, "
                 "Acta Arith. 113 (2004), 291-301.",
         "used_for": "Phi^infty(3)",
         "transcribed_from": "arXiv:1608.07549 (Derickx-Sutherland), Introduction",
     },
     "JKP06": {
+        "short": "Jeon–Kim–Park 2006",
         "cite": "D. Jeon, C. H. Kim, E. Park, On the torsion of elliptic curves over quartic number fields, "
                 "J. London Math. Soc. 74 (2006), 1-12.",
         "used_for": "Phi^infty(4)",
         "transcribed_from": "arXiv:1608.07549 (Derickx-Sutherland), Introduction",
     },
     "DS17": {
+        "short": "Derickx–Sutherland 2017",
         "cite": "M. Derickx, A. V. Sutherland, Torsion subgroups of elliptic curves over quintic and sextic "
                 "number fields, Proc. Amer. Math. Soc. 145 (2017), 4233-4245, arXiv:1608.07549.",
-        "used_for": "Phi^infty(5), Phi^infty(6) (Theorem 1.2); rank of J_1(m,mn) over Q(zeta_m) (Theorem 4.1)",
+        "used_for": "the (m,mn) with m >= 2 in Phi^infty(5), Phi^infty(6) (Theorem 1.2); rank 0 of J_1(m,mn) over "
+                    "Q(zeta_m) for m >= 2 (Theorem 4.1); (2,2n) in Phi^infty(7) for n <= 10 and not for n > 15 (Remark 1.3)",
         "transcribed_from": "TeX source of arXiv:1608.07549",
     },
     "DvH14": {
+        "short": "Derickx–van Hoeij 2014",
         "cite": "M. Derickx, M. van Hoeij, Gonality of the modular curve X_1(N), J. Algebra 417 (2014), 52-71, "
                 "arXiv:1307.5719.",
-        "used_for": "Q-gonality of X_1(N) for N <= 40 and upper bounds for N <= 250; the (1,n) in Phi^infty(d) for d = 5..8",
-        "transcribed_from": "torsion_inf/tables/X1_N.csv (columns gon_Q_ub_DvH14, gon_Q_lb, p7, p8, p9)",
+        "used_for": "Q-gonality of X_1(N) for N <= 40 (exact) and upper bounds for N <= 250; all N such that X_1(N) has "
+                    "infinitely many points of degree d, for d = 5, 6, 7, 8 (Theorem 3); rank 0 of J_1(N)(Q) for N <= 66, "
+                    "N not in {37, 43, 53, 57, 58, 61, 63, 65} (Lemma 1(3), via Kato)",
+        "transcribed_from": "torsion_inf/tables/X1_N.csv (columns gon_Q_ub_DvH14, gon_Q_lb, p7, p8) for the gonalities and "
+                            "degrees 7, 8; arXiv:1608.07549 for the Phi^infty(5), Phi^infty(6) lists, which restate Theorem 3 "
+                            "for m = 1; the abstract and Lemma 1 of arXiv:1307.5719 for the scope and the rank statement",
     },
     "torsion_inf": {
+        "short": "Najman–Varivoda, torsion_inf tables",
         "cite": "F. Najman, M. Varivoda, audit tables tables/X1_N.csv and tables/X1_2_N.csv of the repository "
                 "github.com/marin-varivoda/torsion_inf (genus, analytic rank of J_1, Q-gonality bounds, and "
                 "whether X_1(m,n) has infinitely many points of degree 7, 8, 9); gonality lower bounds computed "
                 "with CurveArith (Derickx-Terao) and the Abramovich bound.",
-        "used_for": "genus, rank, gonality bounds and degree 7-9 data for X_1(N), N <= 64, and X_1(2,n), n <= 60",
+        "used_for": "what the project computed itself: gonality lower bounds for X_1(N), 40 < N <= 64 (CurveArith, Abramovich), "
+                    "gonality bounds and degree 7-9 data for X_1(2,n), n <= 60, degree-9 data for X_1(N), and analytic ranks",
         "transcribed_from": "data/knowledge/sources/X1_N.csv, data/knowledge/sources/X1_2_N.csv (copied verbatim)",
     },
     "Frey94": {
+        "short": "Frey 1994",
         "cite": "G. Frey, Curves with infinitely many points of fixed degree, Israel J. Math. 85 (1994), 79-83.",
         "used_for": "if X/F has infinitely many points of degree <= d over F then gon_F(X) <= 2d",
     },
     "Abramovich96": {
+        "short": "Abramovich 1996",
         "cite": "D. Abramovich, A linear lower bound on the gonality of modular curves, IMRN 1996, 1005-1011; "
                 "with lambda_1 >= 975/4096 (H. Kim, P. Sarnak, appendix to J. Amer. Math. Soc. 16 (2003)).",
         "used_for": "gon_C(X_Gamma) >= (lambda_1/24) * [PSL_2(Z) : Gamma-bar] with lambda_1 >= 975/4096, i.e. >= 975/98304 * index",
     },
-    "KolyvaginLogachev": {
-        "cite": "V. A. Kolyvagin, D. Yu. Logachev, Finiteness of the Shafarevich-Tate group and the group of "
-                "rational points for some modular abelian varieties, Leningrad Math. J. 1 (1990), 1229-1253; "
-                "K. Kato, p-adic Hodge theory and values of zeta functions of modular forms, Asterisque 295 (2004).",
+    "Kato": {
+        "short": "Kato 2004",
+        "cite": "K. Kato, p-adic Hodge theory and values of zeta functions of modular forms, Asterisque 295 (2004), 117-290 "
+                "(with V. A. Kolyvagin, D. Yu. Logachev, Leningrad Math. J. 1 (1990), 1229-1253).",
         "used_for": "analytic rank 0 of J_1(N) or J_1(2,2n) implies rank 0 of the Mordell-Weil group",
     },
     "Faltings": {
+        "short": "Faltings 1983",
         "cite": "G. Faltings, Endlichkeitssaetze fuer abelsche Varietaeten ueber Zahlkoerpern, Invent. Math. 73 (1983).",
         "used_for": "a curve of genus >= 2 has finitely many points over any fixed number field",
     },
     "RankZeroLemma": {
+        "short": "rank-0 lemma",
         "cite": "Standard: if J(F) is finite and X has no F-rational map to P^1 of degree <= d, then X has finitely "
                 "many closed points of degree <= d over F (the fibres of Sym^d X -> Pic^d X over the finitely many "
                 "F-points are projective spaces, and a positive-dimensional fibre is a base-point-free pencil of "
@@ -111,15 +128,11 @@ SOURCES = {
         "used_for": "rank 0 and d < gon_F  =>  finitely many points of degree d",
     },
     "BELOV": {
+        "short": "Bourdon–Ejder–Liu–Odumodu–Viray 2019",
         "cite": "A. Bourdon, O. Ejder, Y. Liu, F. Odumodu, B. Viray, On the level of modular curves that give rise to "
                 "isolated j-invariants, Adv. Math. 357 (2019), arXiv:1811.04425.",
         "used_for": "definitions of sporadic (finitely many points of degree <= d) and isolated (P^1- and AV-isolated); "
                     "a point in a positive-dimensional family of degree-d points gives infinitely many degree-d points",
-    },
-    "Hilbert": {
-        "cite": "Hilbert irreducibility: a map X -> P^1 of degree e defined over F has infinitely many fibres that "
-                "are irreducible closed points of degree e over F.",
-        "used_for": "d = gon_F(X) (known exactly)  =>  infinitely many points of degree d",
     },
 }
 
@@ -138,6 +151,9 @@ SOURCES = {
 #   Phi^inf(6)  = {(1,n): 1<=n<=30, n!=23,25,29} u {(2,2n): 1<=n<=10}
 #                 u {(3,3n): 1<=n<=4} u {(4,4),(4,8),(6,6)}                            (DS17 Thm 1.2)
 # and Phi^inf(1) = Phi(1), Phi^inf(2) = Phi(2) (DS17, Introduction).
+# First appearance: the (1,n) parts of Phi^inf(5) and Phi^inf(6) are Theorem 3 of Derickx-van Hoeij
+# (DS17: "For d=5,6,7,8, the elements (1,n) in Phi^infty(d) were determined in [DvH13]"), so for m = 1
+# those degrees are credited to DvH14 and only the m >= 2 pairs to DS17.
 # ----------------------------------------------------------------------------
 
 
@@ -165,11 +181,11 @@ PHI_INFINITY = {
                  + _pairs(3, range(1, 4)) + [(4, 4), (4, 8), (5, 5), (6, 6)],
     },
     5: {
-        "source": "DS17",
+        "source": "DvH14", "source_m2": "DS17",      # (1,n): Derickx-van Hoeij Thm 3; m >= 2: Derickx-Sutherland
         "pairs": _pairs(1, [k for k in range(1, 26) if k != 23]) + _pairs(2, range(1, 9)),
     },
     6: {
-        "source": "DS17",
+        "source": "DvH14", "source_m2": "DS17",
         "pairs": _pairs(1, [k for k in range(1, 31) if k not in (23, 25, 29)]) + _pairs(2, range(1, 11))
                  + _pairs(3, range(1, 5)) + [(4, 4), (4, 8), (6, 6)],
     },
@@ -186,6 +202,11 @@ PHI_INFINITY_COMPLETE_DEGREES = sorted(PHI_INFINITY)
 # ----------------------------------------------------------------------------
 
 RANK_ZERO_DS17 = {1: 36, 2: 42, 3: 30, 4: 24, 5: 20, 6: 30}
+
+# Derickx-van Hoeij, Lemma 1(3) (first appearance, via Kato): "If N <= 66 and N != 37, 43, 53, 57, 58,
+# 61, 63, 65 then J_1(N)(Q) is finite."
+RANK_ZERO_DVH14_MAX_N = 66
+RANK_ZERO_DVH14_EXCEPTIONS = {37, 43, 53, 57, 58, 61, 63, 65}
 
 # ----------------------------------------------------------------------------
 # Helpers
@@ -238,6 +259,11 @@ def curve_label(m: int, n: int) -> str:
 # ----------------------------------------------------------------------------
 
 
+def phi_source(d: int, m: int) -> str:
+    rec = PHI_INFINITY[d]
+    return rec["source"] if m == 1 else rec.get("source_m2", rec["source"])
+
+
 def phi_infinity_degrees(m: int, n: int):
     """{d: source} for the d <= 6 with (m, n) in Phi^infty(d), and the finite complement."""
     infinite, finite = {}, {}
@@ -246,20 +272,22 @@ def phi_infinity_degrees(m: int, n: int):
         if d % phi_m:
             continue          # no points of such degree at all (Weil pairing)
         if (m, n) in rec["pairs"]:
-            infinite[d] = rec["source"]
+            infinite[d] = phi_source(d, m)
         else:
             # (m,n) not in Phi^infty(d) and the lists are closed under subgroups, so X_1(m,n)
-            # has only finitely many points of degree d (see docstring of classify_degree).
-            finite[d] = rec["source"]
+            # has only finitely many points of degree d (see docstring of degree_status).
+            finite[d] = phi_source(d, m)
     return infinite, finite
 
 
 def rank_zero_source(m: int, n: int, table_row=None):
     """Return (0, source) if rank J_1(m,n)(Q(zeta_m)) = 0 is proven, (None, None) if unknown."""
-    if m in RANK_ZERO_DS17 and n <= RANK_ZERO_DS17[m]:
+    if m == 1 and n <= RANK_ZERO_DVH14_MAX_N and n not in RANK_ZERO_DVH14_EXCEPTIONS:
+        return 0, "DvH14"
+    if m >= 2 and m in RANK_ZERO_DS17 and n <= RANK_ZERO_DS17[m]:
         return 0, "DS17"
     if table_row is not None and m <= 2 and table_row.get("an_r") == 0:
-        return 0, "torsion_inf+KolyvaginLogachev"
+        return 0, "torsion_inf+Kato"
     return None, None
 
 
@@ -288,6 +316,10 @@ def degree_status(curve: dict, e: int) -> tuple:
     if "all" in inf:
         return "infinite", f"{lab} has genus 0", ["genus 0"]
     if str(e) in inf:
+        gon = curve.get("gonality") or {}
+        if gon.get("exact") and e == gon.get("ub") * phi_m and e > 6:
+            return "infinite", (f"{lab} has a function of degree {ee} over {curve['base_field']} (its gonality), "
+                                f"hence infinitely many points of degree {e} by Hilbert irreducibility"), [inf[str(e)]]
         return "infinite", f"{lab} has infinitely many points of degree {e}", [inf[str(e)]]
     if str(e) in fin:
         return "finite", f"{lab} has only finitely many points of degree {e}", [fin[str(e)]]

@@ -12,21 +12,21 @@
       "value": "no",
       "rule": "X_1(25) has only finitely many points of degree 6",
       "sources": [
-        "DS17"
+        "DvH14"
       ]
     },
     "sporadic": {
       "value": "no",
       "rule": "not sporadic: X_1(25) has infinitely many points of degree 5",
       "sources": [
-        "DS17"
+        "DvH14"
       ]
     },
     "isolated": {
       "value": "yes",
       "rule": "finitely many points of degree 6 on X_1(25), so the point lies in no positive-dimensional family",
       "sources": [
-        "DS17",
+        "DvH14",
         "BELOV"
       ]
     }
@@ -47,7 +47,7 @@
   },
   "discovery": {
     "by": "M. van Hoeij",
-    "year": 2013
+    "year": 2012
   },
   "field": {
     "poly": "x^6 - 4*x^5 + 2*x^4 + 8*x^3 - 10*x^2 + 5*x - 1",

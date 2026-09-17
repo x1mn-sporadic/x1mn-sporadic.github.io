@@ -15,9 +15,9 @@
     },
     "sporadic": {
       "value": "no",
-      "rule": "not sporadic: X_1(39) has infinitely many points of degree 14",
+      "rule": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
       "sources": [
-        "Hilbert"
+        "DvH14"
       ]
     },
     "isolated": {
@@ -25,7 +25,7 @@
       "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
       "sources": [
         "BELOV",
-        "torsion_inf+KolyvaginLogachev"
+        "DvH14"
       ]
     }
   },
@@ -45,7 +45,7 @@
   },
   "discovery": {
     "by": "M. van Hoeij",
-    "year": 2013
+    "year": 2012
   },
   "field": {
     "poly": "x^15 + 5*x^14 + 11*x^13 + 15*x^12 + 18*x^11 + 26*x^10 + 31*x^9 + 27*x^8 + 25*x^7 + 27*x^6 + 21*x^5 + 10*x^4 + 12*x^3 + 7*x^2 + 3",

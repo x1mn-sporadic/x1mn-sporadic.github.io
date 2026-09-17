@@ -56,16 +56,24 @@ def curve_record(m, n, magma_rec, table_row):
     abr = knowledge.abramovich_lower_bound(m, n)
     abr_int = int(abr) + 1 if abr.denominator != 1 else int(abr)   # ceiling
     if genus == 0:
-        gon = {"lb": 1, "ub": 1, "source": "genus 0", "exact": True}
+        gon = {"lb": 1, "ub": 1, "source": "genus 0", "exact": True, "lb_source": "genus 0", "ub_source": "genus 0"}
     elif genus == 1:
-        gon = {"lb": 2, "ub": 2, "source": "genus 1", "exact": True}
+        gon = {"lb": 2, "ub": 2, "source": "genus 1", "exact": True, "lb_source": "genus 1", "ub_source": "genus 1"}
     elif table_row is not None:
-        gon = {"lb": max(table_row["gon_lb"], abr_int), "ub": table_row["gon_ub"],
-               "source": "torsion_inf", "exact": table_row["gon_lb"] == table_row["gon_ub"]}
-        if gon["lb"] == abr_int and table_row["gon_lb"] < abr_int:
-            gon["source"] = "Abramovich96"
+        exact = table_row["gon_lb"] == table_row["gon_ub"]
+        gon = {"lb": max(table_row["gon_lb"], abr_int), "ub": table_row["gon_ub"], "exact": exact}
+        if m == 1:
+            # Derickx-van Hoeij: exact gonality for N <= 40, upper bounds for N <= 250; the lower bounds for
+            # N > 40 are the torsion_inf project's (CurveArith) or Abramovich's
+            gon["ub_source"] = "DvH14"
+            gon["lb_source"] = "DvH14" if n <= 40 else ("Abramovich96" if table_row["gon_lb"] <= abr_int else "torsion_inf")
+        else:
+            gon["ub_source"] = "torsion_inf"
+            gon["lb_source"] = "Abramovich96" if table_row["gon_lb"] <= abr_int else "torsion_inf"
+        gon["source"] = gon["ub_source"] if exact else gon["lb_source"]
     else:
-        gon = {"lb": max(abr_int, 2 if genus >= 1 else 1), "ub": None, "source": "Abramovich96", "exact": False}
+        gon = {"lb": max(abr_int, 2 if genus >= 1 else 1), "ub": None, "source": "Abramovich96", "exact": False,
+               "lb_source": "Abramovich96", "ub_source": None}
     # gonality over the base field Q(zeta_m): the tables are Q-gonalities for m <= 2; for m >= 3 we only
     # have the geometric Abramovich bound, which is a lower bound for the gonality over any field.
     rank_val, rank_src = knowledge.rank_zero_source(m, n, table_row)
@@ -84,12 +92,22 @@ def curve_record(m, n, magma_rec, table_row):
     else:
         if table_row is not None:
             for d in (7, 8, 9):
-                if table_row[f"p{d}"] is True:
-                    degrees_infinite[str(d)] = "torsion_inf"
-                elif table_row[f"p{d}"] is False:
-                    degrees_finite[str(d)] = "torsion_inf"
+                val = table_row[f"p{d}"]
+                if val is None:
+                    continue
+                # first appearance: X_1(N), d = 7, 8: Derickx-van Hoeij Thm 3; X_1(2,2k), d = 7: Derickx-Sutherland
+                # Remark 1.3 for k <= 10 (infinite) and k > 15 (finite); everything else: torsion_inf
+                if m == 1 and d in (7, 8):
+                    src = "DvH14"
+                elif m == 2 and d == 7 and ((n // 2 <= 10 and val) or (n // 2 > 15 and not val)):
+                    src = "DS17"
+                else:
+                    src = "torsion_inf"
+                (degrees_infinite if val else degrees_finite)[str(d)] = src
         if gon["exact"] and m <= 2:
-            degrees_infinite.setdefault(str(gon["ub"]), "Hilbert")
+            # degree = gonality: a function of that degree over Q exists (source of the gonality), hence
+            # infinitely many points of that degree by Hilbert irreducibility
+            degrees_infinite.setdefault(str(gon["ub"]), gon["ub_source"])
         # degrees below phi(m) multiples are impossible; degrees d' = d/phi(m) with 2d' < gon_lb are finite (Frey)
         for d in range(1, 13):
             if d % phi:

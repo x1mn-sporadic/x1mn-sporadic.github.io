@@ -13,8 +13,8 @@
       "rule": "rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
       "sources": [
         "RankZeroLemma",
-        "torsion_inf+KolyvaginLogachev",
-        "torsion_inf"
+        "DvH14",
+        "DvH14"
       ]
     },
     "sporadic": {
@@ -22,8 +22,8 @@
       "rule": "finitely many points of degree <= 13: rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
       "sources": [
         "RankZeroLemma",
-        "torsion_inf+KolyvaginLogachev",
-        "torsion_inf"
+        "DvH14",
+        "DvH14"
       ]
     },
     "isolated": {
@@ -31,8 +31,8 @@
       "rule": "finitely many points of degree 13 on X_1(39), so the point lies in no positive-dimensional family",
       "sources": [
         "RankZeroLemma",
-        "torsion_inf+KolyvaginLogachev",
-        "torsion_inf",
+        "DvH14",
+        "DvH14",
         "BELOV"
       ]
     }
@@ -53,7 +53,7 @@
   },
   "discovery": {
     "by": "M. van Hoeij",
-    "year": 2013
+    "year": 2012
   },
   "field": {
     "poly": "x^13 - x^11 - 3*x^10 - 2*x^9 + 5*x^8 + x^7 - x^6 - 5*x^5 + 7*x^4 - 6*x^3 + 6*x^2 - 4*x + 1",

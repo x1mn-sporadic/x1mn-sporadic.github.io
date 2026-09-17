@@ -12,26 +12,25 @@
       "value": "no",
       "rule": "X_1(36) has only finitely many points of degree 7",
       "sources": [
-        "torsion_inf"
+        "DvH14"
       ]
     },
     "sporadic": {
       "value": "yes",
       "rule": "finitely many points of each degree <= 7 on X_1(36)",
       "sources": [
-        "DS17",
+        "DvH14",
         "JKP06",
         "JKS04",
         "KKM",
-        "Mazur77",
-        "torsion_inf"
+        "Mazur77"
       ]
     },
     "isolated": {
       "value": "yes",
       "rule": "finitely many points of degree 7 on X_1(36), so the point lies in no positive-dimensional family",
       "sources": [
-        "torsion_inf",
+        "DvH14",
         "BELOV"
       ]
     }
@@ -52,7 +51,7 @@
   },
   "discovery": {
     "by": "M. van Hoeij",
-    "year": 2013
+    "year": 2012
   },
   "field": {
     "poly": "x^7 - 2*x^6 + 4*x^5 - x^4 - 8*x^3 + 2*x^2 + 5*x + 1",

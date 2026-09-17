@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 11:10 UTC",
+  "generated": "2026-09-17 11:29 UTC",
   "points": [
     {
       "schema": "x1mn-sporadic/point/1",
@@ -52,7 +52,7 @@
       },
       "discovery": {
         "by": "F. Najman",
-        "year": 2012
+        "year": 2011
       },
       "field": {
         "poly": "x^3 - 3*x^2 + 3",
@@ -193,21 +193,21 @@
           "value": "no",
           "rule": "X_1(25) has only finitely many points of degree 6",
           "sources": [
-            "DS17"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "no",
           "rule": "not sporadic: X_1(25) has infinitely many points of degree 5",
           "sources": [
-            "DS17"
+            "DvH14"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 6 on X_1(25), so the point lies in no positive-dimensional family",
           "sources": [
-            "DS17",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -228,7 +228,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^6 - 4*x^5 + 2*x^4 + 8*x^3 - 10*x^2 + 5*x - 1",
@@ -378,21 +378,21 @@
           "value": "no",
           "rule": "X_1(25) has only finitely many points of degree 7",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "no",
           "rule": "not sporadic: X_1(25) has infinitely many points of degree 5",
           "sources": [
-            "DS17"
+            "DvH14"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 7 on X_1(25), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -413,7 +413,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^7 + x^6 - x^5 - x^4 + x^2 + x - 1",
@@ -566,14 +566,14 @@
           "value": "no",
           "rule": "X_1(28) has only finitely many points of degree 5",
           "sources": [
-            "DS17"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 5 on X_1(28)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -584,7 +584,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 5 on X_1(28), so the point lies in no positive-dimensional family",
           "sources": [
-            "DS17",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -605,7 +605,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^5 - x^4 - 2*x^3 - x^2 + 2*x + 2",
@@ -759,7 +759,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 9 on X_1(29)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -958,7 +958,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 10 on X_1(29)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -1161,7 +1161,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 10 on X_1(29)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -1357,14 +1357,14 @@
           "value": "no",
           "rule": "X_1(30) has only finitely many points of degree 5",
           "sources": [
-            "DS17"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 5 on X_1(30)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -1375,7 +1375,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 5 on X_1(30), so the point lies in no positive-dimensional family",
           "sources": [
-            "DS17",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -1396,7 +1396,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^5 + x^4 - 3*x^3 + 3*x + 1",
@@ -1543,14 +1543,14 @@
           "value": "no",
           "rule": "X_1(30) has only finitely many points of degree 5",
           "sources": [
-            "DS17"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 5 on X_1(30)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -1561,7 +1561,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 5 on X_1(30), so the point lies in no positive-dimensional family",
           "sources": [
-            "DS17",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -1582,7 +1582,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^5 + 2*x^4 - 2*x^3 - 5*x^2 + 3",
@@ -1736,7 +1736,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 9 on X_1(31)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -1938,7 +1938,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 10 on X_1(31)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -2141,7 +2141,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 11 on X_1(31)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -2347,7 +2347,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 11 on X_1(31)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -2553,7 +2553,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 11 on X_1(31)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -2757,9 +2757,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(32) has infinitely many points of degree 8",
+          "rule": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -2787,7 +2787,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 - x^7 - x^6 + 2*x^5 + 2*x^4 - x^3 - 2*x^2 + 1",
@@ -2951,9 +2951,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(32) has infinitely many points of degree 8",
+          "rule": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -2981,7 +2981,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 - 2*x^8 + 4*x^7 - 3*x^6 + 2*x^5 + x^4 - 4*x^3 + 4*x^2 - 3*x + 1",
@@ -3145,9 +3145,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(32) has infinitely many points of degree 8",
+          "rule": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -3175,7 +3175,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 - 2*x^8 - x^7 + 3*x^6 + 1/2*x^5 - 2*x^4 + 3/2*x^2 - 1/2",
@@ -3339,9 +3339,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(32) has infinitely many points of degree 8",
+          "rule": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -3369,7 +3369,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 + 3*x^8 + x^7 - 4*x^6 - 4*x^5 + x^4 + 3*x^3 + 2*x^2 - x - 1",
@@ -3533,9 +3533,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(32) has infinitely many points of degree 8",
+          "rule": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -3563,7 +3563,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 - x^8 + x^7 + 4*x^6 - 10*x^5 + 16*x^4 - 17*x^3 + 12*x^2 - 5*x + 1",
@@ -3727,9 +3727,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(32) has infinitely many points of degree 8",
+          "rule": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -3757,7 +3757,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 - 3*x^8 - 4*x^7 + 14*x^6 + 9*x^5 - 20*x^4 - 18*x^3 + 6*x^2 + 12*x + 4",
@@ -3921,9 +3921,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(32) has infinitely many points of degree 8",
+          "rule": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -3951,7 +3951,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 - 2*x^8 + 9/4*x^7 + 7/2*x^6 - 15/2*x^5 - 13/4*x^4 + 11/2*x^3 + 2*x^2 - 5/4*x - 1/2",
@@ -4115,9 +4115,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(32) has infinitely many points of degree 8",
+          "rule": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -4145,7 +4145,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 + 4*x^8 + 2*x^7 - 4*x^6 + 4*x^5 + 4*x^4 - 10*x^3 - 3*x^2 + 3*x + 1",
@@ -4304,26 +4304,25 @@
           "value": "no",
           "rule": "X_1(33) has only finitely many points of degree 7",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 7 on X_1(33)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
-            "Mazur77",
-            "torsion_inf"
+            "Mazur77"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 7 on X_1(33), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -4344,7 +4343,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^7 - 2*x^6 + 2*x^5 + x^4 - 2*x^3 + 2*x^2 - 1",
@@ -4497,26 +4496,25 @@
           "value": "no",
           "rule": "X_1(33) has only finitely many points of degree 8",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 8 on X_1(33)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
-            "Mazur77",
-            "torsion_inf"
+            "Mazur77"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 8 on X_1(33), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -4537,7 +4535,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^8 - 2*x^7 - x^6 + 6*x^5 - 2*x^4 - 5*x^3 + 3*x^2 + 2*x - 1",
@@ -4700,7 +4698,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 9 on X_1(33)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -4733,7 +4731,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 - 4*x^7 + 2*x^6 + 5*x^5 - 6*x^4 - 3*x^3 + 3*x^2 - 1",
@@ -4895,9 +4893,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(33) has infinitely many points of degree 10",
+          "rule": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -4905,7 +4903,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -4925,7 +4923,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 - 2*x^10 - 2*x^9 + 5*x^8 + x^7 - 6*x^6 + 4*x^5 + 3*x^4 - 5*x^3 + x - 1",
@@ -5093,9 +5091,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(33) has infinitely many points of degree 10",
+          "rule": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -5103,7 +5101,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -5123,7 +5121,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 + x^10 - 5*x^9 - 3*x^8 + 9*x^7 + 3*x^6 - 4*x^5 + x^4 + 2*x^3 - 2*x^2 - 3*x - 1",
@@ -5291,9 +5289,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(33) has infinitely many points of degree 10",
+          "rule": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -5301,7 +5299,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -5321,7 +5319,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 - 3*x^10 + 2*x^9 + 2*x^8 - x^7 - 4*x^6 - 3*x^5 + 9*x^4 + 3*x^3 - 5*x^2 - x + 1",
@@ -5489,9 +5487,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(33) has infinitely many points of degree 10",
+          "rule": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -5499,7 +5497,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -5519,7 +5517,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 + 5*x^10 + 7*x^9 - 6*x^8 - 24*x^7 - 13*x^6 + 16*x^5 + 15*x^4 - 3*x^3 - x^2 + 5*x + 1",
@@ -5687,9 +5685,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(33) has infinitely many points of degree 10",
+          "rule": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -5697,7 +5695,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -5717,7 +5715,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 - 2*x^10 + 2*x^9 - 2*x^8 + x^6 - 3*x^5 + 3*x^4 - x^3 + x^2 - 1",
@@ -5885,9 +5883,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(33) has infinitely many points of degree 10",
+          "rule": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -5895,7 +5893,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -5915,7 +5913,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 - 8*x^10 + 21*x^9 - 21*x^8 + 16*x^7 - 29*x^6 + 9*x^5 + 31*x^4 - 14*x^3 - 9*x^2 + 3*x + 1",
@@ -6083,9 +6081,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(33) has infinitely many points of degree 10",
+          "rule": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -6093,7 +6091,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -6113,7 +6111,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 + 3*x^10 + 3*x^9 + x^8 - x^6 - 4*x^5 - x^4 - 2*x^3 - 2*x^2 - 1",
@@ -6281,9 +6279,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(33) has infinitely many points of degree 10",
+          "rule": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -6291,7 +6289,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -6311,7 +6309,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 + x^10 + 4*x^9 + 6*x^8 + 13*x^7 + 20*x^6 + 25*x^5 + 24*x^4 + 18*x^3 + 10*x^2 + 4*x + 1",
@@ -6479,9 +6477,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(33) has infinitely many points of degree 10",
+          "rule": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -6489,7 +6487,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -6509,7 +6507,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 + 3*x^10 + 5*x^9 + 11*x^8 + 11*x^7 + 9*x^6 + 7*x^5 - x^4 - 6*x^3 - 3*x^2 - 4*x - 1",
@@ -6674,26 +6672,25 @@
           "value": "no",
           "rule": "X_1(34) has only finitely many points of degree 8",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 8 on X_1(34)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
-            "Mazur77",
-            "torsion_inf"
+            "Mazur77"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 8 on X_1(34), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -6714,7 +6711,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^8 + 4*x^7 + 7*x^6 + 8*x^5 + 8*x^4 + 6*x^3 + 4*x^2 + 2*x + 1",
@@ -6870,26 +6867,25 @@
           "value": "no",
           "rule": "X_1(34) has only finitely many points of degree 8",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 8 on X_1(34)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
-            "Mazur77",
-            "torsion_inf"
+            "Mazur77"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 8 on X_1(34), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -6910,7 +6906,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^8 + x^7 - x^5 - x^4 - x^3 + x + 1",
@@ -7066,26 +7062,25 @@
           "value": "no",
           "rule": "X_1(34) has only finitely many points of degree 8",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 8 on X_1(34)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
-            "Mazur77",
-            "torsion_inf"
+            "Mazur77"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 8 on X_1(34), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -7106,7 +7101,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^8 - 3*x^6 + 3*x^4 - 3*x^2 + 1",
@@ -7269,7 +7264,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 9 on X_1(34)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -7302,7 +7297,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 - 2*x^8 - x^7 + 3*x^6 + 2*x^5 + x^3 - 2*x - 1",
@@ -7468,7 +7463,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 9 on X_1(34)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -7501,7 +7496,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 - 5*x^8 + 7*x^7 - 7*x^5 + 11*x^4 - 9*x^3 - 4*x^2 + 5*x - 1",
@@ -7667,7 +7662,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 9 on X_1(34)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -7700,7 +7695,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 - 2*x^7 - 2*x^6 + 4*x^4 + 2*x^3 - x^2 - 2*x - 1",
@@ -7866,7 +7861,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 9 on X_1(34)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -7899,7 +7894,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 + 4*x^8 + 3*x^7 - 7*x^6 - 14*x^5 - 3*x^4 + 14*x^3 + 8*x^2 - 3*x - 2",
@@ -8058,26 +8053,25 @@
           "value": "no",
           "rule": "X_1(35) has only finitely many points of degree 8",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 8 on X_1(35)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
-            "Mazur77",
-            "torsion_inf"
+            "Mazur77"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 8 on X_1(35), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -8098,7 +8092,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^8 - 10*x^7 + 36*x^6 - 55*x^5 + 19*x^4 + 35*x^3 - 25*x^2 - 5*x + 5",
@@ -8261,7 +8255,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 10 on X_1(35)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -8295,7 +8289,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^10 - 2*x^9 - 2*x^8 + 5*x^7 + 4*x^6 - 5*x^5 - 3*x^4 + 3*x^3 + x^2 - 2*x - 1",
@@ -8464,7 +8458,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 10 on X_1(35)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -8498,7 +8492,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^10 + 5*x^9 + 8*x^8 + 4*x^7 + x^6 + 3*x^5 + 3*x^4 + 3*x^3 + 3*x^2 + x - 1",
@@ -8667,7 +8661,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 11 on X_1(35)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -8701,7 +8695,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 + 2*x^10 + x^9 - 4*x^8 - 6*x^7 - 5*x^6 + 2*x^3 + 2*x - 1",
@@ -8869,9 +8863,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(35) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(35) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -8879,7 +8873,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -8899,7 +8893,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 19*x^12 + 159*x^11 - 773*x^10 + 2426*x^9 - 5167*x^8 + 7648*x^7 - 7947*x^6 + 5837*x^5 - 3079*x^4 + 1195*x^3 - 335*x^2 + 60*x - 5",
@@ -9073,9 +9067,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(35) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(35) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -9083,7 +9077,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -9103,7 +9097,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 5*x^12 + 7*x^11 - x^10 + 2*x^9 - 12*x^8 + 4*x^7 + 6*x^6 + 6*x^5 - 4*x^4 - 12*x^3 + 3*x^2 + 5*x + 1",
@@ -9277,9 +9271,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(35) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(35) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -9287,7 +9281,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -9307,7 +9301,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + x^12 - 2*x^11 - x^10 - 2*x^8 + 2*x^7 + x^6 - 2*x^5 + x^4 + 2*x^3 - 2*x^2 - 3*x - 1",
@@ -9481,9 +9475,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(35) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(35) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -9491,7 +9485,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "DS17"
+            "DvH14"
           ]
         }
       },
@@ -9511,7 +9505,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + 6*x^12 + 14*x^11 + 11*x^10 - 18*x^9 - 59*x^8 - 66*x^7 - 14*x^6 + 55*x^5 + 71*x^4 + 30*x^3 - 10*x^2 - 15*x - 5",
@@ -9682,26 +9676,25 @@
           "value": "no",
           "rule": "X_1(36) has only finitely many points of degree 7",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 7 on X_1(36)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
-            "Mazur77",
-            "torsion_inf"
+            "Mazur77"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 7 on X_1(36), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -9722,7 +9715,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^7 + 2*x^6 + 5*x^5 + 5*x^4 + 7*x^3 + 5*x^2 + 4*x + 2",
@@ -9875,26 +9868,25 @@
           "value": "no",
           "rule": "X_1(36) has only finitely many points of degree 7",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 7 on X_1(36)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
-            "Mazur77",
-            "torsion_inf"
+            "Mazur77"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 7 on X_1(36), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -9915,7 +9907,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^7 - 2*x^6 + 4*x^5 - x^4 - 8*x^3 + 2*x^2 + 5*x + 1",
@@ -10068,14 +10060,14 @@
           "value": "no",
           "rule": "X_1(37) has only finitely many points of degree 6",
           "sources": [
-            "DS17"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 6 on X_1(37)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -10086,7 +10078,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 6 on X_1(37), so the point lies in no positive-dimensional family",
           "sources": [
-            "DS17",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -10287,7 +10279,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^10 - 5*x^8 + 3*x^7 + 10*x^6 - 8*x^5 - 7*x^4 + 9*x^3 - 3*x + 1",
@@ -10479,7 +10471,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^12 - 4*x^11 + 11*x^10 - 21*x^9 + 32*x^8 - 40*x^7 + 45*x^6 - 46*x^5 + 40*x^4 - 26*x^3 + 12*x^2 - 4*x + 1",
@@ -10677,7 +10669,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^12 - 4*x^11 + 10*x^10 - 18*x^9 + 25*x^8 - 23*x^7 + 8*x^6 + 11*x^5 - 16*x^4 + 7*x^3 + 2*x^2 - 3*x + 1",
@@ -10875,7 +10867,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^12 - 5*x^11 + 13*x^10 - 24*x^9 + 36*x^8 - 47*x^7 + 51*x^6 - 43*x^5 + 30*x^4 - 18*x^3 + 10*x^2 - 4*x + 1",
@@ -11073,7 +11065,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 4*x^12 - x^11 + 10*x^10 + 3*x^9 - 21*x^8 + 3*x^7 + 24*x^6 - 15*x^5 - 10*x^4 + 12*x^3 - x^2 - 3*x + 1",
@@ -11274,7 +11266,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^14 - 2*x^13 - 9*x^12 + 16*x^11 + 28*x^10 - 49*x^9 - 40*x^8 + 73*x^7 + 25*x^6 - 56*x^5 - 4*x^4 + 23*x^3 - x^2 - 5*x + 1",
@@ -11478,7 +11470,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 - 6*x^14 + 11*x^13 + 2*x^12 - 27*x^11 + 19*x^10 + 15*x^9 - 16*x^8 - 7*x^7 + 10*x^6 + 5*x^5 - 7*x^4 + x^3 - x^2 + 2*x - 1",
@@ -11685,7 +11677,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 - x^14 - 12*x^13 - 15*x^12 + 12*x^11 + 40*x^10 + 21*x^9 - 27*x^8 - 40*x^7 - 4*x^6 + 23*x^5 + 12*x^4 - 4*x^3 - 6*x^2 + 1",
@@ -11892,7 +11884,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 - 4*x^14 - x^13 + 24*x^12 - 29*x^11 - 20*x^10 + 69*x^9 - 59*x^8 + 13*x^7 + 17*x^6 - 12*x^5 + 2*x^3 + x^2 - 2*x + 1",
@@ -12099,7 +12091,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^16 + 8*x^15 + 25*x^14 + 36*x^13 + 16*x^12 - 19*x^11 - 24*x^10 + 3*x^9 + 18*x^8 + 3*x^7 - 10*x^6 - 3*x^5 + 5*x^4 + 3*x^3 - x^2 - x + 1",
@@ -12309,7 +12301,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^16 + 6*x^15 + 17*x^14 + 30*x^13 + 36*x^12 + 29*x^11 + 9*x^10 - 20*x^9 - 51*x^8 - 75*x^7 - 84*x^6 - 72*x^5 - 48*x^4 - 25*x^3 - 11*x^2 - 4*x - 1",
@@ -12519,7 +12511,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^16 - 2*x^15 + 6*x^13 - 6*x^12 + 2*x^11 - 8*x^10 + 6*x^9 + x^8 + 3*x^7 - 7*x^6 + 8*x^5 - 12*x^4 + 13*x^3 - 5*x^2 + 1",
@@ -12729,7 +12721,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^16 + 5*x^15 + 6*x^14 - 11*x^13 - 34*x^12 - 13*x^11 + 53*x^10 + 70*x^9 - 7*x^8 - 74*x^7 - 44*x^6 + 19*x^5 + 30*x^4 + 7*x^3 - 5*x^2 - 3*x + 1",
@@ -12939,7 +12931,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^16 - 6*x^15 + 20*x^14 - 48*x^13 + 92*x^12 - 147*x^11 + 201*x^10 - 241*x^9 + 254*x^8 - 235*x^7 + 189*x^6 - 131*x^5 + 77*x^4 - 37*x^3 + 15*x^2 - 4*x + 1",
@@ -13149,7 +13141,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^16 - 4*x^15 + x^14 + 15*x^13 - 17*x^12 - 8*x^11 + 23*x^10 - 18*x^9 + 7*x^8 + 15*x^7 - 30*x^6 + 6*x^5 + 22*x^4 - 8*x^3 - 7*x^2 + 2*x + 1",
@@ -13359,7 +13351,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^16 - 3*x^14 - 7*x^13 + 4*x^12 + 16*x^11 + 15*x^10 - 15*x^9 - 27*x^8 - 13*x^7 + 12*x^6 + 20*x^5 + 6*x^4 + x^3 - 6*x^2 - 2*x - 1",
@@ -13569,7 +13561,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^16 + 10*x^15 + 47*x^14 + 128*x^13 + 179*x^12 - 90*x^11 - 1167*x^10 - 3342*x^9 - 6070*x^8 - 7860*x^7 - 7380*x^6 - 4973*x^5 - 2356*x^4 - 760*x^3 - 158*x^2 - 19*x - 1",
@@ -13779,7 +13771,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^16 + 3*x^15 + 5*x^14 + 4*x^13 - 4*x^12 - 11*x^11 - 6*x^10 + 14*x^9 + 41*x^8 + 49*x^7 + 36*x^6 + 12*x^5 - 7*x^4 - 12*x^3 - 10*x^2 - 5*x - 1",
@@ -13989,7 +13981,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^16 - 12*x^15 + 61*x^14 - 175*x^13 + 302*x^12 - 255*x^11 - 119*x^10 + 546*x^9 - 456*x^8 - 90*x^7 + 357*x^6 - 141*x^5 - 70*x^4 + 49*x^3 + 9*x^2 - 5*x - 1",
@@ -14199,7 +14191,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^16 - 6*x^15 + 6*x^14 + 17*x^13 - 25*x^12 - x^11 + 17*x^10 - 17*x^9 + 16*x^8 + 4*x^7 - 18*x^6 + 6*x^5 - 4*x^4 - 5*x^3 + 7*x^2 + 2*x - 1",
@@ -14409,7 +14401,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 - x^16 - 8*x^15 + 9*x^14 + 20*x^13 - 22*x^12 - 24*x^11 + 27*x^10 + 10*x^9 - 20*x^8 + 5*x^7 + 9*x^6 - 2*x^5 - x^4 - 3*x^3 - 1",
@@ -14622,7 +14614,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 + 3*x^16 - 8*x^15 - 41*x^14 - 21*x^13 + 120*x^12 + 163*x^11 - 114*x^10 - 307*x^9 - 13*x^8 + 265*x^7 + 91*x^6 - 109*x^5 - 57*x^4 + 16*x^3 + 11*x^2 + 1",
@@ -14835,7 +14827,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 - 4*x^15 - 2*x^14 + x^13 + 14*x^12 - x^11 - 4*x^10 - 22*x^9 + 17*x^8 + 4*x^7 + 13*x^6 - 24*x^5 + 6*x^4 - 2*x^3 + 9*x^2 - 6*x + 1",
@@ -15048,7 +15040,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 + 5*x^16 + 14*x^15 + 28*x^14 + 47*x^13 + 58*x^12 + 31*x^11 - 53*x^10 - 144*x^9 - 148*x^8 - 42*x^7 + 78*x^6 + 102*x^5 + 44*x^4 - 7*x^3 - 13*x^2 - x + 1",
@@ -15261,7 +15253,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 + 3*x^16 + 5*x^15 - 3*x^14 - 7*x^13 - 16*x^12 + 11*x^11 - x^10 + 34*x^9 - 25*x^8 + 10*x^7 - 32*x^6 + 27*x^5 - 10*x^4 + 6*x^3 - 3*x + 1",
@@ -15474,7 +15466,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 + 2*x^16 + 4*x^15 + 2*x^14 - 6*x^12 - 5*x^11 - x^10 + 3*x^9 + 6*x^8 - 7*x^7 + x^6 - 5*x^5 + 9*x^4 - 3*x^3 + 2*x^2 - 3*x + 1",
@@ -15687,7 +15679,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 + 5*x^16 + 13*x^15 + 18*x^14 + 7*x^13 - 26*x^12 - 60*x^11 - 63*x^10 - 24*x^9 + 28*x^8 + 59*x^7 + 58*x^6 + 38*x^5 + 15*x^4 - 4*x^2 - 3*x - 1",
@@ -15900,7 +15892,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 - 4*x^16 + 4*x^15 - 5*x^14 + 16*x^13 + 5*x^12 - 56*x^11 + 69*x^10 - 114*x^9 + 206*x^8 - 228*x^7 + 214*x^6 - 234*x^5 + 220*x^4 - 137*x^3 + 52*x^2 - 11*x + 1",
@@ -16113,7 +16105,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 - 4*x^16 + 11*x^15 - 19*x^14 + 19*x^13 - x^12 - 38*x^11 + 79*x^10 - 99*x^9 + 84*x^8 - 40*x^7 - 15*x^6 + 55*x^5 - 64*x^4 + 47*x^3 - 23*x^2 + 7*x - 1",
@@ -16326,7 +16318,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 - 2*x^16 - 5*x^15 + 3*x^14 + 21*x^13 + 13*x^12 - 52*x^11 - 33*x^10 + 47*x^9 + 42*x^8 - 12*x^7 - 34*x^6 - 6*x^5 + 14*x^4 + 8*x^3 - 5*x^2 - 2*x + 1",
@@ -16539,7 +16531,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 - 7*x^16 + 28*x^15 - 78*x^14 + 169*x^13 - 294*x^12 + 425*x^11 - 517*x^10 + 537*x^9 - 480*x^8 + 373*x^7 - 254*x^6 + 154*x^5 - 87*x^4 + 47*x^3 - 22*x^2 + 7*x - 1",
@@ -16752,7 +16744,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^17 - 7*x^16 + 26*x^15 - 70*x^14 + 148*x^13 - 255*x^12 + 369*x^11 - 459*x^10 + 497*x^9 - 467*x^8 + 378*x^7 - 258*x^6 + 142*x^5 - 57*x^4 + 11*x^3 + 3*x^2 - 4*x + 1",
@@ -16942,7 +16934,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 10 on X_1(38)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -16976,7 +16968,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^10 + 3*x^9 + x^8 - 6*x^7 - 9*x^6 - x^5 + 8*x^4 + 7*x^3 - 2*x - 1",
@@ -17145,7 +17137,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 10 on X_1(38)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -17179,7 +17171,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^10 - 10*x^8 + 6*x^7 + 25*x^6 - 20*x^5 - 19*x^4 + 18*x^3 + x^2 - 4*x + 1",
@@ -17348,7 +17340,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 10 on X_1(38)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -17382,7 +17374,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^10 + x^9 - 4*x^8 - 5*x^7 + 3*x^6 + 11*x^5 + x^4 - 9*x^3 - 2*x^2 + 3*x + 1",
@@ -17544,26 +17536,25 @@
           "value": "no",
           "rule": "X_1(39) has only finitely many points of degree 8",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 8 on X_1(39)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
-            "Mazur77",
-            "torsion_inf"
+            "Mazur77"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 8 on X_1(39), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -17584,7 +17575,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^8 - 3*x^7 + 4*x^6 - 6*x^5 + 9*x^4 - 9*x^3 + 7*x^2 - 3*x + 1",
@@ -17747,7 +17738,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 9 on X_1(39)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -17780,7 +17771,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 + x^8 - 6*x^7 - 8*x^6 + 5*x^5 + 9*x^4 - 4*x^2 + 1",
@@ -17946,7 +17937,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 10 on X_1(39)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -17980,7 +17971,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^10 - 4*x^9 + 7*x^8 - 4*x^7 - 6*x^6 + 13*x^5 - 9*x^4 - x^3 + 5*x^2 - 4*x + 1",
@@ -18149,7 +18140,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 12 on X_1(39)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -18183,7 +18174,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^12 - 4*x^11 + 12*x^10 - 26*x^9 + 40*x^8 - 46*x^7 + 45*x^6 - 40*x^5 + 32*x^4 - 21*x^3 + 11*x^2 - 4*x + 1",
@@ -18358,7 +18349,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 12 on X_1(39)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -18392,7 +18383,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^12 - 2*x^11 - 9*x^10 + 9*x^9 + 20*x^8 - 16*x^7 - 11*x^6 + 12*x^5 - 4*x^4 - 4*x^3 + 5*x^2 + x - 1",
@@ -18567,7 +18558,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 12 on X_1(39)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -18601,7 +18592,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^12 + 4*x^11 + 10*x^10 + 20*x^9 + 31*x^8 + 43*x^7 + 52*x^6 + 56*x^5 + 52*x^4 + 39*x^3 + 21*x^2 + 7*x + 1",
@@ -18770,8 +18761,8 @@
           "rule": "rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
           "sources": [
             "RankZeroLemma",
-            "torsion_inf+KolyvaginLogachev",
-            "torsion_inf"
+            "DvH14",
+            "DvH14"
           ]
         },
         "sporadic": {
@@ -18779,8 +18770,8 @@
           "rule": "finitely many points of degree <= 13: rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
           "sources": [
             "RankZeroLemma",
-            "torsion_inf+KolyvaginLogachev",
-            "torsion_inf"
+            "DvH14",
+            "DvH14"
           ]
         },
         "isolated": {
@@ -18788,8 +18779,8 @@
           "rule": "finitely many points of degree 13 on X_1(39), so the point lies in no positive-dimensional family",
           "sources": [
             "RankZeroLemma",
-            "torsion_inf+KolyvaginLogachev",
-            "torsion_inf",
+            "DvH14",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -18810,7 +18801,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 4*x^12 + 7*x^11 - 5*x^10 - 6*x^9 + 19*x^8 - 22*x^7 + 13*x^6 - 4*x^5 + 3*x^4 - 7*x^3 + 8*x^2 - 5*x + 1",
@@ -18982,8 +18973,8 @@
           "rule": "rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
           "sources": [
             "RankZeroLemma",
-            "torsion_inf+KolyvaginLogachev",
-            "torsion_inf"
+            "DvH14",
+            "DvH14"
           ]
         },
         "sporadic": {
@@ -18991,8 +18982,8 @@
           "rule": "finitely many points of degree <= 13: rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
           "sources": [
             "RankZeroLemma",
-            "torsion_inf+KolyvaginLogachev",
-            "torsion_inf"
+            "DvH14",
+            "DvH14"
           ]
         },
         "isolated": {
@@ -19000,8 +18991,8 @@
           "rule": "finitely many points of degree 13 on X_1(39), so the point lies in no positive-dimensional family",
           "sources": [
             "RankZeroLemma",
-            "torsion_inf+KolyvaginLogachev",
-            "torsion_inf",
+            "DvH14",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -19022,7 +19013,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - x^11 - 3*x^10 - 2*x^9 + 5*x^8 + x^7 - x^6 - 5*x^5 + 7*x^4 - 6*x^3 + 6*x^2 - 4*x + 1",
@@ -19194,8 +19185,8 @@
           "rule": "rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
           "sources": [
             "RankZeroLemma",
-            "torsion_inf+KolyvaginLogachev",
-            "torsion_inf"
+            "DvH14",
+            "DvH14"
           ]
         },
         "sporadic": {
@@ -19203,8 +19194,8 @@
           "rule": "finitely many points of degree <= 13: rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
           "sources": [
             "RankZeroLemma",
-            "torsion_inf+KolyvaginLogachev",
-            "torsion_inf"
+            "DvH14",
+            "DvH14"
           ]
         },
         "isolated": {
@@ -19212,8 +19203,8 @@
           "rule": "finitely many points of degree 13 on X_1(39), so the point lies in no positive-dimensional family",
           "sources": [
             "RankZeroLemma",
-            "torsion_inf+KolyvaginLogachev",
-            "torsion_inf",
+            "DvH14",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -19234,7 +19225,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 6*x^12 + 11*x^11 - x^10 - 19*x^9 + 27*x^8 - 19*x^7 - 2*x^6 + 12*x^5 - 9*x^4 + 2*x^3 + 3*x^2 - 2*x + 1",
@@ -19408,9 +19399,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(39) has infinitely many points of degree 14",
+          "rule": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -19418,7 +19409,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -19438,7 +19429,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 + 3*x^14 + 5*x^13 + 2*x^12 - 8*x^11 - 18*x^10 - 18*x^9 + 20*x^7 + 27*x^6 + 15*x^5 - 3*x^4 - 11*x^3 - 10*x^2 - 5*x - 1",
@@ -19618,9 +19609,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(39) has infinitely many points of degree 14",
+          "rule": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -19628,7 +19619,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -19648,7 +19639,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 - 4*x^14 + 6*x^13 - x^12 - 11*x^11 + 18*x^10 - 10*x^9 - 9*x^8 + 19*x^7 - 12*x^6 - 3*x^5 + 9*x^4 - 5*x^3 - x^2 + 3*x - 1",
@@ -19828,9 +19819,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(39) has infinitely many points of degree 14",
+          "rule": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -19838,7 +19829,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -19858,7 +19849,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 + 2*x^14 + x^13 + x^12 - 5*x^11 - 4*x^10 - 3*x^9 - 2*x^8 + 6*x^7 + 3*x^6 + 3*x^5 + 4*x^4 - 5*x^3 + 3*x^2 - 3*x + 1",
@@ -20038,9 +20029,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(39) has infinitely many points of degree 14",
+          "rule": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -20048,7 +20039,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -20068,7 +20059,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 + 5*x^14 + 11*x^13 + 15*x^12 + 18*x^11 + 26*x^10 + 31*x^9 + 27*x^8 + 25*x^7 + 27*x^6 + 21*x^5 + 10*x^4 + 12*x^3 + 7*x^2 + 3",
@@ -20248,9 +20239,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(39) has infinitely many points of degree 14",
+          "rule": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -20258,7 +20249,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -20278,7 +20269,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 + 7*x^14 + 23*x^13 + 45*x^12 + 54*x^11 + 32*x^10 - 14*x^9 - 55*x^8 - 72*x^7 - 69*x^6 - 57*x^5 - 39*x^4 - 21*x^3 - 9*x^2 - 4*x - 1",
@@ -20458,9 +20449,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(39) has infinitely many points of degree 14",
+          "rule": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -20468,7 +20459,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -20488,7 +20479,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 - 4*x^14 - x^13 + 21*x^12 - 16*x^11 - 23*x^10 + 11*x^9 + 11*x^8 + 56*x^7 - 49*x^6 - 72*x^5 + 62*x^4 + 24*x^3 - 13*x^2 - 8*x - 1",
@@ -20668,9 +20659,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(39) has infinitely many points of degree 14",
+          "rule": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -20678,7 +20669,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -20698,7 +20689,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 - 4*x^14 - 7*x^13 - 3*x^12 + 7*x^11 + 20*x^10 - 4*x^9 - 10*x^8 - 15*x^7 + 3*x^6 + 12*x^5 + x^4 - 2*x^3 - 3*x^2 + 1",
@@ -20878,9 +20869,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(39) has infinitely many points of degree 14",
+          "rule": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -20888,7 +20879,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -20908,7 +20899,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 - 4*x^14 + 8*x^13 - 11*x^12 + 13*x^11 - 11*x^10 + 24*x^8 - 57*x^7 + 90*x^6 - 105*x^5 + 91*x^4 - 57*x^3 + 25*x^2 - 7*x + 1",
@@ -21088,9 +21079,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(39) has infinitely many points of degree 14",
+          "rule": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -21098,7 +21089,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -21118,7 +21109,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 - 3*x^14 + 3*x^13 - 2*x^12 + 12*x^11 - 22*x^10 + 20*x^9 - 4*x^8 - 3*x^7 - 27*x^6 + 72*x^5 - 91*x^4 + 71*x^3 - 34*x^2 + 9*x - 1",
@@ -21298,9 +21289,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(39) has infinitely many points of degree 14",
+          "rule": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -21308,7 +21299,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -21328,7 +21319,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^15 + 5*x^14 + 3*x^13 - 12*x^12 + 2*x^11 + 35*x^10 - 13*x^9 - 45*x^8 + 32*x^7 + 21*x^6 - 31*x^5 + 10*x^4 + 7*x^3 - 9*x^2 + 4*x - 1",
@@ -21505,26 +21496,25 @@
           "value": "no",
           "rule": "X_1(40) has only finitely many points of degree 8",
           "sources": [
-            "torsion_inf"
+            "DvH14"
           ]
         },
         "sporadic": {
           "value": "yes",
           "rule": "finitely many points of each degree <= 8 on X_1(40)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
-            "Mazur77",
-            "torsion_inf"
+            "Mazur77"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 8 on X_1(40), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "DvH14",
             "BELOV"
           ]
         }
@@ -21545,7 +21535,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^8 - 4*x^7 + 9*x^6 - 9*x^5 - 2*x^4 + 19*x^3 - 25*x^2 + 16*x - 4",
@@ -21708,7 +21698,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 9 on X_1(40)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -21741,7 +21731,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^9 - 6*x^8 + 14*x^7 - 17*x^6 + 12*x^5 - 4*x^4 - x^3 + 3*x^2 - 2*x + 1",
@@ -21907,7 +21897,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 10 on X_1(40)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -21941,7 +21931,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^10 + x^8 - 2*x^2 - 1",
@@ -22110,7 +22100,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 10 on X_1(40)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -22144,7 +22134,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^10 + x^9 - x^8 - 2*x^7 - x^6 - 3*x^5 + 4*x^4 + x^3 + x^2 + x - 1",
@@ -22313,7 +22303,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 11 on X_1(40)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -22347,7 +22337,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 + 3*x^10 + 2*x^9 - 4*x^8 - 9*x^7 - x^6 + 6*x^5 - 3*x^4 - 2*x^3 + 4*x^2 + 4*x + 1",
@@ -22519,7 +22509,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 11 on X_1(40)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -22553,7 +22543,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 - x^10 - 5*x^9 + 5*x^8 + 12*x^7 - 17*x^6 - 7*x^5 + 23*x^4 - 5*x^3 - 15*x^2 + 5*x + 5",
@@ -22725,7 +22715,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 11 on X_1(40)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -22759,7 +22749,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 + 5*x^10 + 10*x^9 + 9*x^8 - 7*x^7 - 15*x^6 - 11*x^5 + 12*x^4 + 2*x^3 - 3*x + 1",
@@ -22931,7 +22921,7 @@
           "value": "yes",
           "rule": "finitely many points of each degree <= 11 on X_1(40)",
           "sources": [
-            "DS17",
+            "DvH14",
             "JKP06",
             "JKS04",
             "KKM",
@@ -22965,7 +22955,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^11 - x^10 - 5*x^9 + 6*x^8 + 2*x^7 - 3*x^6 + 6*x^5 + x^4 - 17*x^3 + x^2 + 8*x + 2",
@@ -23133,9 +23123,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -23143,7 +23133,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -23163,7 +23153,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 3*x^12 - 2*x^11 + 9*x^10 + 4*x^9 - 10*x^8 - 8*x^7 + 2*x^6 + 9*x^5 + x^4 - 4*x^3 + 2*x^2 + x - 1",
@@ -23337,9 +23327,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -23347,7 +23337,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -23367,7 +23357,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + 4*x^12 + 3*x^11 - 10*x^10 - 21*x^9 - 16*x^8 - 18*x^7 - 34*x^6 - 36*x^5 - 14*x^4 + x^3 + 3*x^2 + 2*x + 1",
@@ -23541,9 +23531,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -23551,7 +23541,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -23571,7 +23561,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + 2*x^12 - 5*x^11 - 12*x^10 + 6*x^9 + 25*x^8 - 6*x^7 - 18*x^6 + 9*x^5 + 10*x^4 - 9*x^3 - 2*x^2 + 4*x - 1",
@@ -23745,9 +23735,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -23755,7 +23745,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -23775,7 +23765,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + 2*x^12 - 2*x^11 - 7*x^10 - 3*x^9 + 6*x^8 + 7*x^7 - 2*x^6 - 4*x^5 - x^4 + 4*x^3 + 12*x^2 - 8",
@@ -23949,9 +23939,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -23959,7 +23949,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -23979,7 +23969,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + x^12 + x^11 - x^10 + 5*x^8 + 4*x^7 - 10*x^6 - 13*x^5 + x^4 + 9*x^3 + 3*x^2 - 2*x - 1",
@@ -24153,9 +24143,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -24163,7 +24153,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -24183,7 +24173,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + 2*x^12 - 5*x^10 - 9*x^9 - 19*x^8 - 32*x^7 - 55*x^6 - 71*x^5 - 70*x^4 - 52*x^3 - 26*x^2 - 9*x - 1",
@@ -24357,9 +24347,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -24367,7 +24357,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -24387,7 +24377,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 6*x^12 + 11*x^11 + 3*x^10 - 32*x^9 + 21*x^8 + 33*x^7 - 38*x^6 - 16*x^5 + 28*x^4 + 4*x^3 - 10*x^2 - x + 1",
@@ -24561,9 +24551,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -24571,7 +24561,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -24591,7 +24581,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + 3*x^12 + 4*x^11 + 4*x^10 + 9*x^9 + 16*x^8 + 8*x^7 - 31*x^6 - 84*x^5 - 112*x^4 - 92*x^3 - 47*x^2 - 12*x - 1",
@@ -24765,9 +24755,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -24775,7 +24765,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -24795,7 +24785,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - x^12 - 4*x^11 - x^10 + 9*x^9 + 10*x^8 - 5*x^7 - 12*x^6 - 3*x^5 + 8*x^4 + 3*x^3 - 2*x^2 - 2*x + 1",
@@ -24969,9 +24959,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -24979,7 +24969,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -24999,7 +24989,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 2*x^12 + 4*x^10 - 3*x^9 - 5*x^8 + 7*x^7 + x^6 - 8*x^5 + 3*x^4 + 5*x^3 - 3*x^2 - x + 2",
@@ -25173,9 +25163,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -25183,7 +25173,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -25203,7 +25193,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 4*x^12 - 2*x^11 + 25*x^10 - 23*x^9 - 23*x^8 + 42*x^7 - 23*x^6 + 14*x^5 - 10*x^4 + 5*x^3 - 2*x^2 + x + 1",
@@ -25377,9 +25367,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -25387,7 +25377,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -25407,7 +25397,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + x^12 + x^11 - 3*x^10 - 8*x^9 - 10*x^8 - 6*x^7 + 5*x^6 + 15*x^5 + 19*x^4 + 15*x^3 + 9*x^2 + 3*x + 1",
@@ -25581,9 +25571,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -25591,7 +25581,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -25611,7 +25601,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 5*x^12 + 17*x^11 - 41*x^10 + 81*x^9 - 127*x^8 + 159*x^7 - 145*x^6 + 88*x^5 - 15*x^4 - 28*x^3 + 32*x^2 - 16*x + 4",
@@ -25785,9 +25775,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -25795,7 +25785,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -25815,7 +25805,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 5*x^12 + 19*x^11 - 47*x^10 + 92*x^9 - 137*x^8 + 170*x^7 - 174*x^6 + 149*x^5 - 107*x^4 + 61*x^3 - 27*x^2 + 8*x - 1",
@@ -25989,9 +25979,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -25999,7 +25989,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -26019,7 +26009,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 5*x^12 + 10*x^11 - 10*x^10 + x^9 + 10*x^8 - 15*x^7 + 14*x^6 - 4*x^5 - 4*x^4 + 5*x^3 - 4*x^2 + 3*x - 1",
@@ -26193,9 +26183,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -26203,7 +26193,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -26223,7 +26213,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 4*x^12 + 13*x^10 + 6*x^9 - 39*x^8 - 16*x^7 + 54*x^6 + 45*x^5 - 47*x^4 - 48*x^3 + 9*x^2 + 24*x + 4",
@@ -26397,9 +26387,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -26407,7 +26397,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -26427,7 +26417,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + 6*x^12 + 16*x^11 + 31*x^10 + 45*x^9 + 43*x^8 + 24*x^7 - 9*x^6 - 22*x^5 - 18*x^4 + 10*x^2 + 8*x + 4",
@@ -26601,9 +26591,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -26611,7 +26601,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -26631,7 +26621,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + 5*x^12 + 8*x^11 + x^10 - 4*x^9 + 11*x^8 + 16*x^7 - 4*x^6 - 6*x^5 + 10*x^4 + 8*x^3 - 4*x^2 - 8*x - 2",
@@ -26805,9 +26795,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -26815,7 +26805,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -26835,7 +26825,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 3*x^12 + 5*x^11 - 12*x^10 + 4*x^9 + 4*x^8 + 24*x^7 + 20*x^6 + 4*x^5 - 154*x^4 + 193*x^3 - 98*x^2 + 21*x - 1",
@@ -27009,9 +26999,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -27019,7 +27009,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -27039,7 +27029,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + 3*x^12 + 3*x^11 - 5*x^10 - 15*x^9 - 9*x^8 + 12*x^7 + 22*x^6 + 6*x^5 - 11*x^4 - 10*x^3 + 3*x + 1",
@@ -27213,9 +27203,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -27223,7 +27213,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -27243,7 +27233,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 + 3*x^12 + 5*x^11 + 4*x^10 - 5*x^8 - 7*x^7 - 6*x^6 - x^5 + 3*x^4 + 4*x^3 + 2*x^2 - 1",
@@ -27417,9 +27407,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -27427,7 +27417,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -27447,7 +27437,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 5*x^12 + 9*x^11 - 4*x^10 - 10*x^9 + 20*x^8 - 19*x^7 + 12*x^6 - 15*x^4 + 22*x^3 - 14*x^2 + 3*x + 1",
@@ -27621,9 +27611,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -27631,7 +27621,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -27651,7 +27641,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - x^12 - x^11 - 3*x^10 + x^9 + 5*x^8 + 5*x^7 + 3*x^6 - 7*x^5 - 7*x^4 - 4*x^3 + 2*x^2 + 4*x + 1",
@@ -27825,9 +27815,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -27835,7 +27825,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -27855,7 +27845,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 3*x^12 + 4*x^11 - x^10 - 5*x^9 + 6*x^8 - x^7 - 5*x^6 + 4*x^5 + x^4 - 3*x^3 + x^2 - 1",
@@ -28029,9 +28019,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -28039,7 +28029,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -28059,7 +28049,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 6*x^12 + 19*x^11 - 37*x^10 + 47*x^9 - 36*x^8 + 12*x^7 + 2*x^6 + 6*x^5 - 22*x^4 + 26*x^3 - 16*x^2 + 6*x - 1",
@@ -28233,9 +28223,9 @@
         },
         "sporadic": {
           "value": "no",
-          "rule": "not sporadic: X_1(40) has infinitely many points of degree 12",
+          "rule": "not sporadic: X_1(40) has a function of degree 12 over Q (its gonality), hence infinitely many points of degree 12 by Hilbert irreducibility",
           "sources": [
-            "Hilbert"
+            "DvH14"
           ]
         },
         "isolated": {
@@ -28243,7 +28233,7 @@
           "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
           "sources": [
             "BELOV",
-            "torsion_inf+KolyvaginLogachev"
+            "DvH14"
           ]
         }
       },
@@ -28263,7 +28253,7 @@
       },
       "discovery": {
         "by": "M. van Hoeij",
-        "year": 2013
+        "year": 2012
       },
       "field": {
         "poly": "x^13 - 4*x^12 + 10*x^11 - 18*x^10 + 26*x^9 - 28*x^8 + 19*x^7 - 5*x^6 - 9*x^5 + 14*x^4 - 11*x^3 + 7*x^2 - 2*x + 1",

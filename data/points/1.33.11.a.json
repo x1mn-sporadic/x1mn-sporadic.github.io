@@ -15,9 +15,9 @@
     },
     "sporadic": {
       "value": "no",
-      "rule": "not sporadic: X_1(33) has infinitely many points of degree 10",
+      "rule": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
       "sources": [
-        "Hilbert"
+        "DvH14"
       ]
     },
     "isolated": {
@@ -25,7 +25,7 @@
       "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
       "sources": [
         "BELOV",
-        "DS17"
+        "DvH14"
       ]
     }
   },
@@ -45,7 +45,7 @@
   },
   "discovery": {
     "by": "M. van Hoeij",
-    "year": 2013
+    "year": 2012
   },
   "field": {
     "poly": "x^11 - 2*x^10 - 2*x^9 + 5*x^8 + x^7 - 6*x^6 + 4*x^5 + 3*x^4 - 5*x^3 + x - 1",

@@ -17,9 +17,9 @@
     },
     "sporadic": {
       "value": "no",
-      "rule": "not sporadic: X_1(32) has infinitely many points of degree 8",
+      "rule": "not sporadic: X_1(32) has a function of degree 8 over Q (its gonality), hence infinitely many points of degree 8 by Hilbert irreducibility",
       "sources": [
-        "torsion_inf"
+        "DvH14"
       ]
     },
     "isolated": {
@@ -47,7 +47,7 @@
   },
   "discovery": {
     "by": "M. van Hoeij",
-    "year": 2013
+    "year": 2012
   },
   "field": {
     "poly": "x^9 - 2*x^8 + 4*x^7 - 3*x^6 + 2*x^5 + x^4 - 4*x^3 + 4*x^2 - 3*x + 1",
