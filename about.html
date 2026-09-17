@@ -42,9 +42,11 @@
       computation decides the question. A point enters the census when it is proven sporadic or isolated (status <span class="chip certified">certified</span>),
       or when its degree is undecided (<span class="chip verified">verified · undecided</span>). A point of a degree in which the curve provably has infinitely many
       points is accepted only if it is proven isolated.</dd>
-    <dt>one entry per orbit</dt>
-    <dd>Points are recorded up to the action of the diamond operators: two submissions with the same residue field (up to isomorphism) and the same
-      <span class="m">j</span>-invariant on the same curve are considered the same point. Cusps and points on genus 0 curves are excluded.</dd>
+    <dt>one entry per curve</dt>
+    <dd>Points are recorded once per elliptic curve over its residue field: two submissions on the same <span class="m">X₁(m,n)</span> whose curves are
+      isomorphic over their (isomorphic) residue fields are the same entry — their level structures differ by a diamond operator, by the choice of the
+      torsion basis, or by Galois conjugation (for <span class="m">X₁(N)</span> this is one entry per diamond orbit, as in van Hoeij's list). The test is an
+      isomorphism computation in Magma, not a comparison of invariants. Cusps and points on genus 0 curves are excluded.</dd>
   </dl>
 
   <h3>How a point is certified</h3>

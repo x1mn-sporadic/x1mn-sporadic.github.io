@@ -1,0 +1,15 @@
+[0.000000 s] start: X_1(2,24) mode=ainvs
+[0.000000 s] field: degree 6, x^6 + 2*x^5 - 8*x^4 - 31*x^3 - 41*x^2 - 24*x - 6
+[0.000000 s] curve: [
+0,
+1/459*(-60*a^5 + 736*a^4 + 1304*a^3 - 6920*a^2 - 19084*a - 14573),
+0,
+1/12393*(-140336*a^5 - 300992*a^4 + 1218176*a^3 + 4879168*a^2 + 6130112*a + 2722304),
+0
+]
+[0.0100000 s] orders verified: ord P = 2, ord Q = 24, <P,Q> = Z/2 x Z/24
+[0.0300000 s] torsion bound from reductions: |E(K)_tors| divides 48 (primes [ 37 ])
+[0.0300000 s] Tate normal form done; residue field of the point has degree 6 (K has degree 6)
+[0.0400000 s] j: degree 3, CM false 0
+[0.130000 s] conductor norm 6
+[0.130000 s] VERIFY_DONE

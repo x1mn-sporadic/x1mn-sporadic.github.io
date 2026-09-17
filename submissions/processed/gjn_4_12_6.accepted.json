@@ -1,0 +1,17 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 4, "n": 12,
+  "field": "x^6 + 2*x^3 + 9*x^2 - 6*x + 2",
+  "curve": {"ainvs": ["1", "-1", "1", "4", "-1"]},
+  "points": {"P": ["(-3*a^5 - a^4 + 9*a^3 - 3*a^2 + 32)/14", "(-3*a^5 - a^4 + 9*a^3 - 3*a^2 - 80)/14"],
+             "Q": ["(9*a^5 + 3*a^4 + a^3 + 23*a^2 + 98*a - 12)/14", "(-9*a^5 - 3*a^4 - a^3 - 23*a^2 - 98*a + 19)/7"]},
+  "degree": 6,
+  "discoverer": "E. González-Jiménez, F. Najman", "year": 2018,
+  "submitter": "Filip Najman",
+  "affiliation": "University of Zagreb",
+  "github": "F-Najman",
+  "reference": "E. González-Jiménez, F. Najman, An algorithm for determining torsion growth of elliptic curves, Exp. Math. (2020), arXiv:1809.02580; see also Remark 1 of H. B. Daniels, E. González-Jiménez, arXiv:1808.02887. The curve is 162d1 over K = Q(alpha, i), alpha^3 - 3 alpha - 4 = 0.",
+  "notes": "The rational elliptic curve 162d1 (j = 109503/64) acquires torsion Z/4 x Z/12 over the sextic field Q(alpha, i); (4,12) is in Phi_Q(6) but not in Phi^infty(6).",
+  "date": "2018-09-01",
+  "source": {"kind": "file", "path": "submissions/inbox/gjn_4_12_6.json"}
+}

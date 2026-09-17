@@ -1,0 +1,220 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "3.12.6.a",
+  "m": 3,
+  "n": 12,
+  "degree": 6,
+  "relative_degree": 3,
+  "base_field": "Q(zeta_3)",
+  "status": "certified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "yes",
+      "rule": "X_1(3,12) has infinitely many points of degree 6",
+      "sources": [
+        "DS17"
+      ]
+    },
+    "sporadic": {
+      "value": "no",
+      "rule": "not sporadic: X_1(3,12) has infinitely many points of degree 6",
+      "sources": [
+        "DS17"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q(zeta_3) is 0 (AV-isolated)",
+      "sources": [
+        "BELOV",
+        "DS17"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": true,
+    "p1_isolated": true,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "primes": [
+      7
+    ],
+    "l_values": [
+      1
+    ],
+    "model": "mdmagma MDX11(3,12) (Derickx-Sutherland model of X_1(3,12))",
+    "cputime_seconds": "0.150000",
+    "isolation_lib_sha256": "06a5a6804036a597a2254e18da0d85b34a6ec7c98a42e502426f269b747a16e2"
+  },
+  "discovery": {
+    "by": "F. Najman",
+    "year": 2026
+  },
+  "field": {
+    "poly": "x^6 + 4*x^5 + 10*x^4 + 13*x^3 + 11*x^2 + 3*x + 1",
+    "poly_coeffs": [
+      "1",
+      "3",
+      "11",
+      "13",
+      "10",
+      "4",
+      "1"
+    ],
+    "polredabs": "x^6 - x^5 - x^4 + x^3 + 4*x^2 - 6*x + 3",
+    "degree": 6,
+    "disc": "-59967",
+    "disc_factored": "-1 * 3^3 * 2221",
+    "signature": [
+      0,
+      3
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "13*a^5 + 32*a^4 + 61*a^3 + 39*a^2 + 12*a + 3",
+    "tate_c": "6*a^5 + 15*a^4 + 27*a^3 + 16*a^2 + 5*a + 1",
+    "tate_b_coeffs": [
+      "3",
+      "12",
+      "39",
+      "61",
+      "32",
+      "13"
+    ],
+    "tate_c_coeffs": [
+      "1",
+      "5",
+      "16",
+      "27",
+      "15",
+      "6"
+    ],
+    "ainvs": [
+      "1 - (6*a^5 + 15*a^4 + 27*a^3 + 16*a^2 + 5*a + 1)",
+      "-(13*a^5 + 32*a^4 + 61*a^3 + 39*a^2 + 12*a + 3)",
+      "-(13*a^5 + 32*a^4 + 61*a^3 + 39*a^2 + 12*a + 3)",
+      "0",
+      "0"
+    ],
+    "P": [
+      "-6*a^5 - 28*a^4 - 53*a^3 - 65*a^2 - 17*a - 7",
+      "10*a^5 - 55*a^4 - 105*a^3 - 247*a^2 - 59*a - 29"
+    ],
+    "P_coeffs": [
+      [
+        "-7",
+        "-17",
+        "-65",
+        "-53",
+        "-28",
+        "-6"
+      ],
+      [
+        "-29",
+        "-59",
+        "-247",
+        "-105",
+        "-55",
+        "10"
+      ]
+    ],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^6 - 71833351978189/3280103424*x^5 + 8871960579479103779290117/19588672684818432*x^4 - 1667111205238465412709500183/2448584085602304*x^3 - 15018281007171309832505346237035/9794336342409216*x^2 + 2088762179289373136251743851454493/1224292042801152*x + 50478447414313554671328735361525903081/19588672684818432",
+    "j_degree": 6,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "twist_norm_class": "145649923496126053073652550381",
+    "disc_norm": "36859543552/282429536481",
+    "conductor_norm": "156"
+  },
+  "torsion": {
+    "invariants": [
+      3,
+      12
+    ],
+    "known_exactly": true,
+    "order_bound": 36,
+    "bound_primes": [
+      31
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^6 + 4*x^5 + 10*x^4 + 13*x^3 + 11*x^2 + 3*x + 1",
+      "degree": 6
+    },
+    "mode": "ainvs",
+    "curve": {
+      "ainvs": [
+        "1/9*(7*a^5 + 33*a^4 + 70*a^3 + 72*a^2 + 26*a + 16)",
+        "0",
+        "1/27*(23*a^5 + 135*a^4 + 269*a^3 + 282*a^2 + 76*a + 29)",
+        "0",
+        "0"
+      ]
+    },
+    "points": {
+      "P": [
+        "0",
+        "0"
+      ],
+      "Q": [
+        "1/9*(-a^5 - 9*a^4 - 25*a^3 - 33*a^2 - 17*a - 4)",
+        "1/27*(-20*a^5 - 22*a^4 + 2*a^3 + 67*a^2 + 13*a + 6)"
+      ]
+    },
+    "ainvs_as_verified": [
+      "1/9*(7*a^5 + 33*a^4 + 70*a^3 + 72*a^2 + 26*a + 16)",
+      "0",
+      "1/27*(23*a^5 + 135*a^4 + 269*a^3 + 282*a^2 + 76*a + 29)",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "0"
+      ],
+      "Q": [
+        "1/9*(-a^5 - 9*a^4 - 25*a^3 - 33*a^2 - 17*a - 4)",
+        "1/27*(-20*a^5 - 22*a^4 + 2*a^3 + 67*a^2 + 13*a + 6)"
+      ],
+      "order_P": 3,
+      "order_Q": 12
+    },
+    "working_field": {
+      "poly": "x^6 + 4*x^5 + 10*x^4 + 13*x^3 + 11*x^2 + 3*x + 1",
+      "degree": 6
+    },
+    "claimed_degree": 6,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Filip Najman",
+    "github": "F-Najman",
+    "affiliation": "University of Zagreb"
+  },
+  "reference": "F. Najman, unpublished (2026)",
+  "notes": "Found by a van Hoeij-style search for zeros of f - c, f a modular unit of X1(3,12) over Q(zeta_3): a cubic point over Q(zeta_3) (absolute degree 6) with dim L(x) = 1, outside the pencil of the degree-3 map that puts (3,12) in Phi^infty(6). The search found 48 places of X1(3,12) over Q(zeta_3) on this curve (its level structures, and their conjugates under zeta_3 -> zeta_3^2); the census records the curve once.",
+  "source": {
+    "kind": "file",
+    "path": "submissions/inbox/najman_3_12_6_01.json"
+  },
+  "dates": {
+    "submitted": "2026-09-13",
+    "verified": "2026-09-17 13:38:00 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.29-4",
+    "cputime_seconds": "0.120000",
+    "verify_lib_sha256": "882aafaf0ea8f7632aba001ca8907387186b3282032b4f320fcbb868a511c4f4",
+    "log": "data/logs/3.12.6.a.log",
+    "isolation_log": "data/logs/3.12.6.a.isolation.log"
+  }
+}

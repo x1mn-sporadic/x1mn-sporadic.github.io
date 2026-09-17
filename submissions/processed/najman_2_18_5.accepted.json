@@ -1,0 +1,36 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 2,
+  "n": 18,
+  "field": "27*x^5 + 99*x^4 - 50*x^3 - 82*x^2 - 25*x - 1",
+  "curve": {
+    "ainvs": [
+      "0",
+      "(878337*a^4 + 3177882*a^3 - 1780432*a^2 - 2579138*a - 689573)/116",
+      "0",
+      "(1 - (-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116 - (878337*a^4 + 3177882*a^3 - 1780432*a^2 - 2579138*a - 689573)/116)*(-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116",
+      "0"
+    ]
+  },
+  "points": {
+    "P": [
+      "0",
+      "0"
+    ],
+    "Q": [
+      "(-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116",
+      "(-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116"
+    ]
+  },
+  "degree": 5,
+  "submitter": "Filip Najman",
+  "reference": "F. Najman, unpublished (2026)",
+  "notes": "Found by an exhaustive enumeration of the degree-5 divisor classes of X1(2,18) (class group over F_5, lift by Riemann-Roch); the 18 level structures Z/2 x Z/18 on this curve are the only non-cuspidal quintic points of X1(2,18) up to Galois conjugation.",
+  "date": "2026-09-05",
+  "source": {
+    "kind": "file",
+    "path": "submissions/inbox/najman_2_18_5.json"
+  },
+  "discoverer": "F. Najman",
+  "year": 2026
+}

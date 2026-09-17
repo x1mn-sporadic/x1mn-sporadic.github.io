@@ -186,9 +186,6 @@ def run_isolation(res: dict, jobdir: Path, args) -> dict:
     if args.no_isolation:
         rec["note"] = "not attempted (--no-isolation)"
         return rec
-    if res["m"] > 2:
-        rec["note"] = f"not implemented for m = {res['m']}"
-        return rec
     if not MDMAGMA_SPEC.exists():
         rec["note"] = "mdmagma not available (pipeline/external/mdmagma missing)"
         return rec
@@ -242,10 +239,38 @@ def next_id(m: int, n: int, d: int, points) -> str:
         k += 1
 
 
-def find_duplicate(m, n, field_polredabs, j_minpoly, points):
+SAME_CURVE = Path(__file__).resolve().parent / "magma" / "same_curve.m"
+
+
+def same_curve(rf1: dict, cert2: dict, jobdir: Path) -> bool:
+    """Magma: is the Tate-model curve over the residue field rf1 isomorphic (over the field, up to an
+    isomorphism of the fields) to the curve of the existing certificate cert2?"""
+    tate = lambda b, c: [f"1 - ({c})", f"-({b})", f"-({b})", "0", "0"]
+    a1 = tate(rf1["b"], rf1["c"])
+    a2 = tate(cert2["curve"]["tate_b"], cert2["curve"]["tate_c"])
+    out = jobdir / f"same_{cert2['id']}.json"
+    lines = ["SetColumns(0);", f"fpoly1 := {magma_string(rf1['poly'])};",
+             "ainvs1 := [" + ", ".join(magma_string(v) for v in a1) + "];",
+             f"fpoly2 := {magma_string(cert2['field']['poly'])};",
+             "ainvs2 := [" + ", ".join(magma_string(v) for v in a2) + "];",
+             f"OutFile := {magma_string(str(out))};", f'load "{SAME_CURVE}";', "quit;"]
+    job = jobdir / f"same_{cert2['id']}.m"
+    job.write_text("\n".join(lines) + "\n")
+    rc, timed_out = run_magma(job, 600)
+    if timed_out or not out.exists():
+        log(f"  same-curve test against {cert2['id']} did not finish; treating as different")
+        return False
+    return bool(read_json(out).get("same"))
+
+
+def find_duplicate(m, n, field_polredabs, j_minpoly, rf, points, jobdir):
+    """The point is recorded once per elliptic curve over its residue field: a submission whose curve is
+    isomorphic (over the field, up to field isomorphism) to that of an existing point on the same curve
+    X_1(m,n) is a duplicate -- the two level structures differ by a diamond operator, the choice of the
+    torsion basis, or Galois conjugation.  Candidates are pre-filtered by residue field and j-invariant."""
     for p in points:
         if p["m"] == m and p["n"] == n and p["field"].get("polredabs") == field_polredabs \
-                and p["curve"]["j_minpoly"] == j_minpoly:
+                and p["curve"]["j_minpoly"] == j_minpoly and same_curve(rf, p, jobdir):
             return p["id"]
     return None
 
@@ -268,9 +293,9 @@ def build_certificate(v: dict, res: dict, curve: dict, points, jobdir: Path, iso
         raise Reject(f"expected degree {v['degree']} but the point has degree {d}")
     cls = knowledge.classify_point(curve, d, iso)
     canon = polredabs(rf["poly"])
-    dup = find_duplicate(m, n, canon, res["curve"]["j_minpoly"], points)
+    dup = find_duplicate(m, n, canon, res["curve"]["j_minpoly"], rf, points, jobdir)
     if dup:
-        raise Reject(f"duplicate of the existing point {dup} (same residue field and j-invariant)")
+        raise Reject(f"duplicate of the existing point {dup} (the same elliptic curve over the same residue field)")
     if cls["status"] == "rejected":
         raise Reject("the point is verified but neither sporadic nor isolated: "
                      f"{cls['sporadic']['rule']}; {cls['isolated']['rule']}")
@@ -301,6 +326,7 @@ def build_certificate(v: dict, res: dict, curve: dict, points, jobdir: Path, iso
             "j_minpoly": res["curve"]["j_minpoly"], "j_degree": res["curve"]["j_degree"],
             "j_rational": res["curve"]["j_rational"],
             "cm": res["curve"]["cm"], "cm_disc": res["curve"]["cm_disc"],
+            "twist_norm_class": res["curve"].get("twist_norm_class", ""),
             "disc_norm": res["curve"]["disc_norm"], "conductor_norm": res["curve"]["conductor_norm"],
         },
         "torsion": res["torsion"],

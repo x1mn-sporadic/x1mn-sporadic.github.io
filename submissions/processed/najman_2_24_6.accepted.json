@@ -1,0 +1,36 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 2,
+  "n": 24,
+  "field": "x^6 + 2*x^5 - 8*x^4 - 31*x^3 - 41*x^2 - 24*x - 6",
+  "curve": {
+    "ainvs": [
+      "0",
+      "(-60*a^5 + 736*a^4 + 1304*a^3 - 6920*a^2 - 19084*a - 14573)/459",
+      "0",
+      "(1 - (-12*a^5 - 560*a^4 - 460*a^3 + 5824*a^2 + 13496*a + 9424)/459 - (-60*a^5 + 736*a^4 + 1304*a^3 - 6920*a^2 - 19084*a - 14573)/459)*(-12*a^5 - 560*a^4 - 460*a^3 + 5824*a^2 + 13496*a + 9424)/459",
+      "0"
+    ]
+  },
+  "points": {
+    "P": [
+      "0",
+      "0"
+    ],
+    "Q": [
+      "(-12*a^5 - 560*a^4 - 460*a^3 + 5824*a^2 + 13496*a + 9424)/459",
+      "(-12*a^5 - 560*a^4 - 460*a^3 + 5824*a^2 + 13496*a + 9424)/459"
+    ]
+  },
+  "degree": 6,
+  "submitter": "Filip Najman",
+  "reference": "F. Najman, unpublished (2026)",
+  "notes": "Found by a van Hoeij-style search for zeros of f - c with f a modular unit of X1(2,24).",
+  "date": "2026-09-13",
+  "source": {
+    "kind": "file",
+    "path": "submissions/inbox/najman_2_24_6.json"
+  },
+  "discoverer": "F. Najman",
+  "year": 2026
+}

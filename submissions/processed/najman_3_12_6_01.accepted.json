@@ -1,0 +1,41 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 3,
+  "n": 12,
+  "field": "x^6 + 4*x^5 + 10*x^4 + 13*x^3 + 11*x^2 + 3*x + 1",
+  "curve": {
+    "ainvs": [
+      "1/9*(7*a^5 + 33*a^4 + 70*a^3 + 72*a^2 + 26*a + 16)",
+      "0",
+      "1/27*(23*a^5 + 135*a^4 + 269*a^3 + 282*a^2 + 76*a + 29)",
+      "0",
+      "0"
+    ]
+  },
+  "points": {
+    "P": [
+      "0",
+      "0"
+    ],
+    "Q": [
+      "1/9*(-a^5 - 9*a^4 - 25*a^3 - 33*a^2 - 17*a - 4)",
+      "1/27*(-20*a^5 - 22*a^4 + 2*a^3 + 67*a^2 + 13*a + 6)"
+    ]
+  },
+  "degree": 6,
+  "expected": {
+    "j_degree": 6
+  },
+  "discoverer": "F. Najman",
+  "year": 2026,
+  "submitter": "Filip Najman",
+  "affiliation": "University of Zagreb",
+  "github": "F-Najman",
+  "reference": "F. Najman, unpublished (2026)",
+  "notes": "Found by a van Hoeij-style search for zeros of f - c, f a modular unit of X1(3,12) over Q(zeta_3): a cubic point over Q(zeta_3) (absolute degree 6) with dim L(x) = 1, outside the pencil of the degree-3 map that puts (3,12) in Phi^infty(6).",
+  "date": "2026-09-13",
+  "source": {
+    "kind": "file",
+    "path": "submissions/inbox/najman_3_12_6_01.json"
+  }
+}

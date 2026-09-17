@@ -328,6 +328,21 @@ catch e
   Log("HasComplexMultiplication failed: " cat Sprint(e`Object));
 end try;
 Log(Sprintf("j: degree %o, CM %o %o", jdeg, cmflag, cmdisc));
+// twist class: E = (canonical curve with the same j)^d over K; the square class of Norm(d) is invariant
+// under K-isomorphism and Galois conjugation, so (residue field, j, this class) separates twists
+twist_norm_class := "";
+if jdeg ge 1 and j ne 0 and j ne 1728 then
+  try
+    Ej := EllipticCurveFromjInvariant(j);
+    okt, dt := IsQuadraticTwist(E, Ej);
+    if okt then
+      nd := Norm(dt);
+      twist_norm_class := Sprint(SquarefreeFactorization(Numerator(nd)*Denominator(nd)));
+    end if;
+  catch e
+    Log("twist class not computed: " cat Sprint(e`Object));
+  end try;
+end if;
 dn := Norm(Discriminant(E));
 disc_norm := Sprint(Numerator(dn)) cat (Denominator(dn) eq 1 select "" else "/" cat Sprint(Denominator(dn)));
 cond_norm := "";
@@ -358,7 +373,7 @@ Emit([*
       <"ainvs_coeffs", [Coeffs(v) : v in aInvariants(E)]>,
       <"j", ElementString(j)>, <"j_rational", jrat>,
       <"j_minpoly", PolyString(jmin, "x")>, <"j_degree", jdeg>,
-      <"cm", cmflag>, <"cm_disc", cmdisc>,
+      <"cm", cmflag>, <"cm_disc", cmdisc>, <"twist_norm_class", twist_norm_class>,
       <"disc_norm", disc_norm>, <"conductor_norm", cond_norm>
   *]>,
   <"points", [* <"P", [ElementString(P[1]), ElementString(P[2])]>, <"Q", [ElementString(Q[1]), ElementString(Q[2])]>,

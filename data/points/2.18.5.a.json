@@ -1,0 +1,214 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "2.18.5.a",
+  "m": 2,
+  "n": 18,
+  "degree": 5,
+  "relative_degree": 5,
+  "base_field": "Q",
+  "status": "certified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "no",
+      "rule": "X_1(2,18) has only finitely many points of degree 5",
+      "sources": [
+        "DS17"
+      ]
+    },
+    "sporadic": {
+      "value": "no",
+      "rule": "not sporadic: X_1(2,18) has infinitely many points of degree 4",
+      "sources": [
+        "JKP06"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "finitely many points of degree 5 on X_1(2,18), so the point lies in no positive-dimensional family",
+      "sources": [
+        "DS17",
+        "BELOV"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": true,
+    "p1_isolated": true,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "primes": [
+      5
+    ],
+    "l_values": [
+      1
+    ],
+    "model": "mdmagma MDX11(2,18) (Derickx-Sutherland model of X_1(2,18))",
+    "cputime_seconds": "0.260000",
+    "isolation_lib_sha256": "2fd2b91355fe79b6138415f8c41c9d82fe8cbb637d721d2801dac0566b1becb7"
+  },
+  "discovery": {
+    "by": "F. Najman",
+    "year": 2026
+  },
+  "field": {
+    "poly": "x^5 - 2*x^4 + 2*x^3 - 3*x^2 - x + 4",
+    "poly_coeffs": [
+      "4",
+      "-1",
+      "-3",
+      "2",
+      "-2",
+      "1"
+    ],
+    "polredabs": "x^5 - 2*x^4 + 2*x^3 - 3*x^2 - x + 4",
+    "degree": 5,
+    "disc": "-34779",
+    "disc_factored": "-1 * 3 * 11593",
+    "signature": [
+      3,
+      1
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "335*a^4 - 163*a^3 + 425*a^2 - 364*a - 882",
+    "tate_c": "21*a^4 - 12*a^3 + 29*a^2 - 27*a - 50",
+    "tate_b_coeffs": [
+      "-882",
+      "-364",
+      "425",
+      "-163",
+      "335"
+    ],
+    "tate_c_coeffs": [
+      "-50",
+      "-27",
+      "29",
+      "-12",
+      "21"
+    ],
+    "ainvs": [
+      "1 - (21*a^4 - 12*a^3 + 29*a^2 - 27*a - 50)",
+      "-(335*a^4 - 163*a^3 + 425*a^2 - 364*a - 882)",
+      "-(335*a^4 - 163*a^3 + 425*a^2 - 364*a - 882)",
+      "0",
+      "0"
+    ],
+    "P": [
+      "-5*a^4 + 6*a^3 - 11*a^2 + 14*a + 2",
+      "85*a^4 - 22*a^3 + 82*a^2 - 46*a - 284"
+    ],
+    "P_coeffs": [
+      [
+        "2",
+        "14",
+        "-11",
+        "6",
+        "-5"
+      ],
+      [
+        "-284",
+        "-46",
+        "82",
+        "-22",
+        "85"
+      ]
+    ],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^5 - 5358190504483/7077888*x^4 + 6142426326903216601/191102976*x^3 - 10637527089413694781373/31850496*x^2 + 20996209035044656887145021/15925248*x - 344261640807789486734825140969/191102976",
+    "j_degree": 5,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "disc_norm": "302231454903657293676544/729",
+    "conductor_norm": "6"
+  },
+  "torsion": {
+    "invariants": [
+      2,
+      18
+    ],
+    "known_exactly": true,
+    "order_bound": 36,
+    "bound_primes": [
+      29
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "27*x^5 + 99*x^4 - 50*x^3 - 82*x^2 - 25*x - 1",
+      "degree": 5
+    },
+    "mode": "ainvs",
+    "curve": {
+      "ainvs": [
+        "0",
+        "(878337*a^4 + 3177882*a^3 - 1780432*a^2 - 2579138*a - 689573)/116",
+        "0",
+        "(1 - (-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116 - (878337*a^4 + 3177882*a^3 - 1780432*a^2 - 2579138*a - 689573)/116)*(-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116",
+        "0"
+      ]
+    },
+    "points": {
+      "P": [
+        "0",
+        "0"
+      ],
+      "Q": [
+        "(-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116",
+        "(-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116"
+      ]
+    },
+    "ainvs_as_verified": [
+      "0",
+      "1/116*(878337*a^4 + 3177882*a^3 - 1780432*a^2 - 2579138*a - 689573)",
+      "0",
+      "1/29*(-270014202*a^4 - 977353812*a^3 + 545989420*a^2 + 794366220*a + 212655430)",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "0"
+      ],
+      "Q": [
+        "1/116*(-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)",
+        "1/116*(-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)"
+      ],
+      "order_P": 2,
+      "order_Q": 18
+    },
+    "working_field": {
+      "poly": "x^5 + 11/3*x^4 - 50/27*x^3 - 82/27*x^2 - 25/27*x - 1/27",
+      "degree": 5
+    },
+    "claimed_degree": 5,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Filip Najman",
+    "github": "",
+    "affiliation": ""
+  },
+  "reference": "F. Najman, unpublished (2026)",
+  "notes": "Found by an exhaustive enumeration of the degree-5 divisor classes of X1(2,18) (class group over F_5, lift by Riemann-Roch); the 18 level structures Z/2 x Z/18 on this curve are the only non-cuspidal quintic points of X1(2,18) up to Galois conjugation.",
+  "source": {
+    "kind": "file",
+    "path": "submissions/inbox/najman_2_18_5.json"
+  },
+  "dates": {
+    "submitted": "2026-09-05",
+    "verified": "2026-09-17 13:24:52 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.29-4",
+    "cputime_seconds": "0.110000",
+    "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
+    "log": "data/logs/2.18.5.a.log",
+    "isolation_log": "data/logs/2.18.5.a.isolation.log"
+  }
+}

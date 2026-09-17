@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 11:48 UTC",
+  "generated": "2026-09-17 13:42 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -10,12 +10,12 @@
     "gonality": "Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Abramovich, or Najman's unpublished computations); for m >= 3 only Abramovich's geometric lower bound"
   },
   "n_curves": 165,
-  "n_points": 140,
-  "n_certified": 108,
+  "n_points": 145,
+  "n_certified": 113,
   "n_verified": 32,
-  "n_sporadic": 49,
-  "n_isolated": 108,
-  "n_rejected": 0,
+  "n_sporadic": 51,
+  "n_isolated": 113,
+  "n_rejected": 1,
   "curves": [
     {
       "m": 1,
@@ -8730,12 +8730,43 @@
       },
       "table_note": "DT",
       "in_tables": true,
-      "points": [],
-      "n_certified": 0,
+      "points": [
+        {
+          "id": "2.18.5.a",
+          "degree": 5,
+          "status": "certified",
+          "j_degree": 5,
+          "cm": false,
+          "field_poly": "x^5 - 2*x^4 + 2*x^3 - 3*x^2 - x + 4",
+          "field_disc": "-34779",
+          "j_rational": "",
+          "torsion": [
+            2,
+            18
+          ],
+          "torsion_known": true,
+          "infinite": "no",
+          "sporadic": "no",
+          "isolated": "yes",
+          "rules": {
+            "infinite_in_degree": "X_1(2,18) has only finitely many points of degree 5",
+            "sporadic": "not sporadic: X_1(2,18) has infinitely many points of degree 4",
+            "isolated": "finitely many points of degree 5 on X_1(2,18), so the point lies in no positive-dimensional family"
+          },
+          "discovered_by": "F. Najman",
+          "year": 2026,
+          "submitter": "Filip Najman",
+          "reference": "F. Najman, unpublished (2026)",
+          "verified": "2026-09-17 13:24:52 UTC"
+        }
+      ],
+      "n_certified": 1,
       "n_verified": 0,
       "n_sporadic": 0,
-      "n_isolated": 0,
-      "degrees_present": []
+      "n_isolated": 1,
+      "degrees_present": [
+        5
+      ]
     },
     {
       "m": 2,
@@ -8868,12 +8899,43 @@
       },
       "table_note": "DT",
       "in_tables": true,
-      "points": [],
-      "n_certified": 0,
+      "points": [
+        {
+          "id": "2.24.6.a",
+          "degree": 6,
+          "status": "certified",
+          "j_degree": 3,
+          "cm": false,
+          "field_poly": "x^6 + 3*x^5 - 2*x^4 - 10*x^3 - 2*x^2 + 3*x + 1",
+          "field_disc": "231852",
+          "j_rational": "",
+          "torsion": [
+            2,
+            24
+          ],
+          "torsion_known": true,
+          "infinite": "no",
+          "sporadic": "yes",
+          "isolated": "yes",
+          "rules": {
+            "infinite_in_degree": "X_1(2,24) has only finitely many points of degree 6",
+            "sporadic": "finitely many points of each degree <= 6 on X_1(2,24)",
+            "isolated": "finitely many points of degree 6 on X_1(2,24), so the point lies in no positive-dimensional family"
+          },
+          "discovered_by": "F. Najman",
+          "year": 2026,
+          "submitter": "Filip Najman",
+          "reference": "F. Najman, unpublished (2026)",
+          "verified": "2026-09-17 13:24:53 UTC"
+        }
+      ],
+      "n_certified": 1,
       "n_verified": 0,
-      "n_sporadic": 0,
-      "n_isolated": 0,
-      "degrees_present": []
+      "n_sporadic": 1,
+      "n_isolated": 1,
+      "degrees_present": [
+        6
+      ]
     },
     {
       "m": 2,
@@ -9857,12 +9919,71 @@
       },
       "table_note": "",
       "in_tables": false,
-      "points": [],
-      "n_certified": 0,
+      "points": [
+        {
+          "id": "3.12.6.a",
+          "degree": 6,
+          "status": "certified",
+          "j_degree": 6,
+          "cm": false,
+          "field_poly": "x^6 + 4*x^5 + 10*x^4 + 13*x^3 + 11*x^2 + 3*x + 1",
+          "field_disc": "-59967",
+          "j_rational": "",
+          "torsion": [
+            3,
+            12
+          ],
+          "torsion_known": true,
+          "infinite": "yes",
+          "sporadic": "no",
+          "isolated": "yes",
+          "rules": {
+            "infinite_in_degree": "X_1(3,12) has infinitely many points of degree 6",
+            "sporadic": "not sporadic: X_1(3,12) has infinitely many points of degree 6",
+            "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q(zeta_3) is 0 (AV-isolated)"
+          },
+          "discovered_by": "F. Najman",
+          "year": 2026,
+          "submitter": "Filip Najman",
+          "reference": "F. Najman, unpublished (2026)",
+          "verified": "2026-09-17 13:38:00 UTC"
+        },
+        {
+          "id": "3.12.6.b",
+          "degree": 6,
+          "status": "certified",
+          "j_degree": 3,
+          "cm": false,
+          "field_poly": "x^6 - x^5 + x^4 + 2*x^3 - x^2 + 1",
+          "field_disc": "-25947",
+          "j_rational": "",
+          "torsion": [
+            3,
+            12
+          ],
+          "torsion_known": true,
+          "infinite": "yes",
+          "sporadic": "no",
+          "isolated": "yes",
+          "rules": {
+            "infinite_in_degree": "X_1(3,12) has infinitely many points of degree 6",
+            "sporadic": "not sporadic: X_1(3,12) has infinitely many points of degree 6",
+            "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q(zeta_3) is 0 (AV-isolated)"
+          },
+          "discovered_by": "F. Najman",
+          "year": 2026,
+          "submitter": "Filip Najman",
+          "reference": "F. Najman, unpublished (2026)",
+          "verified": "2026-09-17 13:38:02 UTC"
+        }
+      ],
+      "n_certified": 2,
       "n_verified": 0,
       "n_sporadic": 0,
-      "n_isolated": 0,
-      "degrees_present": []
+      "n_isolated": 2,
+      "degrees_present": [
+        6
+      ]
     },
     {
       "m": 3,
@@ -10319,12 +10440,43 @@
       },
       "table_note": "",
       "in_tables": false,
-      "points": [],
-      "n_certified": 0,
+      "points": [
+        {
+          "id": "4.12.6.a",
+          "degree": 6,
+          "status": "certified",
+          "j_degree": 1,
+          "cm": false,
+          "field_poly": "x^6 + 2*x^3 + 9*x^2 - 6*x + 2",
+          "field_disc": "-419904",
+          "j_rational": "109503/64",
+          "torsion": [
+            4,
+            12
+          ],
+          "torsion_known": true,
+          "infinite": "no",
+          "sporadic": "yes",
+          "isolated": "yes",
+          "rules": {
+            "infinite_in_degree": "X_1(4,12) has only finitely many points of degree 6",
+            "sporadic": "finitely many points of each degree <= 6 on X_1(4,12)",
+            "isolated": "finitely many points of degree 6 on X_1(4,12), so the point lies in no positive-dimensional family"
+          },
+          "discovered_by": "E. González-Jiménez, F. Najman",
+          "year": 2018,
+          "submitter": "Filip Najman",
+          "reference": "E. González-Jiménez, F. Najman, An algorithm for determining torsion growth of elliptic curves, Exp. Math. (2020), arXiv:1809.02580; see also Remark 1 of H. B. Daniels, E. González-Jiménez, arXiv:1808.02887. The curve is 162d1 over K = Q(alpha, i), alpha^3 - 3 alpha - 4 = 0.",
+          "verified": "2026-09-17 13:30:27 UTC"
+        }
+      ],
+      "n_certified": 1,
       "n_verified": 0,
-      "n_sporadic": 0,
-      "n_isolated": 0,
-      "degrees_present": []
+      "n_sporadic": 1,
+      "n_isolated": 1,
+      "degrees_present": [
+        6
+      ]
     },
     {
       "m": 4,
