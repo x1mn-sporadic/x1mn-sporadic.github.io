@@ -298,4 +298,6 @@ def classify_degree(curve: dict, d: int) -> dict:
         return {"status": "sporadic",
                 "rule": f"rank J_1({n if m == 1 else str(m) + ',' + str(n)})({curve['base_field']}) = 0 and {dd} < {lb} <= gonality",
                 "sources": ["RankZeroLemma", rk.get("source", ""), gon.get("source", "")]}
-    return {"status": "open", "rule": "no applicable finiteness result recorded in data/knowledge", "sources": []}
+    return {"status": "open",
+            "rule": f"no recorded result decides whether {curve_label(m, n)} has finitely many points of degree {d}",
+            "sources": []}

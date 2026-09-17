@@ -338,10 +338,14 @@ def process(path: Path, curves: dict, args) -> str:
         (DATA / "logs").mkdir(exist_ok=True)
         shutil.copy(jobdir / "magma.log", DATA / "logs" / f"{pid}.log")
         log(f"  ACCEPTED as {pid} [{cert['status']}] degree {cert['degree']}: {cert['sporadicity']['rule']}")
-        body = (f"Verified on Mordell and added to the census as **{pid}** "
-                f"(status: {cert['status']}, degree {cert['degree']}).\n\n"
-                f"Sporadicity: {cert['sporadicity']['status']} — {cert['sporadicity']['rule']}.\n\n"
-                f"Page: {site_url(pid)}")
+        if cert["status"] == "certified":
+            verdict = (f"**Certified sporadic**: {cert['sporadicity']['rule']} "
+                       f"(sources: {', '.join(s for s in cert['sporadicity']['sources'] if s)}).")
+        else:
+            verdict = (f"**Verified, sporadicity open**: the point is genuine, but {cert['sporadicity']['rule']}. "
+                       "It is listed with that label; if you know a reference settling this, please add a comment.")
+        body = (f"Verified on Mordell and added to the census as **{pid}** (degree {cert['degree']}).\n\n"
+                f"{verdict}\n\nPage: {site_url(pid)}")
         github_feedback(v, cert["status"], body, args.no_github)
         outcome = "accepted"
     except Reject as e:

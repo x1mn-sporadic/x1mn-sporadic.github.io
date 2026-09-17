@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 09:24 UTC",
+  "generated": "2026-09-17 09:26 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
