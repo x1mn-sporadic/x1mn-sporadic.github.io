@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 09:26 UTC",
+  "generated": "2026-09-17 09:27 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -786,7 +786,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 44 (point found earlier by Najman, arXiv:1211.2188)",
-          "verified": "2026-09-17 09:22:30 UTC"
+          "verified": "2026-09-17 09:26:14 UTC"
         }
       ],
       "n_certified": 1,
@@ -970,7 +970,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 48",
-          "verified": "2026-09-17 09:22:30 UTC"
+          "verified": "2026-09-17 09:26:15 UTC"
         },
         {
           "id": "1.25.7.a",
@@ -987,7 +987,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 49",
-          "verified": "2026-09-17 09:22:31 UTC"
+          "verified": "2026-09-17 09:26:15 UTC"
         }
       ],
       "n_certified": 2,
@@ -1131,7 +1131,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 53",
-          "verified": "2026-09-17 09:22:31 UTC"
+          "verified": "2026-09-17 09:26:15 UTC"
         }
       ],
       "n_certified": 1,
@@ -1194,7 +1194,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 57",
-          "verified": "2026-09-17 09:22:31 UTC"
+          "verified": "2026-09-17 09:26:15 UTC"
         },
         {
           "id": "1.29.10.a",
@@ -1211,7 +1211,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 58",
-          "verified": "2026-09-17 09:22:31 UTC"
+          "verified": "2026-09-17 09:26:15 UTC"
         },
         {
           "id": "1.29.10.b",
@@ -1228,7 +1228,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 59",
-          "verified": "2026-09-17 09:22:31 UTC"
+          "verified": "2026-09-17 09:26:15 UTC"
         }
       ],
       "n_certified": 3,
@@ -1290,7 +1290,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 63",
-          "verified": "2026-09-17 09:22:31 UTC"
+          "verified": "2026-09-17 09:26:16 UTC"
         },
         {
           "id": "1.30.5.b",
@@ -1307,7 +1307,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 64",
-          "verified": "2026-09-17 09:22:32 UTC"
+          "verified": "2026-09-17 09:26:16 UTC"
         }
       ],
       "n_certified": 2,
@@ -1371,7 +1371,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 68",
-          "verified": "2026-09-17 09:22:33 UTC"
+          "verified": "2026-09-17 09:26:17 UTC"
         },
         {
           "id": "1.31.10.a",
@@ -1388,7 +1388,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 69",
-          "verified": "2026-09-17 09:22:32 UTC"
+          "verified": "2026-09-17 09:26:16 UTC"
         },
         {
           "id": "1.31.11.a",
@@ -1405,7 +1405,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 70",
-          "verified": "2026-09-17 09:22:32 UTC"
+          "verified": "2026-09-17 09:26:16 UTC"
         },
         {
           "id": "1.31.11.b",
@@ -1422,7 +1422,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 71",
-          "verified": "2026-09-17 09:22:32 UTC"
+          "verified": "2026-09-17 09:26:17 UTC"
         },
         {
           "id": "1.31.11.c",
@@ -1439,7 +1439,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 72",
-          "verified": "2026-09-17 09:22:33 UTC"
+          "verified": "2026-09-17 09:26:17 UTC"
         }
       ],
       "n_certified": 5,
@@ -1502,7 +1502,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 76",
-          "verified": "2026-09-17 09:22:33 UTC"
+          "verified": "2026-09-17 09:26:17 UTC"
         },
         {
           "id": "1.32.9.b",
@@ -1519,7 +1519,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 77",
-          "verified": "2026-09-17 09:22:33 UTC"
+          "verified": "2026-09-17 09:26:18 UTC"
         },
         {
           "id": "1.32.9.c",
@@ -1536,7 +1536,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 78",
-          "verified": "2026-09-17 09:22:33 UTC"
+          "verified": "2026-09-17 09:26:18 UTC"
         },
         {
           "id": "1.32.9.d",
@@ -1553,7 +1553,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 79",
-          "verified": "2026-09-17 09:22:34 UTC"
+          "verified": "2026-09-17 09:26:18 UTC"
         },
         {
           "id": "1.32.9.e",
@@ -1570,7 +1570,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 80",
-          "verified": "2026-09-17 09:22:34 UTC"
+          "verified": "2026-09-17 09:26:18 UTC"
         },
         {
           "id": "1.32.9.f",
@@ -1587,7 +1587,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 81",
-          "verified": "2026-09-17 09:22:34 UTC"
+          "verified": "2026-09-17 09:26:18 UTC"
         },
         {
           "id": "1.32.9.g",
@@ -1604,7 +1604,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 82",
-          "verified": "2026-09-17 09:22:34 UTC"
+          "verified": "2026-09-17 09:26:19 UTC"
         },
         {
           "id": "1.32.9.h",
@@ -1621,7 +1621,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 83",
-          "verified": "2026-09-17 09:22:34 UTC"
+          "verified": "2026-09-17 09:26:19 UTC"
         }
       ],
       "n_certified": 8,
@@ -1683,7 +1683,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 87",
-          "verified": "2026-09-17 09:22:38 UTC"
+          "verified": "2026-09-17 09:26:22 UTC"
         },
         {
           "id": "1.33.8.a",
@@ -1700,7 +1700,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 88",
-          "verified": "2026-09-17 09:22:38 UTC"
+          "verified": "2026-09-17 09:26:22 UTC"
         },
         {
           "id": "1.33.9.a",
@@ -1717,7 +1717,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 89",
-          "verified": "2026-09-17 09:22:38 UTC"
+          "verified": "2026-09-17 09:26:22 UTC"
         },
         {
           "id": "1.33.11.a",
@@ -1734,7 +1734,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 90",
-          "verified": "2026-09-17 09:22:35 UTC"
+          "verified": "2026-09-17 09:26:19 UTC"
         },
         {
           "id": "1.33.11.b",
@@ -1751,7 +1751,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 91",
-          "verified": "2026-09-17 09:22:35 UTC"
+          "verified": "2026-09-17 09:26:19 UTC"
         },
         {
           "id": "1.33.11.c",
@@ -1768,7 +1768,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 92",
-          "verified": "2026-09-17 09:22:35 UTC"
+          "verified": "2026-09-17 09:26:20 UTC"
         },
         {
           "id": "1.33.11.d",
@@ -1785,7 +1785,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 93",
-          "verified": "2026-09-17 09:22:36 UTC"
+          "verified": "2026-09-17 09:26:20 UTC"
         },
         {
           "id": "1.33.11.e",
@@ -1802,7 +1802,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 94",
-          "verified": "2026-09-17 09:22:36 UTC"
+          "verified": "2026-09-17 09:26:20 UTC"
         },
         {
           "id": "1.33.11.f",
@@ -1819,7 +1819,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 95",
-          "verified": "2026-09-17 09:22:37 UTC"
+          "verified": "2026-09-17 09:26:21 UTC"
         },
         {
           "id": "1.33.11.g",
@@ -1836,7 +1836,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 96",
-          "verified": "2026-09-17 09:22:37 UTC"
+          "verified": "2026-09-17 09:26:21 UTC"
         },
         {
           "id": "1.33.11.h",
@@ -1853,7 +1853,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 97",
-          "verified": "2026-09-17 09:22:37 UTC"
+          "verified": "2026-09-17 09:26:21 UTC"
         },
         {
           "id": "1.33.11.i",
@@ -1870,7 +1870,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 98",
-          "verified": "2026-09-17 09:22:38 UTC"
+          "verified": "2026-09-17 09:26:22 UTC"
         }
       ],
       "n_certified": 3,
@@ -1935,7 +1935,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 102",
-          "verified": "2026-09-17 09:22:39 UTC"
+          "verified": "2026-09-17 09:26:22 UTC"
         },
         {
           "id": "1.34.8.b",
@@ -1952,7 +1952,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 103",
-          "verified": "2026-09-17 09:22:39 UTC"
+          "verified": "2026-09-17 09:26:23 UTC"
         },
         {
           "id": "1.34.8.c",
@@ -1969,7 +1969,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 104",
-          "verified": "2026-09-17 09:22:39 UTC"
+          "verified": "2026-09-17 09:26:23 UTC"
         },
         {
           "id": "1.34.9.a",
@@ -1986,7 +1986,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 105",
-          "verified": "2026-09-17 09:22:39 UTC"
+          "verified": "2026-09-17 09:26:23 UTC"
         },
         {
           "id": "1.34.9.b",
@@ -2003,7 +2003,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 106",
-          "verified": "2026-09-17 09:22:39 UTC"
+          "verified": "2026-09-17 09:26:23 UTC"
         },
         {
           "id": "1.34.9.c",
@@ -2020,7 +2020,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 107",
-          "verified": "2026-09-17 09:22:40 UTC"
+          "verified": "2026-09-17 09:26:23 UTC"
         },
         {
           "id": "1.34.9.d",
@@ -2037,7 +2037,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 108",
-          "verified": "2026-09-17 09:22:40 UTC"
+          "verified": "2026-09-17 09:26:23 UTC"
         }
       ],
       "n_certified": 7,
@@ -2102,7 +2102,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 112",
-          "verified": "2026-09-17 09:22:43 UTC"
+          "verified": "2026-09-17 09:26:27 UTC"
         },
         {
           "id": "1.35.10.a",
@@ -2119,7 +2119,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 113",
-          "verified": "2026-09-17 09:22:40 UTC"
+          "verified": "2026-09-17 09:26:24 UTC"
         },
         {
           "id": "1.35.10.b",
@@ -2136,7 +2136,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 114",
-          "verified": "2026-09-17 09:22:40 UTC"
+          "verified": "2026-09-17 09:26:24 UTC"
         },
         {
           "id": "1.35.11.a",
@@ -2153,7 +2153,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 115",
-          "verified": "2026-09-17 09:22:41 UTC"
+          "verified": "2026-09-17 09:26:24 UTC"
         },
         {
           "id": "1.35.13.a",
@@ -2170,7 +2170,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 116",
-          "verified": "2026-09-17 09:22:41 UTC"
+          "verified": "2026-09-17 09:26:25 UTC"
         },
         {
           "id": "1.35.13.b",
@@ -2187,7 +2187,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 117",
-          "verified": "2026-09-17 09:22:42 UTC"
+          "verified": "2026-09-17 09:26:25 UTC"
         },
         {
           "id": "1.35.13.c",
@@ -2204,7 +2204,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 118",
-          "verified": "2026-09-17 09:22:43 UTC"
+          "verified": "2026-09-17 09:26:26 UTC"
         },
         {
           "id": "1.35.13.d",
@@ -2221,7 +2221,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 119",
-          "verified": "2026-09-17 09:22:43 UTC"
+          "verified": "2026-09-17 09:26:27 UTC"
         }
       ],
       "n_certified": 4,
@@ -2285,7 +2285,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 123",
-          "verified": "2026-09-17 09:22:43 UTC"
+          "verified": "2026-09-17 09:26:27 UTC"
         },
         {
           "id": "1.36.7.b",
@@ -2302,7 +2302,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 124",
-          "verified": "2026-09-17 09:22:44 UTC"
+          "verified": "2026-09-17 09:26:27 UTC"
         }
       ],
       "n_certified": 2,
@@ -2363,7 +2363,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 128",
-          "verified": "2026-09-17 09:23:15 UTC"
+          "verified": "2026-09-17 09:27:00 UTC"
         },
         {
           "id": "1.37.10.a",
@@ -2380,7 +2380,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 129",
-          "verified": "2026-09-17 09:22:44 UTC"
+          "verified": "2026-09-17 09:26:27 UTC"
         },
         {
           "id": "1.37.12.a",
@@ -2397,7 +2397,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 130",
-          "verified": "2026-09-17 09:22:44 UTC"
+          "verified": "2026-09-17 09:26:28 UTC"
         },
         {
           "id": "1.37.12.b",
@@ -2414,7 +2414,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 131",
-          "verified": "2026-09-17 09:22:44 UTC"
+          "verified": "2026-09-17 09:26:28 UTC"
         },
         {
           "id": "1.37.12.c",
@@ -2431,7 +2431,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 132",
-          "verified": "2026-09-17 09:22:45 UTC"
+          "verified": "2026-09-17 09:26:29 UTC"
         },
         {
           "id": "1.37.13.a",
@@ -2448,7 +2448,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 133",
-          "verified": "2026-09-17 09:22:45 UTC"
+          "verified": "2026-09-17 09:26:29 UTC"
         },
         {
           "id": "1.37.14.a",
@@ -2465,7 +2465,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 134",
-          "verified": "2026-09-17 09:22:46 UTC"
+          "verified": "2026-09-17 09:26:30 UTC"
         },
         {
           "id": "1.37.15.a",
@@ -2482,7 +2482,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 135",
-          "verified": "2026-09-17 09:22:47 UTC"
+          "verified": "2026-09-17 09:26:31 UTC"
         },
         {
           "id": "1.37.15.b",
@@ -2499,7 +2499,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 136",
-          "verified": "2026-09-17 09:22:47 UTC"
+          "verified": "2026-09-17 09:26:32 UTC"
         },
         {
           "id": "1.37.15.c",
@@ -2516,7 +2516,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 137",
-          "verified": "2026-09-17 09:22:48 UTC"
+          "verified": "2026-09-17 09:26:32 UTC"
         },
         {
           "id": "1.37.16.a",
@@ -2533,7 +2533,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 138",
-          "verified": "2026-09-17 09:22:49 UTC"
+          "verified": "2026-09-17 09:26:33 UTC"
         },
         {
           "id": "1.37.16.b",
@@ -2550,7 +2550,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 147",
-          "verified": "2026-09-17 09:22:49 UTC"
+          "verified": "2026-09-17 09:26:34 UTC"
         },
         {
           "id": "1.37.16.c",
@@ -2567,7 +2567,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 148",
-          "verified": "2026-09-17 09:22:51 UTC"
+          "verified": "2026-09-17 09:26:35 UTC"
         },
         {
           "id": "1.37.16.d",
@@ -2584,7 +2584,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 139",
-          "verified": "2026-09-17 09:22:51 UTC"
+          "verified": "2026-09-17 09:26:36 UTC"
         },
         {
           "id": "1.37.16.e",
@@ -2601,7 +2601,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 140",
-          "verified": "2026-09-17 09:22:52 UTC"
+          "verified": "2026-09-17 09:26:36 UTC"
         },
         {
           "id": "1.37.16.f",
@@ -2618,7 +2618,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 141",
-          "verified": "2026-09-17 09:22:53 UTC"
+          "verified": "2026-09-17 09:26:38 UTC"
         },
         {
           "id": "1.37.16.g",
@@ -2635,7 +2635,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 142",
-          "verified": "2026-09-17 09:22:54 UTC"
+          "verified": "2026-09-17 09:26:38 UTC"
         },
         {
           "id": "1.37.16.h",
@@ -2652,7 +2652,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 143",
-          "verified": "2026-09-17 09:22:54 UTC"
+          "verified": "2026-09-17 09:26:40 UTC"
         },
         {
           "id": "1.37.16.i",
@@ -2669,7 +2669,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 144",
-          "verified": "2026-09-17 09:22:56 UTC"
+          "verified": "2026-09-17 09:26:40 UTC"
         },
         {
           "id": "1.37.16.j",
@@ -2686,7 +2686,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 145",
-          "verified": "2026-09-17 09:22:57 UTC"
+          "verified": "2026-09-17 09:26:42 UTC"
         },
         {
           "id": "1.37.16.k",
@@ -2703,7 +2703,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 146",
-          "verified": "2026-09-17 09:22:58 UTC"
+          "verified": "2026-09-17 09:26:43 UTC"
         },
         {
           "id": "1.37.17.a",
@@ -2720,7 +2720,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 149",
-          "verified": "2026-09-17 09:22:59 UTC"
+          "verified": "2026-09-17 09:26:44 UTC"
         },
         {
           "id": "1.37.17.b",
@@ -2737,7 +2737,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 158",
-          "verified": "2026-09-17 09:23:00 UTC"
+          "verified": "2026-09-17 09:26:46 UTC"
         },
         {
           "id": "1.37.17.c",
@@ -2754,7 +2754,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 159",
-          "verified": "2026-09-17 09:23:02 UTC"
+          "verified": "2026-09-17 09:26:47 UTC"
         },
         {
           "id": "1.37.17.d",
@@ -2771,7 +2771,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 160",
-          "verified": "2026-09-17 09:23:03 UTC"
+          "verified": "2026-09-17 09:26:48 UTC"
         },
         {
           "id": "1.37.17.e",
@@ -2788,7 +2788,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 150",
-          "verified": "2026-09-17 09:23:04 UTC"
+          "verified": "2026-09-17 09:26:49 UTC"
         },
         {
           "id": "1.37.17.f",
@@ -2805,7 +2805,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 151",
-          "verified": "2026-09-17 09:23:06 UTC"
+          "verified": "2026-09-17 09:26:51 UTC"
         },
         {
           "id": "1.37.17.g",
@@ -2822,7 +2822,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 152",
-          "verified": "2026-09-17 09:23:07 UTC"
+          "verified": "2026-09-17 09:26:52 UTC"
         },
         {
           "id": "1.37.17.h",
@@ -2839,7 +2839,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 153",
-          "verified": "2026-09-17 09:23:08 UTC"
+          "verified": "2026-09-17 09:26:54 UTC"
         },
         {
           "id": "1.37.17.i",
@@ -2856,7 +2856,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 154",
-          "verified": "2026-09-17 09:23:09 UTC"
+          "verified": "2026-09-17 09:26:55 UTC"
         },
         {
           "id": "1.37.17.j",
@@ -2873,7 +2873,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 155",
-          "verified": "2026-09-17 09:23:12 UTC"
+          "verified": "2026-09-17 09:26:58 UTC"
         },
         {
           "id": "1.37.17.k",
@@ -2890,7 +2890,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 156",
-          "verified": "2026-09-17 09:23:13 UTC"
+          "verified": "2026-09-17 09:26:59 UTC"
         },
         {
           "id": "1.37.17.l",
@@ -2907,7 +2907,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 157",
-          "verified": "2026-09-17 09:23:15 UTC"
+          "verified": "2026-09-17 09:27:00 UTC"
         }
       ],
       "n_certified": 1,
@@ -2978,7 +2978,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 164",
-          "verified": "2026-09-17 09:23:15 UTC"
+          "verified": "2026-09-17 09:27:00 UTC"
         },
         {
           "id": "1.38.10.b",
@@ -2995,7 +2995,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 165",
-          "verified": "2026-09-17 09:23:15 UTC"
+          "verified": "2026-09-17 09:27:01 UTC"
         },
         {
           "id": "1.38.10.c",
@@ -3012,7 +3012,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 166",
-          "verified": "2026-09-17 09:23:16 UTC"
+          "verified": "2026-09-17 09:27:01 UTC"
         }
       ],
       "n_certified": 3,
@@ -3077,7 +3077,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 170",
-          "verified": "2026-09-17 09:23:28 UTC"
+          "verified": "2026-09-17 09:27:13 UTC"
         },
         {
           "id": "1.39.9.a",
@@ -3094,7 +3094,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 171",
-          "verified": "2026-09-17 09:23:28 UTC"
+          "verified": "2026-09-17 09:27:13 UTC"
         },
         {
           "id": "1.39.10.a",
@@ -3111,7 +3111,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 172",
-          "verified": "2026-09-17 09:23:16 UTC"
+          "verified": "2026-09-17 09:27:01 UTC"
         },
         {
           "id": "1.39.12.a",
@@ -3128,7 +3128,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 173",
-          "verified": "2026-09-17 09:23:16 UTC"
+          "verified": "2026-09-17 09:27:02 UTC"
         },
         {
           "id": "1.39.12.b",
@@ -3145,7 +3145,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 174",
-          "verified": "2026-09-17 09:23:17 UTC"
+          "verified": "2026-09-17 09:27:02 UTC"
         },
         {
           "id": "1.39.12.c",
@@ -3162,7 +3162,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 175",
-          "verified": "2026-09-17 09:23:17 UTC"
+          "verified": "2026-09-17 09:27:03 UTC"
         },
         {
           "id": "1.39.13.a",
@@ -3179,7 +3179,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 176",
-          "verified": "2026-09-17 09:23:17 UTC"
+          "verified": "2026-09-17 09:27:03 UTC"
         },
         {
           "id": "1.39.13.b",
@@ -3196,7 +3196,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 177",
-          "verified": "2026-09-17 09:23:18 UTC"
+          "verified": "2026-09-17 09:27:04 UTC"
         },
         {
           "id": "1.39.13.c",
@@ -3213,7 +3213,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 178",
-          "verified": "2026-09-17 09:23:20 UTC"
+          "verified": "2026-09-17 09:27:05 UTC"
         },
         {
           "id": "1.39.15.a",
@@ -3230,7 +3230,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 179",
-          "verified": "2026-09-17 09:23:20 UTC"
+          "verified": "2026-09-17 09:27:06 UTC"
         },
         {
           "id": "1.39.15.b",
@@ -3247,7 +3247,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 188",
-          "verified": "2026-09-17 09:23:21 UTC"
+          "verified": "2026-09-17 09:27:06 UTC"
         },
         {
           "id": "1.39.15.c",
@@ -3264,7 +3264,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 180",
-          "verified": "2026-09-17 09:23:22 UTC"
+          "verified": "2026-09-17 09:27:07 UTC"
         },
         {
           "id": "1.39.15.d",
@@ -3281,7 +3281,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 181",
-          "verified": "2026-09-17 09:23:22 UTC"
+          "verified": "2026-09-17 09:27:08 UTC"
         },
         {
           "id": "1.39.15.e",
@@ -3298,7 +3298,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 182",
-          "verified": "2026-09-17 09:23:23 UTC"
+          "verified": "2026-09-17 09:27:08 UTC"
         },
         {
           "id": "1.39.15.f",
@@ -3315,7 +3315,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 183",
-          "verified": "2026-09-17 09:23:23 UTC"
+          "verified": "2026-09-17 09:27:09 UTC"
         },
         {
           "id": "1.39.15.g",
@@ -3332,7 +3332,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 184",
-          "verified": "2026-09-17 09:23:24 UTC"
+          "verified": "2026-09-17 09:27:10 UTC"
         },
         {
           "id": "1.39.15.h",
@@ -3349,7 +3349,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 185",
-          "verified": "2026-09-17 09:23:25 UTC"
+          "verified": "2026-09-17 09:27:10 UTC"
         },
         {
           "id": "1.39.15.i",
@@ -3366,7 +3366,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 186",
-          "verified": "2026-09-17 09:23:26 UTC"
+          "verified": "2026-09-17 09:27:11 UTC"
         },
         {
           "id": "1.39.15.j",
@@ -3383,7 +3383,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 187",
-          "verified": "2026-09-17 09:23:28 UTC"
+          "verified": "2026-09-17 09:27:13 UTC"
         }
       ],
       "n_certified": 9,
@@ -3452,7 +3452,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 192",
-          "verified": "2026-09-17 09:23:55 UTC"
+          "verified": "2026-09-17 09:27:40 UTC"
         },
         {
           "id": "1.40.9.a",
@@ -3469,7 +3469,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 193",
-          "verified": "2026-09-17 09:23:55 UTC"
+          "verified": "2026-09-17 09:27:40 UTC"
         },
         {
           "id": "1.40.10.a",
@@ -3486,7 +3486,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 194",
-          "verified": "2026-09-17 09:23:28 UTC"
+          "verified": "2026-09-17 09:27:14 UTC"
         },
         {
           "id": "1.40.10.b",
@@ -3503,7 +3503,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 195",
-          "verified": "2026-09-17 09:23:29 UTC"
+          "verified": "2026-09-17 09:27:14 UTC"
         },
         {
           "id": "1.40.11.a",
@@ -3520,7 +3520,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 196",
-          "verified": "2026-09-17 09:23:29 UTC"
+          "verified": "2026-09-17 09:27:14 UTC"
         },
         {
           "id": "1.40.11.b",
@@ -3537,7 +3537,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 197",
-          "verified": "2026-09-17 09:23:29 UTC"
+          "verified": "2026-09-17 09:27:15 UTC"
         },
         {
           "id": "1.40.11.c",
@@ -3554,7 +3554,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 198",
-          "verified": "2026-09-17 09:23:30 UTC"
+          "verified": "2026-09-17 09:27:15 UTC"
         },
         {
           "id": "1.40.11.d",
@@ -3571,7 +3571,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 199",
-          "verified": "2026-09-17 09:23:30 UTC"
+          "verified": "2026-09-17 09:27:15 UTC"
         },
         {
           "id": "1.40.13.a",
@@ -3588,7 +3588,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 200",
-          "verified": "2026-09-17 09:23:31 UTC"
+          "verified": "2026-09-17 09:27:16 UTC"
         },
         {
           "id": "1.40.13.b",
@@ -3605,7 +3605,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 209",
-          "verified": "2026-09-17 09:23:32 UTC"
+          "verified": "2026-09-17 09:27:18 UTC"
         },
         {
           "id": "1.40.13.c",
@@ -3622,7 +3622,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 210",
-          "verified": "2026-09-17 09:23:33 UTC"
+          "verified": "2026-09-17 09:27:19 UTC"
         },
         {
           "id": "1.40.13.d",
@@ -3639,7 +3639,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 211",
-          "verified": "2026-09-17 09:23:34 UTC"
+          "verified": "2026-09-17 09:27:20 UTC"
         },
         {
           "id": "1.40.13.e",
@@ -3656,7 +3656,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 212",
-          "verified": "2026-09-17 09:23:34 UTC"
+          "verified": "2026-09-17 09:27:20 UTC"
         },
         {
           "id": "1.40.13.f",
@@ -3673,7 +3673,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 213",
-          "verified": "2026-09-17 09:23:35 UTC"
+          "verified": "2026-09-17 09:27:21 UTC"
         },
         {
           "id": "1.40.13.g",
@@ -3690,7 +3690,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 214",
-          "verified": "2026-09-17 09:23:36 UTC"
+          "verified": "2026-09-17 09:27:22 UTC"
         },
         {
           "id": "1.40.13.h",
@@ -3707,7 +3707,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 215",
-          "verified": "2026-09-17 09:23:37 UTC"
+          "verified": "2026-09-17 09:27:23 UTC"
         },
         {
           "id": "1.40.13.i",
@@ -3724,7 +3724,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 216",
-          "verified": "2026-09-17 09:23:38 UTC"
+          "verified": "2026-09-17 09:27:23 UTC"
         },
         {
           "id": "1.40.13.j",
@@ -3741,7 +3741,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 217",
-          "verified": "2026-09-17 09:23:38 UTC"
+          "verified": "2026-09-17 09:27:24 UTC"
         },
         {
           "id": "1.40.13.k",
@@ -3758,7 +3758,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 218",
-          "verified": "2026-09-17 09:23:39 UTC"
+          "verified": "2026-09-17 09:27:25 UTC"
         },
         {
           "id": "1.40.13.l",
@@ -3775,7 +3775,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 201",
-          "verified": "2026-09-17 09:23:41 UTC"
+          "verified": "2026-09-17 09:27:26 UTC"
         },
         {
           "id": "1.40.13.m",
@@ -3792,7 +3792,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 219",
-          "verified": "2026-09-17 09:23:43 UTC"
+          "verified": "2026-09-17 09:27:28 UTC"
         },
         {
           "id": "1.40.13.n",
@@ -3809,7 +3809,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 220",
-          "verified": "2026-09-17 09:23:44 UTC"
+          "verified": "2026-09-17 09:27:29 UTC"
         },
         {
           "id": "1.40.13.o",
@@ -3826,7 +3826,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 221",
-          "verified": "2026-09-17 09:23:46 UTC"
+          "verified": "2026-09-17 09:27:31 UTC"
         },
         {
           "id": "1.40.13.p",
@@ -3843,7 +3843,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 222",
-          "verified": "2026-09-17 09:23:47 UTC"
+          "verified": "2026-09-17 09:27:32 UTC"
         },
         {
           "id": "1.40.13.q",
@@ -3860,7 +3860,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 223",
-          "verified": "2026-09-17 09:23:48 UTC"
+          "verified": "2026-09-17 09:27:33 UTC"
         },
         {
           "id": "1.40.13.r",
@@ -3877,7 +3877,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 224",
-          "verified": "2026-09-17 09:23:50 UTC"
+          "verified": "2026-09-17 09:27:35 UTC"
         },
         {
           "id": "1.40.13.s",
@@ -3894,7 +3894,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 225",
-          "verified": "2026-09-17 09:23:50 UTC"
+          "verified": "2026-09-17 09:27:35 UTC"
         },
         {
           "id": "1.40.13.t",
@@ -3911,7 +3911,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 202",
-          "verified": "2026-09-17 09:23:50 UTC"
+          "verified": "2026-09-17 09:27:35 UTC"
         },
         {
           "id": "1.40.13.u",
@@ -3928,7 +3928,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 203",
-          "verified": "2026-09-17 09:23:51 UTC"
+          "verified": "2026-09-17 09:27:36 UTC"
         },
         {
           "id": "1.40.13.v",
@@ -3945,7 +3945,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 204",
-          "verified": "2026-09-17 09:23:51 UTC"
+          "verified": "2026-09-17 09:27:36 UTC"
         },
         {
           "id": "1.40.13.w",
@@ -3962,7 +3962,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 205",
-          "verified": "2026-09-17 09:23:52 UTC"
+          "verified": "2026-09-17 09:27:37 UTC"
         },
         {
           "id": "1.40.13.x",
@@ -3979,7 +3979,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 206",
-          "verified": "2026-09-17 09:23:53 UTC"
+          "verified": "2026-09-17 09:27:38 UTC"
         },
         {
           "id": "1.40.13.y",
@@ -3996,7 +3996,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 207",
-          "verified": "2026-09-17 09:23:54 UTC"
+          "verified": "2026-09-17 09:27:38 UTC"
         },
         {
           "id": "1.40.13.z",
@@ -4013,7 +4013,7 @@
           "torsion_known": true,
           "submitter": "Mark van Hoeij",
           "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 208",
-          "verified": "2026-09-17 09:23:55 UTC"
+          "verified": "2026-09-17 09:27:39 UTC"
         }
       ],
       "n_certified": 8,

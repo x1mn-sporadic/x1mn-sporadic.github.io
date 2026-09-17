@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 09:26 UTC",
+  "generated": "2026-09-17 09:27 UTC",
   "points": [
     {
       "schema": "x1mn-sporadic/point/1",
@@ -131,12 +131,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:30 UTC"
+        "verified": "2026-09-17 09:26:14 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.0600000",
+        "cputime_seconds": "0.0500000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.21.3.a.log"
       }
@@ -280,12 +280,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:30 UTC"
+        "verified": "2026-09-17 09:26:15 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.0800000",
+        "cputime_seconds": "0.0600000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.25.6.a.log"
       }
@@ -432,12 +432,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:31 UTC"
+        "verified": "2026-09-17 09:26:15 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.0800000",
+        "cputime_seconds": "0.0600000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.25.7.a.log"
       }
@@ -578,12 +578,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:31 UTC"
+        "verified": "2026-09-17 09:26:15 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.0700001",
+        "cputime_seconds": "0.0500000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.28.5.a.log"
       }
@@ -736,12 +736,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:31 UTC"
+        "verified": "2026-09-17 09:26:15 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.100000",
+        "cputime_seconds": "0.130000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.29.9.a.log"
       }
@@ -897,12 +897,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:31 UTC"
+        "verified": "2026-09-17 09:26:15 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.200000",
+        "cputime_seconds": "0.170000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.29.10.a.log"
       }
@@ -1058,12 +1058,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:31 UTC"
+        "verified": "2026-09-17 09:26:15 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.140000",
+        "cputime_seconds": "0.180000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.29.10.b.log"
       }
@@ -1204,7 +1204,7 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:31 UTC"
+        "verified": "2026-09-17 09:26:16 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
@@ -1350,12 +1350,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:32 UTC"
+        "verified": "2026-09-17 09:26:16 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.0600000",
+        "cputime_seconds": "0.0700001",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.30.5.b.log"
       }
@@ -1511,12 +1511,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:33 UTC"
+        "verified": "2026-09-17 09:26:17 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.150000",
+        "cputime_seconds": "0.180000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.31.9.a.log"
       }
@@ -1672,12 +1672,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:32 UTC"
+        "verified": "2026-09-17 09:26:16 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.210000",
+        "cputime_seconds": "0.200000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.31.10.a.log"
       }
@@ -1836,12 +1836,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:32 UTC"
+        "verified": "2026-09-17 09:26:16 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.230000",
+        "cputime_seconds": "0.320000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.31.11.a.log"
       }
@@ -2000,12 +2000,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:32 UTC"
+        "verified": "2026-09-17 09:26:17 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.270000",
+        "cputime_seconds": "0.370000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.31.11.b.log"
       }
@@ -2164,12 +2164,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:33 UTC"
+        "verified": "2026-09-17 09:26:17 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.180000",
+        "cputime_seconds": "0.240000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.31.11.c.log"
       }
@@ -2322,7 +2322,7 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:33 UTC"
+        "verified": "2026-09-17 09:26:17 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
@@ -2480,12 +2480,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:33 UTC"
+        "verified": "2026-09-17 09:26:18 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.120000",
+        "cputime_seconds": "0.130000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.32.9.b.log"
       }
@@ -2638,12 +2638,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:33 UTC"
+        "verified": "2026-09-17 09:26:18 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.150000",
+        "cputime_seconds": "0.140000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.32.9.c.log"
       }
@@ -2796,12 +2796,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:34 UTC"
+        "verified": "2026-09-17 09:26:18 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.140000",
+        "cputime_seconds": "0.130000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.32.9.d.log"
       }
@@ -2954,7 +2954,7 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:34 UTC"
+        "verified": "2026-09-17 09:26:18 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
@@ -3112,12 +3112,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:34 UTC"
+        "verified": "2026-09-17 09:26:18 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.160000",
+        "cputime_seconds": "0.150000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.32.9.f.log"
       }
@@ -3270,12 +3270,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:34 UTC"
+        "verified": "2026-09-17 09:26:19 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.180000",
+        "cputime_seconds": "0.170000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.32.9.g.log"
       }
@@ -3428,12 +3428,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:34 UTC"
+        "verified": "2026-09-17 09:26:19 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.140000",
+        "cputime_seconds": "0.130000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.32.9.h.log"
       }
@@ -3580,12 +3580,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:38 UTC"
+        "verified": "2026-09-17 09:26:22 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.110000",
+        "cputime_seconds": "0.0800000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.7.a.log"
       }
@@ -3735,12 +3735,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:38 UTC"
+        "verified": "2026-09-17 09:26:22 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.170000",
+        "cputime_seconds": "0.140000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.8.a.log"
       }
@@ -3893,12 +3893,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:38 UTC"
+        "verified": "2026-09-17 09:26:22 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.160000",
+        "cputime_seconds": "0.130000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.9.a.log"
       }
@@ -3914,7 +3914,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
         "sources": []
       },
       "field": {
@@ -4055,12 +4055,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:35 UTC"
+        "verified": "2026-09-17 09:26:19 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.270000",
+        "cputime_seconds": "0.320000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.11.a.log"
       }
@@ -4076,7 +4076,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
         "sources": []
       },
       "field": {
@@ -4217,12 +4217,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:35 UTC"
+        "verified": "2026-09-17 09:26:19 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.240000",
+        "cputime_seconds": "0.210000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.11.b.log"
       }
@@ -4238,7 +4238,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
         "sources": []
       },
       "field": {
@@ -4379,12 +4379,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:35 UTC"
+        "verified": "2026-09-17 09:26:20 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.230000",
+        "cputime_seconds": "0.220000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.11.c.log"
       }
@@ -4400,7 +4400,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
         "sources": []
       },
       "field": {
@@ -4541,12 +4541,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:36 UTC"
+        "verified": "2026-09-17 09:26:20 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.450000",
+        "cputime_seconds": "0.360000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.11.d.log"
       }
@@ -4562,7 +4562,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
         "sources": []
       },
       "field": {
@@ -4703,12 +4703,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:36 UTC"
+        "verified": "2026-09-17 09:26:20 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.270000",
+        "cputime_seconds": "0.260000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.11.e.log"
       }
@@ -4724,7 +4724,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
         "sources": []
       },
       "field": {
@@ -4865,12 +4865,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:37 UTC"
+        "verified": "2026-09-17 09:26:21 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.320000",
+        "cputime_seconds": "0.270000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.11.f.log"
       }
@@ -4886,7 +4886,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
         "sources": []
       },
       "field": {
@@ -5027,12 +5027,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:37 UTC"
+        "verified": "2026-09-17 09:26:21 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.290000",
+        "cputime_seconds": "0.220000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.11.g.log"
       }
@@ -5048,7 +5048,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
         "sources": []
       },
       "field": {
@@ -5189,12 +5189,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:37 UTC"
+        "verified": "2026-09-17 09:26:21 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.310000",
+        "cputime_seconds": "0.230000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.11.h.log"
       }
@@ -5210,7 +5210,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(33) has finitely many points of degree 11",
         "sources": []
       },
       "field": {
@@ -5351,12 +5351,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:38 UTC"
+        "verified": "2026-09-17 09:26:22 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.400000",
+        "cputime_seconds": "0.300000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.33.11.i.log"
       }
@@ -5506,12 +5506,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:39 UTC"
+        "verified": "2026-09-17 09:26:22 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.130000",
+        "cputime_seconds": "0.110000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.34.8.a.log"
       }
@@ -5661,12 +5661,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:39 UTC"
+        "verified": "2026-09-17 09:26:23 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.140000",
+        "cputime_seconds": "0.120000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.34.8.b.log"
       }
@@ -5816,12 +5816,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:39 UTC"
+        "verified": "2026-09-17 09:26:23 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.120000",
+        "cputime_seconds": "0.110000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.34.8.c.log"
       }
@@ -5974,12 +5974,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:39 UTC"
+        "verified": "2026-09-17 09:26:23 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.140000",
+        "cputime_seconds": "0.110000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.34.9.a.log"
       }
@@ -6132,12 +6132,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:39 UTC"
+        "verified": "2026-09-17 09:26:23 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.140000",
+        "cputime_seconds": "0.110000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.34.9.b.log"
       }
@@ -6290,12 +6290,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:40 UTC"
+        "verified": "2026-09-17 09:26:23 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.150000",
+        "cputime_seconds": "0.120000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.34.9.c.log"
       }
@@ -6448,12 +6448,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:40 UTC"
+        "verified": "2026-09-17 09:26:23 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.180000",
+        "cputime_seconds": "0.130000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.34.9.d.log"
       }
@@ -6603,7 +6603,7 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:43 UTC"
+        "verified": "2026-09-17 09:26:27 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
@@ -6764,7 +6764,7 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:40 UTC"
+        "verified": "2026-09-17 09:26:24 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
@@ -6925,12 +6925,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:40 UTC"
+        "verified": "2026-09-17 09:26:24 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.180000",
+        "cputime_seconds": "0.140000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.35.10.b.log"
       }
@@ -7089,12 +7089,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:41 UTC"
+        "verified": "2026-09-17 09:26:24 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.290000",
+        "cputime_seconds": "0.200000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.35.11.a.log"
       }
@@ -7110,7 +7110,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(35) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -7257,12 +7257,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:41 UTC"
+        "verified": "2026-09-17 09:26:25 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.660000",
+        "cputime_seconds": "0.520000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.35.13.a.log"
       }
@@ -7278,7 +7278,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(35) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -7425,12 +7425,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:42 UTC"
+        "verified": "2026-09-17 09:26:25 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.420000",
+        "cputime_seconds": "0.370000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.35.13.b.log"
       }
@@ -7446,7 +7446,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(35) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -7593,12 +7593,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:43 UTC"
+        "verified": "2026-09-17 09:26:26 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.860000",
+        "cputime_seconds": "0.990000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.35.13.c.log"
       }
@@ -7614,7 +7614,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(35) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -7761,12 +7761,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:43 UTC"
+        "verified": "2026-09-17 09:26:27 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.350000",
+        "cputime_seconds": "0.420000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.35.13.d.log"
       }
@@ -7913,12 +7913,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:43 UTC"
+        "verified": "2026-09-17 09:26:27 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.0900000",
+        "cputime_seconds": "0.110000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.36.7.a.log"
       }
@@ -8065,12 +8065,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:44 UTC"
+        "verified": "2026-09-17 09:26:27 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.0700001",
+        "cputime_seconds": "0.100000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.36.7.b.log"
       }
@@ -8214,12 +8214,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:15 UTC"
+        "verified": "2026-09-17 09:27:00 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.110000",
+        "cputime_seconds": "0.100000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.6.a.log"
       }
@@ -8235,7 +8235,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 10",
         "sources": []
       },
       "field": {
@@ -8373,12 +8373,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:44 UTC"
+        "verified": "2026-09-17 09:26:27 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.130000",
+        "cputime_seconds": "0.140000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.10.a.log"
       }
@@ -8394,7 +8394,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 12",
         "sources": []
       },
       "field": {
@@ -8538,12 +8538,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:44 UTC"
+        "verified": "2026-09-17 09:26:28 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.280000",
+        "cputime_seconds": "0.330000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.12.a.log"
       }
@@ -8559,7 +8559,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 12",
         "sources": []
       },
       "field": {
@@ -8703,12 +8703,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:44 UTC"
+        "verified": "2026-09-17 09:26:28 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.230000",
+        "cputime_seconds": "0.280000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.12.b.log"
       }
@@ -8724,7 +8724,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 12",
         "sources": []
       },
       "field": {
@@ -8868,12 +8868,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:45 UTC"
+        "verified": "2026-09-17 09:26:29 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.220000",
+        "cputime_seconds": "0.300000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.12.c.log"
       }
@@ -8889,7 +8889,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -9036,12 +9036,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:45 UTC"
+        "verified": "2026-09-17 09:26:29 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.720000",
+        "cputime_seconds": "0.810000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.13.a.log"
       }
@@ -9057,7 +9057,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 14",
         "sources": []
       },
       "field": {
@@ -9207,12 +9207,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:46 UTC"
+        "verified": "2026-09-17 09:26:30 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.550000",
+        "cputime_seconds": "0.700000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.14.a.log"
       }
@@ -9228,7 +9228,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -9381,12 +9381,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:47 UTC"
+        "verified": "2026-09-17 09:26:31 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.730000",
+        "cputime_seconds": "0.690000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.15.a.log"
       }
@@ -9402,7 +9402,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -9555,12 +9555,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:47 UTC"
+        "verified": "2026-09-17 09:26:32 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.430000",
+        "cputime_seconds": "0.500000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.15.b.log"
       }
@@ -9576,7 +9576,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -9729,12 +9729,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:48 UTC"
+        "verified": "2026-09-17 09:26:32 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.670000",
+        "cputime_seconds": "0.700000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.15.c.log"
       }
@@ -9750,7 +9750,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
         "sources": []
       },
       "field": {
@@ -9906,12 +9906,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:49 UTC"
+        "verified": "2026-09-17 09:26:33 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.710000",
+        "cputime_seconds": "0.670000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.16.a.log"
       }
@@ -9927,7 +9927,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
         "sources": []
       },
       "field": {
@@ -10083,12 +10083,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:49 UTC"
+        "verified": "2026-09-17 09:26:34 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.520000",
+        "cputime_seconds": "0.500000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.16.b.log"
       }
@@ -10104,7 +10104,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
         "sources": []
       },
       "field": {
@@ -10260,12 +10260,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:51 UTC"
+        "verified": "2026-09-17 09:26:35 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.02000",
+        "cputime_seconds": "1.12000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.16.c.log"
       }
@@ -10281,7 +10281,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
         "sources": []
       },
       "field": {
@@ -10437,12 +10437,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:51 UTC"
+        "verified": "2026-09-17 09:26:36 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.680000",
+        "cputime_seconds": "0.810000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.16.d.log"
       }
@@ -10458,7 +10458,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
         "sources": []
       },
       "field": {
@@ -10614,12 +10614,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:52 UTC"
+        "verified": "2026-09-17 09:26:36 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.630000",
+        "cputime_seconds": "0.650000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.16.e.log"
       }
@@ -10635,7 +10635,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
         "sources": []
       },
       "field": {
@@ -10791,12 +10791,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:53 UTC"
+        "verified": "2026-09-17 09:26:38 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.830000",
+        "cputime_seconds": "1.01000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.16.f.log"
       }
@@ -10812,7 +10812,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
         "sources": []
       },
       "field": {
@@ -10968,12 +10968,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:54 UTC"
+        "verified": "2026-09-17 09:26:38 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.720000",
+        "cputime_seconds": "0.750000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.16.g.log"
       }
@@ -10989,7 +10989,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
         "sources": []
       },
       "field": {
@@ -11145,12 +11145,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:54 UTC"
+        "verified": "2026-09-17 09:26:40 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.780000",
+        "cputime_seconds": "1.01000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.16.h.log"
       }
@@ -11166,7 +11166,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
         "sources": []
       },
       "field": {
@@ -11322,12 +11322,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:56 UTC"
+        "verified": "2026-09-17 09:26:40 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.13000",
+        "cputime_seconds": "0.930000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.16.i.log"
       }
@@ -11343,7 +11343,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
         "sources": []
       },
       "field": {
@@ -11499,12 +11499,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:57 UTC"
+        "verified": "2026-09-17 09:26:42 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.870000",
+        "cputime_seconds": "1.06000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.16.j.log"
       }
@@ -11520,7 +11520,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
         "sources": []
       },
       "field": {
@@ -11676,12 +11676,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:58 UTC"
+        "verified": "2026-09-17 09:26:43 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.45000",
+        "cputime_seconds": "1.40000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.16.k.log"
       }
@@ -11697,7 +11697,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -11856,12 +11856,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:22:59 UTC"
+        "verified": "2026-09-17 09:26:44 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.720000",
+        "cputime_seconds": "0.850000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.17.a.log"
       }
@@ -11877,7 +11877,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -12036,12 +12036,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:00 UTC"
+        "verified": "2026-09-17 09:26:46 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.30000",
+        "cputime_seconds": "1.47000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.17.b.log"
       }
@@ -12057,7 +12057,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -12216,12 +12216,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:02 UTC"
+        "verified": "2026-09-17 09:26:47 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.31000",
+        "cputime_seconds": "1.32000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.17.c.log"
       }
@@ -12237,7 +12237,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -12396,12 +12396,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:03 UTC"
+        "verified": "2026-09-17 09:26:48 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.49000",
+        "cputime_seconds": "1.08000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.17.d.log"
       }
@@ -12417,7 +12417,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -12576,12 +12576,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:04 UTC"
+        "verified": "2026-09-17 09:26:49 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.07000",
+        "cputime_seconds": "1.10000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.17.e.log"
       }
@@ -12597,7 +12597,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -12756,7 +12756,7 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:06 UTC"
+        "verified": "2026-09-17 09:26:51 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
@@ -12777,7 +12777,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -12936,12 +12936,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:07 UTC"
+        "verified": "2026-09-17 09:26:52 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.810000",
+        "cputime_seconds": "1.01000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.17.g.log"
       }
@@ -12957,7 +12957,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -13116,12 +13116,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:08 UTC"
+        "verified": "2026-09-17 09:26:54 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.08000",
+        "cputime_seconds": "1.43000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.17.h.log"
       }
@@ -13137,7 +13137,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -13296,12 +13296,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:09 UTC"
+        "verified": "2026-09-17 09:26:55 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.04000",
+        "cputime_seconds": "1.05000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.17.i.log"
       }
@@ -13317,7 +13317,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -13476,12 +13476,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:12 UTC"
+        "verified": "2026-09-17 09:26:58 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "2.83000",
+        "cputime_seconds": "2.89000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.17.j.log"
       }
@@ -13497,7 +13497,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -13656,12 +13656,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:13 UTC"
+        "verified": "2026-09-17 09:26:59 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.900000",
+        "cputime_seconds": "0.890000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.17.k.log"
       }
@@ -13677,7 +13677,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
         "sources": []
       },
       "field": {
@@ -13836,12 +13836,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:15 UTC"
+        "verified": "2026-09-17 09:27:00 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.41000",
+        "cputime_seconds": "1.21000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.37.17.l.log"
       }
@@ -13997,12 +13997,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:15 UTC"
+        "verified": "2026-09-17 09:27:00 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.150000",
+        "cputime_seconds": "0.140000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.38.10.a.log"
       }
@@ -14158,12 +14158,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:15 UTC"
+        "verified": "2026-09-17 09:27:01 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.250000",
+        "cputime_seconds": "0.260000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.38.10.b.log"
       }
@@ -14319,12 +14319,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:16 UTC"
+        "verified": "2026-09-17 09:27:01 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.160000",
+        "cputime_seconds": "0.170000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.38.10.c.log"
       }
@@ -14474,12 +14474,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:28 UTC"
+        "verified": "2026-09-17 09:27:13 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.140000",
+        "cputime_seconds": "0.130000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.8.a.log"
       }
@@ -14632,7 +14632,7 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:28 UTC"
+        "verified": "2026-09-17 09:27:13 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
@@ -14793,12 +14793,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:16 UTC"
+        "verified": "2026-09-17 09:27:01 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.150000",
+        "cputime_seconds": "0.210000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.10.a.log"
       }
@@ -14960,12 +14960,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:16 UTC"
+        "verified": "2026-09-17 09:27:02 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.330000",
+        "cputime_seconds": "0.410000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.12.a.log"
       }
@@ -15127,12 +15127,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:17 UTC"
+        "verified": "2026-09-17 09:27:02 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.310000",
+        "cputime_seconds": "0.360000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.12.b.log"
       }
@@ -15294,12 +15294,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:17 UTC"
+        "verified": "2026-09-17 09:27:03 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.340000",
+        "cputime_seconds": "0.360000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.12.c.log"
       }
@@ -15466,12 +15466,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:17 UTC"
+        "verified": "2026-09-17 09:27:03 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.250000",
+        "cputime_seconds": "0.310000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.13.a.log"
       }
@@ -15638,12 +15638,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:18 UTC"
+        "verified": "2026-09-17 09:27:04 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.830000",
+        "cputime_seconds": "0.870000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.13.b.log"
       }
@@ -15810,12 +15810,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:20 UTC"
+        "verified": "2026-09-17 09:27:05 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.10000",
+        "cputime_seconds": "0.910000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.13.c.log"
       }
@@ -15831,7 +15831,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -15984,12 +15984,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:20 UTC"
+        "verified": "2026-09-17 09:27:06 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.590000",
+        "cputime_seconds": "0.530000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.15.a.log"
       }
@@ -16005,7 +16005,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -16158,12 +16158,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:21 UTC"
+        "verified": "2026-09-17 09:27:06 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.670000",
+        "cputime_seconds": "0.600000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.15.b.log"
       }
@@ -16179,7 +16179,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -16332,12 +16332,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:22 UTC"
+        "verified": "2026-09-17 09:27:07 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.550000",
+        "cputime_seconds": "0.570000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.15.c.log"
       }
@@ -16353,7 +16353,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -16506,12 +16506,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:22 UTC"
+        "verified": "2026-09-17 09:27:08 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.620000",
+        "cputime_seconds": "0.600000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.15.d.log"
       }
@@ -16527,7 +16527,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -16680,12 +16680,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:23 UTC"
+        "verified": "2026-09-17 09:27:08 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.460000",
+        "cputime_seconds": "0.480000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.15.e.log"
       }
@@ -16701,7 +16701,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -16854,12 +16854,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:23 UTC"
+        "verified": "2026-09-17 09:27:09 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.530000",
+        "cputime_seconds": "0.520000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.15.f.log"
       }
@@ -16875,7 +16875,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -17028,12 +17028,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:24 UTC"
+        "verified": "2026-09-17 09:27:10 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.870000",
+        "cputime_seconds": "1.03000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.15.g.log"
       }
@@ -17049,7 +17049,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -17202,12 +17202,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:25 UTC"
+        "verified": "2026-09-17 09:27:10 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.570000",
+        "cputime_seconds": "0.560000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.15.h.log"
       }
@@ -17223,7 +17223,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -17376,12 +17376,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:26 UTC"
+        "verified": "2026-09-17 09:27:11 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.720000",
+        "cputime_seconds": "0.710000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.15.i.log"
       }
@@ -17397,7 +17397,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
         "sources": []
       },
       "field": {
@@ -17550,12 +17550,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:28 UTC"
+        "verified": "2026-09-17 09:27:13 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.88000",
+        "cputime_seconds": "1.75000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.39.15.j.log"
       }
@@ -17705,12 +17705,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:55 UTC"
+        "verified": "2026-09-17 09:27:40 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.130000",
+        "cputime_seconds": "0.100000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.8.a.log"
       }
@@ -17863,12 +17863,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:55 UTC"
+        "verified": "2026-09-17 09:27:40 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.130000",
+        "cputime_seconds": "0.110000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.9.a.log"
       }
@@ -18024,12 +18024,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:28 UTC"
+        "verified": "2026-09-17 09:27:14 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.230000",
+        "cputime_seconds": "0.220000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.10.a.log"
       }
@@ -18185,7 +18185,7 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:29 UTC"
+        "verified": "2026-09-17 09:27:14 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
@@ -18349,12 +18349,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:29 UTC"
+        "verified": "2026-09-17 09:27:14 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.260000",
+        "cputime_seconds": "0.280000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.11.a.log"
       }
@@ -18513,12 +18513,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:29 UTC"
+        "verified": "2026-09-17 09:27:15 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.240000",
+        "cputime_seconds": "0.260000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.11.b.log"
       }
@@ -18677,7 +18677,7 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:30 UTC"
+        "verified": "2026-09-17 09:27:15 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
@@ -18841,12 +18841,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:30 UTC"
+        "verified": "2026-09-17 09:27:15 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.320000",
+        "cputime_seconds": "0.340000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.11.d.log"
       }
@@ -18862,7 +18862,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -19009,12 +19009,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:31 UTC"
+        "verified": "2026-09-17 09:27:16 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.710000",
+        "cputime_seconds": "0.740000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.a.log"
       }
@@ -19030,7 +19030,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -19177,12 +19177,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:32 UTC"
+        "verified": "2026-09-17 09:27:18 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.37000",
+        "cputime_seconds": "1.49000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.b.log"
       }
@@ -19198,7 +19198,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -19345,12 +19345,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:33 UTC"
+        "verified": "2026-09-17 09:27:19 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.470000",
+        "cputime_seconds": "0.640000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.c.log"
       }
@@ -19366,7 +19366,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -19513,12 +19513,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:34 UTC"
+        "verified": "2026-09-17 09:27:20 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.920000",
+        "cputime_seconds": "1.18000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.d.log"
       }
@@ -19534,7 +19534,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -19681,12 +19681,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:34 UTC"
+        "verified": "2026-09-17 09:27:20 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.600000",
+        "cputime_seconds": "0.500000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.e.log"
       }
@@ -19702,7 +19702,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -19849,12 +19849,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:35 UTC"
+        "verified": "2026-09-17 09:27:21 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.560000",
+        "cputime_seconds": "0.440000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.f.log"
       }
@@ -19870,7 +19870,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -20017,12 +20017,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:36 UTC"
+        "verified": "2026-09-17 09:27:22 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.690000",
+        "cputime_seconds": "0.730000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.g.log"
       }
@@ -20038,7 +20038,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -20185,12 +20185,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:37 UTC"
+        "verified": "2026-09-17 09:27:23 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.960000",
+        "cputime_seconds": "0.870000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.h.log"
       }
@@ -20206,7 +20206,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -20353,12 +20353,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:38 UTC"
+        "verified": "2026-09-17 09:27:23 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.710000",
+        "cputime_seconds": "0.640000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.i.log"
       }
@@ -20374,7 +20374,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -20521,12 +20521,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:38 UTC"
+        "verified": "2026-09-17 09:27:24 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.580000",
+        "cputime_seconds": "0.590000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.j.log"
       }
@@ -20542,7 +20542,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -20689,12 +20689,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:39 UTC"
+        "verified": "2026-09-17 09:27:25 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.770000",
+        "cputime_seconds": "0.750000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.k.log"
       }
@@ -20710,7 +20710,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -20857,12 +20857,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:41 UTC"
+        "verified": "2026-09-17 09:27:26 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.76000",
+        "cputime_seconds": "1.31000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.l.log"
       }
@@ -20878,7 +20878,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -21025,12 +21025,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:43 UTC"
+        "verified": "2026-09-17 09:27:28 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.76000",
+        "cputime_seconds": "1.32000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.m.log"
       }
@@ -21046,7 +21046,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -21193,12 +21193,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:44 UTC"
+        "verified": "2026-09-17 09:27:29 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.990000",
+        "cputime_seconds": "0.900000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.n.log"
       }
@@ -21214,7 +21214,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -21361,12 +21361,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:46 UTC"
+        "verified": "2026-09-17 09:27:31 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.78000",
+        "cputime_seconds": "2.11000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.o.log"
       }
@@ -21382,7 +21382,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -21529,12 +21529,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:47 UTC"
+        "verified": "2026-09-17 09:27:32 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.830000",
+        "cputime_seconds": "1.05000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.p.log"
       }
@@ -21550,7 +21550,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -21697,12 +21697,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:48 UTC"
+        "verified": "2026-09-17 09:27:33 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.45000",
+        "cputime_seconds": "1.06000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.q.log"
       }
@@ -21718,7 +21718,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -21865,12 +21865,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:50 UTC"
+        "verified": "2026-09-17 09:27:35 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.27000",
+        "cputime_seconds": "1.40000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.r.log"
       }
@@ -21886,7 +21886,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -22033,12 +22033,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:50 UTC"
+        "verified": "2026-09-17 09:27:35 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.140000",
+        "cputime_seconds": "0.160000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.s.log"
       }
@@ -22054,7 +22054,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -22201,12 +22201,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:50 UTC"
+        "verified": "2026-09-17 09:27:35 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.340000",
+        "cputime_seconds": "0.400000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.t.log"
       }
@@ -22222,7 +22222,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -22369,12 +22369,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:51 UTC"
+        "verified": "2026-09-17 09:27:36 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.390000",
+        "cputime_seconds": "0.400000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.u.log"
       }
@@ -22390,7 +22390,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -22537,12 +22537,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:51 UTC"
+        "verified": "2026-09-17 09:27:36 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.510000",
+        "cputime_seconds": "0.460000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.v.log"
       }
@@ -22558,7 +22558,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -22705,12 +22705,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:52 UTC"
+        "verified": "2026-09-17 09:27:37 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.490000",
+        "cputime_seconds": "0.450000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.w.log"
       }
@@ -22726,7 +22726,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -22873,12 +22873,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:53 UTC"
+        "verified": "2026-09-17 09:27:38 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.02000",
+        "cputime_seconds": "0.830000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.x.log"
       }
@@ -22894,7 +22894,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -23041,12 +23041,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:54 UTC"
+        "verified": "2026-09-17 09:27:38 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "0.900000",
+        "cputime_seconds": "0.620000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.y.log"
       }
@@ -23062,7 +23062,7 @@
       "status": "verified",
       "sporadicity": {
         "status": "open",
-        "rule": "no applicable finiteness result recorded in data/knowledge",
+        "rule": "no recorded result decides whether X_1(40) has finitely many points of degree 13",
         "sources": []
       },
       "field": {
@@ -23209,12 +23209,12 @@
       },
       "dates": {
         "submitted": "2013-08-01",
-        "verified": "2026-09-17 09:23:55 UTC"
+        "verified": "2026-09-17 09:27:39 UTC"
       },
       "verification": {
         "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
         "magma_version": "2.29-4",
-        "cputime_seconds": "1.10000",
+        "cputime_seconds": "1.00000",
         "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
         "log": "data/logs/1.40.13.z.log"
       }

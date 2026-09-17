@@ -1,15 +1,15 @@
 [0.000000 s] start: X_1(1,31) mode=vanhoeij
 [0.000000 s] field: degree 11, x^11 - x^10 + 2*x^8 + x^6 - 7*x^5 + x^4 + 4*x^3 - x^2 + 2*x - 1
-[0.000000 s] curve: [
+[0.0100000 s] curve: [
 1/2033*(-13113*a^10 + 7710*a^9 + 2334*a^8 - 24162*a^7 - 10303*a^6 - 19287*a^5 + 84712*a^4 + 22054*a^3 - 41792*a^2 - 1910*a - 27706),
 1/2033*(1197315*a^10 - 651565*a^9 - 297320*a^8 + 2259914*a^7 + 1028273*a^6 + 1668961*a^5 - 7624382*a^4 - 2276188*a^3 + 3754529*a^2 + 510706*a + 2629583),
 1/2033*(1197315*a^10 - 651565*a^9 - 297320*a^8 + 2259914*a^7 + 1028273*a^6 + 1668961*a^5 - 7624382*a^4 - 2276188*a^3 + 3754529*a^2 + 510706*a + 2629583),
 0,
 0
 ]
-[0.000000 s] orders verified: ord P = 1, ord Q = 31, <P,Q> = Z/1 x Z/31
-[0.0200000 s] torsion bound from reductions: |E(K)_tors| divides 31 (primes [ 23 ])
-[0.0200000 s] Tate normal form done; residue field of the point has degree 11 (K has degree 11)
-[0.0400000 s] j: degree 11, CM false 0
-[0.230000 s] conductor norm 311
-[0.240000 s] VERIFY_DONE
+[0.0100000 s] orders verified: ord P = 1, ord Q = 31, <P,Q> = Z/1 x Z/31
+[0.0300000 s] torsion bound from reductions: |E(K)_tors| divides 31 (primes [ 23 ])
+[0.0300000 s] Tate normal form done; residue field of the point has degree 11 (K has degree 11)
+[0.0500000 s] j: degree 11, CM false 0
+[0.320000 s] conductor norm 311
+[0.320000 s] VERIFY_DONE

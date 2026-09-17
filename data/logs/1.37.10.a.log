@@ -1,6 +1,6 @@
 [0.000000 s] start: X_1(1,37) mode=vanhoeij
 [0.000000 s] field: degree 10, x^10 - 5*x^8 + 3*x^7 + 10*x^6 - 8*x^5 - 7*x^4 + 9*x^3 - 3*x + 1
-[0.000000 s] curve: [
+[0.0100000 s] curve: [
 -9*a^9 + 7*a^8 + 39*a^7 - 56*a^6 - 44*a^5 + 99*a^4 - 14*a^3 - 59*a^2 + 41*a - 7,
 -102*a^9 + 75*a^8 + 453*a^7 - 640*a^6 - 537*a^5 + 1205*a^4 - 201*a^3 - 741*a^2 + 555*a - 126,
 -102*a^9 + 75*a^8 + 453*a^7 - 640*a^6 - 537*a^5 + 1205*a^4 - 201*a^3 - 741*a^2 + 555*a - 126,
@@ -12,4 +12,4 @@
 [0.0200000 s] Tate normal form done; residue field of the point has degree 10 (K has degree 10)
 [0.0200000 s] j: degree 10, CM false 0
 [0.130000 s] conductor norm 73
-[0.130000 s] VERIFY_DONE
+[0.140000 s] VERIFY_DONE

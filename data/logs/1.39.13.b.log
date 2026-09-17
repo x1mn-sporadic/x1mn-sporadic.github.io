@@ -1,6 +1,6 @@
 [0.000000 s] start: X_1(1,39) mode=vanhoeij
 [0.000000 s] field: degree 13, x^13 + x^12 - 4*x^11 - 7*x^10 + 3*x^9 + 29*x^8 - 9*x^7 - 37*x^6 + 15*x^5 + 19*x^4 - 6*x^3 - 6*x^2 + x + 1
-[0.0100000 s] curve: [
+[0.000000 s] curve: [
 1/1941*(-4876111*a^12 - 2295302*a^11 + 20720581*a^10 + 23166927*a^9 - 26894863*a^8 - 127180052*a^7 + 111201624*a^6 + 121592977*a^5 - 137514396*a^4 - 19893302*a^3 + 39806461*a^2 + 8192643*a - 9212683),
 1/1941*(-7479685561*a^12 - 3522515277*a^11 + 31782349911*a^10 + 35543166759*a^9 - 41243374674*a^8 - 195090845899*a^7 + 170531093981*a^6 + 186527942683*a^5 - 210878953951*a^4 - 30547343059*a^3 + 61039365728*a^2 + 12584902238*a - 14137804189),
 1/1941*(-7479685561*a^12 - 3522515277*a^11 + 31782349911*a^10 + 35543166759*a^9 - 41243374674*a^8 - 195090845899*a^7 + 170531093981*a^6 + 186527942683*a^5 - 210878953951*a^4 - 30547343059*a^3 + 61039365728*a^2 + 12584902238*a - 14137804189),
@@ -8,8 +8,8 @@
 0
 ]
 [0.0100000 s] orders verified: ord P = 1, ord Q = 39, <P,Q> = Z/1 x Z/39
-[0.0400000 s] torsion bound from reductions: |E(K)_tors| divides 39 (primes [ 31 ])
-[0.0400000 s] Tate normal form done; residue field of the point has degree 13 (K has degree 13)
+[0.0300000 s] torsion bound from reductions: |E(K)_tors| divides 39 (primes [ 31 ])
+[0.0300000 s] Tate normal form done; residue field of the point has degree 13 (K has degree 13)
 [0.0700001 s] j: degree 13, CM false 0
-[0.830000 s] conductor norm 79
-[0.830000 s] VERIFY_DONE
+[0.870000 s] conductor norm 79
+[0.880000 s] VERIFY_DONE

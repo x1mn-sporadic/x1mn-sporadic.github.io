@@ -134,12 +134,12 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 09:22:32 UTC"
+    "verified": "2026-09-17 09:26:16 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.0600000",
+    "cputime_seconds": "0.0700001",
     "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
     "log": "data/logs/1.30.5.b.log"
   }

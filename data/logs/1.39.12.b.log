@@ -11,5 +11,5 @@
 [0.0200000 s] torsion bound from reductions: |E(K)_tors| divides 39 (primes [ 29 ])
 [0.0200000 s] Tate normal form done; residue field of the point has degree 12 (K has degree 12)
 [0.0700001 s] j: degree 6, CM false 0
-[0.310000 s] conductor norm 1
-[0.310000 s] VERIFY_DONE
+[0.360000 s] conductor norm 1
+[0.360000 s] VERIFY_DONE
