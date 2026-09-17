@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 11:29 UTC",
+  "generated": "2026-09-17 11:48 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -7,7 +7,7 @@
     "sporadic": "a closed point of degree d is sporadic if the curve has only finitely many closed points of degree <= d",
     "isolated": "P^1-isolated (dim L(x) = 1) and AV-isolated (Bourdon-Ejder-Liu-Odumodu-Viray); finitely many points of degree d implies isolated",
     "answers": "each of 'infinitely many points of degree d', 'sporadic', 'isolated' is yes, no or maybe",
-    "gonality": "Q-gonality for m <= 2 (torsion_inf tables); for m >= 3 only Abramovich's geometric lower bound"
+    "gonality": "Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Abramovich, or Najman's unpublished computations); for m >= 3 only Abramovich's geometric lower bound"
   },
   "n_curves": 165,
   "n_points": 140,
@@ -38,7 +38,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -74,7 +75,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -110,7 +112,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -146,7 +149,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -182,7 +186,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -218,7 +223,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -254,7 +260,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -290,7 +297,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -326,7 +334,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -362,7 +371,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -398,7 +408,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -408,7 +419,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -443,7 +454,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -472,14 +484,15 @@
         "lb": 2,
         "ub": 2,
         "exact": true,
-        "ub_source": "DvH14",
-        "lb_source": "DvH14",
-        "source": "DvH14"
+        "lb_source": "KKM",
+        "ub_source": "KKM",
+        "source": "KKM"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -489,7 +502,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -524,7 +537,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -534,7 +548,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -569,7 +583,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -579,7 +594,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -607,14 +622,15 @@
         "lb": 2,
         "ub": 2,
         "exact": true,
-        "ub_source": "DvH14",
-        "lb_source": "DvH14",
-        "source": "DvH14"
+        "lb_source": "KKM",
+        "ub_source": "KKM",
+        "source": "KKM"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -624,7 +640,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -652,14 +668,15 @@
         "lb": 4,
         "ub": 4,
         "exact": true,
-        "ub_source": "DvH14",
-        "lb_source": "DvH14",
-        "source": "DvH14"
+        "lb_source": "JKP06",
+        "ub_source": "JKP06",
+        "source": "JKP06"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "4": "JKP06",
@@ -667,7 +684,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -697,14 +714,15 @@
         "lb": 2,
         "ub": 2,
         "exact": true,
-        "ub_source": "DvH14",
-        "lb_source": "DvH14",
-        "source": "DvH14"
+        "lb_source": "KKM",
+        "ub_source": "KKM",
+        "source": "KKM"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -714,7 +732,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -742,21 +760,22 @@
         "lb": 5,
         "ub": 5,
         "exact": true,
-        "ub_source": "DvH14",
         "lb_source": "DvH14",
+        "ub_source": "DvH14",
         "source": "DvH14"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "5": "DvH14",
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -787,14 +806,15 @@
         "lb": 3,
         "ub": 3,
         "exact": true,
-        "ub_source": "DvH14",
-        "lb_source": "DvH14",
-        "source": "DvH14"
+        "lb_source": "JKS04",
+        "ub_source": "JKS04",
+        "source": "JKS04"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "3": "JKS04",
@@ -803,7 +823,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -832,14 +852,15 @@
         "lb": 4,
         "ub": 4,
         "exact": true,
-        "ub_source": "DvH14",
-        "lb_source": "DvH14",
-        "source": "DvH14"
+        "lb_source": "JKP06",
+        "ub_source": "JKP06",
+        "source": "JKP06"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "4": "JKP06",
@@ -847,7 +868,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -907,14 +928,15 @@
         "lb": 4,
         "ub": 4,
         "exact": true,
-        "ub_source": "DvH14",
-        "lb_source": "DvH14",
-        "source": "DvH14"
+        "lb_source": "JKP06",
+        "ub_source": "JKP06",
+        "source": "JKP06"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "4": "JKP06",
@@ -922,7 +944,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -959,12 +981,13 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -997,14 +1020,15 @@
         "lb": 4,
         "ub": 4,
         "exact": true,
-        "ub_source": "DvH14",
-        "lb_source": "DvH14",
-        "source": "DvH14"
+        "lb_source": "JKP06",
+        "ub_source": "JKP06",
+        "source": "JKP06"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "4": "JKP06",
@@ -1012,7 +1036,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1042,19 +1066,20 @@
         "lb": 5,
         "ub": 5,
         "exact": true,
-        "ub_source": "DvH14",
         "lb_source": "DvH14",
+        "ub_source": "DvH14",
         "source": "DvH14"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "5": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1145,20 +1170,21 @@
         "lb": 6,
         "ub": 6,
         "exact": true,
-        "ub_source": "DvH14",
         "lb_source": "DvH14",
+        "ub_source": "DvH14",
         "source": "DvH14"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1190,20 +1216,21 @@
         "lb": 6,
         "ub": 6,
         "exact": true,
-        "ub_source": "DvH14",
         "lb_source": "DvH14",
+        "ub_source": "DvH14",
         "source": "DvH14"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1235,20 +1262,21 @@
         "lb": 6,
         "ub": 6,
         "exact": true,
-        "ub_source": "DvH14",
         "lb_source": "DvH14",
+        "ub_source": "DvH14",
         "source": "DvH14"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1317,7 +1345,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "11": "DvH14"
@@ -1331,7 +1360,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma"
       },
       "table_note": "",
@@ -1442,20 +1471,21 @@
         "lb": 6,
         "ub": 6,
         "exact": true,
-        "ub_source": "DvH14",
         "lb_source": "DvH14",
+        "ub_source": "DvH14",
         "source": "DvH14"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1551,7 +1581,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "12": "DvH14"
@@ -1565,7 +1596,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -1739,7 +1770,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "8": "DvH14"
@@ -1752,7 +1784,7 @@
         "5": "DvH14",
         "6": "DvH14",
         "7": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "we used a special computation to show that degree 9 functions don't exist",
       "in_tables": true,
@@ -2003,7 +2035,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "10": "DvH14"
@@ -2017,7 +2050,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "",
       "in_tables": true,
@@ -2379,7 +2412,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "10": "DvH14"
@@ -2393,7 +2427,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "",
       "in_tables": true,
@@ -2618,7 +2652,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "12": "DvH14"
@@ -2632,7 +2667,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -2888,11 +2923,12 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -2990,7 +3026,8 @@
       "rank": {
         "value": null,
         "source": null,
-        "analytic_rank": 1
+        "analytic_rank": 1,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "18": "DvH14"
@@ -3936,7 +3973,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "12": "DvH14"
@@ -3950,7 +3988,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -4068,7 +4106,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "14": "DvH14"
@@ -4082,7 +4121,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -4638,7 +4677,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
         "12": "DvH14"
@@ -4652,7 +4692,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -5605,13 +5645,14 @@
         "ub": 22,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -5623,7 +5664,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5649,13 +5690,14 @@
         "ub": 12,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -5667,7 +5709,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5693,13 +5735,14 @@
         "ub": 24,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": null,
         "source": null,
-        "analytic_rank": 1
+        "analytic_rank": 1,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -5711,7 +5754,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "cover search",
       "in_tables": true,
@@ -5737,13 +5780,14 @@
         "ub": 15,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -5755,7 +5799,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5781,13 +5825,14 @@
         "ub": 18,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -5799,7 +5844,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5825,13 +5870,14 @@
         "ub": 19,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -5843,7 +5889,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5875,7 +5921,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -5887,7 +5934,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma"
       },
       "table_note": "abramovich",
@@ -5914,13 +5961,14 @@
         "ub": 16,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -5932,7 +5980,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5964,7 +6012,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -5976,7 +6025,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -6004,13 +6053,14 @@
         "ub": 15,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6022,7 +6072,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -6054,7 +6104,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6066,7 +6117,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -6100,7 +6151,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6112,7 +6164,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -6138,13 +6190,14 @@
         "ub": 37,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": null,
         "source": null,
-        "analytic_rank": 1
+        "analytic_rank": 1,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6156,7 +6209,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "cover search",
       "in_tables": true,
@@ -6188,7 +6241,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6200,7 +6254,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -6232,7 +6286,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6244,7 +6299,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -6279,7 +6334,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6291,7 +6347,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -6319,13 +6375,14 @@
         "ub": 30,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": null,
         "source": null,
-        "analytic_rank": 1
+        "analytic_rank": 1,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6337,7 +6394,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "cover search",
       "in_tables": true,
@@ -6369,7 +6426,8 @@
       "rank": {
         "value": null,
         "source": null,
-        "analytic_rank": 1
+        "analytic_rank": 1,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6381,7 +6439,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "abramovich - we know that X1(58) has finitely many points of degree <= 10 because of X1(58)->X1(29)",
       "in_tables": true,
@@ -6413,7 +6471,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6425,7 +6484,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -6460,7 +6519,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6472,7 +6532,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -6506,7 +6566,8 @@
       "rank": {
         "value": null,
         "source": null,
-        "analytic_rank": 3
+        "analytic_rank": 3,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6518,7 +6579,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -6550,7 +6611,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6562,7 +6624,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -6597,7 +6659,8 @@
       "rank": {
         "value": null,
         "source": null,
-        "analytic_rank": 2
+        "analytic_rank": 2,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6609,7 +6672,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf"
+        "9": "Najman2026"
       },
       "table_note": "abramovich - X1(63)->63.576.25.g.4 is a map to a curve where the latter has finitely many points of degree <= 11",
       "in_tables": true,
@@ -6641,7 +6704,8 @@
       "rank": {
         "value": 0,
         "source": "DvH14",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -6653,7 +6717,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "torsion_inf",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -8316,7 +8380,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -8352,7 +8417,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -8388,7 +8454,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -8424,7 +8491,8 @@
       "rank": {
         "value": 0,
         "source": "genus 0",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
         "all": "genus 0"
@@ -8460,7 +8528,8 @@
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -8469,8 +8538,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -8505,7 +8574,8 @@
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
         "2": "KKM",
@@ -8514,8 +8584,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -8543,14 +8613,15 @@
         "lb": 3,
         "ub": 3,
         "exact": true,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "JKS04",
+        "ub_source": "JKS04",
+        "source": "JKS04"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
         "3": "JKS04",
@@ -8558,8 +8629,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8588,22 +8659,23 @@
         "lb": 4,
         "ub": 4,
         "exact": true,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "JKP06",
+        "ub_source": "JKP06",
+        "source": "JKP06"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8633,21 +8705,22 @@
         "lb": 4,
         "ub": 4,
         "exact": true,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "JKP06",
+        "ub_source": "JKP06",
+        "source": "JKP06"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
         "4": "JKP06",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8678,20 +8751,21 @@
         "lb": 6,
         "ub": 6,
         "exact": true,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "lb_source": "DS17",
+        "ub_source": "DS17",
+        "source": "DS17"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8723,18 +8797,19 @@
         "lb": 8,
         "ub": 8,
         "exact": true,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "ub_source": "Najman2026",
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8743,7 +8818,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf"
+        "7": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -8768,18 +8843,19 @@
         "lb": 8,
         "ub": 8,
         "exact": true,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "ub_source": "Najman2026",
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8788,7 +8864,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf"
+        "7": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -8813,17 +8889,18 @@
         "lb": 12,
         "ub": 12,
         "exact": true,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "ub_source": "Najman2026",
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
-        "12": "torsion_inf"
+        "12": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8832,9 +8909,9 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "7": "Najman2026",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -8861,17 +8938,18 @@
         "lb": 12,
         "ub": 12,
         "exact": true,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "ub_source": "Najman2026",
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
-        "12": "torsion_inf"
+        "12": "Najman2026"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8880,9 +8958,9 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "7": "Najman2026",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -8909,14 +8987,15 @@
         "lb": 10,
         "ub": 12,
         "exact": false,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "ub_source": "Najman2026",
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -8926,9 +9005,9 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "torsion_inf",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "7": "Najman2026",
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "table_note": "DT - todo probaj gon=12",
       "in_tables": true,
@@ -8953,14 +9032,15 @@
         "lb": 10,
         "ub": 16,
         "exact": false,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "ub_source": "Najman2026",
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -8971,8 +9051,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -8997,14 +9077,15 @@
         "lb": 10,
         "ub": 20,
         "exact": false,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "ub_source": "Najman2026",
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9015,8 +9096,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -9041,14 +9122,15 @@
         "lb": 10,
         "ub": 16,
         "exact": false,
-        "ub_source": "torsion_inf",
-        "lb_source": "torsion_inf",
-        "source": "torsion_inf"
+        "ub_source": "Najman2026",
+        "lb_source": "Najman2026",
+        "source": "Najman2026"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9059,8 +9141,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -9085,14 +9167,15 @@
         "lb": 11,
         "ub": 24,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9103,8 +9186,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "RankZeroLemma"
       },
       "table_note": "abramovich",
@@ -9130,14 +9213,15 @@
         "lb": 12,
         "ub": 24,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9148,8 +9232,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -9176,14 +9260,15 @@
         "lb": 12,
         "ub": 24,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
         "source": "DS17",
-        "analytic_rank": 0
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9194,8 +9279,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -9222,14 +9307,15 @@
         "lb": 15,
         "ub": 30,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": null,
         "source": null,
-        "analytic_rank": 1
+        "analytic_rank": 1,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9240,8 +9326,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "table_note": "abramovich - X1(44) has finitely many deg <= 9 points",
       "in_tables": true,
@@ -9266,14 +9352,15 @@
         "lb": 16,
         "ub": 38,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": null,
         "source": null,
-        "analytic_rank": 1
+        "analytic_rank": 1,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9284,8 +9371,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf"
+        "8": "Najman2026",
+        "9": "Najman2026"
       },
       "table_note": "abramovich - X1(46) has finitely many degree <=9 points",
       "in_tables": true,
@@ -9310,14 +9397,15 @@
         "lb": 16,
         "ub": 32,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+Kato",
-        "analytic_rank": 0
+        "source": "Najman2026+Kato",
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9328,8 +9416,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -9357,14 +9445,15 @@
         "lb": 18,
         "ub": 30,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+Kato",
-        "analytic_rank": 0
+        "source": "Najman2026+Kato",
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9375,8 +9464,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -9404,14 +9493,15 @@
         "lb": 20,
         "ub": 42,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+Kato",
-        "analytic_rank": 0
+        "source": "Najman2026+Kato",
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9422,8 +9512,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -9451,14 +9541,15 @@
         "lb": 20,
         "ub": 36,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+Kato",
-        "analytic_rank": 0
+        "source": "Najman2026+Kato",
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9469,8 +9560,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -9498,14 +9589,15 @@
         "lb": 23,
         "ub": 48,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": null,
         "source": null,
-        "analytic_rank": 1
+        "analytic_rank": 1,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9516,8 +9608,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "Frey94",
         "11": "Frey94"
       },
@@ -9544,14 +9636,15 @@
         "lb": 25,
         "ub": 62,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": null,
         "source": null,
-        "analytic_rank": 2
+        "analytic_rank": 2,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9562,8 +9655,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -9591,14 +9684,15 @@
         "lb": 23,
         "ub": 48,
         "exact": false,
-        "ub_source": "torsion_inf",
+        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
         "source": "Abramovich96"
       },
       "rank": {
         "value": 0,
-        "source": "torsion_inf+Kato",
-        "analytic_rank": 0
+        "source": "Najman2026+Kato",
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {},
       "degrees_finite": {
@@ -9609,8 +9703,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "torsion_inf",
-        "9": "torsion_inf",
+        "8": "Najman2026",
+        "9": "Najman2026",
         "10": "Frey94",
         "11": "Frey94",
         "12": "RankZeroLemma"

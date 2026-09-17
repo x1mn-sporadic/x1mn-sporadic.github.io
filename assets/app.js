@@ -216,11 +216,11 @@
       el("dd", null, el("b", null, gon.exact ? String(gon.lb) : (gon.ub ? gon.lb + " ≤ γ ≤ " + gon.ub : "γ ≥ " + gon.lb)), " ",
         el("span", { class: "src" }, "(", gon.exact ? sourceLinks(sources, [gon.source])
           : ["lower bound: ", sourceLinks(sources, [gon.lb_source]), gon.ub ? ["; upper bound: ", sourceLinks(sources, [gon.ub_source])] : null],
-          c.table_note && (gon.lb_source === "torsion_inf" || gon.source === "torsion_inf") ? "; " + c.table_note : "", ")")),
+          c.table_note && (gon.lb_source === "Najman2026" || gon.source === "Najman2026") ? "; " + c.table_note : "", ")")),
       el("dt", null, "Abramovich bound"), el("dd", null, "γ ≥ " + c.abramovich_bound, " ", el("span", { class: "src" }, "(", sourceLinks(sources, ["Abramovich96"]), ")")),
       el("dt", null, "rank of J₁ over " + (m <= 2 ? "ℚ" : "ℚ(ζ" + m + ")")),
       el("dd", null, c.rank.value === null
-        ? (c.rank.analytic_rank !== undefined ? ["analytic rank ", el("b", null, c.rank.analytic_rank), " ", el("span", { class: "src" }, "(", sourceLinks(sources, ["torsion_inf"]), "; a positive rank is not certified here)")] : el("span", { class: "empty" }, "not recorded"))
+        ? (c.rank.analytic_rank !== undefined ? ["analytic rank ", el("b", null, c.rank.analytic_rank), " ", el("span", { class: "src" }, "(", sourceLinks(sources, [c.rank.analytic_rank_source || "LMFDB"]), "; a positive rank is not certified here)")] : el("span", { class: "empty" }, "not recorded"))
         : [el("b", null, c.rank.value), " ", el("span", { class: "src" }, "(", sourceLinks(sources, c.rank.source.split("+")), ")")]),
       el("dt", null, "finitely many points in degree"),
       el("dd", null, Object.keys(c.degrees_finite).length ? Object.entries(c.degrees_finite).sort((a, b) => a[0] - b[0]).map(([d, s], i) => [i ? ", " : "", el("b", null, d), " ", el("span", { class: "src" }, "(", sourceLinks(sources, [s]), ")")]) : el("span", { class: "empty" }, "nothing recorded")),

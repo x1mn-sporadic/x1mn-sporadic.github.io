@@ -12,7 +12,7 @@
       "value": "no",
       "rule": "X_1(33) has only finitely many points of degree 9",
       "sources": [
-        "torsion_inf"
+        "Najman2026"
       ]
     },
     "sporadic": {
@@ -24,14 +24,14 @@
         "JKS04",
         "KKM",
         "Mazur77",
-        "torsion_inf"
+        "Najman2026"
       ]
     },
     "isolated": {
       "value": "yes",
       "rule": "finitely many points of degree 9 on X_1(33), so the point lies in no positive-dimensional family",
       "sources": [
-        "torsion_inf",
+        "Najman2026",
         "BELOV"
       ]
     }

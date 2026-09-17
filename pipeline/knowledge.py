@@ -25,8 +25,10 @@ Every fact below carries the key of a source in SOURCES.  Nothing in this file
 is derived from memory of the literature: the Phi^infty(d) lists and the
 rank-0 theorem are transcribed from the TeX source of arXiv:1608.07549
 (Derickx-Sutherland), which itself quotes the d <= 4 lists; the degree 7-9
-data come from the torsion_inf audit tables (see SOURCES).  Anything not
-covered here is reported as "open", never guessed.
+data come from the torsion_inf audit tables (see SOURCES).  Every fact is
+credited to its first appearance in print; what has not appeared in print is
+credited to "Najman 2026 (unpublished)".  Anything not covered here is
+reported as "maybe", never guessed.
 """
 
 from __future__ import annotations
@@ -87,15 +89,21 @@ SOURCES = {
                             "degrees 7, 8; arXiv:1608.07549 for the Phi^infty(5), Phi^infty(6) lists, which restate Theorem 3 "
                             "for m = 1; the abstract and Lemma 1 of arXiv:1307.5719 for the scope and the rank statement",
     },
-    "torsion_inf": {
-        "short": "Najman–Varivoda, torsion_inf tables",
-        "cite": "F. Najman, M. Varivoda, audit tables tables/X1_N.csv and tables/X1_2_N.csv of the repository "
-                "github.com/marin-varivoda/torsion_inf (genus, analytic rank of J_1, Q-gonality bounds, and "
-                "whether X_1(m,n) has infinitely many points of degree 7, 8, 9); gonality lower bounds computed "
-                "with CurveArith (Derickx-Terao) and the Abramovich bound.",
-        "used_for": "what the project computed itself: gonality lower bounds for X_1(N), 40 < N <= 64 (CurveArith, Abramovich), "
-                    "gonality bounds and degree 7-9 data for X_1(2,n), n <= 60, degree-9 data for X_1(N), and analytic ranks",
+    "Najman2026": {
+        "short": "Najman 2026 (unpublished)",
+        "cite": "F. Najman, work in progress (2026), unpublished. The computations are recorded in the tables "
+                "tables/X1_N.csv and tables/X1_2_N.csv of github.com/marin-varivoda/torsion_inf (with M. Varivoda): "
+                "gonality lower bounds with CurveArith (Derickx-Terao) and a cover search, exact gonalities of "
+                "X_1(2,2n) for 11 <= n <= 14, upper bounds for X_1(2,2n), the degrees 7-9 data beyond "
+                "Derickx-van Hoeij and Derickx-Sutherland, and analytic ranks of J_1(2,2n).",
+        "used_for": "everything from the tables that has not appeared in print",
         "transcribed_from": "data/knowledge/sources/X1_N.csv, data/knowledge/sources/X1_2_N.csv (copied verbatim)",
+    },
+    "LMFDB": {
+        "short": "LMFDB",
+        "cite": "The LMFDB Collaboration, The L-functions and Modular Forms Database, https://www.lmfdb.org (2026): "
+                "genus, index and analytic rank of J_1(N).",
+        "used_for": "analytic ranks of J_1(N) (the torsion_inf tables copy them from beta.lmfdb.org)",
     },
     "Frey94": {
         "short": "Frey 1994",
@@ -287,7 +295,7 @@ def rank_zero_source(m: int, n: int, table_row=None):
     if m >= 2 and m in RANK_ZERO_DS17 and n <= RANK_ZERO_DS17[m]:
         return 0, "DS17"
     if table_row is not None and m <= 2 and table_row.get("an_r") == 0:
-        return 0, "torsion_inf+Kato"
+        return 0, ("LMFDB" if m == 1 else "Najman2026") + "+Kato"
     return None, None
 
 

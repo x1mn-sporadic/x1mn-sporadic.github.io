@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 11:29 UTC",
+  "generated": "2026-09-17 11:48 UTC",
   "points": [
     {
       "schema": "x1mn-sporadic/point/1",
@@ -752,7 +752,7 @@
           "value": "no",
           "rule": "X_1(29) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -764,14 +764,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(29), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -963,8 +963,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -1166,8 +1166,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -1729,7 +1729,7 @@
           "value": "no",
           "rule": "X_1(31) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -1741,14 +1741,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(31), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -1943,8 +1943,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -2146,8 +2146,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -2352,8 +2352,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -2558,8 +2558,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -2752,7 +2752,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -2766,7 +2766,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -2946,7 +2946,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -2960,7 +2960,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -3140,7 +3140,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -3154,7 +3154,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -3334,7 +3334,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -3348,7 +3348,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -3528,7 +3528,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -3542,7 +3542,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -3722,7 +3722,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -3736,7 +3736,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -3916,7 +3916,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -3930,7 +3930,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -4110,7 +4110,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -4124,7 +4124,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -4691,7 +4691,7 @@
           "value": "no",
           "rule": "X_1(33) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -4703,14 +4703,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(33), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -7257,7 +7257,7 @@
           "value": "no",
           "rule": "X_1(34) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -7269,14 +7269,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -7456,7 +7456,7 @@
           "value": "no",
           "rule": "X_1(34) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -7468,14 +7468,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -7655,7 +7655,7 @@
           "value": "no",
           "rule": "X_1(34) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -7667,14 +7667,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -7854,7 +7854,7 @@
           "value": "no",
           "rule": "X_1(34) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -7866,14 +7866,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -8260,8 +8260,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -8463,8 +8463,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -8666,8 +8666,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -16939,8 +16939,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -17142,8 +17142,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -17345,8 +17345,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -17731,7 +17731,7 @@
           "value": "no",
           "rule": "X_1(39) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -17743,14 +17743,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(39), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -17942,8 +17942,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -18145,8 +18145,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -18354,8 +18354,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -18563,8 +18563,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -21691,7 +21691,7 @@
           "value": "no",
           "rule": "X_1(40) has only finitely many points of degree 9",
           "sources": [
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "sporadic": {
@@ -21703,14 +21703,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "torsion_inf"
+            "Najman2026"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(40), so the point lies in no positive-dimensional family",
           "sources": [
-            "torsion_inf",
+            "Najman2026",
             "BELOV"
           ]
         }
@@ -21902,8 +21902,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -22105,8 +22105,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -22308,8 +22308,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -22514,8 +22514,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -22720,8 +22720,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {
@@ -22926,8 +22926,8 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "RankZeroLemma",
-            "torsion_inf"
+            "Najman2026",
+            "RankZeroLemma"
           ]
         },
         "isolated": {

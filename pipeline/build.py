@@ -62,14 +62,23 @@ def curve_record(m, n, magma_rec, table_row):
     elif table_row is not None:
         exact = table_row["gon_lb"] == table_row["gon_ub"]
         gon = {"lb": max(table_row["gon_lb"], abr_int), "ub": table_row["gon_ub"], "exact": exact}
-        if m == 1:
-            # Derickx-van Hoeij: exact gonality for N <= 40, upper bounds for N <= 250; the lower bounds for
-            # N > 40 are the torsion_inf project's (CurveArith) or Abramovich's
+        inf0, fin0 = knowledge.phi_infinity_degrees(m, n)
+        g = table_row["gon_ub"]
+        # first appearance of the gonality:
+        #  * gamma = d follows from the Phi^infty lists when (m,n) is in Phi^infty(d) but in no Phi^infty(e), e < d
+        #    (with rank 0 a degree-d function exists and none of smaller degree): credit the list source;
+        #  * X_1(N), N <= 40: Derickx-van Hoeij (exact); N > 40: their upper bound, lower bound from the
+        #    torsion_inf computations (unpublished) or Abramovich;
+        #  * X_1(2,2n) otherwise: unpublished (Najman 2026), or Abramovich for the lower bound.
+        derivable = exact and g in inf0 and all(e in fin0 for e in range(1, g) if e % phi == 0)
+        if derivable:
+            gon["lb_source"] = gon["ub_source"] = inf0[g]
+        elif m == 1:
             gon["ub_source"] = "DvH14"
-            gon["lb_source"] = "DvH14" if n <= 40 else ("Abramovich96" if table_row["gon_lb"] <= abr_int else "torsion_inf")
+            gon["lb_source"] = "DvH14" if n <= 40 else ("Abramovich96" if table_row["gon_lb"] <= abr_int else "Najman2026")
         else:
-            gon["ub_source"] = "torsion_inf"
-            gon["lb_source"] = "Abramovich96" if table_row["gon_lb"] <= abr_int else "torsion_inf"
+            gon["ub_source"] = "Najman2026"
+            gon["lb_source"] = "Abramovich96" if table_row["gon_lb"] <= abr_int else "Najman2026"
         gon["source"] = gon["ub_source"] if exact else gon["lb_source"]
     else:
         gon = {"lb": max(abr_int, 2 if genus >= 1 else 1), "ub": None, "source": "Abramovich96", "exact": False,
@@ -82,7 +91,7 @@ def curve_record(m, n, magma_rec, table_row):
     rank = {"value": rank_val, "source": rank_src} if rank_val is not None else {"value": None, "source": None}
     if table_row is not None:
         rank["analytic_rank"] = table_row["an_r"]
-        rank.setdefault("source", "torsion_inf")
+        rank["analytic_rank_source"] = "LMFDB" if m == 1 else "Najman2026"
     inf, fin = knowledge.phi_infinity_degrees(m, n)
     degrees_infinite = {str(d): s for d, s in sorted(inf.items())}
     degrees_finite = {str(d): s for d, s in sorted(fin.items())}
@@ -102,7 +111,7 @@ def curve_record(m, n, magma_rec, table_row):
                 elif m == 2 and d == 7 and ((n // 2 <= 10 and val) or (n // 2 > 15 and not val)):
                     src = "DS17"
                 else:
-                    src = "torsion_inf"
+                    src = "Najman2026"
                 (degrees_infinite if val else degrees_finite)[str(d)] = src
         if gon["exact"] and m <= 2:
             # degree = gonality: a function of that degree over Q exists (source of the gonality), hence
@@ -174,7 +183,7 @@ def build():
             "sporadic": "a closed point of degree d is sporadic if the curve has only finitely many closed points of degree <= d",
             "isolated": "P^1-isolated (dim L(x) = 1) and AV-isolated (Bourdon-Ejder-Liu-Odumodu-Viray); finitely many points of degree d implies isolated",
             "answers": "each of 'infinitely many points of degree d', 'sporadic', 'isolated' is yes, no or maybe",
-            "gonality": "Q-gonality for m <= 2 (torsion_inf tables); for m >= 3 only Abramovich's geometric lower bound",
+            "gonality": "Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Abramovich, or Najman's unpublished computations); for m >= 3 only Abramovich's geometric lower bound",
         },
         "n_curves": len(curves),
         "n_points": len(points),
