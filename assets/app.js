@@ -73,7 +73,7 @@
 
   // ---------------------------------------------------------------- header / footer
   function chrome() {
-    const nav = [["index.html", "curves", "index"], ["submit.html", "submit a point", "submit"],
+    const nav = [["index.html", "curves", "index"], ["degrees.html", "by degree", "degrees"], ["submit.html", "submit a point", "submit"],
                  ["about.html", "about & sources", "about"], [REPO, "github", ""]];
     const header = el("header", { class: "site" },
       el("div", { class: "inner" },
@@ -85,6 +85,7 @@
     const footer = el("footer", { class: "site" },
       el("div", { class: "links" },
         el("a", { href: "index.html" }, "curves"), el("span", { class: "sep" }, "·"),
+        el("a", { href: "degrees.html" }, "by degree"), el("span", { class: "sep" }, "·"),
         el("a", { href: "submit.html" }, "submit"), el("span", { class: "sep" }, "·"),
         el("a", { href: "about.html" }, "about & sources"), el("span", { class: "sep" }, "·"),
         el("a", { href: "data/points.json" }, "all points (JSON)"), el("span", { class: "sep" }, "·"),
@@ -346,6 +347,68 @@
           "; the Tate normal form of (E,Q) and the residue field ℚ(b, c" + (p.m > 1 ? ", x(P), y(P)" : "") + ") of the point were recomputed, and its degree is " + p.degree + ".")));
   }
 
+  // ---------------------------------------------------------------- points by degree
+  async function renderDegrees() {
+    const [pts, curves] = await Promise.all([load("points"), load("curves")]);
+    const index = $("#degree-index"), sections = $("#sections"), toggle = $("#show-undecided");
+    const genusOf = {};
+    curves.curves.forEach((c) => { genusOf[c.m + "." + c.n] = c.genus; });
+    function draw() {
+      index.innerHTML = ""; sections.innerHTML = "";
+      const shown = pts.points.filter((p) => p.status === "certified" || toggle.checked);
+      const byDeg = new Map();
+      shown.forEach((p) => { if (!byDeg.has(p.degree)) byDeg.set(p.degree, []); byDeg.get(p.degree).push(p); });
+      const degs = Array.from(byDeg.keys()).sort((a, b) => a - b);
+      if (!degs.length) { sections.append(el("p", { class: "empty" }, "No points to show.")); return; }
+      index.append("Jump to degree: ");
+      degs.forEach((d, i) => {
+        const ps = byDeg.get(d);
+        if (i) index.append(el("span", { class: "sep" }, "·"));
+        index.append(el("a", { href: "#d" + d, title: ps.length + " point" + (ps.length > 1 ? "s" : "") }, String(d)));
+      });
+      for (const d of degs) {
+        const ps = byDeg.get(d).sort((a, b) => a.m - b.m || a.n - b.n || (a.id < b.id ? -1 : 1));
+        const nSp = ps.filter((p) => p.classification.sporadic.value === "yes").length;
+        const nIso = ps.filter((p) => p.classification.isolated.value === "yes").length;
+        const nUnd = ps.filter((p) => p.status !== "certified").length;
+        const curvesHere = Array.from(new Set(ps.map((p) => curveLabel(p.m, p.n))));
+        const h = el("h3", { id: "d" + d }, "Degree " + d, " ",
+          el("span", { class: "muted", style: "font-family: var(--sans); font-size: 0.9rem; font-weight: 400" },
+            ps.length + " point" + (ps.length > 1 ? "s" : "") + " on " + curvesHere.length + " curve" + (curvesHere.length > 1 ? "s" : "") +
+            " — " + nSp + " sporadic, " + nIso + " isolated" + (nUnd ? ", " + nUnd + " undecided" : "")));
+        const table = el("table", { class: "data" },
+          el("thead", null, el("tr", null,
+            el("th", { class: "sortable" }, "id"), el("th", { class: "sortable" }, "curve"), el("th", null, "residue field"),
+            el("th", { class: "num sortable", title: "the j-invariant if rational, otherwise its degree over Q; CM marked" }, "j"),
+            el("th", { class: "sortable", title: "finitely many points of degree ≤ d on the curve" }, "sporadic"),
+            el("th", { class: "sortable", title: "P¹-isolated and AV-isolated" }, "isolated"),
+            el("th", { class: "sortable", title: "does the curve have infinitely many points of this degree?" }, "∞ in deg d"),
+            el("th", { class: "sortable" }, "discovered by"))),
+          el("tbody", null, ps.map((p) => {
+            const cl = p.classification, href = "point.html?id=" + encodeURIComponent(p.id);
+            return el("tr", { class: "row-link", onclick: (e) => { if (e.target.tagName !== "A") location.href = href; } },
+              el("td", null, el("a", { href, class: "id" }, p.id)),
+              el("td", { "data-sort": p.m * 1000 + p.n, style: "white-space: nowrap" }, el("a", { href: "curve.html?m=" + p.m + "&n=" + p.n }, curveLabel(p.m, p.n)),
+                el("span", { class: "muted", title: "genus" }, " g=" + genusOf[p.m + "." + p.n])),
+              el("td", { class: "poly", html: math(p.field.poly) }),
+              el("td", { class: "num", "data-sort": p.curve.j_degree, title: "discriminant of the residue field: " + p.field.disc },
+                p.curve.j_rational ? el("span", { class: "m" }, p.curve.j_rational) : String(p.curve.j_degree), p.curve.cm ? el("span", { class: "muted" }, " CM") : ""),
+              el("td", { "data-sort": cl.sporadic.value }, ans(cl.sporadic, "yes")),
+              el("td", { "data-sort": cl.isolated.value }, ans(cl.isolated, "yes")),
+              el("td", { "data-sort": cl.infinite_in_degree.value }, ans(cl.infinite_in_degree, "no")),
+              el("td", { "data-sort": p.discovery.year || 0 }, discovery(p.discovery.by, p.discovery.year)));
+          })));
+        sections.append(h, el("div", { class: "table-wrap" }, table));
+        makeSortable(table);
+      }
+      if (location.hash) { const t = $(location.hash); if (t) t.scrollIntoView(); }
+    }
+    toggle.addEventListener("change", draw);
+    const want = params.get("d");
+    draw();
+    if (want) { const t = $("#d" + want); if (t) t.scrollIntoView(); }
+  }
+
   // ---------------------------------------------------------------- about page: sources
   async function renderAbout() {
     const srcData = await load("sources");
@@ -361,7 +424,7 @@
   chrome();
   const sl = $("#submit-any");
   if (sl) sl.href = prefillIssue();
-  const run = { index: renderIndex, curve: renderCurve, point: renderPoint, about: renderAbout }[pageName];
+  const run = { index: renderIndex, curve: renderCurve, point: renderPoint, about: renderAbout, degrees: renderDegrees }[pageName];
   if (run) run().catch((e) => {
     const main = $("main");
     main.append(el("p", { class: "error" }, "Could not load the census data: " + e.message));

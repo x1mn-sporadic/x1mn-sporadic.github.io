@@ -193,6 +193,12 @@ pre code { background: transparent; padding: 0; }
 .page-nav a:hover { text-decoration: underline; }
 .page-nav .sep { color: var(--muted); margin: 0 0.4rem; }
 
+.degree-index { font-size: 1rem; }
+.degree-index a { text-decoration: none; font-weight: 600; padding: 0 0.15rem; }
+.degree-index a:hover { text-decoration: underline; }
+.degree-index .sep { color: var(--muted); margin: 0 0.3rem; }
+main h3[id^="d"] { scroll-margin-top: 1rem; }
+
 /* ------------------------------------------------------------------ controls */
 .controls {
   display: flex;

@@ -25,7 +25,7 @@ verified with Magma, and the outcome is posted on the issue.
 ## Layout
 
 ```
-index.html curve.html point.html submit.html about.html   the site (vanilla HTML/CSS/JS, no build step)
+index.html curve.html point.html degrees.html submit.html about.html   the site (vanilla HTML/CSS/JS, no build step)
 assets/                  style.css, app.js
 data/points/<id>.json    certificates (id = m.n.degree.label)
 data/logs/<id>.log       Magma log of the verification
