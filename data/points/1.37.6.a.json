@@ -9,7 +9,7 @@
   "status": "certified",
   "sporadicity": {
     "status": "sporadic",
-    "rule": "X_1(1,37) has only finitely many points of degree 6",
+    "rule": "X_1(37) has only finitely many points of degree 6",
     "sources": [
       "DS17"
     ]
@@ -36,8 +36,8 @@
   },
   "curve": {
     "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
-    "tate_b": "132668*Lopt.1^5 + 30424*Lopt.1^4 - 952123*Lopt.1^3 + 468442*Lopt.1^2 + 567659*Lopt.1 - 172145",
-    "tate_c": "889*Lopt.1^5 + 204*Lopt.1^4 - 6380*Lopt.1^3 + 3138*Lopt.1^2 + 3804*Lopt.1 - 1153",
+    "tate_b": "132668*a^5 + 30424*a^4 - 952123*a^3 + 468442*a^2 + 567659*a - 172145",
+    "tate_c": "889*a^5 + 204*a^4 - 6380*a^3 + 3138*a^2 + 3804*a - 1153",
     "tate_b_coeffs": [
       "-172145",
       "567659",
@@ -55,9 +55,9 @@
       "889"
     ],
     "ainvs": [
-      "1 - (889*Lopt.1^5 + 204*Lopt.1^4 - 6380*Lopt.1^3 + 3138*Lopt.1^2 + 3804*Lopt.1 - 1153)",
-      "-(132668*Lopt.1^5 + 30424*Lopt.1^4 - 952123*Lopt.1^3 + 468442*Lopt.1^2 + 567659*Lopt.1 - 172145)",
-      "-(132668*Lopt.1^5 + 30424*Lopt.1^4 - 952123*Lopt.1^3 + 468442*Lopt.1^2 + 567659*Lopt.1 - 172145)",
+      "1 - (889*a^5 + 204*a^4 - 6380*a^3 + 3138*a^2 + 3804*a - 1153)",
+      "-(132668*a^5 + 30424*a^4 - 952123*a^3 + 468442*a^2 + 567659*a - 172145)",
+      "-(132668*a^5 + 30424*a^4 - 952123*a^3 + 468442*a^2 + 567659*a - 172145)",
       "0",
       "0"
     ],
@@ -137,13 +137,13 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 08:46:53 UTC"
+    "verified": "2026-09-17 09:23:15 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.100000",
-    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "cputime_seconds": "0.110000",
+    "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
     "log": "data/logs/1.37.6.a.log"
   }
 }

@@ -40,8 +40,8 @@
   },
   "curve": {
     "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
-    "tate_b": "1/2*(-6*Lopt.1^11 + 21*Lopt.1^10 - 45*Lopt.1^9 + 66*Lopt.1^8 - 88*Lopt.1^7 + 99*Lopt.1^6 - 85*Lopt.1^5 + 44*Lopt.1^4 - 23*Lopt.1^3 + 17*Lopt.1^2 - 11*Lopt.1 + 2)",
-    "tate_c": "1/2*(18*Lopt.1^11 - 70*Lopt.1^10 + 147*Lopt.1^9 - 231*Lopt.1^8 + 312*Lopt.1^7 - 374*Lopt.1^6 + 333*Lopt.1^5 - 199*Lopt.1^4 + 132*Lopt.1^3 - 65*Lopt.1^2 + 29*Lopt.1 + 3)",
+    "tate_b": "1/2*(-6*a^11 + 21*a^10 - 45*a^9 + 66*a^8 - 88*a^7 + 99*a^6 - 85*a^5 + 44*a^4 - 23*a^3 + 17*a^2 - 11*a + 2)",
+    "tate_c": "1/2*(18*a^11 - 70*a^10 + 147*a^9 - 231*a^8 + 312*a^7 - 374*a^6 + 333*a^5 - 199*a^4 + 132*a^3 - 65*a^2 + 29*a + 3)",
     "tate_b_coeffs": [
       "1",
       "-11/2",
@@ -71,9 +71,9 @@
       "9"
     ],
     "ainvs": [
-      "1 - (1/2*(18*Lopt.1^11 - 70*Lopt.1^10 + 147*Lopt.1^9 - 231*Lopt.1^8 + 312*Lopt.1^7 - 374*Lopt.1^6 + 333*Lopt.1^5 - 199*Lopt.1^4 + 132*Lopt.1^3 - 65*Lopt.1^2 + 29*Lopt.1 + 3))",
-      "-(1/2*(-6*Lopt.1^11 + 21*Lopt.1^10 - 45*Lopt.1^9 + 66*Lopt.1^8 - 88*Lopt.1^7 + 99*Lopt.1^6 - 85*Lopt.1^5 + 44*Lopt.1^4 - 23*Lopt.1^3 + 17*Lopt.1^2 - 11*Lopt.1 + 2))",
-      "-(1/2*(-6*Lopt.1^11 + 21*Lopt.1^10 - 45*Lopt.1^9 + 66*Lopt.1^8 - 88*Lopt.1^7 + 99*Lopt.1^6 - 85*Lopt.1^5 + 44*Lopt.1^4 - 23*Lopt.1^3 + 17*Lopt.1^2 - 11*Lopt.1 + 2))",
+      "1 - (1/2*(18*a^11 - 70*a^10 + 147*a^9 - 231*a^8 + 312*a^7 - 374*a^6 + 333*a^5 - 199*a^4 + 132*a^3 - 65*a^2 + 29*a + 3))",
+      "-(1/2*(-6*a^11 + 21*a^10 - 45*a^9 + 66*a^8 - 88*a^7 + 99*a^6 - 85*a^5 + 44*a^4 - 23*a^3 + 17*a^2 - 11*a + 2))",
+      "-(1/2*(-6*a^11 + 21*a^10 - 45*a^9 + 66*a^8 - 88*a^7 + 99*a^6 - 85*a^5 + 44*a^4 - 23*a^3 + 17*a^2 - 11*a + 2))",
       "0",
       "0"
     ],
@@ -153,13 +153,13 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 08:46:22 UTC"
+    "verified": "2026-09-17 09:22:45 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.280000",
-    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "cputime_seconds": "0.220000",
+    "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
     "log": "data/logs/1.37.12.c.log"
   }
 }

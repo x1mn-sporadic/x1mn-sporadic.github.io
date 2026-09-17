@@ -9,7 +9,7 @@
 ]
 [0.0100000 s] orders verified: ord P = 1, ord Q = 39, <P,Q> = Z/1 x Z/39
 [0.0400000 s] torsion bound from reductions: |E(K)_tors| divides 39 (primes [ 29 ])
-[0.0500000 s] Tate normal form done; residue field of the point has degree 15 (K has degree 15)
+[0.0400000 s] Tate normal form done; residue field of the point has degree 15 (K has degree 15)
 [0.0900000 s] j: degree 15, CM false 0
-[1.81000 s] conductor norm 711
-[1.82000 s] VERIFY_DONE
+[1.88000 s] conductor norm 711
+[1.89000 s] VERIFY_DONE

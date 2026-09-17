@@ -40,8 +40,8 @@
   },
   "curve": {
     "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
-    "tate_b": "70*Lopt.1^11 - 189*Lopt.1^10 + 345*Lopt.1^9 - 531*Lopt.1^8 + 558*Lopt.1^7 - 116*Lopt.1^6 - 369*Lopt.1^5 + 383*Lopt.1^4 - 55*Lopt.1^3 - 95*Lopt.1^2 + 54*Lopt.1 - 2",
-    "tate_c": "-14*Lopt.1^11 + 44*Lopt.1^10 - 95*Lopt.1^9 + 154*Lopt.1^8 - 186*Lopt.1^7 + 114*Lopt.1^6 + 34*Lopt.1^5 - 133*Lopt.1^4 + 82*Lopt.1^3 + 6*Lopt.1^2 - 30*Lopt.1 + 9",
+    "tate_b": "70*a^11 - 189*a^10 + 345*a^9 - 531*a^8 + 558*a^7 - 116*a^6 - 369*a^5 + 383*a^4 - 55*a^3 - 95*a^2 + 54*a - 2",
+    "tate_c": "-14*a^11 + 44*a^10 - 95*a^9 + 154*a^8 - 186*a^7 + 114*a^6 + 34*a^5 - 133*a^4 + 82*a^3 + 6*a^2 - 30*a + 9",
     "tate_b_coeffs": [
       "-2",
       "54",
@@ -71,9 +71,9 @@
       "-14"
     ],
     "ainvs": [
-      "1 - (-14*Lopt.1^11 + 44*Lopt.1^10 - 95*Lopt.1^9 + 154*Lopt.1^8 - 186*Lopt.1^7 + 114*Lopt.1^6 + 34*Lopt.1^5 - 133*Lopt.1^4 + 82*Lopt.1^3 + 6*Lopt.1^2 - 30*Lopt.1 + 9)",
-      "-(70*Lopt.1^11 - 189*Lopt.1^10 + 345*Lopt.1^9 - 531*Lopt.1^8 + 558*Lopt.1^7 - 116*Lopt.1^6 - 369*Lopt.1^5 + 383*Lopt.1^4 - 55*Lopt.1^3 - 95*Lopt.1^2 + 54*Lopt.1 - 2)",
-      "-(70*Lopt.1^11 - 189*Lopt.1^10 + 345*Lopt.1^9 - 531*Lopt.1^8 + 558*Lopt.1^7 - 116*Lopt.1^6 - 369*Lopt.1^5 + 383*Lopt.1^4 - 55*Lopt.1^3 - 95*Lopt.1^2 + 54*Lopt.1 - 2)",
+      "1 - (-14*a^11 + 44*a^10 - 95*a^9 + 154*a^8 - 186*a^7 + 114*a^6 + 34*a^5 - 133*a^4 + 82*a^3 + 6*a^2 - 30*a + 9)",
+      "-(70*a^11 - 189*a^10 + 345*a^9 - 531*a^8 + 558*a^7 - 116*a^6 - 369*a^5 + 383*a^4 - 55*a^3 - 95*a^2 + 54*a - 2)",
+      "-(70*a^11 - 189*a^10 + 345*a^9 - 531*a^8 + 558*a^7 - 116*a^6 - 369*a^5 + 383*a^4 - 55*a^3 - 95*a^2 + 54*a - 2)",
       "0",
       "0"
     ],
@@ -153,13 +153,13 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 08:46:22 UTC"
+    "verified": "2026-09-17 09:22:44 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.300000",
-    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "cputime_seconds": "0.230000",
+    "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
     "log": "data/logs/1.37.12.b.log"
   }
 }

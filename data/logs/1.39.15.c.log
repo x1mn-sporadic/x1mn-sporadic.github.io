@@ -1,15 +1,15 @@
 [0.000000 s] start: X_1(1,39) mode=vanhoeij
-[0.0100000 s] field: degree 15, x^15 + 2*x^14 + x^13 + x^12 - 5*x^11 - 4*x^10 - 3*x^9 - 2*x^8 + 6*x^7 + 3*x^6 + 3*x^5 + 4*x^4 - 5*x^3 + 3*x^2 - 3*x + 1
-[0.0100000 s] curve: [
+[0.000000 s] field: degree 15, x^15 + 2*x^14 + x^13 + x^12 - 5*x^11 - 4*x^10 - 3*x^9 - 2*x^8 + 6*x^7 + 3*x^6 + 3*x^5 + 4*x^4 - 5*x^3 + 3*x^2 - 3*x + 1
+[0.000000 s] curve: [
 1/659*(-349*a^14 - 4712*a^13 - 8004*a^12 - 1202*a^11 + 2913*a^10 + 22069*a^9 + 14356*a^8 - 550*a^7 - 5155*a^6 - 21775*a^5 - 12032*a^4 + 2846*a^3 - 7798*a^2 + 16831*a - 4549),
 1/659*(6915*a^14 + 13512*a^13 + 3577*a^12 - 2812*a^11 - 40642*a^10 - 22940*a^9 - 7079*a^8 + 18832*a^7 + 38908*a^6 + 18699*a^5 + 7007*a^4 - 9431*a^3 - 13915*a^2 - 8130*a + 7720),
 1/659*(6915*a^14 + 13512*a^13 + 3577*a^12 - 2812*a^11 - 40642*a^10 - 22940*a^9 - 7079*a^8 + 18832*a^7 + 38908*a^6 + 18699*a^5 + 7007*a^4 - 9431*a^3 - 13915*a^2 - 8130*a + 7720),
 0,
 0
 ]
-[0.0100000 s] orders verified: ord P = 1, ord Q = 39, <P,Q> = Z/1 x Z/39
-[0.0300000 s] torsion bound from reductions: |E(K)_tors| divides 39 (primes [ 29 ])
-[0.0400000 s] Tate normal form done; residue field of the point has degree 15 (K has degree 15)
-[0.190000 s] j: degree 15, CM false 0
-[0.740000 s] conductor norm 40053
-[0.740000 s] VERIFY_DONE
+[0.000000 s] orders verified: ord P = 1, ord Q = 39, <P,Q> = Z/1 x Z/39
+[0.0200000 s] torsion bound from reductions: |E(K)_tors| divides 39 (primes [ 29 ])
+[0.0200000 s] Tate normal form done; residue field of the point has degree 15 (K has degree 15)
+[0.140000 s] j: degree 15, CM false 0
+[0.550000 s] conductor norm 40053
+[0.550000 s] VERIFY_DONE

@@ -39,8 +39,8 @@
   },
   "curve": {
     "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
-    "tate_b": "55*Lopt.1^10 + 71*Lopt.1^9 + 50*Lopt.1^8 - 12*Lopt.1^7 + 37*Lopt.1^6 - 121*Lopt.1^5 - 19*Lopt.1^4 - 26*Lopt.1^3 - 84*Lopt.1^2 + 22*Lopt.1 - 39",
-    "tate_c": "-3*Lopt.1^10 - 6*Lopt.1^9 + 2*Lopt.1^8 + 8*Lopt.1^7 + 3*Lopt.1^6 - 2*Lopt.1^5 + 9*Lopt.1^4 - 13*Lopt.1^3 + 5*Lopt.1^2 - 3*Lopt.1",
+    "tate_b": "55*a^10 + 71*a^9 + 50*a^8 - 12*a^7 + 37*a^6 - 121*a^5 - 19*a^4 - 26*a^3 - 84*a^2 + 22*a - 39",
+    "tate_c": "-3*a^10 - 6*a^9 + 2*a^8 + 8*a^7 + 3*a^6 - 2*a^5 + 9*a^4 - 13*a^3 + 5*a^2 - 3*a",
     "tate_b_coeffs": [
       "-39",
       "22",
@@ -68,9 +68,9 @@
       "-3"
     ],
     "ainvs": [
-      "1 - (-3*Lopt.1^10 - 6*Lopt.1^9 + 2*Lopt.1^8 + 8*Lopt.1^7 + 3*Lopt.1^6 - 2*Lopt.1^5 + 9*Lopt.1^4 - 13*Lopt.1^3 + 5*Lopt.1^2 - 3*Lopt.1)",
-      "-(55*Lopt.1^10 + 71*Lopt.1^9 + 50*Lopt.1^8 - 12*Lopt.1^7 + 37*Lopt.1^6 - 121*Lopt.1^5 - 19*Lopt.1^4 - 26*Lopt.1^3 - 84*Lopt.1^2 + 22*Lopt.1 - 39)",
-      "-(55*Lopt.1^10 + 71*Lopt.1^9 + 50*Lopt.1^8 - 12*Lopt.1^7 + 37*Lopt.1^6 - 121*Lopt.1^5 - 19*Lopt.1^4 - 26*Lopt.1^3 - 84*Lopt.1^2 + 22*Lopt.1 - 39)",
+      "1 - (-3*a^10 - 6*a^9 + 2*a^8 + 8*a^7 + 3*a^6 - 2*a^5 + 9*a^4 - 13*a^3 + 5*a^2 - 3*a)",
+      "-(55*a^10 + 71*a^9 + 50*a^8 - 12*a^7 + 37*a^6 - 121*a^5 - 19*a^4 - 26*a^3 - 84*a^2 + 22*a - 39)",
+      "-(55*a^10 + 71*a^9 + 50*a^8 - 12*a^7 + 37*a^6 - 121*a^5 - 19*a^4 - 26*a^3 - 84*a^2 + 22*a - 39)",
       "0",
       "0"
     ],
@@ -150,13 +150,13 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 08:46:14 UTC"
+    "verified": "2026-09-17 09:22:37 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
     "cputime_seconds": "0.290000",
-    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
     "log": "data/logs/1.33.11.g.log"
   }
 }

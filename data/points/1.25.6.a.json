@@ -9,7 +9,7 @@
   "status": "certified",
   "sporadicity": {
     "status": "sporadic",
-    "rule": "X_1(1,25) has only finitely many points of degree 6",
+    "rule": "X_1(25) has only finitely many points of degree 6",
     "sources": [
       "DS17"
     ]
@@ -36,8 +36,8 @@
   },
   "curve": {
     "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
-    "tate_b": "-32*K.1^5 + 179*K.1^4 - 347*K.1^3 + 286*K.1^2 - 119*K.1 + 21",
-    "tate_c": "2*K.1^4 - 10*K.1^3 + 16*K.1^2 - 9*K.1 + 2",
+    "tate_b": "-32*a^5 + 179*a^4 - 347*a^3 + 286*a^2 - 119*a + 21",
+    "tate_c": "2*a^4 - 10*a^3 + 16*a^2 - 9*a + 2",
     "tate_b_coeffs": [
       "21",
       "-119",
@@ -55,9 +55,9 @@
       "0"
     ],
     "ainvs": [
-      "1 - (2*K.1^4 - 10*K.1^3 + 16*K.1^2 - 9*K.1 + 2)",
-      "-(-32*K.1^5 + 179*K.1^4 - 347*K.1^3 + 286*K.1^2 - 119*K.1 + 21)",
-      "-(-32*K.1^5 + 179*K.1^4 - 347*K.1^3 + 286*K.1^2 - 119*K.1 + 21)",
+      "1 - (2*a^4 - 10*a^3 + 16*a^2 - 9*a + 2)",
+      "-(-32*a^5 + 179*a^4 - 347*a^3 + 286*a^2 - 119*a + 21)",
+      "-(-32*a^5 + 179*a^4 - 347*a^3 + 286*a^2 - 119*a + 21)",
       "0",
       "0"
     ],
@@ -97,9 +97,9 @@
     },
     "points": {},
     "ainvs_as_verified": [
-      "-2*$.1^4 + 10*$.1^3 - 16*$.1^2 + 9*$.1 - 1",
-      "32*$.1^5 - 179*$.1^4 + 347*$.1^3 - 286*$.1^2 + 119*$.1 - 21",
-      "32*$.1^5 - 179*$.1^4 + 347*$.1^3 - 286*$.1^2 + 119*$.1 - 21",
+      "-2*a^4 + 10*a^3 - 16*a^2 + 9*a - 1",
+      "32*a^5 - 179*a^4 + 347*a^3 - 286*a^2 + 119*a - 21",
+      "32*a^5 - 179*a^4 + 347*a^3 - 286*a^2 + 119*a - 21",
       "0",
       "0"
     ],
@@ -137,13 +137,13 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 08:46:08 UTC"
+    "verified": "2026-09-17 09:22:30 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
     "cputime_seconds": "0.0800000",
-    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
     "log": "data/logs/1.25.6.a.log"
   }
 }

@@ -1,15 +1,15 @@
 [0.000000 s] start: X_1(1,30) mode=vanhoeij
 [0.000000 s] field: degree 5, x^5 + x^4 - 7*x^3 + x^2 + 12*x + 3
-[0.0100000 s] curve: [
+[0.000000 s] curve: [
 1/53*(803*a^4 + 531*a^3 - 5761*a^2 + 2750*a + 8462),
 1/53*(-12304*a^4 - 9488*a^3 + 88706*a^2 - 32748*a - 142923),
 1/53*(-12304*a^4 - 9488*a^3 + 88706*a^2 - 32748*a - 142923),
 0,
 0
 ]
-[0.0100000 s] orders verified: ord P = 1, ord Q = 30, <P,Q> = Z/1 x Z/30
-[0.0200000 s] torsion bound from reductions: |E(K)_tors| divides 30 (primes [ 23 ])
-[0.0200000 s] Tate normal form done; residue field of the point has degree 5 (K has degree 5)
-[0.0300000 s] j: degree 5, CM false 0
-[0.0800000 s] conductor norm 33
-[0.0800000 s] VERIFY_DONE
+[0.000000 s] orders verified: ord P = 1, ord Q = 30, <P,Q> = Z/1 x Z/30
+[0.0100000 s] torsion bound from reductions: |E(K)_tors| divides 30 (primes [ 23 ])
+[0.0100000 s] Tate normal form done; residue field of the point has degree 5 (K has degree 5)
+[0.0200000 s] j: degree 5, CM false 0
+[0.0600000 s] conductor norm 33
+[0.0600000 s] VERIFY_DONE

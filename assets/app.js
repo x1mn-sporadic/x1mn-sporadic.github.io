@@ -45,6 +45,7 @@
     t = t.replace(/(\d|\))\*([a-zA-Zζ(])/g, "$1$2");   // 3*x -> 3x, (..)*a -> (..)a
     t = t.replace(/\*/g, "·");
     t = t.replace(/(^|[\s(])-/g, "$1−").replace(/ - /g, " − ");
+    t = t.replace(/X_1/g, "X₁").replace(/J_1/g, "J₁").replace(/zeta_(\d+)/g, "ζ$1").replace(/gon_Q/g, "gon<sub>ℚ</sub>").replace(/\bQ\b/g, "ℚ");
     return '<span class="m">' + t + "</span>";
   }
   const curveLabel = (m, n) => (m === 1 ? "X₁(" + n + ")" : "X₁(" + m + "," + n + ")");
@@ -130,7 +131,7 @@
           const head = c.m === 1 ? "m = 1 — X₁(n), torsion ℤ/n, defined over ℚ"
             : c.m === 2 ? "m = 2 — X₁(2,n), torsion ℤ/2 ⊕ ℤ/n, defined over ℚ"
             : "m = " + c.m + " — X₁(" + c.m + ",n), torsion ℤ/" + c.m + " ⊕ ℤ/n, defined over ℚ(ζ" + String(c.m).split("").map((x) => "₀₁₂₃₄₅₆₇₈₉"[x]).join("") + ")";
-          tbody.append(el("tr", { class: "group" }, el("th", { colspan: 9 }, head)));
+          tbody.append(el("tr", { class: "group" }, el("th", { colspan: 8 }, head)));
         }
         const gon = c.gonality.exact ? String(c.gonality.lb) : c.gonality.ub ? c.gonality.lb + "–" + c.gonality.ub : "≥ " + c.gonality.lb;
         const rank = c.rank.value === null ? "?" : String(c.rank.value);
@@ -142,9 +143,9 @@
           el("td", { class: "num", title: c.rank.source ? "source: " + c.rank.source : "rank not recorded" }, rank),
           el("td", null, c.genus === 0 ? el("span", { class: "empty" }, "—") : degChips(c.degrees_finite, "fin")),
           el("td", null, degChips(c.degrees_infinite, "inf")),
-          el("td", { class: "num" }, c.n_certified || ""),
-          el("td", { class: "num" }, c.n_verified || ""),
-          el("td", { class: "degs" }, c.degrees_present.length ? c.degrees_present.join(", ") : ""));
+          el("td", { class: "num", "data-sort": c.n_certified + c.n_verified }, c.n_certified || c.n_verified
+            ? [el("b", null, c.n_certified), c.n_verified ? el("span", { class: "muted" }, " + " + c.n_verified + " open") : ""] : ""),
+          el("td", { class: "num" }, c.degrees_present.length ? c.degrees_present.join(", ") : ""));
         tbody.append(tr);
       }
     }
@@ -252,7 +253,7 @@
     body.append(el("div", { class: "panel " + (p.status === "certified" ? "accepted" : "open") },
       el("h3", null, chip(p.status)),
       el("p", { class: "wide" }, p.status === "certified"
-        ? ["Sporadic: " + sp.rule + ". ", el("span", { class: "src" }, "Sources: ", sourceLinks(sources, sp.sources), ".")]
+        ? [el("span", { html: "Sporadic: " + math(sp.rule) + ". " }), el("span", { class: "src" }, "Sources: ", sourceLinks(sources, sp.sources), ".")]
         : ["The point has been verified (curve, torsion structure and degree), but no result recorded in the census proves that ",
            curveLabel(p.m, p.n), " has only finitely many points of degree " + p.degree + ". ", sp.rule + "."]),
       p.reference ? el("p", { class: "wide" }, el("b", null, "Reference: "), p.reference) : null,

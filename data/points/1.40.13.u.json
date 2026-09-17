@@ -41,8 +41,8 @@
   },
   "curve": {
     "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
-    "tate_b": "3*Lopt.1^12 + Lopt.1^11 - 45*Lopt.1^10 - 115*Lopt.1^9 - 110*Lopt.1^8 + 32*Lopt.1^7 + 206*Lopt.1^6 + 178*Lopt.1^5 + 8*Lopt.1^4 - 113*Lopt.1^3 - 94*Lopt.1^2 - 8*Lopt.1 + 33",
-    "tate_c": "-2*Lopt.1^12 - 4*Lopt.1^11 - 4*Lopt.1^10 + 7*Lopt.1^9 + 15*Lopt.1^8 + 13*Lopt.1^7 - 7*Lopt.1^6 - 17*Lopt.1^5 - 11*Lopt.1^4 + 4*Lopt.1^3 + 7*Lopt.1^2 + 4*Lopt.1 - 3",
+    "tate_b": "3*a^12 + a^11 - 45*a^10 - 115*a^9 - 110*a^8 + 32*a^7 + 206*a^6 + 178*a^5 + 8*a^4 - 113*a^3 - 94*a^2 - 8*a + 33",
+    "tate_c": "-2*a^12 - 4*a^11 - 4*a^10 + 7*a^9 + 15*a^8 + 13*a^7 - 7*a^6 - 17*a^5 - 11*a^4 + 4*a^3 + 7*a^2 + 4*a - 3",
     "tate_b_coeffs": [
       "33",
       "-8",
@@ -74,9 +74,9 @@
       "-2"
     ],
     "ainvs": [
-      "1 - (-2*Lopt.1^12 - 4*Lopt.1^11 - 4*Lopt.1^10 + 7*Lopt.1^9 + 15*Lopt.1^8 + 13*Lopt.1^7 - 7*Lopt.1^6 - 17*Lopt.1^5 - 11*Lopt.1^4 + 4*Lopt.1^3 + 7*Lopt.1^2 + 4*Lopt.1 - 3)",
-      "-(3*Lopt.1^12 + Lopt.1^11 - 45*Lopt.1^10 - 115*Lopt.1^9 - 110*Lopt.1^8 + 32*Lopt.1^7 + 206*Lopt.1^6 + 178*Lopt.1^5 + 8*Lopt.1^4 - 113*Lopt.1^3 - 94*Lopt.1^2 - 8*Lopt.1 + 33)",
-      "-(3*Lopt.1^12 + Lopt.1^11 - 45*Lopt.1^10 - 115*Lopt.1^9 - 110*Lopt.1^8 + 32*Lopt.1^7 + 206*Lopt.1^6 + 178*Lopt.1^5 + 8*Lopt.1^4 - 113*Lopt.1^3 - 94*Lopt.1^2 - 8*Lopt.1 + 33)",
+      "1 - (-2*a^12 - 4*a^11 - 4*a^10 + 7*a^9 + 15*a^8 + 13*a^7 - 7*a^6 - 17*a^5 - 11*a^4 + 4*a^3 + 7*a^2 + 4*a - 3)",
+      "-(3*a^12 + a^11 - 45*a^10 - 115*a^9 - 110*a^8 + 32*a^7 + 206*a^6 + 178*a^5 + 8*a^4 - 113*a^3 - 94*a^2 - 8*a + 33)",
+      "-(3*a^12 + a^11 - 45*a^10 - 115*a^9 - 110*a^8 + 32*a^7 + 206*a^6 + 178*a^5 + 8*a^4 - 113*a^3 - 94*a^2 - 8*a + 33)",
       "0",
       "0"
     ],
@@ -156,13 +156,13 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 08:47:30 UTC"
+    "verified": "2026-09-17 09:23:51 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.350000",
-    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "cputime_seconds": "0.390000",
+    "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
     "log": "data/logs/1.40.13.u.log"
   }
 }

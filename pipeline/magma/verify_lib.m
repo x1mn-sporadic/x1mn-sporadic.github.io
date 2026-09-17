@@ -310,6 +310,7 @@ if dL eq 1 then
 else
   Lopt, mopt := OptimizedRepresentation(L);
 end if;
+AssignNames(~Lopt, ["a"]);
 bL := mopt(L!b); cL := mopt(L!c);
 PtL := m gt 1 select [mopt(L!(Pt[1])), mopt(L!(Pt[2]))] else [Lopt | ];
 fL := DefiningPolynomial(Lopt);

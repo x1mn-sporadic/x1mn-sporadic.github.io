@@ -9,7 +9,7 @@
   "status": "certified",
   "sporadicity": {
     "status": "sporadic",
-    "rule": "X_1(1,39) has only finitely many points of degree 12",
+    "rule": "X_1(39) has only finitely many points of degree 12",
     "sources": [
       "RankZeroLemma"
     ]
@@ -42,8 +42,8 @@
   },
   "curve": {
     "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
-    "tate_b": "1/2*(-31*Lopt.1^11 - 87*Lopt.1^10 - 201*Lopt.1^9 - 464*Lopt.1^8 - 879*Lopt.1^7 - 1643*Lopt.1^6 - 2448*Lopt.1^5 - 3000*Lopt.1^4 - 2841*Lopt.1^3 - 1963*Lopt.1^2 - 865*Lopt.1 - 192)",
-    "tate_c": "Lopt.1^11 + 3*Lopt.1^10 + 6*Lopt.1^9 + 11*Lopt.1^8 + 17*Lopt.1^7 + 30*Lopt.1^6 + 46*Lopt.1^5 + 61*Lopt.1^4 + 63*Lopt.1^3 + 47*Lopt.1^2 + 22*Lopt.1 + 5",
+    "tate_b": "1/2*(-31*a^11 - 87*a^10 - 201*a^9 - 464*a^8 - 879*a^7 - 1643*a^6 - 2448*a^5 - 3000*a^4 - 2841*a^3 - 1963*a^2 - 865*a - 192)",
+    "tate_c": "a^11 + 3*a^10 + 6*a^9 + 11*a^8 + 17*a^7 + 30*a^6 + 46*a^5 + 61*a^4 + 63*a^3 + 47*a^2 + 22*a + 5",
     "tate_b_coeffs": [
       "-96",
       "-865/2",
@@ -73,9 +73,9 @@
       "1"
     ],
     "ainvs": [
-      "1 - (Lopt.1^11 + 3*Lopt.1^10 + 6*Lopt.1^9 + 11*Lopt.1^8 + 17*Lopt.1^7 + 30*Lopt.1^6 + 46*Lopt.1^5 + 61*Lopt.1^4 + 63*Lopt.1^3 + 47*Lopt.1^2 + 22*Lopt.1 + 5)",
-      "-(1/2*(-31*Lopt.1^11 - 87*Lopt.1^10 - 201*Lopt.1^9 - 464*Lopt.1^8 - 879*Lopt.1^7 - 1643*Lopt.1^6 - 2448*Lopt.1^5 - 3000*Lopt.1^4 - 2841*Lopt.1^3 - 1963*Lopt.1^2 - 865*Lopt.1 - 192))",
-      "-(1/2*(-31*Lopt.1^11 - 87*Lopt.1^10 - 201*Lopt.1^9 - 464*Lopt.1^8 - 879*Lopt.1^7 - 1643*Lopt.1^6 - 2448*Lopt.1^5 - 3000*Lopt.1^4 - 2841*Lopt.1^3 - 1963*Lopt.1^2 - 865*Lopt.1 - 192))",
+      "1 - (a^11 + 3*a^10 + 6*a^9 + 11*a^8 + 17*a^7 + 30*a^6 + 46*a^5 + 61*a^4 + 63*a^3 + 47*a^2 + 22*a + 5)",
+      "-(1/2*(-31*a^11 - 87*a^10 - 201*a^9 - 464*a^8 - 879*a^7 - 1643*a^6 - 2448*a^5 - 3000*a^4 - 2841*a^3 - 1963*a^2 - 865*a - 192))",
+      "-(1/2*(-31*a^11 - 87*a^10 - 201*a^9 - 464*a^8 - 879*a^7 - 1643*a^6 - 2448*a^5 - 3000*a^4 - 2841*a^3 - 1963*a^2 - 865*a - 192))",
       "0",
       "0"
     ],
@@ -155,13 +155,13 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 08:46:55 UTC"
+    "verified": "2026-09-17 09:23:17 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.370000",
-    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "cputime_seconds": "0.340000",
+    "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
     "log": "data/logs/1.39.12.c.log"
   }
 }

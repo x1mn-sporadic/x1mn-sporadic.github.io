@@ -9,7 +9,7 @@
   "status": "certified",
   "sporadicity": {
     "status": "sporadic",
-    "rule": "X_1(1,31) has only finitely many points of degree 11",
+    "rule": "X_1(31) has only finitely many points of degree 11",
     "sources": [
       "RankZeroLemma"
     ]
@@ -41,8 +41,8 @@
   },
   "curve": {
     "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
-    "tate_b": "-148282*Lopt.1^10 + 791275*Lopt.1^9 - 1897208*Lopt.1^8 + 3455460*Lopt.1^7 - 5017678*Lopt.1^6 + 5246741*Lopt.1^5 - 4582549*Lopt.1^4 + 2728091*Lopt.1^3 - 917943*Lopt.1^2 + 12324*Lopt.1 + 440730",
-    "tate_c": "-756*Lopt.1^10 + 4031*Lopt.1^9 - 9660*Lopt.1^8 + 17605*Lopt.1^7 - 25585*Lopt.1^6 + 26770*Lopt.1^5 - 23409*Lopt.1^4 + 13954*Lopt.1^3 - 4708*Lopt.1^2 + 69*Lopt.1 + 2257",
+    "tate_b": "-148282*a^10 + 791275*a^9 - 1897208*a^8 + 3455460*a^7 - 5017678*a^6 + 5246741*a^5 - 4582549*a^4 + 2728091*a^3 - 917943*a^2 + 12324*a + 440730",
+    "tate_c": "-756*a^10 + 4031*a^9 - 9660*a^8 + 17605*a^7 - 25585*a^6 + 26770*a^5 - 23409*a^4 + 13954*a^3 - 4708*a^2 + 69*a + 2257",
     "tate_b_coeffs": [
       "440730",
       "12324",
@@ -70,9 +70,9 @@
       "-756"
     ],
     "ainvs": [
-      "1 - (-756*Lopt.1^10 + 4031*Lopt.1^9 - 9660*Lopt.1^8 + 17605*Lopt.1^7 - 25585*Lopt.1^6 + 26770*Lopt.1^5 - 23409*Lopt.1^4 + 13954*Lopt.1^3 - 4708*Lopt.1^2 + 69*Lopt.1 + 2257)",
-      "-(-148282*Lopt.1^10 + 791275*Lopt.1^9 - 1897208*Lopt.1^8 + 3455460*Lopt.1^7 - 5017678*Lopt.1^6 + 5246741*Lopt.1^5 - 4582549*Lopt.1^4 + 2728091*Lopt.1^3 - 917943*Lopt.1^2 + 12324*Lopt.1 + 440730)",
-      "-(-148282*Lopt.1^10 + 791275*Lopt.1^9 - 1897208*Lopt.1^8 + 3455460*Lopt.1^7 - 5017678*Lopt.1^6 + 5246741*Lopt.1^5 - 4582549*Lopt.1^4 + 2728091*Lopt.1^3 - 917943*Lopt.1^2 + 12324*Lopt.1 + 440730)",
+      "1 - (-756*a^10 + 4031*a^9 - 9660*a^8 + 17605*a^7 - 25585*a^6 + 26770*a^5 - 23409*a^4 + 13954*a^3 - 4708*a^2 + 69*a + 2257)",
+      "-(-148282*a^10 + 791275*a^9 - 1897208*a^8 + 3455460*a^7 - 5017678*a^6 + 5246741*a^5 - 4582549*a^4 + 2728091*a^3 - 917943*a^2 + 12324*a + 440730)",
+      "-(-148282*a^10 + 791275*a^9 - 1897208*a^8 + 3455460*a^7 - 5017678*a^6 + 5246741*a^5 - 4582549*a^4 + 2728091*a^3 - 917943*a^2 + 12324*a + 440730)",
       "0",
       "0"
     ],
@@ -152,13 +152,13 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 08:46:10 UTC"
+    "verified": "2026-09-17 09:22:32 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.320000",
-    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "cputime_seconds": "0.270000",
+    "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
     "log": "data/logs/1.31.11.b.log"
   }
 }

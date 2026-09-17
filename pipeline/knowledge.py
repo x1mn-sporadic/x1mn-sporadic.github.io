@@ -217,6 +217,10 @@ def base_field(m: int) -> str:
     return "Q" if m <= 2 else f"Q(zeta_{m})"
 
 
+def curve_label(m: int, n: int) -> str:
+    return f"X_1({n})" if m == 1 else f"X_1({m},{n})"
+
+
 # ----------------------------------------------------------------------------
 # Per-curve knowledge assembled from the sources
 # ----------------------------------------------------------------------------
@@ -278,20 +282,20 @@ def classify_degree(curve: dict, d: int) -> dict:
     inf = curve.get("degrees_infinite", {})
     fin = curve.get("degrees_finite", {})
     if str(d) in inf:
-        return {"status": "not-sporadic", "rule": f"X_1({m},{n}) has infinitely many points of degree {d}",
+        return {"status": "not-sporadic", "rule": f"{curve_label(m, n)} has infinitely many points of degree {d}",
                 "sources": [inf[str(d)]]}
     if str(d) in fin:
-        return {"status": "sporadic", "rule": f"X_1({m},{n}) has only finitely many points of degree {d}",
+        return {"status": "sporadic", "rule": f"{curve_label(m, n)} has only finitely many points of degree {d}",
                 "sources": [fin[str(d)]]}
     gon = curve.get("gonality") or {}
     lb = gon.get("lb")
     if lb is not None and 2 * dd < lb:
         return {"status": "sporadic",
-                "rule": f"Frey: 2*{dd} < {lb} <= gon_{curve['base_field']}(X_1({m},{n}))",
+                "rule": f"Frey: 2*{dd} < {lb} <= gon_{curve['base_field']}({curve_label(m, n)})",
                 "sources": ["Frey94", gon.get("source", "")]}
     rk = curve.get("rank") or {}
     if rk.get("value") == 0 and lb is not None and dd < lb:
         return {"status": "sporadic",
-                "rule": f"rank J_1({m},{n})({curve['base_field']}) = 0 and {dd} < {lb} <= gonality",
+                "rule": f"rank J_1({n if m == 1 else str(m) + ',' + str(n)})({curve['base_field']}) = 0 and {dd} < {lb} <= gonality",
                 "sources": ["RankZeroLemma", rk.get("source", ""), gon.get("source", "")]}
     return {"status": "open", "rule": "no applicable finiteness result recorded in data/knowledge", "sources": []}

@@ -9,7 +9,7 @@
   "status": "certified",
   "sporadicity": {
     "status": "sporadic",
-    "rule": "X_1(1,34) has only finitely many points of degree 9",
+    "rule": "X_1(34) has only finitely many points of degree 9",
     "sources": [
       "torsion_inf"
     ]
@@ -39,8 +39,8 @@
   },
   "curve": {
     "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
-    "tate_b": "4*Lopt.1^8 + 73*Lopt.1^7 - 66*Lopt.1^6 - 148*Lopt.1^5 - 4*Lopt.1^4 + 97*Lopt.1^3 + 240*Lopt.1^2 - 87*Lopt.1 - 144",
-    "tate_c": "-17*Lopt.1^8 + 43*Lopt.1^6 + 27*Lopt.1^5 - 17*Lopt.1^4 - 69*Lopt.1^3 - 25*Lopt.1^2 + 46*Lopt.1 + 25",
+    "tate_b": "4*a^8 + 73*a^7 - 66*a^6 - 148*a^5 - 4*a^4 + 97*a^3 + 240*a^2 - 87*a - 144",
+    "tate_c": "-17*a^8 + 43*a^6 + 27*a^5 - 17*a^4 - 69*a^3 - 25*a^2 + 46*a + 25",
     "tate_b_coeffs": [
       "-144",
       "-87",
@@ -64,9 +64,9 @@
       "-17"
     ],
     "ainvs": [
-      "1 - (-17*Lopt.1^8 + 43*Lopt.1^6 + 27*Lopt.1^5 - 17*Lopt.1^4 - 69*Lopt.1^3 - 25*Lopt.1^2 + 46*Lopt.1 + 25)",
-      "-(4*Lopt.1^8 + 73*Lopt.1^7 - 66*Lopt.1^6 - 148*Lopt.1^5 - 4*Lopt.1^4 + 97*Lopt.1^3 + 240*Lopt.1^2 - 87*Lopt.1 - 144)",
-      "-(4*Lopt.1^8 + 73*Lopt.1^7 - 66*Lopt.1^6 - 148*Lopt.1^5 - 4*Lopt.1^4 + 97*Lopt.1^3 + 240*Lopt.1^2 - 87*Lopt.1 - 144)",
+      "1 - (-17*a^8 + 43*a^6 + 27*a^5 - 17*a^4 - 69*a^3 - 25*a^2 + 46*a + 25)",
+      "-(4*a^8 + 73*a^7 - 66*a^6 - 148*a^5 - 4*a^4 + 97*a^3 + 240*a^2 - 87*a - 144)",
+      "-(4*a^8 + 73*a^7 - 66*a^6 - 148*a^5 - 4*a^4 + 97*a^3 + 240*a^2 - 87*a - 144)",
       "0",
       "0"
     ],
@@ -146,13 +146,13 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 08:46:17 UTC"
+    "verified": "2026-09-17 09:22:40 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.160000",
-    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "cputime_seconds": "0.150000",
+    "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
     "log": "data/logs/1.34.9.c.log"
   }
 }
