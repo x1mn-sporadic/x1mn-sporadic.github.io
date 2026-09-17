@@ -1,0 +1,6 @@
+pipeline/work/
+pipeline/logs/
+pipeline/tests/private/
+__pycache__/
+*.pyc
+*.tmp

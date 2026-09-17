@@ -1,0 +1,12 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 1, "n": 25,
+  "field": "x^3-x^2+1",
+  "curve": {"vanhoeij": {"eqxy": "y^2+(x^2-2*x-1)*y+x"}},
+  "degree": 6,
+  "submitter": "Mark van Hoeij (imported)",
+  "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; file LowDegreePlaces (Aug 2013), line 'N = 25, degv = 6, degj = 3'.",
+  "notes": "test fixture: residue field is a quadratic extension of the cubic field Q(x0)",
+  "date": "2013-08-01",
+  "source": {"kind": "file", "path": "pipeline/tests/fixtures/vanhoeij_25_6.json"}
+}

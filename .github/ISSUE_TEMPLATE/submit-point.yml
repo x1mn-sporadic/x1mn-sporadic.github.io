@@ -1,0 +1,90 @@
+name: Submit a sporadic point
+description: Submit a point on X1(m,n) for verification and inclusion in the census.
+title: "Sporadic point on X1(m,n)"
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the census. Fill in the fields below with Magma-style expressions.
+        The number field is defined by a polynomial in `x`; elements of the field are polynomials in `a`, a root of that polynomial,
+        e.g. `(3*a^2 - 2*a + 1)/7`. Only digits, `a`/`x`/`y`, `+ - * / ^ ( )` and spaces are accepted.
+        Your submission will be verified with Magma on the Mordell workstation; the result is posted here as a comment.
+        See https://x1mn-sporadic.github.io/submit.html for details.
+  - type: input
+    id: m
+    attributes:
+      label: m
+      description: The curve is X1(m,n), with m dividing n (m = 1 for X1(n)).
+      placeholder: "1"
+    validations:
+      required: true
+  - type: input
+    id: n
+    attributes:
+      label: n
+      description: The order of the point Q (the full cyclic order; the torsion contains Z/m x Z/n).
+      placeholder: "37"
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Number field
+      description: Defining polynomial in x of the number field K over which the curve is given.
+      placeholder: "x^6 - x^5 + 2*x^4 - 3*x^3 + x^2 - x + 1"
+    validations:
+      required: true
+  - type: input
+    id: ainvs
+    attributes:
+      label: a-invariants
+      description: "[a1, a2, a3, a4, a6] of the elliptic curve over K, as polynomials in a. Leave empty if you use one of the two formats below."
+      placeholder: "[0, a^2 - 1, 0, (-3*a + 2)/5, 1]"
+  - type: input
+    id: tate
+    attributes:
+      label: Tate normal form (b, c)
+      description: "Alternative to the a-invariants: b and c with E: y^2 + (1-c)xy - by = x^3 - bx^2 and Q = (0,0) of order n. Write it as `b = ..., c = ...`."
+      placeholder: "b = -8*a^2 + 30*a - 26, c = -a^2 + 2*a - 1"
+  - type: input
+    id: eqxy
+    attributes:
+      label: van Hoeij format (eqxy)
+      description: "Alternative for m = 1: the equation eqxy in x and y from van Hoeij's LowDegreePlaces convention (the field polynomial above is eqx)."
+      placeholder: "y + x^2 - 2*x - 1"
+  - type: input
+    id: pointQ
+    attributes:
+      label: Point Q of order n
+      description: Coordinates (x, y) of Q on the given model (not needed for the Tate normal form or van Hoeij format). Strongly recommended — without it Magma must compute the full torsion subgroup.
+      placeholder: "(a^2 - 1, 3*a)"
+  - type: input
+    id: pointP
+    attributes:
+      label: Point P of order m (only if m > 1)
+      description: Coordinates (x, y) of a point P of order m with <P, Q> = Z/m x Z/n.
+      placeholder: "(0, 0)"
+  - type: input
+    id: degree
+    attributes:
+      label: Degree of the point
+      description: The degree [K:Q] you expect for the point (the verifier recomputes it).
+      placeholder: "6"
+  - type: input
+    id: reference
+    attributes:
+      label: Reference
+      description: Where the point is published (arXiv number, DOI, paper), or "new".
+      placeholder: "arXiv:1202.4355"
+  - type: input
+    id: name
+    attributes:
+      label: Your name and affiliation
+      description: For attribution on the site (your GitHub handle is recorded automatically).
+      placeholder: "Jane Doe, University of Somewhere"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything the curators should know (how the point was found, related points, ...).

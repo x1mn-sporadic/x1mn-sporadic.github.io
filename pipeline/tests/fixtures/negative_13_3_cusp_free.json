@@ -1,0 +1,11 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 1, "n": 11,
+  "field": "x^2 - 2",
+  "curve": {"ainvs": ["0", "-1", "1", "0", "0"]},
+  "degree": 2,
+  "submitter": "test",
+  "reference": "negative control: 11a3 has an 11-torsion point? no - it has a 5-torsion point; must be rejected",
+  "notes": "negative test fixture",
+  "source": {"kind": "file", "path": "pipeline/tests/fixtures/negative_13_3_cusp_free.json"}
+}

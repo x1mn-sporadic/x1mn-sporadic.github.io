@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Submit — Sporadic points on X₁(m,n)</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2315363a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' fill='%23eff4f2' text-anchor='middle'%3EX%3Ctspan font-size='10' dy='4'%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="submit">
+<main>
+  <h2>Submit a point</h2>
+  <p>Found an elliptic curve with a point of order <span class="m">n</span> (and full <span class="m">m</span>-torsion) over a number field of
+    unusually small degree? Submit it here. Every submission is re-verified with Magma on the Mordell workstation, and if the
+    point is genuine — and a recorded theorem shows that <span class="m">X₁(m,n)</span> has only finitely many points of its degree —
+    it is added to the census as a certified sporadic point, with the verification log.</p>
+
+  <h3>1. Fill in the form</h3>
+  <p>Submissions are GitHub issues created from a form (a free GitHub account is all you need):</p>
+  <p><a class="btn" id="submit-any" href="https://github.com/x1mn-sporadic/x1mn-sporadic.github.io/issues/new?template=submit-point.yml">Open the submission form ↗</a></p>
+  <p>You give the pair <span class="m">(m, n)</span>, the number field, the elliptic curve, and (recommended) the torsion points. Use Magma-style
+    expressions: the field is defined by a polynomial in <code>x</code>, and elements of the field are written as polynomials in <code>a</code>,
+    a root of that polynomial, e.g. <code>(3*a^2 - 2*a + 1)/7</code>. Only digits, <code>a</code>/<code>x</code>/<code>y</code>, <code>+ - * / ^ ( )</code>
+    and spaces are allowed — nothing else is ever evaluated.</p>
+  <p>The curve can be given in one of three ways:</p>
+  <ul class="plain">
+    <li><b>a-invariants</b> <code>[a1, a2, a3, a4, a6]</code> over the field, ideally with the coordinates of <span class="m">Q</span> (order <span class="m">n</span>)
+      and, for <span class="m">m &gt; 1</span>, of <span class="m">P</span> (order <span class="m">m</span>). Without the points, Magma has to compute the full
+      torsion subgroup, which can take a long time for fields of degree ≳ 8.</li>
+    <li><b>Tate normal form</b> <span class="m">b, c</span>: the curve <span class="m">y² + (1 − c)xy − by = x³ − bx²</span> with <span class="m">Q = (0,0)</span>
+      of order <span class="m">n</span>; give <span class="m">P</span> for <span class="m">m &gt; 1</span>.</li>
+    <li><b>van Hoeij's format</b>: <code>eqx</code> (the field polynomial) and <code>eqxy</code>, as in his
+      <a href="https://www.math.fsu.edu/~hoeij/files/X1N/LowDegreePlaces">LowDegreePlaces</a> file (<span class="m">m = 1</span> only).</li>
+  </ul>
+  <p>Please add a reference (paper, arXiv number, or "new") so that the point can be credited properly.</p>
+
+  <h3>2. What happens next</h3>
+  <ol class="steps">
+    <li>The issue is labelled <code>submission</code> and waits in the queue (the home page shows how many are waiting).</li>
+    <li>Periodically the queue is pulled to Mordell. For each submission Magma checks that the field and curve are well defined, that
+      <span class="m">Q</span> has exact order <span class="m">n</span> and <span class="m">P</span> exact order <span class="m">m</span> with
+      <span class="m">⟨P,Q⟩ ≅ ℤ/m ⊕ ℤ/n</span>, bounds the torsion subgroup by reductions, computes the Tate normal form of
+      <span class="m">(E, Q)</span>, and determines the residue field <span class="m">ℚ(b, c, x(P), y(P))</span> of the point on
+      <span class="m">X₁(m,n)</span> — its degree is the degree of the point, whatever field the curve was submitted over.</li>
+    <li>The degree is compared with the curated table of what is known about <span class="m">X₁(m,n)</span> (gonality, rank of the Jacobian,
+      the sets <span class="m">Φ^∞(d)</span>, Frey's theorem; see <a href="about.html">about</a>). The outcome is one of:
+      <span class="chip certified">certified sporadic</span> — a cited result proves that the curve has finitely many points of this degree;
+      <span class="chip verified">verified · sporadicity open</span> — the point is genuine but no recorded result settles finiteness (it is still
+      listed, with this label); <span class="chip rejected">rejected</span> — the data do not define such a point, the point is a duplicate, or
+      the curve is known to have infinitely many points of this degree.</li>
+    <li>The result is posted as a comment on the issue, the issue is closed, and accepted points appear on this site with their
+      certificate and Magma log. If a submission is rejected because of a data problem, just fix it and submit again.</li>
+  </ol>
+
+  <h3>Bulk submissions</h3>
+  <p>For many points at once, open a pull request adding files to <code>submissions/inbox/</code> of the
+    <a href="https://github.com/x1mn-sporadic/x1mn-sporadic.github.io">repository</a>, one JSON file per point:</p>
+<pre><code>{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 2, "n": 18,
+  "field": "x^5 - 2*x^4 + 2*x^3 - 3*x^2 - x + 4",
+  "curve": {"ainvs": ["0", "a^2 - 1", "0", "(-3*a + 2)/5", "1"]},
+  "points": {"P": ["0", "0"], "Q": ["a", "2*a - 1"]},
+  "degree": 5,
+  "submitter": "Your Name", "affiliation": "Your institution", "github": "your-handle",
+  "reference": "arXiv:XXXX.XXXXX, Theorem 3",
+  "notes": "anything the curators should know"
+}</code></pre>
+  <p>Instead of <code>"ainvs"</code> you may give <code>"curve": {"tate": {"b": "...", "c": "..."}}</code> or
+    <code>"curve": {"vanhoeij": {"eqxy": "..."}}</code>. The example values above are placeholders, not a real point.</p>
+
+  <h3>Which curves?</h3>
+  <p>The census currently lists <span class="m">X₁(n)</span> for <span class="m">n ≤ 100</span>, <span class="m">X₁(2,n)</span> for
+    <span class="m">n ≤ 60</span>, and <span class="m">X₁(m,n)</span> for <span class="m">3 ≤ m ≤ 10</span> and the <span class="m">n</span> for which
+    Derickx–Sutherland's models exist (see the <a href="index.html">home page</a>). If your point lies on a curve outside this list,
+    open an <a href="https://github.com/x1mn-sporadic/x1mn-sporadic.github.io/issues">issue</a> and it will be added.</p>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>

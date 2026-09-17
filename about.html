@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Sporadic points on X₁(m,n)</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2315363a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' fill='%23eff4f2' text-anchor='middle'%3EX%3Ctspan font-size='10' dy='4'%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="about">
+<main>
+  <h2>About the census</h2>
+  <p>This site keeps a verified list of sporadic points on the modular curves <span class="m">X₁(m,n)</span>. It is maintained by
+    Filip Najman (University of Zagreb); the data, the verification code and every certificate live in the GitHub organisation
+    <a href="https://github.com/x1mn-sporadic">x1mn-sporadic</a>. Contributions of new points are welcome — see <a href="submit.html">submit a point</a>.</p>
+
+  <h3>Conventions</h3>
+  <dl class="facts">
+    <dt>the curve</dt>
+    <dd><span class="m">X₁(m,n)</span>, with <span class="m">m | n</span>, is the modular curve whose non-cuspidal points are the isomorphism classes of triples
+      <span class="m">(E, P, Q)</span> with <span class="m">⟨P, Q⟩ ≅ ℤ/m ⊕ ℤ/n</span>, <span class="m">P</span> of order <span class="m">m</span> and <span class="m">Q</span> of order
+      <span class="m">n</span>. It is defined over <span class="m">ℚ(ζ<sub>m</sub>)</span> and geometrically connected there. <span class="m">X₁(1,n) = X₁(n)</span>.
+      (Derickx–Sutherland write the same curve as <span class="m">X₁(m, mn)</span>; here <span class="m">n</span> is always the full cyclic order.)</dd>
+    <dt>the degree</dt>
+    <dd>The degree of a closed point <span class="m">x</span> is its absolute degree <span class="m">[ℚ(x) : ℚ]</span>. For <span class="m">m ≥ 3</span> this is
+      <span class="m">φ(m)</span> times the degree over the base field <span class="m">ℚ(ζ<sub>m</sub>)</span>; both are shown. A point of degree <span class="m">d</span> is
+      the same thing as an elliptic curve over a number field of degree <span class="m">d</span> with torsion containing <span class="m">ℤ/m ⊕ ℤ/n</span>, up to
+      the choice of the torsion points and the ambiguity <span class="m">(P,Q) ~ (−P,−Q)</span>. The verifier always recomputes the residue field of the point, so the
+      degree recorded is the true degree even if the curve was submitted over a larger field.</dd>
+    <dt>sporadic</dt>
+    <dd>A closed point of degree <span class="m">d</span> is <b>sporadic</b> if <span class="m">X₁(m,n)</span> has only finitely many closed points of degree
+      <span class="m">d</span>. This is the convention of van Hoeij and of Derickx–van Hoeij. Some authors require finitely many points of degree
+      <em>at most</em> <span class="m">d</span>; since each curve page lists the degrees known to be finite, that stricter property can be read off
+      when it holds. Sporadic points are in particular <em>isolated</em> in the sense of Bourdon–Ejder–Liu–Odumodu–Viray; the converse fails, and isolated
+      points that are not sporadic are not (yet) collected here.</dd>
+    <dt>one entry per orbit</dt>
+    <dd>Points are recorded up to the action of the diamond operators: two submissions with the same residue field (up to isomorphism) and the same
+      <span class="m">j</span>-invariant on the same curve are considered the same point. Cusps and points on genus 0 curves are excluded.</dd>
+  </dl>
+
+  <h3>How a point is certified</h3>
+  <p>Every submission is verified from scratch by <code>pipeline/magma/verify_lib.m</code> (Magma 2.29) on Mordell: the field and the curve are
+    constructed, the orders of <span class="m">P</span> and <span class="m">Q</span> and the structure of <span class="m">⟨P,Q⟩</span> are checked, the torsion subgroup is
+    bounded by reductions modulo several primes (and computed exactly when the bound is not sharp), and the Tate normal form of <span class="m">(E,Q)</span>
+    gives the residue field of the point and hence its degree <span class="m">d</span>. The point is then <b>certified sporadic</b> when one of the following
+    recorded facts applies to <span class="m">(m, n, d)</span>, in this order (<span class="m">d′ = d/φ(m)</span>, <span class="m">γ</span> = gonality over the base field):</p>
+  <ol class="steps">
+    <li><b>Known finiteness.</b> <span class="m">d ≤ 6</span> and <span class="m">(m,n) ∉ Φ^∞(d)</span>, where <span class="m">Φ^∞(d)</span> is the (completely known) set of torsion
+      groups occurring for infinitely many elliptic curves over degree-<span class="m">d</span> fields — Mazur; Kenku–Momose, Kamienny; Jeon–Kim–Schweizer;
+      Jeon–Kim–Park; Derickx–Sutherland. Since these lists are closed under subgroups, infinitely many degree-<span class="m">d</span> points on
+      <span class="m">X₁(m,n)</span> would force <span class="m">(m,n) ∈ Φ^∞(d)</span>. For <span class="m">d = 7, 8, 9</span> and <span class="m">m ≤ 2</span> the tables of
+      Derickx–van Hoeij and of the torsion_inf project are used.</li>
+    <li><b>Frey.</b> <span class="m">2d′ &lt; γ</span>: a curve with infinitely many points of degree <span class="m">≤ d′</span> has gonality
+      <span class="m">≤ 2d′</span>. Lower bounds for <span class="m">γ</span> come from Derickx–van Hoeij (exact for <span class="m">N ≤ 40</span>), the CurveArith
+      computations of the torsion_inf project, or Abramovich's bound <span class="m">γ ≥ (975/98304)·[PSL₂(ℤ):Γ]</span>.</li>
+    <li><b>Rank zero.</b> <span class="m">J₁(m,n)</span> has rank 0 over the base field (Derickx–Sutherland, or analytic rank 0 with Kolyvagin–Logachev/Kato)
+      and <span class="m">d′ &lt; γ</span>: then the degree-<span class="m">d′</span> divisors with infinitely many rational points would form a pencil of
+      degree <span class="m">≤ d′</span>, contradicting the gonality.</li>
+  </ol>
+  <p>Conversely a point is <b>rejected as not sporadic</b> when <span class="m">(m,n) ∈ Φ^∞(d)</span>, when the tables say so, or when <span class="m">d</span> equals a
+    known exact gonality (Hilbert irreducibility). In all other cases the point is kept as <b>verified, sporadicity open</b>: the point is genuine, but the
+    census has no recorded result about points of that degree on that curve. The certificate of each point names the rule and the sources it used.</p>
+  <p>The curated facts are in <code>pipeline/knowledge.py</code>; the tables are copied verbatim into <code>data/knowledge/sources/</code> with their provenance.
+    Genus and index of every curve were computed with Magma (<code>CongruenceSubgroup([n,n,m])</code>). Nothing on this site is asserted from memory:
+    if a fact is not in a cited source or a stored computation, the corresponding degree is reported as open.</p>
+
+  <h3>Sources</h3>
+  <ul class="sources" id="sources"></ul>
+  <p class="src">Data last built: <span id="generated">…</span>.</p>
+
+  <h3>Workflow and reproducibility</h3>
+  <p>Submissions arrive as GitHub issues (or pull requests). A script on Mordell pulls them, runs the Magma verifier under a time and memory limit,
+    writes one JSON certificate per accepted point to <code>data/points/</code> together with the Magma log in <code>data/logs/</code>, rebuilds
+    <code>data/curves.json</code> and <code>data/points.json</code>, and pushes to GitHub, where this page is served. Each certificate records the Magma
+    version, the CPU time, the SHA-256 of the verification code, and a Magma snippet that reproduces the point. The whole repository, including
+    rejected submissions with the reason, is public.</p>
+
+  <h3>How to cite</h3>
+  <p>Please cite the original reference of a point (given on its page) and, for the census itself, the repository
+    <a href="https://github.com/x1mn-sporadic/x1mn-sporadic.github.io">x1mn-sporadic/x1mn-sporadic.github.io</a>.
+    The seed data are Mark van Hoeij's low-degree places on <span class="m">X₁(N)</span> (arXiv:1202.4355). The design of this site follows the
+    <a href="https://elliptic-rank.icarm.cloud/">Elliptic Curve Rank Leaderboard</a>.</p>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>

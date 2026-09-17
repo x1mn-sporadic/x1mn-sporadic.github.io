@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Curve — Sporadic points on X₁(m,n)</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2315363a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' fill='%23eff4f2' text-anchor='middle'%3EX%3Ctspan font-size='10' dy='4'%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="curve">
+<main>
+  <p class="page-nav"><a href="index.html">← all curves</a></p>
+  <h2 id="title">…</h2>
+  <p id="subtitle" class="wide"></p>
+  <div class="panel" id="facts">
+    <h3>What is known</h3>
+  </div>
+  <h3>Points</h3>
+  <p>One entry per point up to the diamond action (the same elliptic curve with different choices of the torsion points is listed once).
+    Click a column header to sort. <a class="btn secondary" id="submit-link" href="#">Submit a point on this curve</a></p>
+  <div class="table-wrap">
+    <table class="data" id="points">
+      <thead>
+        <tr>
+          <th class="sortable">id</th>
+          <th class="num sortable">degree</th>
+          <th>residue field</th>
+          <th class="num sortable" title="discriminant of the residue field">disc</th>
+          <th class="num sortable" title="the j-invariant if rational, otherwise its degree over Q">j</th>
+          <th class="sortable">CM</th>
+          <th>E(K)ₜₒᵣₛ</th>
+          <th class="sortable">status</th>
+          <th class="sortable">submitted by</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>

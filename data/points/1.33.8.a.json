@@ -1,0 +1,155 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "1.33.8.a",
+  "m": 1,
+  "n": 33,
+  "degree": 8,
+  "relative_degree": 8,
+  "base_field": "Q",
+  "status": "certified",
+  "sporadicity": {
+    "status": "sporadic",
+    "rule": "X_1(1,33) has only finitely many points of degree 8",
+    "sources": [
+      "torsion_inf"
+    ]
+  },
+  "field": {
+    "poly": "x^8 - 2*x^7 - x^6 + 6*x^5 - 2*x^4 - 5*x^3 + 3*x^2 + 2*x - 1",
+    "poly_coeffs": [
+      "-1",
+      "2",
+      "3",
+      "-5",
+      "-2",
+      "6",
+      "-1",
+      "-2",
+      "1"
+    ],
+    "polredabs": "x^8 - 2*x^7 - x^6 + 6*x^5 - 2*x^4 - 5*x^3 + 3*x^2 + 2*x - 1",
+    "degree": 8,
+    "disc": "-7486875",
+    "disc_factored": "-1 * 3^2 * 5^4 * 11^3",
+    "signature": [
+      2,
+      3
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "106*Lopt.1^7 - 346*Lopt.1^6 + 333*Lopt.1^5 + 209*Lopt.1^4 - 468*Lopt.1^3 + 60*Lopt.1^2 + 237*Lopt.1 - 84",
+    "tate_c": "4*Lopt.1^7 - 12*Lopt.1^6 + 8*Lopt.1^5 + 16*Lopt.1^4 - 24*Lopt.1^3 + 4*Lopt.1^2 + 9*Lopt.1 - 3",
+    "tate_b_coeffs": [
+      "-84",
+      "237",
+      "60",
+      "-468",
+      "209",
+      "333",
+      "-346",
+      "106"
+    ],
+    "tate_c_coeffs": [
+      "-3",
+      "9",
+      "4",
+      "-24",
+      "16",
+      "8",
+      "-12",
+      "4"
+    ],
+    "ainvs": [
+      "1 - (4*Lopt.1^7 - 12*Lopt.1^6 + 8*Lopt.1^5 + 16*Lopt.1^4 - 24*Lopt.1^3 + 4*Lopt.1^2 + 9*Lopt.1 - 3)",
+      "-(106*Lopt.1^7 - 346*Lopt.1^6 + 333*Lopt.1^5 + 209*Lopt.1^4 - 468*Lopt.1^3 + 60*Lopt.1^2 + 237*Lopt.1 - 84)",
+      "-(106*Lopt.1^7 - 346*Lopt.1^6 + 333*Lopt.1^5 + 209*Lopt.1^4 - 468*Lopt.1^3 + 60*Lopt.1^2 + 237*Lopt.1 - 84)",
+      "0",
+      "0"
+    ],
+    "P": [],
+    "P_coeffs": [],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^4 + 614976*x^3 - 527070070*x^2 + 1028519818953*x - 217983794907791",
+    "j_degree": 4,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "disc_norm": "14641",
+    "conductor_norm": "121"
+  },
+  "torsion": {
+    "invariants": [
+      33
+    ],
+    "known_exactly": true,
+    "order_bound": 33,
+    "bound_primes": [
+      29
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^4 - 3*x^3 + 3*x^2 - 3*x + 1",
+      "degree": 4
+    },
+    "mode": "vanhoeij",
+    "curve": {
+      "eqxy": "y^2+(x^3-3*x^2+x-3)*y+2*x^2-x+2"
+    },
+    "points": {},
+    "ainvs_as_verified": [
+      "1/1137*(-2776*$.1^7 + 26059*$.1^6 - 108382*$.1^5 + 241376*$.1^4 - 300567*$.1^3 + 206624*$.1^2 - 42480*$.1 - 16108)",
+      "1/1137*(29462*$.1^7 - 199626*$.1^6 + 612862*$.1^5 - 848308*$.1^4 + 611927*$.1^3 - 40728*$.1^2 - 131690*$.1 - 8702)",
+      "1/1137*(29462*$.1^7 - 199626*$.1^6 + 612862*$.1^5 - 848308*$.1^4 + 611927*$.1^3 - 40728*$.1^2 - 131690*$.1 - 8702)",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "1"
+      ],
+      "Q": [
+        "0",
+        "0"
+      ],
+      "order_P": 1,
+      "order_Q": 33
+    },
+    "working_field": {
+      "poly": "x^8 - 9*x^7 + 36*x^6 - 76*x^5 + 88*x^4 - 53*x^3 + 4*x^2 + 7*x + 1",
+      "degree": 8
+    },
+    "claimed_degree": 8,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Mark van Hoeij",
+    "github": "",
+    "affiliation": "Florida State University"
+  },
+  "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 88",
+  "notes": "Imported from van Hoeij's list; one representative per diamond orbit.",
+  "source": {
+    "kind": "import",
+    "file": "vanhoeij_LowDegreePlaces.txt",
+    "line": 88,
+    "url": "https://www.math.fsu.edu/~hoeij/files/X1N/LowDegreePlaces"
+  },
+  "dates": {
+    "submitted": "2013-08-01",
+    "verified": "2026-09-17 08:46:15 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.29-4",
+    "cputime_seconds": "0.180000",
+    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "log": "data/logs/1.33.8.a.log"
+  }
+}

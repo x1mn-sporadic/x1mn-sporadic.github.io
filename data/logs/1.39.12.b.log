@@ -1,0 +1,15 @@
+[0.000000 s] start: X_1(1,39) mode=vanhoeij
+[0.000000 s] field: degree 12, x^12 - 2*x^11 - 9*x^10 + 9*x^9 + 20*x^8 - 16*x^7 - 11*x^6 + 12*x^5 - 4*x^4 - 4*x^3 + 5*x^2 + x - 1
+[0.000000 s] curve: [
+1/71*(988*a^11 - 936*a^10 - 11017*a^9 - 33*a^8 + 28817*a^7 + 1514*a^6 - 24913*a^5 + 7085*a^4 + 2624*a^3 - 9467*a^2 + 4272*a + 3523),
+1/71*(-3317*a^11 + 13415*a^10 + 12962*a^9 - 81327*a^8 + 17354*a^7 + 136622*a^6 - 101320*a^5 - 24374*a^4 + 66821*a^3 - 47774*a^2 - 892*a + 14148),
+1/71*(-3317*a^11 + 13415*a^10 + 12962*a^9 - 81327*a^8 + 17354*a^7 + 136622*a^6 - 101320*a^5 - 24374*a^4 + 66821*a^3 - 47774*a^2 - 892*a + 14148),
+0,
+0
+]
+[0.0100000 s] orders verified: ord P = 1, ord Q = 39, <P,Q> = Z/1 x Z/39
+[0.0300000 s] torsion bound from reductions: |E(K)_tors| divides 39 (primes [ 29 ])
+[0.0300000 s] Tate normal form done; residue field of the point has degree 12 (K has degree 12)
+[0.0800000 s] j: degree 6, CM false 0
+[0.330000 s] conductor norm 1
+[0.340000 s] VERIFY_DONE

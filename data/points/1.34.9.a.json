@@ -1,0 +1,158 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "1.34.9.a",
+  "m": 1,
+  "n": 34,
+  "degree": 9,
+  "relative_degree": 9,
+  "base_field": "Q",
+  "status": "certified",
+  "sporadicity": {
+    "status": "sporadic",
+    "rule": "X_1(1,34) has only finitely many points of degree 9",
+    "sources": [
+      "torsion_inf"
+    ]
+  },
+  "field": {
+    "poly": "x^9 - 2*x^8 - x^7 + 3*x^6 + 2*x^5 + x^3 - 2*x - 1",
+    "poly_coeffs": [
+      "-1",
+      "-2",
+      "0",
+      "1",
+      "0",
+      "2",
+      "3",
+      "-1",
+      "-2",
+      "1"
+    ],
+    "polredabs": "x^9 - 2*x^7 - 2*x^6 + 4*x^4 + 2*x^3 - x^2 - 2*x - 1",
+    "degree": 9,
+    "disc": "-131123051",
+    "disc_factored": "-1 * 131123051",
+    "signature": [
+      3,
+      3
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "1/4*(111573*a^8 - 305074*a^7 + 112442*a^6 + 252155*a^5 + 37987*a^4 - 27894*a^3 + 132055*a^2 - 96968*a - 151944)",
+    "tate_c": "1/2*(1320*a^8 - 3611*a^7 + 1336*a^6 + 2978*a^5 + 449*a^4 - 331*a^3 + 1564*a^2 - 1151*a - 1794)",
+    "tate_b_coeffs": [
+      "-37986",
+      "-24242",
+      "132055/4",
+      "-13947/2",
+      "37987/4",
+      "252155/4",
+      "56221/2",
+      "-152537/2",
+      "111573/4"
+    ],
+    "tate_c_coeffs": [
+      "-897",
+      "-1151/2",
+      "782",
+      "-331/2",
+      "449/2",
+      "1489",
+      "668",
+      "-3611/2",
+      "660"
+    ],
+    "ainvs": [
+      "1 - (1/2*(1320*a^8 - 3611*a^7 + 1336*a^6 + 2978*a^5 + 449*a^4 - 331*a^3 + 1564*a^2 - 1151*a - 1794))",
+      "-(1/4*(111573*a^8 - 305074*a^7 + 112442*a^6 + 252155*a^5 + 37987*a^4 - 27894*a^3 + 132055*a^2 - 96968*a - 151944))",
+      "-(1/4*(111573*a^8 - 305074*a^7 + 112442*a^6 + 252155*a^5 + 37987*a^4 - 27894*a^3 + 132055*a^2 - 96968*a - 151944))",
+      "0",
+      "0"
+    ],
+    "P": [],
+    "P_coeffs": [],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^9 - 735939/4*x^8 - 8681803003/16*x^7 - 4639779480833967/64*x^6 + 32320860266964227673/256*x^5 - 596603574446235557676929/128*x^4 + 1968496302873661519902501203/256*x^3 - 1486904727389374009409653299929/128*x^2 - 641255290382687048724090933135017/128*x + 1310696558782558493108530010675928479/256",
+    "j_degree": 9,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "disc_norm": "1/1099511627776",
+    "conductor_norm": "16"
+  },
+  "torsion": {
+    "invariants": [
+      34
+    ],
+    "known_exactly": true,
+    "order_bound": 34,
+    "bound_primes": [
+      29
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^9 - 2*x^8 - x^7 + 3*x^6 + 2*x^5 + x^3 - 2*x - 1",
+      "degree": 9
+    },
+    "mode": "vanhoeij",
+    "curve": {
+      "eqxy": "y+40*x^8-108*x^7+36*x^6+94*x^5+14*x^4-9*x^3+47*x^2-33*x-57"
+    },
+    "points": {},
+    "ainvs_as_verified": [
+      "1/2*(-1320*a^8 + 3611*a^7 - 1336*a^6 - 2978*a^5 - 449*a^4 + 331*a^3 - 1564*a^2 + 1151*a + 1796)",
+      "1/4*(-111573*a^8 + 305074*a^7 - 112442*a^6 - 252155*a^5 - 37987*a^4 + 27894*a^3 - 132055*a^2 + 96968*a + 151944)",
+      "1/4*(-111573*a^8 + 305074*a^7 - 112442*a^6 - 252155*a^5 - 37987*a^4 + 27894*a^3 - 132055*a^2 + 96968*a + 151944)",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "1"
+      ],
+      "Q": [
+        "0",
+        "0"
+      ],
+      "order_P": 1,
+      "order_Q": 34
+    },
+    "working_field": {
+      "poly": "x^9 - 2*x^8 - x^7 + 3*x^6 + 2*x^5 + x^3 - 2*x - 1",
+      "degree": 9
+    },
+    "claimed_degree": 9,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Mark van Hoeij",
+    "github": "",
+    "affiliation": "Florida State University"
+  },
+  "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 105",
+  "notes": "Imported from van Hoeij's list; one representative per diamond orbit.",
+  "source": {
+    "kind": "import",
+    "file": "vanhoeij_LowDegreePlaces.txt",
+    "line": 105,
+    "url": "https://www.math.fsu.edu/~hoeij/files/X1N/LowDegreePlaces"
+  },
+  "dates": {
+    "submitted": "2013-08-01",
+    "verified": "2026-09-17 08:46:16 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.29-4",
+    "cputime_seconds": "0.140000",
+    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "log": "data/logs/1.34.9.a.log"
+  }
+}

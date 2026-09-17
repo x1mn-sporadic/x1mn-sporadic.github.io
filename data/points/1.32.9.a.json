@@ -1,0 +1,158 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "1.32.9.a",
+  "m": 1,
+  "n": 32,
+  "degree": 9,
+  "relative_degree": 9,
+  "base_field": "Q",
+  "status": "certified",
+  "sporadicity": {
+    "status": "sporadic",
+    "rule": "X_1(1,32) has only finitely many points of degree 9",
+    "sources": [
+      "torsion_inf"
+    ]
+  },
+  "field": {
+    "poly": "x^9 - x^7 - x^6 + 2*x^5 + 2*x^4 - x^3 - 2*x^2 + 1",
+    "poly_coeffs": [
+      "1",
+      "0",
+      "-2",
+      "-1",
+      "2",
+      "2",
+      "-1",
+      "-1",
+      "0",
+      "1"
+    ],
+    "polredabs": "x^9 - x^7 - x^6 + 2*x^5 + 2*x^4 - x^3 - 2*x^2 + 1",
+    "degree": 9,
+    "disc": "32344469",
+    "disc_factored": "53 * 89 * 6857",
+    "signature": [
+      1,
+      4
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "55*a^8 - 101*a^7 + 48*a^6 - 17*a^5 + 110*a^4 - 81*a^3 - 63*a^2 + 75*a - 15",
+    "tate_c": "5*a^8 - 4*a^7 - 6*a^6 + 6*a^5 + 4*a^4 + 7*a^3 - 18*a^2 + 7*a + 1",
+    "tate_b_coeffs": [
+      "-15",
+      "75",
+      "-63",
+      "-81",
+      "110",
+      "-17",
+      "48",
+      "-101",
+      "55"
+    ],
+    "tate_c_coeffs": [
+      "1",
+      "7",
+      "-18",
+      "7",
+      "4",
+      "6",
+      "-6",
+      "-4",
+      "5"
+    ],
+    "ainvs": [
+      "1 - (5*a^8 - 4*a^7 - 6*a^6 + 6*a^5 + 4*a^4 + 7*a^3 - 18*a^2 + 7*a + 1)",
+      "-(55*a^8 - 101*a^7 + 48*a^6 - 17*a^5 + 110*a^4 - 81*a^3 - 63*a^2 + 75*a - 15)",
+      "-(55*a^8 - 101*a^7 + 48*a^6 - 17*a^5 + 110*a^4 - 81*a^3 - 63*a^2 + 75*a - 15)",
+      "0",
+      "0"
+    ],
+    "P": [],
+    "P_coeffs": [],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^9 - 7685893/97*x^8 + 62667278133/97*x^7 - 295394150563695/97*x^6 + 770063901471672491/97*x^5 - 1231131229532182595983/97*x^4 + 271853663752049904215524/97*x^3 + 3019709086663990947022667294/97*x^2 + 1003170031975474637912402018852/97*x - 8685341834983361758564974579379393/97",
+    "j_degree": 9,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "disc_norm": "97",
+    "conductor_norm": "97"
+  },
+  "torsion": {
+    "invariants": [
+      32
+    ],
+    "known_exactly": true,
+    "order_bound": 32,
+    "bound_primes": [
+      29
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^9 - x^7 - x^6 + 2*x^5 + 2*x^4 - x^3 - 2*x^2 + 1",
+      "degree": 9
+    },
+    "mode": "vanhoeij",
+    "curve": {
+      "eqxy": "y-x^7-x^6+x^5+x^4-x^3-3*x^2-x+1"
+    },
+    "points": {},
+    "ainvs_as_verified": [
+      "-5*a^8 + 4*a^7 + 6*a^6 - 6*a^5 - 4*a^4 - 7*a^3 + 18*a^2 - 7*a",
+      "-55*a^8 + 101*a^7 - 48*a^6 + 17*a^5 - 110*a^4 + 81*a^3 + 63*a^2 - 75*a + 15",
+      "-55*a^8 + 101*a^7 - 48*a^6 + 17*a^5 - 110*a^4 + 81*a^3 + 63*a^2 - 75*a + 15",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "1"
+      ],
+      "Q": [
+        "0",
+        "0"
+      ],
+      "order_P": 1,
+      "order_Q": 32
+    },
+    "working_field": {
+      "poly": "x^9 - x^7 - x^6 + 2*x^5 + 2*x^4 - x^3 - 2*x^2 + 1",
+      "degree": 9
+    },
+    "claimed_degree": 9,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Mark van Hoeij",
+    "github": "",
+    "affiliation": "Florida State University"
+  },
+  "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 76",
+  "notes": "Imported from van Hoeij's list; one representative per diamond orbit.",
+  "source": {
+    "kind": "import",
+    "file": "vanhoeij_LowDegreePlaces.txt",
+    "line": 76,
+    "url": "https://www.math.fsu.edu/~hoeij/files/X1N/LowDegreePlaces"
+  },
+  "dates": {
+    "submitted": "2013-08-01",
+    "verified": "2026-09-17 08:46:10 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.29-4",
+    "cputime_seconds": "0.0900000",
+    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "log": "data/logs/1.32.9.a.log"
+  }
+}

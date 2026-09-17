@@ -1,0 +1,65 @@
+curve,N,g,an_r,index,abramovich_lb,gon_Q_lb,gon_Q_ub_DvH14,f7,f8,f9,p7,p8,p9,note
+X1(1),1,0,0,1,0.01,1,1,True,True,True,True,True,True,
+X1(2),2,0,0,3,0.03,1,1,True,True,True,True,True,True,
+X1(3),3,0,0,4,0.04,1,1,True,True,True,True,True,True,
+X1(4),4,0,0,6,0.06,1,1,True,True,True,True,True,True,
+X1(5),5,0,0,12,0.12,1,1,True,True,True,True,True,True,
+X1(6),6,0,0,12,0.12,1,1,True,True,True,True,True,True,
+X1(7),7,0,0,24,0.24,1,1,True,True,True,True,True,True,
+X1(8),8,0,0,24,0.24,1,1,True,True,True,True,True,True,
+X1(9),9,0,0,36,0.36,1,1,True,True,True,True,True,True,
+X1(10),10,0,0,36,0.36,1,1,True,True,True,True,True,True,
+X1(11),11,1,0,60,0.6,2,2,True,True,True,True,True,True,
+X1(12),12,0,0,48,0.48,1,1,True,True,True,True,True,True,
+X1(13),13,2,0,84,0.83,2,2,True,True,True,True,True,True,
+X1(14),14,1,0,72,0.71,2,2,True,True,True,True,True,True,
+X1(15),15,1,0,96,0.95,2,2,True,True,True,True,True,True,
+X1(16),16,2,0,96,0.95,2,2,True,True,True,True,True,True,
+X1(17),17,5,0,144,1.43,4,4,True,True,True,True,True,True,
+X1(18),18,2,0,108,1.07,2,2,True,True,True,True,True,True,
+X1(19),19,7,0,180,1.79,5,5,True,True,True,True,True,True,
+X1(20),20,3,0,144,1.43,3,3,True,True,True,True,True,True,
+X1(21),21,5,0,192,1.9,4,4,True,True,True,True,True,True,
+X1(22),22,6,0,180,1.79,4,4,True,True,True,True,True,True,
+X1(23),23,12,0,264,2.62,7,7,True,True,True,True,True,True,
+X1(24),24,5,0,192,1.9,4,4,True,True,True,True,True,True,
+X1(25),25,12,0,300,2.98,5,5,False, True,True,False, True,True, DvH14 shows that no func of degree 6 and 7
+X1(26),26,10,0,252,2.5,6,6,True,True,True,True,True,True,
+X1(27),27,13,0,324,3.21,6,6,True,True,True,True,True,True,
+X1(28),28,10,0,288,2.86,6,6,True,True,True,True,True,True,
+X1(29),29,22,0,420,4.17,11,11,False,False,False,False,False,False,
+X1(30),30,9,0,288,2.86,6,6,True,True,True,True,True,True,
+X1(31),31,26,0,480,4.76,12,12,False,False,False,False,False,False,
+X1(32),32,17,0,384,3.81,8,8,False,True,False,False,True,False,we used a special computation to show that degree 9 functions don't exist
+X1(33),33,21,0,480,4.76,10,10,False,False,False,False,False,False,
+X1(34),34,21,0,432,4.28,10,10,False,False,False,False,False,False,
+X1(35),35,25,0,576,5.71,12,12,False,False,False,False,False,False,
+X1(36),36,17,0,432,4.28,8,8,False,True,True,False,True,True,
+X1(37),37,40,1,684,6.78,18,18,False,False,False,False,False,???,
+X1(38),38,28,0,540,5.36,12,12,False,False,False,False,False,False,
+X1(39),39,33,0,672,6.67,14,14,False,False,False,False,False,False,
+X1(40),40,25,0,576,5.71,12,12,False,False,False,False,False,False,
+X1(41),41,51,0,840,8.33,10,22,False,False,False,False,False,False,DT
+X1(42),42,25,0,576,5.71,10,12,False,False,False,False,False,False,DT
+X1(43),43,57,1,924,9.16,19,24,False,False,False,False,False,False,cover search
+X1(44),44,36,0,720,7.14,10,15,False,False,False,False,False,False,DT
+X1(45),45,41,0,864,8.57,10,18,False,False,False,False,False,False,DT
+X1(46),46,45,0,792,7.86,10,19,False,False,False,False,False,False,DT
+X1(47),47,70,0,1104,10.95,11,29,False,False,False,False,False,False,abramovich
+X1(48),48,37,0,768,7.62,10,16,False,False,False,False,False,False,DT
+X1(49),49,69,0,1176,11.66,12,21,False,False,False,False,False,False,abramovich
+X1(50),50,48,0,900,8.93,10,15,False,False,False,False,False,False,DT
+X1(51),51,65,0,1152,11.43,12,24,False,False,False,False,False,False,abramovich
+X1(52),52,55,0,1008,9.99,10,21,False,False,False,False,False,False,abramovich
+X1(53),53,92,1,1404,13.93,19,37,False,False,False,False,False,False,cover search
+X1(54),54,52,0,972,9.64,10,18,False,False,False,False,False,False,abramovich
+X1(55),55,81,0,1440,14.28,15,30,False,False,False,False,False,False,abramovich
+X1(56),56,61,0,1152,11.43,12,24,False,False,False,False,False,False,abramovich
+X1(57),57,85,1,1440,14.28,19,30,False,False,False,False,False,False,cover search
+X1(58),58,78,1,1260,12.5,13,31,False,False,False,False,False,False,abramovich - we know that X1(58) has finitely many points of degree <= 10 because of X1(58)->X1(29)
+X1(59),59,117,0,1740,17.26,18,46,False,False,False,False,False,False,abramovich
+X1(60),60,57,0,1152,11.43,12,24,False,False,False,False,False,False,abramovich
+X1(61),61,126,3,1860,18.45,19,49,False,False,False,False,False,False,abramovich
+X1(62),62,91,0,1440,14.28,15,36,False,False,False,False,False,False,abramovich
+X1(63),63,97,2,1728,17.14,18,36,False,False,False,False,False,False,abramovich - X1(63)->63.576.25.g.4 is a map to a curve where the latter has finitely many points of degree <= 11
+X1(64),64,93,0,1536,15.23,16,32,False,False,False,False,False,False,abramovich

@@ -1,0 +1,161 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "1.40.10.b",
+  "m": 1,
+  "n": 40,
+  "degree": 10,
+  "relative_degree": 10,
+  "base_field": "Q",
+  "status": "certified",
+  "sporadicity": {
+    "status": "sporadic",
+    "rule": "X_1(1,40) has only finitely many points of degree 10",
+    "sources": [
+      "RankZeroLemma"
+    ]
+  },
+  "field": {
+    "poly": "x^10 + x^9 - x^8 - 2*x^7 - x^6 - 3*x^5 + 4*x^4 + x^3 + x^2 + x - 1",
+    "poly_coeffs": [
+      "-1",
+      "1",
+      "1",
+      "1",
+      "4",
+      "-3",
+      "-1",
+      "-2",
+      "-1",
+      "1",
+      "1"
+    ],
+    "polredabs": "x^10 - x^9 - 2*x^8 + 3*x^7 + 3*x^6 - 3*x^5 - 3*x^4 + 3*x^3 + 2*x^2 - x - 1",
+    "degree": 10,
+    "disc": "1882089625",
+    "disc_factored": "5^3 * 13^2 * 41^2 * 53",
+    "signature": [
+      2,
+      4
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "1/41*(6276*Lopt.1^9 + 13358*Lopt.1^8 + 8650*Lopt.1^7 - 3214*Lopt.1^6 - 10536*Lopt.1^5 - 31405*Lopt.1^4 - 10966*Lopt.1^3 - 6173*Lopt.1^2 - 801*Lopt.1 + 5523)",
+    "tate_c": "1/41*(209*Lopt.1^9 + 495*Lopt.1^8 + 436*Lopt.1^7 + 129*Lopt.1^6 - 67*Lopt.1^5 - 764*Lopt.1^4 - 285*Lopt.1^3 - 140*Lopt.1^2 - 84*Lopt.1 + 148)",
+    "tate_b_coeffs": [
+      "5523/41",
+      "-801/41",
+      "-6173/41",
+      "-10966/41",
+      "-31405/41",
+      "-10536/41",
+      "-3214/41",
+      "8650/41",
+      "13358/41",
+      "6276/41"
+    ],
+    "tate_c_coeffs": [
+      "148/41",
+      "-84/41",
+      "-140/41",
+      "-285/41",
+      "-764/41",
+      "-67/41",
+      "129/41",
+      "436/41",
+      "495/41",
+      "209/41"
+    ],
+    "ainvs": [
+      "1 - (1/41*(209*Lopt.1^9 + 495*Lopt.1^8 + 436*Lopt.1^7 + 129*Lopt.1^6 - 67*Lopt.1^5 - 764*Lopt.1^4 - 285*Lopt.1^3 - 140*Lopt.1^2 - 84*Lopt.1 + 148))",
+      "-(1/41*(6276*Lopt.1^9 + 13358*Lopt.1^8 + 8650*Lopt.1^7 - 3214*Lopt.1^6 - 10536*Lopt.1^5 - 31405*Lopt.1^4 - 10966*Lopt.1^3 - 6173*Lopt.1^2 - 801*Lopt.1 + 5523))",
+      "-(1/41*(6276*Lopt.1^9 + 13358*Lopt.1^8 + 8650*Lopt.1^7 - 3214*Lopt.1^6 - 10536*Lopt.1^5 - 31405*Lopt.1^4 - 10966*Lopt.1^3 - 6173*Lopt.1^2 - 801*Lopt.1 + 5523))",
+      "0",
+      "0"
+    ],
+    "P": [],
+    "P_coeffs": [],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^10 - 11248000*x^9 + 187347805536*x^8 - 7885713505855848*x^7 + 31968756256633284276*x^6 - 66716132271902709301976*x^5 + 79403735319268032934524439*x^4 - 56804800631788814031553812792*x^3 + 21517162484455474969086488814122*x^2 - 4194286022340113904715433027764592*x + 724344369428265973510232570699548799",
+    "j_degree": 10,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "disc_norm": "-1",
+    "conductor_norm": "1"
+  },
+  "torsion": {
+    "invariants": [
+      40
+    ],
+    "known_exactly": true,
+    "order_bound": 40,
+    "bound_primes": [
+      37
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^10 + 3*x^9 - x^8 - 7*x^7 - 17/5*x^6 + 4*x^5 + 23/5*x^4 + x^3 - x^2 - 4/5*x - 1/5",
+      "degree": 10
+    },
+    "mode": "vanhoeij",
+    "curve": {
+      "eqxy": "269*y-115*x^9-3535*x^8-7360*x^7+7810*x^6+14231*x^5+386*x^4-6757*x^3-4371*x^2-1264*x+105"
+    },
+    "points": {},
+    "ainvs_as_verified": [
+      "1/269*(-237090*a^9 - 589665*a^8 + 560050*a^7 + 1408665*a^6 + 9191*a^5 - 1021192*a^4 - 518887*a^3 + 82461*a^2 + 201227*a + 75190)",
+      "1/269*(229830*a^9 - 720495*a^8 - 2828335*a^7 + 3328385*a^6 + 4296688*a^5 - 2053191*a^4 - 2878112*a^3 - 477115*a^2 + 540046*a + 495520)",
+      "1/269*(229830*a^9 - 720495*a^8 - 2828335*a^7 + 3328385*a^6 + 4296688*a^5 - 2053191*a^4 - 2878112*a^3 - 477115*a^2 + 540046*a + 495520)",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "1"
+      ],
+      "Q": [
+        "0",
+        "0"
+      ],
+      "order_P": 1,
+      "order_Q": 40
+    },
+    "working_field": {
+      "poly": "x^10 + 3*x^9 - x^8 - 7*x^7 - 17/5*x^6 + 4*x^5 + 23/5*x^4 + x^3 - x^2 - 4/5*x - 1/5",
+      "degree": 10
+    },
+    "claimed_degree": 10,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Mark van Hoeij",
+    "github": "",
+    "affiliation": "Florida State University"
+  },
+  "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 195",
+  "notes": "Imported from van Hoeij's list; one representative per diamond orbit.",
+  "source": {
+    "kind": "import",
+    "file": "vanhoeij_LowDegreePlaces.txt",
+    "line": 195,
+    "url": "https://www.math.fsu.edu/~hoeij/files/X1N/LowDegreePlaces"
+  },
+  "dates": {
+    "submitted": "2013-08-01",
+    "verified": "2026-09-17 08:47:07 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.29-4",
+    "cputime_seconds": "0.160000",
+    "verify_lib_sha256": "1f1463c99a70da9ae5934bbca6dd39ae497ab89e074686fe894faeb380ca6a77",
+    "log": "data/logs/1.40.10.b.log"
+  }
+}

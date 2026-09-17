@@ -1,0 +1,15 @@
+[0.000000 s] start: X_1(1,36) mode=vanhoeij
+[0.000000 s] field: degree 7, x^7 - 2*x^6 + 4*x^5 - x^4 - 8*x^3 + 2*x^2 + 5*x + 1
+[0.0100000 s] curve: [
+-414*a^6 + 1134*a^5 - 2494*a^4 + 2257*a^3 + 1644*a^2 - 2043*a - 559,
+-16403*a^6 + 44923*a^5 - 98797*a^4 + 89385*a^3 + 65195*a^2 - 80966*a - 22205,
+-16403*a^6 + 44923*a^5 - 98797*a^4 + 89385*a^3 + 65195*a^2 - 80966*a - 22205,
+0,
+0
+]
+[0.0100000 s] orders verified: ord P = 1, ord Q = 36, <P,Q> = Z/1 x Z/36
+[0.0200000 s] torsion bound from reductions: |E(K)_tors| divides 36 (primes [ 29 ])
+[0.0200000 s] Tate normal form done; residue field of the point has degree 7 (K has degree 7)
+[0.0200000 s] j: degree 7, CM false 0
+[0.100000 s] conductor norm 2
+[0.100000 s] VERIFY_DONE

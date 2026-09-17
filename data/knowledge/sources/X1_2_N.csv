@@ -1,0 +1,33 @@
+curve,N,g,an_r,index,abramovich_lb,gon_Q_lb,gon_Q_ub_DvH14,f7,f8,f9,p7,p8,p9,note
+"X1(2,2)",2,0,0,6,0.06,1,1,True,True,True,True,True,True,
+"X1(2,4)",4,0,0,12,0.12,1,1,True,True,True,True,True,True,
+"X1(2,6)",6,0,0,24,0.24,1,1,True,True,True,True,True,True,
+"X1(2,8)",8,0,0,48,0.48,1,1,True,True,True,True,True,True,
+"X1(2,10)",10,1,0,72,0.71,2,2,True,True,True,True,True,True,
+"X1(2,12)",12,1,0,96,0.95,2,2,True,True,True,True,True,True,
+"X1(2,14)",14,4,0,144,1.43,3,3,True,True,True,True,True,True,DT ub via has_modular_unit_of_degree
+"X1(2,16)",16,5,0,192,1.9,4,4,True,True,True,True,True,True,DT
+"X1(2,18)",18,7,0,216,2.14,4,4,True,True,True,True,True,True,DT
+"X1(2,20)",20,9,0,288,2.86,6,6,True,True,True,True,True,True,DT
+"X1(2,22)",22,16,0,360,3.57,8,8,False,True,True,False,True,True,DT
+"X1(2,24)",24,13,0,384,3.81,8,8,False,True,True,False,True,True,DT
+"X1(2,26)",26,25,0,504,5,12,12,False,False,False,False,False,False,DT
+"X1(2,28)",28,25,0,576,5.71,12,12,False,False,False,False,False,False,DT
+"X1(2,30)",30,25,0,576,5.71,10,12,False,False,False,False,False,False,DT - todo probaj gon=12
+"X1(2,32)",32,37,0,768,7.62,10,16,False,False,False,False,False,False,DT
+"X1(2,34)",34,49,0,864,8.57,10,20,False,False,False,False,False,False,DT
+"X1(2,36)",36,41,0,864,8.57,10,16,False,False,False,False,False,False,DT
+"X1(2,38)",38,64,0,1080,10.71,11,24,False,False,False,False,False,False,abramovich
+"X1(2,40)",40,57,0,1152,11.43,12,24,False,False,False,False,False,False,abramovich
+"X1(2,42)",42,61,0,1152,11.43,12,24,False,False,False,False,False,False,abramovich
+"X1(2,44)",44,81,1,1440,14.28,15,30,False,False,False,False,False,False,abramovich - X1(44) has finitely many deg <= 9 points
+"X1(2,46)",46,100,1,1584,15.71,16,38,False,False,False,False,False,False,abramovich - X1(46) has finitely many degree <=9 points
+"X1(2,48)",48,81,0,1536,15.23,16,32,False,False,False,False,False,False,abramovich
+"X1(2,50)",50,109,0,1800,17.85,18,30,False,False,False,False,False,False,abramovich
+"X1(2,52)",52,121,0,2016,19.99,20,42,False,False,False,False,False,False,abramovich
+"X1(2,54)",54,118,0,1944,19.28,20,36,False,False,False,False,False,False,abramovich
+"X1(2,56)",56,133,1,2304,22.85,23,48,False,False,False,False,False,False,abramovich
+"X1(2,58)",58,169,2,2520,24.99,25,62,False,False,False,False,False,False,abramovich
+"X1(2,60)",60,129,0,2304,22.85,23,48,False,False,False,False,False,False,abramovich
+"X1(2,62)",62,196,1,2880,28.56,29,72,False,False,False,False,False,False,abramovich
+"X1(2,64)",64,193,1,3072,30.47,31,64,False,False,False,False,False,False,abramovich

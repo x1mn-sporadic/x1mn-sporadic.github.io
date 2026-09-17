@@ -1,0 +1,64 @@
+{
+  "generated": "2026-09-17 08:47 UTC",
+  "sources": {
+    "Mazur77": {
+      "cite": "B. Mazur, Modular curves and the Eisenstein ideal, Publ. Math. IHES 47 (1977), 33-186; Rational isogenies of prime degree, Invent. Math. 44 (1978), 129-162.",
+      "used_for": "Phi(1) = Phi^infty(1)",
+      "transcribed_from": "arXiv:1608.07549 (Derickx-Sutherland), Introduction"
+    },
+    "KKM": {
+      "cite": "M. A. Kenku, F. Momose, Torsion points on elliptic curves defined over quadratic fields, Nagoya Math. J. 109 (1988), 125-149; S. Kamienny, Torsion points on elliptic curves and q-coefficients of modular forms, Invent. Math. 109 (1992), 221-229.",
+      "used_for": "Phi(2) = Phi^infty(2)",
+      "transcribed_from": "arXiv:1608.07549 (Derickx-Sutherland), Introduction"
+    },
+    "JKS04": {
+      "cite": "D. Jeon, C. H. Kim, A. Schweizer, On the torsion of elliptic curves over cubic number fields, Acta Arith. 113 (2004), 291-301.",
+      "used_for": "Phi^infty(3)",
+      "transcribed_from": "arXiv:1608.07549 (Derickx-Sutherland), Introduction"
+    },
+    "JKP06": {
+      "cite": "D. Jeon, C. H. Kim, E. Park, On the torsion of elliptic curves over quartic number fields, J. London Math. Soc. 74 (2006), 1-12.",
+      "used_for": "Phi^infty(4)",
+      "transcribed_from": "arXiv:1608.07549 (Derickx-Sutherland), Introduction"
+    },
+    "DS17": {
+      "cite": "M. Derickx, A. V. Sutherland, Torsion subgroups of elliptic curves over quintic and sextic number fields, Proc. Amer. Math. Soc. 145 (2017), 4233-4245, arXiv:1608.07549.",
+      "used_for": "Phi^infty(5), Phi^infty(6) (Theorem 1.2); rank of J_1(m,mn) over Q(zeta_m) (Theorem 4.1)",
+      "transcribed_from": "TeX source of arXiv:1608.07549"
+    },
+    "DvH14": {
+      "cite": "M. Derickx, M. van Hoeij, Gonality of the modular curve X_1(N), J. Algebra 417 (2014), 52-71, arXiv:1307.5719.",
+      "used_for": "Q-gonality of X_1(N) for N <= 40 and upper bounds for N <= 250; the (1,n) in Phi^infty(d) for d = 5..8",
+      "transcribed_from": "torsion_inf/tables/X1_N.csv (columns gon_Q_ub_DvH14, gon_Q_lb, p7, p8, p9)"
+    },
+    "torsion_inf": {
+      "cite": "F. Najman, M. Varivoda, audit tables tables/X1_N.csv and tables/X1_2_N.csv of the repository github.com/marin-varivoda/torsion_inf (genus, analytic rank of J_1, Q-gonality bounds, and whether X_1(m,n) has infinitely many points of degree 7, 8, 9); gonality lower bounds computed with CurveArith (Derickx-Terao) and the Abramovich bound.",
+      "used_for": "genus, rank, gonality bounds and degree 7-9 data for X_1(N), N <= 64, and X_1(2,n), n <= 60",
+      "transcribed_from": "data/knowledge/sources/X1_N.csv, data/knowledge/sources/X1_2_N.csv (copied verbatim)"
+    },
+    "Frey94": {
+      "cite": "G. Frey, Curves with infinitely many points of fixed degree, Israel J. Math. 85 (1994), 79-83.",
+      "used_for": "if X/F has infinitely many points of degree <= d over F then gon_F(X) <= 2d"
+    },
+    "Abramovich96": {
+      "cite": "D. Abramovich, A linear lower bound on the gonality of modular curves, IMRN 1996, 1005-1011; with lambda_1 >= 975/4096 (H. Kim, P. Sarnak, appendix to J. Amer. Math. Soc. 16 (2003)).",
+      "used_for": "gon_C(X_Gamma) >= (lambda_1/24) * [PSL_2(Z) : Gamma-bar] with lambda_1 >= 975/4096, i.e. >= 975/98304 * index"
+    },
+    "KolyvaginLogachev": {
+      "cite": "V. A. Kolyvagin, D. Yu. Logachev, Finiteness of the Shafarevich-Tate group and the group of rational points for some modular abelian varieties, Leningrad Math. J. 1 (1990), 1229-1253; K. Kato, p-adic Hodge theory and values of zeta functions of modular forms, Asterisque 295 (2004).",
+      "used_for": "analytic rank 0 of J_1(N) or J_1(2,2n) implies rank 0 of the Mordell-Weil group"
+    },
+    "Faltings": {
+      "cite": "G. Faltings, Endlichkeitssaetze fuer abelsche Varietaeten ueber Zahlkoerpern, Invent. Math. 73 (1983).",
+      "used_for": "a curve of genus >= 2 has finitely many points over any fixed number field"
+    },
+    "RankZeroLemma": {
+      "cite": "Standard: if J(F) is finite and X has no F-rational map to P^1 of degree <= d, then X has finitely many closed points of degree <= d over F (the fibres of Sym^d X -> Pic^d X over the finitely many F-points are projective spaces, and a positive-dimensional fibre is a base-point-free pencil of degree <= d).  See e.g. Derickx-Sutherland arXiv:1608.07549, proof of Lemma 4.3 / Corollary 4.2.",
+      "used_for": "rank 0 and d < gon_F  =>  finitely many points of degree d"
+    },
+    "Hilbert": {
+      "cite": "Hilbert irreducibility: a map X -> P^1 of degree e defined over F has infinitely many fibres that are irreducible closed points of degree e over F.",
+      "used_for": "d = gon_F(X) (known exactly)  =>  infinitely many points of degree d"
+    }
+  }
+}

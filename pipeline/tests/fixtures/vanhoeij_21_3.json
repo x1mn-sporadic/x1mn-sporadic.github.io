@@ -1,0 +1,12 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 1, "n": 21,
+  "field": "x^3-3*x^2+3",
+  "curve": {"vanhoeij": {"eqxy": "y+x^2-2*x-1"}},
+  "degree": 3,
+  "submitter": "Mark van Hoeij (imported)",
+  "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; file LowDegreePlaces (Aug 2013), line 'N = 21, degv = 3'. Point first found by Najman, arXiv:1211.2188.",
+  "notes": "test fixture",
+  "date": "2013-08-01",
+  "source": {"kind": "file", "path": "pipeline/tests/fixtures/vanhoeij_21_3.json"}
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sporadic points on X₁(m,n)</title>
+  <meta name="description" content="A census of sporadic points on the modular curves X1(m,n): elliptic curves with a point of order n and full m-torsion over number fields of unusually small degree, verified with Magma.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2315363a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' fill='%23eff4f2' text-anchor='middle'%3EX%3Ctspan font-size='10' dy='4'%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="index">
+<main>
+  <section class="hero">
+    <p class="lede">Which modular curves <span class="m">X₁(m,n)</span> have points of <em>unexpectedly small degree</em>?</p>
+    <p class="sub">A point of degree <span class="m">d</span> on <span class="m">X₁(m,n)</span> is an elliptic curve over a number field of degree <span class="m">d</span>
+      whose torsion subgroup contains <span class="m">ℤ/m ⊕ ℤ/n</span>. The point is <b>sporadic</b> when the curve has only finitely many points of that degree.
+      This census collects such points, re-verifies every submission with Magma, and records the theorem that makes each one sporadic.
+      <a href="submit.html">Submit a point →</a></p>
+  </section>
+
+  <div class="stats">
+    <span><b id="stat-curves">…</b> curves</span>
+    <span><b id="stat-certified">…</b> certified sporadic points</span>
+    <span><b id="stat-verified">…</b> verified points with sporadicity open</span>
+    <span id="pending"></span>
+    <span class="muted">data built <span id="stat-generated">…</span></span>
+  </div>
+
+  <h2>The curves</h2>
+  <p>Sorted by <span class="m">m</span>, then <span class="m">n</span>; <span class="m">X₁(1,n) = X₁(n)</span>. Click a curve for its points and for what is known about it.
+    <b>Finite</b> and <b>infinite</b> list the degrees in which the curve is known to have finitely, respectively infinitely, many points
+    (hover for the source; see <a href="about.html">about</a> for the conventions).</p>
+  <div class="controls">
+    <label><input type="checkbox" id="hide-genus0" checked> hide genus 0 curves (no sporadic points)</label>
+    <label><input type="checkbox" id="only-points"> only curves with recorded points</label>
+  </div>
+  <div class="table-wrap">
+    <table class="data" id="curves">
+      <thead>
+        <tr>
+          <th>curve</th>
+          <th class="num">genus</th>
+          <th class="num" title="gonality over the base field; a range when only bounds are known">gonality</th>
+          <th class="num" title="rank of J₁(m,n) over the base field">rk J₁</th>
+          <th title="degrees with only finitely many points (a sporadic point can only have one of these degrees or an undecided one)">finite in degree</th>
+          <th title="degrees with infinitely many points">infinite in degree</th>
+          <th class="num" title="certified sporadic points">certified</th>
+          <th class="num" title="verified points whose sporadicity is not settled by a recorded result">open</th>
+          <th>degrees present</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>

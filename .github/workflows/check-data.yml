@@ -1,0 +1,17 @@
+name: Check data files
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate JSON and rebuild consistency
+        run: |
+          python3 -c "import json,glob; [json.load(open(f)) for f in glob.glob('data/**/*.json', recursive=True) + glob.glob('submissions/**/*.json', recursive=True)]; print('all JSON parses')"
+          python3 pipeline/build.py --check
