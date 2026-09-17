@@ -17,7 +17,9 @@
   </div>
   <h3>Points</h3>
   <p>One entry per point up to the diamond action (the same elliptic curve with different choices of the torsion points is listed once).
-    Click a column header to sort. <a class="btn secondary" id="submit-link" href="#">Submit a point on this curve</a></p>
+    Each point is asked three questions, answered <span class="ans yes">yes</span>, <span class="ans no">no</span> or
+    <span class="ans maybe">maybe</span> (hover for the reason): is it sporadic (finitely many points of degree ≤ d), is it isolated,
+    and does the curve have infinitely many points of its degree d. Click a column header to sort. <a class="btn secondary" id="submit-link" href="#">Submit a point on this curve</a></p>
   <div class="table-wrap">
     <table class="data" id="points">
       <thead>
@@ -25,12 +27,12 @@
           <th class="sortable">id</th>
           <th class="num sortable">degree</th>
           <th>residue field</th>
-          <th class="num sortable" title="discriminant of the residue field">disc</th>
-          <th class="num sortable" title="the j-invariant if rational, otherwise its degree over Q">j</th>
-          <th class="sortable">CM</th>
+          <th class="num sortable" title="the j-invariant if rational, otherwise its degree over Q; CM marked">j</th>
           <th>E(K)ₜₒᵣₛ</th>
-          <th class="sortable">status</th>
-          <th class="sortable">submitted by</th>
+          <th class="sortable" title="finitely many points of degree ≤ d on the curve">sporadic</th>
+          <th class="sortable" title="P¹-isolated and AV-isolated (Bourdon–Ejder–Liu–Odumodu–Viray)">isolated</th>
+          <th class="sortable" title="does the curve have infinitely many points of this degree?">∞ in deg d</th>
+          <th class="sortable">discovered by</th>
         </tr>
       </thead>
       <tbody></tbody>

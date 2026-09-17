@@ -11,9 +11,15 @@ Conventions
 * The *degree* of a closed point is its absolute degree d = [Q(x) : Q].  For
   m >= 3 the degree over the base field Q(zeta_m) is d / phi(m).
 * A closed point x of degree d is *sporadic* if X_1(m,n) has only finitely
-  many closed points of degree d.  (This is the convention of van Hoeij and of
-  Derickx-van Hoeij; the "finitely many points of degree <= d" convention is
-  stricter and can be read off from `degrees_finite` for the smaller degrees.)
+  many closed points of degree <= d (Bourdon-Ejder-Liu-Odumodu-Viray), and
+  *isolated* if it is both P^1-isolated (l(x) = dim L(x) = 1: it does not move
+  in a pencil of degree-d divisors) and AV-isolated (no positive-rank abelian
+  subvariety of the Jacobian moves it; automatic when the Jacobian has rank 0).
+  Finitely many points of degree d  =>  isolated.  Each point is classified
+  by three questions, each answered yes / no / maybe:
+    - are there infinitely many points of degree d?
+    - is the point sporadic?
+    - is the point isolated?
 
 Every fact below carries the key of a source in SOURCES.  Nothing in this file
 is derived from memory of the literature: the Phi^infty(d) lists and the
@@ -103,6 +109,12 @@ SOURCES = {
                 "F-points are projective spaces, and a positive-dimensional fibre is a base-point-free pencil of "
                 "degree <= d).  See e.g. Derickx-Sutherland arXiv:1608.07549, proof of Lemma 4.3 / Corollary 4.2.",
         "used_for": "rank 0 and d < gon_F  =>  finitely many points of degree d",
+    },
+    "BELOV": {
+        "cite": "A. Bourdon, O. Ejder, Y. Liu, F. Odumodu, B. Viray, On the level of modular curves that give rise to "
+                "isolated j-invariants, Adv. Math. 357 (2019), arXiv:1811.04425.",
+        "used_for": "definitions of sporadic (finitely many points of degree <= d) and isolated (P^1- and AV-isolated); "
+                    "a point in a positive-dimensional family of degree-d points gives infinitely many degree-d points",
     },
     "Hilbert": {
         "cite": "Hilbert irreducibility: a map X -> P^1 of degree e defined over F has infinitely many fibres that "
@@ -251,53 +263,110 @@ def rank_zero_source(m: int, n: int, table_row=None):
     return None, None
 
 
-def classify_degree(curve: dict, d: int) -> dict:
-    """Decide the sporadicity status of a (verified) point of absolute degree d on the curve.
+def degree_status(curve: dict, e: int) -> tuple:
+    """('infinite' | 'finite' | 'unknown', rule, sources) for the points of degree e on the curve.
 
-    `curve` is a record from data/curves.json (see build.py) with keys
-      m, n, genus, base_field_degree (= phi(m)), gonality {lb, ub, source},
-      rank {value, source}, degrees_infinite {d: source}, degrees_finite {d: source}.
-
-    Returns {"status": "sporadic"|"not-sporadic"|"open", "rule": ..., "sources": [...]}.
-
-    Rules (in order):
-      0. a point of degree d exists only if phi(m) | d;
-      1. d in degrees_infinite   -> not sporadic  (Phi^infty lists, degree 7-9 tables, or d = exact gonality);
-      2. d in degrees_finite     -> sporadic      (complement of the complete Phi^infty(d) lists, or tables);
-      3. Frey: 2 d' < gon_lb over the base field, d' = d/phi(m)   -> sporadic;
-      4. rank 0 over the base field and d' < gon_lb               -> sporadic;
-      5. otherwise open.
-    Why rule 2 is valid: if X_1(m,n) had infinitely many closed points of degree d, they would give
-    infinitely many non-isomorphic elliptic curves over degree-d fields whose torsion contains
+    Rules: (0) phi(m) does not divide e: no points at all (Weil pairing) -> finite;
+    (1) e in degrees_infinite (Phi^infty lists, degree 7-9 tables, e = exact gonality);
+    (2) e in degrees_finite (complement of the complete Phi^infty(e) lists, tables);
+    (3) Frey: 2 e' < gon_lb over the base field, e' = e/phi(m);
+    (4) rank 0 over the base field and e' < gon_lb.
+    Why (2) is valid: if X_1(m,n) had infinitely many closed points of degree e, they would give
+    infinitely many non-isomorphic elliptic curves over degree-e fields whose torsion contains
     Z/m x Z/n (the map to the j-line has finite fibres), hence some torsion group G containing
-    Z/m x Z/n lies in Phi^infty(d); the lists for d <= 6 are closed under passing to subgroups,
-    so (m,n) itself would be in Phi^infty(d).
+    Z/m x Z/n lies in Phi^infty(e); the lists for e <= 6 are closed under passing to subgroups,
+    so (m,n) itself would be in Phi^infty(e).
     """
     m, n = curve["m"], curve["n"]
     phi_m = curve["base_field_degree"]
-    if d % phi_m != 0:
-        return {"status": "impossible", "rule": f"phi({m}) = {phi_m} does not divide {d}: no such point (Weil pairing)",
-                "sources": []}
-    dd = d // phi_m
+    lab = curve_label(m, n)
+    if e % phi_m != 0:
+        return "finite", f"no points of degree {e}: phi({m}) = {phi_m} does not divide {e} (Weil pairing)", []
+    ee = e // phi_m
     inf = curve.get("degrees_infinite", {})
     fin = curve.get("degrees_finite", {})
-    if str(d) in inf:
-        return {"status": "not-sporadic", "rule": f"{curve_label(m, n)} has infinitely many points of degree {d}",
-                "sources": [inf[str(d)]]}
-    if str(d) in fin:
-        return {"status": "sporadic", "rule": f"{curve_label(m, n)} has only finitely many points of degree {d}",
-                "sources": [fin[str(d)]]}
+    if "all" in inf:
+        return "infinite", f"{lab} has genus 0", ["genus 0"]
+    if str(e) in inf:
+        return "infinite", f"{lab} has infinitely many points of degree {e}", [inf[str(e)]]
+    if str(e) in fin:
+        return "finite", f"{lab} has only finitely many points of degree {e}", [fin[str(e)]]
     gon = curve.get("gonality") or {}
     lb = gon.get("lb")
-    if lb is not None and 2 * dd < lb:
-        return {"status": "sporadic",
-                "rule": f"Frey: 2*{dd} < {lb} <= gon_{curve['base_field']}({curve_label(m, n)})",
-                "sources": ["Frey94", gon.get("source", "")]}
+    if lb is not None and 2 * ee < lb:
+        return "finite", f"Frey: 2*{ee} < {lb} <= gonality of {lab} over {curve['base_field']}", ["Frey94", gon.get("source", "")]
     rk = curve.get("rank") or {}
-    if rk.get("value") == 0 and lb is not None and dd < lb:
-        return {"status": "sporadic",
-                "rule": f"rank J_1({n if m == 1 else str(m) + ',' + str(n)})({curve['base_field']}) = 0 and {dd} < {lb} <= gonality",
-                "sources": ["RankZeroLemma", rk.get("source", ""), gon.get("source", "")]}
-    return {"status": "open",
-            "rule": f"no recorded result decides whether {curve_label(m, n)} has finitely many points of degree {d}",
-            "sources": []}
+    if rk.get("value") == 0 and lb is not None and ee < lb:
+        return "finite", f"rank 0 and {ee} < {lb} <= gonality of {lab} over {curve['base_field']}", \
+            ["RankZeroLemma", rk.get("source", ""), gon.get("source", "")]
+    return "unknown", f"no recorded result decides whether {lab} has finitely many points of degree {e}", []
+
+
+def _ans(value, rule, sources):
+    return {"value": value, "rule": rule, "sources": [x for x in sources if x]}
+
+
+def classify_point(curve: dict, d: int, iso=None) -> dict:
+    """The three yes/no/maybe answers for a verified point of absolute degree d.
+
+    iso: the isolation record of verify.py: {"computed": bool, "p1_isolated": bool|None,
+    "l_values": [...], "primes": [...], "note": ...} (None if the computation was not run).
+    Returns {"infinite_in_degree": ..., "sporadic": ..., "isolated": ..., "status": ...} where
+    status is "certified" (sporadic or isolated is yes), "rejected" (isolated is no, or the degree has
+    infinitely many points and isolation is not proven) or "verified" (everything else).
+    """
+    m, n = curve["m"], curve["n"]
+    lab = curve_label(m, n)
+    st, rule, src = degree_status(curve, d)
+    infinite = _ans({"infinite": "yes", "finite": "no", "unknown": "maybe"}[st], rule, src)
+
+    # sporadic: finitely many points of degree <= d
+    inf_e = [(e,) + degree_status(curve, e) for e in range(1, d + 1)]
+    bad = [t for t in inf_e if t[1] == "infinite"]
+    unknown = [t for t in inf_e if t[1] == "unknown"]
+    if bad:
+        e, _, r, sr = bad[0]
+        sporadic = _ans("no", f"not sporadic: {r}", sr)
+    elif not unknown:
+        # every degree <= d is finite; cite the rule for d if it already covers all smaller degrees,
+        # otherwise the whole list
+        if any(k in rule for k in ("Frey", "rank 0")):
+            sporadic = _ans("yes", f"finitely many points of degree <= {d}: {rule}", src)
+        else:
+            srcs = sorted({x for t in inf_e for x in t[3] if x})
+            sporadic = _ans("yes", f"finitely many points of each degree <= {d} on {lab}", srcs)
+    else:
+        es = ", ".join(str(t[0]) for t in unknown)
+        sporadic = _ans("maybe", f"finitely many points of degree {es} on {lab}: not decided by any recorded result", [])
+
+    # isolated
+    iso = iso or {}
+    l_v = 1 if iso.get("p1_isolated") else None
+    rk = (curve.get("rank") or {}).get("value")
+    if st == "finite":
+        isolated = _ans("yes", f"finitely many points of degree {d} on {lab}, so the point lies in no positive-dimensional family", src + ["BELOV"])
+    elif l_v is not None and l_v >= 2:
+        isolated = _ans("no", f"dim L(x) = {l_v} >= 2: the point moves in a pencil of degree {d} (not P^1-isolated)", ["BELOV"])
+    elif l_v == 1 and rk == 0:
+        isolated = _ans("yes", f"dim L(x) = 1 (P^1-isolated) and rank J_1 over {curve['base_field']} is 0 (AV-isolated)",
+                        ["BELOV", (curve.get("rank") or {}).get("source", "")])
+    elif l_v == 1:
+        isolated = _ans("maybe", "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided", ["BELOV"])
+    elif iso.get("computed"):
+        qs = ", ".join(str(q) for q in iso.get("primes", []))
+        isolated = _ans("maybe", f"dim L(x mod q) >= 2 for q = {qs}: the point probably moves in a pencil of degree {d} "
+                        "(not proven: a jump of h^0 modulo q cannot be excluded)", ["BELOV"])
+    else:
+        isolated = _ans("maybe", "dim L(x) not computed" + (f" ({iso['note']})" if iso.get("note") else ""), [])
+
+    # status: a point enters the census when it is proven sporadic or isolated ("certified"), or when
+    # its degree is undecided ("verified": all three answers may still change).  A point of a degree
+    # in which the curve provably has infinitely many points is accepted only if it is proven isolated;
+    # otherwise it is most likely an ordinary member of an infinite family and is rejected.
+    if sporadic["value"] == "yes" or isolated["value"] == "yes":
+        status = "certified"
+    elif isolated["value"] == "no" or infinite["value"] == "yes":
+        status = "rejected"
+    else:
+        status = "verified"
+    return {"infinite_in_degree": infinite, "sporadic": sporadic, "isolated": isolated, "status": status}

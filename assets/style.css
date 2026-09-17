@@ -271,7 +271,7 @@ table.data tr.group th {
 table.data tr.row-link { cursor: pointer; }
 table.data tr.row-link:hover td { background: var(--panel-soft); }
 table.data tr.dim td { color: var(--muted); }
-table.data td.poly { font-family: var(--math); font-size: 0.95rem; min-width: 16rem; max-width: 30rem; overflow-wrap: anywhere; }
+table.data td.poly { font-family: var(--math); font-size: 0.95rem; min-width: 13rem; max-width: 26rem; overflow-wrap: anywhere; }
 table.data td.num { white-space: nowrap; }
 table.data a.id { font-family: var(--mono); font-size: 0.9rem; text-decoration: none; }
 table.data a.id:hover { text-decoration: underline; }
@@ -290,6 +290,21 @@ table.data a.id:hover { text-decoration: underline; }
 .degs .d.fin { background: var(--ok-soft); border-color: transparent; }
 .degs .d.inf { background: var(--warn-soft); border-color: transparent; }
 .empty { color: var(--muted); font-style: italic; }
+
+/* yes / no / maybe answers */
+.ans {
+  display: inline-block;
+  min-width: 3.4em;
+  text-align: center;
+  padding: 0.02rem 0.45rem;
+  border-radius: 3px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.ans.yes { background: var(--ok-soft); color: var(--ok); }
+.ans.no { background: var(--panel-soft); color: var(--muted); border: 1px solid var(--border); }
+.ans.maybe { background: var(--warn-soft); color: var(--warn); }
 
 /* status chips */
 .chip {

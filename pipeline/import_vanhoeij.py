@@ -49,6 +49,14 @@ def main():
             continue
         k = counts.get((N, degv), 0) + 1
         counts[(N, degv)] = k
+        # attribution, from the header of the file: the 2012 version had N = 29, 31 and the degree-6
+        # point for N = 37; the 2013 version added the table for N <= 60; N = 21 was found by Najman
+        if N == 21:
+            disc_by, year = "F. Najman", 2012
+        elif N in (29, 31) or (N, degv) == (37, 6):
+            disc_by, year = "M. van Hoeij", 2012
+        else:
+            disc_by, year = "M. van Hoeij", 2013
         sub = {
             "schema": SCHEMA_SUBMISSION,
             "m": 1, "n": N,
@@ -56,6 +64,7 @@ def main():
             "curve": {"vanhoeij": {"eqxy": eqxy.strip()}},
             "degree": degv,
             "expected": {"j_degree": int(degj) if degj else degv, "j": jval},
+            "discoverer": disc_by, "year": year,
             "submitter": "Mark van Hoeij",
             "affiliation": "Florida State University",
             "github": "",

@@ -52,9 +52,16 @@
   const curveLabelLong = (m, n) => "X₁(" + m + "," + n + ")";
   const torsionLabel = (m, n) => (m === 1 ? "ℤ/" + n : "ℤ/" + m + " ⊕ ℤ/" + n);
   const chip = (status) => {
-    const text = { certified: "certified sporadic", verified: "verified · sporadicity open", rejected: "rejected" }[status] || status;
+    const text = { certified: "certified", verified: "verified · undecided", rejected: "rejected" }[status] || status;
     return el("span", { class: "chip " + status }, text);
   };
+  // yes / no / maybe answer chip; `good` says which answer is the interesting one (green)
+  const ans = (a, good, title) => {
+    const v = typeof a === "string" ? a : a.value;
+    const cls = v === good ? "yes" : v === "maybe" ? "maybe" : "no";
+    return el("span", { class: "ans " + cls, title: title || (typeof a === "string" ? "" : a.rule) }, v);
+  };
+  const discovery = (by, year) => (by ? by + (year ? " (" + year + ")" : "") : (year ? String(year) : "—"));
 
   function prefillIssue(m, n) {
     const u = new URL(ISSUE_FORM);
@@ -116,6 +123,8 @@
     const data = await load("curves");
     $("#stat-curves").textContent = data.n_curves;
     $("#stat-certified").textContent = data.n_certified;
+    $("#stat-sporadic").textContent = data.n_sporadic;
+    $("#stat-isolated").textContent = data.n_isolated;
     $("#stat-verified").textContent = data.n_verified;
     $("#stat-generated").textContent = data.generated;
     const tbody = $("#curves tbody");
@@ -143,8 +152,9 @@
           el("td", { class: "num", title: c.rank.source ? "source: " + c.rank.source : "rank not recorded" }, rank),
           el("td", null, c.genus === 0 ? el("span", { class: "empty" }, "—") : degChips(c.degrees_finite, "fin")),
           el("td", null, degChips(c.degrees_infinite, "inf")),
-          el("td", { class: "num", "data-sort": c.n_certified + c.n_verified }, c.n_certified || c.n_verified
-            ? [el("b", null, c.n_certified), c.n_verified ? el("span", { class: "muted" }, " + " + c.n_verified + " open") : ""] : ""),
+          el("td", { class: "num", "data-sort": c.n_certified + c.n_verified }, c.points.length
+            ? [el("b", null, c.points.length), el("span", { class: "muted", title: "sporadic / isolated / undecided" },
+                 " (" + c.n_sporadic + " sp · " + c.n_isolated + " iso" + (c.n_verified ? " · " + c.n_verified + " ?" : "") + ")")] : ""),
           el("td", { class: "num" }, c.degrees_present.length ? c.degrees_present.join(", ") : ""));
         tbody.append(tr);
       }
@@ -221,12 +231,13 @@
         el("td", null, el("a", { href, class: "id" }, p.id)),
         el("td", { class: "num" }, p.degree),
         el("td", { class: "poly", html: math(p.field_poly) }),
-        el("td", { class: "num", "data-sort": Math.abs(parseFloat(p.field_disc)) }, p.field_disc),
-        el("td", { class: "num" }, p.j_rational ? el("span", { class: "m", title: "rational j-invariant" }, p.j_rational) : p.j_degree),
-        el("td", null, p.cm ? "CM" : "no"),
+        el("td", { class: "num", "data-sort": p.j_degree, title: "discriminant of the residue field: " + p.field_disc },
+          p.j_rational ? el("span", { class: "m" }, p.j_rational) : String(p.j_degree), p.cm ? el("span", { class: "muted" }, " CM") : ""),
         el("td", null, p.torsion_known ? torsionLabelInv(p.torsion) : "⊇ " + torsionLabel(m, n)),
-        el("td", null, chip(p.status)),
-        el("td", null, p.submitter)));
+        el("td", { "data-sort": p.sporadic }, ans(p.sporadic, "yes", p.rules.sporadic)),
+        el("td", { "data-sort": p.isolated }, ans(p.isolated, "yes", p.rules.isolated)),
+        el("td", { "data-sort": p.infinite }, ans(p.infinite, "no", p.rules.infinite_in_degree)),
+        el("td", { "data-sort": p.year || 0 }, discovery(p.discovered_by, p.year))));
     }
     makeSortable($("#points"));
   }
@@ -250,14 +261,19 @@
     $("#log-link").href = p.verification.log;
     const body = $("#body");
 
-    // status panel
-    const sp = p.sporadicity;
+    // status panel: the three questions
+    const cl = p.classification;
+    const answerRow = (label, a, good) => [
+      el("dt", null, label),
+      el("dd", null, ans(a, good, ""), " ", el("span", { html: math(a.rule) }),
+        a.sources && a.sources.length ? [" ", el("span", { class: "src" }, "(", sourceLinks(sources, a.sources), ")")] : null)];
     body.append(el("div", { class: "panel " + (p.status === "certified" ? "accepted" : "open") },
       el("h3", null, chip(p.status)),
-      el("p", { class: "wide" }, p.status === "certified"
-        ? [el("span", { html: "Sporadic: " + math(sp.rule) + ". " }), el("span", { class: "src" }, "Sources: ", sourceLinks(sources, sp.sources), ".")]
-        : ["The point has been verified (curve, torsion structure and degree), but no result recorded in the census proves that ",
-           curveLabel(p.m, p.n), " has only finitely many points of degree " + p.degree + ". ", sp.rule + "."]),
+      el("dl", { class: "facts" },
+        answerRow("sporadic", cl.sporadic, "yes"),
+        answerRow("isolated", cl.isolated, "yes"),
+        answerRow("infinitely many points of degree " + p.degree, cl.infinite_in_degree, "no"),
+        el("dt", null, "discovered by"), el("dd", null, discovery(p.discovery.by, p.discovery.year))),
       p.reference ? el("p", { class: "wide" }, el("b", null, "Reference: "), p.reference) : null,
       p.notes ? el("p", { class: "wide" }, el("b", null, "Notes: "), p.notes) : null));
 
@@ -310,6 +326,11 @@
           : p.source.kind === "import" ? [p.source.file + ", line " + p.source.line + " ", el("a", { href: p.source.url }, "(original)")] : (p.source.path || "file")),
         el("dt", null, "verified"), el("dd", null, p.dates.verified + " on " + p.verification.host),
         el("dt", null, "software"), el("dd", null, "Magma " + p.verification.magma_version + ", " + p.verification.cputime_seconds + " s CPU; verify_lib.m sha256 " + p.verification.verify_lib_sha256.slice(0, 12) + "…"),
+        el("dt", null, "isolation check"), el("dd", null, p.isolation && p.isolation.computed
+          ? ["dim L(x mod q) = " + p.isolation.l_values.join(", ") + " for q = " + p.isolation.primes.join(", ") + " on " + p.isolation.model +
+             (p.isolation.p1_isolated ? " — so dim L(x) = 1 over ℚ by upper semicontinuity: P¹-isolated" : " — P¹-isolation not established") +
+             " (" + p.isolation.cputime_seconds + " s; ", el("a", { href: p.verification.isolation_log }, "log"), ")"]
+          : "not computed" + (p.isolation && p.isolation.note ? " (" + p.isolation.note + ")" : "")),
         el("dt", null, "checks"), el("dd", null, "K is a number field of degree " + rf.degree + "; E is an elliptic curve over K; Q has exact order " + p.n +
           (p.m > 1 ? ", P has exact order " + p.m + " and ⟨P,Q⟩ ≅ " + torsionLabel(p.m, p.n) : "") +
           "; |E(K)ₜₒᵣₛ| divides " + p.torsion.order_bound + " (reductions modulo primes above " + p.torsion.bound_primes.join(", ") + ")" +

@@ -29,10 +29,19 @@
       degree recorded is the true degree even if the curve was submitted over a larger field.</dd>
     <dt>sporadic</dt>
     <dd>A closed point of degree <span class="m">d</span> is <b>sporadic</b> if <span class="m">X₁(m,n)</span> has only finitely many closed points of degree
-      <span class="m">d</span>. This is the convention of van Hoeij and of Derickx–van Hoeij. Some authors require finitely many points of degree
-      <em>at most</em> <span class="m">d</span>; since each curve page lists the degrees known to be finite, that stricter property can be read off
-      when it holds. Sporadic points are in particular <em>isolated</em> in the sense of Bourdon–Ejder–Liu–Odumodu–Viray; the converse fails, and isolated
-      points that are not sporadic are not (yet) collected here.</dd>
+      <span class="m">≤ d</span> (Bourdon–Ejder–Liu–Odumodu–Viray). Van Hoeij and Derickx–van Hoeij use the weaker "finitely many points of degree exactly
+      <span class="m">d</span>"; that property is the third column on the curve pages ("infinitely many points of degree d": no).</dd>
+    <dt>isolated</dt>
+    <dd>A closed point <span class="m">x</span> of degree <span class="m">d</span> is <b>P¹-isolated</b> if <span class="m">dim L(x) = 1</span>, i.e. it does not move in a
+      pencil of degree-<span class="m">d</span> divisors, and <b>AV-isolated</b> if no positive-rank abelian subvariety of the Jacobian moves it (automatic when
+      <span class="m">J₁(m,n)</span> has rank 0 over the base field); <b>isolated</b> means both. A point that is not isolated lies in a positive-dimensional family
+      of degree-<span class="m">d</span> points, so finitely many points of degree <span class="m">d</span> implies isolated, and sporadic implies isolated.</dd>
+    <dt>the three answers</dt>
+    <dd>For each point the census answers <em>sporadic?</em>, <em>isolated?</em> and <em>infinitely many points of degree d?</em> with
+      <span class="ans yes">yes</span>, <span class="ans no">no</span> or <span class="ans maybe">maybe</span>; "maybe" means that no recorded result and no
+      computation decides the question. A point enters the census when it is proven sporadic or isolated (status <span class="chip certified">certified</span>),
+      or when its degree is undecided (<span class="chip verified">verified · undecided</span>). A point of a degree in which the curve provably has infinitely many
+      points is accepted only if it is proven isolated.</dd>
     <dt>one entry per orbit</dt>
     <dd>Points are recorded up to the action of the diamond operators: two submissions with the same residue field (up to isomorphism) and the same
       <span class="m">j</span>-invariant on the same curve are considered the same point. Cusps and points on genus 0 curves are excluded.</dd>
@@ -42,27 +51,35 @@
   <p>Every submission is verified from scratch by <code>pipeline/magma/verify_lib.m</code> (Magma 2.29) on Mordell: the field and the curve are
     constructed, the orders of <span class="m">P</span> and <span class="m">Q</span> and the structure of <span class="m">⟨P,Q⟩</span> are checked, the torsion subgroup is
     bounded by reductions modulo several primes (and computed exactly when the bound is not sharp), and the Tate normal form of <span class="m">(E,Q)</span>
-    gives the residue field of the point and hence its degree <span class="m">d</span>. The point is then <b>certified sporadic</b> when one of the following
-    recorded facts applies to <span class="m">(m, n, d)</span>, in this order (<span class="m">d′ = d/φ(m)</span>, <span class="m">γ</span> = gonality over the base field):</p>
+    gives the residue field of the point and hence its degree <span class="m">d</span>.</p>
+  <p><b>Points of a given degree.</b> For every degree <span class="m">e</span> the census decides "finitely many / infinitely many / unknown" from recorded facts, in this
+    order (<span class="m">e′ = e/φ(m)</span>, <span class="m">γ</span> = gonality over the base field):</p>
   <ol class="steps">
-    <li><b>Known finiteness.</b> <span class="m">d ≤ 6</span> and <span class="m">(m,n) ∉ Φ^∞(d)</span>, where <span class="m">Φ^∞(d)</span> is the (completely known) set of torsion
-      groups occurring for infinitely many elliptic curves over degree-<span class="m">d</span> fields — Mazur; Kenku–Momose, Kamienny; Jeon–Kim–Schweizer;
-      Jeon–Kim–Park; Derickx–Sutherland. Since these lists are closed under subgroups, infinitely many degree-<span class="m">d</span> points on
-      <span class="m">X₁(m,n)</span> would force <span class="m">(m,n) ∈ Φ^∞(d)</span>. For <span class="m">d = 7, 8, 9</span> and <span class="m">m ≤ 2</span> the tables of
-      Derickx–van Hoeij and of the torsion_inf project are used.</li>
-    <li><b>Frey.</b> <span class="m">2d′ &lt; γ</span>: a curve with infinitely many points of degree <span class="m">≤ d′</span> has gonality
-      <span class="m">≤ 2d′</span>. Lower bounds for <span class="m">γ</span> come from Derickx–van Hoeij (exact for <span class="m">N ≤ 40</span>), the CurveArith
+    <li><b>Known finiteness.</b> <span class="m">e ≤ 6</span> and <span class="m">(m,n) ∉ Φ^∞(e)</span>, where <span class="m">Φ^∞(e)</span> is the (completely known) set of torsion
+      groups occurring for infinitely many elliptic curves over degree-<span class="m">e</span> fields — Mazur; Kenku–Momose, Kamienny; Jeon–Kim–Schweizer;
+      Jeon–Kim–Park; Derickx–Sutherland. Since these lists are closed under subgroups, infinitely many degree-<span class="m">e</span> points on
+      <span class="m">X₁(m,n)</span> would force <span class="m">(m,n) ∈ Φ^∞(e)</span>. Conversely <span class="m">(m,n) ∈ Φ^∞(e)</span> means infinitely many. For
+      <span class="m">e = 7, 8, 9</span> and <span class="m">m ≤ 2</span> the tables of Derickx–van Hoeij and of the torsion_inf project are used, and
+      <span class="m">e = γ</span> (known exactly) gives infinitely many by Hilbert irreducibility.</li>
+    <li><b>Frey.</b> <span class="m">2e′ &lt; γ</span>: a curve with infinitely many points of degree <span class="m">≤ e′</span> has gonality
+      <span class="m">≤ 2e′</span>. Lower bounds for <span class="m">γ</span> come from Derickx–van Hoeij (exact for <span class="m">N ≤ 40</span>), the CurveArith
       computations of the torsion_inf project, or Abramovich's bound <span class="m">γ ≥ (975/98304)·[PSL₂(ℤ):Γ]</span>.</li>
     <li><b>Rank zero.</b> <span class="m">J₁(m,n)</span> has rank 0 over the base field (Derickx–Sutherland, or analytic rank 0 with Kolyvagin–Logachev/Kato)
-      and <span class="m">d′ &lt; γ</span>: then the degree-<span class="m">d′</span> divisors with infinitely many rational points would form a pencil of
-      degree <span class="m">≤ d′</span>, contradicting the gonality.</li>
+      and <span class="m">e′ &lt; γ</span>: then the degree-<span class="m">e′</span> divisors with infinitely many rational points would form a pencil of
+      degree <span class="m">≤ e′</span>, contradicting the gonality.</li>
   </ol>
-  <p>Conversely a point is <b>rejected as not sporadic</b> when <span class="m">(m,n) ∈ Φ^∞(d)</span>, when the tables say so, or when <span class="m">d</span> equals a
-    known exact gonality (Hilbert irreducibility). In all other cases the point is kept as <b>verified, sporadicity open</b>: the point is genuine, but the
-    census has no recorded result about points of that degree on that curve. The certificate of each point names the rule and the sources it used.</p>
+  <p><b>Sporadic</b> is <em>yes</em> when every degree <span class="m">≤ d</span> is finite, <em>no</em> when some degree <span class="m">≤ d</span> is infinite, else <em>maybe</em>.
+    <b>Infinitely many points of degree d</b> is the answer for <span class="m">e = d</span>.</p>
+  <p><b>Isolated</b> is <em>yes</em> when degree <span class="m">d</span> is finite, or when the point is P¹-isolated and the Jacobian has rank 0 over the base field.
+    P¹-isolation is decided by <code>pipeline/magma/isolation_lib.m</code>: for a prime <span class="m">q</span> of good reduction (for the curve, the point and the
+    residue field) the point is reduced to a divisor <span class="m">D_q</span> of degree <span class="m">d</span> on Sutherland's model of <span class="m">X₁(m,n)</span> over
+    <span class="m">𝔽_q</span> (mdmagma), and <span class="m">dim L(D_q)</span> is computed; by upper semicontinuity <span class="m">dim L(x) ≤ dim L(D_q)</span>, so
+    <span class="m">dim L(D_q) = 1</span> for one such prime proves P¹-isolation. When <span class="m">dim L(D_q) ≥ 2</span> for every prime tried the point probably moves
+    in a pencil, but this is not a proof, so the answer stays <em>maybe</em> (and the point is not accepted if its degree has infinitely many points). This check is
+    implemented for <span class="m">m ≤ 2</span>; for <span class="m">m ≥ 3</span> the isolated column is <em>maybe</em> unless the degree is finite.</p>
   <p>The curated facts are in <code>pipeline/knowledge.py</code>; the tables are copied verbatim into <code>data/knowledge/sources/</code> with their provenance.
     Genus and index of every curve were computed with Magma (<code>CongruenceSubgroup([n,n,m])</code>). Nothing on this site is asserted from memory:
-    if a fact is not in a cited source or a stored computation, the corresponding degree is reported as open.</p>
+    if a fact is not in a cited source or a stored computation, the answer is "maybe".</p>
 
   <h3>Sources</h3>
   <ul class="sources" id="sources"></ul>
@@ -72,7 +89,7 @@
   <p>Submissions arrive as GitHub issues (or pull requests). A script on Mordell pulls them, runs the Magma verifier under a time and memory limit,
     writes one JSON certificate per accepted point to <code>data/points/</code> together with the Magma log in <code>data/logs/</code>, rebuilds
     <code>data/curves.json</code> and <code>data/points.json</code>, and pushes to GitHub, where this page is served. Each certificate records the Magma
-    version, the CPU time, the SHA-256 of the verification code, and a Magma snippet that reproduces the point. The whole repository, including
+    version, the CPU time, the SHA-256 of the verification code, the primes and dimensions of the isolation check, and a Magma snippet that reproduces the point. The whole repository, including
     rejected submissions with the reason, is public.</p>
 
   <h3>How to cite</h3>

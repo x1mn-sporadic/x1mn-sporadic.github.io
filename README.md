@@ -3,14 +3,17 @@
 Web site: **https://x1mn-sporadic.github.io/** (served from this repository by GitHub Pages).
 
 A *point of degree d* on the modular curve X₁(m,n) is an elliptic curve over a number field of degree d whose
-torsion subgroup contains ℤ/m ⊕ ℤ/n. The point is *sporadic* when X₁(m,n) has only finitely many points of that
-degree. This repository holds
+torsion subgroup contains ℤ/m ⊕ ℤ/n. The point is *sporadic* when X₁(m,n) has only finitely many points of
+degree ≤ d, and *isolated* when it lies in no positive-dimensional family of degree-d points
+(Bourdon–Ejder–Liu–Odumodu–Viray). For every point the census answers "sporadic?", "isolated?" and "infinitely
+many points of degree d?" with yes / no / maybe, and records who discovered it and when. This repository holds
 
 * the static web site (`index.html`, `curve.html`, `point.html`, `submit.html`, `about.html`, `assets/`);
 * the data: one certificate per accepted point in `data/points/`, its Magma log in `data/logs/`, rejected
   submissions in `data/rejected/`, the curated knowledge in `data/knowledge/`, and the generated
   `data/curves.json` / `data/points.json` the site reads;
-* the verification pipeline in `pipeline/` (Python + Magma), which runs on the Mordell workstation.
+* the verification pipeline in `pipeline/` (Python + Magma), which runs on the Mordell workstation; it needs the
+  git submodule `pipeline/external/mdmagma` (clone with `--recurse-submodules`).
 
 ## Submitting a point
 
@@ -37,9 +40,9 @@ pipeline/                see pipeline/README.md
 ## Conventions
 
 X₁(m,n), m | n, is defined over ℚ(ζ_m); n is the full cyclic order (Derickx–Sutherland's X₁(m, mn) is our
-X₁(m, mn)). Degrees are absolute degrees over ℚ. A point is recorded once per diamond orbit. The rules that
-turn "verified" into "certified sporadic", with their sources, are in `pipeline/knowledge.py` and explained on
-the [about page](https://x1mn-sporadic.github.io/about.html).
+X₁(m, mn)). Degrees are absolute degrees over ℚ. A point is recorded once per diamond orbit. The rules behind
+the three answers, with their sources, are in `pipeline/knowledge.py` and explained on the
+[about page](https://x1mn-sporadic.github.io/about.html).
 
 ## Credits
 

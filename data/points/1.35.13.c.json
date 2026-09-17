@@ -6,11 +6,46 @@
   "degree": 13,
   "relative_degree": 13,
   "base_field": "Q",
-  "status": "verified",
-  "sporadicity": {
-    "status": "open",
-    "rule": "no recorded result decides whether X_1(35) has finitely many points of degree 13",
-    "sources": []
+  "status": "certified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "maybe",
+      "rule": "no recorded result decides whether X_1(35) has finitely many points of degree 13",
+      "sources": []
+    },
+    "sporadic": {
+      "value": "no",
+      "rule": "not sporadic: X_1(35) has infinitely many points of degree 12",
+      "sources": [
+        "Hilbert"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
+      "sources": [
+        "BELOV",
+        "DS17"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": true,
+    "p1_isolated": true,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "primes": [
+      3
+    ],
+    "l_values": [
+      1
+    ],
+    "model": "mdmagma MDX1(35) (Sutherland's optimised model of X_1(35))",
+    "cputime_seconds": "4.68000",
+    "isolation_lib_sha256": "2fd2b91355fe79b6138415f8c41c9d82fe8cbb637d721d2801dac0566b1becb7"
+  },
+  "discovery": {
+    "by": "M. van Hoeij",
+    "year": 2013
   },
   "field": {
     "poly": "x^13 + x^12 - 2*x^11 - x^10 - 2*x^8 + 2*x^7 + x^6 - 2*x^5 + x^4 + 2*x^3 - 2*x^2 - 3*x - 1",
@@ -156,13 +191,14 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 09:26:26 UTC"
+    "verified": "2026-09-17 10:34:07 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.990000",
+    "cputime_seconds": "1.07000",
     "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
-    "log": "data/logs/1.35.13.c.log"
+    "log": "data/logs/1.35.13.c.log",
+    "isolation_log": "data/logs/1.35.13.c.isolation.log"
   }
 }

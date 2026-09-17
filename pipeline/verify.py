@@ -7,16 +7,21 @@ Usage
   python3 pipeline/verify.py FILE [FILE...]  # process the given submission files
   options: --timeout SECONDS (default 3600)  --mem-gb N (default 16)  --no-github
            --keep (do not move processed submissions)  --dry-run
+           --no-isolation  --isolation-timeout SECONDS (default 1800)
 
 For each submission the script
   1. validates the JSON (schema, whitelisted strings, (m,n) in the census, genus >= 1);
   2. writes a Magma job that loads pipeline/magma/verify_lib.m and runs it under `timeout`;
   3. reads the JSON that Magma wrote, canonicalises the residue field with PARI's polredabs;
-  4. classifies the sporadicity of the point with pipeline/knowledge.py (curated, cited facts);
-  5. checks for duplicates among the already accepted points;
-  6. writes data/points/<id>.json (accepted: status "certified" or "verified") or
-     data/rejected/<name>.json, keeps the Magma log under data/logs/, and
-  7. comments on / closes the GitHub issue the submission came from (unless --no-github).
+  4. runs a second Magma job (pipeline/magma/isolation_lib.m) that decides P^1-isolation of the
+     point by a Riemann-Roch computation on a model of X_1(m,n) modulo a good prime (m <= 2);
+  5. answers the three questions "infinitely many points of degree d?", "sporadic?", "isolated?"
+     with yes / no / maybe from pipeline/knowledge.py (curated, cited facts) and the isolation
+     result;
+  6. checks for duplicates among the already accepted points;
+  7. writes data/points/<id>.json (accepted: status "certified" if sporadic or isolated is yes,
+     else "verified") or data/rejected/<name>.json, keeps the Magma logs under data/logs/, and
+  8. comments on / closes the GitHub issue the submission came from (unless --no-github).
 
 Magma exits with status 0 even after an error, so success is judged from the JSON it wrote
 (`ok: true`) and the VERIFY_DONE marker in the log, never from the exit code.
@@ -41,6 +46,9 @@ from common import (DATA, LOGS, MAX_STRING, POINTS_DIR, RE_ELEMENT, RE_FIELD_POL
                     WORK, github_request, github_token, log, read_json, repo_path, write_json)
 
 VERIFY_LIB = Path(__file__).resolve().parent / "magma" / "verify_lib.m"
+ISOLATION_LIB = Path(__file__).resolve().parent / "magma" / "isolation_lib.m"
+MDMAGMA_SPEC = Path(__file__).resolve().parent / "external" / "mdmagma" / "v2" / "mdmagma.spec"
+MODELS_DIR = Path(__file__).resolve().parent / "models" / "X1_m_n"
 MAGMA = shutil.which("magma") or "/usr/local/bin/magma"
 
 
@@ -104,7 +112,8 @@ def validate(sub: dict, curves: dict) -> dict:
             out[name] = [_s(str(xy[0]), RE_ELEMENT, f"{name}.x"), _s(str(xy[1]), RE_ELEMENT, f"{name}.y")]
     if out["mode"] == "ainvs" and "Q" not in out:
         log("  note: Q not given; Magma will compute the full torsion subgroup (slow for large degree)")
-    for k in ("degree", "submitter", "github", "reference", "notes", "date", "source", "affiliation", "expected"):
+    for k in ("degree", "submitter", "github", "reference", "notes", "date", "source", "affiliation", "expected",
+              "discoverer", "year"):
         if k in sub:
             out[k] = sub[k]
     return out
@@ -152,6 +161,55 @@ def run_magma(job: Path, timeout: int) -> tuple[int, bool]:
         return -1, True
 
 
+def write_isolation_job(res: dict, jobdir: Path) -> Path:
+    rf = res["residue_field"]
+    P = rf["P"] if res["m"] > 1 else ["", ""]
+    lines = ["SetColumns(0);",
+             f"m := {res['m']}; n := {res['n']};",
+             f"fpoly := {magma_string(rf['poly'])};",
+             f"tb := {magma_string(rf['b'])}; tc := {magma_string(rf['c'])};",
+             f"Px := {magma_string(P[0])}; Py := {magma_string(P[1])};",
+             f"MdmagmaSpec := {magma_string(str(MDMAGMA_SPEC))};",
+             f"ModelsDir := {magma_string(str(MODELS_DIR))};",
+             f"LogFile := {magma_string(str(jobdir / 'isolation.log'))};",
+             f"OutFile := {magma_string(str(jobdir / 'isolation.json'))};",
+             f'load "{ISOLATION_LIB}";',
+             "quit;"]
+    job = jobdir / "isolation.m"
+    job.write_text("\n".join(lines) + "\n")
+    return job
+
+
+def run_isolation(res: dict, jobdir: Path, args) -> dict:
+    """Return the isolation record {computed, p1_isolated, l_values, primes, model, ...}."""
+    rec = {"computed": False, "p1_isolated": None, "method": "reduction modulo good primes (upper semicontinuity of h^0)"}
+    if args.no_isolation:
+        rec["note"] = "not attempted (--no-isolation)"
+        return rec
+    if res["m"] > 2:
+        rec["note"] = f"not implemented for m = {res['m']}"
+        return rec
+    if not MDMAGMA_SPEC.exists():
+        rec["note"] = "mdmagma not available (pipeline/external/mdmagma missing)"
+        return rec
+    job = write_isolation_job(res, jobdir)
+    rc, timed_out = run_magma(job, args.isolation_timeout)
+    out = jobdir / "isolation.json"
+    if timed_out or not out.exists():
+        rec["note"] = f"Magma did not finish within {args.isolation_timeout} s" if timed_out else "no result"
+        return rec
+    iso = read_json(out)
+    if not iso.get("ok"):
+        rec["note"] = iso.get("error", "failed")
+        return rec
+    rec.update({"computed": True, "p1_isolated": iso["p1_isolated"] is True, "primes": iso["primes"],
+                "l_values": iso["l_values"], "model": iso["model"], "cputime_seconds": iso["cputime"],
+                "isolation_lib_sha256": sha256_file(ISOLATION_LIB)})
+    if iso["p1_isolated"] is not True:
+        rec["note"] = "dim L(x mod q) >= 2 for every prime tried: the point probably moves in a pencil (not proven)"
+    return rec
+
+
 # --------------------------------------------------------------------------- post-processing
 
 def polredabs(poly: str) -> str | None:
@@ -196,7 +254,7 @@ def sha256_file(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def build_certificate(v: dict, res: dict, curve: dict, points, jobdir: Path) -> dict:
+def build_certificate(v: dict, res: dict, curve: dict, points, jobdir: Path, iso: dict) -> dict:
     m, n = res["m"], res["n"]
     rf = res["residue_field"]
     d = rf["degree"]
@@ -208,16 +266,15 @@ def build_certificate(v: dict, res: dict, curve: dict, points, jobdir: Path) -> 
         raise Reject(f"expected j = {exp['j']} but computed {res['curve']['j_rational']!r}")
     if exp and v.get("degree") is not None and int(v["degree"]) != d:
         raise Reject(f"expected degree {v['degree']} but the point has degree {d}")
-    cls = knowledge.classify_degree(curve, d)
+    cls = knowledge.classify_point(curve, d, iso)
     canon = polredabs(rf["poly"])
     dup = find_duplicate(m, n, canon, res["curve"]["j_minpoly"], points)
     if dup:
         raise Reject(f"duplicate of the existing point {dup} (same residue field and j-invariant)")
-    if cls["status"] == "not-sporadic":
-        raise Reject(f"the point is verified but not sporadic: {cls['rule']} (sources: {', '.join(cls['sources'])})")
-    if cls["status"] == "impossible":
-        raise Reject(cls["rule"])
-    status = "certified" if cls["status"] == "sporadic" else "verified"
+    if cls["status"] == "rejected":
+        raise Reject("the point is verified but neither sporadic nor isolated: "
+                     f"{cls['sporadic']['rule']}; {cls['isolated']['rule']}")
+    status = cls["status"]
     pid = next_id(m, n, d, points)
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     b, c = rf["b"], rf["c"]
@@ -229,7 +286,9 @@ def build_certificate(v: dict, res: dict, curve: dict, points, jobdir: Path) -> 
         "relative_degree": d // phi,
         "base_field": curve["base_field"],
         "status": status,
-        "sporadicity": cls,
+        "classification": {k: cls[k] for k in ("infinite_in_degree", "sporadic", "isolated")},
+        "isolation": iso,
+        "discovery": {"by": v.get("discoverer", ""), "year": v.get("year", "")},
         "field": {
             "poly": rf["poly"], "poly_coeffs": rf["poly_coeffs"], "polredabs": canon,
             "degree": d, "disc": rf["disc"], "disc_factored": rf["disc_factored"], "signature": rf["signature"],
@@ -267,6 +326,7 @@ def build_certificate(v: dict, res: dict, curve: dict, points, jobdir: Path) -> 
             "cputime_seconds": res["cputime"],
             "verify_lib_sha256": sha256_file(VERIFY_LIB),
             "log": f"data/logs/{pid}.log",
+            "isolation_log": f"data/logs/{pid}.isolation.log" if iso.get("computed") or "primes" in iso else "",
         },
     }
     return cert
@@ -331,20 +391,24 @@ def process(path: Path, curves: dict, args) -> str:
         mlog = (jobdir / "magma.log").read_text() if (jobdir / "magma.log").exists() else ""
         if "VERIFY_DONE" not in mlog:
             raise Reject("Magma did not reach VERIFY_DONE (see log)")
+        iso = run_isolation(res, jobdir, args)
+        log(f"  isolation: {'P1-isolated' if iso.get('p1_isolated') else iso.get('note', 'unknown')}")
         points = existing_points()
-        cert = build_certificate(v, res, curve, points, jobdir)
+        cert = build_certificate(v, res, curve, points, jobdir, iso)
         pid = cert["id"]
         write_json(POINTS_DIR / f"{pid}.json", cert)
         (DATA / "logs").mkdir(exist_ok=True)
         shutil.copy(jobdir / "magma.log", DATA / "logs" / f"{pid}.log")
-        log(f"  ACCEPTED as {pid} [{cert['status']}] degree {cert['degree']}: {cert['sporadicity']['rule']}")
-        if cert["status"] == "certified":
-            verdict = (f"**Certified sporadic**: {cert['sporadicity']['rule']} "
-                       f"(sources: {', '.join(s for s in cert['sporadicity']['sources'] if s)}).")
-        else:
-            verdict = (f"**Verified, sporadicity open**: the point is genuine, but {cert['sporadicity']['rule']}. "
-                       "It is listed with that label; if you know a reference settling this, please add a comment.")
-        body = (f"Verified on Mordell and added to the census as **{pid}** (degree {cert['degree']}).\n\n"
+        if (jobdir / "isolation.log").exists():
+            shutil.copy(jobdir / "isolation.log", DATA / "logs" / f"{pid}.isolation.log")
+        c = cert["classification"]
+        log(f"  ACCEPTED as {pid} [{cert['status']}] degree {cert['degree']}: infinite={c['infinite_in_degree']['value']} "
+            f"sporadic={c['sporadic']['value']} isolated={c['isolated']['value']}")
+        def line(name, a):
+            return f"- **{name}: {a['value']}** — {a['rule']}" + (f" ({', '.join(a['sources'])})" if a['sources'] else "")
+        verdict = "\n".join([line("infinitely many points of degree " + str(cert['degree']), c["infinite_in_degree"]),
+                             line("sporadic", c["sporadic"]), line("isolated", c["isolated"])])
+        body = (f"Verified on Mordell and added to the census as **{pid}** (degree {cert['degree']}, status {cert['status']}).\n\n"
                 f"{verdict}\n\nPage: {site_url(pid)}")
         github_feedback(v, cert["status"], body, args.no_github)
         outcome = "accepted"
@@ -375,6 +439,8 @@ def main():
     ap.add_argument("--no-github", action="store_true")
     ap.add_argument("--keep", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--no-isolation", action="store_true")
+    ap.add_argument("--isolation-timeout", type=int, default=1800)
     args = ap.parse_args()
     curves_file = DATA / "curves.json"
     if not curves_file.exists():

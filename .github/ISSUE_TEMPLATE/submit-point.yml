@@ -72,6 +72,17 @@ body:
       description: The degree [K:Q] you expect for the point (the verifier recomputes it).
       placeholder: "6"
   - type: input
+    id: discoverer
+    attributes:
+      label: Discovered by
+      description: Who found the point (as it should be credited on the site).
+      placeholder: "M. van Hoeij"
+  - type: input
+    id: year
+    attributes:
+      label: Year of discovery
+      placeholder: "2013"
+  - type: input
     id: reference
     attributes:
       label: Reference

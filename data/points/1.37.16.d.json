@@ -7,10 +7,42 @@
   "relative_degree": 16,
   "base_field": "Q",
   "status": "verified",
-  "sporadicity": {
-    "status": "open",
-    "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-    "sources": []
+  "classification": {
+    "infinite_in_degree": {
+      "value": "maybe",
+      "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+      "sources": []
+    },
+    "sporadic": {
+      "value": "maybe",
+      "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+      "sources": []
+    },
+    "isolated": {
+      "value": "maybe",
+      "rule": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided",
+      "sources": [
+        "BELOV"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": true,
+    "p1_isolated": true,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "primes": [
+      5
+    ],
+    "l_values": [
+      1
+    ],
+    "model": "mdmagma MDX1(37) (Sutherland's optimised model of X_1(37))",
+    "cputime_seconds": "15.6200",
+    "isolation_lib_sha256": "2fd2b91355fe79b6138415f8c41c9d82fe8cbb637d721d2801dac0566b1becb7"
+  },
+  "discovery": {
+    "by": "M. van Hoeij",
+    "year": 2013
   },
   "field": {
     "poly": "x^16 + 5*x^15 + 6*x^14 - 11*x^13 - 34*x^12 - 13*x^11 + 53*x^10 + 70*x^9 - 7*x^8 - 74*x^7 - 44*x^6 + 19*x^5 + 30*x^4 + 7*x^3 - 5*x^2 - 3*x + 1",
@@ -165,13 +197,14 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 09:26:36 UTC"
+    "verified": "2026-09-17 10:37:28 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.810000",
+    "cputime_seconds": "1.08000",
     "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
-    "log": "data/logs/1.37.16.d.log"
+    "log": "data/logs/1.37.16.d.log",
+    "isolation_log": "data/logs/1.37.16.d.isolation.log"
   }
 }

@@ -13,15 +13,18 @@
   <section class="hero">
     <p class="lede">Which modular curves <span class="m">X₁(m,n)</span> have points of <em>unexpectedly small degree</em>?</p>
     <p class="sub">A point of degree <span class="m">d</span> on <span class="m">X₁(m,n)</span> is an elliptic curve over a number field of degree <span class="m">d</span>
-      whose torsion subgroup contains <span class="m">ℤ/m ⊕ ℤ/n</span>. The point is <b>sporadic</b> when the curve has only finitely many points of that degree.
-      This census collects such points, re-verifies every submission with Magma, and records the theorem that makes each one sporadic.
+      whose torsion subgroup contains <span class="m">ℤ/m ⊕ ℤ/n</span>. The point is <b>sporadic</b> when the curve has only finitely many points of degree
+      <span class="m">≤ d</span>, and <b>isolated</b> when it belongs to no positive-dimensional family of degree-<span class="m">d</span> points.
+      This census collects sporadic and isolated points, re-verifies every submission with Magma, and records the result that decides each question.
       <a href="submit.html">Submit a point →</a></p>
   </section>
 
   <div class="stats">
     <span><b id="stat-curves">…</b> curves</span>
-    <span><b id="stat-certified">…</b> certified sporadic points</span>
-    <span><b id="stat-verified">…</b> verified points with sporadicity open</span>
+    <span><b id="stat-certified">…</b> certified points</span>
+    <span><b id="stat-sporadic">…</b> sporadic</span>
+    <span><b id="stat-isolated">…</b> isolated</span>
+    <span><b id="stat-verified">…</b> undecided</span>
     <span id="pending"></span>
     <span class="muted">data built <span id="stat-generated">…</span></span>
   </div>
@@ -44,7 +47,7 @@
           <th class="num" title="rank of J₁(m,n) over the base field; in parentheses: analytic rank when the Mordell–Weil rank is not recorded">rk J₁</th>
           <th title="degrees with only finitely many points (a sporadic point can only have one of these degrees or an undecided one)">finite in degree</th>
           <th title="degrees with infinitely many points">infinite in degree</th>
-          <th class="num" title="certified sporadic points (+ verified points whose sporadicity is open)">points</th>
+          <th class="num" title="points in the census (sporadic · isolated · undecided)">points</th>
           <th class="num" title="degrees of the recorded points">in degrees</th>
         </tr>
       </thead>

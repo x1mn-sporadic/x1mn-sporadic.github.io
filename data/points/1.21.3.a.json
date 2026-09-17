@@ -7,12 +7,49 @@
   "relative_degree": 3,
   "base_field": "Q",
   "status": "certified",
-  "sporadicity": {
-    "status": "sporadic",
-    "rule": "X_1(21) has only finitely many points of degree 3",
-    "sources": [
-      "JKS04"
-    ]
+  "classification": {
+    "infinite_in_degree": {
+      "value": "no",
+      "rule": "X_1(21) has only finitely many points of degree 3",
+      "sources": [
+        "JKS04"
+      ]
+    },
+    "sporadic": {
+      "value": "yes",
+      "rule": "finitely many points of each degree <= 3 on X_1(21)",
+      "sources": [
+        "JKS04",
+        "KKM",
+        "Mazur77"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "finitely many points of degree 3 on X_1(21), so the point lies in no positive-dimensional family",
+      "sources": [
+        "JKS04",
+        "BELOV"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": true,
+    "p1_isolated": true,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "primes": [
+      5
+    ],
+    "l_values": [
+      1
+    ],
+    "model": "mdmagma MDX1(21) (Sutherland's optimised model of X_1(21))",
+    "cputime_seconds": "0.0600000",
+    "isolation_lib_sha256": "2fd2b91355fe79b6138415f8c41c9d82fe8cbb637d721d2801dac0566b1becb7"
+  },
+  "discovery": {
+    "by": "F. Najman",
+    "year": 2012
   },
   "field": {
     "poly": "x^3 - 3*x^2 + 3",
@@ -128,13 +165,14 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 09:26:14 UTC"
+    "verified": "2026-09-17 10:31:43 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.0500000",
+    "cputime_seconds": "0.0600000",
     "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
-    "log": "data/logs/1.21.3.a.log"
+    "log": "data/logs/1.21.3.a.log",
+    "isolation_log": "data/logs/1.21.3.a.isolation.log"
   }
 }

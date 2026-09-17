@@ -11,9 +11,8 @@
 <main>
   <h2>Submit a point</h2>
   <p>Found an elliptic curve with a point of order <span class="m">n</span> (and full <span class="m">m</span>-torsion) over a number field of
-    unusually small degree? Submit it here. Every submission is re-verified with Magma on the Mordell workstation, and if the
-    point is genuine — and a recorded theorem shows that <span class="m">X₁(m,n)</span> has only finitely many points of its degree —
-    it is added to the census as a certified sporadic point, with the verification log.</p>
+    unusually small degree? Submit it here. Every submission is re-verified with Magma on the Mordell workstation; if the point is genuine
+    and a recorded theorem or a Riemann–Roch computation shows that it is sporadic or isolated, it is added to the census with its certificate and logs.</p>
 
   <h3>1. Fill in the form</h3>
   <p>Submissions are GitHub issues created from a form (a free GitHub account is all you need):</p>
@@ -32,7 +31,7 @@
     <li><b>van Hoeij's format</b>: <code>eqx</code> (the field polynomial) and <code>eqxy</code>, as in his
       <a href="https://www.math.fsu.edu/~hoeij/files/X1N/LowDegreePlaces">LowDegreePlaces</a> file (<span class="m">m = 1</span> only).</li>
   </ul>
-  <p>Please add a reference (paper, arXiv number, or "new") so that the point can be credited properly.</p>
+  <p>Please say who discovered the point and when (these are shown in the tables), and add a reference (paper, arXiv number, or "new").</p>
 
   <h3>2. What happens next</h3>
   <ol class="steps">
@@ -42,12 +41,13 @@
       <span class="m">⟨P,Q⟩ ≅ ℤ/m ⊕ ℤ/n</span>, bounds the torsion subgroup by reductions, computes the Tate normal form of
       <span class="m">(E, Q)</span>, and determines the residue field <span class="m">ℚ(b, c, x(P), y(P))</span> of the point on
       <span class="m">X₁(m,n)</span> — its degree is the degree of the point, whatever field the curve was submitted over.</li>
-    <li>The degree is compared with the curated table of what is known about <span class="m">X₁(m,n)</span> (gonality, rank of the Jacobian,
-      the sets <span class="m">Φ^∞(d)</span>, Frey's theorem; see <a href="about.html">about</a>). The outcome is one of:
-      <span class="chip certified">certified sporadic</span> — a cited result proves that the curve has finitely many points of this degree;
-      <span class="chip verified">verified · sporadicity open</span> — the point is genuine but no recorded result settles finiteness (it is still
-      listed, with this label); <span class="chip rejected">rejected</span> — the data do not define such a point, the point is a duplicate, or
-      the curve is known to have infinitely many points of this degree.</li>
+    <li>A second Magma job decides whether the point is P¹-isolated (a Riemann–Roch computation on a model of the curve modulo a good prime;
+      <span class="m">m ≤ 2</span>), and the three questions — sporadic? isolated? infinitely many points of this degree? — are answered
+      <span class="ans yes">yes</span> / <span class="ans no">no</span> / <span class="ans maybe">maybe</span> from the curated table of what is known about
+      <span class="m">X₁(m,n)</span> (gonality, rank of the Jacobian, the sets <span class="m">Φ^∞(d)</span>, Frey's theorem; see <a href="about.html">about</a>).
+      The outcome is <span class="chip certified">certified</span> (sporadic or isolated proven), <span class="chip verified">verified · undecided</span>
+      (genuine point, degree undecided; listed with that label), or <span class="chip rejected">rejected</span> (the data do not define such a point, it is a
+      duplicate, or it lies in a degree with infinitely many points without being proven isolated).</li>
     <li>The result is posted as a comment on the issue, the issue is closed, and accepted points appear on this site with their
       certificate and Magma log. If a submission is rejected because of a data problem, just fix it and submit again.</li>
   </ol>
@@ -63,6 +63,7 @@
   "points": {"P": ["0", "0"], "Q": ["a", "2*a - 1"]},
   "degree": 5,
   "submitter": "Your Name", "affiliation": "Your institution", "github": "your-handle",
+  "discoverer": "J. Doe", "year": 2026,
   "reference": "arXiv:XXXX.XXXXX, Theorem 3",
   "notes": "anything the curators should know"
 }</code></pre>

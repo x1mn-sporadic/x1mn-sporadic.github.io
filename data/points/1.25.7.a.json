@@ -7,12 +7,47 @@
   "relative_degree": 7,
   "base_field": "Q",
   "status": "certified",
-  "sporadicity": {
-    "status": "sporadic",
-    "rule": "X_1(25) has only finitely many points of degree 7",
-    "sources": [
-      "torsion_inf"
-    ]
+  "classification": {
+    "infinite_in_degree": {
+      "value": "no",
+      "rule": "X_1(25) has only finitely many points of degree 7",
+      "sources": [
+        "torsion_inf"
+      ]
+    },
+    "sporadic": {
+      "value": "no",
+      "rule": "not sporadic: X_1(25) has infinitely many points of degree 5",
+      "sources": [
+        "DS17"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "finitely many points of degree 7 on X_1(25), so the point lies in no positive-dimensional family",
+      "sources": [
+        "torsion_inf",
+        "BELOV"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": true,
+    "p1_isolated": true,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "primes": [
+      3
+    ],
+    "l_values": [
+      1
+    ],
+    "model": "mdmagma MDX1(25) (Sutherland's optimised model of X_1(25))",
+    "cputime_seconds": "0.350000",
+    "isolation_lib_sha256": "2fd2b91355fe79b6138415f8c41c9d82fe8cbb637d721d2801dac0566b1becb7"
+  },
+  "discovery": {
+    "by": "M. van Hoeij",
+    "year": 2013
   },
   "field": {
     "poly": "x^7 + x^6 - x^5 - x^4 + x^2 + x - 1",
@@ -140,13 +175,14 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-17 09:26:15 UTC"
+    "verified": "2026-09-17 10:31:44 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "0.0600000",
+    "cputime_seconds": "0.0900000",
     "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
-    "log": "data/logs/1.25.7.a.log"
+    "log": "data/logs/1.25.7.a.log",
+    "isolation_log": "data/logs/1.25.7.a.isolation.log"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 09:27 UTC",
+  "generated": "2026-09-17 11:10 UTC",
   "sources": {
     "Mazur77": {
       "cite": "B. Mazur, Modular curves and the Eisenstein ideal, Publ. Math. IHES 47 (1977), 33-186; Rational isogenies of prime degree, Invent. Math. 44 (1978), 129-162.",
@@ -55,6 +55,10 @@
     "RankZeroLemma": {
       "cite": "Standard: if J(F) is finite and X has no F-rational map to P^1 of degree <= d, then X has finitely many closed points of degree <= d over F (the fibres of Sym^d X -> Pic^d X over the finitely many F-points are projective spaces, and a positive-dimensional fibre is a base-point-free pencil of degree <= d).  See e.g. Derickx-Sutherland arXiv:1608.07549, proof of Lemma 4.3 / Corollary 4.2.",
       "used_for": "rank 0 and d < gon_F  =>  finitely many points of degree d"
+    },
+    "BELOV": {
+      "cite": "A. Bourdon, O. Ejder, Y. Liu, F. Odumodu, B. Viray, On the level of modular curves that give rise to isolated j-invariants, Adv. Math. 357 (2019), arXiv:1811.04425.",
+      "used_for": "definitions of sporadic (finitely many points of degree <= d) and isolated (P^1- and AV-isolated); a point in a positive-dimensional family of degree-d points gives infinitely many degree-d points"
     },
     "Hilbert": {
       "cite": "Hilbert irreducibility: a map X -> P^1 of degree e defined over F has infinitely many fibres that are irreducible closed points of degree e over F.",

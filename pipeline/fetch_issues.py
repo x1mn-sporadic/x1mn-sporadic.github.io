@@ -24,6 +24,7 @@ LABELS = {
     "m": "m", "n": "n", "number field": "field", "a-invariants": "ainvs", "tate normal form (b, c)": "tate",
     "van hoeij format (eqxy)": "eqxy", "point q of order n": "Q", "point p of order m (only if m > 1)": "P",
     "degree of the point": "degree", "reference": "reference", "your name and affiliation": "name", "notes": "notes",
+    "discovered by": "discoverer", "year of discovery": "year",
 }
 DONE_LABELS = {"certified", "verified", "rejected"}
 
@@ -72,6 +73,8 @@ def to_submission(issue: dict) -> dict:
     sub["affiliation"] = ",".join(name.split(",")[1:]).strip() if "," in name else ""
     sub["github"] = issue["user"]["login"] if issue.get("user") else ""
     sub["reference"] = f.get("reference", "").strip()
+    sub["discoverer"] = f.get("discoverer", "").strip()
+    sub["year"] = int(f["year"].strip()) if f.get("year", "").strip().isdigit() else f.get("year", "").strip()
     sub["notes"] = f.get("notes", "").strip()
     sub["date"] = (issue.get("created_at") or "")[:10]
     sub["source"] = {"kind": "issue", "number": issue["number"], "url": issue.get("html_url", "")}

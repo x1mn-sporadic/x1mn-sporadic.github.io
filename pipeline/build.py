@@ -117,10 +117,14 @@ def curve_record(m, n, magma_rec, table_row):
 
 
 def point_summary(p):
+    c = p["classification"]
     return {"id": p["id"], "degree": p["degree"], "status": p["status"], "j_degree": p["curve"]["j_degree"],
             "cm": p["curve"]["cm"], "field_poly": p["field"]["poly"], "field_disc": p["field"]["disc"],
             "j_rational": p["curve"]["j_rational"], "torsion": p["torsion"]["invariants"],
             "torsion_known": p["torsion"]["known_exactly"],
+            "infinite": c["infinite_in_degree"]["value"], "sporadic": c["sporadic"]["value"], "isolated": c["isolated"]["value"],
+            "rules": {k: c[k]["rule"] for k in ("infinite_in_degree", "sporadic", "isolated")},
+            "discovered_by": p["discovery"]["by"], "year": p["discovery"]["year"],
             "submitter": p["submitter"]["name"], "reference": p["reference"], "verified": p["dates"]["verified"]}
 
 
@@ -137,6 +141,8 @@ def build():
         c["points"] = [point_summary(p) for p in mine]
         c["n_certified"] = sum(1 for p in mine if p["status"] == "certified")
         c["n_verified"] = sum(1 for p in mine if p["status"] == "verified")
+        c["n_sporadic"] = sum(1 for p in mine if p["classification"]["sporadic"]["value"] == "yes")
+        c["n_isolated"] = sum(1 for p in mine if p["classification"]["isolated"]["value"] == "yes")
         c["degrees_present"] = sorted({p["degree"] for p in mine})
         curves.append(c)
     curves.sort(key=lambda c: (c["m"], c["n"]))
@@ -147,13 +153,17 @@ def build():
         "conventions": {
             "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
             "degree": "absolute degree [Q(x):Q] of the closed point x; relative degree = degree / phi(m)",
-            "sporadic": "a closed point of degree d is sporadic if the curve has only finitely many closed points of degree d",
+            "sporadic": "a closed point of degree d is sporadic if the curve has only finitely many closed points of degree <= d",
+            "isolated": "P^1-isolated (dim L(x) = 1) and AV-isolated (Bourdon-Ejder-Liu-Odumodu-Viray); finitely many points of degree d implies isolated",
+            "answers": "each of 'infinitely many points of degree d', 'sporadic', 'isolated' is yes, no or maybe",
             "gonality": "Q-gonality for m <= 2 (torsion_inf tables); for m >= 3 only Abramovich's geometric lower bound",
         },
         "n_curves": len(curves),
         "n_points": len(points),
         "n_certified": sum(1 for p in points if p["status"] == "certified"),
         "n_verified": sum(1 for p in points if p["status"] == "verified"),
+        "n_sporadic": sum(1 for p in points if p["classification"]["sporadic"]["value"] == "yes"),
+        "n_isolated": sum(1 for p in points if p["classification"]["isolated"]["value"] == "yes"),
         "n_rejected": len(list(REJECTED_DIR.glob("*.json"))),
         "curves": curves,
     }

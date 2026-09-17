@@ -1,0 +1,3 @@
+[submodule "pipeline/external/mdmagma"]
+	path = pipeline/external/mdmagma
+	url = https://github.com/koffie/mdmagma.git

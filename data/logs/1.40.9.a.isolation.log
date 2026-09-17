@@ -1,0 +1,4 @@
+[0.0100000 s] point: X_1(1,40), residue field degree 9
+[12.4300 s] q = 3: no point of the model with these (b, c) values (pole of a coordinate?), skipped
+[33.7600 s] q = 7: D_q = 2 places of degrees [ 3, 6 ], dim L(D_q) = 1 (33.7600 s)
+[33.7600 s] ISOLATION_DONE

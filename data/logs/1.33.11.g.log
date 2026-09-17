@@ -8,8 +8,8 @@
 0
 ]
 [0.000000 s] orders verified: ord P = 1, ord Q = 33, <P,Q> = Z/1 x Z/33
-[0.0200000 s] torsion bound from reductions: |E(K)_tors| divides 33 (primes [ 29 ])
-[0.0200000 s] Tate normal form done; residue field of the point has degree 11 (K has degree 11)
-[0.0400000 s] j: degree 11, CM false 0
-[0.220000 s] conductor norm 6432
-[0.220000 s] VERIFY_DONE
+[0.0300000 s] torsion bound from reductions: |E(K)_tors| divides 33 (primes [ 29 ])
+[0.0300000 s] Tate normal form done; residue field of the point has degree 11 (K has degree 11)
+[0.0500000 s] j: degree 11, CM false 0
+[0.230000 s] conductor norm 6432
+[0.230000 s] VERIFY_DONE

@@ -1,0 +1,4 @@
+[0.000000 s] point: X_1(1,40), residue field degree 11
+[0.0200000 s] q = 3: bad reduction, skipped
+[20.4000 s] q = 7: D_q = 2 places of degrees [ 4, 7 ], dim L(D_q) = 1 (20.4000 s)
+[20.4100 s] ISOLATION_DONE

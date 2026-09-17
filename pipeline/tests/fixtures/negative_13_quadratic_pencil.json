@@ -1,0 +1,11 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 1, "n": 13,
+  "field": "x^2 - 3*x - 2",
+  "curve": {"tate": {"b": "(-51*a + 130)/512", "c": "(-5*a + 14)/32"}},
+  "degree": 2,
+  "submitter": "test",
+  "reference": "negative control: a fibre of the hyperelliptic map of X1(13) (l(x) = 2); X1(13) has infinitely many quadratic points, so this must be rejected",
+  "notes": "negative test fixture",
+  "source": {"kind": "file", "path": "pipeline/tests/fixtures/negative_13_quadratic_pencil.json"}
+}
