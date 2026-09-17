@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 13:42 UTC",
+  "generated": "2026-09-17 20:25 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -419,7 +419,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -502,7 +502,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -548,7 +548,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -594,7 +594,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -640,7 +640,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -684,7 +684,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -732,7 +732,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -775,7 +775,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -823,7 +823,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -868,7 +868,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -944,7 +944,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -974,8 +974,8 @@
         "lb": 7,
         "ub": 7,
         "exact": true,
-        "ub_source": "DvH14",
         "lb_source": "DvH14",
+        "ub_source": "DvH14",
         "source": "DvH14"
       },
       "rank": {
@@ -987,7 +987,7 @@
       "degrees_infinite": {
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1036,7 +1036,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1079,7 +1079,7 @@
       "degrees_infinite": {
         "5": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1184,7 +1184,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1230,7 +1230,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1276,7 +1276,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1360,7 +1360,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma"
       },
       "table_note": "",
@@ -1485,7 +1485,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1596,7 +1596,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -1763,8 +1763,8 @@
         "lb": 8,
         "ub": 8,
         "exact": true,
-        "ub_source": "DvH14",
         "lb_source": "DvH14",
+        "ub_source": "DvH14",
         "source": "DvH14"
       },
       "rank": {
@@ -1784,7 +1784,7 @@
         "5": "DvH14",
         "6": "DvH14",
         "7": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "we used a special computation to show that degree 9 functions don't exist",
       "in_tables": true,
@@ -2050,7 +2050,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "",
       "in_tables": true,
@@ -2427,7 +2427,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "",
       "in_tables": true,
@@ -2667,7 +2667,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -2916,8 +2916,8 @@
         "lb": 8,
         "ub": 8,
         "exact": true,
-        "ub_source": "DvH14",
         "lb_source": "DvH14",
+        "ub_source": "DvH14",
         "source": "DvH14"
       },
       "rank": {
@@ -2928,7 +2928,7 @@
       },
       "degrees_infinite": {
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -3040,7 +3040,8 @@
         "5": "DvH14",
         "6": "DvH14",
         "7": "DvH14",
-        "8": "DvH14"
+        "8": "DvH14",
+        "9": "NV26"
       },
       "table_note": "",
       "in_tables": true,
@@ -3090,7 +3091,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 10",
-            "sporadic": "finitely many points of degree 9, 10 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3117,7 +3118,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 12",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3144,7 +3145,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 12",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3171,7 +3172,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 12",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3198,7 +3199,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 13",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3225,7 +3226,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 14",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3252,7 +3253,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 15",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3279,7 +3280,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 15",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3306,7 +3307,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 15",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3333,7 +3334,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3360,7 +3361,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3387,7 +3388,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3414,7 +3415,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3441,7 +3442,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3468,7 +3469,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3495,7 +3496,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3522,7 +3523,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3549,7 +3550,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3576,7 +3577,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3603,7 +3604,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3630,7 +3631,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3657,7 +3658,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3684,7 +3685,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3711,7 +3712,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3738,7 +3739,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3765,7 +3766,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3792,7 +3793,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3819,7 +3820,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3846,7 +3847,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3873,7 +3874,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3900,7 +3901,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3927,7 +3928,7 @@
           "isolated": "maybe",
           "rules": {
             "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
-            "sporadic": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+            "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
             "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
           },
           "discovered_by": "M. van Hoeij",
@@ -3988,7 +3989,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -4121,7 +4122,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -4692,7 +4693,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -5645,8 +5646,8 @@
         "ub": 22,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "lb_source": "NV26",
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -5664,7 +5665,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5690,8 +5691,8 @@
         "ub": 12,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "lb_source": "NV26",
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -5709,7 +5710,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5754,7 +5755,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "cover search",
       "in_tables": true,
@@ -5780,8 +5781,8 @@
         "ub": 15,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "lb_source": "NV26",
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -5799,7 +5800,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5825,8 +5826,8 @@
         "ub": 18,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "lb_source": "NV26",
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -5844,7 +5845,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5870,8 +5871,8 @@
         "ub": 19,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "lb_source": "NV26",
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -5889,7 +5890,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5934,7 +5935,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma"
       },
       "table_note": "abramovich",
@@ -5961,8 +5962,8 @@
         "ub": 16,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "lb_source": "NV26",
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -5980,7 +5981,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -6025,7 +6026,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -6053,8 +6054,8 @@
         "ub": 15,
         "exact": false,
         "ub_source": "DvH14",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "lb_source": "NV26",
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -6072,7 +6073,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -6117,7 +6118,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -6164,7 +6165,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -6209,7 +6210,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "cover search",
       "in_tables": true,
@@ -6254,7 +6255,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -6299,7 +6300,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -6347,7 +6348,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -6394,7 +6395,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "cover search",
       "in_tables": true,
@@ -6439,7 +6440,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "abramovich - we know that X1(58) has finitely many points of degree <= 10 because of X1(58)->X1(29)",
       "in_tables": true,
@@ -6484,7 +6485,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -6532,7 +6533,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -6579,7 +6580,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -6624,7 +6625,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -6672,7 +6673,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026"
+        "9": "NV26"
       },
       "table_note": "abramovich - X1(63)->63.576.25.g.4 is a map to a curve where the latter has finitely many points of degree <= 11",
       "in_tables": true,
@@ -6717,7 +6718,7 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "Najman2026",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -6761,9 +6762,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94"
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26"
       },
       "table_note": "",
       "in_tables": false,
@@ -6804,9 +6805,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "RankZeroLemma",
-        "9": "RankZeroLemma",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -6850,9 +6851,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94"
       },
@@ -6895,8 +6896,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94"
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26"
       },
       "table_note": "",
       "in_tables": false,
@@ -6937,9 +6939,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94"
       },
       "table_note": "",
@@ -6981,8 +6983,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94"
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26"
       },
       "table_note": "",
       "in_tables": false,
@@ -7023,9 +7026,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7069,8 +7072,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94"
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26"
       },
       "table_note": "",
       "in_tables": false,
@@ -7111,9 +7115,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7157,9 +7161,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94"
       },
       "table_note": "",
@@ -7201,9 +7205,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94"
       },
@@ -7246,9 +7250,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94"
       },
       "table_note": "",
@@ -7290,9 +7294,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7336,9 +7340,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94"
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26"
       },
       "table_note": "",
       "in_tables": false,
@@ -7379,9 +7383,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7425,9 +7429,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94"
       },
@@ -7470,9 +7474,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7516,9 +7520,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7562,9 +7566,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7608,9 +7612,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94"
       },
@@ -7653,9 +7657,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7699,9 +7703,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7745,9 +7749,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7791,9 +7795,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7837,9 +7841,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7883,9 +7887,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7929,9 +7933,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -7975,9 +7979,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -8021,9 +8025,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -8067,9 +8071,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -8113,9 +8117,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -8159,9 +8163,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -8205,9 +8209,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -8251,9 +8255,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -8297,9 +8301,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -8343,9 +8347,9 @@
         "4": "JKP06",
         "5": "DvH14",
         "6": "DvH14",
-        "7": "Frey94",
-        "8": "Frey94",
-        "9": "Frey94",
+        "7": "DvH14",
+        "8": "DvH14",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -8538,8 +8542,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -8584,8 +8588,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -8629,8 +8633,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8674,8 +8678,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8719,8 +8723,8 @@
         "4": "JKP06",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8795,8 +8799,8 @@
       "degrees_infinite": {
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8828,9 +8832,9 @@
         "lb": 8,
         "ub": 8,
         "exact": true,
-        "ub_source": "Najman2026",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "lb_source": "NV26",
+        "ub_source": "NV26",
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -8839,8 +8843,8 @@
         "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8849,7 +8853,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "Najman2026"
+        "7": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -8874,9 +8878,9 @@
         "lb": 8,
         "ub": 8,
         "exact": true,
-        "ub_source": "Najman2026",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "lb_source": "NV26",
+        "ub_source": "NV26",
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -8885,8 +8889,8 @@
         "analytic_rank_source": "Najman2026"
       },
       "degrees_infinite": {
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -8895,7 +8899,7 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "Najman2026"
+        "7": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -8951,8 +8955,8 @@
         "lb": 12,
         "ub": 12,
         "exact": true,
+        "lb_source": "NV26",
         "ub_source": "Najman2026",
-        "lb_source": "Najman2026",
         "source": "Najman2026"
       },
       "rank": {
@@ -8971,9 +8975,9 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "Najman2026",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "7": "NV26",
+        "8": "NV26",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -9000,8 +9004,8 @@
         "lb": 12,
         "ub": 12,
         "exact": true,
+        "lb_source": "NV26",
         "ub_source": "Najman2026",
-        "lb_source": "Najman2026",
         "source": "Najman2026"
       },
       "rank": {
@@ -9020,9 +9024,9 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "Najman2026",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "7": "NV26",
+        "8": "NV26",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -9049,9 +9053,9 @@
         "lb": 10,
         "ub": 12,
         "exact": false,
+        "lb_source": "NV26",
         "ub_source": "Najman2026",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -9067,9 +9071,9 @@
         "4": "JKP06",
         "5": "DS17",
         "6": "DS17",
-        "7": "Najman2026",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "7": "NV26",
+        "8": "NV26",
+        "9": "NV26"
       },
       "table_note": "DT - todo probaj gon=12",
       "in_tables": true,
@@ -9094,9 +9098,9 @@
         "lb": 10,
         "ub": 16,
         "exact": false,
+        "lb_source": "NV26",
         "ub_source": "Najman2026",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -9113,8 +9117,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -9139,9 +9143,9 @@
         "lb": 10,
         "ub": 20,
         "exact": false,
+        "lb_source": "NV26",
         "ub_source": "Najman2026",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -9158,8 +9162,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -9184,9 +9188,9 @@
         "lb": 10,
         "ub": 16,
         "exact": false,
+        "lb_source": "NV26",
         "ub_source": "Najman2026",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "source": "NV26"
       },
       "rank": {
         "value": 0,
@@ -9203,8 +9207,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -9229,8 +9233,8 @@
         "lb": 11,
         "ub": 24,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9248,8 +9252,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "8": "NV26",
+        "9": "NV26",
         "10": "RankZeroLemma"
       },
       "table_note": "abramovich",
@@ -9275,8 +9279,8 @@
         "lb": 12,
         "ub": 24,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9294,8 +9298,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "8": "NV26",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -9322,8 +9326,8 @@
         "lb": 12,
         "ub": 24,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9341,8 +9345,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "8": "NV26",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma"
       },
@@ -9369,8 +9373,8 @@
         "lb": 15,
         "ub": 30,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9388,8 +9392,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "table_note": "abramovich - X1(44) has finitely many deg <= 9 points",
       "in_tables": true,
@@ -9414,8 +9418,8 @@
         "lb": 16,
         "ub": 38,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9433,8 +9437,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026"
+        "8": "NV26",
+        "9": "NV26"
       },
       "table_note": "abramovich - X1(46) has finitely many degree <=9 points",
       "in_tables": true,
@@ -9459,8 +9463,8 @@
         "lb": 16,
         "ub": 32,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9478,8 +9482,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "8": "NV26",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -9507,8 +9511,8 @@
         "lb": 18,
         "ub": 30,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9526,8 +9530,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "8": "NV26",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -9555,8 +9559,8 @@
         "lb": 20,
         "ub": 42,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9574,8 +9578,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "8": "NV26",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -9603,8 +9607,8 @@
         "lb": 20,
         "ub": 36,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9622,8 +9626,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "8": "NV26",
+        "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
@@ -9651,8 +9655,8 @@
         "lb": 23,
         "ub": 48,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9670,8 +9674,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "8": "NV26",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94"
       },
@@ -9698,8 +9702,8 @@
         "lb": 25,
         "ub": 62,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9717,8 +9721,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "8": "NV26",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "Frey94"
@@ -9746,8 +9750,8 @@
         "lb": 23,
         "ub": 48,
         "exact": false,
-        "ub_source": "Najman2026",
         "lb_source": "Abramovich96",
+        "ub_source": "Najman2026",
         "source": "Abramovich96"
       },
       "rank": {
@@ -9765,8 +9769,8 @@
         "5": "DS17",
         "6": "DS17",
         "7": "DS17",
-        "8": "Najman2026",
-        "9": "Najman2026",
+        "8": "NV26",
+        "9": "NV26",
         "10": "Frey94",
         "11": "Frey94",
         "12": "RankZeroLemma"
@@ -9874,7 +9878,8 @@
       },
       "degrees_infinite": {
         "4": "JKP06",
-        "6": "DS17"
+        "6": "DS17",
+        "8": "NV26"
       },
       "degrees_finite": {
         "2": "KKM"
@@ -9911,7 +9916,8 @@
         "source": "DS17"
       },
       "degrees_infinite": {
-        "6": "DS17"
+        "6": "DS17",
+        "8": "NV26"
       },
       "degrees_finite": {
         "2": "KKM",
@@ -9996,11 +10002,11 @@
       "index": 288,
       "abramovich_bound": 2.856,
       "gonality": {
-        "lb": 3,
+        "lb": 6,
         "ub": null,
-        "source": "Abramovich96",
+        "source": "NV26",
         "exact": false,
-        "lb_source": "Abramovich96",
+        "lb_source": "NV26",
         "ub_source": null
       },
       "rank": {
@@ -10011,7 +10017,9 @@
       "degrees_finite": {
         "2": "KKM",
         "4": "JKP06",
-        "6": "DS17"
+        "6": "DS17",
+        "8": "NV26",
+        "10": "RankZeroLemma"
       },
       "table_note": "",
       "in_tables": false,
@@ -10033,11 +10041,11 @@
       "index": 324,
       "abramovich_bound": 3.214,
       "gonality": {
-        "lb": 4,
+        "lb": 6,
         "ub": null,
-        "source": "Abramovich96",
+        "source": "NV26",
         "exact": false,
-        "lb_source": "Abramovich96",
+        "lb_source": "NV26",
         "ub_source": null
       },
       "rank": {
@@ -10048,7 +10056,9 @@
       "degrees_finite": {
         "2": "KKM",
         "4": "JKP06",
-        "6": "DS17"
+        "6": "DS17",
+        "8": "NV26",
+        "10": "RankZeroLemma"
       },
       "table_note": "",
       "in_tables": false,
@@ -10086,7 +10096,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "RankZeroLemma",
+        "8": "NV26",
         "10": "RankZeroLemma"
       },
       "table_note": "",
@@ -10125,7 +10135,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "RankZeroLemma",
+        "8": "NV26",
         "10": "RankZeroLemma"
       },
       "table_note": "",
@@ -10164,7 +10174,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "Frey94",
+        "8": "NV26",
         "10": "RankZeroLemma",
         "12": "RankZeroLemma"
       },
@@ -10204,7 +10214,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "Frey94",
+        "8": "NV26",
         "10": "RankZeroLemma",
         "12": "RankZeroLemma"
       },
@@ -10244,7 +10254,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "Frey94",
+        "8": "NV26",
         "10": "Frey94",
         "12": "Frey94"
       },
@@ -10284,7 +10294,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "Frey94",
+        "8": "NV26",
         "10": "Frey94",
         "12": "Frey94"
       },
@@ -10324,7 +10334,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "Frey94",
+        "8": "NV26",
         "10": "Frey94",
         "12": "Frey94"
       },
@@ -10396,7 +10406,8 @@
       },
       "degrees_infinite": {
         "4": "JKP06",
-        "6": "DS17"
+        "6": "DS17",
+        "8": "NV26"
       },
       "degrees_finite": {
         "2": "KKM"
@@ -10432,7 +10443,9 @@
         "value": 0,
         "source": "DS17"
       },
-      "degrees_infinite": {},
+      "degrees_infinite": {
+        "8": "NV26"
+      },
       "degrees_finite": {
         "2": "KKM",
         "4": "JKP06",
@@ -10466,7 +10479,7 @@
           "discovered_by": "E. González-Jiménez, F. Najman",
           "year": 2018,
           "submitter": "Filip Najman",
-          "reference": "E. González-Jiménez, F. Najman, An algorithm for determining torsion growth of elliptic curves, Exp. Math. (2020), arXiv:1809.02580; see also Remark 1 of H. B. Daniels, E. González-Jiménez, arXiv:1808.02887. The curve is 162d1 over K = Q(alpha, i), alpha^3 - 3 alpha - 4 = 0.",
+          "reference": "E. González-Jiménez, F. Najman, An algorithm for determining torsion growth of elliptic curves, Exp. Math. 32 (2023), no. 1, 70-81, arXiv:1904.07071; the result is stated in Remark 1 of H. B. Daniels, E. González-Jiménez, Serre's constant of elliptic curves over the rationals, arXiv:1808.02887 (2018). The curve is 162d1 over K = Q(alpha, i), alpha^3 - 3 alpha - 4 = 0.",
           "verified": "2026-09-17 13:30:27 UTC"
         }
       ],
@@ -10489,11 +10502,11 @@
       "index": 384,
       "abramovich_bound": 3.809,
       "gonality": {
-        "lb": 4,
+        "lb": 8,
         "ub": null,
-        "source": "Abramovich96",
+        "source": "NV26",
         "exact": false,
-        "lb_source": "Abramovich96",
+        "lb_source": "NV26",
         "ub_source": null
       },
       "rank": {
@@ -10504,7 +10517,10 @@
       "degrees_finite": {
         "2": "KKM",
         "4": "JKP06",
-        "6": "DS17"
+        "6": "DS17",
+        "8": "NV26",
+        "10": "RankZeroLemma",
+        "12": "RankZeroLemma"
       },
       "table_note": "",
       "in_tables": false,
@@ -10542,7 +10558,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "RankZeroLemma",
+        "8": "NV26",
         "10": "RankZeroLemma"
       },
       "table_note": "",
@@ -10581,7 +10597,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "RankZeroLemma",
+        "8": "NV26",
         "10": "RankZeroLemma",
         "12": "RankZeroLemma"
       },
@@ -10621,7 +10637,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "Frey94",
+        "8": "NV26",
         "10": "Frey94"
       },
       "table_note": "",
@@ -10660,7 +10676,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "Frey94",
+        "8": "NV26",
         "10": "Frey94",
         "12": "Frey94"
       },
@@ -10700,7 +10716,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "Frey94",
+        "8": "NV26",
         "10": "Frey94",
         "12": "Frey94"
       },
@@ -10759,11 +10775,11 @@
       "index": 180,
       "abramovich_bound": 1.785,
       "gonality": {
-        "lb": 2,
+        "lb": 3,
         "ub": null,
-        "source": "Abramovich96",
+        "source": "NV26",
         "exact": false,
-        "lb_source": "Abramovich96",
+        "lb_source": "NV26",
         "ub_source": null
       },
       "rank": {
@@ -10772,7 +10788,8 @@
       },
       "degrees_infinite": {},
       "degrees_finite": {
-        "4": "JKP06"
+        "4": "JKP06",
+        "8": "NV26"
       },
       "table_note": "",
       "in_tables": false,
@@ -10808,7 +10825,7 @@
       "degrees_infinite": {},
       "degrees_finite": {
         "4": "JKP06",
-        "8": "Frey94",
+        "8": "NV26",
         "12": "RankZeroLemma"
       },
       "table_note": "",
@@ -10845,7 +10862,7 @@
       "degrees_infinite": {},
       "degrees_finite": {
         "4": "JKP06",
-        "8": "Frey94",
+        "8": "NV26",
         "12": "Frey94"
       },
       "table_note": "",
@@ -10881,7 +10898,8 @@
       },
       "degrees_infinite": {
         "4": "JKP06",
-        "6": "DS17"
+        "6": "DS17",
+        "8": "NV26"
       },
       "degrees_finite": {
         "2": "KKM"
@@ -10906,11 +10924,11 @@
       "index": 288,
       "abramovich_bound": 2.856,
       "gonality": {
-        "lb": 3,
+        "lb": 6,
         "ub": null,
-        "source": "Abramovich96",
+        "source": "NV26",
         "exact": false,
-        "lb_source": "Abramovich96",
+        "lb_source": "NV26",
         "ub_source": null
       },
       "rank": {
@@ -10921,7 +10939,9 @@
       "degrees_finite": {
         "2": "KKM",
         "4": "JKP06",
-        "6": "DS17"
+        "6": "DS17",
+        "8": "NV26",
+        "10": "RankZeroLemma"
       },
       "table_note": "",
       "in_tables": false,
@@ -10959,7 +10979,7 @@
         "2": "KKM",
         "4": "JKP06",
         "6": "DS17",
-        "8": "RankZeroLemma",
+        "8": "NV26",
         "10": "RankZeroLemma",
         "12": "RankZeroLemma"
       },
@@ -11067,7 +11087,8 @@
       },
       "degrees_infinite": {},
       "degrees_finite": {
-        "4": "JKP06"
+        "4": "JKP06",
+        "8": "NV26"
       },
       "table_note": "",
       "in_tables": false,
@@ -11103,7 +11124,7 @@
       "degrees_infinite": {},
       "degrees_finite": {
         "4": "JKP06",
-        "8": "Frey94",
+        "8": "NV26",
         "12": "Frey94"
       },
       "table_note": "",
@@ -11174,7 +11195,8 @@
       },
       "degrees_infinite": {},
       "degrees_finite": {
-        "4": "JKP06"
+        "4": "JKP06",
+        "8": "NV26"
       },
       "table_note": "",
       "in_tables": false,

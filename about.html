@@ -29,8 +29,9 @@
       degree recorded is the true degree even if the curve was submitted over a larger field.</dd>
     <dt>sporadic</dt>
     <dd>A closed point of degree <span class="m">d</span> is <b>sporadic</b> if <span class="m">X₁(m,n)</span> has only finitely many closed points of degree
-      <span class="m">≤ d</span> (Bourdon–Ejder–Liu–Odumodu–Viray). Van Hoeij and Derickx–van Hoeij use the weaker "finitely many points of degree exactly
-      <span class="m">d</span>"; that property is the third column on the curve pages ("infinitely many points of degree d": no).</dd>
+      <span class="m">≤ d</span> (Bourdon–Ejder–Liu–Odumodu–Viray). The weaker property "finitely many points of degree exactly
+      <span class="m">d</span>" — the one studied by van Hoeij's search for low-degree places and by Derickx–van Hoeij, neither of whom uses the word
+      sporadic — is the third column on the curve pages ("infinitely many points of degree d": no).</dd>
     <dt>isolated</dt>
     <dd>A closed point <span class="m">x</span> of degree <span class="m">d</span> is <b>P¹-isolated</b> if <span class="m">dim L(x) = 1</span>, i.e. it does not move in a
       pencil of degree-<span class="m">d</span> divisors, and <b>AV-isolated</b> if no positive-rank abelian subvariety of the Jacobian moves it (automatic when
@@ -57,20 +58,20 @@
   <p><b>Points of a given degree.</b> For every degree <span class="m">e</span> the census decides "finitely many / infinitely many / unknown" from recorded facts, in this
     order (<span class="m">e′ = e/φ(m)</span>, <span class="m">γ</span> = gonality over the base field):</p>
   <ol class="steps">
-    <li><b>Known finiteness.</b> <span class="m">e ≤ 6</span> and <span class="m">(m,n) ∉ Φ^∞(e)</span>, where <span class="m">Φ^∞(e)</span> is the (completely known) set of torsion
+    <li><b>Known finiteness.</b> <span class="m">e ≤ 9</span> and <span class="m">(m,n) ∉ Φ^∞(e)</span>, where <span class="m">Φ^∞(e)</span> is the (completely known) set of torsion
       groups occurring for infinitely many elliptic curves over degree-<span class="m">e</span> fields — Mazur; Kenku–Momose, Kamienny; Jeon–Kim–Schweizer;
-      Jeon–Kim–Park; Derickx–Sutherland. Since these lists are closed under subgroups, infinitely many degree-<span class="m">e</span> points on
-      <span class="m">X₁(m,n)</span> would force <span class="m">(m,n) ∈ Φ^∞(e)</span>. Conversely <span class="m">(m,n) ∈ Φ^∞(e)</span> means infinitely many. For
-      <span class="m">e = 7, 8</span> Derickx–van Hoeij's Theorem 3 is used (<span class="m">m = 1</span>), for <span class="m">e = 7</span> and
-      <span class="m">m = 2</span> Derickx–Sutherland's Remark 1.3 where it applies, and otherwise Najman's unpublished computations (2026); when the
-      gonality <span class="m">γ</span> is known exactly, the function of degree <span class="m">γ</span> gives infinitely many points of degree
+      Jeon–Kim–Park; Derickx–van Hoeij (Theorem 3: <span class="m">X₁(N)</span>, <span class="m">e = 5…8</span>); Derickx–Sutherland (<span class="m">m ≥ 2</span>,
+      <span class="m">e = 5, 6</span>, and the degree-7 statements of their introduction); Najman–Varivoda (Theorem 1.1: <span class="m">e = 7, 8, 9</span>).
+      Since these lists are closed under subgroups, infinitely many degree-<span class="m">e</span> points on
+      <span class="m">X₁(m,n)</span> would force <span class="m">(m,n) ∈ Φ^∞(e)</span>. Conversely <span class="m">(m,n) ∈ Φ^∞(e)</span> means infinitely many.
+      When the gonality <span class="m">γ</span> is known exactly, the function of degree <span class="m">γ</span> gives infinitely many points of degree
       <span class="m">γ</span> by Hilbert irreducibility (credited to the source of the gonality).</li>
     <li><b>Frey.</b> <span class="m">2e′ &lt; γ</span>: a curve with infinitely many points of degree <span class="m">≤ e′</span> has gonality
       <span class="m">≤ 2e′</span>. The gonality is credited to the result it follows from: the Φ^∞ classifications where they determine it, Derickx–van Hoeij
-      (exact for <span class="m">N ≤ 40</span>, upper bounds beyond), Abramovich's bound <span class="m">γ ≥ (975/98304)·[PSL₂(ℤ):Γ]</span>, or Najman's unpublished CurveArith computations (2026).</li>
+      (exact for <span class="m">N ≤ 40</span>, upper bounds beyond), the finite-field gonality computations of Najman–Varivoda (Table 1), Abramovich's bound <span class="m">γ ≥ (975/98304)·[PSL₂(ℤ):Γ]</span>, or, for a few curves, Najman's unpublished computations (2026).</li>
     <li><b>Rank zero.</b> <span class="m">J₁(m,n)</span> has rank 0 over the base field (Derickx–Sutherland, or analytic rank 0 with Kolyvagin–Logachev/Kato)
       and <span class="m">e′ &lt; γ</span>: then the degree-<span class="m">e′</span> divisors with infinitely many rational points would form a pencil of
-      degree <span class="m">≤ e′</span>, contradicting the gonality.</li>
+      degree <span class="m">≤ e′</span>, contradicting the gonality (Derickx–Sutherland, Proposition 2.3 and Corollary 2.4).</li>
   </ol>
   <p><b>Sporadic</b> is <em>yes</em> when every degree <span class="m">≤ d</span> is finite, <em>no</em> when some degree <span class="m">≤ d</span> is infinite, else <em>maybe</em>.
     <b>Infinitely many points of degree d</b> is the answer for <span class="m">e = d</span>.</p>

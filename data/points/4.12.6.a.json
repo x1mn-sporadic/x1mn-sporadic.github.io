@@ -200,7 +200,7 @@
     "github": "F-Najman",
     "affiliation": "University of Zagreb"
   },
-  "reference": "E. González-Jiménez, F. Najman, An algorithm for determining torsion growth of elliptic curves, Exp. Math. (2020), arXiv:1809.02580; see also Remark 1 of H. B. Daniels, E. González-Jiménez, arXiv:1808.02887. The curve is 162d1 over K = Q(alpha, i), alpha^3 - 3 alpha - 4 = 0.",
+  "reference": "E. González-Jiménez, F. Najman, An algorithm for determining torsion growth of elliptic curves, Exp. Math. 32 (2023), no. 1, 70-81, arXiv:1904.07071; the result is stated in Remark 1 of H. B. Daniels, E. González-Jiménez, Serre's constant of elliptic curves over the rationals, arXiv:1808.02887 (2018). The curve is 162d1 over K = Q(alpha, i), alpha^3 - 3 alpha - 4 = 0.",
   "notes": "The rational elliptic curve 162d1 (j = 109503/64) acquires torsion Z/4 x Z/12 over the sextic field Q(alpha, i); (4,12) is in Phi_Q(6) but not in Phi^infty(6).",
   "source": {
     "kind": "file",

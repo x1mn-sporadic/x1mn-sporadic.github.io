@@ -21,4 +21,6 @@ Column meaning (from the tables' README and the torsion_inf project):
   For X_1(N), N ≤ 36 (rank 0) these are Derickx–van Hoeij 2014, Theorem 3; the remaining entries are
   computations of the torsion_inf project.
 
-The census pipeline (`pipeline/build.py`) reads only: `g`, `an_r`, `gon_Q_lb`, `gon_Q_ub_DvH14`, `p7`, `p8`, `p9`.
+The census pipeline (`pipeline/build.py`) reads only: `g`, `an_r`, `gon_Q_lb`, `gon_Q_ub_DvH14`. The `p7`–`p9` columns are
+no longer used: the sets Φ^∞(7), Φ^∞(8), Φ^∞(9) are taken from Najman–Varivoda, arXiv:2602.03513, Theorem 1.1 (transcribed in
+`pipeline/knowledge.py`), with which the columns agree entry by entry (checked 2026-09-17).

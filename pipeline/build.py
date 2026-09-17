@@ -71,18 +71,24 @@ def curve_record(m, n, magma_rec, table_row):
         #    torsion_inf computations (unpublished) or Abramovich;
         #  * X_1(2,2n) otherwise: unpublished (Najman 2026), or Abramovich for the lower bound.
         derivable = exact and g in inf0 and all(e in fin0 for e in range(1, g) if e % phi == 0)
+        nv = knowledge.NV26_GONALITY_LB.get((m, n))
         if derivable:
             gon["lb_source"] = gon["ub_source"] = inf0[g]
         elif m == 1:
             gon["ub_source"] = "DvH14"
-            gon["lb_source"] = "DvH14" if n <= 40 else ("Abramovich96" if table_row["gon_lb"] <= abr_int else "Najman2026")
+            gon["lb_source"] = "DvH14" if n <= 40 else ("Abramovich96" if table_row["gon_lb"] <= abr_int
+                                                        else "NV26" if nv == table_row["gon_lb"] else "Najman2026")
         else:
-            gon["ub_source"] = "Najman2026"
-            gon["lb_source"] = "Abramovich96" if table_row["gon_lb"] <= abr_int else "Najman2026"
+            gon["lb_source"] = "Abramovich96" if table_row["gon_lb"] <= abr_int else ("NV26" if nv == table_row["gon_lb"] else "Najman2026")
+            # upper bound = degree of a modular unit: in NV26 when (2,n) is in Phi^infty(gon) there, else unpublished
+            gon["ub_source"] = "NV26" if inf0.get(g) == "NV26" else "Najman2026"
         gon["source"] = gon["ub_source"] if exact else gon["lb_source"]
     else:
         gon = {"lb": max(abr_int, 2 if genus >= 1 else 1), "ub": None, "source": "Abramovich96", "exact": False,
                "lb_source": "Abramovich96", "ub_source": None}
+        nv = knowledge.NV26_GONALITY_LB.get((m, n))
+        if nv is not None and nv > gon["lb"]:
+            gon["lb"] = nv; gon["lb_source"] = gon["source"] = "NV26"
     # gonality over the base field Q(zeta_m): the tables are Q-gonalities for m <= 2; for m >= 3 we only
     # have the geometric Abramovich bound, which is a lower bound for the gonality over any field.
     rank_val, rank_src = knowledge.rank_zero_source(m, n, table_row)
@@ -99,20 +105,6 @@ def curve_record(m, n, magma_rec, table_row):
         degrees_finite = {}
         degrees_infinite = {"all": "genus 0"}
     else:
-        if table_row is not None:
-            for d in (7, 8, 9):
-                val = table_row[f"p{d}"]
-                if val is None:
-                    continue
-                # first appearance: X_1(N), d = 7, 8: Derickx-van Hoeij Thm 3; X_1(2,2k), d = 7: Derickx-Sutherland
-                # Remark 1.3 for k <= 10 (infinite) and k > 15 (finite); everything else: torsion_inf
-                if m == 1 and d in (7, 8):
-                    src = "DvH14"
-                elif m == 2 and d == 7 and ((n // 2 <= 10 and val) or (n // 2 > 15 and not val)):
-                    src = "DS17"
-                else:
-                    src = "Najman2026"
-                (degrees_infinite if val else degrees_finite)[str(d)] = src
         if gon["exact"] and m <= 2:
             # degree = gonality: a function of that degree over Q exists (source of the gonality), hence
             # infinitely many points of that degree by Hilbert irreducibility

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 13:42 UTC",
+  "generated": "2026-09-17 20:25 UTC",
   "sources": {
     "Mazur77": {
       "short": "Mazur 1977",
@@ -28,7 +28,7 @@
     "DS17": {
       "short": "Derickx–Sutherland 2017",
       "cite": "M. Derickx, A. V. Sutherland, Torsion subgroups of elliptic curves over quintic and sextic number fields, Proc. Amer. Math. Soc. 145 (2017), 4233-4245, arXiv:1608.07549.",
-      "used_for": "the (m,mn) with m >= 2 in Phi^infty(5), Phi^infty(6) (Theorem 1.2); rank 0 of J_1(m,mn) over Q(zeta_m) for m >= 2 (Theorem 4.1); (2,2n) in Phi^infty(7) for n <= 10 and not for n > 15 (Remark 1.3)",
+      "used_for": "the (m,mn) with m >= 2 in Phi^infty(5), Phi^infty(6) (Theorem 1.1); rank 0 of J_1(m,mn) over Q(zeta_m) for m >= 2 (Theorem 4.1); (2,2n) in Phi^infty(7) for n <= 10 and not for n > 15 (unnumbered paragraph of the introduction, p. 2 of arXiv:1608.07549v3)",
       "transcribed_from": "TeX source of arXiv:1608.07549"
     },
     "DvH14": {
@@ -37,10 +37,16 @@
       "used_for": "Q-gonality of X_1(N) for N <= 40 (exact) and upper bounds for N <= 250; all N such that X_1(N) has infinitely many points of degree d, for d = 5, 6, 7, 8 (Theorem 3); rank 0 of J_1(N)(Q) for N <= 66, N not in {37, 43, 53, 57, 58, 61, 63, 65} (Lemma 1(3), via Kato)",
       "transcribed_from": "torsion_inf/tables/X1_N.csv (columns gon_Q_ub_DvH14, gon_Q_lb, p7, p8) for the gonalities and degrees 7, 8; arXiv:1608.07549 for the Phi^infty(5), Phi^infty(6) lists, which restate Theorem 3 for m = 1; the abstract and Lemma 1 of arXiv:1307.5719 for the scope and the rank statement"
     },
+    "NV26": {
+      "short": "Najman–Varivoda 2026",
+      "cite": "F. Najman, M. Varivoda, Torsion groups of elliptic curves that appear infinitely often over septic, octic and nonic fields, arXiv:2602.03513 (2026).",
+      "used_for": "Phi^infty(7), Phi^infty(8), Phi^infty(9) (Theorem 1.1); finite-field gonality lower bounds (Table 1); X_1(37) has only finitely many points of degree 9 (Proposition 5.7)",
+      "transcribed_from": "text of arXiv:2602.03513v4 (Theorem 1.1, Table 1, Proposition 5.7)"
+    },
     "Najman2026": {
       "short": "Najman 2026 (unpublished)",
-      "cite": "F. Najman, work in progress (2026), unpublished. The computations are recorded in the tables tables/X1_N.csv and tables/X1_2_N.csv of github.com/marin-varivoda/torsion_inf (with M. Varivoda): gonality lower bounds with CurveArith (Derickx-Terao) and a cover search, exact gonalities of X_1(2,2n) for 11 <= n <= 14, upper bounds for X_1(2,2n), the degrees 7-9 data beyond Derickx-van Hoeij and Derickx-Sutherland, and analytic ranks of J_1(2,2n).",
-      "used_for": "everything from the tables that has not appeared in print",
+      "cite": "F. Najman, computations recorded in the tables tables/X1_N.csv and tables/X1_2_N.csv of github.com/marin-varivoda/torsion_inf (with M. Varivoda) that are not contained in arXiv:2602.03513: gonality lower bounds for X_1(43), X_1(53), X_1(57) by a cover search, upper bounds for the gonality of X_1(2,2n) with n >= 13, and analytic ranks of J_1(2,2n).",
+      "used_for": "the facts from the tables that have not appeared in print",
       "transcribed_from": "data/knowledge/sources/X1_N.csv, data/knowledge/sources/X1_2_N.csv (copied verbatim)"
     },
     "LMFDB": {
@@ -60,22 +66,22 @@
     },
     "Kato": {
       "short": "Kato 2004",
-      "cite": "K. Kato, p-adic Hodge theory and values of zeta functions of modular forms, Asterisque 295 (2004), 117-290 (with V. A. Kolyvagin, D. Yu. Logachev, Leningrad Math. J. 1 (1990), 1229-1253).",
+      "cite": "K. Kato, p-adic Hodge theory and values of zeta functions of modular forms, Asterisque 295 (2004), 117-290; V. A. Kolyvagin, D. Yu. Logachev, Finiteness of the Shafarevich-Tate group and the group of rational points for some modular abelian varieties, Leningrad Math. J. 1 (1990), 1229-1253.",
       "used_for": "analytic rank 0 of J_1(N) or J_1(2,2n) implies rank 0 of the Mordell-Weil group"
     },
     "Faltings": {
       "short": "Faltings 1983",
-      "cite": "G. Faltings, Endlichkeitssaetze fuer abelsche Varietaeten ueber Zahlkoerpern, Invent. Math. 73 (1983).",
+      "cite": "G. Faltings, Endlichkeitssaetze fuer abelsche Varietaeten ueber Zahlkoerpern, Invent. Math. 73 (1983), 349-366.",
       "used_for": "a curve of genus >= 2 has finitely many points over any fixed number field"
     },
     "RankZeroLemma": {
       "short": "rank-0 lemma",
-      "cite": "Standard: if J(F) is finite and X has no F-rational map to P^1 of degree <= d, then X has finitely many closed points of degree <= d over F (the fibres of Sym^d X -> Pic^d X over the finitely many F-points are projective spaces, and a positive-dimensional fibre is a base-point-free pencil of degree <= d).  See e.g. Derickx-Sutherland arXiv:1608.07549, proof of Lemma 4.3 / Corollary 4.2.",
+      "cite": "Standard: if J(F) is finite and X has no F-rational map to P^1 of degree <= d, then X has finitely many closed points of degree <= d over F (the fibres of Sym^d X -> Pic^d X over the finitely many F-points are projective spaces, and a positive-dimensional fibre is a base-point-free pencil of degree <= d).  See Derickx-Sutherland arXiv:1608.07549, Proposition 2.3 and Corollary 2.4.",
       "used_for": "rank 0 and d < gon_F  =>  finitely many points of degree d"
     },
     "BELOV": {
       "short": "Bourdon–Ejder–Liu–Odumodu–Viray 2019",
-      "cite": "A. Bourdon, O. Ejder, Y. Liu, F. Odumodu, B. Viray, On the level of modular curves that give rise to isolated j-invariants, Adv. Math. 357 (2019), arXiv:1811.04425.",
+      "cite": "A. Bourdon, O. Ejder, Y. Liu, F. Odumodu, B. Viray, On the level of modular curves that give rise to isolated j-invariants, Adv. Math. 357 (2019), 106824, arXiv:1808.04520.",
       "used_for": "definitions of sporadic (finitely many points of degree <= d) and isolated (P^1- and AV-isolated); a point in a positive-dimensional family of degree-d points gives infinitely many degree-d points"
     }
   }

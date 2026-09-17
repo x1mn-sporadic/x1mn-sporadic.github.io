@@ -215,7 +215,7 @@
       el("dt", null, "index in PSL₂(ℤ)"), el("dd", null, el("b", null, c.index)),
       el("dt", null, "gonality over " + (m <= 2 ? "ℚ" : "ℚ(ζ" + m + ")")),
       el("dd", null, el("b", null, gon.exact ? String(gon.lb) : (gon.ub ? gon.lb + " ≤ γ ≤ " + gon.ub : "γ ≥ " + gon.lb)), " ",
-        el("span", { class: "src" }, "(", gon.exact ? sourceLinks(sources, [gon.source])
+        el("span", { class: "src" }, "(", gon.exact && gon.lb_source === gon.ub_source ? sourceLinks(sources, [gon.source])
           : ["lower bound: ", sourceLinks(sources, [gon.lb_source]), gon.ub ? ["; upper bound: ", sourceLinks(sources, [gon.ub_source])] : null],
           c.table_note && (gon.lb_source === "Najman2026" || gon.source === "Najman2026") ? "; " + c.table_note : "", ")")),
       el("dt", null, "Abramovich bound"), el("dd", null, "γ ≥ " + c.abramovich_bound, " ", el("span", { class: "src" }, "(", sourceLinks(sources, ["Abramovich96"]), ")")),

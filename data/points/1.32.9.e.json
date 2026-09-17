@@ -12,7 +12,7 @@
       "value": "no",
       "rule": "X_1(32) has only finitely many points of degree 9",
       "sources": [
-        "Najman2026"
+        "NV26"
       ]
     },
     "sporadic": {
@@ -26,7 +26,7 @@
       "value": "yes",
       "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
       "sources": [
-        "Najman2026",
+        "NV26",
         "BELOV"
       ]
     }

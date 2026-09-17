@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 13:42 UTC",
+  "generated": "2026-09-17 20:25 UTC",
   "points": [
     {
       "schema": "x1mn-sporadic/point/1",
@@ -752,7 +752,7 @@
           "value": "no",
           "rule": "X_1(29) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -764,14 +764,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026"
+            "NV26"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(29), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -963,7 +963,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -1166,7 +1166,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -1729,7 +1729,7 @@
           "value": "no",
           "rule": "X_1(31) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -1741,14 +1741,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026"
+            "NV26"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(31), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -1943,7 +1943,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -2146,7 +2146,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -2352,7 +2352,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -2558,7 +2558,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -2752,7 +2752,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -2766,7 +2766,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -2946,7 +2946,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -2960,7 +2960,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -3140,7 +3140,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -3154,7 +3154,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -3334,7 +3334,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -3348,7 +3348,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -3528,7 +3528,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -3542,7 +3542,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -3722,7 +3722,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -3736,7 +3736,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -3916,7 +3916,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -3930,7 +3930,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -4110,7 +4110,7 @@
           "value": "no",
           "rule": "X_1(32) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -4124,7 +4124,7 @@
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(32), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -4691,7 +4691,7 @@
           "value": "no",
           "rule": "X_1(33) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -4703,14 +4703,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026"
+            "NV26"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(33), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -7257,7 +7257,7 @@
           "value": "no",
           "rule": "X_1(34) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -7269,14 +7269,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026"
+            "NV26"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -7456,7 +7456,7 @@
           "value": "no",
           "rule": "X_1(34) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -7468,14 +7468,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026"
+            "NV26"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -7655,7 +7655,7 @@
           "value": "no",
           "rule": "X_1(34) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -7667,14 +7667,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026"
+            "NV26"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -7854,7 +7854,7 @@
           "value": "no",
           "rule": "X_1(34) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -7866,14 +7866,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026"
+            "NV26"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(34), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -8260,7 +8260,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -8463,7 +8463,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -8666,7 +8666,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -10252,7 +10252,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -10444,7 +10444,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -10642,7 +10642,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -10840,7 +10840,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -11038,7 +11038,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -11239,7 +11239,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -11443,7 +11443,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -11650,7 +11650,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -11857,7 +11857,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -12064,7 +12064,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -12274,7 +12274,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -12484,7 +12484,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -12694,7 +12694,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -12904,7 +12904,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -13114,7 +13114,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -13324,7 +13324,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -13534,7 +13534,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -13744,7 +13744,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -13954,7 +13954,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -14164,7 +14164,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -14374,7 +14374,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -14587,7 +14587,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -14800,7 +14800,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -15013,7 +15013,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -15226,7 +15226,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -15439,7 +15439,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -15652,7 +15652,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -15865,7 +15865,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -16078,7 +16078,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -16291,7 +16291,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -16504,7 +16504,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -16717,7 +16717,7 @@
         },
         "sporadic": {
           "value": "maybe",
-          "rule": "finitely many points of degree 9, 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+          "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
           "sources": []
         },
         "isolated": {
@@ -16939,7 +16939,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -17142,7 +17142,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -17345,7 +17345,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -17731,7 +17731,7 @@
           "value": "no",
           "rule": "X_1(39) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -17743,14 +17743,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026"
+            "NV26"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(39), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -17942,7 +17942,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -18145,7 +18145,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -18354,7 +18354,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -18563,7 +18563,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -21691,7 +21691,7 @@
           "value": "no",
           "rule": "X_1(40) has only finitely many points of degree 9",
           "sources": [
-            "Najman2026"
+            "NV26"
           ]
         },
         "sporadic": {
@@ -21703,14 +21703,14 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026"
+            "NV26"
           ]
         },
         "isolated": {
           "value": "yes",
           "rule": "finitely many points of degree 9 on X_1(40), so the point lies in no positive-dimensional family",
           "sources": [
-            "Najman2026",
+            "NV26",
             "BELOV"
           ]
         }
@@ -21902,7 +21902,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -22105,7 +22105,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -22308,7 +22308,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -22514,7 +22514,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -22720,7 +22720,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -22926,7 +22926,7 @@
             "JKS04",
             "KKM",
             "Mazur77",
-            "Najman2026",
+            "NV26",
             "RankZeroLemma"
           ]
         },
@@ -29489,7 +29489,7 @@
         "github": "F-Najman",
         "affiliation": "University of Zagreb"
       },
-      "reference": "E. González-Jiménez, F. Najman, An algorithm for determining torsion growth of elliptic curves, Exp. Math. (2020), arXiv:1809.02580; see also Remark 1 of H. B. Daniels, E. González-Jiménez, arXiv:1808.02887. The curve is 162d1 over K = Q(alpha, i), alpha^3 - 3 alpha - 4 = 0.",
+      "reference": "E. González-Jiménez, F. Najman, An algorithm for determining torsion growth of elliptic curves, Exp. Math. 32 (2023), no. 1, 70-81, arXiv:1904.07071; the result is stated in Remark 1 of H. B. Daniels, E. González-Jiménez, Serre's constant of elliptic curves over the rationals, arXiv:1808.02887 (2018). The curve is 162d1 over K = Q(alpha, i), alpha^3 - 3 alpha - 4 = 0.",
       "notes": "The rational elliptic curve 162d1 (j = 109503/64) acquires torsion Z/4 x Z/12 over the sextic field Q(alpha, i); (4,12) is in Phi_Q(6) but not in Phi^infty(6).",
       "source": {
         "kind": "file",
