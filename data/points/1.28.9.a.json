@@ -1,0 +1,204 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "1.28.9.a",
+  "m": 1,
+  "n": 28,
+  "degree": 9,
+  "relative_degree": 9,
+  "base_field": "Q",
+  "status": "certified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "yes",
+      "rule": "X_1(28) has infinitely many points of degree 9",
+      "sources": [
+        "NV26"
+      ]
+    },
+    "sporadic": {
+      "value": "no",
+      "rule": "not sporadic: X_1(28) has infinitely many points of degree 6",
+      "sources": [
+        "DvH14"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
+      "sources": [
+        "BELOV",
+        "DvH14"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": true,
+    "p1_isolated": true,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "primes": [
+      3
+    ],
+    "l_values": [
+      1
+    ],
+    "model": "mdmagma MDX1(28) (Sutherland's optimised model of X_1(28))",
+    "cputime_seconds": "0.130000",
+    "isolation_lib_sha256": "06a5a6804036a597a2254e18da0d85b34a6ec7c98a42e502426f269b747a16e2"
+  },
+  "discovery": {
+    "by": "E. González-Jiménez, F. Najman",
+    "year": 2019
+  },
+  "field": {
+    "poly": "x^9 - x^8 - 2*x^7 - x^6 + 5*x^5 + x^4 - 5*x^3 + 2*x^2 + 2*x - 1",
+    "poly_coeffs": [
+      "-1",
+      "2",
+      "2",
+      "-5",
+      "1",
+      "5",
+      "-1",
+      "-2",
+      "-1",
+      "1"
+    ],
+    "polredabs": "x^9 - x^8 - 2*x^7 - x^6 + 5*x^5 + x^4 - 5*x^3 + 2*x^2 + 2*x - 1",
+    "degree": 9,
+    "disc": "-308915776",
+    "disc_factored": "-1 * 2^6 * 13^6",
+    "signature": [
+      3,
+      3
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "1/4*(14*a^8 - 31*a^7 + 2*a^6 + 78*a^4 - 85*a^3 - 24*a^2 + 81*a - 28)",
+    "tate_c": "1/2*(3*a^8 - 7*a^7 + 2*a^6 + 17*a^4 - 23*a^3 - 3*a^2 + 17*a - 6)",
+    "tate_b_coeffs": [
+      "-7",
+      "81/4",
+      "-6",
+      "-85/4",
+      "39/2",
+      "0",
+      "1/2",
+      "-31/4",
+      "7/2"
+    ],
+    "tate_c_coeffs": [
+      "-3",
+      "17/2",
+      "-3/2",
+      "-23/2",
+      "17/2",
+      "0",
+      "1",
+      "-7/2",
+      "3/2"
+    ],
+    "ainvs": [
+      "1 - (1/2*(3*a^8 - 7*a^7 + 2*a^6 + 17*a^4 - 23*a^3 - 3*a^2 + 17*a - 6))",
+      "-(1/4*(14*a^8 - 31*a^7 + 2*a^6 + 78*a^4 - 85*a^3 - 24*a^2 + 81*a - 28))",
+      "-(1/4*(14*a^8 - 31*a^7 + 2*a^6 + 78*a^4 - 85*a^3 - 24*a^2 + 81*a - 28))",
+      "0",
+      "0"
+    ],
+    "P": [],
+    "P_coeffs": [],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x - 351/4",
+    "j_degree": 1,
+    "j_rational": "351/4",
+    "cm": false,
+    "cm_disc": 0,
+    "twist_norm_class": "-39",
+    "disc_norm": "-41923862510546776732926727363232470441196416818878153851650674269912478572355487268864",
+    "conductor_norm": ""
+  },
+  "torsion": {
+    "invariants": [
+      28
+    ],
+    "known_exactly": true,
+    "order_bound": 28,
+    "bound_primes": [
+      31
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^9 - x^8 - 2*x^7 - x^6 + 5*x^5 + x^4 - 5*x^3 + 2*x^2 + 2*x - 1",
+      "degree": 9
+    },
+    "mode": "ainvs",
+    "curve": {
+      "ainvs": [
+        "1",
+        "-1",
+        "1",
+        "137",
+        "2643"
+      ]
+    },
+    "points": {
+      "Q": [
+        "351*a^8 - 195*a^7 - 819*a^6 - 715*a^5 + 1469*a^4 + 1079*a^3 - 1313*a^2 + 104*a + 803",
+        "10218*a^8 - 5226*a^7 - 22828*a^6 - 21190*a^5 + 40586*a^4 + 29458*a^3 - 36946*a^2 + 2652*a + 21568"
+      ]
+    },
+    "ainvs_as_verified": [
+      "1",
+      "-1",
+      "1",
+      "137",
+      "2643"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "1"
+      ],
+      "Q": [
+        "351*a^8 - 195*a^7 - 819*a^6 - 715*a^5 + 1469*a^4 + 1079*a^3 - 1313*a^2 + 104*a + 803",
+        "10218*a^8 - 5226*a^7 - 22828*a^6 - 21190*a^5 + 40586*a^4 + 29458*a^3 - 36946*a^2 + 2652*a + 21568"
+      ],
+      "order_P": 1,
+      "order_Q": 28
+    },
+    "working_field": {
+      "poly": "x^9 - x^8 - 2*x^7 - x^6 + 5*x^5 + x^4 - 5*x^3 + 2*x^2 + 2*x - 1",
+      "degree": 9
+    },
+    "claimed_degree": 9,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Filip Najman",
+    "github": "F-Najman",
+    "affiliation": "University of Zagreb"
+  },
+  "reference": "Noted in E. González-Jiménez, F. Najman, An algorithm for determining torsion growth of elliptic curves, Exp. Math. 32 (2023), 70-81, arXiv:1904.07071; identified as isolated by A. Bourdon, D. R. Gill, J. Rouse, L. D. Watson, Odd degree isolated points on X_1(N) with rational j-invariant, arXiv:2006.14966 (2020), Theorem 2 and Section 4.7.",
+  "notes": "The rational elliptic curve 338.e2 (j = 351/4 = 3^3 * 13 / 2^2) acquires a point of order 28 over this degree-9 field. Bourdon-Gill-Rouse-Watson show that the point is isolated (dim L(D) = 1 over F_11, rank J_1(28)(Q) = 0), and that -140625/8 and 351/4 are the only non-CM rational j-invariants of isolated points of odd degree on the curves X_1(N).",
+  "source": {
+    "kind": "file",
+    "path": "submissions/inbox/bgrw_28_9.json"
+  },
+  "dates": {
+    "submitted": "2020-06-26",
+    "verified": "2026-09-18 08:06:01 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.29-4",
+    "cputime_seconds": "0.0300000",
+    "verify_lib_sha256": "882aafaf0ea8f7632aba001ca8907387186b3282032b4f320fcbb868a511c4f4",
+    "log": "data/logs/1.28.9.a.log",
+    "isolation_log": "data/logs/1.28.9.a.isolation.log"
+  }
+}
