@@ -193,7 +193,7 @@
     "github": "",
     "affiliation": ""
   },
-  "reference": "F. Najman, unpublished (2026)",
+  "reference": "F. Najman, Classification of torsion of elliptic curves over quintic fields, arXiv:2609.12846 (2026)",
   "notes": "Found by an exhaustive enumeration of the degree-5 divisor classes of X1(2,18) (class group over F_5, lift by Riemann-Roch); the 18 level structures Z/2 x Z/18 on this curve are the only non-cuspidal quintic points of X1(2,18) up to Galois conjugation.",
   "source": {
     "kind": "file",

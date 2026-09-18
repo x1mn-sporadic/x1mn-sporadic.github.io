@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18 08:46 UTC",
+  "generated": "2026-09-18 09:23 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -8816,7 +8816,7 @@
           "discovered_by": "F. Najman",
           "year": 2026,
           "submitter": "Filip Najman",
-          "reference": "F. Najman, unpublished (2026)",
+          "reference": "F. Najman, Classification of torsion of elliptic curves over quintic fields, arXiv:2609.12846 (2026)",
           "verified": "2026-09-17 13:24:52 UTC"
         }
       ],
