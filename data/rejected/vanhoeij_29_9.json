@@ -1,0 +1,27 @@
+{
+  "schema": "x1mn-sporadic/rejected/1",
+  "source_file": "vanhoeij_29_9.json",
+  "reason": "duplicate of the existing point 1.29.9.a (the same elliptic curve over the same residue field)",
+  "submission": {
+    "schema": "x1mn-sporadic/submission/1",
+    "m": 1,
+    "n": 29,
+    "field": "x^9-8*x^8+23*x^7-26*x^6+2*x^5+17*x^4-11*x^3+2*x^2+1",
+    "curve": {
+      "vanhoeij": {
+        "eqxy": "y-x^8+6*x^7-11*x^6+4*x^5+6*x^4-6*x^3+3*x^2"
+      }
+    },
+    "degree": 9,
+    "submitter": "Mark van Hoeij (imported)",
+    "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; file LowDegreePlaces (Aug 2013), line 'N = 29, degv = 9'.",
+    "notes": "test fixture",
+    "date": "2013-08-01",
+    "source": {
+      "kind": "file",
+      "path": "pipeline/tests/fixtures/vanhoeij_29_9.json"
+    }
+  },
+  "date": "2026-09-18 09:28:22 UTC",
+  "magma_log": "[0.000000 s] start: X_1(1,29) mode=vanhoeij\n[0.000000 s] field: degree 9, x^9 - 8*x^8 + 23*x^7 - 26*x^6 + 2*x^5 + 17*x^4 - 11*x^3 + 2*x^2 + 1\n[0.000000 s] curve: [\n-a^8 + 8*a^7 - 25*a^6 + 41*a^5 - 42*a^4 + 27*a^3 - 6*a^2 + a - 2,\n-21*a^8 + 188*a^7 - 659*a^6 + 1146*a^5 - 1037*a^4 + 472*a^3 - 103*a^2 + 34*a - 31,\n-21*a^8 + 188*a^7 - 659*a^6 + 1146*a^5 - 1037*a^4 + 472*a^3 - 103*a^2 + 34*a - 31,\n0,\n0\n]\n[0.000000 s] orders verified: ord P = 1, ord Q = 29, <P,Q> = Z/1 x Z/29\n[0.0100000 s] torsion bound from reductions: |E(K)_tors| divides 29 (primes [ 23 ])\n[0.0200000 s] Tate normal form done; residue field of the point has degree 9 (K has degree 9)\n[0.0200000 s] j: degree 9, CM false 0\n[0.120000 s] conductor norm 59\n[0.120000 s] VERIFY_DONE\n"
+}

@@ -10,7 +10,7 @@ fetch_issues.py (GitHub issues)           build.py ──► data/curves.json, d
 |---|---|
 | `run_cycle.sh` | the whole cycle: `git pull` → `fetch_issues.py` → `verify.py` → `build.py` → commit → push. Cron-able; uses a lock file. |
 | `fetch_issues.py` | turns open GitHub issues labelled `submission` into `submissions/inbox/issue-<n>.json`. |
-| `verify.py` | validates a submission, runs `magma/verify_lib.m` under a timeout, classifies sporadicity with `knowledge.py`, writes the certificate, comments on and closes the issue. |
+| `verify.py` | validates a submission, runs `magma/verify_lib.m` and `magma/isolation_lib.m` under timeouts, classifies the point with `knowledge.py`, writes the certificate, comments on and closes the issue. Automatic limits (`LIMITS`: field degree ≤ 30, points required above degree 8, isolation for genus ≤ 60) and per-run budgets (`--max-jobs 8`, `--budget 2700` s of Magma time); submissions beyond the limits go to `submissions/manual/` with the issue labelled `manual`, to be run by the maintainer with `--force`. |
 | `build.py` | rebuilds the JSON files the site reads from `data/knowledge/` + `data/points/`. `--check` fails if they are stale (used by CI). |
 | `knowledge.py` | curated, cited facts: Φ^∞(d) for d ≤ 9, rank-0 theorems, gonality bounds, Frey/Abramovich, per-point facts (`CURATED_POINTS`, e.g. a published AV-isolation proof on a positive-rank curve), and the three yes/no/maybe answers (sporadic = finitely many points of degree ≤ d; isolated; infinitely many points of degree d). |
 | `import_vanhoeij.py` | converts van Hoeij's `LowDegreePlaces` into submissions (`--max-N`). |
@@ -40,6 +40,13 @@ exit status is ignored (it is 0 even after errors): `verify.py` trusts only the 
 
 Every change to `magma/verify_lib.m` changes the SHA-256 recorded in new certificates; old certificates
 keep the hash of the code that produced them.
+
+## Processing deferred submissions by hand
+
+```sh
+python3 -B pipeline/verify.py --force --max-jobs 0 --budget 0 --timeout 7200 --isolation-timeout 7200 submissions/manual/issue-12.json
+```
+Only three concurrent Magma jobs are allowed on Mordell; the verifier is sequential, so run one such command at a time.
 
 ## Adding knowledge
 

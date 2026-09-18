@@ -305,7 +305,8 @@ L := sub<K | gensL>;
 dL := Degree(L);
 Log(Sprintf("Tate normal form done; residue field of the point has degree %o (K has degree %o)", dL, d));
 // express the point over its residue field L
-if dL eq 1 then
+BigField := dL gt 40;    // no optimised representation for very large fields
+if dL eq 1 or BigField then
   Lopt := L; mopt := map<L -> L | v :-> v>;
 else
   Lopt, mopt := OptimizedRepresentation(L);
@@ -357,6 +358,7 @@ if Abs(Numerator(dn)) lt 10^40 and Abs(Denominator(dn)) lt 10^40 then
 end if;
 OL := MaximalOrder(Lopt);
 discL := Discriminant(OL);
+discLs := Abs(discL) lt 10^60 select FactoredString(discL) else "not factored";
 r1, r2 := Signature(Lopt);
 v1, v2, v3 := GetVersion();
 ver := Sprintf("%o.%o-%o", v1, v2, v3);
@@ -385,7 +387,7 @@ Emit([*
   <"residue_field", [*
       <"degree", dL>, <"equals_K", dL eq d>,
       <"poly", PolyString(fL, "x")>, <"poly_coeffs", [Sprint(cc) : cc in Coefficients(fL)]>,
-      <"disc", Sprint(discL)>, <"disc_factored", FactoredString(discL)>,
+      <"disc", discL eq 0 select "not computed" else Sprint(discL)>, <"disc_factored", discLs>,
       <"signature", [r1, r2]>,
       <"b", Sprint(bL)>, <"c", Sprint(cL)>, <"b_coeffs", Coeffs(bL)>, <"c_coeffs", Coeffs(cL)>,
       <"P", [Sprint(v) : v in PtL]>, <"P_coeffs", [Coeffs(v) : v in PtL]>

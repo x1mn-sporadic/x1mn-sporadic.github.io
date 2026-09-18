@@ -5,9 +5,20 @@ Usage
 -----
   python3 pipeline/verify.py                 # process every file in submissions/inbox/
   python3 pipeline/verify.py FILE [FILE...]  # process the given submission files
-  options: --timeout SECONDS (default 3600)  --mem-gb N (default 16)  --no-github
+  options: --timeout SECONDS (default 600)  --mem-gb N (default 16)  --no-github
            --keep (do not move processed submissions)  --dry-run
-           --no-isolation  --isolation-timeout SECONDS (default 1800)
+           --no-isolation  --isolation-timeout SECONDS (default 900)
+           --max-jobs N (default 8; 0 = unlimited)  --budget SECONDS of Magma time per run (default 2700; 0 = unlimited)
+           --force (process submissions beyond the automatic limits, see LIMITS)
+
+Automatic limits (LIMITS below).  Anyone can open an issue, and Magma time on the server is the
+scarce resource, so a submission is verified automatically only when it is cheap: field degree at
+most 30, the torsion points given when the degree exceeds 8 (otherwise Magma computes the full
+torsion subgroup, an open-ended step), the isolation check only for curves of genus at most 60, and
+every Magma job under a timeout.  Larger submissions are moved to submissions/manual/, the issue is
+labelled `manual` with a comment, and the maintainer runs them with --force.  A run processes at most
+--max-jobs submissions and stops when --budget seconds of Magma time have been used; the rest wait
+for the next cycle.
 
 For each submission the script
   1. validates the JSON (schema, whitelisted strings, (m,n) in the census, genus >= 1);
@@ -36,13 +47,14 @@ import os
 import shutil
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import knowledge  # noqa: E402
 from common import (DATA, LOGS, MAX_STRING, POINTS_DIR, RE_ELEMENT, RE_FIELD_POLY, RE_XY,  # noqa: E402
-                    REJECTED_DIR, SCHEMA_CERTIFICATE, SUBMISSIONS_INBOX, SUBMISSIONS_PROCESSED,
+                    REJECTED_DIR, SCHEMA_CERTIFICATE, SUBMISSIONS_INBOX, SUBMISSIONS_MANUAL, SUBMISSIONS_PROCESSED,
                     WORK, github_request, github_token, log, read_json, repo_path, write_json)
 
 VERIFY_LIB = Path(__file__).resolve().parent / "magma" / "verify_lib.m"
@@ -56,6 +68,17 @@ class Reject(Exception):
     pass
 
 
+class Defer(Exception):
+    """Submission beyond the automatic limits: kept for manual processing."""
+
+
+LIMITS = {
+    "max_degree": 30,          # degree of the submitted field
+    "points_required_above": 8,  # degree above which P and Q must be given (no full torsion computation)
+    "isolation_max_genus": 60,   # the isolation check is skipped above this genus (isolated stays "maybe")
+}
+
+
 # --------------------------------------------------------------------------- validation
 
 def _s(v, regex, what):
@@ -67,7 +90,7 @@ def _s(v, regex, what):
     return v
 
 
-def validate(sub: dict, curves: dict) -> dict:
+def validate(sub: dict, curves: dict, force: bool = False) -> dict:
     """Return a normalised copy of the submission or raise Reject."""
     try:
         m, n = int(sub["m"]), int(sub["n"])
@@ -110,6 +133,13 @@ def validate(sub: dict, curves: dict) -> dict:
             if not isinstance(xy, list) or len(xy) != 2:
                 raise Reject(f"point {name} must be [x, y]")
             out[name] = [_s(str(xy[0]), RE_ELEMENT, f"{name}.x"), _s(str(xy[1]), RE_ELEMENT, f"{name}.y")]
+    deg = max((int(t) for t in __import__("re").findall(r"x\^(\d+)", out["field"])), default=1)
+    if not force:
+        if deg > LIMITS["max_degree"]:
+            raise Defer(f"the field has degree {deg} > {LIMITS['max_degree']}")
+        if out["mode"] == "ainvs" and "Q" not in out and deg > LIMITS["points_required_above"]:
+            raise Defer(f"the torsion points are not given and the field has degree {deg} > {LIMITS['points_required_above']}: "
+                        "the full torsion computation is not run automatically -- please add the coordinates of Q (and P)")
     if out["mode"] == "ainvs" and "Q" not in out:
         log("  note: Q not given; Magma will compute the full torsion subgroup (slow for large degree)")
     for k in ("degree", "submitter", "github", "reference", "notes", "date", "source", "affiliation", "expected",
@@ -189,6 +219,9 @@ def run_isolation(res: dict, jobdir: Path, args) -> dict:
     if not MDMAGMA_SPEC.exists():
         rec["note"] = "mdmagma not available (pipeline/external/mdmagma missing)"
         return rec
+    if not args.force and args.curve_genus > LIMITS["isolation_max_genus"]:
+        rec["note"] = f"not attempted automatically: genus {args.curve_genus} > {LIMITS['isolation_max_genus']} (run with --force)"
+        return rec
     job = write_isolation_job(res, jobdir)
     rc, timed_out = run_magma(job, args.isolation_timeout)
     out = jobdir / "isolation.json"
@@ -210,6 +243,8 @@ def run_isolation(res: dict, jobdir: Path, args) -> dict:
 # --------------------------------------------------------------------------- post-processing
 
 def polredabs(poly: str) -> str | None:
+    if poly.count("x^") and max(int(t) for t in __import__("re").findall(r"x\^(\d+)", poly)) > 24:
+        return None            # polredabs needs the maximal order: skipped for large fields
     try:
         import cypari2
         pari = cypari2.Pari()
@@ -360,7 +395,7 @@ def build_certificate(v: dict, res: dict, curve: dict, points, jobdir: Path, iso
 
 # --------------------------------------------------------------------------- GitHub feedback
 
-def github_feedback(v: dict, outcome: str, body: str, dry: bool):
+def github_feedback(v: dict, outcome: str, body: str, dry: bool, close: bool = True):
     src = v.get("source") or {}
     if src.get("kind") != "issue":
         return
@@ -374,8 +409,9 @@ def github_feedback(v: dict, outcome: str, body: str, dry: bool):
         return
     github_request("POST", repo_path(f"/issues/{num}/comments"), {"body": body}, token=tok)
     github_request("POST", repo_path(f"/issues/{num}/labels"), {"labels": [outcome]}, token=tok)
-    github_request("PATCH", repo_path(f"/issues/{num}"), {"state": "closed"}, token=tok)
-    log(f"  issue #{num}: commented, labelled '{outcome}', closed")
+    if close:
+        github_request("PATCH", repo_path(f"/issues/{num}"), {"state": "closed"}, token=tok)
+    log(f"  issue #{num}: commented, labelled '{outcome}'" + (", closed" if close else ""))
 
 
 def site_url(pid: str) -> str:
@@ -393,9 +429,11 @@ def process(path: Path, curves: dict, args) -> str:
         shutil.rmtree(jobdir)
     jobdir.mkdir(parents=True)
     v = None
+    t_start = time.time()
     try:
-        v = validate(sub, curves)
+        v = validate(sub, curves, force=args.force)
         curve = curves[f"{v['m']}.{v['n']}"]
+        args.curve_genus = curve["genus"]
         job = write_job(v, jobdir, args.mem_gb, skip_full_torsion=False)
         if args.dry_run:
             log(f"  [dry-run] job written to {job}")
@@ -438,6 +476,19 @@ def process(path: Path, curves: dict, args) -> str:
                 f"{verdict}\n\nPage: {site_url(pid)}")
         github_feedback(v, cert["status"], body, args.no_github)
         outcome = "accepted"
+    except Defer as e:
+        reason = str(e)
+        log(f"  DEFERRED for manual processing: {reason}")
+        SUBMISSIONS_MANUAL.mkdir(parents=True, exist_ok=True)
+        if not args.keep and not args.dry_run:
+            shutil.move(str(path), str(SUBMISSIONS_MANUAL / path.name))
+        if v is not None or sub.get("source", {}).get("kind") == "issue":
+            github_feedback({"source": sub.get("source", {})}, "manual",
+                            f"This submission is beyond the limits of the automatic verification ({reason}). "
+                            "It stays in the queue and will be processed by hand; there is nothing you need to do, "
+                            "unless you can add the missing data.", args.no_github, close=False)
+        args.elapsed += time.time() - t_start
+        return "deferred"
     except Reject as e:
         reason = str(e)
         log(f"  REJECTED: {reason}")
@@ -454,20 +505,26 @@ def process(path: Path, curves: dict, args) -> str:
     if not args.keep and not args.dry_run:
         SUBMISSIONS_PROCESSED.mkdir(parents=True, exist_ok=True)
         shutil.move(str(path), str(SUBMISSIONS_PROCESSED / f"{name}.{outcome}.json"))
+    args.elapsed += time.time() - t_start
     return outcome
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("files", nargs="*")
-    ap.add_argument("--timeout", type=int, default=3600)
+    ap.add_argument("--timeout", type=int, default=600)
     ap.add_argument("--mem-gb", type=int, default=16)
     ap.add_argument("--no-github", action="store_true")
     ap.add_argument("--keep", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--no-isolation", action="store_true")
-    ap.add_argument("--isolation-timeout", type=int, default=1800)
+    ap.add_argument("--isolation-timeout", type=int, default=900)
+    ap.add_argument("--max-jobs", type=int, default=8)
+    ap.add_argument("--budget", type=int, default=2700, help="seconds of Magma time per run; 0 = unlimited")
+    ap.add_argument("--force", action="store_true", help="ignore the automatic limits (maintainer)")
     args = ap.parse_args()
+    args.elapsed = 0.0
+    args.curve_genus = 0
     curves_file = DATA / "curves.json"
     if not curves_file.exists():
         sys.exit("data/curves.json missing: run pipeline/build.py first")
@@ -479,7 +536,13 @@ def main():
     WORK.mkdir(exist_ok=True)
     LOGS.mkdir(exist_ok=True)
     summary = {}
-    for f in files:
+    for i, f in enumerate(files):
+        if args.max_jobs and i >= args.max_jobs:
+            log(f"stopping after {args.max_jobs} submissions; {len(files) - i} left in the queue")
+            break
+        if args.budget and args.elapsed > args.budget:
+            log(f"Magma time budget of {args.budget} s used; {len(files) - i} left in the queue")
+            break
         summary[f.name] = process(f, curves, args)
     log("summary: " + ", ".join(f"{k}: {v}" for k, v in summary.items()))
 

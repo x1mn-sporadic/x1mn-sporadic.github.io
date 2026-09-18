@@ -52,6 +52,14 @@
       certificate and Magma log. If a submission is rejected because of a data problem, just fix it and submit again.</li>
   </ol>
 
+  <h3>Limits of the automatic verification</h3>
+  <p>Magma time on the server is limited, so a submission is verified automatically only when it is cheap: the number field must have degree
+    at most 30; when the degree exceeds 8 the torsion points <span class="m">Q</span> (and <span class="m">P</span>) must be given, since otherwise Magma would
+    have to compute the full torsion subgroup; the isolation check is run only for curves of genus at most 60; each Magma job runs under a time
+    limit (10 minutes for the verification, 15 for the isolation check); and each verification cycle processes at most 8 submissions and about
+    45 minutes of Magma time, the rest waiting for the next cycle. A submission beyond these limits is not lost: the issue is labelled
+    <code>manual</code> and the maintainer runs it by hand.</p>
+
   <h3>Bulk submissions</h3>
   <p>For many points at once, open a pull request adding files to <code>submissions/inbox/</code> of the
     <a href="https://github.com/x1mn-sporadic/x1mn-sporadic.github.io">repository</a>, one JSON file per point:</p>

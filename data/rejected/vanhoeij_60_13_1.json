@@ -1,0 +1,37 @@
+{
+  "schema": "x1mn-sporadic/rejected/1",
+  "source_file": "vanhoeij_60_13_1.json",
+  "reason": "Magma did not finish within the time limit (1800 s); please supply the points P and Q explicitly",
+  "submission": {
+    "schema": "x1mn-sporadic/submission/1",
+    "m": 1,
+    "n": 60,
+    "field": "x^13-7*x^12+20*x^11-42*x^10+69*x^9-74*x^8+73*x^7-103*x^6+119*x^5-99*x^4+72*x^3-39*x^2+10*x-1",
+    "curve": {
+      "vanhoeij": {
+        "eqxy": "4131*y+1586*x^12-10117*x^11+25580*x^10-51362*x^9+78665*x^8-71625*x^7+74615*x^6-120022*x^5+119303*x^4-83621*x^3+62753*x^2-26825*x-1691"
+      }
+    },
+    "degree": 13,
+    "expected": {
+      "j_degree": 13,
+      "j": null
+    },
+    "discoverer": "M. van Hoeij",
+    "year": 2012,
+    "submitter": "Mark van Hoeij",
+    "affiliation": "Florida State University",
+    "github": "",
+    "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (2013/2014), line 3575",
+    "notes": "Imported from van Hoeij's list; one representative per diamond orbit.",
+    "date": "2013-08-01",
+    "source": {
+      "kind": "import",
+      "file": "vanhoeij_LowDegreePlaces.txt",
+      "line": 3575,
+      "url": "https://www.math.fsu.edu/~hoeij/files/X1N/LowDegreePlaces"
+    }
+  },
+  "date": "2026-09-18 09:28:57 UTC",
+  "magma_log": "[0.000000 s] start: X_1(1,60) mode=vanhoeij\n[0.000000 s] field: degree 13, x^13 - 7*x^12 + 20*x^11 - 42*x^10 + 69*x^9 - 74*x^8 + 73*x^7 - 103*x^6 + 119*x^5 - 99*x^4 + 72*x^3 - 39*x^2 + 10*x - 1\n[0.000000 s] curve: [\n1/1377*(-414*a^12 + 2600*a^11 - 6420*a^10 + 12926*a^9 - 19870*a^8 + 17253*a^7 - 18903*a^6 + 29426*a^5 - 26088*a^4 + 20486*a^3 - 15382*a^2 + 5925*a + 166),\n1/1377*(-581*a^12 + 3646*a^11 - 9092*a^10 + 18533*a^9 - 27989*a^8 + 23391*a^7 - 24386*a^6 + 36337*a^5 - 30452*a^4 + 22619*a^3 - 15647*a^2 + 4943*a - 274),\n1/1377*(-581*a^12 + 3646*a^11 - 9092*a^10 + 18533*a^9 - 27989*a^8 + 23391*a^7 - 24386*a^6 + 36337*a^5 - 30452*a^4 + 22619*a^3 - 15647*a^2 + 4943*a - 274),\n0,\n0\n]\n[0.0100000 s] orders verified: ord P = 1, ord Q = 60, <P,Q> = Z/1 x Z/60\n[0.000000 s] start: X_1(1,60) mode=vanhoeij\n[0.000000 s] field: degree 13, x^13 - 7*x^12 + 20*x^11 - 42*x^10 + 69*x^9 - 74*x^8 + 73*x^7 - 103*x^6 + 119*x^5 - 99*x^4 + 72*x^3 - 39*x^2 + 10*x - 1\n[0.000000 s] curve: [\n1/1377*(-414*a^12 + 2600*a^11 - 6420*a^10 + 12926*a^9 - 19870*a^8 + 17253*a^7 - 18903*a^6 + 29426*a^5 - 26088*a^4 + 20486*a^3 - 15382*a^2 + 5925*a + 166),\n1/1377*(-581*a^12 + 3646*a^11 - 9092*a^10 + 18533*a^9 - 27989*a^8 + 23391*a^7 - 24386*a^6 + 36337*a^5 - 30452*a^4 + 22619*a^3 - 15647*a^2 + 4943*a - 274),\n1/1377*(-581*a^12 + 3646*a^11 - 9092*a^10 + 18533*a^9 - 27989*a^8 + 23391*a^7 - 24386*a^6 + 36337*a^5 - 30452*a^4 + 22619*a^3 - 15647*a^2 + 4943*a - 274),\n0,\n0\n]\n[0.0100000 s] orders verified: ord P = 1, ord Q = 60, <P,Q> = Z/1 x Z/60\n"
+}

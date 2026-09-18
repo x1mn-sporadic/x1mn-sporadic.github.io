@@ -26,7 +26,7 @@ LABELS = {
     "degree of the point": "degree", "reference": "reference", "your name and affiliation": "name", "notes": "notes",
     "discovered by": "discoverer", "year of discovery": "year",
 }
-DONE_LABELS = {"certified", "verified", "rejected"}
+DONE_LABELS = {"certified", "verified", "rejected", "manual"}
 
 
 def parse_body(body: str) -> dict:
