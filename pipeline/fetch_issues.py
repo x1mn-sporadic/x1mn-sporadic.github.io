@@ -25,6 +25,7 @@ LABELS = {
     "van hoeij format (eqxy)": "eqxy", "point q of order n": "Q", "point p of order m (only if m > 1)": "P",
     "degree of the point": "degree", "reference": "reference", "your name and affiliation": "name", "notes": "notes",
     "discovered by": "discoverer", "year of discovery": "year",
+    "proved sporadic by": "sporadic_by", "proved isolated by": "isolated_by",
 }
 DONE_LABELS = {"certified", "verified", "rejected", "manual"}
 
@@ -76,6 +77,9 @@ def to_submission(issue: dict) -> dict:
     sub["discoverer"] = f.get("discoverer", "").strip()
     sub["year"] = int(f["year"].strip()) if f.get("year", "").strip().isdigit() else f.get("year", "").strip()
     sub["notes"] = f.get("notes", "").strip()
+    for k in ("sporadic_by", "isolated_by"):
+        if f.get(k, "").strip():
+            sub[k] = f[k].strip()
     sub["date"] = (issue.get("created_at") or "")[:10]
     sub["source"] = {"kind": "issue", "number": issue["number"], "url": issue.get("html_url", "")}
     for k in ("m", "n"):

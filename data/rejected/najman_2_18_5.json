@@ -1,0 +1,41 @@
+{
+  "schema": "x1mn-sporadic/rejected/1",
+  "source_file": "najman_2_18_5.json",
+  "reason": "duplicate of the existing point 2.18.5.a (the same elliptic curve over the same residue field)",
+  "submission": {
+    "schema": "x1mn-sporadic/submission/1",
+    "m": 2,
+    "n": 18,
+    "field": "27*x^5 + 99*x^4 - 50*x^3 - 82*x^2 - 25*x - 1",
+    "curve": {
+      "ainvs": [
+        "0",
+        "(878337*a^4 + 3177882*a^3 - 1780432*a^2 - 2579138*a - 689573)/116",
+        "0",
+        "(1 - (-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116 - (878337*a^4 + 3177882*a^3 - 1780432*a^2 - 2579138*a - 689573)/116)*(-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116",
+        "0"
+      ]
+    },
+    "points": {
+      "P": [
+        "0",
+        "0"
+      ],
+      "Q": [
+        "(-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116",
+        "(-449091*a^4 - 1624662*a^3 + 910868*a^2 + 1318014*a + 352503)/116"
+      ]
+    },
+    "degree": 5,
+    "submitter": "Filip Najman",
+    "reference": "degree5_torsion/notes/23 (unpublished, 2026-09-05)",
+    "notes": "private test fixture",
+    "date": "2026-09-05",
+    "source": {
+      "kind": "file",
+      "path": "pipeline/tests/private/najman_2_18_5.json"
+    }
+  },
+  "date": "2026-09-18 18:45:46 UTC",
+  "magma_log": "[0.000000 s] start: X_1(2,18) mode=ainvs\n[0.000000 s] field: degree 5, 27*x^5 + 99*x^4 - 50*x^3 - 82*x^2 - 25*x - 1\n[0.000000 s] curve: [\n0,\n1/116*(878337*a^4 + 3177882*a^3 - 1780432*a^2 - 2579138*a - 689573),\n0,\n1/29*(-270014202*a^4 - 977353812*a^3 + 545989420*a^2 + 794366220*a + 212655430),\n0\n]\n[0.0100000 s] orders verified: ord P = 2, ord Q = 18, <P,Q> = Z/2 x Z/18\n[0.0200000 s] torsion bound from reductions: |E(K)_tors| divides 36 (primes [ 17, 17, 19, 19, 23, 23 ])\n[0.0200000 s] Tate normal form done; residue field of the point has degree 5 (K has degree 5)\n[0.0200000 s] j: degree 5, CM false 0\n[0.0400000 s] conductor norm 6\n[0.0400000 s] VERIFY_DONE\n"
+}

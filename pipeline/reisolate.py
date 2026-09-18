@@ -77,7 +77,7 @@ def main():
             if line.strip():
                 r = json.loads(line)
                 results[r["id"]] = r["result"]
-    curves_out, _, _ = build.build()
+    curves_out, _, _, _ = build.build()
     curves = {(c["m"], c["n"]): c for c in curves_out["curves"]}
     curve = curves[(args.m, args.n)]
     lib_hash = hashlib.sha256(ISOLATION_LIB.read_bytes()).hexdigest()

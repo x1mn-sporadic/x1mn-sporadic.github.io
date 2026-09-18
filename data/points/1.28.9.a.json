@@ -49,6 +49,13 @@
     "by": "E. González-Jiménez, F. Najman",
     "year": 2019
   },
+  "credits": {
+    "isolated": {
+      "by": "A. Bourdon, D. R. Gill, J. Rouse, L. D. Watson",
+      "year": 2020,
+      "reference": "Odd degree isolated points on X_1(N) with rational j-invariant, arXiv:2006.14966, Theorem 2 and Section 4.7"
+    }
+  },
   "field": {
     "poly": "x^9 - x^8 - 2*x^7 - x^6 + 5*x^5 + x^4 - 5*x^3 + 2*x^2 + 2*x - 1",
     "poly_coeffs": [

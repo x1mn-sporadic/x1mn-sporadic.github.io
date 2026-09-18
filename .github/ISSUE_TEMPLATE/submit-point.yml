@@ -89,6 +89,18 @@ body:
       description: Where the point is published (arXiv number, DOI, paper), or "new".
       placeholder: "arXiv:1202.4355"
   - type: input
+    id: sporadic_by
+    attributes:
+      label: Proved sporadic by
+      description: Only if someone has already proved that the point is sporadic (finitely many points of degree ≤ d on the curve); the site otherwise credits the cited finiteness results. Format "names (year), reference".
+      placeholder: "F. Najman (2012), arXiv:1211.2188"
+  - type: input
+    id: isolated_by
+    attributes:
+      label: Proved isolated by
+      description: Only if someone has already proved that the point is isolated; the site otherwise credits its own computation (or the cited results). Format "names (year), reference".
+      placeholder: "A. Bourdon, D. R. Gill, J. Rouse, L. D. Watson (2020), arXiv:2006.14966, Theorem 2"
+  - type: input
     id: name
     attributes:
       label: Your name and affiliation

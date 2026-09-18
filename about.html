@@ -84,6 +84,10 @@
     When the Jacobian has positive rank, P¹-isolation alone does not decide the question; the census then relies on a published proof of AV-isolation
     for that specific point, recorded in <code>pipeline/knowledge.py</code> (<code>CURATED_POINTS</code>) with its citation — currently the degree-18
     point of <span class="m">X₁(37)</span> (Theorem 48 of the Derickx–van Hoeij appendix to Bourdon–Hashimoto–Keller–Klagsbrun–Lowry-Duda–Morrison–Najman–Shukla).</p>
+  <p>Each point page credits separately <b>who found the point</b> and <b>who proved it sporadic or isolated</b>: a published proof that preceded
+    this census is named with its year and reference (recorded in the certificate as <code>credits</code>; e.g. the degree-9 point of <span class="m">X₁(28)</span> was found by
+    González-Jiménez–Najman and proved isolated by Bourdon–Gill–Rouse–Watson); otherwise the answer is credited to the cited results it follows from,
+    or to this census's own computation of <span class="m">dim L(x) = 1</span>. Submitters can name the provers on the submission form.</p>
   <p>Every fact is credited to its first appearance in print (the paper that proved it), not to the table or survey it was
     transcribed from; facts that have not appeared in print are credited to "Najman 2026 (unpublished)". The curated facts are in <code>pipeline/knowledge.py</code>; the tables are copied verbatim into <code>data/knowledge/sources/</code> with their provenance.
     Genus and index of every curve were computed with Magma (<code>CongruenceSubgroup([n,n,m])</code>). Nothing on this site is asserted from memory:
@@ -106,6 +110,6 @@
     The seed data are Mark van Hoeij's low-degree places on <span class="m">X₁(N)</span> (arXiv:1202.4355). The design of this site follows the
     <a href="https://elliptic-rank.icarm.cloud/">Elliptic Curve Rank Leaderboard</a>.</p>
 </main>
-<script src="assets/app.js?v=3"></script>
+<script src="assets/app.js?v=4"></script>
 </body>
 </html>

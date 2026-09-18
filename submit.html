@@ -31,7 +31,10 @@
     <li><b>van Hoeij's format</b>: <code>eqx</code> (the field polynomial) and <code>eqxy</code>, as in his
       <a href="https://www.math.fsu.edu/~hoeij/files/X1N/LowDegreePlaces">LowDegreePlaces</a> file (<span class="m">m = 1</span> only).</li>
   </ul>
-  <p>Please say who discovered the point and when (these are shown in the tables), and add a reference (paper, arXiv number, or "new").</p>
+  <p>Please say who discovered the point and when (these are shown in the tables), and add a reference (paper, arXiv number, or "new").
+    If someone has already <em>proved</em> that the point is sporadic or isolated, name them too ("names (year), reference" in the fields
+    <em>Proved sporadic by</em> / <em>Proved isolated by</em>): the point page credits the discovery and these proofs separately. Left empty,
+    the proofs are credited to the cited results or to the census's own computation.</p>
 
   <h3>2. What happens next</h3>
   <ol class="steps">
@@ -73,8 +76,10 @@
   "submitter": "Your Name", "affiliation": "Your institution", "github": "your-handle",
   "discoverer": "J. Doe", "year": 2026,
   "reference": "arXiv:XXXX.XXXXX, Theorem 3",
+  "credits": {"isolated": {"by": "A. Author, B. Author", "year": 2025, "reference": "arXiv:YYYY.YYYYY, Theorem 1"}},
   "notes": "anything the curators should know"
 }</code></pre>
+  <p><code>"credits"</code> (optional) names who proved the point sporadic and/or isolated, when that was done before this census.</p>
   <p>Instead of <code>"ainvs"</code> you may give <code>"curve": {"tate": {"b": "...", "c": "..."}}</code> or
     <code>"curve": {"vanhoeij": {"eqxy": "..."}}</code>. The example values above are placeholders, not a real point.</p>
 
@@ -84,6 +89,6 @@
     Derickx–Sutherland's models exist (see the <a href="index.html">home page</a>). If your point lies on a curve outside this list,
     open an <a href="https://github.com/x1mn-sporadic/x1mn-sporadic.github.io/issues">issue</a> and it will be added.</p>
 </main>
-<script src="assets/app.js?v=3"></script>
+<script src="assets/app.js?v=4"></script>
 </body>
 </html>

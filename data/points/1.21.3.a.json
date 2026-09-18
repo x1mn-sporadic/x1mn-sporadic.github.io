@@ -51,6 +51,13 @@
     "by": "F. Najman",
     "year": 2011
   },
+  "credits": {
+    "sporadic": {
+      "by": "F. Najman",
+      "year": 2012,
+      "reference": "Torsion of rational elliptic curves over cubic fields and sporadic points on X_1(n), arXiv:1211.2188 (title and abstract)"
+    }
+  },
   "field": {
     "poly": "x^3 - 3*x^2 + 3",
     "poly_coeffs": [

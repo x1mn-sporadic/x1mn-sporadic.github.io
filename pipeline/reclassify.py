@@ -30,7 +30,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
-    curves_out, _, _ = build.build()
+    curves_out, _, _, _ = build.build()
     curves = {(c["m"], c["n"]): c for c in curves_out["curves"]}
     changed = 0
     for path in sorted(POINTS_DIR.glob("*.json")):

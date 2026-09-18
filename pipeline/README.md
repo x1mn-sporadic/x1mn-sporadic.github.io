@@ -41,6 +41,18 @@ exit status is ignored (it is 0 even after errors): `verify.py` trusts only the 
 Every change to `magma/verify_lib.m` changes the SHA-256 recorded in new certificates; old certificates
 keep the hash of the code that produced them.
 
+## Credits
+
+A certificate credits the discovery of the point (`discovery`: `by`, `year`) separately from the
+proofs that it is sporadic or isolated (`credits`: `sporadic` / `isolated`, each `by`, `year`,
+`reference`). The `credits` are only recorded when such a proof preceded this census -- given in the
+submission as `"credits": {"isolated": {"by": ..., "year": ..., "reference": ...}}` or, on the issue
+form, as the free text "names (year), reference" of the fields *Proved sporadic by* / *Proved
+isolated by*. When no explicit credit is recorded the point page credits the cited results the
+answer follows from (the `sources` of the classification), or the census's own computation of
+`dim L(x) = 1` for isolation. To credit an already accepted point, add the `credits` block to its
+certificate by hand (the three points 1.21.3.a, 1.28.9.a and 1.37.18.a were done this way).
+
 ## Processing deferred submissions by hand
 
 ```sh

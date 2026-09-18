@@ -44,6 +44,7 @@ import argparse
 import datetime as dt
 import hashlib
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -90,6 +91,28 @@ def _s(v, regex, what):
     return v
 
 
+CREDIT_KEYS = ("sporadic", "isolated")
+RE_CREDIT_TEXT = re.compile(r"^\s*(.*?)\s*\(((?:1|2)\d{3})\)\s*[,;:]?\s*(.*?)\s*$", re.S)   # "names (year), reference"
+
+
+def parse_credit(v) -> dict:
+    """Who proved that the point is sporadic / isolated (as opposed to who found it).
+
+    Accepts {"by": ..., "year": ..., "reference": ...} or the free text of the issue form,
+    "A. Author, B. Author (2020), arXiv:XXXX.XXXXX, Theorem 2" -> by / year / reference.
+    Returns {} when nothing usable is given.
+    """
+    if isinstance(v, dict):
+        out = {"by": str(v.get("by", "")).strip()[:300], "reference": str(v.get("reference", "")).strip()[:500]}
+        y = str(v.get("year", "")).strip()
+        out["year"] = int(y) if y.isdigit() else ""
+    else:
+        mm = RE_CREDIT_TEXT.match(str(v or ""))
+        by, year, ref = mm.groups() if mm else (str(v or "").strip(), "", "")
+        out = {"by": by[:300], "year": int(year) if year else "", "reference": ref[:500]}
+    return out if out["by"] else {}
+
+
 def validate(sub: dict, curves: dict, force: bool = False) -> dict:
     """Return a normalised copy of the submission or raise Reject."""
     try:
@@ -133,7 +156,7 @@ def validate(sub: dict, curves: dict, force: bool = False) -> dict:
             if not isinstance(xy, list) or len(xy) != 2:
                 raise Reject(f"point {name} must be [x, y]")
             out[name] = [_s(str(xy[0]), RE_ELEMENT, f"{name}.x"), _s(str(xy[1]), RE_ELEMENT, f"{name}.y")]
-    deg = max((int(t) for t in __import__("re").findall(r"x\^(\d+)", out["field"])), default=1)
+    deg = max((int(t) for t in re.findall(r"x\^(\d+)", out["field"])), default=1)
     if not force:
         if deg > LIMITS["max_degree"]:
             raise Defer(f"the field has degree {deg} > {LIMITS['max_degree']}")
@@ -146,6 +169,16 @@ def validate(sub: dict, curves: dict, force: bool = False) -> dict:
               "discoverer", "year"):
         if k in sub:
             out[k] = sub[k]
+    # who proved the point sporadic / isolated, when that is not this census: "credits": {"isolated": {...}}
+    # in the JSON, or the flat "isolated_by" / "sporadic_by" texts of the issue form
+    credits = {}
+    for k in CREDIT_KEYS:
+        raw = (sub.get("credits") or {}).get(k) if isinstance(sub.get("credits"), dict) else None
+        cr = parse_credit(raw if raw is not None else sub.get(f"{k}_by", ""))
+        if cr:
+            credits[k] = cr
+    if credits:
+        out["credits"] = credits
     return out
 
 
@@ -244,7 +277,7 @@ def run_isolation(res: dict, jobdir: Path, args) -> dict:
 
 def polredabs(poly: str) -> str | None:
     """PARI's canonical polynomial of the field (degree <= 16 only: the canonical search is exponential)."""
-    deg = max((int(t) for t in __import__("re").findall(r"x\^(\d+)", poly)), default=1)
+    deg = max((int(t) for t in re.findall(r"x\^(\d+)", poly)), default=1)
     if deg > 16:
         return None
     try:
@@ -353,6 +386,9 @@ def build_certificate(v: dict, res: dict, curve: dict, points, jobdir: Path, iso
         "classification": {k: cls[k] for k in ("infinite_in_degree", "sporadic", "isolated")},
         "isolation": iso,
         "discovery": {"by": v.get("discoverer", ""), "year": v.get("year", "")},
+        # explicit credits for the proofs of sporadicity / isolation (published before this census verified them);
+        # when absent, the point page credits the cited results or the census's own computation
+        "credits": v.get("credits", {}),
         "field": {
             "poly": rf["poly"], "poly_coeffs": rf["poly_coeffs"], "polredabs": canon,
             "degree": d, "disc": rf["disc"], "disc_factored": rf["disc_factored"], "signature": rf["signature"],

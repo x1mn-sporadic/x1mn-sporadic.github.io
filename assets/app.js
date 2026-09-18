@@ -275,8 +275,23 @@
     $("#log-link").href = p.verification.log;
     const body = $("#body");
 
-    // status panel: the three questions
+    // status panel: the three questions, then the credits: who found the point, and who proved it sporadic /
+    // isolated -- an explicit credit recorded in the certificate (a paper that preceded this census), else the
+    // cited results the answer follows from, else the census's own computation
     const cl = p.classification;
+    const credits = p.credits || {};
+    const censusYear = p.dates && p.dates.verified ? p.dates.verified.slice(0, 4) : "";
+    const explicit = (cr) => (cr && cr.by ? [cr.by + (cr.year ? " (" + cr.year + ")" : ""), cr.reference ? [", ", cr.reference] : null] : null);
+    const fromResults = (a) => ["follows from the cited results (", el("span", { class: "src" }, sourceLinks(sources, a.sources)), ") applied to this point"];
+    const isoHere = !!(p.isolation && p.isolation.computed && p.isolation.p1_isolated && /^dim L\(x\) = 1/.test(cl.isolated.rule));
+    const avSources = (cl.isolated.sources || []).filter((k) => k !== "BELOV");    // the rank-0 result, or a published AV-isolation proof
+    const isoDerived = isoHere
+      ? ["this census (dim L(x) = 1 computed on Mordell" + (censusYear ? ", " + censusYear : "") + ")",
+         avSources.length ? [/rank/.test(cl.isolated.rule) ? ", with rank 0 from " : ", with AV-isolation from ", el("span", { class: "src" }, sourceLinks(sources, avSources))] : null]
+      : fromResults(cl.isolated);
+    const isoConfirmed = isoHere ? "; P¹-isolation confirmed independently by this census (dim L(x) = 1 computed on Mordell)" : null;
+    const creditRow = (label, a, cr, derived, confirmed) => (a.value === "yes"
+      ? [el("dt", null, label), el("dd", null, explicit(cr) ? [explicit(cr), confirmed] : derived)] : null);
     const answerRow = (label, a, good) => [
       el("dt", null, label),
       el("dd", null, ans(a, good, ""), " ", el("span", { html: math(a.rule) }),
@@ -287,7 +302,9 @@
         answerRow("sporadic", cl.sporadic, "yes"),
         answerRow("isolated", cl.isolated, "yes"),
         answerRow("infinitely many points of degree " + p.degree, cl.infinite_in_degree, "no"),
-        el("dt", null, "discovered by"), el("dd", null, discovery(p.discovery.by, p.discovery.year))),
+        el("dt", null, "discovered by"), el("dd", null, discovery(p.discovery.by, p.discovery.year)),
+        creditRow("proved sporadic by", cl.sporadic, credits.sporadic, fromResults(cl.sporadic)),
+        creditRow("proved isolated by", cl.isolated, credits.isolated, isoDerived, isoConfirmed)),
       p.reference ? el("p", { class: "wide" }, el("b", null, "Reference: "), p.reference) : null,
       p.notes ? el("p", { class: "wide" }, el("b", null, "Notes: "), p.notes) : null));
 

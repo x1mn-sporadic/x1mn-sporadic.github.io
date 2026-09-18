@@ -154,15 +154,15 @@ def build():
     points = [read_json(p) for p in sorted(POINTS_DIR.glob("*.json"))]
     points.sort(key=lambda p: (p["m"], p["n"], p["degree"], p["id"]))
     curves = []
+    per_curve = {}      # data/curves/m.n.json -> content (written by main, so that --check writes nothing)
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    (DATA / "curves").mkdir(exist_ok=True)
     for rec in magma["curves"]:
         m, n = rec["m"], rec["n"]
         c = curve_record(m, n, rec, tables.get((m, n)))
         mine = [p for p in points if p["m"] == m and p["n"] == n]
         c["n_points"] = len(mine)
         if mine:
-            write_json(DATA / "curves" / f"{m}.{n}.json", {"generated": now, "m": m, "n": n, "points": [point_summary(p) for p in mine]})
+            per_curve[DATA / "curves" / f"{m}.{n}.json"] = {"generated": now, "m": m, "n": n, "points": [point_summary(p) for p in mine]}
         c["n_certified"] = sum(1 for p in mine if p["status"] == "certified")
         c["n_verified"] = sum(1 for p in mine if p["status"] == "verified")
         c["n_sporadic"] = sum(1 for p in mine if p["classification"]["sporadic"]["value"] == "yes")
@@ -198,7 +198,7 @@ def build():
         return sm
     points_out = {"generated": now, "points": [compact(p) for p in points]}
     sources_out = {"generated": now, "sources": knowledge.SOURCES}
-    return curves_out, points_out, sources_out
+    return curves_out, points_out, sources_out, per_curve
 
 
 def stable(obj):
@@ -211,14 +211,16 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
     args = ap.parse_args()
-    curves_out, points_out, sources_out = build()
+    curves_out, points_out, sources_out, per_curve = build()
     targets = [(DATA / "curves.json", curves_out), (DATA / "points.json", points_out), (DATA / "sources.json", sources_out)]
+    targets += sorted(per_curve.items())
     if args.check:
-        changed = [str(p) for p, o in targets if not p.exists() or stable(read_json(p)) != stable(o)]
+        changed = [str(p.relative_to(DATA.parent)) for p, o in targets if not p.exists() or stable(read_json(p)) != stable(o)]
         if changed:
             sys.exit("out of date: " + ", ".join(changed))
         print("data files up to date")
         return
+    (DATA / "curves").mkdir(exist_ok=True)
     for p, o in targets:
         write_json(p, o)
     print(f"wrote data/curves.json ({curves_out['n_curves']} curves), data/points.json "

@@ -46,8 +46,15 @@
     "isolation_lib_sha256": "52f0927eb3c3c9c8c9b2bbe3330e41abe27c5937c4792e7f00c14e86a633706b"
   },
   "discovery": {
-    "by": "A. Bourdon, S. Hashimoto, T. Keller, Z. Klagsbrun, D. Lowry-Duda, T. Morrison, F. Najman, H. Shukla (isolation; AV-isolation in the appendix by M. Derickx and M. van Hoeij)",
-    "year": 2023
+    "by": "A. V. Sutherland",
+    "year": 2012
+  },
+  "credits": {
+    "isolated": {
+      "by": "A. Bourdon, S. Hashimoto, T. Keller, Z. Klagsbrun, D. Lowry-Duda, T. Morrison, F. Najman, H. Shukla (P¹-isolation); M. Derickx, M. van Hoeij (AV-isolation, in the appendix)",
+      "year": 2023,
+      "reference": "Towards a classification of isolated j-invariants, arXiv:2311.07740 (Math. Comp. 94 (2025), 447-473), Section 9.0.1 and Theorem 48 of the appendix"
+    }
   },
   "field": {
     "poly": "x^18 - 5*x^17 - 314*x^16 + 1186*x^15 + 33856*x^14 - 44742*x^13 - 1741785*x^12 - 2334512*x^11 + 36376693*x^10 + 138257088*x^9 - 7915873*x^8 - 834737656*x^7 - 1394152092*x^6 - 227741228*x^5 + 969357016*x^4 + 279343897*x^3 - 260944707*x^2 + 41391517*x - 1427089",
