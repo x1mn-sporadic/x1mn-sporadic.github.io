@@ -1,0 +1,94 @@
+{
+  "generated": "2026-09-18 19:19 UTC",
+  "m": 1,
+  "n": 29,
+  "points": [
+    {
+      "id": "1.29.9.a",
+      "m": 1,
+      "n": 29,
+      "degree": 9,
+      "status": "certified",
+      "j_degree": 9,
+      "cm": false,
+      "field_poly": "x^9 - 8*x^8 + 23*x^7 - 26*x^6 + 2*x^5 + 17*x^4 - 11*x^3 + 2*x^2 + 1",
+      "field_disc": "507490937",
+      "j_rational": "",
+      "torsion": [
+        29
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(29) has only finitely many points of degree 9",
+        "sporadic": "finitely many points of each degree <= 9 on X_1(29)",
+        "isolated": "finitely many points of degree 9 on X_1(29), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 57",
+      "verified": "2026-09-17 10:31:48 UTC"
+    },
+    {
+      "id": "1.29.10.a",
+      "m": 1,
+      "n": 29,
+      "degree": 10,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 - 2*x^9 + 2*x^8 - 5*x^7 + 7*x^6 - 4*x^5 + 4*x^4 - 8*x^3 + 5*x^2 - 1",
+      "field_disc": "820675277",
+      "j_rational": "",
+      "torsion": [
+        29
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(29) has only finitely many points of degree 10",
+        "sporadic": "finitely many points of each degree <= 10 on X_1(29)",
+        "isolated": "finitely many points of degree 10 on X_1(29), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 58",
+      "verified": "2026-09-17 10:31:45 UTC"
+    },
+    {
+      "id": "1.29.10.b",
+      "m": 1,
+      "n": 29,
+      "degree": 10,
+      "status": "certified",
+      "j_degree": 10,
+      "cm": false,
+      "field_poly": "x^10 - 5*x^9 + 15*x^8 - 31*x^7 + 47*x^6 - 56*x^5 + 51*x^4 - 37*x^3 + 20*x^2 - 7*x + 1",
+      "field_disc": "917035997",
+      "j_rational": "",
+      "torsion": [
+        29
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(29) has only finitely many points of degree 10",
+        "sporadic": "finitely many points of each degree <= 10 on X_1(29)",
+        "isolated": "finitely many points of degree 10 on X_1(29), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 59",
+      "verified": "2026-09-17 10:31:47 UTC"
+    }
+  ]
+}

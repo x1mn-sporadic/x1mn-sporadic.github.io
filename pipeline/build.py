@@ -2,9 +2,10 @@
 """Build the static data files the web site reads.
 
   data/curves.json   every curve of the census with genus, index, gonality bounds, rank, the
-                     degrees known to have finitely / infinitely many points (with sources),
-                     and the list of accepted points on it;
-  data/points.json   every accepted point (the certificates in data/points/, verbatim);
+                     degrees known to have finitely / infinitely many points (with sources), and counts;
+  data/curves/m.n.json  the summaries of the points on X_1(m,n) (loaded by the curve page);
+  data/points.json   a compact index of every accepted point (loaded by the by-degree page); the
+                     certificates stay in data/points/<id>.json (loaded by the point page);
   data/sources.json  the bibliography used by the certificates.
 
 Inputs: data/knowledge/curves_magma.json (Magma genus/index), data/knowledge/sources/*.csv
@@ -137,7 +138,7 @@ def curve_record(m, n, magma_rec, table_row):
 
 def point_summary(p):
     c = p["classification"]
-    return {"id": p["id"], "degree": p["degree"], "status": p["status"], "j_degree": p["curve"]["j_degree"],
+    return {"id": p["id"], "m": p["m"], "n": p["n"], "degree": p["degree"], "status": p["status"], "j_degree": p["curve"]["j_degree"],
             "cm": p["curve"]["cm"], "field_poly": p["field"]["poly"], "field_disc": p["field"]["disc"],
             "j_rational": p["curve"]["j_rational"], "torsion": p["torsion"]["invariants"],
             "torsion_known": p["torsion"]["known_exactly"],
@@ -153,11 +154,15 @@ def build():
     points = [read_json(p) for p in sorted(POINTS_DIR.glob("*.json"))]
     points.sort(key=lambda p: (p["m"], p["n"], p["degree"], p["id"]))
     curves = []
+    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    (DATA / "curves").mkdir(exist_ok=True)
     for rec in magma["curves"]:
         m, n = rec["m"], rec["n"]
         c = curve_record(m, n, rec, tables.get((m, n)))
         mine = [p for p in points if p["m"] == m and p["n"] == n]
-        c["points"] = [point_summary(p) for p in mine]
+        c["n_points"] = len(mine)
+        if mine:
+            write_json(DATA / "curves" / f"{m}.{n}.json", {"generated": now, "m": m, "n": n, "points": [point_summary(p) for p in mine]})
         c["n_certified"] = sum(1 for p in mine if p["status"] == "certified")
         c["n_verified"] = sum(1 for p in mine if p["status"] == "verified")
         c["n_sporadic"] = sum(1 for p in mine if p["classification"]["sporadic"]["value"] == "yes")
@@ -165,7 +170,6 @@ def build():
         c["degrees_present"] = sorted({p["degree"] for p in mine})
         curves.append(c)
     curves.sort(key=lambda c: (c["m"], c["n"]))
-    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     curves_out = {
         "generated": now,
         "magma_version": magma["magma_version"],
@@ -186,7 +190,13 @@ def build():
         "n_rejected": len(list(REJECTED_DIR.glob("*.json"))),
         "curves": curves,
     }
-    points_out = {"generated": now, "points": points}
+    # the index the site loads on every page: summaries only (the certificates run to 70 MB in total);
+    # point pages fetch data/points/<id>.json individually
+    def compact(p):
+        sm = point_summary(p); sm.pop("rules", None); sm.pop("reference", None); sm.pop("verified", None); sm.pop("torsion", None)
+        sm.pop("torsion_known", None); sm.pop("submitter", None)
+        return sm
+    points_out = {"generated": now, "points": [compact(p) for p in points]}
     sources_out = {"generated": now, "sources": knowledge.SOURCES}
     return curves_out, points_out, sources_out
 

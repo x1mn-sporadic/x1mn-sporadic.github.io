@@ -1,0 +1,558 @@
+{
+  "generated": "2026-09-18 19:19 UTC",
+  "m": 1,
+  "n": 39,
+  "points": [
+    {
+      "id": "1.39.8.a",
+      "m": 1,
+      "n": 39,
+      "degree": 8,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": true,
+      "field_poly": "x^8 - 3*x^7 + 4*x^6 - 6*x^5 + 9*x^4 - 9*x^3 + 7*x^2 - 3*x + 1",
+      "field_disc": "1601613",
+      "j_rational": "0",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(39) has only finitely many points of degree 8",
+        "sporadic": "finitely many points of each degree <= 8 on X_1(39)",
+        "isolated": "finitely many points of degree 8 on X_1(39), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 170",
+      "verified": "2026-09-17 10:58:16 UTC"
+    },
+    {
+      "id": "1.39.9.a",
+      "m": 1,
+      "n": 39,
+      "degree": 9,
+      "status": "certified",
+      "j_degree": 3,
+      "cm": false,
+      "field_poly": "x^9 + x^8 - 6*x^7 - 8*x^6 + 5*x^5 + 9*x^4 - 4*x^2 + 1",
+      "field_disc": "-195458751",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(39) has only finitely many points of degree 9",
+        "sporadic": "finitely many points of each degree <= 9 on X_1(39)",
+        "isolated": "finitely many points of degree 9 on X_1(39), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 171",
+      "verified": "2026-09-17 10:59:05 UTC"
+    },
+    {
+      "id": "1.39.10.a",
+      "m": 1,
+      "n": 39,
+      "degree": 10,
+      "status": "certified",
+      "j_degree": 10,
+      "cm": false,
+      "field_poly": "x^10 - 4*x^9 + 7*x^8 - 4*x^7 - 6*x^6 + 13*x^5 - 9*x^4 - x^3 + 5*x^2 - 4*x + 1",
+      "field_disc": "-3393524187",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(39) has only finitely many points of degree 10",
+        "sporadic": "finitely many points of each degree <= 10 on X_1(39)",
+        "isolated": "finitely many points of degree 10 on X_1(39), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 172",
+      "verified": "2026-09-17 10:43:12 UTC"
+    },
+    {
+      "id": "1.39.12.a",
+      "m": 1,
+      "n": 39,
+      "degree": 12,
+      "status": "certified",
+      "j_degree": 4,
+      "cm": false,
+      "field_poly": "x^12 - 4*x^11 + 12*x^10 - 26*x^9 + 40*x^8 - 46*x^7 + 45*x^6 - 40*x^5 + 32*x^4 - 21*x^3 + 11*x^2 - 4*x + 1",
+      "field_disc": "50551744653",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(39) has only finitely many points of degree 12",
+        "sporadic": "finitely many points of each degree <= 12 on X_1(39)",
+        "isolated": "finitely many points of degree 12 on X_1(39), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 173",
+      "verified": "2026-09-17 10:44:05 UTC"
+    },
+    {
+      "id": "1.39.12.b",
+      "m": 1,
+      "n": 39,
+      "degree": 12,
+      "status": "certified",
+      "j_degree": 6,
+      "cm": false,
+      "field_poly": "x^12 - 2*x^11 - 9*x^10 + 9*x^9 + 20*x^8 - 16*x^7 - 11*x^6 + 12*x^5 - 4*x^4 - 4*x^3 + 5*x^2 + x - 1",
+      "field_disc": "-5099237430147",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(39) has only finitely many points of degree 12",
+        "sporadic": "finitely many points of each degree <= 12 on X_1(39)",
+        "isolated": "finitely many points of degree 12 on X_1(39), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 174",
+      "verified": "2026-09-17 10:44:53 UTC"
+    },
+    {
+      "id": "1.39.12.c",
+      "m": 1,
+      "n": 39,
+      "degree": 12,
+      "status": "certified",
+      "j_degree": 6,
+      "cm": false,
+      "field_poly": "x^12 + 4*x^11 + 10*x^10 + 20*x^9 + 31*x^8 + 43*x^7 + 52*x^6 + 56*x^5 + 52*x^4 + 39*x^3 + 21*x^2 + 7*x + 1",
+      "field_disc": "-341962230519",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(39) has only finitely many points of degree 12",
+        "sporadic": "finitely many points of each degree <= 12 on X_1(39)",
+        "isolated": "finitely many points of degree 12 on X_1(39), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 175",
+      "verified": "2026-09-17 10:45:40 UTC"
+    },
+    {
+      "id": "1.39.13.a",
+      "m": 1,
+      "n": 39,
+      "degree": 13,
+      "status": "certified",
+      "j_degree": 13,
+      "cm": false,
+      "field_poly": "x^13 - 4*x^12 + 7*x^11 - 5*x^10 - 6*x^9 + 19*x^8 - 22*x^7 + 13*x^6 - 4*x^5 + 3*x^4 - 7*x^3 + 8*x^2 - 5*x + 1",
+      "field_disc": "-14047799762079",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
+        "sporadic": "finitely many points of degree <= 13: rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
+        "isolated": "finitely many points of degree 13 on X_1(39), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 176",
+      "verified": "2026-09-17 10:46:29 UTC"
+    },
+    {
+      "id": "1.39.13.b",
+      "m": 1,
+      "n": 39,
+      "degree": 13,
+      "status": "certified",
+      "j_degree": 13,
+      "cm": false,
+      "field_poly": "x^13 - x^11 - 3*x^10 - 2*x^9 + 5*x^8 + x^7 - x^6 - 5*x^5 + 7*x^4 - 6*x^3 + 6*x^2 - 4*x + 1",
+      "field_disc": "-7805208559959",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
+        "sporadic": "finitely many points of degree <= 13: rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
+        "isolated": "finitely many points of degree 13 on X_1(39), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 177",
+      "verified": "2026-09-17 10:47:19 UTC"
+    },
+    {
+      "id": "1.39.13.c",
+      "m": 1,
+      "n": 39,
+      "degree": 13,
+      "status": "certified",
+      "j_degree": 13,
+      "cm": false,
+      "field_poly": "x^13 - 6*x^12 + 11*x^11 - x^10 - 19*x^9 + 27*x^8 - 19*x^7 - 2*x^6 + 12*x^5 - 9*x^4 + 2*x^3 + 3*x^2 - 2*x + 1",
+      "field_disc": "-49047631346319",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
+        "sporadic": "finitely many points of degree <= 13: rank 0 and 13 < 14 <= gonality of X_1(39) over Q",
+        "isolated": "finitely many points of degree 13 on X_1(39), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 178",
+      "verified": "2026-09-17 10:48:15 UTC"
+    },
+    {
+      "id": "1.39.15.a",
+      "m": 1,
+      "n": 39,
+      "degree": 15,
+      "status": "certified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 + 3*x^14 + 5*x^13 + 2*x^12 - 8*x^11 - 18*x^10 - 18*x^9 + 20*x^7 + 27*x^6 + 15*x^5 - 3*x^4 - 11*x^3 - 10*x^2 - 5*x - 1",
+      "field_disc": "6114596477365737",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
+        "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 179",
+      "verified": "2026-09-17 10:49:08 UTC"
+    },
+    {
+      "id": "1.39.15.b",
+      "m": 1,
+      "n": 39,
+      "degree": 15,
+      "status": "certified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 - 4*x^14 + 6*x^13 - x^12 - 11*x^11 + 18*x^10 - 10*x^9 - 9*x^8 + 19*x^7 - 12*x^6 - 3*x^5 + 9*x^4 - 5*x^3 - x^2 + 3*x - 1",
+      "field_disc": "-10496055636998343",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
+        "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 188",
+      "verified": "2026-09-17 10:49:59 UTC"
+    },
+    {
+      "id": "1.39.15.c",
+      "m": 1,
+      "n": 39,
+      "degree": 15,
+      "status": "certified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 + 2*x^14 + x^13 + x^12 - 5*x^11 - 4*x^10 - 3*x^9 - 2*x^8 + 6*x^7 + 3*x^6 + 3*x^5 + 4*x^4 - 5*x^3 + 3*x^2 - 3*x + 1",
+      "field_disc": "-3703260525677583",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
+        "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 180",
+      "verified": "2026-09-17 10:50:55 UTC"
+    },
+    {
+      "id": "1.39.15.d",
+      "m": 1,
+      "n": 39,
+      "degree": 15,
+      "status": "certified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 + 5*x^14 + 11*x^13 + 15*x^12 + 18*x^11 + 26*x^10 + 31*x^9 + 27*x^8 + 25*x^7 + 27*x^6 + 21*x^5 + 10*x^4 + 12*x^3 + 7*x^2 + 3",
+      "field_disc": "16680932154277329",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
+        "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 181",
+      "verified": "2026-09-17 10:51:54 UTC"
+    },
+    {
+      "id": "1.39.15.e",
+      "m": 1,
+      "n": 39,
+      "degree": 15,
+      "status": "certified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 + 7*x^14 + 23*x^13 + 45*x^12 + 54*x^11 + 32*x^10 - 14*x^9 - 55*x^8 - 72*x^7 - 69*x^6 - 57*x^5 - 39*x^4 - 21*x^3 - 9*x^2 - 4*x - 1",
+      "field_disc": "2164169497031757",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
+        "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 182",
+      "verified": "2026-09-17 10:52:48 UTC"
+    },
+    {
+      "id": "1.39.15.f",
+      "m": 1,
+      "n": 39,
+      "degree": 15,
+      "status": "certified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 - 4*x^14 - x^13 + 21*x^12 - 16*x^11 - 23*x^10 + 11*x^9 + 11*x^8 + 56*x^7 - 49*x^6 - 72*x^5 + 62*x^4 + 24*x^3 - 13*x^2 - 8*x - 1",
+      "field_disc": "12853809661090929",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
+        "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 183",
+      "verified": "2026-09-17 10:53:49 UTC"
+    },
+    {
+      "id": "1.39.15.g",
+      "m": 1,
+      "n": 39,
+      "degree": 15,
+      "status": "certified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 - 4*x^14 - 7*x^13 - 3*x^12 + 7*x^11 + 20*x^10 - 4*x^9 - 10*x^8 - 15*x^7 + 3*x^6 + 12*x^5 + x^4 - 2*x^3 - 3*x^2 + 1",
+      "field_disc": "-77595502265817783",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
+        "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 184",
+      "verified": "2026-09-17 10:54:46 UTC"
+    },
+    {
+      "id": "1.39.15.h",
+      "m": 1,
+      "n": 39,
+      "degree": 15,
+      "status": "certified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 - 4*x^14 + 8*x^13 - 11*x^12 + 13*x^11 - 11*x^10 + 24*x^8 - 57*x^7 + 90*x^6 - 105*x^5 + 91*x^4 - 57*x^3 + 25*x^2 - 7*x + 1",
+      "field_disc": "-723352547563839",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
+        "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 185",
+      "verified": "2026-09-17 10:55:43 UTC"
+    },
+    {
+      "id": "1.39.15.i",
+      "m": 1,
+      "n": 39,
+      "degree": 15,
+      "status": "certified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 - 3*x^14 + 3*x^13 - 2*x^12 + 12*x^11 - 22*x^10 + 20*x^9 - 4*x^8 - 3*x^7 - 27*x^6 + 72*x^5 - 91*x^4 + 71*x^3 - 34*x^2 + 9*x - 1",
+      "field_disc": "-5976545641547631",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
+        "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 186",
+      "verified": "2026-09-17 10:56:36 UTC"
+    },
+    {
+      "id": "1.39.15.j",
+      "m": 1,
+      "n": 39,
+      "degree": 15,
+      "status": "certified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 + 5*x^14 + 3*x^13 - 12*x^12 + 2*x^11 + 35*x^10 - 13*x^9 - 45*x^8 + 32*x^7 + 21*x^6 - 31*x^5 + 10*x^4 + 7*x^3 - 9*x^2 + 4*x - 1",
+      "field_disc": "-1094025140357425839",
+      "j_rational": "",
+      "torsion": [
+        39
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(39) has finitely many points of degree 15",
+        "sporadic": "not sporadic: X_1(39) has a function of degree 14 over Q (its gonality), hence infinitely many points of degree 14 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 187",
+      "verified": "2026-09-17 10:57:26 UTC"
+    }
+  ]
+}

@@ -136,7 +136,7 @@
       let lastM = null;
       for (const c of data.curves) {
         if (hideG0.checked && c.genus === 0) continue;
-        if (onlyPts.checked && c.points.length === 0) continue;
+        if (onlyPts.checked && !c.n_points) continue;
         if (c.m !== lastM) {
           lastM = c.m;
           const head = c.m === 1 ? "m = 1 — X₁(n), torsion ℤ/n, defined over ℚ"
@@ -156,8 +156,8 @@
           el("td", { class: "num", title: c.rank.source ? shortSource(sources, c.rank.source.split("+")[0]) : "rank not recorded" }, rank),
           el("td", null, c.genus === 0 ? el("span", { class: "empty" }, "—") : degChips(c.degrees_finite, "fin", sources)),
           el("td", null, degChips(c.degrees_infinite, "inf", sources)),
-          el("td", { class: "num", "data-sort": c.n_certified + c.n_verified }, c.points.length
-            ? [el("b", null, c.points.length), el("span", { class: "muted", title: "sporadic / isolated / undecided" },
+          el("td", { class: "num", "data-sort": c.n_certified + c.n_verified }, c.n_points
+            ? [el("b", null, c.n_points), el("span", { class: "muted", title: "sporadic / isolated / undecided" },
                  " (" + c.n_sporadic + " sp · " + c.n_isolated + " iso" + (c.n_verified ? " · " + c.n_verified + " ?" : "") + ")")] : ""),
           el("td", { class: "num" }, c.degrees_present.length ? c.degrees_present.join(", ") : ""));
         tbody.append(tr);
@@ -231,10 +231,15 @@
     if (m >= 3) $("#facts").append(el("p", { class: "notice" }, "For m ≥ 3 the degree of a point is its absolute degree [ℚ(x):ℚ]; it is a multiple of φ(" + m + ") = " + c.base_field_degree + ", and the degree over ℚ(ζ" + m + ") is the quotient. Only Abramovich's bound is recorded for the gonality over ℚ(ζ" + m + ")."));
     $("#submit-link").href = prefillIssue(m, n);
     const tbody = $("#points tbody");
-    if (!c.points.length) {
+    let cpoints = [];
+    if (c.n_points) {
+      const r = await fetch("data/curves/" + m + "." + n + ".json", { cache: "no-cache" });
+      if (r.ok) cpoints = (await r.json()).points;
+    }
+    if (!cpoints.length) {
       tbody.append(el("tr", null, el("td", { colspan: 9, class: "empty" }, "No points recorded yet.")));
     }
-    for (const p of c.points) {
+    for (const p of cpoints) {
       const href = "point.html?id=" + encodeURIComponent(p.id);
       tbody.append(el("tr", { class: "row-link", onclick: (e) => { if (e.target.tagName !== "A") location.href = href; } },
         el("td", null, el("a", { href, class: "id" }, p.id)),
@@ -255,10 +260,11 @@
   // ---------------------------------------------------------------- point page
   async function renderPoint() {
     const id = params.get("id");
-    const [pts, srcData, curves] = await Promise.all([load("points"), load("sources"), load("curves")]);
+    if (!/^[0-9]+\.[0-9]+\.[0-9]+\.[a-z]+$/.test(id || "")) { $("#title").textContent = "Unknown point"; $("#body").append(el("p", { class: "error" }, "No point with id " + esc(id) + " in the census.")); return; }
+    const [srcData, curves, r] = await Promise.all([load("sources"), load("curves"), fetch("data/points/" + id + ".json", { cache: "no-cache" })]);
     const sources = srcData.sources;
-    const p = pts.points.find((x) => x.id === id);
-    if (!p) { $("#title").textContent = "Unknown point"; $("#body").append(el("p", { class: "error" }, "No point with id " + esc(id) + " in the census.")); return; }
+    if (!r.ok) { $("#title").textContent = "Unknown point"; $("#body").append(el("p", { class: "error" }, "No point with id " + esc(id) + " in the census.")); return; }
+    const p = await r.json();
     const c = curves.curves.find((x) => x.m === p.m && x.n === p.n) || {};
     $("#title").textContent = "Point " + p.id;
     $("#subtitle").innerHTML = "A point of degree <b>" + p.degree + "</b> on " + curveLabel(p.m, p.n) +
@@ -354,6 +360,7 @@
     function draw() {
       index.innerHTML = ""; sections.innerHTML = "";
       const shown = pts.points.filter((p) => p.status === "certified" || toggle.checked);
+      const cls = (p, k) => ({ value: p[k], rule: "see the point page for the reason" });
       const byDeg = new Map();
       shown.forEach((p) => { if (!byDeg.has(p.degree)) byDeg.set(p.degree, []); byDeg.get(p.degree).push(p); });
       const degs = Array.from(byDeg.keys()).sort((a, b) => a - b);
@@ -366,8 +373,8 @@
       });
       for (const d of degs) {
         const ps = byDeg.get(d).sort((a, b) => a.m - b.m || a.n - b.n || (a.id < b.id ? -1 : 1));
-        const nSp = ps.filter((p) => p.classification.sporadic.value === "yes").length;
-        const nIso = ps.filter((p) => p.classification.isolated.value === "yes").length;
+        const nSp = ps.filter((p) => p.sporadic === "yes").length;
+        const nIso = ps.filter((p) => p.isolated === "yes").length;
         const nUnd = ps.filter((p) => p.status !== "certified").length;
         const curvesHere = Array.from(new Set(ps.map((p) => curveLabel(p.m, p.n))));
         const h = el("h3", { id: "d" + d }, "Degree " + d, " ",
@@ -383,18 +390,18 @@
             el("th", { class: "sortable", title: "does the curve have infinitely many points of this degree?" }, "∞ in deg d"),
             el("th", { class: "sortable" }, "discovered by"))),
           el("tbody", null, ps.map((p) => {
-            const cl = p.classification, href = "point.html?id=" + encodeURIComponent(p.id);
+            const href = "point.html?id=" + encodeURIComponent(p.id);
             return el("tr", { class: "row-link", onclick: (e) => { if (e.target.tagName !== "A") location.href = href; } },
               el("td", null, el("a", { href, class: "id" }, p.id)),
               el("td", { "data-sort": p.m * 1000 + p.n, style: "white-space: nowrap" }, el("a", { href: "curve.html?m=" + p.m + "&n=" + p.n }, curveLabel(p.m, p.n)),
                 el("span", { class: "muted", title: "genus" }, " g=" + genusOf[p.m + "." + p.n])),
-              el("td", { class: "poly", html: math(p.field.poly) }),
-              el("td", { class: "num", "data-sort": p.curve.j_degree, title: "discriminant of the residue field: " + p.field.disc },
-                p.curve.j_rational ? el("span", { class: "m" }, p.curve.j_rational) : String(p.curve.j_degree), p.curve.cm ? el("span", { class: "muted" }, " CM") : ""),
-              el("td", { "data-sort": cl.sporadic.value }, ans(cl.sporadic, "yes")),
-              el("td", { "data-sort": cl.isolated.value }, ans(cl.isolated, "yes")),
-              el("td", { "data-sort": cl.infinite_in_degree.value }, ans(cl.infinite_in_degree, "no")),
-              el("td", { "data-sort": p.discovery.year || 0 }, discovery(p.discovery.by, p.discovery.year)));
+              el("td", { class: "poly", html: math(p.field_poly) }),
+              el("td", { class: "num", "data-sort": p.j_degree, title: "discriminant of the residue field: " + p.field_disc },
+                p.j_rational ? el("span", { class: "m" }, p.j_rational) : String(p.j_degree), p.cm ? el("span", { class: "muted" }, " CM") : ""),
+              el("td", { "data-sort": p.sporadic }, ans(cls(p, "sporadic"), "yes")),
+              el("td", { "data-sort": p.isolated }, ans(cls(p, "isolated"), "yes")),
+              el("td", { "data-sort": p.infinite }, ans(cls(p, "infinite"), "no")),
+              el("td", { "data-sort": p.year || 0 }, discovery(p.discovered_by, p.year)));
           })));
         sections.append(h, el("div", { class: "table-wrap" }, table));
         makeSortable(table);

@@ -1,0 +1,36 @@
+{
+  "generated": "2026-09-18 19:19 UTC",
+  "m": 1,
+  "n": 21,
+  "points": [
+    {
+      "id": "1.21.3.a",
+      "m": 1,
+      "n": 21,
+      "degree": 3,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": false,
+      "field_poly": "x^3 - 3*x^2 + 3",
+      "field_disc": "81",
+      "j_rational": "-140625/8",
+      "torsion": [
+        21
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(21) has only finitely many points of degree 3",
+        "sporadic": "finitely many points of each degree <= 3 on X_1(21)",
+        "isolated": "finitely many points of degree 3 on X_1(21), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2011,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 44 (point found earlier by Najman, arXiv:1211.2188)",
+      "verified": "2026-09-17 10:31:43 UTC"
+    }
+  ]
+}

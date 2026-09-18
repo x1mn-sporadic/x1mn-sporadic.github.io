@@ -1,0 +1,37 @@
+{
+  "generated": "2026-09-18 19:19 UTC",
+  "m": 4,
+  "n": 12,
+  "points": [
+    {
+      "id": "4.12.6.a",
+      "m": 4,
+      "n": 12,
+      "degree": 6,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": false,
+      "field_poly": "x^6 + 2*x^3 + 9*x^2 - 6*x + 2",
+      "field_disc": "-419904",
+      "j_rational": "109503/64",
+      "torsion": [
+        4,
+        12
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(4,12) has only finitely many points of degree 6",
+        "sporadic": "finitely many points of each degree <= 6 on X_1(4,12)",
+        "isolated": "finitely many points of degree 6 on X_1(4,12), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "E. González-Jiménez, F. Najman",
+      "year": 2018,
+      "submitter": "Filip Najman",
+      "reference": "E. González-Jiménez, F. Najman, An algorithm for determining torsion growth of elliptic curves, Exp. Math. 32 (2023), no. 1, 70-81, arXiv:1904.07071; the result is stated in Remark 1 of H. B. Daniels, E. González-Jiménez, Serre's constant of elliptic curves over the rationals, arXiv:1808.02887 (2018). The curve is 162d1 over K = Q(alpha, i), alpha^3 - 3 alpha - 4 = 0.",
+      "verified": "2026-09-17 13:30:27 UTC"
+    }
+  ]
+}

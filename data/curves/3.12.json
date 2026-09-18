@@ -1,0 +1,67 @@
+{
+  "generated": "2026-09-18 19:19 UTC",
+  "m": 3,
+  "n": 12,
+  "points": [
+    {
+      "id": "3.12.6.a",
+      "m": 3,
+      "n": 12,
+      "degree": 6,
+      "status": "certified",
+      "j_degree": 6,
+      "cm": false,
+      "field_poly": "x^6 + 4*x^5 + 10*x^4 + 13*x^3 + 11*x^2 + 3*x + 1",
+      "field_disc": "-59967",
+      "j_rational": "",
+      "torsion": [
+        3,
+        12
+      ],
+      "torsion_known": true,
+      "infinite": "yes",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(3,12) has infinitely many points of degree 6",
+        "sporadic": "not sporadic: X_1(3,12) has infinitely many points of degree 6",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q(zeta_3) is 0 (AV-isolated)"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, unpublished (2026)",
+      "verified": "2026-09-17 13:38:00 UTC"
+    },
+    {
+      "id": "3.12.6.b",
+      "m": 3,
+      "n": 12,
+      "degree": 6,
+      "status": "certified",
+      "j_degree": 3,
+      "cm": false,
+      "field_poly": "x^6 - x^5 + x^4 + 2*x^3 - x^2 + 1",
+      "field_disc": "-25947",
+      "j_rational": "",
+      "torsion": [
+        3,
+        12
+      ],
+      "torsion_known": true,
+      "infinite": "yes",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(3,12) has infinitely many points of degree 6",
+        "sporadic": "not sporadic: X_1(3,12) has infinitely many points of degree 6",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q(zeta_3) is 0 (AV-isolated)"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, unpublished (2026)",
+      "verified": "2026-09-17 13:38:02 UTC"
+    }
+  ]
+}

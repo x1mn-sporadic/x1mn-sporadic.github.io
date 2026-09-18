@@ -1,0 +1,37 @@
+{
+  "generated": "2026-09-18 19:19 UTC",
+  "m": 2,
+  "n": 24,
+  "points": [
+    {
+      "id": "2.24.6.a",
+      "m": 2,
+      "n": 24,
+      "degree": 6,
+      "status": "certified",
+      "j_degree": 3,
+      "cm": false,
+      "field_poly": "x^6 + 3*x^5 - 2*x^4 - 10*x^3 - 2*x^2 + 3*x + 1",
+      "field_disc": "231852",
+      "j_rational": "",
+      "torsion": [
+        2,
+        24
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(2,24) has only finitely many points of degree 6",
+        "sporadic": "finitely many points of each degree <= 6 on X_1(2,24)",
+        "isolated": "finitely many points of degree 6 on X_1(2,24), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, unpublished (2026)",
+      "verified": "2026-09-17 13:24:53 UTC"
+    }
+  ]
+}

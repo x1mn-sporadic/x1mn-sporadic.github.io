@@ -1,0 +1,993 @@
+{
+  "generated": "2026-09-18 19:19 UTC",
+  "m": 1,
+  "n": 37,
+  "points": [
+    {
+      "id": "1.37.6.a",
+      "m": 1,
+      "n": 37,
+      "degree": 6,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": false,
+      "field_poly": "x^6 + x^5 - 7*x^4 - 2*x^3 + 7*x^2 + 2*x - 1",
+      "field_disc": "300125",
+      "j_rational": "-9317",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(37) has only finitely many points of degree 6",
+        "sporadic": "finitely many points of each degree <= 6 on X_1(37)",
+        "isolated": "finitely many points of degree 6 on X_1(37), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 128",
+      "verified": "2026-09-17 10:42:12 UTC"
+    },
+    {
+      "id": "1.37.10.a",
+      "m": 1,
+      "n": 37,
+      "degree": 10,
+      "status": "verified",
+      "j_degree": 10,
+      "cm": false,
+      "field_poly": "x^10 - 5*x^8 + 3*x^7 + 10*x^6 - 8*x^5 - 7*x^4 + 9*x^3 - 3*x + 1",
+      "field_disc": "803282693",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 10",
+        "sporadic": "finitely many points of degree 10 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 129",
+      "verified": "2026-09-17 10:34:34 UTC"
+    },
+    {
+      "id": "1.37.12.a",
+      "m": 1,
+      "n": 37,
+      "degree": 12,
+      "status": "verified",
+      "j_degree": 1,
+      "cm": true,
+      "field_poly": "x^12 - 4*x^11 + 11*x^10 - 21*x^9 + 32*x^8 - 40*x^7 + 45*x^6 - 46*x^5 + 40*x^4 - 26*x^3 + 12*x^2 - 4*x + 1",
+      "field_disc": "50551744653",
+      "j_rational": "0",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 12",
+        "sporadic": "finitely many points of degree 10, 11, 12 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 130",
+      "verified": "2026-09-17 10:34:51 UTC"
+    },
+    {
+      "id": "1.37.12.b",
+      "m": 1,
+      "n": 37,
+      "degree": 12,
+      "status": "verified",
+      "j_degree": 4,
+      "cm": false,
+      "field_poly": "x^12 - 4*x^11 + 10*x^10 - 18*x^9 + 25*x^8 - 23*x^7 + 8*x^6 + 11*x^5 - 16*x^4 + 7*x^3 + 2*x^2 - 3*x + 1",
+      "field_disc": "44533203125",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 12",
+        "sporadic": "finitely many points of degree 10, 11, 12 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 131",
+      "verified": "2026-09-17 10:35:04 UTC"
+    },
+    {
+      "id": "1.37.12.c",
+      "m": 1,
+      "n": 37,
+      "degree": 12,
+      "status": "verified",
+      "j_degree": 6,
+      "cm": false,
+      "field_poly": "x^12 - 5*x^11 + 13*x^10 - 24*x^9 + 36*x^8 - 47*x^7 + 51*x^6 - 43*x^5 + 30*x^4 - 18*x^3 + 10*x^2 - 4*x + 1",
+      "field_disc": "46060985097",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 12",
+        "sporadic": "finitely many points of degree 10, 11, 12 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 132",
+      "verified": "2026-09-17 10:35:18 UTC"
+    },
+    {
+      "id": "1.37.13.a",
+      "m": 1,
+      "n": 37,
+      "degree": 13,
+      "status": "verified",
+      "j_degree": 13,
+      "cm": false,
+      "field_poly": "x^13 - 4*x^12 - x^11 + 10*x^10 + 3*x^9 - 21*x^8 + 3*x^7 + 24*x^6 - 15*x^5 - 10*x^4 + 12*x^3 - x^2 - 3*x + 1",
+      "field_disc": "-6855574490939",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 13",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 133",
+      "verified": "2026-09-17 10:35:31 UTC"
+    },
+    {
+      "id": "1.37.14.a",
+      "m": 1,
+      "n": 37,
+      "degree": 14,
+      "status": "verified",
+      "j_degree": 7,
+      "cm": false,
+      "field_poly": "x^14 - 2*x^13 - 9*x^12 + 16*x^11 + 28*x^10 - 49*x^9 - 40*x^8 + 73*x^7 + 25*x^6 - 56*x^5 - 4*x^4 + 23*x^3 - x^2 - 5*x + 1",
+      "field_disc": "7210411578427093",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 14",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 134",
+      "verified": "2026-09-17 10:35:45 UTC"
+    },
+    {
+      "id": "1.37.15.a",
+      "m": 1,
+      "n": 37,
+      "degree": 15,
+      "status": "verified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^15 - 6*x^14 + 11*x^13 + 2*x^12 - 27*x^11 + 19*x^10 + 15*x^9 - 16*x^8 - 7*x^7 + 10*x^6 + 5*x^5 - 7*x^4 + x^3 - x^2 + 2*x - 1",
+      "field_disc": "15315650494266781",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 15",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 135",
+      "verified": "2026-09-17 10:35:59 UTC"
+    },
+    {
+      "id": "1.37.15.b",
+      "m": 1,
+      "n": 37,
+      "degree": 15,
+      "status": "verified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 - x^14 - 12*x^13 - 15*x^12 + 12*x^11 + 40*x^10 + 21*x^9 - 27*x^8 - 40*x^7 - 4*x^6 + 23*x^5 + 12*x^4 - 4*x^3 - 6*x^2 + 1",
+      "field_disc": "2354315214908549",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 15",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 136",
+      "verified": "2026-09-17 10:36:13 UTC"
+    },
+    {
+      "id": "1.37.15.c",
+      "m": 1,
+      "n": 37,
+      "degree": 15,
+      "status": "verified",
+      "j_degree": 15,
+      "cm": false,
+      "field_poly": "x^15 - 4*x^14 - x^13 + 24*x^12 - 29*x^11 - 20*x^10 + 69*x^9 - 59*x^8 + 13*x^7 + 17*x^6 - 12*x^5 + 2*x^3 + x^2 - 2*x + 1",
+      "field_disc": "3276367268581097",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 15",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 137",
+      "verified": "2026-09-17 10:36:27 UTC"
+    },
+    {
+      "id": "1.37.16.a",
+      "m": 1,
+      "n": 37,
+      "degree": 16,
+      "status": "verified",
+      "j_degree": 8,
+      "cm": false,
+      "field_poly": "x^16 + 8*x^15 + 25*x^14 + 36*x^13 + 16*x^12 - 19*x^11 - 24*x^10 + 3*x^9 + 18*x^8 + 3*x^7 - 10*x^6 - 3*x^5 + 5*x^4 + 3*x^3 - x^2 - x + 1",
+      "field_disc": "2779733938787757",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 138",
+      "verified": "2026-09-17 10:36:43 UTC"
+    },
+    {
+      "id": "1.37.16.b",
+      "m": 1,
+      "n": 37,
+      "degree": 16,
+      "status": "verified",
+      "j_degree": 16,
+      "cm": false,
+      "field_poly": "x^16 + 6*x^15 + 17*x^14 + 30*x^13 + 36*x^12 + 29*x^11 + 9*x^10 - 20*x^9 - 51*x^8 - 75*x^7 - 84*x^6 - 72*x^5 - 48*x^4 - 25*x^3 - 11*x^2 - 4*x - 1",
+      "field_disc": "-13972911310408283",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 147",
+      "verified": "2026-09-17 10:36:57 UTC"
+    },
+    {
+      "id": "1.37.16.c",
+      "m": 1,
+      "n": 37,
+      "degree": 16,
+      "status": "verified",
+      "j_degree": 16,
+      "cm": false,
+      "field_poly": "x^16 - 2*x^15 + 6*x^13 - 6*x^12 + 2*x^11 - 8*x^10 + 6*x^9 + x^8 + 3*x^7 - 7*x^6 + 8*x^5 - 12*x^4 + 13*x^3 - 5*x^2 + 1",
+      "field_disc": "286362324116320597",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 148",
+      "verified": "2026-09-17 10:37:12 UTC"
+    },
+    {
+      "id": "1.37.16.d",
+      "m": 1,
+      "n": 37,
+      "degree": 16,
+      "status": "verified",
+      "j_degree": 8,
+      "cm": false,
+      "field_poly": "x^16 + 5*x^15 + 6*x^14 - 11*x^13 - 34*x^12 - 13*x^11 + 53*x^10 + 70*x^9 - 7*x^8 - 74*x^7 - 44*x^6 + 19*x^5 + 30*x^4 + 7*x^3 - 5*x^2 - 3*x + 1",
+      "field_disc": "4393378612917909",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 139",
+      "verified": "2026-09-17 10:37:28 UTC"
+    },
+    {
+      "id": "1.37.16.e",
+      "m": 1,
+      "n": 37,
+      "degree": 16,
+      "status": "verified",
+      "j_degree": 8,
+      "cm": false,
+      "field_poly": "x^16 - 6*x^15 + 20*x^14 - 48*x^13 + 92*x^12 - 147*x^11 + 201*x^10 - 241*x^9 + 254*x^8 - 235*x^7 + 189*x^6 - 131*x^5 + 77*x^4 - 37*x^3 + 15*x^2 - 4*x + 1",
+      "field_disc": "3914091521024229",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 140",
+      "verified": "2026-09-17 10:37:44 UTC"
+    },
+    {
+      "id": "1.37.16.f",
+      "m": 1,
+      "n": 37,
+      "degree": 16,
+      "status": "verified",
+      "j_degree": 8,
+      "cm": false,
+      "field_poly": "x^16 - 4*x^15 + x^14 + 15*x^13 - 17*x^12 - 8*x^11 + 23*x^10 - 18*x^9 + 7*x^8 + 15*x^7 - 30*x^6 + 6*x^5 + 22*x^4 - 8*x^3 - 7*x^2 + 2*x + 1",
+      "field_disc": "83903202023925689",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 141",
+      "verified": "2026-09-17 10:37:58 UTC"
+    },
+    {
+      "id": "1.37.16.g",
+      "m": 1,
+      "n": 37,
+      "degree": 16,
+      "status": "verified",
+      "j_degree": 16,
+      "cm": false,
+      "field_poly": "x^16 - 3*x^14 - 7*x^13 + 4*x^12 + 16*x^11 + 15*x^10 - 15*x^9 - 27*x^8 - 13*x^7 + 12*x^6 + 20*x^5 + 6*x^4 + x^3 - 6*x^2 - 2*x - 1",
+      "field_disc": "-15968672198702159",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 142",
+      "verified": "2026-09-17 10:38:12 UTC"
+    },
+    {
+      "id": "1.37.16.h",
+      "m": 1,
+      "n": 37,
+      "degree": 16,
+      "status": "verified",
+      "j_degree": 16,
+      "cm": false,
+      "field_poly": "x^16 + 10*x^15 + 47*x^14 + 128*x^13 + 179*x^12 - 90*x^11 - 1167*x^10 - 3342*x^9 - 6070*x^8 - 7860*x^7 - 7380*x^6 - 4973*x^5 - 2356*x^4 - 760*x^3 - 158*x^2 - 19*x - 1",
+      "field_disc": "166581322179183497",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 143",
+      "verified": "2026-09-17 10:38:26 UTC"
+    },
+    {
+      "id": "1.37.16.i",
+      "m": 1,
+      "n": 37,
+      "degree": 16,
+      "status": "verified",
+      "j_degree": 16,
+      "cm": false,
+      "field_poly": "x^16 + 3*x^15 + 5*x^14 + 4*x^13 - 4*x^12 - 11*x^11 - 6*x^10 + 14*x^9 + 41*x^8 + 49*x^7 + 36*x^6 + 12*x^5 - 7*x^4 - 12*x^3 - 10*x^2 - 5*x - 1",
+      "field_disc": "318801818760934469",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 144",
+      "verified": "2026-09-17 10:38:40 UTC"
+    },
+    {
+      "id": "1.37.16.j",
+      "m": 1,
+      "n": 37,
+      "degree": 16,
+      "status": "verified",
+      "j_degree": 16,
+      "cm": false,
+      "field_poly": "x^16 - 12*x^15 + 61*x^14 - 175*x^13 + 302*x^12 - 255*x^11 - 119*x^10 + 546*x^9 - 456*x^8 - 90*x^7 + 357*x^6 - 141*x^5 - 70*x^4 + 49*x^3 + 9*x^2 - 5*x - 1",
+      "field_disc": "-378431998703576723",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 145",
+      "verified": "2026-09-17 10:38:52 UTC"
+    },
+    {
+      "id": "1.37.16.k",
+      "m": 1,
+      "n": 37,
+      "degree": 16,
+      "status": "verified",
+      "j_degree": 16,
+      "cm": false,
+      "field_poly": "x^16 - 6*x^15 + 6*x^14 + 17*x^13 - 25*x^12 - x^11 + 17*x^10 - 17*x^9 + 16*x^8 + 4*x^7 - 18*x^6 + 6*x^5 - 4*x^4 - 5*x^3 + 7*x^2 + 2*x - 1",
+      "field_disc": "-2255320901676777119",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 16",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 146",
+      "verified": "2026-09-17 10:39:07 UTC"
+    },
+    {
+      "id": "1.37.17.a",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 - x^16 - 8*x^15 + 9*x^14 + 20*x^13 - 22*x^12 - 24*x^11 + 27*x^10 + 10*x^9 - 20*x^8 + 5*x^7 + 9*x^6 - 2*x^5 - x^4 - 3*x^3 - 1",
+      "field_disc": "-1586349738982991023",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 149",
+      "verified": "2026-09-17 10:39:21 UTC"
+    },
+    {
+      "id": "1.37.17.b",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 + 3*x^16 - 8*x^15 - 41*x^14 - 21*x^13 + 120*x^12 + 163*x^11 - 114*x^10 - 307*x^9 - 13*x^8 + 265*x^7 + 91*x^6 - 109*x^5 - 57*x^4 + 16*x^3 + 11*x^2 + 1",
+      "field_disc": "-2757250718309135423",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 158",
+      "verified": "2026-09-17 10:39:35 UTC"
+    },
+    {
+      "id": "1.37.17.c",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 - 4*x^15 - 2*x^14 + x^13 + 14*x^12 - x^11 - 4*x^10 - 22*x^9 + 17*x^8 + 4*x^7 + 13*x^6 - 24*x^5 + 6*x^4 - 2*x^3 + 9*x^2 - 6*x + 1",
+      "field_disc": "-2151149236330118383",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 159",
+      "verified": "2026-09-17 10:39:49 UTC"
+    },
+    {
+      "id": "1.37.17.d",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 + 5*x^16 + 14*x^15 + 28*x^14 + 47*x^13 + 58*x^12 + 31*x^11 - 53*x^10 - 144*x^9 - 148*x^8 - 42*x^7 + 78*x^6 + 102*x^5 + 44*x^4 - 7*x^3 - 13*x^2 - x + 1",
+      "field_disc": "4755937542258621701",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 160",
+      "verified": "2026-09-17 10:40:06 UTC"
+    },
+    {
+      "id": "1.37.17.e",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 + 3*x^16 + 5*x^15 - 3*x^14 - 7*x^13 - 16*x^12 + 11*x^11 - x^10 + 34*x^9 - 25*x^8 + 10*x^7 - 32*x^6 + 27*x^5 - 10*x^4 + 6*x^3 - 3*x + 1",
+      "field_disc": "3621113810274499901",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 150",
+      "verified": "2026-09-17 10:40:20 UTC"
+    },
+    {
+      "id": "1.37.17.f",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 + 2*x^16 + 4*x^15 + 2*x^14 - 6*x^12 - 5*x^11 - x^10 + 3*x^9 + 6*x^8 - 7*x^7 + x^6 - 5*x^5 + 9*x^4 - 3*x^3 + 2*x^2 - 3*x + 1",
+      "field_disc": "14517428819890014793",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 151",
+      "verified": "2026-09-17 10:40:34 UTC"
+    },
+    {
+      "id": "1.37.17.g",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 + 5*x^16 + 13*x^15 + 18*x^14 + 7*x^13 - 26*x^12 - 60*x^11 - 63*x^10 - 24*x^9 + 28*x^8 + 59*x^7 + 58*x^6 + 38*x^5 + 15*x^4 - 4*x^2 - 3*x - 1",
+      "field_disc": "133094720815439153",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 152",
+      "verified": "2026-09-17 10:40:48 UTC"
+    },
+    {
+      "id": "1.37.17.h",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 - 4*x^16 + 4*x^15 - 5*x^14 + 16*x^13 + 5*x^12 - 56*x^11 + 69*x^10 - 114*x^9 + 206*x^8 - 228*x^7 + 214*x^6 - 234*x^5 + 220*x^4 - 137*x^3 + 52*x^2 - 11*x + 1",
+      "field_disc": "-3779800000525860359",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 153",
+      "verified": "2026-09-17 10:41:02 UTC"
+    },
+    {
+      "id": "1.37.17.i",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 - 4*x^16 + 11*x^15 - 19*x^14 + 19*x^13 - x^12 - 38*x^11 + 79*x^10 - 99*x^9 + 84*x^8 - 40*x^7 - 15*x^6 + 55*x^5 - 64*x^4 + 47*x^3 - 23*x^2 + 7*x - 1",
+      "field_disc": "-1912319465404851491",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 154",
+      "verified": "2026-09-17 10:41:17 UTC"
+    },
+    {
+      "id": "1.37.17.j",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 - 2*x^16 - 5*x^15 + 3*x^14 + 21*x^13 + 13*x^12 - 52*x^11 - 33*x^10 + 47*x^9 + 42*x^8 - 12*x^7 - 34*x^6 - 6*x^5 + 14*x^4 + 8*x^3 - 5*x^2 - 2*x + 1",
+      "field_disc": "89056089711131593861",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 155",
+      "verified": "2026-09-17 10:41:33 UTC"
+    },
+    {
+      "id": "1.37.17.k",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 - 7*x^16 + 28*x^15 - 78*x^14 + 169*x^13 - 294*x^12 + 425*x^11 - 517*x^10 + 537*x^9 - 480*x^8 + 373*x^7 - 254*x^6 + 154*x^5 - 87*x^4 + 47*x^3 - 22*x^2 + 7*x - 1",
+      "field_disc": "231494845017984433",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 156",
+      "verified": "2026-09-17 10:41:46 UTC"
+    },
+    {
+      "id": "1.37.17.l",
+      "m": 1,
+      "n": 37,
+      "degree": 17,
+      "status": "verified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^17 - 7*x^16 + 26*x^15 - 70*x^14 + 148*x^13 - 255*x^12 + 369*x^11 - 459*x^10 + 497*x^9 - 467*x^8 + 378*x^7 - 258*x^6 + 142*x^5 - 57*x^4 + 11*x^3 + 3*x^2 - 4*x + 1",
+      "field_disc": "-2311521177047925203",
+      "j_rational": "",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(37) has finitely many points of degree 17",
+        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(37): not decided by any recorded result",
+        "isolated": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 157",
+      "verified": "2026-09-17 10:42:00 UTC"
+    },
+    {
+      "id": "1.37.18.a",
+      "m": 1,
+      "n": 37,
+      "degree": 18,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": false,
+      "field_poly": "x^18 - 5*x^17 - 314*x^16 + 1186*x^15 + 33856*x^14 - 44742*x^13 - 1741785*x^12 - 2334512*x^11 + 36376693*x^10 + 138257088*x^9 - 7915873*x^8 - 834737656*x^7 - 1394152092*x^6 - 227741228*x^5 + 969357016*x^4 + 279343897*x^3 - 260944707*x^2 + 41391517*x - 1427089",
+      "field_disc": "12340587290559073757952079501163494759765625",
+      "j_rational": "-162677523113838677",
+      "torsion": [
+        37
+      ],
+      "torsion_known": true,
+      "infinite": "yes",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(37) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
+        "sporadic": "not sporadic: X_1(37) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated, verified here); AV-isolated by Theorem 48 of the appendix by Derickx and van Hoeij to Bourdon-Hashimoto-Keller-Klagsbrun-Lowry-Duda-Morrison-Najman-Shukla (formal immersion through X_1(37) -> X_0(37) -> X_0^+(37))"
+      },
+      "discovered_by": "A. Bourdon, S. Hashimoto, T. Keller, Z. Klagsbrun, D. Lowry-Duda, T. Morrison, F. Najman, H. Shukla (isolation; AV-isolation in the appendix by M. Derickx and M. van Hoeij)",
+      "year": 2023,
+      "submitter": "Filip Najman",
+      "reference": "A. Bourdon, S. Hashimoto, T. Keller, Z. Klagsbrun, D. Lowry-Duda, T. Morrison, F. Najman, H. Shukla, Towards a classification of isolated j-invariants, Math. Comp. 94 (2025), 447-473, arXiv:2311.07740 (with an appendix by M. Derickx and M. van Hoeij); see also A. Bourdon, O. Ejder, Rational isolated j-invariants from X_1(l^n) and X_0(l^n), arXiv:2506.19560, Theorem 4. The point itself (degree 18, not sporadic since gon_Q X_1(37) = 18) is noted in Bourdon-Ejder-Liu-Odumodu-Viray, Adv. Math. 357 (2019), proof of Theorem 8.1, and in Sutherland's 2012 notes.",
+      "verified": "2026-09-18 08:44:16 UTC"
+    }
+  ]
+}

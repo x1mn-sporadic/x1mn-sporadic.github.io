@@ -1,0 +1,65 @@
+{
+  "generated": "2026-09-18 19:19 UTC",
+  "m": 1,
+  "n": 25,
+  "points": [
+    {
+      "id": "1.25.6.a",
+      "m": 1,
+      "n": 25,
+      "degree": 6,
+      "status": "certified",
+      "j_degree": 3,
+      "cm": false,
+      "field_poly": "x^6 - 4*x^5 + 2*x^4 + 8*x^3 - 10*x^2 + 5*x - 1",
+      "field_disc": "28037",
+      "j_rational": "",
+      "torsion": [
+        25
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(25) has only finitely many points of degree 6",
+        "sporadic": "not sporadic: X_1(25) has infinitely many points of degree 5",
+        "isolated": "finitely many points of degree 6 on X_1(25), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 48",
+      "verified": "2026-09-17 10:31:43 UTC"
+    },
+    {
+      "id": "1.25.7.a",
+      "m": 1,
+      "n": 25,
+      "degree": 7,
+      "status": "certified",
+      "j_degree": 7,
+      "cm": false,
+      "field_poly": "x^7 + x^6 - x^5 - x^4 + x^2 + x - 1",
+      "field_disc": "-184607",
+      "j_rational": "",
+      "torsion": [
+        25
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(25) has only finitely many points of degree 7",
+        "sporadic": "not sporadic: X_1(25) has infinitely many points of degree 5",
+        "isolated": "finitely many points of degree 7 on X_1(25), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 49",
+      "verified": "2026-09-17 10:31:44 UTC"
+    }
+  ]
+}

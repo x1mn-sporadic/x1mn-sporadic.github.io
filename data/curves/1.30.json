@@ -1,0 +1,65 @@
+{
+  "generated": "2026-09-18 19:19 UTC",
+  "m": 1,
+  "n": 30,
+  "points": [
+    {
+      "id": "1.30.5.a",
+      "m": 1,
+      "n": 30,
+      "degree": 5,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^5 + x^4 - 3*x^3 + 3*x + 1",
+      "field_disc": "-10407",
+      "j_rational": "",
+      "torsion": [
+        30
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(30) has only finitely many points of degree 5",
+        "sporadic": "finitely many points of each degree <= 5 on X_1(30)",
+        "isolated": "finitely many points of degree 5 on X_1(30), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 63",
+      "verified": "2026-09-17 10:31:49 UTC"
+    },
+    {
+      "id": "1.30.5.b",
+      "m": 1,
+      "n": 30,
+      "degree": 5,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^5 + 2*x^4 - 2*x^3 - 5*x^2 + 3",
+      "field_disc": "-10407",
+      "j_rational": "",
+      "torsion": [
+        30
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(30) has only finitely many points of degree 5",
+        "sporadic": "finitely many points of each degree <= 5 on X_1(30)",
+        "isolated": "finitely many points of degree 5 on X_1(30), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (Aug 2013), line 64",
+      "verified": "2026-09-17 10:31:49 UTC"
+    }
+  ]
+}
