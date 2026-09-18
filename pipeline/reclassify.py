@@ -36,7 +36,7 @@ def main():
     for path in sorted(POINTS_DIR.glob("*.json")):
         cert = read_json(path)
         curve = curves[(cert["m"], cert["n"])]
-        cls = knowledge.classify_point(curve, cert["degree"], cert.get("isolation"))
+        cls = knowledge.classify_point(curve, cert["degree"], cert.get("isolation"), cert["curve"].get("j_rational", ""))
         new_cl = {k: cls[k] for k in ("infinite_in_degree", "sporadic", "isolated")}
         if cls["status"] == "rejected":
             log(f"{cert['id']}: would now be REJECTED ({cls['sporadic']['rule']}; {cls['isolated']['rule']}) -- left unchanged")

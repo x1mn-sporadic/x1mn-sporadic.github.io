@@ -12,7 +12,7 @@ fetch_issues.py (GitHub issues)           build.py ──► data/curves.json, d
 | `fetch_issues.py` | turns open GitHub issues labelled `submission` into `submissions/inbox/issue-<n>.json`. |
 | `verify.py` | validates a submission, runs `magma/verify_lib.m` under a timeout, classifies sporadicity with `knowledge.py`, writes the certificate, comments on and closes the issue. |
 | `build.py` | rebuilds the JSON files the site reads from `data/knowledge/` + `data/points/`. `--check` fails if they are stale (used by CI). |
-| `knowledge.py` | curated, cited facts: Φ^∞(d) for d ≤ 6, the rank-0 theorem, Frey/Abramovich, and the three yes/no/maybe answers (sporadic = finitely many points of degree ≤ d; isolated; infinitely many points of degree d). |
+| `knowledge.py` | curated, cited facts: Φ^∞(d) for d ≤ 9, rank-0 theorems, gonality bounds, Frey/Abramovich, per-point facts (`CURATED_POINTS`, e.g. a published AV-isolation proof on a positive-rank curve), and the three yes/no/maybe answers (sporadic = finitely many points of degree ≤ d; isolated; infinitely many points of degree d). |
 | `import_vanhoeij.py` | converts van Hoeij's `LowDegreePlaces` into submissions (`--max-N`). |
 | `reclassify.py` | recomputes the three answers and the status of every certificate from the current knowledge (no Magma); run after editing `knowledge.py` or the tables, then `build.py`. |
 | `magma/verify_lib.m` | the Magma checks (see its header). `magma/curve_invariants.m` computed genus/index of every curve. |

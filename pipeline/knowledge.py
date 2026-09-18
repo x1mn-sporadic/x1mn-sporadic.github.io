@@ -144,6 +144,14 @@ SOURCES = {
                 "degree <= d).  See Derickx-Sutherland arXiv:1608.07549, Proposition 2.3 and Corollary 2.4.",
         "used_for": "rank 0 and d < gon_F  =>  finitely many points of degree d",
     },
+    "BHKKLMNS25": {
+        "short": "Bourdon–Hashimoto–Keller–Klagsbrun–Lowry-Duda–Morrison–Najman–Shukla 2025",
+        "cite": "A. Bourdon, S. Hashimoto, T. Keller, Z. Klagsbrun, D. Lowry-Duda, T. Morrison, F. Najman, H. Shukla, "
+                "Towards a classification of isolated j-invariants, with an appendix by M. Derickx and M. van Hoeij, "
+                "Math. Comp. 94 (2025), 447-473, arXiv:2311.07740.",
+        "used_for": "the degree-18 point of X_1(37) with j = -162677523113838677 (curve 1225.h2) is P^1-isolated (Section 9.0.1) "
+                    "and AV-isolated (Theorem 48 of the appendix); restated in A. Bourdon, O. Ejder, arXiv:2506.19560, Theorem 4",
+    },
     "BELOV": {
         "short": "Bourdon–Ejder–Liu–Odumodu–Viray 2019",
         "cite": "A. Bourdon, O. Ejder, Y. Liu, F. Odumodu, B. Viray, On the level of modular curves that give rise to "
@@ -251,6 +259,22 @@ NV26_GONALITY_LB = {
 # 61, 63, 65 then J_1(N)(Q) is finite."
 RANK_ZERO_DVH14_MAX_N = 66
 RANK_ZERO_DVH14_EXCEPTIONS = {37, 43, 53, 57, 58, 61, 63, 65}
+
+# ----------------------------------------------------------------------------
+# Curated facts about individual points, keyed by (m, n, rational j-invariant as a string).
+# Used when the automatic rules cannot decide: here AV-isolation on a curve whose Jacobian
+# has positive rank (P^1-isolation is still recomputed by the pipeline).
+# ----------------------------------------------------------------------------
+
+CURATED_POINTS = {
+    (1, 37, "-162677523113838677"): {
+        "av_isolated": {
+            "source": "BHKKLMNS25",
+            "rule": "AV-isolated by Theorem 48 of the appendix by Derickx and van Hoeij to Bourdon-Hashimoto-Keller-Klagsbrun-"
+                    "Lowry-Duda-Morrison-Najman-Shukla (formal immersion through X_1(37) -> X_0(37) -> X_0^+(37))",
+        },
+    },
+}
 
 # ----------------------------------------------------------------------------
 # Helpers
@@ -387,11 +411,12 @@ def _ans(value, rule, sources):
     return {"value": value, "rule": rule, "sources": [x for x in sources if x]}
 
 
-def classify_point(curve: dict, d: int, iso=None) -> dict:
+def classify_point(curve: dict, d: int, iso=None, j_rational: str = "") -> dict:
     """The three yes/no/maybe answers for a verified point of absolute degree d.
 
     iso: the isolation record of verify.py: {"computed": bool, "p1_isolated": bool|None,
     "l_values": [...], "primes": [...], "note": ...} (None if the computation was not run).
+    j_rational: the j-invariant as a string when it is rational (to look up CURATED_POINTS).
     Returns {"infinite_in_degree": ..., "sporadic": ..., "isolated": ..., "status": ...} where
     status is "certified" (sporadic or isolated is yes), "rejected" (isolated is no, or the degree has
     infinitely many points and isolation is not proven) or "verified" (everything else).
@@ -431,6 +456,9 @@ def classify_point(curve: dict, d: int, iso=None) -> dict:
     elif l_v == 1 and rk == 0:
         isolated = _ans("yes", f"dim L(x) = 1 (P^1-isolated) and rank J_1 over {curve['base_field']} is 0 (AV-isolated)",
                         ["BELOV", (curve.get("rank") or {}).get("source", "")])
+    elif l_v == 1 and (m, n, str(j_rational)) in CURATED_POINTS and "av_isolated" in CURATED_POINTS[(m, n, str(j_rational))]:
+        cur = CURATED_POINTS[(m, n, str(j_rational))]["av_isolated"]
+        isolated = _ans("yes", f"dim L(x) = 1 (P^1-isolated, verified here); {cur['rule']}", ["BELOV", cur["source"]])
     elif l_v == 1:
         isolated = _ans("maybe", "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided", ["BELOV"])
     elif iso.get("computed"):

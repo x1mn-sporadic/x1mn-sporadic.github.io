@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18 08:06 UTC",
+  "generated": "2026-09-18 08:46 UTC",
   "sources": {
     "Mazur77": {
       "short": "Mazur 1977",
@@ -78,6 +78,11 @@
       "short": "rank-0 lemma",
       "cite": "Standard: if J(F) is finite and X has no F-rational map to P^1 of degree <= d, then X has finitely many closed points of degree <= d over F (the fibres of Sym^d X -> Pic^d X over the finitely many F-points are projective spaces, and a positive-dimensional fibre is a base-point-free pencil of degree <= d).  See Derickx-Sutherland arXiv:1608.07549, Proposition 2.3 and Corollary 2.4.",
       "used_for": "rank 0 and d < gon_F  =>  finitely many points of degree d"
+    },
+    "BHKKLMNS25": {
+      "short": "Bourdon–Hashimoto–Keller–Klagsbrun–Lowry-Duda–Morrison–Najman–Shukla 2025",
+      "cite": "A. Bourdon, S. Hashimoto, T. Keller, Z. Klagsbrun, D. Lowry-Duda, T. Morrison, F. Najman, H. Shukla, Towards a classification of isolated j-invariants, with an appendix by M. Derickx and M. van Hoeij, Math. Comp. 94 (2025), 447-473, arXiv:2311.07740.",
+      "used_for": "the degree-18 point of X_1(37) with j = -162677523113838677 (curve 1225.h2) is P^1-isolated (Section 9.0.1) and AV-isolated (Theorem 48 of the appendix); restated in A. Bourdon, O. Ejder, arXiv:2506.19560, Theorem 4"
     },
     "BELOV": {
       "short": "Bourdon–Ejder–Liu–Odumodu–Viray 2019",

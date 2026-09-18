@@ -80,8 +80,10 @@
     residue field) the point is reduced to a divisor <span class="m">D_q</span> of degree <span class="m">d</span> on Sutherland's model of <span class="m">X₁(m,n)</span> over
     <span class="m">𝔽_q</span> (mdmagma), and <span class="m">dim L(D_q)</span> is computed; by upper semicontinuity <span class="m">dim L(x) ≤ dim L(D_q)</span>, so
     <span class="m">dim L(D_q) = 1</span> for one such prime proves P¹-isolation. When <span class="m">dim L(D_q) ≥ 2</span> for every prime tried the point probably moves
-    in a pencil, but this is not a proof, so the answer stays <em>maybe</em> (and the point is not accepted if its degree has infinitely many points). This check is
-    implemented for <span class="m">m ≤ 2</span>; for <span class="m">m ≥ 3</span> the isolated column is <em>maybe</em> unless the degree is finite.</p>
+    in a pencil, but this is not a proof, so the answer stays <em>maybe</em> (and the point is not accepted if its degree has infinitely many points).
+    When the Jacobian has positive rank, P¹-isolation alone does not decide the question; the census then relies on a published proof of AV-isolation
+    for that specific point, recorded in <code>pipeline/knowledge.py</code> (<code>CURATED_POINTS</code>) with its citation — currently the degree-18
+    point of <span class="m">X₁(37)</span> (Theorem 48 of the Derickx–van Hoeij appendix to Bourdon–Hashimoto–Keller–Klagsbrun–Lowry-Duda–Morrison–Najman–Shukla).</p>
   <p>Every fact is credited to its first appearance in print (the paper that proved it), not to the table or survey it was
     transcribed from; facts that have not appeared in print are credited to "Najman 2026 (unpublished)". The curated facts are in <code>pipeline/knowledge.py</code>; the tables are copied verbatim into <code>data/knowledge/sources/</code> with their provenance.
     Genus and index of every curve were computed with Magma (<code>CongruenceSubgroup([n,n,m])</code>). Nothing on this site is asserted from memory:

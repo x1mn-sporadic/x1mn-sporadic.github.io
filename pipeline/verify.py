@@ -291,7 +291,7 @@ def build_certificate(v: dict, res: dict, curve: dict, points, jobdir: Path, iso
         raise Reject(f"expected j = {exp['j']} but computed {res['curve']['j_rational']!r}")
     if exp and v.get("degree") is not None and int(v["degree"]) != d:
         raise Reject(f"expected degree {v['degree']} but the point has degree {d}")
-    cls = knowledge.classify_point(curve, d, iso)
+    cls = knowledge.classify_point(curve, d, iso, res["curve"]["j_rational"])
     canon = polredabs(rf["poly"])
     dup = find_duplicate(m, n, canon, res["curve"]["j_minpoly"], rf, points, jobdir)
     if dup:
