@@ -205,7 +205,6 @@
     const c = data.curves.find((x) => x.m === m && x.n === n);
     const title = $("#title");
     if (!c) { title.textContent = "Unknown curve"; $("#facts").append(el("p", { class: "error" }, "X₁(" + m + "," + n + ") is not in the census.")); return; }
-    document.title = curveLabel(m, n) + " — Isolated and sporadic points on X₁(m,n)";
     title.textContent = curveLabelLong(m, n) + (m === 1 ? " = X₁(" + n + ")" : "");
     $("#subtitle").innerHTML = "Elliptic curves with a point of order " + n + (m > 1 ? " and full " + m + "-torsion: torsion subgroup containing " + torsionLabel(m, n) : "") +
       ". Defined over " + (m <= 2 ? "ℚ" : "ℚ(ζ<sub>" + m + "</sub>)") + ".";
@@ -261,7 +260,6 @@
     const p = pts.points.find((x) => x.id === id);
     if (!p) { $("#title").textContent = "Unknown point"; $("#body").append(el("p", { class: "error" }, "No point with id " + esc(id) + " in the census.")); return; }
     const c = curves.curves.find((x) => x.m === p.m && x.n === p.n) || {};
-    document.title = p.id + " — Isolated and sporadic points on X₁(m,n)";
     $("#title").textContent = "Point " + p.id;
     $("#subtitle").innerHTML = "A point of degree <b>" + p.degree + "</b> on " + curveLabel(p.m, p.n) +
       (p.m >= 3 ? " (degree " + p.relative_degree + " over " + p.base_field.replace("zeta_", "ζ") + ")" : "") + ".";
