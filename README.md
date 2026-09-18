@@ -1,4 +1,4 @@
-# Sporadic points on X₁(m,n) — a census
+# Isolated and sporadic points on X₁(m,n) — a census
 
 Web site: **https://x1mn-sporadic.github.io/** (served from this repository by GitHub Pages).
 
