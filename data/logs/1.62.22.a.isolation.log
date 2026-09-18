@@ -1,0 +1,5 @@
+[0.0300000 s] point: X_1(1,62), residue field degree 22
+[2.13000 s] q = 3: model built (2.13000 s)
+[1135.31 s] q = 3: places found (1135.31 s), computing the Riemann-Roch space
+[1137.44 s] q = 3: D_q = 4 places of degrees [ 5, 5, 6, 6 ], dim L(D_q) = 1 (1137.44 s)
+[1137.44 s] ISOLATION_DONE

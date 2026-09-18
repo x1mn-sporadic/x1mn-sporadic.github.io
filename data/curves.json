@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18 09:42 UTC",
+  "generated": "2026-09-18 11:40 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -10,11 +10,11 @@
     "gonality": "Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Abramovich, or Najman's unpublished computations); for m >= 3 only Abramovich's geometric lower bound"
   },
   "n_curves": 165,
-  "n_points": 161,
-  "n_certified": 129,
+  "n_points": 163,
+  "n_certified": 131,
   "n_verified": 32,
   "n_sporadic": 56,
-  "n_isolated": 129,
+  "n_isolated": 131,
   "n_rejected": 6,
   "curves": [
     {
@@ -6982,12 +6982,42 @@
       },
       "table_note": "abramovich",
       "in_tables": true,
-      "points": [],
-      "n_certified": 0,
+      "points": [
+        {
+          "id": "1.60.13.a",
+          "degree": 13,
+          "status": "certified",
+          "j_degree": 13,
+          "cm": false,
+          "field_poly": "x^13 - 3*x^12 + 3*x^11 - 5*x^10 + 6*x^9 + 6*x^8 - 7*x^7 - 4*x^6 - 5*x^5 + 5*x^4 + 6*x^3 - x - 1",
+          "field_disc": "3653554609125",
+          "j_rational": "",
+          "torsion": [
+            60
+          ],
+          "torsion_known": true,
+          "infinite": "maybe",
+          "sporadic": "maybe",
+          "isolated": "yes",
+          "rules": {
+            "infinite_in_degree": "no recorded result decides whether X_1(60) has finitely many points of degree 13",
+            "sporadic": "finitely many points of degree 12, 13 on X_1(60): not decided by any recorded result",
+            "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+          },
+          "discovered_by": "M. van Hoeij",
+          "year": 2012,
+          "submitter": "Mark van Hoeij",
+          "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (2013/2014), line 3575",
+          "verified": "2026-09-18 09:44:17 UTC"
+        }
+      ],
+      "n_certified": 1,
       "n_verified": 0,
       "n_sporadic": 0,
-      "n_isolated": 0,
-      "degrees_present": []
+      "n_isolated": 1,
+      "degrees_present": [
+        13
+      ]
     },
     {
       "m": 1,
@@ -7075,12 +7105,42 @@
       },
       "table_note": "abramovich",
       "in_tables": true,
-      "points": [],
-      "n_certified": 0,
+      "points": [
+        {
+          "id": "1.62.22.a",
+          "degree": 22,
+          "status": "certified",
+          "j_degree": 22,
+          "cm": false,
+          "field_poly": "x^22 - 8*x^21 + 36*x^20 - 114*x^19 + 282*x^18 - 577*x^17 + 1012*x^16 - 1558*x^15 + 2139*x^14 - 2655*x^13 + 3010*x^12 - 3137*x^11 + 3010*x^10 - 2655*x^9 + 2139*x^8 - 1558*x^7 + 1012*x^6 - 577*x^5 + 282*x^4 - 114*x^3 + 36*x^2 - 8*x + 1",
+          "field_disc": "899993612391000135127441",
+          "j_rational": "",
+          "torsion": [
+            62
+          ],
+          "torsion_known": true,
+          "infinite": "maybe",
+          "sporadic": "maybe",
+          "isolated": "yes",
+          "rules": {
+            "infinite_in_degree": "no recorded result decides whether X_1(62) has finitely many points of degree 22",
+            "sporadic": "finitely many points of degree 15, 16, 17, 18, 19, 20, 21, 22 on X_1(62): not decided by any recorded result",
+            "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+          },
+          "discovered_by": "M. van Hoeij",
+          "year": 2012,
+          "submitter": "Mark van Hoeij",
+          "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 61",
+          "verified": "2026-09-18 10:33:27 UTC"
+        }
+      ],
+      "n_certified": 1,
       "n_verified": 0,
       "n_sporadic": 0,
-      "n_isolated": 0,
-      "degrees_present": []
+      "n_isolated": 1,
+      "degrees_present": [
+        22
+      ]
     },
     {
       "m": 1,

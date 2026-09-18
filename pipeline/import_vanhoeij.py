@@ -72,7 +72,8 @@ def main():
             "field": eqx.strip(),
             "curve": {"vanhoeij": {"eqxy": eqxy.strip()}},
             "degree": degv,
-            "expected": {"j_degree": int(degj) if degj else degv, "j": jval},
+            "expected": ({"j_degree": int(degj) if degj else degv, "j": jval} if srcname == SRC.name
+                         else {}),      # the 61-80 file has no degj / j data
             "discoverer": disc_by, "year": year,
             "submitter": "Mark van Hoeij",
             "affiliation": "Florida State University",

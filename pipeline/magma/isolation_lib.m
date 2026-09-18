@@ -106,6 +106,15 @@ model := m eq 1 select Sprintf("mdmagma MDX1(%o) (Sutherland's optimised model o
 // genus over Q, to check that the reduction of the model is the reduction of the curve
 gQ := Genus(CongruenceSubgroup([n, n, m]));
 
+// for m = 2: the model file's q(u,v), t(u,v) (mdmagma keeps only b, c); used to invert (b, c) -> (u, v)
+qt_lines := [];
+if m eq 2 then
+  for l in Split(Read(Sprintf("%o/X1_2_%o.txt", ModelsDir, n)), "\n") do
+    if #l ge 4 and (l[1..4] eq "q :=" or l[1..4] eq "t :=") then Append(~qt_lines, Split(Split(l, ";")[1], "=")[2]); end if;
+  end for;
+  error if #qt_lines ne 2, "q and t not found in the model file";
+end if;
+
 // the model over F_q (z: primitive m-th root of unity in F_q, m >= 3) and the comparison functions
 function ModelOverField(F, z)
   if m eq 1 then X := MDX1(n, F);
@@ -113,29 +122,87 @@ function ModelOverField(F, z)
   else X := MDX11(m, n, F : equation_directory := ModelsDir, zeta_M := z); end if;
   C := Curve(X); FF := FunctionField(C);
   FA, toFA := AlgorithmicFunctionField(FF);
+  // comparison functions, first as elements of FF (rational functions in u, v) then in FA
   if m le 2 then
-    Fs := [toFA(FF!f) : f in X`_coordinates];
+    FFs := [FF!f : f in X`_coordinates];
   else
-    Em := EllipticCurve([toFA(FF!a) : a in X`_E]);
-    Pm := Em![toFA(FF!x) : x in X`_P]; Qm := Em![toFA(FF!x) : x in X`_Q];
+    Em := EllipticCurve([FF!a : a in X`_E]);
+    Pm := Em![FF!x : x in X`_P]; Qm := Em![FF!x : x in X`_Q];
     Et, bF, cF, iso := TateNormalForm(Em, Qm);
     Pt := iso(Pm);
-    Fs := [bF, cF, Pt[1], Pt[2]];
+    FFs := [bF, cF, Pt[1], Pt[2]];
   end if;
-  return FA, Fs;
+  Fs := [toFA(f) : f in FFs];
+  return FA, Fs, FFs, toFA(FF.1), DefiningPolynomial(C);
 end function;
 
-// the place of X/F_q of degree f where the functions Fs take values Frobenius-conjugate to vals (in k = F_{q^f})
-function ReducedPlace(FA, Fs, k, vals)
+// the place of X/F_q of degree f where the functions Fs take values Frobenius-conjugate to vals
+// (in k = F_{q^f}).  The candidate points (u0, v0) of the plane model over k are found by a resultant
+// (F(u,v) = 0, b(u,v) = b-bar), and the places above u = u0 are the zeros of t(u), t the minimal
+// polynomial of u0 over F_q -- a function of small degree, unlike b itself.
+function ReducedPlace(FA, Fs, FFs, uF, Fpol, k, vals)
   Fq := ConstantField(FA); q := #Fq; f := Degree(k);
-  mb := MinimalPolynomial(vals[1], Fq);
-  h := Evaluate(mb, Fs[1]);
-  if h eq 0 then return false, "b is constant on the model"; end if;
-  nm := Norm(h);
+  Ruv<U, V> := PolynomialRing(k, 2);
+  aff := func<h | Rank(Parent(h)) eq 3 select Evaluate(h, [U, V, 1]) else Evaluate(h, [U, V])>;
+  Fk := aff(Fpol);
+  pts := [];
+  if m eq 1 then
+    // mdmagma: r = (x^2 y - x y + y - 1)/(x (x y - 1)), s = (x y - y + 1)/(x y), b = r s (r-1), c = s (r-1)
+    bb := vals[1]; cc := vals[2];
+    if cc eq 0 then return false, "c = 0 at this prime"; end if;
+    rb := bb/cc;
+    if rb eq 1 then return false, "r = 1 at this prime"; end if;
+    sb := cc/(rb - 1);
+    Rk<Xk> := PolynomialRing(k); Fr := FieldOfFractions(Rk);
+    Yk := 1/((sb - 1)*Fr!Xk + 1);                           // from s(x,y) = sb
+    eqr := Numerator((Xk^2*Yk - Xk*Yk + Yk - 1) - rb*Xk*(Xk*Yk - 1));
+    for r in Roots(eqr) do
+      x0 := r[1];
+      if (sb - 1)*x0 + 1 eq 0 or x0 eq 0 then continue; end if;
+      y0 := 1/((sb - 1)*x0 + 1);
+      if Evaluate(Fk, [x0, y0]) eq 0 then Append(~pts, [x0, y0]); end if;
+    end for;
+  elif m eq 2 then
+    // mdmagma: b = (t+1)(q t+1)/t^2, c = (t^2 - 2 q t - 2)/t^2  =>  t = 2b/(1-c) - 1, q = ((1-c) t^2 - 2)/(2t)
+    bb := vals[1]; cc := vals[2];
+    if cc eq 1 then return false, "c = 1 at this prime"; end if;
+    tb := 2*bb/(1 - cc) - 1;
+    if tb eq 0 then return false, "t = 0 at this prime"; end if;
+    qb := ((1 - cc)*tb^2 - 2)/(2*tb);
+    Kuv := FieldOfFractions(Ruv); u := Kuv!U; v := Kuv!V;
+    qf := eval qt_lines[1]; tf := eval qt_lines[2];
+    g1 := Numerator(qf - qb); g2 := Numerator(tf - tb);
+    Ru := UnivariatePolynomial(Resultant(Ruv!g1, Ruv!g2, V));
+    if Ru eq 0 then return false, "resultant vanishes"; end if;
+    for r in Roots(Ru) do
+      u0 := r[1];
+      h1 := UnivariatePolynomial(Evaluate(Ruv!g1, U, u0)); h2 := UnivariatePolynomial(Evaluate(Ruv!g2, U, u0));
+      hh := GCD(h1, h2);
+      if hh eq 0 then hh := h1 eq 0 select h2 else h1; end if;
+      for rv in Roots(hh) do
+        if Evaluate(Fk, [u0, rv[1]]) eq 0 then Append(~pts, [u0, rv[1]]); end if;
+      end for;
+    end for;
+  else
+    bnum := aff(Numerator(FFs[1])); bden := aff(Denominator(FFs[1]));
+    gb := bnum - vals[1]*bden;
+    Ru := UnivariatePolynomial(Resultant(Fk, gb, V));
+    if Ru eq 0 then return false, "resultant vanishes"; end if;
+    for r in Roots(Ru) do
+      u0 := r[1];
+      fu := UnivariatePolynomial(Evaluate(Fk, U, u0));
+      gu := UnivariatePolynomial(Evaluate(gb, U, u0));
+      if fu eq 0 then continue; end if;
+      for rv in Roots(GCD(fu, gu)) do Append(~pts, [u0, rv[1]]); end for;
+    end for;
+  end if;
+  if #pts eq 0 then return false, "no point of the model with these values (pole of a coordinate?)"; end if;
+
   cands := [];
-  for t in Factorization(Numerator(nm)) do
-    if Degree(t[1]) gt f then continue; end if;
-    for pl in Zeros(FA!t[1]) do
+  for pt in pts do
+    t := MinimalPolynomial(pt[1], Fq);
+    zs := Zeros(Evaluate(t, uF));
+    for pl in zs do
       if Degree(pl) ne f or pl in cands then continue; end if;
       ev := [Evaluate(g, pl) : g in Fs];
       if exists{e : e in ev | Type(e) eq Infty} then continue; end if;
@@ -162,10 +229,11 @@ while tried lt MaxPrimes and q lt 500 do
   if bad then Log(Sprintf("q = %o: bad reduction, skipped", q)); continue; end if;
   tried +:= 1;
   ok := true;
-  FA := 0; Fs := [];
+  FA := 0; Fs := []; FFs := []; uF := 0; Fpol := 0;
   z := m ge 3 select Rep([r[1] : r in Roots(CyclotomicPolynomial(m), GF(q))]) else 0;
   try
-    FA, Fs := ModelOverField(GF(q), z);
+    FA, Fs, FFs, uF, Fpol := ModelOverField(GF(q), z);
+    Log(Sprintf("q = %o: model built (%o s); computing the maximal orders of its function field (genus check)", q, RealField(6)!Cputime(T0)));
     if Genus(FA) ne gQ then
       Log(Sprintf("q = %o: model has genus %o != %o, skipped", q, Genus(FA), gQ)); ok := false;
     end if;
@@ -178,7 +246,7 @@ while tried lt MaxPrimes and q lt 500 do
   for pr in dec do
     Qi := pr[1];
     k, mk := ResidueClassField(Qi);
-    okp, pl := ReducedPlace(FA, Fs, k, [mk(v) : v in vals0]);
+    okp, pl := ReducedPlace(FA, Fs, FFs, uF, Fpol, k, [mk(v) : v in vals0]);
     if okp then D +:= 1*pl; nfound +:= 1;
     elif m le 2 then Log(Sprintf("q = %o: %o, skipped", q, pl)); ok := false; break; end if;
   end for;
@@ -187,6 +255,7 @@ while tried lt MaxPrimes and q lt 500 do
     Log(Sprintf("q = %o: matched %o of %o primes, reduced divisor has degree %o instead of %o, skipped", q, nfound, #dec, Degree(D), d div phi_m));
     continue;
   end if;
+  Log(Sprintf("q = %o: genus %o confirmed and places found (%o s), computing the Riemann-Roch space", q, gQ, RealField(6)!Cputime(T0)));
   l := Dimension(RiemannRochSpace(D));
   Append(~primes_used, q); Append(~lvals, l);
   Log(Sprintf("q = %o: D_q = %o places of degrees %o, dim L(D_q) = %o (%o s)", q, #Support(D), [Degree(p) : p in Support(D)], l, RealField(6)!Cputime(T0)));
