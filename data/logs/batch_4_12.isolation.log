@@ -1,0 +1,6 @@
+[0.000000 s] === 4.12.6.a
+[0.0100000 s] point: X_1(4,12), residue field degree 6
+[0.140000 s] q = 5: model built (0.140000 s); computing the maximal orders of its function field (genus check)
+[0.170000 s] q = 5: genus 5 (expected 5), 0.170000 s
+[0.210000 s] q = 5: D_q = 1 places of degrees [ 3 ], dim L(D_q) = 1 (0.210000 s)
+[0.210000 s] BATCH_DONE

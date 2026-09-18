@@ -7,8 +7,8 @@
 0,
 0
 ]
-[0.0100000 s] orders verified: ord P = 1, ord Q = 46, <P,Q> = Z/1 x Z/46
-[0.0400000 s] torsion bound from reductions: |E(K)_tors| divides 46 (primes [ 5, 7 ])
-[0.0500000 s] Tate normal form done; residue field of the point has degree 18 (K has degree 18)
-[0.110000 s] j: degree 18, CM false 0
-[0.140000 s] VERIFY_DONE
+[0.0200000 s] orders verified: ord P = 1, ord Q = 46, <P,Q> = Z/1 x Z/46
+[0.0200000 s] torsion bound from reductions: |E(K)_tors| divides 46 (primes [ 5, 7 ])
+[0.0200000 s] Tate normal form done; residue field of the point has degree 18 (K has degree 18)
+[0.0300000 s] j: degree 18, CM false 0
+[0.0300000 s] VERIFY_DONE

@@ -1,0 +1,198 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "1.50.12.a",
+  "m": 1,
+  "n": 50,
+  "degree": 12,
+  "relative_degree": 12,
+  "base_field": "Q",
+  "status": "verified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "maybe",
+      "rule": "no recorded result decides whether X_1(50) has finitely many points of degree 12",
+      "sources": []
+    },
+    "sporadic": {
+      "value": "maybe",
+      "rule": "finitely many points of degree 10, 11, 12 on X_1(50): not decided by any recorded result",
+      "sources": []
+    },
+    "isolated": {
+      "value": "maybe",
+      "rule": "dim L(x) not computed (not attempted (--no-isolation))",
+      "sources": []
+    }
+  },
+  "isolation": {
+    "computed": false,
+    "p1_isolated": null,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "note": "not attempted (--no-isolation)"
+  },
+  "discovery": {
+    "by": "M. van Hoeij",
+    "year": 2012
+  },
+  "field": {
+    "poly": "x^12 - 7*x^11 + 19*x^10 - 18*x^9 - 15*x^8 + 49*x^7 - 49*x^6 + 30*x^5 - 9*x^4 + x^3 - 3*x^2 - x + 1",
+    "poly_coeffs": [
+      "1",
+      "-1",
+      "-3",
+      "1",
+      "-9",
+      "30",
+      "-49",
+      "49",
+      "-15",
+      "-18",
+      "19",
+      "-7",
+      "1"
+    ],
+    "polredabs": "x^12 - 2*x^10 - 2*x^9 + 2*x^8 - 6*x^7 - x^6 + 6*x^5 + 2*x^4 + 2*x^3 - 2*x^2 + 1",
+    "degree": 12,
+    "disc": "1771848271625",
+    "disc_factored": "5^3 * 23^4 * 37^3",
+    "signature": [
+      4,
+      4
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "1/29333*(803298*a^11 - 5922489*a^10 + 17495999*a^9 - 21167563*a^8 - 3639940*a^7 + 40224948*a^6 - 54832538*a^5 + 45982221*a^4 - 25601548*a^3 + 10997400*a^2 - 6894568*a + 1939149)",
+    "tate_c": "1/29333*(-139950*a^11 + 1020838*a^10 - 2972238*a^9 + 3484984*a^8 + 816065*a^7 - 6822147*a^6 + 9009358*a^5 - 7513553*a^4 + 4194991*a^3 - 1784868*a^2 + 1102553*a - 307736)",
+    "tate_b_coeffs": [
+      "1939149/29333",
+      "-6894568/29333",
+      "10997400/29333",
+      "-25601548/29333",
+      "45982221/29333",
+      "-54832538/29333",
+      "40224948/29333",
+      "-3639940/29333",
+      "-21167563/29333",
+      "17495999/29333",
+      "-5922489/29333",
+      "803298/29333"
+    ],
+    "tate_c_coeffs": [
+      "-307736/29333",
+      "1102553/29333",
+      "-1784868/29333",
+      "4194991/29333",
+      "-7513553/29333",
+      "9009358/29333",
+      "-6822147/29333",
+      "816065/29333",
+      "3484984/29333",
+      "-2972238/29333",
+      "1020838/29333",
+      "-139950/29333"
+    ],
+    "ainvs": [
+      "1 - (1/29333*(-139950*a^11 + 1020838*a^10 - 2972238*a^9 + 3484984*a^8 + 816065*a^7 - 6822147*a^6 + 9009358*a^5 - 7513553*a^4 + 4194991*a^3 - 1784868*a^2 + 1102553*a - 307736))",
+      "-(1/29333*(803298*a^11 - 5922489*a^10 + 17495999*a^9 - 21167563*a^8 - 3639940*a^7 + 40224948*a^6 - 54832538*a^5 + 45982221*a^4 - 25601548*a^3 + 10997400*a^2 - 6894568*a + 1939149))",
+      "-(1/29333*(803298*a^11 - 5922489*a^10 + 17495999*a^9 - 21167563*a^8 - 3639940*a^7 + 40224948*a^6 - 54832538*a^5 + 45982221*a^4 - 25601548*a^3 + 10997400*a^2 - 6894568*a + 1939149))",
+      "0",
+      "0"
+    ],
+    "P": [],
+    "P_coeffs": [],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^6 - 367480*x^5 + 3090205567*x^4 - 22425094470836*x^3 - 3401439539249422*x^2 - 2687485796524921260*x - 334342230491221901801",
+    "j_degree": 6,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "twist_norm_class": "",
+    "disc_norm": "1",
+    "conductor_norm": "1"
+  },
+  "torsion": {
+    "invariants": [
+      50
+    ],
+    "known_exactly": true,
+    "order_bound": 50,
+    "bound_primes": [
+      7,
+      7,
+      7,
+      11,
+      17,
+      19,
+      19,
+      19,
+      43,
+      53
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^12 - 7*x^11 + 19*x^10 - 18*x^9 - 15*x^8 + 49*x^7 - 49*x^6 + 30*x^5 - 9*x^4 + x^3 - 3*x^2 - x + 1",
+      "degree": 12
+    },
+    "mode": "vanhoeij",
+    "curve": {
+      "eqxy": "29333*y+13411*x^11-93549*x^10+247042*x^9-206222*x^8-258652*x^7+642659*x^6-521167*x^5+275668*x^4-100291*x^3+57824*x^2-57489*x-37783"
+    },
+    "points": {},
+    "ainvs_as_verified": [
+      "1/29333*(139950*a^11 - 1020838*a^10 + 2972238*a^9 - 3484984*a^8 - 816065*a^7 + 6822147*a^6 - 9009358*a^5 + 7513553*a^4 - 4194991*a^3 + 1784868*a^2 - 1102553*a + 337069)",
+      "1/29333*(-803298*a^11 + 5922489*a^10 - 17495999*a^9 + 21167563*a^8 + 3639940*a^7 - 40224948*a^6 + 54832538*a^5 - 45982221*a^4 + 25601548*a^3 - 10997400*a^2 + 6894568*a - 1939149)",
+      "1/29333*(-803298*a^11 + 5922489*a^10 - 17495999*a^9 + 21167563*a^8 + 3639940*a^7 - 40224948*a^6 + 54832538*a^5 - 45982221*a^4 + 25601548*a^3 - 10997400*a^2 + 6894568*a - 1939149)",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "1"
+      ],
+      "Q": [
+        "0",
+        "0"
+      ],
+      "order_P": 1,
+      "order_Q": 50
+    },
+    "working_field": {
+      "poly": "x^12 - 7*x^11 + 19*x^10 - 18*x^9 - 15*x^8 + 49*x^7 - 49*x^6 + 30*x^5 - 9*x^4 + x^3 - 3*x^2 - x + 1",
+      "degree": 12
+    },
+    "claimed_degree": 12,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Mark van Hoeij",
+    "github": "",
+    "affiliation": "Florida State University"
+  },
+  "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (2013/2014), line 776",
+  "notes": "Imported from van Hoeij's list; one representative per diamond orbit.",
+  "source": {
+    "kind": "import",
+    "file": "vanhoeij_LowDegreePlaces.txt",
+    "line": 776,
+    "url": "https://www.math.fsu.edu/~hoeij/files/X1N/LowDegreePlaces"
+  },
+  "dates": {
+    "submitted": "2013-08-01",
+    "verified": "2026-09-18 18:59:53 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.29-4",
+    "cputime_seconds": "0.0400000",
+    "verify_lib_sha256": "7b19e3206e1dbc910f4c97b142a0b69f69b0507808c5cbab2a0d723f3ef84683",
+    "log": "data/logs/1.50.12.a.log",
+    "isolation_log": ""
+  }
+}

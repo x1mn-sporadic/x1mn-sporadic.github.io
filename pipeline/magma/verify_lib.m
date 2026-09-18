@@ -266,18 +266,37 @@ Log(Sprintf("orders verified: ord P = %o, ord Q = %o, <P,Q> = Z/%o x Z/%o", m, n
 
 // ---------------------------------------------------------------- 5. torsion bound from reductions
 // E(K)_tors injects into E(F_P) for every prime P of good reduction, unramified, above p >= 3
-// (e = 1 < p - 1), whatever the residue degree.  Primes of residue degree <= 4 are used.
-OK := MaximalOrder(K);
+// (e = 1 < p - 1), whatever the residue degree.  The primes above p are read off the factorisation
+// of the defining polynomial f modulo p when p does not divide disc(f) (then Z[a] is p-maximal and
+// every P is unramified): no maximal order is needed, whose computation can take minutes for
+// large fields with hard discriminants.
+fK := DefiningPolynomial(K);
+discf := Discriminant(fK);
 DE := Discriminant(E);
+function ReduceElt(z, p, r, k)   // z in K -> k, a |-> r (a root of f mod p in k); fails if a denominator is divisible by p
+  cs := Eltseq(z);
+  if exists{c : c in cs | Denominator(c) mod p eq 0} then return false, k!0; end if;
+  return true, &+[ (k!(GF(p)!cs[i])) * r^(i-1) : i in [1..#cs] ];
+end function;
 bound := 0; used := [];
 for p in PrimesInInterval(3, 3000) do
   if bound eq m*n or #used ge 40 then break; end if;
-  if Discriminant(OK) mod p eq 0 then continue; end if;
-  for pr in Decomposition(OK, p) do
-    if InertiaDegree(pr[1]) gt 4 then continue; end if;
-    if Valuation(DE, pr[1]) ne 0 then continue; end if;
-    if exists{ai : ai in aInvariants(E) | ai ne 0 and Valuation(ai, pr[1]) lt 0} then continue; end if;
-    Ep := Reduction(E, pr[1]);
+  if Numerator(discf) mod p eq 0 or Denominator(discf) mod p eq 0 then continue; end if;
+  if exists{c : c in Coefficients(fK) | Denominator(c) mod p eq 0} or Integers()!Numerator(LeadingCoefficient(fK)) mod p eq 0 then continue; end if;
+  fp := PolynomialRing(GF(p))![GF(p)!c : c in Coefficients(fK)];
+  for t in Factorization(fp) do
+    g := t[1];
+    if Degree(g) gt 4 then continue; end if;
+    if Degree(g) eq 1 then k := GF(p); r := -Coefficient(g, 0)/Coefficient(g, 1);
+    else k := ext< GF(p) | g >; r := k.1; end if;      // a root of g
+    okr, Dp := ReduceElt(DE, p, r, k);
+    if not okr or Dp eq 0 then continue; end if;
+    ais := []; okall := true;
+    for ai in aInvariants(E) do
+      okr, v := ReduceElt(ai, p, r, k); if not okr then okall := false; break; end if; Append(~ais, v);
+    end for;
+    if not okall then continue; end if;
+    Ep := EllipticCurve(ais);
     bound := GCD(bound, #Ep);
     Append(~used, p);
     if bound eq m*n then break; end if;
@@ -290,7 +309,7 @@ if bound eq m*n then
 elif bound gt 0 then
   // a prime l dividing bound but not m n: is there any K-rational point of order l?  (division polynomial)
   extra_found := 1;
-  for l in PrimeDivisors(bound div (m*n)) do
+  for l in (bound mod (m*n) eq 0 select PrimeDivisors(bound div (m*n)) else []) do
     if (m*n) mod l eq 0 or l gt 7 then continue; end if;
     psi := DivisionPolynomial(E, l);
     has := false;
@@ -336,16 +355,23 @@ gensL := [b, c] cat (m gt 1 select [Pt[1], Pt[2]] else [K | ]);
 L := sub<K | gensL>;
 dL := Degree(L);
 Log(Sprintf("Tate normal form done; residue field of the point has degree %o (K has degree %o)", dL, d));
-// express the point over its residue field L
-BigField := dL gt 40;    // no optimised representation for very large fields
-if dL eq 1 or BigField then
-  Lopt := L; mopt := map<L -> L | v :-> v>;
+// express the point over its residue field: K itself when the degree is full (the usual case; the
+// subfield constructed by Magma has a messy generator whose maximal order is expensive), otherwise
+// an optimised representation of the subfield
+if dL eq d then
+  Lopt := K; AssignNames(~Lopt, ["a"]); bL := b; cL := c;
+  PtL := m gt 1 select [Pt[1], Pt[2]] else [K | ];
 else
-  Lopt, mopt := OptimizedRepresentation(L);
+  BigField := dL gt 40;
+  if dL eq 1 or BigField then
+    Lopt := L; mopt := map<L -> L | v :-> v>;
+  else
+    Lopt, mopt := OptimizedRepresentation(L);
+  end if;
+  AssignNames(~Lopt, ["a"]);
+  bL := mopt(L!b); cL := mopt(L!c);
+  PtL := m gt 1 select [mopt(L!(Pt[1])), mopt(L!(Pt[2]))] else [Lopt | ];
 end if;
-AssignNames(~Lopt, ["a"]);
-bL := mopt(L!b); cL := mopt(L!c);
-PtL := m gt 1 select [mopt(L!(Pt[1])), mopt(L!(Pt[2]))] else [Lopt | ];
 fL := DefiningPolynomial(Lopt);
 
 // ---------------------------------------------------------------- 7. invariants
@@ -361,24 +387,15 @@ catch e
   Log("HasComplexMultiplication failed: " cat Sprint(e`Object));
 end try;
 Log(Sprintf("j: degree %o, CM %o %o", jdeg, cmflag, cmdisc));
-// twist class: E = (canonical curve with the same j)^d over K; the square class of Norm(d) is invariant
-// under K-isomorphism and Galois conjugation, so (residue field, j, this class) separates twists
+// (the duplicate test of verify.py compares curves by an isomorphism test, so no twist invariant is needed)
 twist_norm_class := "";
-if jdeg ge 1 and j ne 0 and j ne 1728 then
-  try
-    Ej := EllipticCurveFromjInvariant(j);
-    okt, dt := IsQuadraticTwist(E, Ej);
-    if okt then
-      nd := Norm(dt);
-      twist_norm_class := Sprint(SquarefreeFactorization(Numerator(nd)*Denominator(nd)));
-    end if;
-  catch e
-    Log("twist class not computed: " cat Sprint(e`Object));
-  end try;
+// norm of the discriminant and conductor: informational, computed for small fields only
+disc_norm := "not computed"; cond_norm := "";
+dn := 0;
+if d le 12 then
+  dn := Norm(Discriminant(E));
+  disc_norm := Sprint(Numerator(dn)) cat (Denominator(dn) eq 1 select "" else "/" cat Sprint(Denominator(dn)));
 end if;
-dn := Norm(Discriminant(E));
-disc_norm := Sprint(Numerator(dn)) cat (Denominator(dn) eq 1 select "" else "/" cat Sprint(Denominator(dn)));
-cond_norm := "";
 if d le 12 and Abs(Numerator(dn)) lt 10^30 and Abs(Denominator(dn)) lt 10^30 then
   try
     cond_norm := Sprint(Norm(Conductor(E)));
@@ -387,9 +404,13 @@ if d le 12 and Abs(Numerator(dn)) lt 10^30 and Abs(Denominator(dn)) lt 10^30 the
     Log("conductor not computed: " cat Sprint(e`Object));
   end try;
 end if;
-OL := MaximalOrder(Lopt);
-discL := Discriminant(OL);
-discLs := Abs(discL) lt 10^60 select FactoredString(discL) else "not factored";
+// field discriminant (needs the maximal order): small fields only
+discL := 0; discLs := "not computed";
+if dL le 16 then
+  OL := MaximalOrder(Lopt);
+  discL := Discriminant(OL);
+  if Abs(discL) lt 10^36 then discLs := FactoredString(discL); else discLs := "not factored"; end if;
+end if;
 r1, r2 := Signature(Lopt);
 v1, v2, v3 := GetVersion();
 ver := Sprintf("%o.%o-%o", v1, v2, v3);

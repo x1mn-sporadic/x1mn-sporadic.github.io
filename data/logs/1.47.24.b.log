@@ -8,7 +8,7 @@
 0
 ]
 [0.0200000 s] orders verified: ord P = 1, ord Q = 47, <P,Q> = Z/1 x Z/47
-[0.0900000 s] torsion bound from reductions: |E(K)_tors| divides 47 (primes [ 7 ])
-[0.100000 s] Tate normal form done; residue field of the point has degree 24 (K has degree 24)
-[0.280000 s] j: degree 24, CM false 0
-[6.61000 s] VERIFY_DONE
+[0.0300000 s] torsion bound from reductions: |E(K)_tors| divides 47 (primes [ 7 ])
+[0.0400000 s] Tate normal form done; residue field of the point has degree 24 (K has degree 24)
+[0.0500000 s] j: degree 24, CM false 0
+[0.0500000 s] VERIFY_DONE

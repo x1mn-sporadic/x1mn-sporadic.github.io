@@ -37,8 +37,8 @@
       1
     ],
     "model": "mdmagma MDX1(37) (Sutherland's optimised model of X_1(37))",
-    "cputime_seconds": "12.3900",
-    "isolation_lib_sha256": "2fd2b91355fe79b6138415f8c41c9d82fe8cbb637d721d2801dac0566b1becb7"
+    "cputime_seconds": "27.7900",
+    "isolation_lib_sha256": "52f0927eb3c3c9c8c9b2bbe3330e41abe27c5937c4792e7f00c14e86a633706b"
   },
   "discovery": {
     "by": "M. van Hoeij",
@@ -196,6 +196,6 @@
     "cputime_seconds": "0.930000",
     "verify_lib_sha256": "33d17924c5865ef6fede3c4e05c5e0f5dfae1b0609a7a74f640aa4a4bce0c86d",
     "log": "data/logs/1.37.13.a.log",
-    "isolation_log": "data/logs/1.37.13.a.isolation.log"
+    "isolation_log": "data/logs/batch_1_37.isolation.log"
   }
 }

@@ -243,8 +243,10 @@ def run_isolation(res: dict, jobdir: Path, args) -> dict:
 # --------------------------------------------------------------------------- post-processing
 
 def polredabs(poly: str) -> str | None:
-    if poly.count("x^") and max(int(t) for t in __import__("re").findall(r"x\^(\d+)", poly)) > 24:
-        return None            # polredabs needs the maximal order: skipped for large fields
+    """PARI's canonical polynomial of the field (degree <= 16 only: the canonical search is exponential)."""
+    deg = max((int(t) for t in __import__("re").findall(r"x\^(\d+)", poly)), default=1)
+    if deg > 16:
+        return None
     try:
         import cypari2
         pari = cypari2.Pari()
@@ -298,13 +300,15 @@ def same_curve(rf1: dict, cert2: dict, jobdir: Path) -> bool:
     return bool(read_json(out).get("same"))
 
 
-def find_duplicate(m, n, field_polredabs, j_minpoly, rf, points, jobdir):
+def find_duplicate(m, n, rf, j_minpoly, points, jobdir):
     """The point is recorded once per elliptic curve over its residue field: a submission whose curve is
     isomorphic (over the field, up to field isomorphism) to that of an existing point on the same curve
     X_1(m,n) is a duplicate -- the two level structures differ by a diamond operator, the choice of the
-    torsion basis, or Galois conjugation.  Candidates are pre-filtered by residue field and j-invariant."""
+    torsion basis, or Galois conjugation.  Candidates are pre-filtered by the degree and discriminant of
+    the residue field and by the j-invariant; the decision is Magma's isomorphism test."""
     for p in points:
-        if p["m"] == m and p["n"] == n and p["field"].get("polredabs") == field_polredabs \
+        if p["m"] == m and p["n"] == n and p["field"]["degree"] == rf["degree"] \
+                and str(p["field"].get("disc")) == str(rf["disc"]) \
                 and p["curve"]["j_minpoly"] == j_minpoly and same_curve(rf, p, jobdir):
             return p["id"]
     return None
@@ -328,7 +332,7 @@ def build_certificate(v: dict, res: dict, curve: dict, points, jobdir: Path, iso
         raise Reject(f"expected degree {v['degree']} but the point has degree {d}")
     cls = knowledge.classify_point(curve, d, iso, res["curve"]["j_rational"])
     canon = polredabs(rf["poly"])
-    dup = find_duplicate(m, n, canon, res["curve"]["j_minpoly"], rf, points, jobdir)
+    dup = find_duplicate(m, n, rf, res["curve"]["j_minpoly"], points, jobdir)
     if dup:
         raise Reject(f"duplicate of the existing point {dup} (the same elliptic curve over the same residue field)")
     if cls["status"] == "rejected":

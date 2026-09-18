@@ -42,8 +42,8 @@
       1
     ],
     "model": "mdmagma MDX11(3,12) (Derickx-Sutherland model of X_1(3,12))",
-    "cputime_seconds": "0.150000",
-    "isolation_lib_sha256": "06a5a6804036a597a2254e18da0d85b34a6ec7c98a42e502426f269b747a16e2"
+    "cputime_seconds": "0.160000",
+    "isolation_lib_sha256": "52f0927eb3c3c9c8c9b2bbe3330e41abe27c5937c4792e7f00c14e86a633706b"
   },
   "discovery": {
     "by": "F. Najman",
@@ -215,6 +215,6 @@
     "cputime_seconds": "0.100000",
     "verify_lib_sha256": "882aafaf0ea8f7632aba001ca8907387186b3282032b4f320fcbb868a511c4f4",
     "log": "data/logs/3.12.6.b.log",
-    "isolation_log": "data/logs/3.12.6.b.isolation.log"
+    "isolation_log": "data/logs/batch_3_12.isolation.log"
   }
 }

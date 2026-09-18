@@ -8,10 +8,9 @@
 0
 ]
 [0.0100000 s] orders verified: ord P = 1, ord Q = 41, <P,Q> = Z/1 x Z/41
-[1.27000 s] torsion bound from reductions: |E(K)_tors| divides 82 (primes [ 3, 3, 3, 3, 3, 37, 37, 37, 37, 37, 79, 79, 79, 79, 79, 83, 83, 83, 83, 83, 83, 83, 83, 83, 83, 97, 97, 97, 97, 97, 101, 101, 101, 101, 101, 101, 101, 101, 101, 101 ])
-[1.29000 s] E(K) has a point of order 2 (coprime to 41): the torsion contains Z/1 x Z/82
-[1.29000 s] E(K)_tors = [ 82 ] (bound attained)
-[1.30000 s] Tate normal form done; residue field of the point has degree 20 (K has degree 20)
-[1.37000 s] j: degree 1, CM true -4
-[3.28000 s] conductor norm 1681
-[3.28000 s] VERIFY_DONE
+[0.0800000 s] torsion bound from reductions: |E(K)_tors| divides 82 (primes [ 37, 37, 37, 37, 37, 79, 79, 79, 79, 79, 83, 83, 83, 83, 83, 83, 83, 83, 83, 83, 97, 97, 97, 97, 97, 101, 101, 101, 101, 101, 101, 101, 101, 101, 101, 113, 113, 113, 113, 113 ])
+[0.100000 s] E(K) has a point of order 2 (coprime to 41): the torsion contains Z/1 x Z/82
+[0.100000 s] E(K)_tors = [ 82 ] (bound attained)
+[0.110000 s] Tate normal form done; residue field of the point has degree 20 (K has degree 20)
+[0.110000 s] j: degree 1, CM true -4
+[0.110000 s] VERIFY_DONE

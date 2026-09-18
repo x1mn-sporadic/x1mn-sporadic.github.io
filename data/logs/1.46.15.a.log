@@ -1,6 +1,6 @@
 [0.000000 s] start: X_1(1,46) mode=vanhoeij
-[0.000000 s] field: degree 15, x^15 + 3*x^14 + 4*x^13 - 2*x^12 - 11*x^11 - 11*x^10 + 5*x^9 + 17*x^8 + 7*x^7 - 11*x^6 - 11*x^5 + 3*x^4 + 8*x^3 + 2*x^2 - 2*x - 1
-[0.000000 s] curve: [
+[0.0100000 s] field: degree 15, x^15 + 3*x^14 + 4*x^13 - 2*x^12 - 11*x^11 - 11*x^10 + 5*x^9 + 17*x^8 + 7*x^7 - 11*x^6 - 11*x^5 + 3*x^4 + 8*x^3 + 2*x^2 - 2*x - 1
+[0.0100000 s] curve: [
 1/47*(-334*a^14 - 636*a^13 - 493*a^12 + 1421*a^11 + 2239*a^10 + 538*a^9 - 2944*a^8 - 2401*a^7 + 1602*a^6 + 2413*a^5 + 134*a^4 - 1909*a^3 - 286*a^2 + 358*a + 209),
 1/2209*(-135483*a^14 - 239986*a^13 - 197712*a^12 + 583080*a^11 + 815389*a^10 + 255736*a^9 - 1205254*a^8 - 812343*a^7 + 496597*a^6 + 1006532*a^5 - 16594*a^4 - 647659*a^3 - 161957*a^2 + 133244*a + 71966),
 1/2209*(-135483*a^14 - 239986*a^13 - 197712*a^12 + 583080*a^11 + 815389*a^10 + 255736*a^9 - 1205254*a^8 - 812343*a^7 + 496597*a^6 + 1006532*a^5 - 16594*a^4 - 647659*a^3 - 161957*a^2 + 133244*a + 71966),
@@ -8,7 +8,7 @@
 0
 ]
 [0.0100000 s] orders verified: ord P = 1, ord Q = 46, <P,Q> = Z/1 x Z/46
-[0.0300000 s] torsion bound from reductions: |E(K)_tors| divides 46 (primes [ 3, 5, 7 ])
-[0.0300000 s] Tate normal form done; residue field of the point has degree 15 (K has degree 15)
-[0.0300000 s] j: degree 15, CM false 0
-[0.350000 s] VERIFY_DONE
+[0.0200000 s] torsion bound from reductions: |E(K)_tors| divides 46 (primes [ 3, 5, 7 ])
+[0.0200000 s] Tate normal form done; residue field of the point has degree 15 (K has degree 15)
+[0.0200000 s] j: degree 15, CM false 0
+[0.0200000 s] VERIFY_DONE

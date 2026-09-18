@@ -66,8 +66,8 @@
     ],
     "polredabs": null,
     "degree": 25,
-    "disc": "-561235068374923213196366634647",
-    "disc_factored": "-1 * 283 * 2099 * 30203 * 948853 * 32968326912449",
+    "disc": "not computed",
+    "disc_factored": "not computed",
     "signature": [
       3,
       11
@@ -149,8 +149,8 @@
     "j_rational": "",
     "cm": false,
     "cm_disc": 0,
-    "twist_norm_class": "53225400688669925497380529753312005954823369675560730617259428725379509282809",
-    "disc_norm": "1033",
+    "twist_norm_class": "",
+    "disc_norm": "not computed",
     "conductor_norm": ""
   },
   "torsion": {
@@ -217,13 +217,13 @@
   },
   "dates": {
     "submitted": "2013-08-01",
-    "verified": "2026-09-18 17:20:51 UTC"
+    "verified": "2026-09-18 18:59:07 UTC"
   },
   "verification": {
     "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
     "magma_version": "2.29-4",
-    "cputime_seconds": "5.93000",
-    "verify_lib_sha256": "b6abd7fa276491f46db0bc7afca0d4503c23f17796022b82a6fc0f910c1c3998",
+    "cputime_seconds": "0.0600000",
+    "verify_lib_sha256": "7b19e3206e1dbc910f4c97b142a0b69f69b0507808c5cbab2a0d723f3ef84683",
     "log": "data/logs/1.47.25.b.log",
     "isolation_log": ""
   }

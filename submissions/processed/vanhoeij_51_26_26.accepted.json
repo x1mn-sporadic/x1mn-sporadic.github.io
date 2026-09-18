@@ -1,0 +1,30 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 1,
+  "n": 51,
+  "field": "x^26-7*x^25+19*x^24-24*x^23+22*x^22-19*x^21-56*x^20+180*x^19-130*x^18-21*x^17-328*x^16+974*x^15+361*x^14-3295*x^13+2003*x^12+3118*x^11-3287*x^10-1158*x^9+2099*x^8+71*x^7-669*x^6+63*x^5+109*x^4-19*x^3-10*x^2+3*x+1",
+  "curve": {
+    "vanhoeij": {
+      "eqxy": "(26*x^25-175*x^24+456*x^23-552*x^22+484*x^21-399*x^20-1120*x^19+3420*x^18-2340*x^17-357*x^16-5248*x^15+14610*x^14+5054*x^13-42835*x^12+24036*x^11+34298*x^10-32870*x^9-10422*x^8+16792*x^7+497*x^6-4014*x^5+315*x^4+436*x^3-57*x^2-20*x+3)*y-10*x^25+54*x^24-100*x^23+140*x^22-405*x^21+548*x^20+187*x^19-1100*x^18+2440*x^17-5919*x^16+7964*x^15+5884*x^14-34349*x^13+23402*x^12+38991*x^11-49265*x^10-15421*x^9+38153*x^8-982*x^7-14571*x^6+2369*x^5+2884*x^4-704*x^3-300*x^2+98*x+27"
+    }
+  },
+  "degree": 26,
+  "expected": {
+    "j_degree": 26,
+    "j": null
+  },
+  "discoverer": "M. van Hoeij",
+  "year": 2012,
+  "submitter": "Mark van Hoeij",
+  "affiliation": "Florida State University",
+  "github": "",
+  "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (2013/2014), line 981",
+  "notes": "Imported from van Hoeij's list; one representative per diamond orbit.",
+  "date": "2013-08-01",
+  "source": {
+    "kind": "import",
+    "file": "vanhoeij_LowDegreePlaces.txt",
+    "line": 981,
+    "url": "https://www.math.fsu.edu/~hoeij/files/X1N/LowDegreePlaces"
+  }
+}

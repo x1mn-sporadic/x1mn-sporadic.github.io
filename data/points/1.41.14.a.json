@@ -6,7 +6,7 @@
   "degree": 14,
   "relative_degree": 14,
   "base_field": "Q",
-  "status": "verified",
+  "status": "certified",
   "classification": {
     "infinite_in_degree": {
       "value": "maybe",
@@ -19,16 +19,27 @@
       "sources": []
     },
     "isolated": {
-      "value": "maybe",
-      "rule": "dim L(x) not computed (not attempted (--no-isolation))",
-      "sources": []
+      "value": "yes",
+      "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
+      "sources": [
+        "BELOV",
+        "DvH14"
+      ]
     }
   },
   "isolation": {
-    "computed": false,
-    "p1_isolated": null,
+    "computed": true,
+    "p1_isolated": true,
     "method": "reduction modulo good primes (upper semicontinuity of h^0)",
-    "note": "not attempted (--no-isolation)"
+    "primes": [
+      5
+    ],
+    "l_values": [
+      1
+    ],
+    "model": "mdmagma MDX1(41) (Sutherland's optimised model of X_1(41))",
+    "cputime_seconds": "63.7400",
+    "isolation_lib_sha256": "6aed3641fad595ce77f55c7a3b27726fdf9c75d5bdcee97ab3778ae3668218cb"
   },
   "discovery": {
     "by": "M. van Hoeij",
@@ -190,6 +201,6 @@
     "cputime_seconds": "0.560000",
     "verify_lib_sha256": "863be091a0778c2b864191669461e003cc6aed8ec96323a1ac0fa829b7b1c7d3",
     "log": "data/logs/1.41.14.a.log",
-    "isolation_log": ""
+    "isolation_log": "data/logs/batch_1_41.isolation.log"
   }
 }

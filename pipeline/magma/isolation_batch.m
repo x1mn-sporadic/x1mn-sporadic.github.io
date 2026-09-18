@@ -15,8 +15,9 @@ for pt in POINTS do
   try
     IsolationCheck(m, n, pt[2], pt[3], pt[4], pt[5], pt[6], MaxPrimes, ~cache, ~json);
   catch e
-    json := Sprintf("{\"ok\": false, \"error\": \"%o\"}", e`Object);
-    Log("FAIL: " cat Sprint(e`Object));
+    msg := &cat[c eq "\n" select " " else (c eq "\"" select "'" else c) : c in Eltseq(Sprint(e`Object))];
+    json := Sprintf("{\"ok\": false, \"error\": \"%o\"}", msg);
+    Log("FAIL: " cat msg);
   end try;
   Write(OutFile, Sprintf("{\"id\": \"%o\", \"result\": %o}", id, json));
 end for;

@@ -1,14 +1,14 @@
 [0.000000 s] start: X_1(1,46) mode=vanhoeij
 [0.000000 s] field: degree 14, x^14 - 7*x^13 + 15*x^12 + x^11 - 74*x^10 + 194*x^9 - 311*x^8 + 377*x^7 - 376*x^6 + 312*x^5 - 209*x^4 + 107*x^3 - 39*x^2 + 9*x - 1
-[0.000000 s] curve: [
+[0.0100000 s] curve: [
 1/19*(35*a^13 - 351*a^12 + 1176*a^11 - 916*a^10 - 3998*a^9 + 14120*a^8 - 24117*a^7 + 29418*a^6 - 29383*a^5 + 24548*a^4 - 16131*a^3 + 7488*a^2 - 2143*a + 298),
 1/19*(-172*a^13 + 1251*a^12 - 2781*a^11 - 261*a^10 + 14013*a^9 - 35434*a^8 + 53844*a^7 - 62280*a^6 + 59657*a^5 - 47367*a^4 + 29298*a^3 - 13027*a^2 + 3681*a - 515),
 1/19*(-172*a^13 + 1251*a^12 - 2781*a^11 - 261*a^10 + 14013*a^9 - 35434*a^8 + 53844*a^7 - 62280*a^6 + 59657*a^5 - 47367*a^4 + 29298*a^3 - 13027*a^2 + 3681*a - 515),
 0,
 0
 ]
-[0.000000 s] orders verified: ord P = 1, ord Q = 46, <P,Q> = Z/1 x Z/46
-[0.0200000 s] torsion bound from reductions: |E(K)_tors| divides 46 (primes [ 3, 7 ])
-[0.0200000 s] Tate normal form done; residue field of the point has degree 14 (K has degree 14)
-[0.0500000 s] j: degree 14, CM false 0
-[0.0600000 s] VERIFY_DONE
+[0.0100000 s] orders verified: ord P = 1, ord Q = 46, <P,Q> = Z/1 x Z/46
+[0.0100000 s] torsion bound from reductions: |E(K)_tors| divides 46 (primes [ 3, 7 ])
+[0.0100000 s] Tate normal form done; residue field of the point has degree 14 (K has degree 14)
+[0.0100000 s] j: degree 14, CM false 0
+[0.0200000 s] VERIFY_DONE

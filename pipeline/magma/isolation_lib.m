@@ -170,9 +170,10 @@ end function;
    curve pays the integral closure of the function field once per prime.  Returns the JSON string. */
 procedure IsolationCheck(m, n, fpoly, tb, tc, Px, Py, MaxPrimes, ~cache, ~json)
   Qx<x> := PolynomialRing(Rationals());
-  L<a> := NumberField(Qx!(eval fpoly));
+  fL := Qx!(eval fpoly);
+  L<a> := NumberField(fL);
   d := Degree(L);
-  OL := MaximalOrder(L);
+  discf := Discriminant(fL);
   b0 := L!(eval tb); c0 := L!(eval tc);
   E0 := EllipticCurve([L | 1 - c0, -b0, -b0, 0, 0]);
   Q0 := E0![0, 0];
@@ -203,16 +204,32 @@ procedure IsolationCheck(m, n, fpoly, tb, tc, Px, Py, MaxPrimes, ~cache, ~json)
                    else Sprintf("mdmagma MDX11(%o,%o) (Derickx-Sutherland model of X_1(%o,%o))", m, n, m, n);
   gQ := Genus(CongruenceSubgroup([n, n, m]));
   qt_lines := QTLines(m, n);
+  // reduction modulo the primes above q read off f mod q (q not dividing disc f: unramified, Z[a] q-maximal)
+  reduce := function(z, q, r, k)
+    cs := Eltseq(z);
+    if exists{c : c in cs | Denominator(c) mod q eq 0} then return false, k!0; end if;
+    return true, &+[ (k!(GF(q)!cs[i])) * r^(i-1) : i in [1..#cs] ];
+  end function;
   primes_used := []; lvals := []; isolated := false;
   q := 2; tried := 0;
   while tried lt MaxPrimes and q lt 500 do
     q := NextPrime(q);
-    if n mod q eq 0 or Discriminant(OL) mod q eq 0 or (m ge 3 and q mod m ne 1) then continue; end if;
-    dec := Decomposition(OL, q);
+    if n mod q eq 0 or Numerator(discf) mod q eq 0 or Denominator(discf) mod q eq 0 or (m ge 3 and q mod m ne 1) then continue; end if;
+    if exists{c : c in Coefficients(fL) | Denominator(c) mod q eq 0} or Integers()!Numerator(LeadingCoefficient(fL)) mod q eq 0 then continue; end if;
+    fq := PolynomialRing(GF(q))![GF(q)!c : c in Coefficients(fL)];
+    dec := [* *];     // one entry <k, r, values> per prime above q: residue field, root, reduced values
     bad := false;
-    for pr in dec do
-      Qi := pr[1];
-      if exists{v : v in vals0 | Valuation(v, Qi) lt 0} or Valuation(Delta, Qi) ne 0 then bad := true; break; end if;
+    for t in Factorization(fq) do
+      if Degree(t[1]) eq 1 then k := GF(q); r := -Coefficient(t[1], 0)/Coefficient(t[1], 1);
+      else k := ext< GF(q) | t[1] >; r := k.1; end if;
+      okr, Dq := reduce(Delta, q, r, k);
+      if not okr or Dq eq 0 then bad := true; break; end if;
+      vq := [];
+      for v in vals0 do
+        okr, vv := reduce(v, q, r, k); if not okr then bad := true; break; end if; Append(~vq, vv);
+      end for;
+      if bad then break; end if;
+      Append(~dec, <k, r, vq>);
     end for;
     if bad then Log(Sprintf("q = %o: bad reduction, skipped", q)); continue; end if;
     tried +:= 1;
@@ -236,9 +253,8 @@ procedure IsolationCheck(m, n, fpoly, tb, tc, Px, Py, MaxPrimes, ~cache, ~json)
     D := DivisorGroup(FA)!0;
     nfound := 0;
     for pr in dec do
-      Qi := pr[1];
-      k, mk := ResidueClassField(Qi);
-      okp, pl := ReducedPlace(m, FA, Fs, FFs, uF, Fpol, qt_lines, k, [mk(v) : v in vals0]);
+      k := pr[1];
+      okp, pl := ReducedPlace(m, FA, Fs, FFs, uF, Fpol, qt_lines, k, pr[3]);
       if okp then D +:= 1*pl; nfound +:= 1;
       elif m le 2 then Log(Sprintf("q = %o: %o, skipped", q, pl)); ok := false; break; end if;
     end for;
@@ -269,8 +285,10 @@ if assigned fpoly then
   try
     IsolationCheck(m, n, fpoly, tb, tc, Px, Py, MaxPrimes, ~cache, ~json);
   catch e
-    json := Sprintf("{\"ok\": false, \"error\": \"%o\"}", e`Object);
-    Log("FAIL: " cat Sprint(e`Object));
+    msg := Sprint(e`Object);
+    msg := &cat[c eq "\n" select " " else (c eq "\"" select "'" else c) : c in Eltseq(msg)];
+    json := Sprintf("{\"ok\": false, \"error\": \"%o\"}", msg);
+    Log("FAIL: " cat msg);
   end try;
   Write(OutFile, json : Overwrite := true);
   Log("ISOLATION_DONE");
