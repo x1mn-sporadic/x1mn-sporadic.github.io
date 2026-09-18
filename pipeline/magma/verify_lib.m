@@ -265,30 +265,62 @@ end if;
 Log(Sprintf("orders verified: ord P = %o, ord Q = %o, <P,Q> = Z/%o x Z/%o", m, n, m, n));
 
 // ---------------------------------------------------------------- 5. torsion bound from reductions
+// E(K)_tors injects into E(F_P) for every prime P of good reduction, unramified, above p >= 3
+// (e = 1 < p - 1), whatever the residue degree.  Primes of residue degree <= 4 are used.
 OK := MaximalOrder(K);
 DE := Discriminant(E);
 bound := 0; used := [];
-for p in PrimesInInterval(3, 400) do
-  if bound eq m*n then break; end if;
+for p in PrimesInInterval(3, 3000) do
+  if bound eq m*n or #used ge 40 then break; end if;
+  if Discriminant(OK) mod p eq 0 then continue; end if;
   for pr in Decomposition(OK, p) do
-    if InertiaDegree(pr[1]) ne 1 or RamificationIndex(pr[1]) ne 1 then continue; end if;
+    if InertiaDegree(pr[1]) gt 4 then continue; end if;
     if Valuation(DE, pr[1]) ne 0 then continue; end if;
     if exists{ai : ai in aInvariants(E) | ai ne 0 and Valuation(ai, pr[1]) lt 0} then continue; end if;
     Ep := Reduction(E, pr[1]);
     bound := GCD(bound, #Ep);
     Append(~used, p);
-    break;   // one prime above p suffices
+    if bound eq m*n then break; end if;
   end for;
 end for;
 if bound eq 0 then bound := -1; end if;
 Log(Sprintf("torsion bound from reductions: |E(K)_tors| divides %o (primes %o)", bound, used));
 if bound eq m*n then
   torsion_inv := m eq 1 select [n] else [m, n]; torsion_known := true;
-elif not torsion_known and not SkipFullTorsion then
-  Log("torsion may be larger than <P,Q>: computing E(K)_tors");
-  T := TorsionSubgroup(E);
-  torsion_inv := Invariants(T); torsion_known := true;
-  Log(Sprintf("E(K)_tors = %o", torsion_inv));
+elif bound gt 0 then
+  // a prime l dividing bound but not m n: is there any K-rational point of order l?  (division polynomial)
+  extra_found := 1;
+  for l in PrimeDivisors(bound div (m*n)) do
+    if (m*n) mod l eq 0 or l gt 7 then continue; end if;
+    psi := DivisionPolynomial(E, l);
+    has := false;
+    for r in Roots(psi) do
+      x0 := r[1];
+      a1, a2, a3, a4, a6 := Explode(aInvariants(E));
+      disc := (a1*x0 + a3)^2 + 4*(x0^3 + a2*x0^2 + a4*x0 + a6);
+      if IsSquare(disc) then has := true; break; end if;
+    end for;
+    if not has then
+      while bound mod l eq 0 do bound := bound div l; end while;
+      Log(Sprintf("no K-rational point of order %o: bound reduced to %o", l, bound));
+    else
+      extra_found *:= l;
+      Log(Sprintf("E(K) has a point of order %o (coprime to %o): the torsion contains Z/%o x Z/%o", l, m*n, m, n*l));
+    end if;
+  end for;
+  if bound eq m*n then
+    torsion_inv := m eq 1 select [n] else [m, n]; torsion_known := true;
+  elif bound eq m*n*extra_found then
+    torsion_inv := m eq 1 select [n*extra_found] else [m, n*extra_found]; torsion_known := true;
+    Log(Sprintf("E(K)_tors = %o (bound attained)", torsion_inv));
+  elif not torsion_known and not SkipFullTorsion and Degree(K) le 8 then
+    Log("torsion may be larger than <P,Q>: computing E(K)_tors");
+    T := TorsionSubgroup(E);
+    torsion_inv := Invariants(T); torsion_known := true;
+    Log(Sprintf("E(K)_tors = %o", torsion_inv));
+  else
+    Log("torsion not determined exactly (contains <P,Q>; order divides the bound)");
+  end if;
 end if;
 
 // ---------------------------------------------------------------- 6. Tate normal form and residue field
@@ -347,10 +379,9 @@ end if;
 dn := Norm(Discriminant(E));
 disc_norm := Sprint(Numerator(dn)) cat (Denominator(dn) eq 1 select "" else "/" cat Sprint(Denominator(dn)));
 cond_norm := "";
-if Abs(Numerator(dn)) lt 10^40 and Abs(Denominator(dn)) lt 10^40 then
+if d le 12 and Abs(Numerator(dn)) lt 10^30 and Abs(Denominator(dn)) lt 10^30 then
   try
-    Emin := MinimalModel(E);
-    cond_norm := Sprint(Norm(Conductor(Emin)));
+    cond_norm := Sprint(Norm(Conductor(E)));
     Log("conductor norm " cat cond_norm);
   catch e
     Log("conductor not computed: " cat Sprint(e`Object));

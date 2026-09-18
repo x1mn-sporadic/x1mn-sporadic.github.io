@@ -1,0 +1,204 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "1.45.12.a",
+  "m": 1,
+  "n": 45,
+  "degree": 12,
+  "relative_degree": 12,
+  "base_field": "Q",
+  "status": "verified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "maybe",
+      "rule": "no recorded result decides whether X_1(45) has finitely many points of degree 12",
+      "sources": []
+    },
+    "sporadic": {
+      "value": "maybe",
+      "rule": "finitely many points of degree 10, 11, 12 on X_1(45): not decided by any recorded result",
+      "sources": []
+    },
+    "isolated": {
+      "value": "maybe",
+      "rule": "dim L(x) not computed (not attempted (--no-isolation))",
+      "sources": []
+    }
+  },
+  "isolation": {
+    "computed": false,
+    "p1_isolated": null,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "note": "not attempted (--no-isolation)"
+  },
+  "discovery": {
+    "by": "M. van Hoeij",
+    "year": 2012
+  },
+  "field": {
+    "poly": "x^12 + x^11 - 12*x^10 - 4*x^9 + 31*x^8 + 4*x^7 - 39*x^6 + 4*x^5 + 31*x^4 - 4*x^3 - 12*x^2 + x + 1",
+    "poly_coeffs": [
+      "1",
+      "1",
+      "-12",
+      "-4",
+      "31",
+      "4",
+      "-39",
+      "4",
+      "31",
+      "-4",
+      "-12",
+      "1",
+      "1"
+    ],
+    "polredabs": "x^12 - 6*x^11 + 12*x^10 - 5*x^9 - 31*x^8 + 88*x^7 - 105*x^6 + 52*x^5 + 23*x^4 - 53*x^3 + 35*x^2 - 11*x + 1",
+    "degree": 12,
+    "disc": "-24321556876032",
+    "disc_factored": "-1 * 2^8 * 3^9 * 13^6",
+    "signature": [
+      6,
+      3
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "1/127*(323247*a^11 + 572300*a^10 - 3437498*a^9 - 3941251*a^8 + 6978113*a^7 + 6671185*a^6 - 7456935*a^5 - 4457890*a^4 + 6579531*a^3 + 3781859*a^2 - 962750*a - 419265)",
+    "tate_c": "1/127*(4458*a^11 + 7725*a^10 - 47512*a^9 - 52469*a^8 + 95949*a^7 + 88673*a^6 - 100996*a^5 - 58979*a^4 + 88592*a^3 + 51451*a^2 - 12632*a - 5879)",
+    "tate_b_coeffs": [
+      "-419265/127",
+      "-962750/127",
+      "3781859/127",
+      "6579531/127",
+      "-4457890/127",
+      "-7456935/127",
+      "6671185/127",
+      "6978113/127",
+      "-3941251/127",
+      "-3437498/127",
+      "572300/127",
+      "323247/127"
+    ],
+    "tate_c_coeffs": [
+      "-5879/127",
+      "-12632/127",
+      "51451/127",
+      "88592/127",
+      "-58979/127",
+      "-100996/127",
+      "88673/127",
+      "95949/127",
+      "-52469/127",
+      "-47512/127",
+      "7725/127",
+      "4458/127"
+    ],
+    "ainvs": [
+      "1 - (1/127*(4458*a^11 + 7725*a^10 - 47512*a^9 - 52469*a^8 + 95949*a^7 + 88673*a^6 - 100996*a^5 - 58979*a^4 + 88592*a^3 + 51451*a^2 - 12632*a - 5879))",
+      "-(1/127*(323247*a^11 + 572300*a^10 - 3437498*a^9 - 3941251*a^8 + 6978113*a^7 + 6671185*a^6 - 7456935*a^5 - 4457890*a^4 + 6579531*a^3 + 3781859*a^2 - 962750*a - 419265))",
+      "-(1/127*(323247*a^11 + 572300*a^10 - 3437498*a^9 - 3941251*a^8 + 6978113*a^7 + 6671185*a^6 - 7456935*a^5 - 4457890*a^4 + 6579531*a^3 + 3781859*a^2 - 962750*a - 419265))",
+      "0",
+      "0"
+    ],
+    "P": [],
+    "P_coeffs": [],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^2 + 1664219/2*x + 594823321/4",
+    "j_degree": 2,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "twist_norm_class": "1",
+    "disc_norm": "4096",
+    "conductor_norm": "16"
+  },
+  "torsion": {
+    "invariants": [
+      45
+    ],
+    "known_exactly": true,
+    "order_bound": 45,
+    "bound_primes": [
+      17,
+      17,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      23,
+      23,
+      23,
+      23,
+      23,
+      29,
+      29,
+      37
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^12 - 17*x^11 + 119*x^10 - 445*x^9 + 957*x^8 - 1160*x^7 + 651*x^6 + 90*x^5 - 377*x^4 + 233*x^3 - 58*x^2 + 2*x + 1",
+      "degree": 12
+    },
+    "mode": "vanhoeij",
+    "curve": {
+      "eqxy": "648581*y-552325*x^11+9260903*x^10-63456984*x^9+229223416*x^8-463956476*x^7+496644430*x^6-183494218*x^5-136610045*x^4+171408480*x^3-62962568*x^2+3664414*x+727080"
+    },
+    "points": {},
+    "ainvs_as_verified": [
+      "1/648581*(-739420*a^11 + 12502682*a^10 - 86849222*a^9 + 320933936*a^8 - 675421036*a^7 + 776389460*a^6 - 339600133*a^5 - 243066756*a^4 + 426452761*a^3 - 242260370*a^2 + 60910090*a - 4586758)",
+      "1/648581*(13775538*a^11 - 241432487*a^10 + 1768033580*a^9 - 7089977930*a^8 + 17126253889*a^7 - 25819469647*a^6 + 24470430420*a^5 - 14341771502*a^4 + 4682925078*a^3 - 478452648*a^2 - 155841317*a + 37545154)",
+      "1/648581*(13775538*a^11 - 241432487*a^10 + 1768033580*a^9 - 7089977930*a^8 + 17126253889*a^7 - 25819469647*a^6 + 24470430420*a^5 - 14341771502*a^4 + 4682925078*a^3 - 478452648*a^2 - 155841317*a + 37545154)",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "1"
+      ],
+      "Q": [
+        "0",
+        "0"
+      ],
+      "order_P": 1,
+      "order_Q": 45
+    },
+    "working_field": {
+      "poly": "x^12 - 17*x^11 + 119*x^10 - 445*x^9 + 957*x^8 - 1160*x^7 + 651*x^6 + 90*x^5 - 377*x^4 + 233*x^3 - 58*x^2 + 2*x + 1",
+      "degree": 12
+    },
+    "claimed_degree": 12,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Mark van Hoeij",
+    "github": "",
+    "affiliation": "Florida State University"
+  },
+  "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (2013/2014), line 367",
+  "notes": "Imported from van Hoeij's list; one representative per diamond orbit.",
+  "source": {
+    "kind": "import",
+    "file": "vanhoeij_LowDegreePlaces.txt",
+    "line": 367,
+    "url": "https://www.math.fsu.edu/~hoeij/files/X1N/LowDegreePlaces"
+  },
+  "dates": {
+    "submitted": "2013-08-01",
+    "verified": "2026-09-18 17:18:37 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.29-4",
+    "cputime_seconds": "0.190000",
+    "verify_lib_sha256": "b6abd7fa276491f46db0bc7afca0d4503c23f17796022b82a6fc0f910c1c3998",
+    "log": "data/logs/1.45.12.a.log",
+    "isolation_log": ""
+  }
+}
