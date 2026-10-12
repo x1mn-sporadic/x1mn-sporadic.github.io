@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18 19:49 UTC",
+  "generated": "2026-10-12 08:44 UTC",
   "sources": {
     "Mazur77": {
       "short": "Mazur 1977",
@@ -87,7 +87,7 @@
     "BELOV": {
       "short": "Bourdon–Ejder–Liu–Odumodu–Viray 2019",
       "cite": "A. Bourdon, O. Ejder, Y. Liu, F. Odumodu, B. Viray, On the level of modular curves that give rise to isolated j-invariants, Adv. Math. 357 (2019), 106824, arXiv:1808.04520.",
-      "used_for": "definitions of sporadic (finitely many points of degree <= d) and isolated (P^1- and AV-isolated); a point in a positive-dimensional family of degree-d points gives infinitely many degree-d points"
+      "used_for": "definition of isolated (P^1- and AV-isolated; Definition 4.1); a point of degree d that is not isolated gives infinitely many points of degree d, so sporadic implies isolated (Theorem 4.2(1))"
     }
   }
 }

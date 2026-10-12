@@ -11,11 +11,13 @@ Conventions
 * The *degree* of a closed point is its absolute degree d = [Q(x) : Q].  For
   m >= 3 the degree over the base field Q(zeta_m) is d / phi(m).
 * A closed point x of degree d is *sporadic* if X_1(m,n) has only finitely
-  many closed points of degree <= d (Bourdon-Ejder-Liu-Odumodu-Viray), and
-  *isolated* if it is both P^1-isolated (l(x) = dim L(x) = 1: it does not move
-  in a pencil of degree-d divisors) and AV-isolated (no positive-rank abelian
-  subvariety of the Jacobian moves it; automatic when the Jacobian has rank 0).
-  Finitely many points of degree d  =>  isolated.  Each point is classified
+  many closed points of degree <= d (Sutherland's 2012 notes; Najman 2016
+  introduced the term with d < gonality), and *isolated* if it is both
+  P^1-isolated (l(x) = dim L(x) = 1: it does not move in a pencil of degree-d
+  divisors) and AV-isolated (no positive-rank abelian subvariety of the
+  Jacobian moves it; automatic when the Jacobian has rank 0)
+  (Bourdon-Ejder-Liu-Odumodu-Viray, Definition 4.1).
+  Finitely many points of degree d  =>  isolated (BELOV, Theorem 4.2(1)).  Each point is classified
   by three questions, each answered yes / no / maybe:
     - are there infinitely many points of degree d?
     - is the point sporadic?
@@ -156,8 +158,8 @@ SOURCES = {
         "short": "Bourdon–Ejder–Liu–Odumodu–Viray 2019",
         "cite": "A. Bourdon, O. Ejder, Y. Liu, F. Odumodu, B. Viray, On the level of modular curves that give rise to "
                 "isolated j-invariants, Adv. Math. 357 (2019), 106824, arXiv:1808.04520.",
-        "used_for": "definitions of sporadic (finitely many points of degree <= d) and isolated (P^1- and AV-isolated); "
-                    "a point in a positive-dimensional family of degree-d points gives infinitely many degree-d points",
+        "used_for": "definition of isolated (P^1- and AV-isolated; Definition 4.1); a point of degree d that is not isolated "
+                    "gives infinitely many points of degree d, so sporadic implies isolated (Theorem 4.2(1))",
     },
 }
 
