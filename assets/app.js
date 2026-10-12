@@ -391,8 +391,8 @@
   async function renderDegrees() {
     const [pts, curves] = await Promise.all([load("points"), load("curves")]);
     const index = $("#degree-index"), sections = $("#sections"), toggle = $("#show-undecided");
-    const genusOf = {}, phiOf = {};
-    curves.curves.forEach((c) => { genusOf[c.m + "." + c.n] = c.genus; phiOf[c.m + "." + c.n] = c.base_field_degree; });
+    const genusOf = {};
+    curves.curves.forEach((c) => { genusOf[c.m + "." + c.n] = c.genus; });
     function draw() {
       index.innerHTML = ""; sections.innerHTML = "";
       const shown = pts.points.filter((p) => p.status === "certified" || toggle.checked);
@@ -430,8 +430,7 @@
             return el("tr", { class: "row-link", onclick: (e) => { if (e.target.tagName !== "A") location.href = href; } },
               el("td", null, el("a", { href, class: "id" }, p.id)),
               el("td", { "data-sort": p.m * 1000 + p.n, style: "white-space: nowrap" }, el("a", { href: "curve.html?m=" + p.m + "&n=" + p.n }, curveLabel(p.m, p.n)),
-                el("span", { class: "muted", title: "genus" }, " g=" + genusOf[p.m + "." + p.n]),
-                p.m >= 3 ? el("span", { class: "muted", title: "degree over the base field ℚ(ζ" + p.m + ")" }, " · degree " + p.degree / phiOf[p.m + "." + p.n]) : null),
+                el("span", { class: "muted", title: "genus" }, " g=" + genusOf[p.m + "." + p.n])),
               el("td", { class: "poly", html: math(p.field_poly) }),
               el("td", { class: "num", "data-sort": p.j_degree, title: "discriminant of the residue field: " + p.field_disc },
                 p.j_rational ? el("span", { class: "m" }, p.j_rational) : "deg " + p.j_degree, p.cm ? el("span", { class: "muted" }, " CM") : ""),
