@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18 19:49 UTC",
+  "generated": "2026-10-12 09:34 UTC",
   "m": 3,
   "n": 12,
   "points": [
@@ -23,8 +23,8 @@
       "sporadic": "no",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "X_1(3,12) has infinitely many points of degree 6",
-        "sporadic": "not sporadic: X_1(3,12) has infinitely many points of degree 6",
+        "infinite_in_degree": "X_1(3,12) has infinitely many points of absolute degree 6",
+        "sporadic": "not sporadic: X_1(3,12) has infinitely many points of absolute degree 6",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q(zeta_3) is 0 (AV-isolated)"
       },
       "discovered_by": "F. Najman",
@@ -53,8 +53,8 @@
       "sporadic": "no",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "X_1(3,12) has infinitely many points of degree 6",
-        "sporadic": "not sporadic: X_1(3,12) has infinitely many points of degree 6",
+        "infinite_in_degree": "X_1(3,12) has infinitely many points of absolute degree 6",
+        "sporadic": "not sporadic: X_1(3,12) has infinitely many points of absolute degree 6",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q(zeta_3) is 0 (AV-isolated)"
       },
       "discovered_by": "F. Najman",

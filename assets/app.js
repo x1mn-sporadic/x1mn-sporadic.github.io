@@ -150,7 +150,7 @@
           lastM = c.m;
           const head = c.m === 1 ? "m = 1 — X₁(n), torsion ℤ/n, defined over ℚ"
             : c.m === 2 ? "m = 2 — X₁(2,n), torsion ℤ/2 ⊕ ℤ/n, defined over ℚ"
-            : "m = " + c.m + " — X₁(" + c.m + ",n), torsion ℤ/" + c.m + " ⊕ ℤ/n, defined over ℚ(ζ" + String(c.m).split("").map((x) => "₀₁₂₃₄₅₆₇₈₉"[x]).join("") + ")";
+            : "m = " + c.m + " — X₁(" + c.m + ",n), torsion ℤ/" + c.m + " ⊕ ℤ/n, defined over ℚ(ζ" + String(c.m).split("").map((x) => "₀₁₂₃₄₅₆₇₈₉"[x]).join("") + "); degrees in these rows are absolute degrees [ℚ(x):ℚ]";
           tbody.append(el("tr", { class: "group" }, el("th", { colspan: 8 }, head)));
         }
         const gon = c.gonality.exact ? String(c.gonality.lb) : c.gonality.ub ? c.gonality.lb + "–" + c.gonality.ub : "≥ " + c.gonality.lb;
@@ -236,13 +236,17 @@
       el("dd", null, c.rank.value === null
         ? (c.rank.analytic_rank !== undefined ? ["analytic rank ", el("b", null, c.rank.analytic_rank), " ", el("span", { class: "src" }, "(", sourceLinks(sources, [c.rank.analytic_rank_source || "LMFDB"]), "; a positive rank is not certified here)")] : el("span", { class: "empty" }, "not recorded"))
         : [el("b", null, c.rank.value), " ", el("span", { class: "src" }, "(", sourceLinks(sources, c.rank.source.split("+")), ")")]),
-      el("dt", null, "finitely many points in degree"),
+      el("dt", null, "finitely many points in " + (m >= 3 ? "absolute degree" : "degree")),
       el("dd", null, Object.keys(c.degrees_finite).length ? Object.entries(c.degrees_finite).sort((a, b) => a[0] - b[0]).map(([d, s], i) => [i ? ", " : "", el("b", null, d), " ", el("span", { class: "src" }, "(", sourceLinks(sources, [s]), ")")]) : el("span", { class: "empty" }, "nothing recorded")),
-      el("dt", null, "infinitely many points in degree"),
+      el("dt", null, "infinitely many points in " + (m >= 3 ? "absolute degree" : "degree")),
       el("dd", null, Object.keys(c.degrees_infinite).length ? Object.entries(c.degrees_infinite).sort((a, b) => (a[0] === "all" ? -1 : a[0] - b[0])).map(([d, s], i) => [i ? ", " : "", el("b", null, d), " ", el("span", { class: "src" }, "(", sourceLinks(sources, [s]), ")")]) : el("span", { class: "empty" }, "nothing recorded")));
     $("#facts").append(facts);
     if (c.genus === 0) $("#facts").append(el("p", { class: "notice" }, "Genus 0: every degree has infinitely many points, so there are no sporadic points on this curve."));
-    if (m >= 3) $("#facts").append(el("p", { class: "notice" }, "For m ≥ 3 the degree of a point is its absolute degree [ℚ(x):ℚ]; it is a multiple of φ(" + m + ") = " + c.base_field_degree + ", and the degree over ℚ(ζ" + m + ") is the quotient. Only Abramovich's bound is recorded for the gonality over ℚ(ζ" + m + ")."));
+    if (m >= 3) $("#facts").append(el("p", { class: "notice" }, "The curve is defined over ℚ(ζ" + m + "): the degree of a point x is [ℚ(ζ" + m + ")(x):ℚ(ζ" + m + ")], and its absolute degree [ℚ(x):ℚ] is φ(" + m + ") = " + c.base_field_degree + " times that. The census indexes points by absolute degree (the degree of the field over which the elliptic curve and its torsion are defined): the degree lists above and the point ids use it, and the table below gives the degree with the absolute degree in parentheses. Only Abramovich's bound is recorded for the gonality over ℚ(ζ" + m + ")."));
+    if (m >= 3 && $("#degree-col")) {
+      $("#degree-col").textContent = "degree (absolute)";
+      $("#degree-col").title = "degree over ℚ(ζ" + m + "); the absolute degree [ℚ(x):ℚ] in parentheses";
+    }
     $("#submit-link").href = prefillIssue(m, n);
     const tbody = $("#points tbody");
     let cpoints = [];
@@ -257,7 +261,7 @@
       const href = "point.html?id=" + encodeURIComponent(p.id);
       tbody.append(el("tr", { class: "row-link", onclick: (e) => { if (e.target.tagName !== "A") location.href = href; } },
         el("td", null, el("a", { href, class: "id" }, p.id)),
-        el("td", { class: "num" }, p.degree),
+        el("td", { class: "num", "data-sort": p.degree }, m >= 3 ? [String(p.degree / c.base_field_degree), el("span", { class: "muted" }, " (" + p.degree + ")")] : p.degree),
         el("td", { class: "poly", html: math(p.field_poly) }),
         el("td", { class: "num", "data-sort": p.j_degree, title: "discriminant of the residue field: " + p.field_disc },
           p.j_rational ? el("span", { class: "m" }, p.j_rational) : String(p.j_degree), p.cm ? el("span", { class: "muted" }, " CM") : ""),
@@ -281,8 +285,9 @@
     const p = await r.json();
     const c = curves.curves.find((x) => x.m === p.m && x.n === p.n) || {};
     $("#title").textContent = "Point " + p.id;
-    $("#subtitle").innerHTML = "A point of degree <b>" + p.degree + "</b> on " + curveLabel(p.m, p.n) +
-      (p.m >= 3 ? " (degree " + p.relative_degree + " over " + p.base_field.replace("zeta_", "ζ") + ")" : "") + ".";
+    $("#subtitle").innerHTML = p.m >= 3
+      ? "A point of degree <b>" + p.relative_degree + "</b> on " + curveLabel(p.m, p.n) + ", which is defined over " + math(p.base_field) + "; its absolute degree [ℚ(x):ℚ] is <b>" + p.degree + "</b>."
+      : "A point of degree <b>" + p.degree + "</b> on " + curveLabel(p.m, p.n) + ".";
     $("#crumb-curve").textContent = curveLabel(p.m, p.n);
     $("#crumb-curve").href = "curve.html?m=" + p.m + "&n=" + p.n;
     $("#json-link").href = "data/points/" + p.id + ".json";
@@ -315,7 +320,7 @@
       el("dl", { class: "facts" },
         answerRow("sporadic", cl.sporadic, "yes"),
         answerRow("isolated", cl.isolated, "yes"),
-        answerRow("infinitely many points of degree " + p.degree, cl.infinite_in_degree, "no"),
+        answerRow("infinitely many points of " + (p.m >= 3 ? "absolute degree " : "degree ") + p.degree, cl.infinite_in_degree, "no"),
         el("dt", null, "discovered by"), el("dd", null, discovery(p.discovery.by, p.discovery.year)),
         creditRow("proved sporadic by", cl.sporadic, credits.sporadic, fromResults(cl.sporadic)),
         creditRow("proved isolated by", cl.isolated, credits.isolated, isoDerived, isoConfirmed)),
@@ -373,21 +378,21 @@
         el("dt", null, "software"), el("dd", null, "Magma " + p.verification.magma_version + ", " + p.verification.cputime_seconds + " s CPU; verify_lib.m sha256 " + p.verification.verify_lib_sha256.slice(0, 12) + "…"),
         el("dt", null, "isolation check"), el("dd", null, p.isolation && p.isolation.computed
           ? ["dim L(x mod q) = " + p.isolation.l_values.join(", ") + " for q = " + p.isolation.primes.join(", ") + " on " + p.isolation.model +
-             (p.isolation.p1_isolated ? " — so dim L(x) = 1 over ℚ by upper semicontinuity: P¹-isolated" : " — P¹-isolation not established") +
+             (p.isolation.p1_isolated ? " — so dim L(x) = 1 over " + (p.m >= 3 ? p.base_field.replace("zeta_", "ζ").replace("Q", "ℚ") : "ℚ") + " by upper semicontinuity: P¹-isolated" : " — P¹-isolation not established") +
              " (" + p.isolation.cputime_seconds + " s; ", el("a", { href: p.verification.isolation_log }, "log"), ")"]
           : "not computed" + (p.isolation && p.isolation.note ? " (" + p.isolation.note + ")" : "")),
         el("dt", null, "checks"), el("dd", null, "K is a number field of degree " + rf.degree + "; E is an elliptic curve over K; Q has exact order " + p.n +
           (p.m > 1 ? ", P has exact order " + p.m + " and ⟨P,Q⟩ ≅ " + torsionLabel(p.m, p.n) : "") +
           "; |E(K)ₜₒᵣₛ| divides " + p.torsion.order_bound + " (reductions modulo primes above " + p.torsion.bound_primes.join(", ") + ")" +
-          "; the Tate normal form of (E,Q) and the residue field ℚ(b, c" + (p.m > 1 ? ", x(P), y(P)" : "") + ") of the point were recomputed, and its degree is " + p.degree + ".")));
+          "; the Tate normal form of (E,Q) and the residue field ℚ(b, c" + (p.m > 1 ? ", x(P), y(P)" : "") + ") of the point were recomputed, and its " + (p.m >= 3 ? "absolute degree is " + p.degree + " (degree " + p.relative_degree + " over " + p.base_field.replace("zeta_", "ζ").replace("Q", "ℚ") + ")" : "degree is " + p.degree) + ".")));
   }
 
   // ---------------------------------------------------------------- points by degree
   async function renderDegrees() {
     const [pts, curves] = await Promise.all([load("points"), load("curves")]);
     const index = $("#degree-index"), sections = $("#sections"), toggle = $("#show-undecided");
-    const genusOf = {};
-    curves.curves.forEach((c) => { genusOf[c.m + "." + c.n] = c.genus; });
+    const genusOf = {}, phiOf = {};
+    curves.curves.forEach((c) => { genusOf[c.m + "." + c.n] = c.genus; phiOf[c.m + "." + c.n] = c.base_field_degree; });
     function draw() {
       index.innerHTML = ""; sections.innerHTML = "";
       const shown = pts.points.filter((p) => p.status === "certified" || toggle.checked);
@@ -396,7 +401,7 @@
       shown.forEach((p) => { if (!byDeg.has(p.degree)) byDeg.set(p.degree, []); byDeg.get(p.degree).push(p); });
       const degs = Array.from(byDeg.keys()).sort((a, b) => a - b);
       if (!degs.length) { sections.append(el("p", { class: "empty" }, "No points to show.")); return; }
-      index.append("Jump to degree: ");
+      index.append("Jump to absolute degree: ");
       degs.forEach((d, i) => {
         const ps = byDeg.get(d);
         if (i) index.append(el("span", { class: "sep" }, "·"));
@@ -408,7 +413,7 @@
         const nIso = ps.filter((p) => p.isolated === "yes").length;
         const nUnd = ps.filter((p) => p.status !== "certified").length;
         const curvesHere = Array.from(new Set(ps.map((p) => curveLabel(p.m, p.n))));
-        const h = el("h3", { id: "d" + d }, "Degree " + d, " ",
+        const h = el("h3", { id: "d" + d }, "Absolute degree " + d, " ",
           el("span", { class: "muted", style: "font-family: var(--sans); font-size: 0.9rem; font-weight: 400" },
             ps.length + " point" + (ps.length > 1 ? "s" : "") + " on " + curvesHere.length + " curve" + (curvesHere.length > 1 ? "s" : "") +
             " — " + nSp + " sporadic, " + nIso + " isolated" + (nUnd ? ", " + nUnd + " undecided" : "")));
@@ -425,7 +430,8 @@
             return el("tr", { class: "row-link", onclick: (e) => { if (e.target.tagName !== "A") location.href = href; } },
               el("td", null, el("a", { href, class: "id" }, p.id)),
               el("td", { "data-sort": p.m * 1000 + p.n, style: "white-space: nowrap" }, el("a", { href: "curve.html?m=" + p.m + "&n=" + p.n }, curveLabel(p.m, p.n)),
-                el("span", { class: "muted", title: "genus" }, " g=" + genusOf[p.m + "." + p.n])),
+                el("span", { class: "muted", title: "genus" }, " g=" + genusOf[p.m + "." + p.n]),
+                p.m >= 3 ? el("span", { class: "muted", title: "degree over the base field ℚ(ζ" + p.m + ")" }, " · degree " + p.degree / phiOf[p.m + "." + p.n]) : null),
               el("td", { class: "poly", html: math(p.field_poly) }),
               el("td", { class: "num", "data-sort": p.j_degree, title: "discriminant of the residue field: " + p.field_disc },
                 p.j_rational ? el("span", { class: "m" }, p.j_rational) : String(p.j_degree), p.cm ? el("span", { class: "muted" }, " CM") : ""),

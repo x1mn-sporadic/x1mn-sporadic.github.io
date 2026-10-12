@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Isolated and sporadic points on X₁(m,n)</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2315363a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' fill='%23eff4f2' text-anchor='middle'%3EX%3Ctspan font-size='10' dy='4'%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="assets/style.css?v=5">
+  <link rel="stylesheet" href="assets/style.css?v=6">
 </head>
 <body data-page="submit">
 <main>
@@ -43,7 +43,8 @@
       <span class="m">Q</span> has exact order <span class="m">n</span> and <span class="m">P</span> exact order <span class="m">m</span> with
       <span class="m">⟨P,Q⟩ ≅ ℤ/m ⊕ ℤ/n</span>, bounds the torsion subgroup by reductions, computes the Tate normal form of
       <span class="m">(E, Q)</span>, and determines the residue field <span class="m">ℚ(b, c, x(P), y(P))</span> of the point on
-      <span class="m">X₁(m,n)</span> — its degree is the degree of the point, whatever field the curve was submitted over.</li>
+      <span class="m">X₁(m,n)</span> — its degree over <span class="m">ℚ</span> is the absolute degree of the point (for <span class="m">m ≥ 3</span>,
+      <span class="m">φ(m)</span> times its degree over <span class="m">ℚ(ζ<sub>m</sub>)</span>), whatever field the curve was submitted over.</li>
     <li>A second Magma job decides whether the point is P¹-isolated (a Riemann–Roch computation on a model of the curve modulo a good prime;
       <span class="m">m ≤ 2</span>), and the three questions — sporadic? isolated? infinitely many points of this degree? — are answered
       <span class="ans yes">yes</span> / <span class="ans no">no</span> / <span class="ans maybe">maybe</span> from the curated table of what is known about
@@ -89,6 +90,6 @@
     Derickx–Sutherland's models exist (see the <a href="index.html">home page</a>). If your point lies on a curve outside this list,
     open an <a href="https://github.com/x1mn-sporadic/x1mn-sporadic.github.io/issues">issue</a> and it will be added.</p>
 </main>
-<script src="assets/app.js?v=5"></script>
+<script src="assets/app.js?v=6"></script>
 </body>
 </html>

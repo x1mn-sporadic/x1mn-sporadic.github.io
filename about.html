@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Isolated and sporadic points on X₁(m,n)</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2315363a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' fill='%23eff4f2' text-anchor='middle'%3EX%3Ctspan font-size='10' dy='4'%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="assets/style.css?v=5">
+  <link rel="stylesheet" href="assets/style.css?v=6">
 </head>
 <body data-page="about">
 <main>
@@ -22,7 +22,7 @@
       <span class="m">m</span>, <span class="m">Q</span> of order <span class="m">n</span>, and <span class="m">e<sub>m</sub>(P, (n/m)Q) = ζ<sub>m</sub></span>. It is
       geometrically connected, and over <span class="m">ℂ</span> it is the modular curve of <span class="m">Γ(m) ∩ Γ₁(n)</span>. Viewed over
       <span class="m">ℚ</span>, the same curve parametrizes the triples <span class="m">(E, P, Q)</span> with no condition on the Weil pairing and has
-      <span class="m">φ(m)</span> geometric components; its closed points and their residue fields do not change, which is why degrees are given both over
+      <span class="m">φ(m)</span> geometric components; its closed points and their residue fields do not change, which is why degrees can be measured both over
       <span class="m">ℚ</span> and over <span class="m">F</span> (in the terms of LMFDB's <a href="https://www.lmfdb.org/knowledge/show/modcurve.xn">variants of
       X(N)</a>, this is the classical curve over <span class="m">F</span>, equivalently the big curve over <span class="m">ℚ</span>).
       For <span class="m">m ≥ 3</span> it is not LMFDB's <a href="https://www.lmfdb.org/knowledge/show/modcurve.x1mn">X<sub>arith,1</sub>(m,n)</a>, a
@@ -37,11 +37,15 @@
       <span class="m">X₁(m, mn)</span> and LMFDB writes <span class="m">X<sub>arith,1</sub>(M, MN)</span>; here <span class="m">n</span> is always the full
       cyclic order.)</dd>
     <dt>the degree</dt>
-    <dd>The degree of a closed point <span class="m">x</span> is its absolute degree <span class="m">[ℚ(x) : ℚ]</span>. For <span class="m">m ≥ 3</span> this is
-      <span class="m">φ(m)</span> times the degree over the base field <span class="m">ℚ(ζ<sub>m</sub>)</span>; both are shown. A point of degree <span class="m">d</span> is
-      the same thing as an elliptic curve over a number field of degree <span class="m">d</span> with torsion containing <span class="m">ℤ/m ⊕ ℤ/n</span>, up to
-      the choice of the torsion points and the ambiguity <span class="m">(P,Q) ~ (−P,−Q)</span>. The verifier always recomputes the residue field of the point, so the
-      degree recorded is the true degree even if the curve was submitted over a larger field.</dd>
+    <dd>As for any curve over <span class="m">F = ℚ(ζ<sub>m</sub>)</span>, the <b>degree</b> of a closed point <span class="m">x</span> is
+      <span class="m">[F(x) : F]</span>; its <b>absolute degree</b> is <span class="m">[ℚ(x) : ℚ] = φ(m)·[F(x) : F]</span>. For <span class="m">m ≤ 2</span>
+      (<span class="m">F = ℚ</span>) the two agree. A point of absolute degree <span class="m">d</span> is the same thing as an elliptic curve over a number field of
+      degree <span class="m">d</span> with torsion containing <span class="m">ℤ/m ⊕ ℤ/n</span>, up to the choice of the torsion points and the ambiguity
+      <span class="m">(P,Q) ~ (−P,−Q)</span>. This is why the census, like the literature on torsion over number fields, indexes points by absolute degree: the
+      <span class="m">d</span> in a point id <span class="m">m.n.d.x</span>, the degree columns of the curve table and the page of points by degree are absolute
+      degrees. For <span class="m">m ≥ 3</span> the curve and point pages show both, and say "absolute degree" wherever they mean
+      <span class="m">[ℚ(x) : ℚ]</span>. The verifier always recomputes the residue field of the point, so the degree recorded is the true degree even if the
+      curve was submitted over a larger field.</dd>
     <dt>sporadic</dt>
     <dd>A closed point of degree <span class="m">d</span> is <b>sporadic</b> if <span class="m">X₁(m,n)</span> has only finitely many closed points of degree
       <span class="m">≤ d</span>. The notion was introduced by Najman (<a href="https://arxiv.org/abs/1211.2188">arXiv:1211.2188</a>, 2012; Math. Res. Lett. 23 (2016)),
@@ -82,9 +86,9 @@
   <p>Every submission is verified from scratch by <code>pipeline/magma/verify_lib.m</code> (Magma 2.29) on Mordell: the field and the curve are
     constructed, the orders of <span class="m">P</span> and <span class="m">Q</span> and the structure of <span class="m">⟨P,Q⟩</span> are checked, the torsion subgroup is
     bounded by reductions modulo several primes (and computed exactly when the bound is not sharp), and the Tate normal form of <span class="m">(E,Q)</span>
-    gives the residue field of the point and hence its degree <span class="m">d</span>.</p>
-  <p><b>Points of a given degree.</b> For every degree <span class="m">e</span> the census decides "finitely many / infinitely many / unknown" from recorded facts, in this
-    order (<span class="m">e′ = e/φ(m)</span>, <span class="m">γ</span> = gonality over the base field):</p>
+    gives the residue field of the point and hence its absolute degree <span class="m">d</span>.</p>
+  <p><b>Points of a given degree.</b> For every absolute degree <span class="m">e</span> the census decides "finitely many / infinitely many / unknown" from recorded facts, in
+    this order (<span class="m">e′ = e/φ(m)</span> is the degree over the base field, <span class="m">γ</span> = gonality over the base field):</p>
   <ol class="steps">
     <li><b>Known finiteness.</b> <span class="m">e ≤ 9</span> and <span class="m">(m,n) ∉ Φ^∞(e)</span>, where <span class="m">Φ^∞(e)</span> is the (completely known) set of torsion
       groups occurring for infinitely many elliptic curves over degree-<span class="m">e</span> fields — Mazur; Kenku–Momose, Kamienny; Jeon–Kim–Schweizer;
@@ -101,11 +105,11 @@
       and <span class="m">e′ &lt; γ</span>: then the degree-<span class="m">e′</span> divisors with infinitely many rational points would form a pencil of
       degree <span class="m">≤ e′</span>, contradicting the gonality (Derickx–Sutherland, Proposition 2.3 and Corollary 2.4).</li>
   </ol>
-  <p><b>Sporadic</b> is <em>yes</em> when every degree <span class="m">≤ d</span> is finite, <em>no</em> when some degree <span class="m">≤ d</span> is infinite, else <em>maybe</em>.
+  <p><b>Sporadic</b> is <em>yes</em> when every absolute degree <span class="m">≤ d</span> is finite, <em>no</em> when some absolute degree <span class="m">≤ d</span> is infinite, else <em>maybe</em>.
     <b>Infinitely many points of degree d</b> is the answer for <span class="m">e = d</span>.</p>
-  <p><b>Isolated</b> is <em>yes</em> when degree <span class="m">d</span> is finite, or when the point is P¹-isolated and the Jacobian has rank 0 over the base field.
+  <p><b>Isolated</b> is <em>yes</em> when absolute degree <span class="m">d</span> is finite, or when the point is P¹-isolated and the Jacobian has rank 0 over the base field.
     P¹-isolation is decided by <code>pipeline/magma/isolation_lib.m</code>: for a prime <span class="m">q</span> of good reduction (for the curve, the point and the
-    residue field) the point is reduced to a divisor <span class="m">D_q</span> of degree <span class="m">d</span> on Sutherland's model of <span class="m">X₁(m,n)</span> over
+    residue field) the point is reduced to a divisor <span class="m">D_q</span> of the same degree as <span class="m">x</span> (that is, <span class="m">d/φ(m)</span>) on Sutherland's model of <span class="m">X₁(m,n)</span> over
     <span class="m">𝔽_q</span> (mdmagma), and <span class="m">dim L(D_q)</span> is computed; by upper semicontinuity <span class="m">dim L(x) ≤ dim L(D_q)</span>, so
     <span class="m">dim L(D_q) = 1</span> for one such prime proves P¹-isolation. When <span class="m">dim L(D_q) ≥ 2</span> for every prime tried the point probably moves
     in a pencil, but this is not a proof, so the answer stays <em>maybe</em> (and the point is not accepted if its degree has infinitely many points).
@@ -138,6 +142,6 @@
     The seed data are Mark van Hoeij's low-degree places on <span class="m">X₁(N)</span> (arXiv:1202.4355). The design of this site follows the
     <a href="https://elliptic-rank.icarm.cloud/">Elliptic Curve Rank Leaderboard</a>.</p>
 </main>
-<script src="assets/app.js?v=5"></script>
+<script src="assets/app.js?v=6"></script>
 </body>
 </html>

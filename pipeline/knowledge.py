@@ -13,8 +13,12 @@ Conventions
   becomes isomorphic to it only over Q(zeta_m); for m <= 2 they coincide.
   Papers such as Derickx-Sutherland write the same curve as X_1(m, mn); we
   always write the full cyclic order.
-* The *degree* of a closed point is its absolute degree d = [Q(x) : Q].  For
-  m >= 3 the degree over the base field Q(zeta_m) is d / phi(m).
+* The *degree* of a closed point x is [F(x) : F], F = Q(zeta_m) the base
+  field; its *absolute degree* is d = [Q(x) : Q] = phi(m) [F(x) : F], the
+  degree of the field over which the elliptic curve and its torsion are
+  defined.  They agree for m <= 2.  The census indexes points by the absolute
+  degree (point ids, Phi^infty(d), the code below: `d` and `e` are absolute
+  degrees), and the rule texts say "absolute degree" when m >= 3.
 * A closed point x of degree d is *sporadic* if X_1(m,n) has only finitely
   many closed points of degree <= d (Sutherland's 2012 notes; Najman 2016
   introduced the term with d < gonality).  With C = X_1(m,n) over its base
@@ -332,6 +336,11 @@ def curve_label(m: int, n: int) -> str:
     return f"X_1({n})" if m == 1 else f"X_1({m},{n})"
 
 
+def _deg(curve: dict) -> str:
+    """'degree' for m <= 2, 'absolute degree' for m >= 3 (where the degree is over Q(zeta_m))."""
+    return "degree" if curve["base_field_degree"] == 1 else "absolute degree"
+
+
 # ----------------------------------------------------------------------------
 # Per-curve knowledge assembled from the sources
 # ----------------------------------------------------------------------------
@@ -392,7 +401,7 @@ def degree_status(curve: dict, e: int) -> tuple:
     phi_m = curve["base_field_degree"]
     lab = curve_label(m, n)
     if e % phi_m != 0:
-        return "finite", f"no points of degree {e}: phi({m}) = {phi_m} does not divide {e} (Weil pairing)", []
+        return "finite", f"no points of {_deg(curve)} {e}: phi({m}) = {phi_m} does not divide {e} (Weil pairing)", []
     ee = e // phi_m
     inf = curve.get("degrees_infinite", {})
     fin = curve.get("degrees_finite", {})
@@ -402,10 +411,10 @@ def degree_status(curve: dict, e: int) -> tuple:
         gon = curve.get("gonality") or {}
         if gon.get("exact") and e == gon.get("ub") * phi_m and e > 6:
             return "infinite", (f"{lab} has a function of degree {ee} over {curve['base_field']} (its gonality), "
-                                f"hence infinitely many points of degree {e} by Hilbert irreducibility"), [inf[str(e)]]
-        return "infinite", f"{lab} has infinitely many points of degree {e}", [inf[str(e)]]
+                                f"hence infinitely many points of {_deg(curve)} {e} by Hilbert irreducibility"), [inf[str(e)]]
+        return "infinite", f"{lab} has infinitely many points of {_deg(curve)} {e}", [inf[str(e)]]
     if str(e) in fin:
-        return "finite", f"{lab} has only finitely many points of degree {e}", [fin[str(e)]]
+        return "finite", f"{lab} has only finitely many points of {_deg(curve)} {e}", [fin[str(e)]]
     gon = curve.get("gonality") or {}
     lb = gon.get("lb")
     if lb is not None and 2 * ee < lb:
@@ -414,7 +423,7 @@ def degree_status(curve: dict, e: int) -> tuple:
     if rk.get("value") == 0 and lb is not None and ee < lb:
         return "finite", f"rank 0 and {ee} < {lb} <= gonality of {lab} over {curve['base_field']}", \
             ["RankZeroLemma", rk.get("source", ""), gon.get("source", "")]
-    return "unknown", f"no recorded result decides whether {lab} has finitely many points of degree {e}", []
+    return "unknown", f"no recorded result decides whether {lab} has finitely many points of {_deg(curve)} {e}", []
 
 
 def _ans(value, rule, sources):
@@ -447,22 +456,22 @@ def classify_point(curve: dict, d: int, iso=None, j_rational: str = "") -> dict:
         # every degree <= d is finite; cite the rule for d if it already covers all smaller degrees,
         # otherwise the whole list
         if any(k in rule for k in ("Frey", "rank 0")):
-            sporadic = _ans("yes", f"finitely many points of degree <= {d}: {rule}", src)
+            sporadic = _ans("yes", f"finitely many points of {_deg(curve)} <= {d}: {rule}", src)
         else:
             srcs = sorted({x for t in inf_e for x in t[3] if x})
-            sporadic = _ans("yes", f"finitely many points of each degree <= {d} on {lab}", srcs)
+            sporadic = _ans("yes", f"finitely many points of each {_deg(curve)} <= {d} on {lab}", srcs)
     else:
         es = ", ".join(str(t[0]) for t in unknown)
-        sporadic = _ans("maybe", f"finitely many points of degree {es} on {lab}: not decided by any recorded result", [])
+        sporadic = _ans("maybe", f"finitely many points of {_deg(curve)} {es} on {lab}: not decided by any recorded result", [])
 
     # isolated
     iso = iso or {}
     l_v = 1 if iso.get("p1_isolated") else None
     rk = (curve.get("rank") or {}).get("value")
     if st == "finite":
-        isolated = _ans("yes", f"finitely many points of degree {d} on {lab}, so the point lies in no positive-dimensional family", src + ["BELOV"])
+        isolated = _ans("yes", f"finitely many points of {_deg(curve)} {d} on {lab}, so the point lies in no positive-dimensional family", src + ["BELOV"])
     elif l_v is not None and l_v >= 2:
-        isolated = _ans("no", f"dim L(x) = {l_v} >= 2: the point moves in a pencil of degree {d} (not P^1-isolated)", ["BELOV"])
+        isolated = _ans("no", f"dim L(x) = {l_v} >= 2: the point moves in a pencil of degree {d // curve['base_field_degree']} (not P^1-isolated)", ["BELOV"])
     elif l_v == 1 and rk == 0:
         isolated = _ans("yes", f"dim L(x) = 1 (P^1-isolated) and rank J_1 over {curve['base_field']} is 0 (AV-isolated)",
                         ["BELOV", (curve.get("rank") or {}).get("source", "")])
@@ -473,7 +482,7 @@ def classify_point(curve: dict, d: int, iso=None, j_rational: str = "") -> dict:
         isolated = _ans("maybe", "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided", ["BELOV"])
     elif iso.get("computed"):
         qs = ", ".join(str(q) for q in iso.get("primes", []))
-        isolated = _ans("maybe", f"dim L(x mod q) >= 2 for q = {qs}: the point probably moves in a pencil of degree {d} "
+        isolated = _ans("maybe", f"dim L(x mod q) >= 2 for q = {qs}: the point probably moves in a pencil of degree {d // curve['base_field_degree']} "
                         "(not proven: a jump of h^0 modulo q cannot be excluded)", ["BELOV"])
     else:
         isolated = _ans("maybe", "dim L(x) not computed" + (f" ({iso['note']})" if iso.get("note") else ""), [])

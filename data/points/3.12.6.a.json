@@ -10,14 +10,14 @@
   "classification": {
     "infinite_in_degree": {
       "value": "yes",
-      "rule": "X_1(3,12) has infinitely many points of degree 6",
+      "rule": "X_1(3,12) has infinitely many points of absolute degree 6",
       "sources": [
         "DS17"
       ]
     },
     "sporadic": {
       "value": "no",
-      "rule": "not sporadic: X_1(3,12) has infinitely many points of degree 6",
+      "rule": "not sporadic: X_1(3,12) has infinitely many points of absolute degree 6",
       "sources": [
         "DS17"
       ]

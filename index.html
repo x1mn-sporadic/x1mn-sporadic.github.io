@@ -6,14 +6,15 @@
   <title>Isolated and sporadic points on X₁(m,n)</title>
   <meta name="description" content="A census of isolated and sporadic points on the modular curves X1(m,n): elliptic curves with a point of order n and full m-torsion over number fields of unusually small degree, verified with Magma.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2315363a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' fill='%23eff4f2' text-anchor='middle'%3EX%3Ctspan font-size='10' dy='4'%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="assets/style.css?v=5">
+  <link rel="stylesheet" href="assets/style.css?v=6">
 </head>
 <body data-page="index">
 <main>
   <section class="hero">
     <p class="lede">Which modular curves <span class="m">X₁(m,n)</span> have points of <em>unexpectedly small degree</em>?</p>
-    <p class="sub">A point of degree <span class="m">d</span> on <span class="m">X₁(m,n)</span> is an elliptic curve over a number field of degree <span class="m">d</span>
-      whose torsion subgroup contains <span class="m">ℤ/m ⊕ ℤ/n</span>. The point is <b>sporadic</b> when the curve has only finitely many points of degree
+    <p class="sub">A point on <span class="m">X₁(m,n)</span> whose residue field has degree <span class="m">d</span> over <span class="m">ℚ</span> is an elliptic curve over a
+      number field of degree <span class="m">d</span> whose torsion subgroup contains <span class="m">ℤ/m ⊕ ℤ/n</span> (for <span class="m">m ≥ 3</span> this is the
+      <em>absolute</em> degree; the curve is defined over <span class="m">ℚ(ζ<sub>m</sub>)</span>, over which the point has degree <span class="m">d/φ(m)</span>). The point is <b>sporadic</b> when the curve has only finitely many points of degree
       <span class="m">≤ d</span>, and <b>isolated</b> when it belongs to no positive-dimensional family of degree-<span class="m">d</span> points.
       This census collects sporadic and isolated points, re-verifies every submission with Magma, and records the result that decides each question.
       <a href="submit.html">Submit a point →</a></p>
@@ -33,7 +34,7 @@
   <p class="wide">Prefer to browse by degree? <a href="degrees.html">All sporadic and isolated points grouped by degree →</a></p>
   <p>Sorted by <span class="m">m</span>, then <span class="m">n</span>; <span class="m">X₁(1,n) = X₁(n)</span>. Click a curve for its points and for what is known about it.
     <b>Finite</b> and <b>infinite</b> list the degrees in which the curve is known to have finitely, respectively infinitely, many points
-    (hover for the source; see <a href="about.html">about</a> for the conventions).</p>
+    (absolute degrees for <span class="m">m ≥ 3</span>; hover for the source; see <a href="about.html">about</a> for the conventions).</p>
   <div class="controls">
     <label><input type="checkbox" id="hide-genus0" checked> hide genus 0 curves (no sporadic points)</label>
     <label><input type="checkbox" id="only-points"> only curves with recorded points</label>
@@ -46,16 +47,16 @@
           <th class="num">genus</th>
           <th class="num" title="gonality over the base field; a range when only bounds are known">gonality</th>
           <th class="num" title="rank of J₁(m,n) over the base field; in parentheses: analytic rank when the Mordell–Weil rank is not recorded">rk J₁</th>
-          <th title="degrees with only finitely many points (a sporadic point can only have one of these degrees or an undecided one)">finite in degree</th>
-          <th title="degrees with infinitely many points">infinite in degree</th>
+          <th title="degrees with only finitely many points (absolute degrees for m ≥ 3; a sporadic point can only have one of these degrees or an undecided one)">finite in degree</th>
+          <th title="degrees with infinitely many points (absolute degrees for m ≥ 3)">infinite in degree</th>
           <th class="num" title="points in the census (sporadic · isolated · undecided)">points</th>
-          <th class="num" title="degrees of the recorded points">in degrees</th>
+          <th class="num" title="degrees of the recorded points (absolute degrees for m ≥ 3)">in degrees</th>
         </tr>
       </thead>
       <tbody></tbody>
     </table>
   </div>
 </main>
-<script src="assets/app.js?v=5"></script>
+<script src="assets/app.js?v=6"></script>
 </body>
 </html>

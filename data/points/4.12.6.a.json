@@ -10,14 +10,14 @@
   "classification": {
     "infinite_in_degree": {
       "value": "no",
-      "rule": "X_1(4,12) has only finitely many points of degree 6",
+      "rule": "X_1(4,12) has only finitely many points of absolute degree 6",
       "sources": [
         "DS17"
       ]
     },
     "sporadic": {
       "value": "yes",
-      "rule": "finitely many points of each degree <= 6 on X_1(4,12)",
+      "rule": "finitely many points of each absolute degree <= 6 on X_1(4,12)",
       "sources": [
         "DS17",
         "JKP06",
@@ -26,7 +26,7 @@
     },
     "isolated": {
       "value": "yes",
-      "rule": "finitely many points of degree 6 on X_1(4,12), so the point lies in no positive-dimensional family",
+      "rule": "finitely many points of absolute degree 6 on X_1(4,12), so the point lies in no positive-dimensional family",
       "sources": [
         "DS17",
         "BELOV"
