@@ -3,11 +3,16 @@ certify that a verified point is *sporadic*.
 
 Conventions
 -----------
-* X_1(m,n) with m | n is the modular curve whose non-cuspidal points are
-  (E, P, Q) with <P, Q> = Z/m x Z/n (P of order m, Q of order n), up to
-  isomorphism.  X_1(1,n) = X_1(n).  The curve is defined over Q(zeta_m) and
-  is geometrically connected there.  Papers such as Derickx-Sutherland write
-  the same curve as X_1(m, mn); we always write the full cyclic order.
+* X_1(m,n) with m | n is the modular curve over Q(zeta_m) whose non-cuspidal
+  points are (E, P, Q) with <P, Q> = Z/m x Z/n (P of order m, Q of order n)
+  and e_m(P, (n/m)Q) = zeta_m, up to isomorphism; it is geometrically
+  connected (Gamma(m) meet Gamma_1(n)).  Over Q the same scheme parametrizes
+  (E, P, Q) with no pairing condition (phi(m) geometric components).
+  X_1(1,n) = X_1(n).  For m >= 3 it is NOT LMFDB's X_arith,1(m,n)
+  (modcurve.x1mn: (E, Q, C), C a Galois-stable subgroup, over Q), which
+  becomes isomorphic to it only over Q(zeta_m); for m <= 2 they coincide.
+  Papers such as Derickx-Sutherland write the same curve as X_1(m, mn); we
+  always write the full cyclic order.
 * The *degree* of a closed point is its absolute degree d = [Q(x) : Q].  For
   m >= 3 the degree over the base field Q(zeta_m) is d / phi(m).
 * A closed point x of degree d is *sporadic* if X_1(m,n) has only finitely

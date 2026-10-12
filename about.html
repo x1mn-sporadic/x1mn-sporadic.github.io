@@ -17,10 +17,23 @@
   <h3>Conventions</h3>
   <dl class="facts">
     <dt>the curve</dt>
-    <dd><span class="m">X₁(m,n)</span>, with <span class="m">m | n</span>, is the modular curve whose non-cuspidal points are the isomorphism classes of triples
-      <span class="m">(E, P, Q)</span> with <span class="m">⟨P, Q⟩ ≅ ℤ/m ⊕ ℤ/n</span>, <span class="m">P</span> of order <span class="m">m</span> and <span class="m">Q</span> of order
-      <span class="m">n</span>. It is defined over <span class="m">ℚ(ζ<sub>m</sub>)</span> and geometrically connected there. <span class="m">X₁(1,n) = X₁(n)</span>.
-      (Derickx–Sutherland write the same curve as <span class="m">X₁(m, mn)</span>; here <span class="m">n</span> is always the full cyclic order.)</dd>
+    <dd><span class="m">X₁(m,n)</span>, with <span class="m">m | n</span>, is the modular curve over <span class="m">F = ℚ(ζ<sub>m</sub>)</span> whose non-cuspidal points
+      are the isomorphism classes of triples <span class="m">(E, P, Q)</span> with <span class="m">⟨P, Q⟩ ≅ ℤ/m ⊕ ℤ/n</span>, <span class="m">P</span> of order
+      <span class="m">m</span>, <span class="m">Q</span> of order <span class="m">n</span>, and <span class="m">e<sub>m</sub>(P, (n/m)Q) = ζ<sub>m</sub></span>. It is
+      geometrically connected, and over <span class="m">ℂ</span> it is the modular curve of <span class="m">Γ(m) ∩ Γ₁(n)</span>. Viewed over
+      <span class="m">ℚ</span>, the same curve parametrizes the triples <span class="m">(E, P, Q)</span> with no condition on the Weil pairing and has
+      <span class="m">φ(m)</span> geometric components; its closed points and their residue fields do not change, which is why degrees are given both over
+      <span class="m">ℚ</span> and over <span class="m">F</span> (in the terms of LMFDB's <a href="https://www.lmfdb.org/knowledge/show/modcurve.xn">variants of
+      X(N)</a>, this is the classical curve over <span class="m">F</span>, equivalently the big curve over <span class="m">ℚ</span>).
+      For <span class="m">m ≥ 3</span> it is not LMFDB's <a href="https://www.lmfdb.org/knowledge/show/modcurve.x1mn">X<sub>arith,1</sub>(m,n)</a>, a
+      geometrically connected curve over <span class="m">ℚ</span> whose points are triples <span class="m">(E, Q, C)</span> with <span class="m">C</span> a
+      Galois-stable subgroup of order <span class="m">m</span> rather than a point. The Weil pairing with <span class="m">(n/m)Q</span> identifies
+      <span class="m">C</span> with <span class="m">μ<sub>m</sub></span>, so over <span class="m">F</span> the two curves become isomorphic. Hence they have the same
+      genus, the gonality over <span class="m">ℚ</span> of LMFDB's curve is an upper bound for the gonality of ours over <span class="m">F</span>, and if
+      its Jacobian has positive rank over <span class="m">ℚ</span>, so does ours over <span class="m">F</span> (rank 0 over <span class="m">ℚ</span> does
+      not carry over). For <span class="m">m ≤ 2</span> the two curves coincide. <span class="m">X₁(1,n) = X₁(n)</span>. (Derickx–Sutherland write
+      <span class="m">X₁(m, mn)</span> and LMFDB writes <span class="m">X<sub>arith,1</sub>(M, MN)</span>; here <span class="m">n</span> is always the full
+      cyclic order.)</dd>
     <dt>the degree</dt>
     <dd>The degree of a closed point <span class="m">x</span> is its absolute degree <span class="m">[ℚ(x) : ℚ]</span>. For <span class="m">m ≥ 3</span> this is
       <span class="m">φ(m)</span> times the degree over the base field <span class="m">ℚ(ζ<sub>m</sub>)</span>; both are shown. A point of degree <span class="m">d</span> is
