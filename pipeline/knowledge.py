@@ -12,11 +12,14 @@ Conventions
   m >= 3 the degree over the base field Q(zeta_m) is d / phi(m).
 * A closed point x of degree d is *sporadic* if X_1(m,n) has only finitely
   many closed points of degree <= d (Sutherland's 2012 notes; Najman 2016
-  introduced the term with d < gonality), and *isolated* if it is both
-  P^1-isolated (l(x) = dim L(x) = 1: it does not move in a pencil of degree-d
-  divisors) and AV-isolated (no positive-rank abelian subvariety of the
-  Jacobian moves it; automatic when the Jacobian has rank 0)
-  (Bourdon-Ejder-Liu-Odumodu-Viray, Definition 4.1).
+  introduced the term with d < gonality).  With C = X_1(m,n) over its base
+  field F, phi_d : Sym^d C -> Pic^d_C and W^d = phi_d(Sym^d C), a degree-d
+  point x (degree over F) is *P^1-isolated* if there is no other
+  x' in (Sym^d C)(F) with phi_d(x) = phi_d(x') (equivalently l(x) = dim L(x)
+  = 1), *AV-isolated* if there is no positive rank subabelian variety
+  A of Pic^0_C with phi_d(x) + A in W^d (automatic when the Jacobian has
+  rank 0), and *isolated* if it is both (Bourdon-Ejder-Liu-Odumodu-Viray,
+  Definition 4.1).
   Finitely many points of degree d  =>  isolated (BELOV, Theorem 4.2(1)).  Each point is classified
   by three questions, each answered yes / no / maybe:
     - are there infinitely many points of degree d?
