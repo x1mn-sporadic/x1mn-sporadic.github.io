@@ -6,7 +6,8 @@
   data/curves/m.n.json  the summaries of the points on X_1(m,n) (loaded by the curve page);
   data/points.json   a compact index of every accepted point (loaded by the by-degree page); the
                      certificates stay in data/points/<id>.json (loaded by the point page);
-  data/sources.json  the bibliography used by the certificates.
+  data/sources.json  the bibliography used by the certificates;
+  data/lmfdb.json    the LMFDB label of each curve (from data/knowledge/sources/lmfdb_labels.csv).
 
 Inputs: data/knowledge/curves_magma.json (Magma genus/index), data/knowledge/sources/*.csv
 (torsion_inf tables), pipeline/knowledge.py (curated, cited facts), data/points/*.json.
@@ -201,6 +202,19 @@ def build():
     return curves_out, points_out, sources_out, per_curve
 
 
+def lmfdb_links():
+    """data/lmfdb.json: LMFDB label of each curve found there (table written by lmfdb_labels.py)."""
+    curves = {}
+    fn = KNOWLEDGE_DIR / "sources" / "lmfdb_labels.csv"
+    if fn.exists():
+        with open(fn, newline="") as fh:
+            for r in csv.DictReader(fh):
+                curves[f"{r['m']}.{r['n']}"] = {"label": r["lmfdb_label"], "name": r["lmfdb_name"],
+                                                "arithmetic": r["arithmetic"] == "1"}
+    return {"generated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+            "url": "https://beta.lmfdb.org/ModularCurve/Q/", "curves": curves}
+
+
 def stable(obj):
     o = json.loads(json.dumps(obj))
     o.pop("generated", None)
@@ -212,7 +226,8 @@ def main():
     ap.add_argument("--check", action="store_true")
     args = ap.parse_args()
     curves_out, points_out, sources_out, per_curve = build()
-    targets = [(DATA / "curves.json", curves_out), (DATA / "points.json", points_out), (DATA / "sources.json", sources_out)]
+    targets = [(DATA / "curves.json", curves_out), (DATA / "points.json", points_out), (DATA / "sources.json", sources_out),
+               (DATA / "lmfdb.json", lmfdb_links())]
     targets += sorted(per_curve.items())
     if args.check:
         changed = [str(p.relative_to(DATA.parent)) for p, o in targets if not p.exists() or stable(read_json(p)) != stable(o)]

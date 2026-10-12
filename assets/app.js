@@ -48,6 +48,15 @@
     t = t.replace(/X_1/g, "X₁").replace(/J_1/g, "J₁").replace(/zeta_(\d+)/g, "ζ$1").replace(/gon_Q/g, "gon<sub>ℚ</sub>").replace(/\bQ\b/g, "ℚ");
     return '<span class="m">' + t + "</span>";
   }
+  // LMFDB modular curve pages (data/lmfdb.json, built from pipeline/lmfdb_labels.py); for m >= 3 the arithmetic version
+  const loadLmfdb = () => load("lmfdb").catch(() => ({ url: "", curves: {} }));
+  const lmfdbName = (s) => esc(s).replace(/^Xarith1/, "X<sub>arith,1</sub>").replace(/^Xarith/, "X<sub>arith</sub>").replace(/^X1/, "X₁").replace(/^X0/, "X₀");
+  function lmfdbLink(lm, m, n, text, cls) {
+    const e = lm.curves[m + "." + n];
+    if (!e) return null;
+    return el("a", { href: lm.url + e.label + "/", class: cls || null,
+      title: "LMFDB " + e.label + (e.arithmetic ? " (the arithmetic version, isomorphic to X₁(" + m + "," + n + ") over ℚ(ζ" + m + "))" : "") }, text || e.label);
+  }
   const curveLabel = (m, n) => (m === 1 ? "X₁(" + n + ")" : "X₁(" + m + "," + n + ")");
   const curveLabelLong = (m, n) => "X₁(" + m + "," + n + ")";
   const torsionLabel = (m, n) => (m === 1 ? "ℤ/" + n : "ℤ/" + m + " ⊕ ℤ/" + n);
@@ -121,7 +130,7 @@
   }
 
   async function renderIndex() {
-    const [data, srcData] = await Promise.all([load("curves"), load("sources")]);
+    const [data, srcData, lm] = await Promise.all([load("curves"), load("sources"), loadLmfdb()]);
     const sources = srcData.sources;
     $("#stat-curves").textContent = data.n_curves;
     $("#stat-certified").textContent = data.n_certified;
@@ -150,7 +159,7 @@
         const rank = c.rank.value !== null ? String(c.rank.value) : c.rank.analytic_rank !== undefined ? "(" + c.rank.analytic_rank + ")" : "?";
         const href = "curve.html?m=" + c.m + "&n=" + c.n;
         const tr = el("tr", { class: "row-link" + (c.genus === 0 ? " dim" : ""), onclick: (e) => { if (e.target.tagName !== "A") location.href = href; } },
-          el("td", null, el("a", { href, class: "id" }, curveLabel(c.m, c.n))),
+          el("td", null, el("a", { href, class: "id" }, curveLabel(c.m, c.n)), lmfdbLink(lm, c.m, c.n, "LMFDB", "lmfdb")),
           el("td", { class: "num" }, c.genus),
           el("td", { class: "num", title: gonTitle }, gon),
           el("td", { class: "num", title: c.rank.source ? shortSource(sources, c.rank.source.split("+")[0]) : "rank not recorded" }, rank),
@@ -200,9 +209,10 @@
 
   async function renderCurve() {
     const m = parseInt(params.get("m"), 10), n = parseInt(params.get("n"), 10);
-    const [data, srcData] = await Promise.all([load("curves"), load("sources")]);
+    const [data, srcData, lm] = await Promise.all([load("curves"), load("sources"), loadLmfdb()]);
     const sources = srcData.sources;
     const c = data.curves.find((x) => x.m === m && x.n === n);
+    const lme = lm.curves[m + "." + n];
     const title = $("#title");
     if (!c) { title.textContent = "Unknown curve"; $("#facts").append(el("p", { class: "error" }, "X₁(" + m + "," + n + ") is not in the census.")); return; }
     title.textContent = curveLabelLong(m, n) + (m === 1 ? " = X₁(" + n + ")" : "");
@@ -212,6 +222,10 @@
     const facts = el("dl", { class: "facts" },
       el("dt", null, "genus"), el("dd", null, el("b", null, c.genus)),
       el("dt", null, "index in PSL₂(ℤ)"), el("dd", null, el("b", null, c.index)),
+      el("dt", null, "LMFDB"),
+      el("dd", null, lme ? [lmfdbLink(lm, m, n), " ", el("span", { class: "src", html: "(" + lmfdbName(lme.name) + (lme.arithmetic
+          ? ": the arithmetic version, a curve over ℚ that becomes isomorphic to X₁(" + m + "," + n + ") over ℚ(ζ<sub>" + m + "</sub>); see <a href=\"about.html\">about</a>)"
+          : ")") })] : el("span", { class: "empty" }, "not in the LMFDB modular curves database")),
       el("dt", null, "gonality over " + (m <= 2 ? "ℚ" : "ℚ(ζ" + m + ")")),
       el("dd", null, el("b", null, gon.exact ? String(gon.lb) : (gon.ub ? gon.lb + " ≤ γ ≤ " + gon.ub : "γ ≥ " + gon.lb)), " ",
         el("span", { class: "src" }, "(", gon.exact && gon.lb_source === gon.ub_source ? sourceLinks(sources, [gon.source])

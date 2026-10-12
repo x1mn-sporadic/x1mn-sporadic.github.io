@@ -282,6 +282,8 @@ table.data td.poly { font-family: var(--math); font-size: 0.95rem; min-width: 13
 table.data td.num { white-space: nowrap; }
 table.data a.id { font-family: var(--mono); font-size: 0.9rem; text-decoration: none; }
 table.data a.id:hover { text-decoration: underline; }
+table.data a.lmfdb { margin-left: 0.5em; font-size: 0.75rem; color: var(--muted); text-decoration: none; }
+table.data a.lmfdb:hover { text-decoration: underline; }
 .degs { display: inline-flex; flex-wrap: wrap; gap: 0.15em; max-width: 14rem; }
 .degs .d {
   display: inline-block;

@@ -3,13 +3,14 @@
 ```
 submissions/inbox/*.json  ──verify.py──►  data/points/<id>.json   (+ data/logs/<id>.log)
         ▲                                 data/rejected/<name>.json
-fetch_issues.py (GitHub issues)           build.py ──► data/curves.json, data/points.json, data/sources.json
+fetch_issues.py (GitHub issues)           build.py ──► data/curves.json, data/points.json, data/sources.json, data/lmfdb.json
 ```
 
 | file | role |
 |---|---|
 | `run_cycle.sh` | the whole cycle: `git pull` → `fetch_issues.py` → `verify.py` → `build.py` → commit → push. Cron-able; uses a lock file. |
 | `fetch_issues.py` | turns open GitHub issues labelled `submission` into `submissions/inbox/issue-<n>.json`. |
+| `lmfdb_labels.py` | looks up every curve by name in the LMFDB modular curves table (read-only mirror `devmirror.lmfdb.xyz`; for m ≥ 3 the arithmetic curve `Xarith1(m,n)`), checks genus and index against the census, writes `data/knowledge/sources/lmfdb_labels.csv`. Run by hand when curves are added, then `build.py`. |
 | `verify.py` | validates a submission, runs `magma/verify_lib.m` and `magma/isolation_lib.m` under timeouts, classifies the point with `knowledge.py`, writes the certificate, comments on and closes the issue. Automatic limits (`LIMITS`: field degree ≤ 30, points required above degree 8, isolation for genus ≤ 60) and per-run budgets (`--max-jobs 8`, `--budget 2700` s of Magma time); submissions beyond the limits go to `submissions/manual/` with the issue labelled `manual`, to be run by the maintainer with `--force`. |
 | `build.py` | rebuilds the JSON files the site reads from `data/knowledge/` + `data/points/`. `--check` fails if they are stale (used by CI). |
 | `knowledge.py` | curated, cited facts: Φ^∞(d) for d ≤ 9, rank-0 theorems, gonality bounds, Frey/Abramovich, per-point facts (`CURATED_POINTS`, e.g. a published AV-isolation proof on a positive-rank curve), and the three yes/no/maybe answers (sporadic = finitely many points of degree ≤ d; isolated; infinitely many points of degree d). |

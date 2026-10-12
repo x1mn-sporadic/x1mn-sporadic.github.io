@@ -5,6 +5,7 @@
 | `X1_N.csv` | `tables/X1_N.csv` of github.com/marin-varivoda/torsion_inf | ef78045be19f26a318a7b27a233aafb6da2675a4 (2026-05-27) | 2a93da522eb749bd8b19e2587ad7397de19b8961cd32e15dddb2871372947df5 |
 | `X1_2_N.csv` | `tables/X1_2_N.csv` of github.com/marin-varivoda/torsion_inf | ef78045be19f26a318a7b27a233aafb6da2675a4 (2026-05-27) | d888b8c59cce033600036625e9d3f32533035b797e33149ab7fd614b1517b17e |
 | `torsion_inf_tables_README.md` | `tables/README.md` of the same repository | same | — |
+| `lmfdb_labels.csv` | written by `pipeline/lmfdb_labels.py` from the LMFDB modular curves table `gps_gl2zhat_fine` (read-only mirror devmirror.lmfdb.xyz; the table behind beta.lmfdb.org/ModularCurve/Q/), looked up by name (`X1(n)`, `X1(2,n)`, `Xarith1(m,n)` for m ≥ 3, `Xarith(m)`, `X(1)`, `X0(2)`, `X(2)`); genus and PSL₂-index checked against the census | queried 2026-10-12 | 4b56596dbe9d525980ec12dcad03827d02af839be48c918fab6bc5be604e266e |
 
 Column meaning (from the tables' README and the torsion_inf project):
 
