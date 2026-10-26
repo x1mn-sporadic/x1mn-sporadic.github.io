@@ -14,9 +14,11 @@
       "sources": []
     },
     "sporadic": {
-      "value": "maybe",
-      "rule": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(50): not decided by any recorded result",
-      "sources": []
+      "value": "no",
+      "rule": "not sporadic: X_1(50) has a function of degree 15 over Q (its gonality), hence infinitely many points of degree 15 by Hilbert irreducibility",
+      "sources": [
+        "DvH14"
+      ]
     },
     "isolated": {
       "value": "yes",

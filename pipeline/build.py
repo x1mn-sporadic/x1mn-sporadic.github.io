@@ -91,6 +91,14 @@ def curve_record(m, n, magma_rec, table_row):
         nv = knowledge.NV26_GONALITY_LB.get((m, n))
         if nv is not None and nv > gon["lb"]:
             gon["lb"] = nv; gon["lb_source"] = gon["source"] = "NV26"
+    published_gonality = knowledge.VARIVODA26_GONALITY.get((m, n))
+    if published_gonality is not None:
+        assert gon["lb"] <= published_gonality, (m, n, gon, published_gonality)
+        assert gon["ub"] is None or published_gonality <= gon["ub"], (m, n, gon, published_gonality)
+        # Keep credit for the earlier upper bound when Theorem D proves it sharp.
+        upper_source = gon["ub_source"] if gon["ub"] == published_gonality else "Varivoda26"
+        gon = {"lb": published_gonality, "ub": published_gonality, "exact": True,
+               "lb_source": "Varivoda26", "ub_source": upper_source, "source": "Varivoda26"}
     # gonality over the base field Q(zeta_m): the tables are Q-gonalities for m <= 2; for m >= 3 we only
     # have the geometric Abramovich bound, which is a lower bound for the gonality over any field.
     rank_val, rank_src = knowledge.rank_zero_source(m, n, table_row)
@@ -112,7 +120,10 @@ def curve_record(m, n, magma_rec, table_row):
             # infinitely many points of that degree by Hilbert irreducibility
             degrees_infinite.setdefault(str(gon["ub"]), gon["ub_source"])
         # degrees below phi(m) multiples are impossible; degrees d' = d/phi(m) with 2d' < gon_lb are finite (Frey)
-        for d in range(1, 13):
+        # Display the full new finiteness range, including the degrees >= 14
+        # of the recorded points, rather than stopping at degree 12.
+        finite_degree_limit = max(12, (published_gonality - 1) * phi) if published_gonality is not None else 12
+        for d in range(1, finite_degree_limit + 1):
             if d % phi:
                 continue
             dd = d // phi
@@ -180,7 +191,7 @@ def build():
             "sporadic": "a closed point of degree d is sporadic if the curve has only finitely many closed points of degree <= d",
             "isolated": "P^1-isolated (dim L(x) = 1) and AV-isolated (Bourdon-Ejder-Liu-Odumodu-Viray); finitely many points of degree d implies isolated",
             "answers": "each of 'infinitely many points of degree d', 'sporadic', 'isolated' is yes, no or maybe",
-            "gonality": "Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Abramovich, or Najman's unpublished computations); for m >= 3 only Abramovich's geometric lower bound",
+            "gonality": "Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Varivoda, Abramovich, or Najman's unpublished computations); for m >= 3 only Abramovich's geometric lower bound",
         },
         "n_curves": len(curves),
         "n_points": len(points),

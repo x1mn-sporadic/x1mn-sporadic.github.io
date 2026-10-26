@@ -65,6 +65,8 @@ Only three concurrent Magma jobs are allowed on Mordell; the verifier is sequent
 
 Facts about curves (gonality, rank, degrees with finitely/infinitely many points) live in
 `knowledge.py` and `data/knowledge/sources/`. To add e.g. a new gonality result, add a source to
-`SOURCES` and the fact to the relevant table, rebuild with `build.py`, and re-run `verify.py` on the
-affected "verified" points if you want them re-classified (delete their certificate and put the
-submission back into the inbox; the id is re-assigned).
+`SOURCES` and a cited fact, keeping copied source tables unchanged. Then run
+`python3 -B pipeline/reclassify.py --dry-run` to inspect the affected certificates,
+`python3 -B pipeline/reclassify.py` to refresh their classifications, and
+`python3 -B pipeline/build.py` to rebuild the site data. This preserves the existing point ids,
+discovery credits, verification records and Magma logs; no new Magma run is needed.

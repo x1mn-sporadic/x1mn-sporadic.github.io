@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18 19:49 UTC",
+  "generated": "2026-10-26 11:35 UTC",
   "m": 1,
   "n": 39,
   "points": [
@@ -80,8 +80,8 @@
       "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "X_1(39) has only finitely many points of degree 10",
-        "sporadic": "finitely many points of each degree <= 10 on X_1(39)",
+        "infinite_in_degree": "rank 0 and 10 < 14 <= gonality of X_1(39) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 14 <= gonality of X_1(39) over Q",
         "isolated": "finitely many points of degree 10 on X_1(39), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
@@ -109,8 +109,8 @@
       "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "X_1(39) has only finitely many points of degree 12",
-        "sporadic": "finitely many points of each degree <= 12 on X_1(39)",
+        "infinite_in_degree": "rank 0 and 12 < 14 <= gonality of X_1(39) over Q",
+        "sporadic": "finitely many points of degree <= 12: rank 0 and 12 < 14 <= gonality of X_1(39) over Q",
         "isolated": "finitely many points of degree 12 on X_1(39), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
@@ -138,8 +138,8 @@
       "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "X_1(39) has only finitely many points of degree 12",
-        "sporadic": "finitely many points of each degree <= 12 on X_1(39)",
+        "infinite_in_degree": "rank 0 and 12 < 14 <= gonality of X_1(39) over Q",
+        "sporadic": "finitely many points of degree <= 12: rank 0 and 12 < 14 <= gonality of X_1(39) over Q",
         "isolated": "finitely many points of degree 12 on X_1(39), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
@@ -167,8 +167,8 @@
       "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "X_1(39) has only finitely many points of degree 12",
-        "sporadic": "finitely many points of each degree <= 12 on X_1(39)",
+        "infinite_in_degree": "rank 0 and 12 < 14 <= gonality of X_1(39) over Q",
+        "sporadic": "finitely many points of degree <= 12: rank 0 and 12 < 14 <= gonality of X_1(39) over Q",
         "isolated": "finitely many points of degree 12 on X_1(39), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",

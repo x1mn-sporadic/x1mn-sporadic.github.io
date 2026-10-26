@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18 19:49 UTC",
+  "generated": "2026-10-26 11:35 UTC",
   "m": 1,
   "n": 42,
   "points": [
@@ -163,13 +163,13 @@
         42
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(42) has finitely many points of degree 10",
-        "sporadic": "finitely many points of degree 10 on X_1(42): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 10 < 12 <= gonality of X_1(42) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(42) over Q",
+        "isolated": "finitely many points of degree 10 on X_1(42), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -192,13 +192,13 @@
         42
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(42) has finitely many points of degree 10",
-        "sporadic": "finitely many points of degree 10 on X_1(42): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 10 < 12 <= gonality of X_1(42) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(42) over Q",
+        "isolated": "finitely many points of degree 10 on X_1(42), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -221,13 +221,13 @@
         42
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(42) has finitely many points of degree 10",
-        "sporadic": "finitely many points of degree 10 on X_1(42): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 10 < 12 <= gonality of X_1(42) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(42) over Q",
+        "isolated": "finitely many points of degree 10 on X_1(42), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -250,13 +250,13 @@
         42
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(42) has finitely many points of degree 10",
-        "sporadic": "finitely many points of degree 10 on X_1(42): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 10 < 12 <= gonality of X_1(42) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(42) over Q",
+        "isolated": "finitely many points of degree 10 on X_1(42), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -279,13 +279,13 @@
         42
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(42) has finitely many points of degree 11",
-        "sporadic": "finitely many points of degree 10, 11 on X_1(42): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 11 < 12 <= gonality of X_1(42) over Q",
+        "sporadic": "finitely many points of degree <= 11: rank 0 and 11 < 12 <= gonality of X_1(42) over Q",
+        "isolated": "finitely many points of degree 11 on X_1(42), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -308,13 +308,13 @@
         42
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(42) has finitely many points of degree 11",
-        "sporadic": "finitely many points of degree 10, 11 on X_1(42): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 11 < 12 <= gonality of X_1(42) over Q",
+        "sporadic": "finitely many points of degree <= 11: rank 0 and 11 < 12 <= gonality of X_1(42) over Q",
+        "isolated": "finitely many points of degree 11 on X_1(42), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -337,13 +337,13 @@
         42
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(42) has finitely many points of degree 11",
-        "sporadic": "finitely many points of degree 10, 11 on X_1(42): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 11 < 12 <= gonality of X_1(42) over Q",
+        "sporadic": "finitely many points of degree <= 11: rank 0 and 11 < 12 <= gonality of X_1(42) over Q",
+        "isolated": "finitely many points of degree 11 on X_1(42), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -366,13 +366,13 @@
         42
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(42) has finitely many points of degree 11",
-        "sporadic": "finitely many points of degree 10, 11 on X_1(42): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 11 < 12 <= gonality of X_1(42) over Q",
+        "sporadic": "finitely many points of degree <= 11: rank 0 and 11 < 12 <= gonality of X_1(42) over Q",
+        "isolated": "finitely many points of degree 11 on X_1(42), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,

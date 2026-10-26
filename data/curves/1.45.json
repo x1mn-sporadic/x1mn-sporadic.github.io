@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18 19:49 UTC",
+  "generated": "2026-10-26 11:35 UTC",
   "m": 1,
   "n": 45,
   "points": [
@@ -18,13 +18,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 10",
-        "sporadic": "finitely many points of degree 10 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 10 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 10 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -47,13 +47,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 12",
-        "sporadic": "finitely many points of degree 10, 11, 12 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 12 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 12: rank 0 and 12 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 12 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -76,13 +76,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 12",
-        "sporadic": "finitely many points of degree 10, 11, 12 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 12 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 12: rank 0 and 12 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 12 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -105,13 +105,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 14",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 14 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 14: rank 0 and 14 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 14 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -134,13 +134,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 14",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 14 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 14: rank 0 and 14 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 14 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -163,13 +163,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 14",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 14 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 14: rank 0 and 14 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 14 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -192,13 +192,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 15",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 15 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 15: rank 0 and 15 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 15 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -221,13 +221,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 16",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 16 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 16: rank 0 and 16 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 16 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -250,13 +250,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 16",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 16 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 16: rank 0 and 16 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 16 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -279,13 +279,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 16",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 16 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 16: rank 0 and 16 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 16 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -308,13 +308,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 16",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 16 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 16: rank 0 and 16 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 16 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -337,13 +337,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 16",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 16 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 16: rank 0 and 16 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 16 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -366,13 +366,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 17",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 17: rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 17 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -395,13 +395,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 17",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 17: rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 17 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -424,13 +424,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 17",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 17: rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 17 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -453,13 +453,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 17",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 17: rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 17 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -482,13 +482,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 17",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 17: rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 17 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -511,13 +511,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 17",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 17: rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 17 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -540,13 +540,13 @@
         45
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 17",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(45): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "sporadic": "finitely many points of degree <= 17: rank 0 and 17 < 18 <= gonality of X_1(45) over Q",
+        "isolated": "finitely many points of degree 17 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -570,11 +570,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -599,11 +599,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -628,11 +628,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -657,11 +657,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -686,11 +686,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -715,11 +715,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -744,11 +744,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -773,11 +773,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -802,11 +802,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -831,11 +831,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -860,11 +860,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -889,11 +889,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -918,11 +918,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -947,11 +947,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -976,11 +976,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1005,11 +1005,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1034,11 +1034,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1063,11 +1063,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1092,11 +1092,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1121,11 +1121,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1150,11 +1150,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1179,11 +1179,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1208,11 +1208,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1237,11 +1237,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1266,11 +1266,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1295,11 +1295,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1324,11 +1324,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -1353,11 +1353,11 @@
       ],
       "torsion_known": true,
       "infinite": "maybe",
-      "sporadic": "maybe",
+      "sporadic": "no",
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(45) has finitely many points of degree 19",
-        "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(45): not decided by any recorded result",
+        "sporadic": "not sporadic: X_1(45) has a function of degree 18 over Q (its gonality), hence infinitely many points of degree 18 by Hilbert irreducibility",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",

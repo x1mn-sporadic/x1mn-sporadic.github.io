@@ -455,7 +455,7 @@
     const srcData = await load("sources");
     const ul = $("#sources");
     for (const [k, s] of Object.entries(srcData.sources)) {
-      ul.append(el("li", { id: "src-" + k }, el("b", null, s.short || k), " — ", s.cite, s.used_for ? el("span", { class: "muted" }, " Used for: " + s.used_for + ".") : null));
+      ul.append(el("li", { id: "src-" + k }, el("b", null, s.url ? el("a", { href: s.url }, s.short || k) : s.short || k), " — ", s.cite, s.used_for ? el("span", { class: "muted" }, " Used for: " + s.used_for + ".") : null));
     }
     const curves = await load("curves");
     $("#generated").textContent = curves.generated;

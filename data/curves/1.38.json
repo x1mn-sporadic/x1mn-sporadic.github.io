@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18 19:49 UTC",
+  "generated": "2026-10-26 11:35 UTC",
   "m": 1,
   "n": 38,
   "points": [
@@ -22,8 +22,8 @@
       "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "X_1(38) has only finitely many points of degree 10",
-        "sporadic": "finitely many points of each degree <= 10 on X_1(38)",
+        "infinite_in_degree": "rank 0 and 10 < 12 <= gonality of X_1(38) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(38) over Q",
         "isolated": "finitely many points of degree 10 on X_1(38), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
@@ -51,8 +51,8 @@
       "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "X_1(38) has only finitely many points of degree 10",
-        "sporadic": "finitely many points of each degree <= 10 on X_1(38)",
+        "infinite_in_degree": "rank 0 and 10 < 12 <= gonality of X_1(38) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(38) over Q",
         "isolated": "finitely many points of degree 10 on X_1(38), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
@@ -80,8 +80,8 @@
       "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "X_1(38) has only finitely many points of degree 10",
-        "sporadic": "finitely many points of each degree <= 10 on X_1(38)",
+        "infinite_in_degree": "rank 0 and 10 < 12 <= gonality of X_1(38) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(38) over Q",
         "isolated": "finitely many points of degree 10 on X_1(38), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",

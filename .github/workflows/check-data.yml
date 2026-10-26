@@ -14,4 +14,5 @@ jobs:
       - name: Validate JSON and rebuild consistency
         run: |
           python3 -c "import json,glob; [json.load(open(f)) for f in glob.glob('data/**/*.json', recursive=True) + glob.glob('submissions/**/*.json', recursive=True)]; print('all JSON parses')"
+          python3 -B -m unittest discover -s pipeline/tests -p 'test_*.py'
           python3 pipeline/build.py --check

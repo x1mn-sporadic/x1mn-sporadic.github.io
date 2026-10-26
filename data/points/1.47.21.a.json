@@ -6,22 +6,35 @@
   "degree": 21,
   "relative_degree": 21,
   "base_field": "Q",
-  "status": "verified",
+  "status": "certified",
   "classification": {
     "infinite_in_degree": {
-      "value": "maybe",
-      "rule": "no recorded result decides whether X_1(47) has finitely many points of degree 21",
-      "sources": []
+      "value": "no",
+      "rule": "rank 0 and 21 < 29 <= gonality of X_1(47) over Q",
+      "sources": [
+        "RankZeroLemma",
+        "DvH14",
+        "Varivoda26"
+      ]
     },
     "sporadic": {
-      "value": "maybe",
-      "rule": "finitely many points of degree 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 on X_1(47): not decided by any recorded result",
-      "sources": []
+      "value": "yes",
+      "rule": "finitely many points of degree <= 21: rank 0 and 21 < 29 <= gonality of X_1(47) over Q",
+      "sources": [
+        "RankZeroLemma",
+        "DvH14",
+        "Varivoda26"
+      ]
     },
     "isolated": {
-      "value": "maybe",
-      "rule": "dim L(x) not computed (not attempted (--no-isolation))",
-      "sources": []
+      "value": "yes",
+      "rule": "finitely many points of degree 21 on X_1(47), so the point lies in no positive-dimensional family",
+      "sources": [
+        "RankZeroLemma",
+        "DvH14",
+        "Varivoda26",
+        "BELOV"
+      ]
     }
   },
   "isolation": {

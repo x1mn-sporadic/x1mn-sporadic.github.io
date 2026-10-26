@@ -10,22 +10,20 @@
   "classification": {
     "infinite_in_degree": {
       "value": "no",
-      "rule": "X_1(38) has only finitely many points of degree 10",
+      "rule": "rank 0 and 10 < 12 <= gonality of X_1(38) over Q",
       "sources": [
-        "RankZeroLemma"
+        "RankZeroLemma",
+        "DvH14",
+        "DvH14"
       ]
     },
     "sporadic": {
       "value": "yes",
-      "rule": "finitely many points of each degree <= 10 on X_1(38)",
+      "rule": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(38) over Q",
       "sources": [
+        "RankZeroLemma",
         "DvH14",
-        "JKP06",
-        "JKS04",
-        "KKM",
-        "Mazur77",
-        "NV26",
-        "RankZeroLemma"
+        "DvH14"
       ]
     },
     "isolated": {
@@ -33,6 +31,8 @@
       "rule": "finitely many points of degree 10 on X_1(38), so the point lies in no positive-dimensional family",
       "sources": [
         "RankZeroLemma",
+        "DvH14",
+        "DvH14",
         "BELOV"
       ]
     }

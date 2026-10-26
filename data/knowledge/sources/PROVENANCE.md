@@ -25,3 +25,10 @@ Column meaning (from the tables' README and the torsion_inf project):
 The census pipeline (`pipeline/build.py`) reads only: `g`, `an_r`, `gon_Q_lb`, `gon_Q_ub_DvH14`. The `p7`–`p9` columns are
 no longer used: the sets Φ^∞(7), Φ^∞(8), Φ^∞(9) are taken from Najman–Varivoda, arXiv:2602.03513, Theorem 1.1 (transcribed in
 `pipeline/knowledge.py`), with which the columns agree entry by entry (checked 2026-09-17).
+
+The copied tables retain their original contents. For X₁(N), 41 ≤ N ≤ 50, their gonality lower bounds are
+superseded by `VARIVODA26_GONALITY` in `pipeline/knowledge.py`, transcribed from
+[M. Varivoda, *Gonality and quintic points on intermediate modular curves*, hexagon:2610.00219v1,
+Theorem D, page 2](https://hexagonmath.org/pdf/2610.00219v1#page=2) (13 October 2026).
+In order N = 41, …, 50 the exact ℚ-gonalities are 22, 12, 24, 15, 18, 19, 29, 16, 21, 15.
+The build keeps Derickx–van Hoeij's credit for the upper bounds and credits Varivoda for proving equality.

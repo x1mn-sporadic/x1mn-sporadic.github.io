@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18 19:49 UTC",
+  "generated": "2026-10-26 11:35 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -7,14 +7,14 @@
     "sporadic": "a closed point of degree d is sporadic if the curve has only finitely many closed points of degree <= d",
     "isolated": "P^1-isolated (dim L(x) = 1) and AV-isolated (Bourdon-Ejder-Liu-Odumodu-Viray); finitely many points of degree d implies isolated",
     "answers": "each of 'infinitely many points of degree d', 'sporadic', 'isolated' is yes, no or maybe",
-    "gonality": "Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Abramovich, or Najman's unpublished computations); for m >= 3 only Abramovich's geometric lower bound"
+    "gonality": "Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Varivoda, Abramovich, or Najman's unpublished computations); for m >= 3 only Abramovich's geometric lower bound"
   },
   "n_curves": 165,
   "n_points": 2559,
-  "n_certified": 681,
-  "n_verified": 1878,
-  "n_sporadic": 56,
-  "n_isolated": 681,
+  "n_certified": 768,
+  "n_verified": 1791,
+  "n_sporadic": 316,
+  "n_isolated": 768,
   "n_rejected": 5,
   "curves": [
     {
@@ -1849,12 +1849,12 @@
       "index": 840,
       "abramovich_bound": 8.331,
       "gonality": {
-        "lb": 10,
+        "lb": 22,
         "ub": 22,
-        "exact": false,
+        "exact": true,
+        "lb_source": "Varivoda26",
         "ub_source": "DvH14",
-        "lb_source": "NV26",
-        "source": "NV26"
+        "source": "Varivoda26"
       },
       "rank": {
         "value": 0,
@@ -1862,7 +1862,9 @@
         "analytic_rank": 0,
         "analytic_rank_source": "LMFDB"
       },
-      "degrees_infinite": {},
+      "degrees_infinite": {
+        "22": "DvH14"
+      },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
@@ -1872,14 +1874,26 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Frey94",
+        "11": "RankZeroLemma",
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma",
+        "15": "RankZeroLemma",
+        "16": "RankZeroLemma",
+        "17": "RankZeroLemma",
+        "18": "RankZeroLemma",
+        "19": "RankZeroLemma",
+        "20": "RankZeroLemma",
+        "21": "RankZeroLemma"
       },
       "table_note": "DT",
       "in_tables": true,
       "n_points": 36,
       "n_certified": 36,
       "n_verified": 0,
-      "n_sporadic": 0,
+      "n_sporadic": 36,
       "n_isolated": 36,
       "degrees_present": [
         14,
@@ -1901,12 +1915,12 @@
       "index": 576,
       "abramovich_bound": 5.713,
       "gonality": {
-        "lb": 10,
+        "lb": 12,
         "ub": 12,
-        "exact": false,
+        "exact": true,
+        "lb_source": "Varivoda26",
         "ub_source": "DvH14",
-        "lb_source": "NV26",
-        "source": "NV26"
+        "source": "Varivoda26"
       },
       "rank": {
         "value": 0,
@@ -1914,7 +1928,9 @@
         "analytic_rank": 0,
         "analytic_rank_source": "LMFDB"
       },
-      "degrees_infinite": {},
+      "degrees_infinite": {
+        "12": "DvH14"
+      },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
@@ -1924,14 +1940,16 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "RankZeroLemma",
+        "11": "RankZeroLemma"
       },
       "table_note": "DT",
       "in_tables": true,
       "n_points": 13,
       "n_certified": 13,
       "n_verified": 0,
-      "n_sporadic": 5,
+      "n_sporadic": 13,
       "n_isolated": 13,
       "degrees_present": [
         8,
@@ -1951,12 +1969,12 @@
       "index": 924,
       "abramovich_bound": 9.164,
       "gonality": {
-        "lb": 19,
+        "lb": 24,
         "ub": 24,
-        "exact": false,
+        "exact": true,
+        "lb_source": "Varivoda26",
         "ub_source": "DvH14",
-        "lb_source": "Najman2026",
-        "source": "Najman2026"
+        "source": "Varivoda26"
       },
       "rank": {
         "value": null,
@@ -1964,7 +1982,9 @@
         "analytic_rank": 1,
         "analytic_rank_source": "LMFDB"
       },
-      "degrees_infinite": {},
+      "degrees_infinite": {
+        "24": "DvH14"
+      },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
@@ -1974,7 +1994,9 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Frey94",
+        "11": "Frey94"
       },
       "table_note": "cover search",
       "in_tables": true,
@@ -1996,12 +2018,12 @@
       "index": 720,
       "abramovich_bound": 7.141,
       "gonality": {
-        "lb": 10,
+        "lb": 15,
         "ub": 15,
-        "exact": false,
+        "exact": true,
+        "lb_source": "Varivoda26",
         "ub_source": "DvH14",
-        "lb_source": "NV26",
-        "source": "NV26"
+        "source": "Varivoda26"
       },
       "rank": {
         "value": 0,
@@ -2009,7 +2031,9 @@
         "analytic_rank": 0,
         "analytic_rank_source": "LMFDB"
       },
-      "degrees_infinite": {},
+      "degrees_infinite": {
+        "15": "DvH14"
+      },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
@@ -2019,14 +2043,19 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "RankZeroLemma",
+        "11": "RankZeroLemma",
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma"
       },
       "table_note": "DT",
       "in_tables": true,
       "n_points": 14,
       "n_certified": 14,
       "n_verified": 0,
-      "n_sporadic": 0,
+      "n_sporadic": 14,
       "n_isolated": 14,
       "degrees_present": [
         11,
@@ -2046,12 +2075,12 @@
       "index": 864,
       "abramovich_bound": 8.569,
       "gonality": {
-        "lb": 10,
+        "lb": 18,
         "ub": 18,
-        "exact": false,
+        "exact": true,
+        "lb_source": "Varivoda26",
         "ub_source": "DvH14",
-        "lb_source": "NV26",
-        "source": "NV26"
+        "source": "Varivoda26"
       },
       "rank": {
         "value": 0,
@@ -2059,7 +2088,9 @@
         "analytic_rank": 0,
         "analytic_rank_source": "LMFDB"
       },
-      "degrees_infinite": {},
+      "degrees_infinite": {
+        "18": "DvH14"
+      },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
@@ -2069,14 +2100,22 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "RankZeroLemma",
+        "11": "RankZeroLemma",
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma",
+        "15": "RankZeroLemma",
+        "16": "RankZeroLemma",
+        "17": "RankZeroLemma"
       },
       "table_note": "DT",
       "in_tables": true,
       "n_points": 47,
       "n_certified": 47,
       "n_verified": 0,
-      "n_sporadic": 0,
+      "n_sporadic": 19,
       "n_isolated": 47,
       "degrees_present": [
         10,
@@ -2099,12 +2138,12 @@
       "index": 792,
       "abramovich_bound": 7.855,
       "gonality": {
-        "lb": 10,
+        "lb": 19,
         "ub": 19,
-        "exact": false,
+        "exact": true,
+        "lb_source": "Varivoda26",
         "ub_source": "DvH14",
-        "lb_source": "NV26",
-        "source": "NV26"
+        "source": "Varivoda26"
       },
       "rank": {
         "value": 0,
@@ -2112,7 +2151,9 @@
         "analytic_rank": 0,
         "analytic_rank_source": "LMFDB"
       },
-      "degrees_infinite": {},
+      "degrees_infinite": {
+        "19": "DvH14"
+      },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
@@ -2122,14 +2163,23 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "RankZeroLemma",
+        "11": "RankZeroLemma",
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma",
+        "15": "RankZeroLemma",
+        "16": "RankZeroLemma",
+        "17": "RankZeroLemma",
+        "18": "RankZeroLemma"
       },
       "table_note": "DT",
       "in_tables": true,
       "n_points": 68,
       "n_certified": 68,
       "n_verified": 0,
-      "n_sporadic": 0,
+      "n_sporadic": 68,
       "n_isolated": 68,
       "degrees_present": [
         14,
@@ -2150,12 +2200,12 @@
       "index": 1104,
       "abramovich_bound": 10.95,
       "gonality": {
-        "lb": 11,
+        "lb": 29,
         "ub": 29,
-        "exact": false,
+        "exact": true,
+        "lb_source": "Varivoda26",
         "ub_source": "DvH14",
-        "lb_source": "Abramovich96",
-        "source": "Abramovich96"
+        "source": "Varivoda26"
       },
       "rank": {
         "value": 0,
@@ -2163,7 +2213,9 @@
         "analytic_rank": 0,
         "analytic_rank_source": "LMFDB"
       },
-      "degrees_infinite": {},
+      "degrees_infinite": {
+        "29": "DvH14"
+      },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
@@ -2174,15 +2226,33 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma"
+        "10": "Frey94",
+        "11": "Frey94",
+        "12": "Frey94",
+        "13": "Frey94",
+        "14": "Frey94",
+        "15": "RankZeroLemma",
+        "16": "RankZeroLemma",
+        "17": "RankZeroLemma",
+        "18": "RankZeroLemma",
+        "19": "RankZeroLemma",
+        "20": "RankZeroLemma",
+        "21": "RankZeroLemma",
+        "22": "RankZeroLemma",
+        "23": "RankZeroLemma",
+        "24": "RankZeroLemma",
+        "25": "RankZeroLemma",
+        "26": "RankZeroLemma",
+        "27": "RankZeroLemma",
+        "28": "RankZeroLemma"
       },
       "table_note": "abramovich",
       "in_tables": true,
       "n_points": 85,
-      "n_certified": 0,
-      "n_verified": 85,
-      "n_sporadic": 0,
-      "n_isolated": 0,
+      "n_certified": 85,
+      "n_verified": 0,
+      "n_sporadic": 85,
+      "n_isolated": 85,
       "degrees_present": [
         20,
         21,
@@ -2206,12 +2276,12 @@
       "index": 768,
       "abramovich_bound": 7.617,
       "gonality": {
-        "lb": 10,
+        "lb": 16,
         "ub": 16,
-        "exact": false,
+        "exact": true,
+        "lb_source": "Varivoda26",
         "ub_source": "DvH14",
-        "lb_source": "NV26",
-        "source": "NV26"
+        "source": "Varivoda26"
       },
       "rank": {
         "value": 0,
@@ -2219,7 +2289,9 @@
         "analytic_rank": 0,
         "analytic_rank_source": "LMFDB"
       },
-      "degrees_infinite": {},
+      "degrees_infinite": {
+        "16": "DvH14"
+      },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
@@ -2229,14 +2301,20 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "RankZeroLemma",
+        "11": "RankZeroLemma",
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma",
+        "15": "RankZeroLemma"
       },
       "table_note": "DT",
       "in_tables": true,
       "n_points": 64,
       "n_certified": 64,
       "n_verified": 0,
-      "n_sporadic": 0,
+      "n_sporadic": 26,
       "n_isolated": 64,
       "degrees_present": [
         11,
@@ -2257,12 +2335,12 @@
       "index": 1176,
       "abramovich_bound": 11.664,
       "gonality": {
-        "lb": 12,
+        "lb": 21,
         "ub": 21,
-        "exact": false,
+        "exact": true,
+        "lb_source": "Varivoda26",
         "ub_source": "DvH14",
-        "lb_source": "Abramovich96",
-        "source": "Abramovich96"
+        "source": "Varivoda26"
       },
       "rank": {
         "value": 0,
@@ -2270,7 +2348,9 @@
         "analytic_rank": 0,
         "analytic_rank_source": "LMFDB"
       },
-      "degrees_infinite": {},
+      "degrees_infinite": {
+        "21": "DvH14"
+      },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
@@ -2281,16 +2361,25 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
-        "11": "RankZeroLemma"
+        "10": "Frey94",
+        "11": "RankZeroLemma",
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma",
+        "15": "RankZeroLemma",
+        "16": "RankZeroLemma",
+        "17": "RankZeroLemma",
+        "18": "RankZeroLemma",
+        "19": "RankZeroLemma",
+        "20": "RankZeroLemma"
       },
       "table_note": "abramovich",
       "in_tables": true,
       "n_points": 130,
-      "n_certified": 0,
-      "n_verified": 130,
-      "n_sporadic": 0,
-      "n_isolated": 0,
+      "n_certified": 2,
+      "n_verified": 128,
+      "n_sporadic": 2,
+      "n_isolated": 2,
       "degrees_present": [
         14,
         19,
@@ -2315,12 +2404,12 @@
       "index": 900,
       "abramovich_bound": 8.926,
       "gonality": {
-        "lb": 10,
+        "lb": 15,
         "ub": 15,
-        "exact": false,
+        "exact": true,
+        "lb_source": "Varivoda26",
         "ub_source": "DvH14",
-        "lb_source": "NV26",
-        "source": "NV26"
+        "source": "Varivoda26"
       },
       "rank": {
         "value": 0,
@@ -2328,7 +2417,9 @@
         "analytic_rank": 0,
         "analytic_rank_source": "LMFDB"
       },
-      "degrees_infinite": {},
+      "degrees_infinite": {
+        "15": "DvH14"
+      },
       "degrees_finite": {
         "1": "Mazur77",
         "2": "KKM",
@@ -2338,14 +2429,19 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "RankZeroLemma",
+        "11": "RankZeroLemma",
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma"
       },
       "table_note": "DT",
       "in_tables": true,
       "n_points": 139,
       "n_certified": 139,
       "n_verified": 0,
-      "n_sporadic": 0,
+      "n_sporadic": 2,
       "n_isolated": 139,
       "degrees_present": [
         10,

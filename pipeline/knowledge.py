@@ -112,6 +112,16 @@ SOURCES = {
                     "(Table 1); X_1(37) has only finitely many points of degree 9 (Proposition 5.7)",
         "transcribed_from": "text of arXiv:2602.03513v4 (Theorem 1.1, Table 1, Proposition 5.7)",
     },
+    "Varivoda26": {
+        "short": "Varivoda 2026",
+        "cite": "M. Varivoda, Gonality and quintic points on intermediate modular curves, "
+                "Hexagon preprint 2610.00219v1 (13 October 2026), Theorem D.",
+        "url": "https://hexagonmath.org/2610.00219v1",
+        "used_for": "exact Q-gonality of X_1(N) for 41 <= N <= 50; combined with the known rank-0 "
+                    "results, sporadicity of every point below the gonality for N != 43",
+        "transcribed_from": "https://hexagonmath.org/pdf/2610.00219v1, page 2, Theorem D; the upper "
+                            "bounds were already proved by Derickx-van Hoeij 2014",
+    },
     "Najman2026": {
         "short": "Najman 2026 (unpublished)",
         "cite": "F. Najman, computations recorded in the tables tables/X1_N.csv and tables/X1_2_N.csv of "
@@ -269,6 +279,14 @@ NV26_GONALITY_LB = {
     (3, 15): 6, (3, 18): 6, (4, 16): 8, (5, 10): 3, (6, 12): 6,
 }
 
+# Varivoda, hexagon:2610.00219v1, Theorem D (page 2): exact Q-gonalities.
+# These supersede the lower bounds in the copied torsion_inf tables, which
+# remain unchanged so that their original provenance and checksums are preserved.
+VARIVODA26_GONALITY = {
+    (1, 41): 22, (1, 42): 12, (1, 43): 24, (1, 44): 15, (1, 45): 18,
+    (1, 46): 19, (1, 47): 29, (1, 48): 16, (1, 49): 21, (1, 50): 15,
+}
+
 # Derickx-van Hoeij, Lemma 1(3) (first appearance, via Kato): "If N <= 66 and N != 37, 43, 53, 57, 58,
 # 61, 63, 65 then J_1(N)(Q) is finite."
 RANK_ZERO_DVH14_MAX_N = 66
@@ -413,7 +431,9 @@ def degree_status(curve: dict, e: int) -> tuple:
             return "infinite", (f"{lab} has a function of degree {ee} over {curve['base_field']} (its gonality), "
                                 f"hence infinitely many points of {_deg(curve)} {e} by Hilbert irreducibility"), [inf[str(e)]]
         return "infinite", f"{lab} has infinitely many points of {_deg(curve)} {e}", [inf[str(e)]]
-    if str(e) in fin:
+    # Derived entries in the curve table still need the gonality and rank
+    # sources below, so point certificates credit the complete argument.
+    if str(e) in fin and fin[str(e)] not in ("Frey94", "RankZeroLemma"):
         return "finite", f"{lab} has only finitely many points of {_deg(curve)} {e}", [fin[str(e)]]
     gon = curve.get("gonality") or {}
     lb = gon.get("lb")

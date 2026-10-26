@@ -9,21 +9,31 @@
   "status": "certified",
   "classification": {
     "infinite_in_degree": {
-      "value": "maybe",
-      "rule": "no recorded result decides whether X_1(45) has finitely many points of degree 14",
-      "sources": []
+      "value": "no",
+      "rule": "rank 0 and 14 < 18 <= gonality of X_1(45) over Q",
+      "sources": [
+        "RankZeroLemma",
+        "DvH14",
+        "Varivoda26"
+      ]
     },
     "sporadic": {
-      "value": "maybe",
-      "rule": "finitely many points of degree 10, 11, 12, 13, 14 on X_1(45): not decided by any recorded result",
-      "sources": []
+      "value": "yes",
+      "rule": "finitely many points of degree <= 14: rank 0 and 14 < 18 <= gonality of X_1(45) over Q",
+      "sources": [
+        "RankZeroLemma",
+        "DvH14",
+        "Varivoda26"
+      ]
     },
     "isolated": {
       "value": "yes",
-      "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
+      "rule": "finitely many points of degree 14 on X_1(45), so the point lies in no positive-dimensional family",
       "sources": [
-        "BELOV",
-        "DvH14"
+        "RankZeroLemma",
+        "DvH14",
+        "Varivoda26",
+        "BELOV"
       ]
     }
   },
