@@ -1,0 +1,33 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 2,
+  "n": 26,
+  "field": "x^9 + 5*x^8 + 15*x^7 + 14*x^6 - 14*x^5 - 25*x^4 - 7*x^3 + 5*x^2 + 4*x + 1",
+  "curve": {
+    "ainvs": [
+      "0",
+      "(-3864*a^8 - 22538*a^7 - 75946*a^6 - 112918*a^5 - 25630*a^4 + 94470*a^3 + 104296*a^2 + 46530*a + 8797)/907",
+      "0",
+      "((62*a^8 + 1386*a^7 + 6639*a^6 + 18950*a^5 + 20738*a^4 - 6786*a^3 - 25017*a^2 - 14822*a - 2411)/907)*(1-((62*a^8 + 1386*a^7 + 6639*a^6 + 18950*a^5 + 20738*a^4 - 6786*a^3 - 25017*a^2 - 14822*a - 2411)/907)-((-3864*a^8 - 22538*a^7 - 75946*a^6 - 112918*a^5 - 25630*a^4 + 94470*a^3 + 104296*a^2 + 46530*a + 8797)/907))",
+      "0"
+    ]
+  },
+  "points": {
+    "P": [
+      "0",
+      "0"
+    ],
+    "Q": [
+      "(62*a^8 + 1386*a^7 + 6639*a^6 + 18950*a^5 + 20738*a^4 - 6786*a^3 - 25017*a^2 - 14822*a - 2411)/907",
+      "(62*a^8 + 1386*a^7 + 6639*a^6 + 18950*a^5 + 20738*a^4 - 6786*a^3 - 25017*a^2 - 14822*a - 2411)/907"
+    ]
+  },
+  "degree": 9,
+  "submitter": "Filip Najman",
+  "github": "F-Najman",
+  "discoverer": "F. Najman",
+  "year": 2026,
+  "reference": "F. Najman, unpublished (2026)",
+  "date": "2026-10-27",
+  "notes": "Degree-nine specialization of a rational cuspidal pencil on X1(2,26). In the submitted model y^2=x^3+c*x^2+b*(1-b-c)*x, P=(0,0) and Q=(b,b) generate C2 x C26. The field is irreducible modulo3. Modulo7 it has three quadratic factors and one cubic factor; the elliptic point counts are 52,52,52,364. Thus the full torsion is exactly C2 x C26. One representative is submitted, in accordance with the census diamond-orbit convention."
+}

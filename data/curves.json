@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26 11:35 UTC",
+  "generated": "2026-10-27 06:25 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -10,11 +10,11 @@
     "gonality": "Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Varivoda, Abramovich, or Najman's unpublished computations); for m >= 3 only Abramovich's geometric lower bound"
   },
   "n_curves": 165,
-  "n_points": 2559,
-  "n_certified": 768,
+  "n_points": 2560,
+  "n_certified": 769,
   "n_verified": 1791,
-  "n_sporadic": 316,
-  "n_isolated": 768,
+  "n_sporadic": 317,
+  "n_isolated": 769,
   "n_rejected": 5,
   "curves": [
     {
@@ -5400,12 +5400,14 @@
       },
       "table_note": "DT",
       "in_tables": true,
-      "n_points": 0,
-      "n_certified": 0,
+      "n_points": 1,
+      "n_certified": 1,
       "n_verified": 0,
-      "n_sporadic": 0,
-      "n_isolated": 0,
-      "degrees_present": []
+      "n_sporadic": 1,
+      "n_isolated": 1,
+      "degrees_present": [
+        9
+      ]
     },
     {
       "m": 2,
