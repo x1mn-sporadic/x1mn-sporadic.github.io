@@ -1,0 +1,230 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "2.26.9.a",
+  "m": 2,
+  "n": 26,
+  "degree": 9,
+  "relative_degree": 9,
+  "base_field": "Q",
+  "status": "certified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "no",
+      "rule": "X_1(2,26) has only finitely many points of degree 9",
+      "sources": [
+        "NV26"
+      ]
+    },
+    "sporadic": {
+      "value": "yes",
+      "rule": "finitely many points of each degree <= 9 on X_1(2,26)",
+      "sources": [
+        "DS17",
+        "JKP06",
+        "JKS04",
+        "KKM",
+        "Mazur77",
+        "NV26"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "finitely many points of degree 9 on X_1(2,26), so the point lies in no positive-dimensional family",
+      "sources": [
+        "NV26",
+        "BELOV"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": false,
+    "p1_isolated": null,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "note": "not attempted (--no-isolation)"
+  },
+  "discovery": {
+    "by": "F. Najman",
+    "year": 2026
+  },
+  "credits": {},
+  "field": {
+    "poly": "x^9 + 5*x^8 + 15*x^7 + 14*x^6 - 14*x^5 - 25*x^4 - 7*x^3 + 5*x^2 + 4*x + 1",
+    "poly_coeffs": [
+      "1",
+      "4",
+      "5",
+      "-7",
+      "-25",
+      "-14",
+      "14",
+      "15",
+      "5",
+      "1"
+    ],
+    "polredabs": "x^9 - x^8 + x^7 - 2*x^6 + 2*x^5 + x^4 - 5*x^3 + 3*x^2 - 1",
+    "degree": 9,
+    "disc": "-157505216",
+    "disc_factored": "-1 * 2^6 * 11^3 * 43^2",
+    "signature": [
+      3,
+      3
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "1/907*(-9703178*a^8 - 54647373*a^7 - 180078668*a^6 - 249633232*a^5 - 21888507*a^4 + 228754387*a^3 + 212465592*a^2 + 85731914*a + 15356864)",
+    "tate_c": "1/907*(46055*a^8 + 259158*a^7 + 853771*a^6 + 1182020*a^5 + 102014*a^4 - 1083436*a^3 - 1005079*a^2 - 405326*a - 72663)",
+    "tate_b_coeffs": [
+      "15356864/907",
+      "85731914/907",
+      "212465592/907",
+      "228754387/907",
+      "-21888507/907",
+      "-249633232/907",
+      "-180078668/907",
+      "-54647373/907",
+      "-9703178/907"
+    ],
+    "tate_c_coeffs": [
+      "-72663/907",
+      "-405326/907",
+      "-1005079/907",
+      "-1083436/907",
+      "102014/907",
+      "1182020/907",
+      "853771/907",
+      "259158/907",
+      "46055/907"
+    ],
+    "ainvs": [
+      "1 - (1/907*(46055*a^8 + 259158*a^7 + 853771*a^6 + 1182020*a^5 + 102014*a^4 - 1083436*a^3 - 1005079*a^2 - 405326*a - 72663))",
+      "-(1/907*(-9703178*a^8 - 54647373*a^7 - 180078668*a^6 - 249633232*a^5 - 21888507*a^4 + 228754387*a^3 + 212465592*a^2 + 85731914*a + 15356864))",
+      "-(1/907*(-9703178*a^8 - 54647373*a^7 - 180078668*a^6 - 249633232*a^5 - 21888507*a^4 + 228754387*a^3 + 212465592*a^2 + 85731914*a + 15356864))",
+      "0",
+      "0"
+    ],
+    "P": [
+      "1/1814*(-576498*a^8 - 3246812*a^7 - 10699335*a^6 - 14832403*a^5 - 1302101*a^4 + 13591182*a^3 + 12625000*a^2 + 5094663*a + 912398)",
+      "1/1814*(245536036*a^8 + 1382824475*a^7 + 4556792000*a^6 + 6316759413*a^5 + 553807117*a^4 - 5788469632*a^3 - 5376257110*a^2 - 2169364767*a - 388592006)"
+    ],
+    "P_coeffs": [
+      [
+        "456199/907",
+        "5094663/1814",
+        "6312500/907",
+        "6795591/907",
+        "-1302101/1814",
+        "-14832403/1814",
+        "-10699335/1814",
+        "-1623406/907",
+        "-288249/907"
+      ],
+      [
+        "-194296003/907",
+        "-2169364767/1814",
+        "-2688128555/907",
+        "-2894234816/907",
+        "553807117/1814",
+        "6316759413/1814",
+        "2278396000/907",
+        "1382824475/1814",
+        "122768018/907"
+      ]
+    ],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^3 - 4352*x^2 + 3342336*x - 721420288",
+    "j_degree": 3,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "twist_norm_class": "",
+    "disc_norm": "68719476736",
+    "conductor_norm": "1"
+  },
+  "torsion": {
+    "invariants": [
+      2,
+      26
+    ],
+    "known_exactly": true,
+    "order_bound": 52,
+    "bound_primes": [
+      7
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^9 + 5*x^8 + 15*x^7 + 14*x^6 - 14*x^5 - 25*x^4 - 7*x^3 + 5*x^2 + 4*x + 1",
+      "degree": 9
+    },
+    "mode": "ainvs",
+    "curve": {
+      "ainvs": [
+        "0",
+        "(-3864*a^8 - 22538*a^7 - 75946*a^6 - 112918*a^5 - 25630*a^4 + 94470*a^3 + 104296*a^2 + 46530*a + 8797)/907",
+        "0",
+        "((62*a^8 + 1386*a^7 + 6639*a^6 + 18950*a^5 + 20738*a^4 - 6786*a^3 - 25017*a^2 - 14822*a - 2411)/907)*(1-((62*a^8 + 1386*a^7 + 6639*a^6 + 18950*a^5 + 20738*a^4 - 6786*a^3 - 25017*a^2 - 14822*a - 2411)/907)-((-3864*a^8 - 22538*a^7 - 75946*a^6 - 112918*a^5 - 25630*a^4 + 94470*a^3 + 104296*a^2 + 46530*a + 8797)/907))",
+        "0"
+      ]
+    },
+    "points": {
+      "P": [
+        "0",
+        "0"
+      ],
+      "Q": [
+        "(62*a^8 + 1386*a^7 + 6639*a^6 + 18950*a^5 + 20738*a^4 - 6786*a^3 - 25017*a^2 - 14822*a - 2411)/907",
+        "(62*a^8 + 1386*a^7 + 6639*a^6 + 18950*a^5 + 20738*a^4 - 6786*a^3 - 25017*a^2 - 14822*a - 2411)/907"
+      ]
+    },
+    "ainvs_as_verified": [
+      "0",
+      "1/907*(-3864*a^8 - 22538*a^7 - 75946*a^6 - 112918*a^5 - 25630*a^4 + 94470*a^3 + 104296*a^2 + 46530*a + 8797)",
+      "0",
+      "1/907*(-71551*a^8 - 402944*a^7 - 1327722*a^6 - 1840170*a^5 - 160361*a^4 + 1686974*a^3 + 1565140*a^2 + 630762*a + 112978)",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "0"
+      ],
+      "Q": [
+        "1/907*(62*a^8 + 1386*a^7 + 6639*a^6 + 18950*a^5 + 20738*a^4 - 6786*a^3 - 25017*a^2 - 14822*a - 2411)",
+        "1/907*(62*a^8 + 1386*a^7 + 6639*a^6 + 18950*a^5 + 20738*a^4 - 6786*a^3 - 25017*a^2 - 14822*a - 2411)"
+      ],
+      "order_P": 2,
+      "order_Q": 26
+    },
+    "working_field": {
+      "poly": "x^9 + 5*x^8 + 15*x^7 + 14*x^6 - 14*x^5 - 25*x^4 - 7*x^3 + 5*x^2 + 4*x + 1",
+      "degree": 9
+    },
+    "claimed_degree": 9,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Filip Najman",
+    "github": "F-Najman",
+    "affiliation": ""
+  },
+  "reference": "F. Najman, unpublished (2026)",
+  "notes": "Degree-nine specialization of a rational cuspidal pencil on X1(2,26). In the submitted model y^2=x^3+c*x^2+b*(1-b-c)*x, P=(0,0) and Q=(b,b) generate C2 x C26. The field is irreducible modulo3. Modulo7 it has three quadratic factors and one cubic factor; the elliptic point counts are 52,52,52,364. Thus the full torsion is exactly C2 x C26. One representative is submitted, in accordance with the census diamond-orbit convention.",
+  "source": {},
+  "dates": {
+    "submitted": "2026-10-27",
+    "verified": "2026-10-27 06:24:56 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.30-1",
+    "cputime_seconds": "0.0600000",
+    "verify_lib_sha256": "7b19e3206e1dbc910f4c97b142a0b69f69b0507808c5cbab2a0d723f3ef84683",
+    "log": "data/logs/2.26.9.a.log",
+    "isolation_log": ""
+  }
+}
