@@ -1,0 +1,225 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "2.30.10.a",
+  "m": 2,
+  "n": 30,
+  "degree": 10,
+  "relative_degree": 10,
+  "base_field": "Q",
+  "status": "verified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "maybe",
+      "rule": "no recorded result decides whether X_1(2,30) has finitely many points of degree 10",
+      "sources": []
+    },
+    "sporadic": {
+      "value": "maybe",
+      "rule": "finitely many points of degree 10 on X_1(2,30): not decided by any recorded result",
+      "sources": []
+    },
+    "isolated": {
+      "value": "maybe",
+      "rule": "dim L(x) not computed (no result)",
+      "sources": []
+    }
+  },
+  "isolation": {
+    "computed": false,
+    "p1_isolated": null,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "note": "no result"
+  },
+  "discovery": {
+    "by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
+    "year": 2026
+  },
+  "credits": {},
+  "field": {
+    "poly": "x^10 - 2*x^7 - 3*x^6 - 3*x^5 - 3*x^4 - 2*x^3 + 1",
+    "poly_coeffs": [
+      "1",
+      "0",
+      "0",
+      "-2",
+      "-3",
+      "-3",
+      "-3",
+      "-2",
+      "0",
+      "0",
+      "1"
+    ],
+    "polredabs": "x^10 - 2*x^7 - 3*x^6 - 3*x^5 - 3*x^4 - 2*x^3 + 1",
+    "degree": 10,
+    "disc": "3574086417",
+    "disc_factored": "3^3 * 11 * 3469^2",
+    "signature": [
+      2,
+      4
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "-1376*a^9 - 765*a^8 - 403*a^7 + 2579*a^6 + 5658*a^5 + 7402*a^4 + 8381*a^3 + 7540*a^2 + 4288*a + 2435",
+    "tate_c": "-25*a^9 - 14*a^8 - 7*a^7 + 47*a^6 + 103*a^5 + 134*a^4 + 151*a^3 + 136*a^2 + 77*a + 44",
+    "tate_b_coeffs": [
+      "2435",
+      "4288",
+      "7540",
+      "8381",
+      "7402",
+      "5658",
+      "2579",
+      "-403",
+      "-765",
+      "-1376"
+    ],
+    "tate_c_coeffs": [
+      "44",
+      "77",
+      "136",
+      "151",
+      "134",
+      "103",
+      "47",
+      "-7",
+      "-14",
+      "-25"
+    ],
+    "ainvs": [
+      "1 - (-25*a^9 - 14*a^8 - 7*a^7 + 47*a^6 + 103*a^5 + 134*a^4 + 151*a^3 + 136*a^2 + 77*a + 44)",
+      "-(-1376*a^9 - 765*a^8 - 403*a^7 + 2579*a^6 + 5658*a^5 + 7402*a^4 + 8381*a^3 + 7540*a^2 + 4288*a + 2435)",
+      "-(-1376*a^9 - 765*a^8 - 403*a^7 + 2579*a^6 + 5658*a^5 + 7402*a^4 + 8381*a^3 + 7540*a^2 + 4288*a + 2435)",
+      "0",
+      "0"
+    ],
+    "P": [
+      "1/4*(20*a^9 + 19*a^8 + 25*a^7 - 2*a^6 - 36*a^5 - 61*a^4 - 82*a^3 - 81*a^2 - 48*a - 29)",
+      "1/8*(-1731*a^9 + 444*a^8 + 2766*a^7 + 9449*a^6 + 15462*a^5 + 18295*a^4 + 18878*a^3 + 15678*a^2 + 8659*a + 4467)"
+    ],
+    "P_coeffs": [
+      [
+        "-29/4",
+        "-12",
+        "-81/4",
+        "-41/2",
+        "-61/4",
+        "-9",
+        "-1/2",
+        "25/4",
+        "19/4",
+        "5"
+      ],
+      [
+        "4467/8",
+        "8659/8",
+        "7839/4",
+        "9439/4",
+        "18295/8",
+        "7731/4",
+        "9449/8",
+        "1383/4",
+        "111/2",
+        "-1731/8"
+      ]
+    ],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^5 - 45162626/3993*x^4 - 45328774774933/323433*x^3 - 12671390499458773/107811*x^2 - 11922992721034989833/323433*x - 1324317856622593461481/323433",
+    "j_degree": 5,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "twist_norm_class": "",
+    "disc_norm": "104608905489",
+    "conductor_norm": "33"
+  },
+  "torsion": {
+    "invariants": [
+      2,
+      30
+    ],
+    "known_exactly": true,
+    "order_bound": 60,
+    "bound_primes": [
+      5,
+      5,
+      5
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^10 - 2*x^7 - 3*x^6 - 3*x^5 - 3*x^4 - 2*x^3 + 1",
+      "degree": 10
+    },
+    "mode": "ainvs",
+    "curve": {
+      "ainvs": [
+        "25*a^9 + 14*a^8 + 7*a^7 - 47*a^6 - 103*a^5 - 134*a^4 - 151*a^3 - 136*a^2 - 77*a - 43",
+        "1376*a^9 + 765*a^8 + 403*a^7 - 2579*a^6 - 5658*a^5 - 7402*a^4 - 8381*a^3 - 7540*a^2 - 4288*a - 2435",
+        "1376*a^9 + 765*a^8 + 403*a^7 - 2579*a^6 - 5658*a^5 - 7402*a^4 - 8381*a^3 - 7540*a^2 - 4288*a - 2435",
+        "0",
+        "0"
+      ]
+    },
+    "points": {
+      "P": [
+        "5*a^9 + 19/4*a^8 + 25/4*a^7 - 1/2*a^6 - 9*a^5 - 61/4*a^4 - 41/2*a^3 - 81/4*a^2 - 12*a - 29/4",
+        "-1731/8*a^9 + 111/2*a^8 + 1383/4*a^7 + 9449/8*a^6 + 7731/4*a^5 + 18295/8*a^4 + 9439/4*a^3 + 7839/4*a^2 + 8659/8*a + 4467/8"
+      ],
+      "Q": [
+        "0",
+        "0"
+      ]
+    },
+    "ainvs_as_verified": [
+      "25*a^9 + 14*a^8 + 7*a^7 - 47*a^6 - 103*a^5 - 134*a^4 - 151*a^3 - 136*a^2 - 77*a - 43",
+      "1376*a^9 + 765*a^8 + 403*a^7 - 2579*a^6 - 5658*a^5 - 7402*a^4 - 8381*a^3 - 7540*a^2 - 4288*a - 2435",
+      "1376*a^9 + 765*a^8 + 403*a^7 - 2579*a^6 - 5658*a^5 - 7402*a^4 - 8381*a^3 - 7540*a^2 - 4288*a - 2435",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "1/4*(20*a^9 + 19*a^8 + 25*a^7 - 2*a^6 - 36*a^5 - 61*a^4 - 82*a^3 - 81*a^2 - 48*a - 29)",
+        "1/8*(-1731*a^9 + 444*a^8 + 2766*a^7 + 9449*a^6 + 15462*a^5 + 18295*a^4 + 18878*a^3 + 15678*a^2 + 8659*a + 4467)"
+      ],
+      "Q": [
+        "0",
+        "0"
+      ],
+      "order_P": 2,
+      "order_Q": 30
+    },
+    "working_field": {
+      "poly": "x^10 - 2*x^7 - 3*x^6 - 3*x^5 - 3*x^4 - 2*x^3 + 1",
+      "degree": 10
+    },
+    "claimed_degree": 10,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Filip Najman",
+    "github": "F-Najman",
+    "affiliation": ""
+  },
+  "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+  "notes": "The quadratic full-2-torsion extension of the quintic C30 curve 30a. The submitted points have exact orders 2 and 30 and are independent; good unramified degree-one reduction bounds the full torsion by 60. Sporadicity in absolute degree 10 is UNDECIDED; do not label this point sporadic on the basis of the quintic result. Current gonality bounds are 10 <= gonality <= 12. One representative per isomorphism class of (K,E), following the verifier deduplication convention. Underlying quintic curves: van Hoeij; see F. Najman, Classification of torsion of elliptic curves over quintic fields, https://github.com/F-Najman/quintic-torsion.",
+  "source": {},
+  "dates": {
+    "submitted": "2026-10-29",
+    "verified": "2026-10-29 14:19:20 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.30-1",
+    "cputime_seconds": "0.0500000",
+    "verify_lib_sha256": "7b19e3206e1dbc910f4c97b142a0b69f69b0507808c5cbab2a0d723f3ef84683",
+    "log": "data/logs/2.30.10.a.log",
+    "isolation_log": ""
+  }
+}
