@@ -1,0 +1,67 @@
+{
+  "generated": "2026-10-29 14:20 UTC",
+  "m": 2,
+  "n": 30,
+  "points": [
+    {
+      "id": "2.30.10.a",
+      "m": 2,
+      "n": 30,
+      "degree": 10,
+      "status": "verified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 - 2*x^7 - 3*x^6 - 3*x^5 - 3*x^4 - 2*x^3 + 1",
+      "field_disc": "3574086417",
+      "j_rational": "",
+      "torsion": [
+        2,
+        30
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(2,30) has finitely many points of degree 10",
+        "sporadic": "finitely many points of degree 10 on X_1(2,30): not decided by any recorded result",
+        "isolated": "dim L(x) not computed (no result)"
+      },
+      "discovered_by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+      "verified": "2026-10-29 14:19:20 UTC"
+    },
+    {
+      "id": "2.30.10.b",
+      "m": 2,
+      "n": 30,
+      "degree": 10,
+      "status": "verified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 + x^8 + 3*x^6 - 3*x^2 + 1",
+      "field_disc": "-110904984576",
+      "j_rational": "",
+      "torsion": [
+        2,
+        30
+      ],
+      "torsion_known": true,
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "rules": {
+        "infinite_in_degree": "no recorded result decides whether X_1(2,30) has finitely many points of degree 10",
+        "sporadic": "finitely many points of degree 10 on X_1(2,30): not decided by any recorded result",
+        "isolated": "dim L(x) not computed (no result)"
+      },
+      "discovered_by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+      "verified": "2026-10-29 14:19:20 UTC"
+    }
+  ]
+}

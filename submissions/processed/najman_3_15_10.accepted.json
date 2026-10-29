@@ -1,0 +1,36 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 3,
+  "n": 15,
+  "field": "x^10 + 13*x^9 + 149*x^8 - 594*x^7 + 643*x^6 - 118*x^5 - 64*x^4 - 26*x^3 + 21*x^2 + 5*x + 1",
+  "curve": {
+    "ainvs": [
+      "1729675771260/17441886620663*a^9 + 22870825445648/17441886620663*a^8 + 262011675678120/17441886620663*a^7 - 979183390666646/17441886620663*a^6 + 779024200411468/17441886620663*a^5 + 493161032617233/17441886620663*a^4 - 736528622971786/17441886620663*a^3 + 175641089259823/17441886620663*a^2 + 47975577618115/17441886620663*a + 30071758712631/17441886620663",
+      "0",
+      "385040419268/17441886620663*a^9 + 4289985760380/17441886620663*a^8 + 48244017461794/17441886620663*a^7 - 333157320508712/17441886620663*a^6 + 697262773625913/17441886620663*a^5 - 625829373611146/17441886620663*a^4 + 220612659312583/17441886620663*a^3 - 5789500199008/17441886620663*a^2 + 3981493235668/17441886620663*a - 1729675771260/17441886620663",
+      "0",
+      "0"
+    ]
+  },
+  "points": {
+    "P": [
+      "0",
+      "0"
+    ],
+    "Q": [
+      "-a",
+      "a^2"
+    ]
+  },
+  "degree": 10,
+  "submitter": "Filip Najman",
+  "github": "F-Najman",
+  "discoverer": "F. Najman",
+  "year": 2026,
+  "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+  "date": "2026-10-29",
+  "expected": {
+    "j_degree": 5
+  },
+  "notes": "An explicit degree-10 point on X1(3,15); relative degree 5 over Q(zeta_3). The full torsion is C3 x C15, verified by exact point orders and independence and by good unramified degree-one reduction at 43, where the elliptic curve has 45 points. The j-invariant has degree 5. Sporadicity follows from rank zero and gonality 6 over Q(zeta_3), greater than relative degree 5. One representative per isomorphism class of (K,E), following the verifier deduplication convention. This record does not claim 48 distinct census entries for the 48 closed points with level structures."
+}

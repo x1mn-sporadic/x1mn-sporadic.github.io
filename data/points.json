@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27 06:25 UTC",
+  "generated": "2026-10-29 14:20 UTC",
   "points": [
     {
       "id": "1.21.3.a",
@@ -43471,6 +43471,57 @@
       "year": 2026
     },
     {
+      "id": "2.28.10.a",
+      "m": 2,
+      "n": 28,
+      "degree": 10,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 + x^8 - 2*x^6 + x^4 + 2*x^2 - 2",
+      "field_disc": "9630499328",
+      "j_rational": "",
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "discovered_by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
+      "year": 2026
+    },
+    {
+      "id": "2.30.10.a",
+      "m": 2,
+      "n": 30,
+      "degree": 10,
+      "status": "verified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 - 2*x^7 - 3*x^6 - 3*x^5 - 3*x^4 - 2*x^3 + 1",
+      "field_disc": "3574086417",
+      "j_rational": "",
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "discovered_by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
+      "year": 2026
+    },
+    {
+      "id": "2.30.10.b",
+      "m": 2,
+      "n": 30,
+      "degree": 10,
+      "status": "verified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 + x^8 + 3*x^6 - 3*x^2 + 1",
+      "field_disc": "-110904984576",
+      "j_rational": "",
+      "infinite": "maybe",
+      "sporadic": "maybe",
+      "isolated": "maybe",
+      "discovered_by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
+      "year": 2026
+    },
+    {
       "id": "3.12.6.a",
       "m": 3,
       "n": 12,
@@ -43500,6 +43551,23 @@
       "j_rational": "",
       "infinite": "yes",
       "sporadic": "no",
+      "isolated": "yes",
+      "discovered_by": "F. Najman",
+      "year": 2026
+    },
+    {
+      "id": "3.15.10.a",
+      "m": 3,
+      "n": 15,
+      "degree": 10,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 + 13*x^9 + 149*x^8 - 594*x^7 + 643*x^6 - 118*x^5 - 64*x^4 - 26*x^3 + 21*x^2 + 5*x + 1",
+      "field_disc": "-306454347",
+      "j_rational": "",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "discovered_by": "F. Najman",
       "year": 2026

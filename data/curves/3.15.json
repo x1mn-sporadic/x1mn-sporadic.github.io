@@ -1,0 +1,37 @@
+{
+  "generated": "2026-10-29 14:20 UTC",
+  "m": 3,
+  "n": 15,
+  "points": [
+    {
+      "id": "3.15.10.a",
+      "m": 3,
+      "n": 15,
+      "degree": 10,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 + 13*x^9 + 149*x^8 - 594*x^7 + 643*x^6 - 118*x^5 - 64*x^4 - 26*x^3 + 21*x^2 + 5*x + 1",
+      "field_disc": "-306454347",
+      "j_rational": "",
+      "torsion": [
+        3,
+        15
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "rank 0 and 5 < 6 <= gonality of X_1(3,15) over Q(zeta_3)",
+        "sporadic": "finitely many points of absolute degree <= 10: rank 0 and 5 < 6 <= gonality of X_1(3,15) over Q(zeta_3)",
+        "isolated": "finitely many points of absolute degree 10 on X_1(3,15), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+      "verified": "2026-10-29 14:19:20 UTC"
+    }
+  ]
+}

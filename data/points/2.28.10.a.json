@@ -1,0 +1,239 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "2.28.10.a",
+  "m": 2,
+  "n": 28,
+  "degree": 10,
+  "relative_degree": 10,
+  "base_field": "Q",
+  "status": "certified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "no",
+      "rule": "rank 0 and 10 < 12 <= gonality of X_1(2,28) over Q",
+      "sources": [
+        "RankZeroLemma",
+        "DS17",
+        "Najman2026"
+      ]
+    },
+    "sporadic": {
+      "value": "yes",
+      "rule": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(2,28) over Q",
+      "sources": [
+        "RankZeroLemma",
+        "DS17",
+        "Najman2026"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "finitely many points of degree 10 on X_1(2,28), so the point lies in no positive-dimensional family",
+      "sources": [
+        "RankZeroLemma",
+        "DS17",
+        "Najman2026",
+        "BELOV"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": false,
+    "p1_isolated": null,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "note": "no usable prime found"
+  },
+  "discovery": {
+    "by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
+    "year": 2026
+  },
+  "credits": {},
+  "field": {
+    "poly": "x^10 + x^8 - 2*x^6 + x^4 + 2*x^2 - 2",
+    "poly_coeffs": [
+      "-2",
+      "0",
+      "2",
+      "0",
+      "1",
+      "0",
+      "-2",
+      "0",
+      "1",
+      "0",
+      "1"
+    ],
+    "polredabs": "x^10 + x^8 - 2*x^6 + x^4 + 2*x^2 - 2",
+    "degree": 10,
+    "disc": "9630499328",
+    "disc_factored": "2^9 * 4337^2",
+    "signature": [
+      2,
+      4
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "419*a^8 + 759*a^6 - 222*a^4 + 239*a^2 + 1032",
+    "tate_c": "17*a^8 + 31*a^6 - 8*a^4 + 11*a^2 + 42",
+    "tate_b_coeffs": [
+      "1032",
+      "0",
+      "239",
+      "0",
+      "-222",
+      "0",
+      "759",
+      "0",
+      "419",
+      "0"
+    ],
+    "tate_c_coeffs": [
+      "42",
+      "0",
+      "11",
+      "0",
+      "-8",
+      "0",
+      "31",
+      "0",
+      "17",
+      "0"
+    ],
+    "ainvs": [
+      "1 - (17*a^8 + 31*a^6 - 8*a^4 + 11*a^2 + 42)",
+      "-(419*a^8 + 759*a^6 - 222*a^4 + 239*a^2 + 1032)",
+      "-(419*a^8 + 759*a^6 - 222*a^4 + 239*a^2 + 1032)",
+      "0",
+      "0"
+    ],
+    "P": [
+      "1/8*(-286*a^9 + 234*a^8 - 517*a^7 + 423*a^6 + 154*a^5 - 125*a^4 - 162*a^3 + 136*a^2 - 704*a + 578)",
+      "1/16*(-19560*a^9 + 19450*a^8 - 35441*a^7 + 35243*a^6 + 10344*a^5 - 10283*a^4 - 11166*a^3 + 11100*a^2 - 48188*a + 47910)"
+    ],
+    "P_coeffs": [
+      [
+        "289/4",
+        "-88",
+        "17",
+        "-81/4",
+        "-125/8",
+        "77/4",
+        "423/8",
+        "-517/8",
+        "117/4",
+        "-143/4"
+      ],
+      [
+        "23955/8",
+        "-12047/4",
+        "2775/4",
+        "-5583/8",
+        "-10283/16",
+        "1293/2",
+        "35243/16",
+        "-35441/16",
+        "9725/8",
+        "-2445/2"
+      ]
+    ],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^5 - 1910563/16*x^4 - 8661383735/128*x^3 + 95314832834073/4096*x^2 - 2198932303422323939/32768*x + 237450686265687045887/524288",
+    "j_degree": 5,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "twist_norm_class": "",
+    "disc_norm": "274877906944",
+    "conductor_norm": "128"
+  },
+  "torsion": {
+    "invariants": [
+      2,
+      28
+    ],
+    "known_exactly": true,
+    "order_bound": 56,
+    "bound_primes": [
+      5,
+      5,
+      5,
+      7
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^10 + x^8 - 2*x^6 + x^4 + 2*x^2 - 2",
+      "degree": 10
+    },
+    "mode": "ainvs",
+    "curve": {
+      "ainvs": [
+        "-17*a^8 - 31*a^6 + 8*a^4 - 11*a^2 - 41",
+        "-419*a^8 - 759*a^6 + 222*a^4 - 239*a^2 - 1032",
+        "-419*a^8 - 759*a^6 + 222*a^4 - 239*a^2 - 1032",
+        "0",
+        "0"
+      ]
+    },
+    "points": {
+      "P": [
+        "-143/4*a^9 + 117/4*a^8 - 517/8*a^7 + 423/8*a^6 + 77/4*a^5 - 125/8*a^4 - 81/4*a^3 + 17*a^2 - 88*a + 289/4",
+        "-2445/2*a^9 + 9725/8*a^8 - 35441/16*a^7 + 35243/16*a^6 + 1293/2*a^5 - 10283/16*a^4 - 5583/8*a^3 + 2775/4*a^2 - 12047/4*a + 23955/8"
+      ],
+      "Q": [
+        "0",
+        "0"
+      ]
+    },
+    "ainvs_as_verified": [
+      "-17*a^8 - 31*a^6 + 8*a^4 - 11*a^2 - 41",
+      "-419*a^8 - 759*a^6 + 222*a^4 - 239*a^2 - 1032",
+      "-419*a^8 - 759*a^6 + 222*a^4 - 239*a^2 - 1032",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "1/8*(-286*a^9 + 234*a^8 - 517*a^7 + 423*a^6 + 154*a^5 - 125*a^4 - 162*a^3 + 136*a^2 - 704*a + 578)",
+        "1/16*(-19560*a^9 + 19450*a^8 - 35441*a^7 + 35243*a^6 + 10344*a^5 - 10283*a^4 - 11166*a^3 + 11100*a^2 - 48188*a + 47910)"
+      ],
+      "Q": [
+        "0",
+        "0"
+      ],
+      "order_P": 2,
+      "order_Q": 28
+    },
+    "working_field": {
+      "poly": "x^10 + x^8 - 2*x^6 + x^4 + 2*x^2 - 2",
+      "degree": 10
+    },
+    "claimed_degree": 10,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Filip Najman",
+    "github": "F-Najman",
+    "affiliation": ""
+  },
+  "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+  "notes": "The quadratic full-2-torsion extension of the quintic C28 curve 28. The submitted points have exact orders 2 and 28 and are independent; good unramified degree-one reduction bounds the full torsion by 56. Sporadicity follows from rank zero and gonality 12 > 10. One representative per isomorphism class of (K,E), following the verifier deduplication convention. Underlying quintic curves: van Hoeij; see F. Najman, Classification of torsion of elliptic curves over quintic fields, https://github.com/F-Najman/quintic-torsion.",
+  "source": {},
+  "dates": {
+    "submitted": "2026-10-29",
+    "verified": "2026-10-29 14:19:19 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.30-1",
+    "cputime_seconds": "0.0600000",
+    "verify_lib_sha256": "7b19e3206e1dbc910f4c97b142a0b69f69b0507808c5cbab2a0d723f3ef84683",
+    "log": "data/logs/2.28.10.a.log",
+    "isolation_log": ""
+  }
+}

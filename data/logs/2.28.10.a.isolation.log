@@ -1,0 +1,10 @@
+[0.0100000 s] point: X_1(2,28), residue field degree 10
+[0.660000 s] q = 3: model failed (Runtime error: Undefined reference '_InitMDCrvMod' in package "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/database_submission_20261029/repository/pipeline/external/mdmagma/v2/modular_curves/X11.m"
+), skipped
+[0.660000 s] q = 5: model failed (Runtime error: Undefined reference '_InitMDCrvMod' in package "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/database_submission_20261029/repository/pipeline/external/mdmagma/v2/modular_curves/X11.m"
+), skipped
+[0.660000 s] q = 11: model failed (Runtime error: Undefined reference '_InitMDCrvMod' in package "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/database_submission_20261029/repository/pipeline/external/mdmagma/v2/modular_curves/X11.m"
+), skipped
+[0.660000 s] q = 13: model failed (Runtime error: Undefined reference '_InitMDCrvMod' in package "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/database_submission_20261029/repository/pipeline/external/mdmagma/v2/modular_curves/X11.m"
+), skipped
+[0.660000 s] ISOLATION_DONE

@@ -1,0 +1,37 @@
+{
+  "generated": "2026-10-29 14:20 UTC",
+  "m": 2,
+  "n": 28,
+  "points": [
+    {
+      "id": "2.28.10.a",
+      "m": 2,
+      "n": 28,
+      "degree": 10,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 + x^8 - 2*x^6 + x^4 + 2*x^2 - 2",
+      "field_disc": "9630499328",
+      "j_rational": "",
+      "torsion": [
+        2,
+        28
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "rank 0 and 10 < 12 <= gonality of X_1(2,28) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(2,28) over Q",
+        "isolated": "finitely many points of degree 10 on X_1(2,28), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+      "verified": "2026-10-29 14:19:19 UTC"
+    }
+  ]
+}
