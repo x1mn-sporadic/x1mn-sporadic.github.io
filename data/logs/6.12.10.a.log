@@ -1,0 +1,15 @@
+[0.000000 s] start: X_1(6,12) mode=ainvs
+[0.000000 s] field: degree 10, x^10 + 6*x^9 + 5*x^8 - 8*x^7 + 14*x^6 - 11*x^5 + 20*x^4 + 2*x^3 + 13*x^2 + 3*x + 3
+[0.000000 s] curve: [
+1/8*(-a^9 - 7*a^8 - 12*a^7 - 4*a^6 - 18*a^5 - 7*a^4 - 19*a^3 - 5*a^2 - 2*a + 11),
+1/8*(-a^9 - 5*a^8 + 4*a^7 + 36*a^6 + 30*a^5 + 69*a^4 + 39*a^3 + 43*a^2 + 16*a + 9),
+1/8*(-a^9 - 5*a^8 + 4*a^7 + 36*a^6 + 30*a^5 + 69*a^4 + 39*a^3 + 43*a^2 + 16*a + 9),
+0,
+0
+]
+[0.0100000 s] orders verified: ord P = 6, ord Q = 12, <P,Q> = Z/6 x Z/12
+[0.0300000 s] torsion bound from reductions: |E(K)_tors| divides 72 (primes [ 13, 13, 13, 13, 17, 17, 17, 23, 23, 29, 29, 29, 37 ])
+[0.0300000 s] Tate normal form done; residue field of the point has degree 10 (K has degree 10)
+[0.0300000 s] j: degree 5, CM false 0
+[0.0900000 s] conductor norm 36
+[0.0900000 s] VERIFY_DONE
