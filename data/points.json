@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29 14:20 UTC",
+  "generated": "2026-10-29 22:06 UTC",
   "points": [
     {
       "id": "1.21.3.a",
@@ -43588,6 +43588,23 @@
       "isolated": "yes",
       "discovered_by": "E. González-Jiménez, F. Najman",
       "year": 2018
+    },
+    {
+      "id": "6.12.10.a",
+      "m": 6,
+      "n": 12,
+      "degree": 10,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 + 6*x^9 + 5*x^8 - 8*x^7 + 14*x^6 - 11*x^5 + 20*x^4 + 2*x^3 + 13*x^2 + 3*x + 3",
+      "field_disc": "-4678854192",
+      "j_rational": "",
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "discovered_by": "F. Najman",
+      "year": 2026
     }
   ]
 }
