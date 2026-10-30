@@ -1,0 +1,237 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "2.26.10.b",
+  "m": 2,
+  "n": 26,
+  "degree": 10,
+  "relative_degree": 10,
+  "base_field": "Q",
+  "status": "certified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "no",
+      "rule": "rank 0 and 10 < 12 <= gonality of X_1(2,26) over Q",
+      "sources": [
+        "RankZeroLemma",
+        "DS17",
+        "Najman2026"
+      ]
+    },
+    "sporadic": {
+      "value": "yes",
+      "rule": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(2,26) over Q",
+      "sources": [
+        "RankZeroLemma",
+        "DS17",
+        "Najman2026"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "finitely many points of degree 10 on X_1(2,26), so the point lies in no positive-dimensional family",
+      "sources": [
+        "RankZeroLemma",
+        "DS17",
+        "Najman2026",
+        "BELOV"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": false,
+    "p1_isolated": null,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "note": "not attempted (--no-isolation)"
+  },
+  "discovery": {
+    "by": "F. Najman",
+    "year": 2026
+  },
+  "credits": {},
+  "field": {
+    "poly": "x^10 - x^9 + x^7 + x^6 - x^5 - x^4 + x^3 - x - 1",
+    "poly_coeffs": [
+      "-1",
+      "-1",
+      "0",
+      "1",
+      "-1",
+      "-1",
+      "1",
+      "1",
+      "0",
+      "-1",
+      "1"
+    ],
+    "polredabs": "x^10 - x^9 + x^7 + x^6 - x^5 - x^4 + x^3 - x - 1",
+    "degree": 10,
+    "disc": "799905449",
+    "disc_factored": "7^2 * 41 * 631^2",
+    "signature": [
+      2,
+      4
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "1/25*(-35*a^9 + 39*a^8 + 34*a^7 + 12*a^6 - 33*a^5 + 25*a^4 + 28*a^3 - 23*a^2 - 49*a - 26)",
+    "tate_c": "1/5*(-3*a^9 - 5*a^8 + 4*a^7 - a^5 - 6*a^4 + 7*a^3 + 7*a^2 + 4*a - 2)",
+    "tate_b_coeffs": [
+      "-26/25",
+      "-49/25",
+      "-23/25",
+      "28/25",
+      "1",
+      "-33/25",
+      "12/25",
+      "34/25",
+      "39/25",
+      "-7/5"
+    ],
+    "tate_c_coeffs": [
+      "-2/5",
+      "4/5",
+      "7/5",
+      "7/5",
+      "-6/5",
+      "-1/5",
+      "0",
+      "4/5",
+      "-1",
+      "-3/5"
+    ],
+    "ainvs": [
+      "1 - (1/5*(-3*a^9 - 5*a^8 + 4*a^7 - a^5 - 6*a^4 + 7*a^3 + 7*a^2 + 4*a - 2))",
+      "-(1/25*(-35*a^9 + 39*a^8 + 34*a^7 + 12*a^6 - 33*a^5 + 25*a^4 + 28*a^3 - 23*a^2 - 49*a - 26))",
+      "-(1/25*(-35*a^9 + 39*a^8 + 34*a^7 + 12*a^6 - 33*a^5 + 25*a^4 + 28*a^3 - 23*a^2 - 49*a - 26))",
+      "0",
+      "0"
+    ],
+    "P": [
+      "1/20*(-5*a^9 + 7*a^8 - 3*a^7 + a^6 - 4*a^5 + 5*a^4 - 6*a^3 + a^2 + 3*a + 2)",
+      "1/200*(-74*a^9 + 8*a^8 + 150*a^7 + 9*a^6 - 69*a^5 - 23*a^4 + 182*a^3 - 10*a^2 - 116*a - 103)"
+    ],
+    "P_coeffs": [
+      [
+        "1/10",
+        "3/20",
+        "1/20",
+        "-3/10",
+        "1/4",
+        "-1/5",
+        "1/20",
+        "-3/20",
+        "7/20",
+        "-1/4"
+      ],
+      [
+        "-103/200",
+        "-29/50",
+        "-1/20",
+        "91/100",
+        "-23/200",
+        "-69/200",
+        "9/200",
+        "3/4",
+        "1/25",
+        "-37/100"
+      ]
+    ],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^5 - 303692/25*x^4 + 1371305044/25*x^3 - 3145461334977/25*x^2 + 1214143947280834/25*x - 660778586925613001/25",
+    "j_degree": 5,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "twist_norm_class": "",
+    "disc_norm": "625",
+    "conductor_norm": "25"
+  },
+  "torsion": {
+    "invariants": [
+      2,
+      26
+    ],
+    "known_exactly": true,
+    "order_bound": 52,
+    "bound_primes": [
+      11,
+      11
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^10 - x^9 + x^7 + x^6 - x^5 - x^4 + x^3 - x - 1",
+      "degree": 10
+    },
+    "mode": "ainvs",
+    "curve": {
+      "ainvs": [
+        "0",
+        "5/8*a^9 + 7/4*a^8 - 3*a^7 - 1/2*a^6 + 21/8*a^5 + 27/8*a^4 - 35/8*a^3 - 21/8*a^2 + 1/4*a + 15/8",
+        "0",
+        "41/128*a^9 + 831/256*a^8 - 115/256*a^7 - 365/256*a^6 - 173/128*a^5 + 383/64*a^4 + 87/32*a^3 - 1079/256*a^2 - 815/128*a - 9/4",
+        "0"
+      ]
+    },
+    "points": {
+      "P": [
+        "0",
+        "0"
+      ],
+      "Q": [
+        "-13/16*a^9 - 9/8*a^8 + 7/4*a^7 + 1/2*a^6 - 33/16*a^5 - 35/16*a^4 + 39/16*a^3 + 37/16*a^2 + 5/8*a + 5/16",
+        "-13/16*a^9 - 9/8*a^8 + 7/4*a^7 + 1/2*a^6 - 33/16*a^5 - 35/16*a^4 + 39/16*a^3 + 37/16*a^2 + 5/8*a + 5/16"
+      ]
+    },
+    "ainvs_as_verified": [
+      "0",
+      "1/8*(5*a^9 + 14*a^8 - 24*a^7 - 4*a^6 + 21*a^5 + 27*a^4 - 35*a^3 - 21*a^2 + 2*a + 15)",
+      "0",
+      "1/256*(82*a^9 + 831*a^8 - 115*a^7 - 365*a^6 - 346*a^5 + 1532*a^4 + 696*a^3 - 1079*a^2 - 1630*a - 576)",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "0"
+      ],
+      "Q": [
+        "1/16*(-13*a^9 - 18*a^8 + 28*a^7 + 8*a^6 - 33*a^5 - 35*a^4 + 39*a^3 + 37*a^2 + 10*a + 5)",
+        "1/16*(-13*a^9 - 18*a^8 + 28*a^7 + 8*a^6 - 33*a^5 - 35*a^4 + 39*a^3 + 37*a^2 + 10*a + 5)"
+      ],
+      "order_P": 2,
+      "order_Q": 26
+    },
+    "working_field": {
+      "poly": "x^10 - x^9 + x^7 + x^6 - x^5 - x^4 + x^3 - x - 1",
+      "degree": 10
+    },
+    "claimed_degree": 10,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Filip Najman",
+    "github": "F-Najman",
+    "affiliation": ""
+  },
+  "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+  "notes": "One of the two Galois and level orbits of degree-10 points on X1(2,26), obtained by resolving the two residual rational divisor classes in the decic torsion computations. This is the representative from class 24. The displayed points have exact orders 2 and 26 and are independent. Full torsion C2 x C26 is proved by a good unramified degree-one reduction of order 52 at 43, independently checked in Sage and Magma. The j-invariant has degree 5; its quintic minimal polynomial differs from that of the other representative. Sporadicity follows from rank zero (Derickx-Sutherland, Theorem 4.1) and gonality at least 12 over Q (Najman-Varivoda, Table 1), greater than degree 10. One representative per isomorphism class of (K,E), following the census convention.",
+  "source": {},
+  "dates": {
+    "submitted": "2026-10-30",
+    "verified": "2026-10-30 09:02:43 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.30-1",
+    "cputime_seconds": "0.0900000",
+    "verify_lib_sha256": "7b19e3206e1dbc910f4c97b142a0b69f69b0507808c5cbab2a0d723f3ef84683",
+    "log": "data/logs/2.26.10.b.log",
+    "isolation_log": ""
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27 06:25 UTC",
+  "generated": "2026-10-30 09:03 UTC",
   "m": 2,
   "n": 26,
   "points": [
@@ -32,6 +32,66 @@
       "submitter": "Filip Najman",
       "reference": "F. Najman, unpublished (2026)",
       "verified": "2026-10-27 06:24:56 UTC"
+    },
+    {
+      "id": "2.26.10.a",
+      "m": 2,
+      "n": 26,
+      "degree": 10,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 - 5*x^9 + x^8 + 26*x^7 - 19*x^6 - 55*x^5 + 39*x^4 + 54*x^3 - 19*x^2 - 23*x - 4",
+      "field_disc": "396320664709",
+      "j_rational": "",
+      "torsion": [
+        2,
+        26
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "rank 0 and 10 < 12 <= gonality of X_1(2,26) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(2,26) over Q",
+        "isolated": "finitely many points of degree 10 on X_1(2,26), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+      "verified": "2026-10-30 09:02:43 UTC"
+    },
+    {
+      "id": "2.26.10.b",
+      "m": 2,
+      "n": 26,
+      "degree": 10,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^10 - x^9 + x^7 + x^6 - x^5 - x^4 + x^3 - x - 1",
+      "field_disc": "799905449",
+      "j_rational": "",
+      "torsion": [
+        2,
+        26
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "rank 0 and 10 < 12 <= gonality of X_1(2,26) over Q",
+        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(2,26) over Q",
+        "isolated": "finitely many points of degree 10 on X_1(2,26), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+      "verified": "2026-10-30 09:02:43 UTC"
     }
   ]
 }

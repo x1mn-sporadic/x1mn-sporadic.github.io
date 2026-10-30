@@ -1,0 +1,36 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 2,
+  "n": 26,
+  "field": "x^10 - x^9 + x^7 + x^6 - x^5 - x^4 + x^3 - x - 1",
+  "curve": {
+    "ainvs": [
+      "0",
+      "5/8*a^9 + 7/4*a^8 - 3*a^7 - 1/2*a^6 + 21/8*a^5 + 27/8*a^4 - 35/8*a^3 - 21/8*a^2 + 1/4*a + 15/8",
+      "0",
+      "41/128*a^9 + 831/256*a^8 - 115/256*a^7 - 365/256*a^6 - 173/128*a^5 + 383/64*a^4 + 87/32*a^3 - 1079/256*a^2 - 815/128*a - 9/4",
+      "0"
+    ]
+  },
+  "points": {
+    "P": [
+      "0",
+      "0"
+    ],
+    "Q": [
+      "-13/16*a^9 - 9/8*a^8 + 7/4*a^7 + 1/2*a^6 - 33/16*a^5 - 35/16*a^4 + 39/16*a^3 + 37/16*a^2 + 5/8*a + 5/16",
+      "-13/16*a^9 - 9/8*a^8 + 7/4*a^7 + 1/2*a^6 - 33/16*a^5 - 35/16*a^4 + 39/16*a^3 + 37/16*a^2 + 5/8*a + 5/16"
+    ]
+  },
+  "degree": 10,
+  "submitter": "Filip Najman",
+  "github": "F-Najman",
+  "discoverer": "F. Najman",
+  "year": 2026,
+  "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+  "date": "2026-10-30",
+  "expected": {
+    "j_degree": 5
+  },
+  "notes": "One of the two Galois and level orbits of degree-10 points on X1(2,26), obtained by resolving the two residual rational divisor classes in the decic torsion computations. This is the representative from class 24. The displayed points have exact orders 2 and 26 and are independent. Full torsion C2 x C26 is proved by a good unramified degree-one reduction of order 52 at 43, independently checked in Sage and Magma. The j-invariant has degree 5; its quintic minimal polynomial differs from that of the other representative. Sporadicity follows from rank zero (Derickx-Sutherland, Theorem 4.1) and gonality at least 12 over Q (Najman-Varivoda, Table 1), greater than degree 10. One representative per isomorphism class of (K,E), following the census convention."
+}
