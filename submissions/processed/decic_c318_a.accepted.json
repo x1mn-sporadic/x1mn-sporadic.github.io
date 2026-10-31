@@ -1,0 +1,37 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 3,
+  "n": 18,
+  "field": "(1/3)+(7/3)*x+(16/3)*x^2+(11/3)*x^3+(17/3)*x^4+(-37/3)*x^5+(-41/3)*x^6+(-5/3)*x^7+(19/3)*x^8+(4)*x^9+(1)*x^10",
+  "degree": 10,
+  "curve": {
+    "ainvs": [
+      "(326052/88483)+(1204875/88483)*a+(458449/88483)*a^2+(1989910/88483)*a^3+(-2357262/88483)*a^4+(-3311828/88483)*a^5+(-729995/88483)*a^6+(1386972/88483)*a^7+(956388/88483)*a^8+(251793/88483)*a^9",
+      "0",
+      "(-3669927/1681177)+(-10307116/1681177)*a+(-6402509/1681177)*a^2+(-15845902/1681177)*a^3+(23232808/1681177)*a^4+(30682927/1681177)*a^5+(5868099/1681177)*a^6+(-13628419/1681177)*a^7+(-9248814/1681177)*a^8+(-2445321/1681177)*a^9",
+      "0",
+      "0"
+    ]
+  },
+  "points": {
+    "P": [
+      "0",
+      "0"
+    ],
+    "Q": [
+      "(-621487/265449)+(-774102/88483)*a+(-1005832/265449)*a^2+(-3874774/265449)*a^3+(4722410/265449)*a^4+(6555329/265449)*a^5+(444822/88483)*a^6+(-2788333/265449)*a^7+(-633105/88483)*a^8+(-164158/88483)*a^9",
+      "(1729541/5043531)+(8364168/1681177)*a+(4893059/5043531)*a^2+(45822938/5043531)*a^3+(-30634789/5043531)*a^4+(-65921641/5043531)*a^5+(-11257157/1681177)*a^6+(25796507/5043531)*a^7+(7554306/1681177)*a^8+(2671349/1681177)*a^9"
+    ]
+  },
+  "submitter": "Filip Najman",
+  "github": "F-Najman",
+  "discoverer": "F. Najman",
+  "year": 2026,
+  "date": "2026-10-31",
+  "reference": "F. Najman, degree-10 torsion computations (2026), unpublished. Sporadicity: Derickx-Sutherland, Theorem 4.1; Najman-Varivoda, Table 1.",
+  "notes": "First representative. One representative per isomorphism class of (K,E), following the census verifier convention. The two representatives are 2-isogenous over the same decic field and arise from the two marking orbits of degree-5 points on X1(3,18) over Q(zeta_3). The points P and Q have independent exact orders 3 and 18. Both curves have exact full torsion C3 x C18: good unramified residue-degree-2 reductions at 7 have exactly 54 points over F49, independently verified in Magma and Sage. Sporadicity follows from rank zero over Q(zeta_3) (Derickx-Sutherland, Theorem 4.1) and gonality at least 6 (Najman-Varivoda, Table 1), strictly greater than the relative degree 5; thus there are finitely many points of absolute degree at most 10.",
+  "expected": {
+    "j_degree": 5
+  },
+  "source": {}
+}
