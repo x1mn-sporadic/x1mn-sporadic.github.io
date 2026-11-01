@@ -48,7 +48,7 @@ def load_tables():
     return rows
 
 
-def curve_record(m, n, magma_rec, table_row):
+def curve_record(m, n, magma_rec, table_row, max_point_degree=0):
     phi = knowledge.euler_phi(m)
     genus = magma_rec["genus"]
     index = magma_rec["index"]
@@ -99,8 +99,8 @@ def curve_record(m, n, magma_rec, table_row):
         upper_source = gon["ub_source"] if gon["ub"] == published_gonality else "Varivoda26"
         gon = {"lb": published_gonality, "ub": published_gonality, "exact": True,
                "lb_source": "Varivoda26", "ub_source": upper_source, "source": "Varivoda26"}
-    # gonality over the base field Q(zeta_m): the tables are Q-gonalities for m <= 2; for m >= 3 we only
-    # have the geometric Abramovich bound, which is a lower bound for the gonality over any field.
+    # Gonality is over Q(zeta_m): the tables are Q-gonalities for m <= 2;
+    # for m >= 3 use the cited base-field bounds or Abramovich's geometric lower bound.
     rank_val, rank_src = knowledge.rank_zero_source(m, n, table_row)
     if genus == 0:
         rank_val, rank_src = 0, "genus 0"
@@ -122,7 +122,8 @@ def curve_record(m, n, magma_rec, table_row):
         # degrees below phi(m) multiples are impossible; degrees d' = d/phi(m) with 2d' < gon_lb are finite (Frey)
         # Display the full new finiteness range, including the degrees >= 14
         # of the recorded points, rather than stopping at degree 12.
-        finite_degree_limit = max(12, (published_gonality - 1) * phi) if published_gonality is not None else 12
+        finite_degree_limit = max(12, max_point_degree,
+                                  (published_gonality - 1) * phi if published_gonality is not None else 0)
         for d in range(1, finite_degree_limit + 1):
             if d % phi:
                 continue
@@ -170,8 +171,8 @@ def build():
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     for rec in magma["curves"]:
         m, n = rec["m"], rec["n"]
-        c = curve_record(m, n, rec, tables.get((m, n)))
         mine = [p for p in points if p["m"] == m and p["n"] == n]
+        c = curve_record(m, n, rec, tables.get((m, n)), max((p["degree"] for p in mine), default=0))
         c["n_points"] = len(mine)
         if mine:
             per_curve[DATA / "curves" / f"{m}.{n}.json"] = {"generated": now, "m": m, "n": n, "points": [point_summary(p) for p in mine]}
@@ -191,7 +192,7 @@ def build():
             "sporadic": "a closed point of degree d is sporadic if the curve has only finitely many closed points of degree <= d",
             "isolated": "P^1-isolated (dim L(x) = 1) and AV-isolated (Bourdon-Ejder-Liu-Odumodu-Viray); finitely many points of degree d implies isolated",
             "answers": "each of 'infinitely many points of degree d', 'sporadic', 'isolated' is yes, no or maybe",
-            "gonality": "Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Varivoda, Abramovich, or Najman's unpublished computations); for m >= 3 only Abramovich's geometric lower bound",
+            "gonality": "gonality over Q(zeta_m): Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Varivoda, Abramovich, or Najman's unpublished computations); for m >= 3 cited base-field bounds or Abramovich's geometric lower bound",
         },
         "n_curves": len(curves),
         "n_points": len(points),

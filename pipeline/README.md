@@ -63,6 +63,12 @@ Only three concurrent Magma jobs are allowed on Mordell; the verifier is sequent
 
 ## Adding knowledge
 
+Accepted certificates may include an optional `supporting_data` list of
+`{"label": "...", "path": "data/..."}` links to committed reports, complete
+level-structure lists, or reproducible computation bundles. The point page
+displays these below the classification. These supplements do not replace the
+verification log or the certificate's field and torsion checks.
+
 Facts about curves (gonality, rank, degrees with finitely/infinitely many points) live in
 `knowledge.py` and `data/knowledge/sources/`. To add e.g. a new gonality result, add a source to
 `SOURCES` and a cited fact, keeping copied source tables unchanged. Then run

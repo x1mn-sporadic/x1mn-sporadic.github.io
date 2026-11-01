@@ -1,0 +1,35 @@
+VERIFIED SPORADIC POINTS ON X_1(4,16), 1 NOVEMBER 2026
+
+There are four verified non-CM j-orbits, with representative closed points of degrees 6, 6, 7 and 6 over Q(i), hence absolute degrees 12, 12, 14 and 12. The exact fields, elliptic curves and marked points are in P001.m through P004.m. The four families yield 32, 64, 64 and 32 distinct closed points over Q(i), respectively: 192 closed points in total, with 128 of absolute degree 12 and 64 of absolute degree 14. This is a collection of marked points arising from four j-orbits, not a completeness classification of the modular curve.
+
+FIELD AND TORSION VERIFICATION
+Each independent verifier re-enters an irreducible field polynomial, curve and marked points; verifies the modular equation and parametrization; checks exact point orders and independence; computes the primitive fourth root from the Weil pairing; and proves that normalized elliptic level data generate the full reported field. Prime-to-residue-characteristic torsion injects under good reduction. Several small good reductions give an exact full-torsion order bound of 64, matching C4 x C16. The monic minimal j-polynomials have nonintegral rational coefficients, so the j-invariants are not algebraic integers and the curves are non-CM.
+
+For P002 and P003 the full field can also be described as Q(i,alpha), where alpha has the listed degree-six or degree-seven j-field polynomial in verified_points.csv. Their j-fields do not contain i and their composita with Q(i) have the full reported degrees. P001 and P004 have the same cubic j-field, defined by x^3+x^2-4x-2, but distinct j-polynomials and different degree-twelve fields.
+
+SPORADICITY
+Derickx-Sutherland, Theorem 4.1, proves rank J_1(4,16)(Q(i))=0. Najman-Varivoda, Table 1, proves gonality over Q(i) at least 8. For a rank-zero Jacobian, the curve has only finitely many points of degree below the gonality (Derickx-Sutherland, Proposition 2.3). Thus all displayed points are sporadic under the degree-at-most convention.
+References: https://arxiv.org/html/1608.07549 and https://arxiv.org/html/2602.03513
+
+EXPLICIT MODULAR UNITS
+With P of order 4 and Q of order 16, the unit
+f=(x(2Q)-x(P))/(x(P)-x(2P+Q))
+has degree 13. The fiber f=-1-i splits into points of degrees 6 and 7 over Q(i), giving P002 and P003. A separate unit
+g=(x(P+2Q)-x(P+8Q))/(x(P+8Q)-x(2P+4Q))
+has degree 12. The fiber g=-1/2 consists of two degree-six marked points from the P004 j-orbit. Function degrees are computed exactly from primitive characteristic polynomials: clearing coefficient denominators and removing their common polynomial factor gives H(v,Z), whose degree in v equals [K(X):K(f)]. Norm-factor and explicit-point certificates are included. P001 was found in the degree-ten-unit short-vector pass.
+
+LEVEL STRUCTURES AND CLOSED-POINT COUNTS
+C4 x C16 has 256 generating pairs with the prescribed orders. Fixing the primitive Weil pairing leaves 128 pairs, and quotienting by the elliptic automorphisms {+1,-1} leaves 64 geometric markings. The scripts enumerate all 64, normalize each order-four point to Tate normal form, verify the coordinate change and marked orders, and prove full field generation for each normalized triple. The primitive pairing is fixed to the displayed i, replacing P by -P when necessary.
+
+The automorphism groups of the saved fields fixing both Q(i) and j have orders 2, 1, 1 and 2. Their explicit actions on the normalized triples have orbit sizes 2, 1, 1 and 2. Since each triple generates the full saved field, these actions identify exactly the Galois equivalences among the markings over the chosen j-value. Hence the closed-point counts are 32, 64, 64 and 32. All normalized curves are isomorphic to their representative over the saved field by the displayed coordinate changes, so their full torsion is unchanged. The orbit partitions and coefficient arrays are in level_structures_P001.m etc.; closed_points.csv selects one representative for each closed point.
+
+REPLAY
+From this directory run: magma -n -b verify_P001.m (and similarly P002 through P004).
+To reconstruct an arbitrary closed point, run: magma -n -b Family:=P003 Index:=64 construct_closed_point.m
+Use Index between 1 and the family's closed-point count. To replay its complete level-structure enumeration, run: magma -n -b enumerate_levels_P003.m
+
+LIMITS
+The searches are bounded heuristic f-c searches. Negative results are not nonexistence proofs, and no saturation of the full modular-unit group is claimed. Auxiliary coordinate-function sweeps are reported separately from unit trials. Setup-only and failed prototypes are excluded from coverage. All four j-orbits are absent from the checked local point census; published novelty has not been established.
+
+CENSUS ENTRIES
+The census records one entry per elliptic curve over its residue field, grouping different torsion bases. The representatives are P001 = 4.16.12.a (32 closed points), P002 = 4.16.12.b (64), P003 = 4.16.14.a (64), and P004 = 4.16.12.c (32). Each representative also passed the census verifier independently on 1 November 2026; its fresh verification log is linked on its point page. All four were absent from the published census at commit 778f5fb. This is a census-absence check, not a published-priority assertion.

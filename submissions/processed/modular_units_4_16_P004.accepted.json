@@ -1,0 +1,41 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 4,
+  "n": 16,
+  "degree": 12,
+  "field": "x^12 + 16*x^10 + 78*x^8 + 144*x^6 + 161*x^4 + 80*x^2 + 4",
+  "curve": {
+    "ainvs": [
+      "1",
+      "505/528 + 718/11*a^2 + 17909/264*a^4 + 1718/33*a^6 + 6497/528*a^8 + 9/11*a^10",
+      "505/528 + 718/11*a^2 + 17909/264*a^4 + 1718/33*a^6 + 6497/528*a^8 + 9/11*a^10",
+      "0",
+      "0"
+    ]
+  },
+  "points": {
+    "P": [
+      "0",
+      "0"
+    ],
+    "Q": [
+      "211/44 + 149/132*a + 20425/528*a^2 + 10145/176*a^3 + 10283/264*a^4 + 5261/88*a^5 + 7393/264*a^6 + 12079/264*a^7 + 1709/264*a^8 + 951/88*a^9 + 75/176*a^10 + 379/528*a^11",
+      "5657/264 - 691/1056*a + 921787/2112*a^2 - 47429/352*a^3 + 59309/132*a^4 - 24703/176*a^5 + 357083/1056*a^6 - 57155/528*a^7 + 6989/88*a^8 - 9021/352*a^9 + 3705/704*a^10 - 1799/1056*a^11"
+    ]
+  },
+  "discoverer": "F. Najman",
+  "year": 2026,
+  "submitter": "Filip Najman",
+  "github": "F-Najman",
+  "affiliation": "University of Zagreb",
+  "date": "2026-11-01",
+  "reference": "Modular-unit search, 1 November 2026 (computations with Codex). Sporadicity follows from Derickx–Sutherland, Theorem 4.1 and Proposition 2.3 (arXiv:1608.07549), and Najman–Varivoda, Table 1 (arXiv:2602.03513).",
+  "notes": "Modular-unit search family P004. This entry represents 32 distinct closed points over Q(i) obtained by varying the torsion basis with fixed primitive Weil pairing. The census records one entry per elliptic curve over its residue field. The four families together give 192 closed points (128 of absolute degree 12 and 64 of absolute degree 14). Full torsion and the minimal field of the marked point were verified independently. No completeness or published-priority claim is made.",
+  "expected": {
+    "j_degree": 3
+  },
+  "source": {
+    "kind": "file",
+    "path": "submissions/processed/modular_units_4_16_P004.accepted.json"
+  }
+}
