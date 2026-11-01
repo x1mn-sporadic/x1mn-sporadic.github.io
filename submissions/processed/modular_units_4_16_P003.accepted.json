@@ -1,0 +1,41 @@
+{
+  "schema": "x1mn-sporadic/submission/1",
+  "m": 4,
+  "n": 16,
+  "degree": 14,
+  "field": "x^14 - 4*x^13 + 8*x^12 - 10*x^11 + 6*x^10 - 4*x^9 + 22*x^7 - 19*x^6 + 4*x^5 - 2*x^4 + 8*x^3 + 2*x^2 - 16*x + 8",
+  "curve": {
+    "ainvs": [
+      "1",
+      "72107931/1424870144 + 13104359/712435072*a + 33275259/5699480576*a^2 - 2463899/1424870144*a^3 + 22497749/5699480576*a^4 - 237634493/5699480576*a^5 + 245865843/11398961152*a^6 - 1158305/1424870144*a^7 - 14000059/5699480576*a^8 + 121730003/11398961152*a^9 - 70468099/5699480576*a^10 + 48495105/5699480576*a^11 - 44089605/11398961152*a^12 + 8443133/11398961152*a^13",
+      "72107931/1424870144 + 13104359/712435072*a + 33275259/5699480576*a^2 - 2463899/1424870144*a^3 + 22497749/5699480576*a^4 - 237634493/5699480576*a^5 + 245865843/11398961152*a^6 - 1158305/1424870144*a^7 - 14000059/5699480576*a^8 + 121730003/11398961152*a^9 - 70468099/5699480576*a^10 + 48495105/5699480576*a^11 - 44089605/11398961152*a^12 + 8443133/11398961152*a^13",
+      "0",
+      "0"
+    ]
+  },
+  "points": {
+    "P": [
+      "0",
+      "0"
+    ],
+    "Q": [
+      "-113334229/178108768 + 174430773/356217536*a + 201686445/712435072*a^2 - 18814247/1424870144*a^3 + 98597249/1424870144*a^4 - 162041919/1424870144*a^5 + 808156569/712435072*a^6 - 520186481/2849740288*a^7 - 251223305/2849740288*a^8 + 25818307/1424870144*a^9 - 378117597/1424870144*a^10 + 775351951/2849740288*a^11 - 468141203/2849740288*a^12 + 18764789/356217536*a^13",
+      "-249802685/11398961152 - 133094439/5699480576*a + 3046035655/45595844608*a^2 - 84853359/2849740288*a^3 - 602681505/22797922304*a^4 - 55557837/45595844608*a^5 + 3506412361/91191689216*a^6 + 321142265/45595844608*a^7 - 3196378863/91191689216*a^8 + 2528313057/91191689216*a^9 - 8286151/356217536*a^10 + 2356761305/91191689216*a^11 - 775054283/45595844608*a^12 + 95179253/22797922304*a^13"
+    ]
+  },
+  "discoverer": "F. Najman",
+  "year": 2026,
+  "submitter": "Filip Najman",
+  "github": "F-Najman",
+  "affiliation": "University of Zagreb",
+  "date": "2026-11-01",
+  "reference": "Modular-unit search, 1 November 2026 (computations with Codex). Sporadicity follows from Derickx–Sutherland, Theorem 4.1 and Proposition 2.3 (arXiv:1608.07549), and Najman–Varivoda, Table 1 (arXiv:2602.03513).",
+  "notes": "Modular-unit search family P003. This entry represents 64 distinct closed points over Q(i) obtained by varying the torsion basis with fixed primitive Weil pairing. The census records one entry per elliptic curve over its residue field. The four families together give 192 closed points (128 of absolute degree 12 and 64 of absolute degree 14). Full torsion and the minimal field of the marked point were verified independently. No completeness or published-priority claim is made.",
+  "expected": {
+    "j_degree": 7
+  },
+  "source": {
+    "kind": "file",
+    "path": "submissions/processed/modular_units_4_16_P003.accepted.json"
+  }
+}

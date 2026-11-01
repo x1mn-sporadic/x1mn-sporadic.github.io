@@ -1,0 +1,287 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "4.16.12.c",
+  "m": 4,
+  "n": 16,
+  "degree": 12,
+  "relative_degree": 6,
+  "base_field": "Q(zeta_4)",
+  "status": "certified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "no",
+      "rule": "rank 0 and 6 < 8 <= gonality of X_1(4,16) over Q(zeta_4)",
+      "sources": [
+        "RankZeroLemma",
+        "DS17",
+        "NV26"
+      ]
+    },
+    "sporadic": {
+      "value": "yes",
+      "rule": "finitely many points of absolute degree <= 12: rank 0 and 6 < 8 <= gonality of X_1(4,16) over Q(zeta_4)",
+      "sources": [
+        "RankZeroLemma",
+        "DS17",
+        "NV26"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "finitely many points of absolute degree 12 on X_1(4,16), so the point lies in no positive-dimensional family",
+      "sources": [
+        "RankZeroLemma",
+        "DS17",
+        "NV26",
+        "BELOV"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": false,
+    "p1_isolated": null,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "note": "Follows from sporadicity (rank 0 and relative degree below the gonality); no separate Riemann–Roch computation is needed."
+  },
+  "discovery": {
+    "by": "F. Najman",
+    "year": 2026
+  },
+  "credits": {},
+  "field": {
+    "poly": "x^12 + 16*x^10 + 78*x^8 + 144*x^6 + 161*x^4 + 80*x^2 + 4",
+    "poly_coeffs": [
+      "4",
+      "0",
+      "80",
+      "0",
+      "161",
+      "0",
+      "144",
+      "0",
+      "78",
+      "0",
+      "16",
+      "0",
+      "1"
+    ],
+    "polredabs": "x^12 - 4*x^10 + 15*x^8 - 2*x^6 + 18*x^4 + 24*x^2 + 16",
+    "degree": 12,
+    "disc": "163368480538624",
+    "disc_factored": "2^22 * 79^4",
+    "signature": [
+      0,
+      6
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "1/352792704*(-4044767*a^11 + 5771448*a^10 - 63250666*a^9 + 108436180*a^8 - 308997718*a^7 + 642560640*a^6 - 652786692*a^5 + 1347936840*a^4 - 793628807*a^3 + 1495529864*a^2 - 384896618*a + 623521972)",
+    "tate_c": "1/305184*(51653*a^11 - 6729*a^10 + 821308*a^9 - 101226*a^8 + 3938034*a^7 - 434930*a^6 + 6956596*a^5 - 648976*a^4 + 7548925*a^3 - 884201*a^2 + 3527272*a - 563366)",
+    "tate_b_coeffs": [
+      "155880493/88198176",
+      "-192448309/176396352",
+      "186941233/44099088",
+      "-793628807/352792704",
+      "56164035/14699696",
+      "-54398891/29399392",
+      "1673335/918731",
+      "-154498859/176396352",
+      "27109045/88198176",
+      "-31625333/176396352",
+      "240477/14699696",
+      "-4044767/352792704"
+    ],
+    "tate_c_coeffs": [
+      "-281683/152592",
+      "440909/38148",
+      "-884201/305184",
+      "7548925/305184",
+      "-40561/19074",
+      "1739149/76296",
+      "-217465/152592",
+      "656339/50864",
+      "-16871/50864",
+      "205327/76296",
+      "-2243/101728",
+      "51653/305184"
+    ],
+    "ainvs": [
+      "1 - (1/305184*(51653*a^11 - 6729*a^10 + 821308*a^9 - 101226*a^8 + 3938034*a^7 - 434930*a^6 + 6956596*a^5 - 648976*a^4 + 7548925*a^3 - 884201*a^2 + 3527272*a - 563366))",
+      "-(1/352792704*(-4044767*a^11 + 5771448*a^10 - 63250666*a^9 + 108436180*a^8 - 308997718*a^7 + 642560640*a^6 - 652786692*a^5 + 1347936840*a^4 - 793628807*a^3 + 1495529864*a^2 - 384896618*a + 623521972))",
+      "-(1/352792704*(-4044767*a^11 + 5771448*a^10 - 63250666*a^9 + 108436180*a^8 - 308997718*a^7 + 642560640*a^6 - 652786692*a^5 + 1347936840*a^4 - 793628807*a^3 + 1495529864*a^2 - 384896618*a + 623521972))",
+      "0",
+      "0"
+    ],
+    "P": [
+      "1/83010048*(7431195*a^11 + 298482*a^10 + 119710878*a^9 + 4968000*a^8 + 591031598*a^7 + 25365748*a^6 + 1111382332*a^5 + 50597600*a^4 + 1224131939*a^3 + 85367842*a^2 + 557095982*a + 42906304)",
+      "1/191919230976*(-21125938923*a^11 - 7329394736*a^10 - 337344285394*a^9 - 115859260684*a^8 - 1634326338190*a^7 - 552432234976*a^6 - 2964822273476*a^5 - 974441238264*a^4 - 3293817476019*a^3 - 985210546160*a^2 - 1551050502338*a - 428121933740)"
+    ],
+    "P_coeffs": [
+      [
+        "670411/1297032",
+        "278547991/41505024",
+        "42683921/41505024",
+        "1224131939/83010048",
+        "1581175/2594064",
+        "277845583/20752512",
+        "6341437/20752512",
+        "295515799/41505024",
+        "25875/432344",
+        "19951813/13835008",
+        "49747/13835008",
+        "2477065/27670016"
+      ],
+      [
+        "-107030483435/47979807744",
+        "-775525251169/95959615488",
+        "-61575659135/11994951936",
+        "-1097939158673/63973076992",
+        "-40601718261/7996634624",
+        "-741205568369/47979807744",
+        "-17263507343/5997475968",
+        "-817163169095/95959615488",
+        "-28964815171/47979807744",
+        "-168672142697/95959615488",
+        "-458087171/11994951936",
+        "-7041979641/63973076992"
+      ]
+    ],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^3 - 440070090913/21381376*x^2 + 20801691633891433/171051008*x - 849179388155565059137/5473632256",
+    "j_degree": 3,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "twist_norm_class": "",
+    "disc_norm": "3189059870763703892770816",
+    "conductor_norm": "1336336"
+  },
+  "torsion": {
+    "invariants": [
+      4,
+      16
+    ],
+    "known_exactly": true,
+    "order_bound": 64,
+    "bound_primes": [
+      17,
+      17,
+      17,
+      17,
+      19,
+      19,
+      19,
+      19,
+      23,
+      23,
+      23,
+      23,
+      29,
+      29
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^12 + 16*x^10 + 78*x^8 + 144*x^6 + 161*x^4 + 80*x^2 + 4",
+      "degree": 12
+    },
+    "mode": "ainvs",
+    "curve": {
+      "ainvs": [
+        "1",
+        "505/528 + 718/11*a^2 + 17909/264*a^4 + 1718/33*a^6 + 6497/528*a^8 + 9/11*a^10",
+        "505/528 + 718/11*a^2 + 17909/264*a^4 + 1718/33*a^6 + 6497/528*a^8 + 9/11*a^10",
+        "0",
+        "0"
+      ]
+    },
+    "points": {
+      "P": [
+        "0",
+        "0"
+      ],
+      "Q": [
+        "211/44 + 149/132*a + 20425/528*a^2 + 10145/176*a^3 + 10283/264*a^4 + 5261/88*a^5 + 7393/264*a^6 + 12079/264*a^7 + 1709/264*a^8 + 951/88*a^9 + 75/176*a^10 + 379/528*a^11",
+        "5657/264 - 691/1056*a + 921787/2112*a^2 - 47429/352*a^3 + 59309/132*a^4 - 24703/176*a^5 + 357083/1056*a^6 - 57155/528*a^7 + 6989/88*a^8 - 9021/352*a^9 + 3705/704*a^10 - 1799/1056*a^11"
+      ]
+    },
+    "ainvs_as_verified": [
+      "1",
+      "1/528*(432*a^10 + 6497*a^8 + 27488*a^6 + 35818*a^4 + 34464*a^2 + 505)",
+      "1/528*(432*a^10 + 6497*a^8 + 27488*a^6 + 35818*a^4 + 34464*a^2 + 505)",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "0"
+      ],
+      "Q": [
+        "1/528*(379*a^11 + 225*a^10 + 5706*a^9 + 3418*a^8 + 24158*a^7 + 14786*a^6 + 31566*a^5 + 20566*a^4 + 30435*a^3 + 20425*a^2 + 596*a + 2532)",
+        "1/2112*(-3598*a^11 + 11115*a^10 - 54126*a^9 + 167736*a^8 - 228620*a^7 + 714166*a^6 - 296436*a^5 + 948944*a^4 - 284574*a^3 + 921787*a^2 - 1382*a + 45256)"
+      ],
+      "order_P": 4,
+      "order_Q": 16
+    },
+    "working_field": {
+      "poly": "x^12 + 16*x^10 + 78*x^8 + 144*x^6 + 161*x^4 + 80*x^2 + 4",
+      "degree": 12
+    },
+    "claimed_degree": 12,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Filip Najman",
+    "github": "F-Najman",
+    "affiliation": "University of Zagreb"
+  },
+  "reference": "Modular-unit search, 1 November 2026 (computations with Codex). Sporadicity follows from Derickx–Sutherland, Theorem 4.1 and Proposition 2.3 (arXiv:1608.07549), and Najman–Varivoda, Table 1 (arXiv:2602.03513).",
+  "notes": "Modular-unit search family P004. This entry represents 32 distinct closed points over Q(i) obtained by varying the torsion basis with fixed primitive Weil pairing. The census records one entry per elliptic curve over its residue field. The four families together give 192 closed points (128 of absolute degree 12 and 64 of absolute degree 14). Full torsion and the minimal field of the marked point were verified independently. No completeness or published-priority claim is made.",
+  "source": {
+    "kind": "file",
+    "path": "submissions/processed/modular_units_4_16_P004.accepted.json"
+  },
+  "dates": {
+    "submitted": "2026-11-01",
+    "verified": "2026-11-01 18:42:02 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.30-1",
+    "cputime_seconds": "0.170000",
+    "verify_lib_sha256": "7b19e3206e1dbc910f4c97b142a0b69f69b0507808c5cbab2a0d723f3ef84683",
+    "log": "data/logs/4.16.12.c.log",
+    "isolation_log": ""
+  },
+  "supporting_data": [
+    {
+      "label": "Verification report and sporadicity proof",
+      "path": "data/supporting/x1-4-16-modular-units-2026-11-01/verification.txt"
+    },
+    {
+      "label": "All 192 closed points (CSV)",
+      "path": "data/supporting/x1-4-16-modular-units-2026-11-01/closed_points.csv"
+    },
+    {
+      "label": "Fields and j-invariants of the four families (CSV)",
+      "path": "data/supporting/x1-4-16-modular-units-2026-11-01/verified_points.csv"
+    },
+    {
+      "label": "Complete reproducible Magma data (ZIP)",
+      "path": "data/supporting/x1-4-16-modular-units-2026-11-01/modular_unit_search_results.zip"
+    }
+  ],
+  "level_structures": {
+    "family": "P004",
+    "closed_points_over_base_field": 32,
+    "geometric_markings_with_fixed_pairing": 64,
+    "automorphisms_fixing_base_field_and_j": 2,
+    "evidence": "data/supporting/x1-4-16-modular-units-2026-11-01/modular_unit_search_results.zip"
+  }
+}

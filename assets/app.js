@@ -242,7 +242,7 @@
       el("dd", null, Object.keys(c.degrees_infinite).length ? Object.entries(c.degrees_infinite).sort((a, b) => (a[0] === "all" ? -1 : a[0] - b[0])).map(([d, s], i) => [i ? ", " : "", el("b", null, d), " ", el("span", { class: "src" }, "(", sourceLinks(sources, [s]), ")")]) : el("span", { class: "empty" }, "nothing recorded")));
     $("#facts").append(facts);
     if (c.genus === 0) $("#facts").append(el("p", { class: "notice" }, "Genus 0: every degree has infinitely many points, so there are no sporadic points on this curve."));
-    if (m >= 3) $("#facts").append(el("p", { class: "notice" }, "The curve is defined over ℚ(ζ" + m + "): the degree of a point x is [ℚ(ζ" + m + ")(x):ℚ(ζ" + m + ")], and its absolute degree [ℚ(x):ℚ] is φ(" + m + ") = " + c.base_field_degree + " times that. The census indexes points by absolute degree (the degree of the field over which the elliptic curve and its torsion are defined): the degree lists above and the point ids use it, and the table below gives the degree with the absolute degree in parentheses. Only Abramovich's bound is recorded for the gonality over ℚ(ζ" + m + ")."));
+    if (m >= 3) $("#facts").append(el("p", { class: "notice" }, "The curve is defined over ℚ(ζ" + m + "): the degree of a point x is [ℚ(ζ" + m + ")(x):ℚ(ζ" + m + ")], and its absolute degree [ℚ(x):ℚ] is φ(" + m + ") = " + c.base_field_degree + " times that. The census indexes points by absolute degree (the degree of the field over which the elliptic curve and its torsion are defined): the degree lists above and the point ids use it, and the table below gives the degree with the absolute degree in parentheses. Gonality bounds over ℚ(ζ" + m + ") are credited above."));
     if (m >= 3 && $("#degree-col")) {
       $("#degree-col").textContent = "degree (absolute)";
       $("#degree-col").title = "degree over ℚ(ζ" + m + "); the absolute degree [ℚ(x):ℚ] in parentheses";
@@ -326,6 +326,12 @@
         creditRow("proved isolated by", cl.isolated, credits.isolated, isoDerived, isoConfirmed)),
       p.reference ? el("p", { class: "wide" }, el("b", null, "Reference: "), p.reference) : null,
       p.notes ? el("p", { class: "wide" }, el("b", null, "Notes: "), p.notes) : null));
+
+    if (p.supporting_data && p.supporting_data.length) {
+      body.append(el("h3", null, "Supporting data"),
+        el("ul", null, ...p.supporting_data.map((file) =>
+          el("li", null, el("a", { href: file.path }, file.label)))));
+    }
 
     // the point
     const rf = p.field, cv = p.curve;

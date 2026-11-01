@@ -1,0 +1,15 @@
+[0.000000 s] start: X_1(4,16) mode=ainvs
+[0.000000 s] field: degree 12, x^12 + 16*x^10 + 78*x^8 + 144*x^6 + 161*x^4 + 80*x^2 + 4
+[0.000000 s] curve: [
+1,
+1/528*(432*a^10 + 6497*a^8 + 27488*a^6 + 35818*a^4 + 34464*a^2 + 505),
+1/528*(432*a^10 + 6497*a^8 + 27488*a^6 + 35818*a^4 + 34464*a^2 + 505),
+0,
+0
+]
+[0.0100000 s] orders verified: ord P = 4, ord Q = 16, <P,Q> = Z/4 x Z/16
+[0.0200000 s] torsion bound from reductions: |E(K)_tors| divides 64 (primes [ 17, 17, 17, 17, 19, 19, 19, 19, 23, 23, 23, 23, 29, 29 ])
+[0.0200000 s] Tate normal form done; residue field of the point has degree 12 (K has degree 12)
+[0.0200000 s] j: degree 3, CM false 0
+[0.160000 s] conductor norm 1336336
+[0.170000 s] VERIFY_DONE

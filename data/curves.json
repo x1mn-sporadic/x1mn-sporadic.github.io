@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31 12:22 UTC",
+  "generated": "2026-11-01 18:46 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -7,14 +7,14 @@
     "sporadic": "a closed point of degree d is sporadic if the curve has only finitely many closed points of degree <= d",
     "isolated": "P^1-isolated (dim L(x) = 1) and AV-isolated (Bourdon-Ejder-Liu-Odumodu-Viray); finitely many points of degree d implies isolated",
     "answers": "each of 'infinitely many points of degree d', 'sporadic', 'isolated' is yes, no or maybe",
-    "gonality": "Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Varivoda, Abramovich, or Najman's unpublished computations); for m >= 3 only Abramovich's geometric lower bound"
+    "gonality": "gonality over Q(zeta_m): Q-gonality for m <= 2 (from the Phi^infty results, Derickx-van Hoeij, Varivoda, Abramovich, or Najman's unpublished computations); for m >= 3 cited base-field bounds or Abramovich's geometric lower bound"
   },
   "n_curves": 165,
-  "n_points": 2569,
-  "n_certified": 776,
+  "n_points": 2573,
+  "n_certified": 780,
   "n_verified": 1793,
-  "n_sporadic": 324,
-  "n_isolated": 776,
+  "n_sporadic": 328,
+  "n_isolated": 780,
   "n_rejected": 5,
   "curves": [
     {
@@ -1765,7 +1765,8 @@
         "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
-        "12": "RankZeroLemma"
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma"
       },
       "table_note": "",
       "in_tables": true,
@@ -2698,7 +2699,9 @@
         "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
-        "12": "RankZeroLemma"
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -2904,7 +2907,12 @@
         "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
-        "12": "RankZeroLemma"
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma",
+        "15": "RankZeroLemma",
+        "16": "RankZeroLemma",
+        "17": "RankZeroLemma"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -3072,7 +3080,9 @@
         "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
-        "12": "RankZeroLemma"
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -3175,7 +3185,10 @@
         "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
-        "12": "RankZeroLemma"
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma",
+        "15": "RankZeroLemma"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -3272,7 +3285,9 @@
         "9": "NV26",
         "10": "RankZeroLemma",
         "11": "RankZeroLemma",
-        "12": "RankZeroLemma"
+        "12": "RankZeroLemma",
+        "13": "RankZeroLemma",
+        "14": "RankZeroLemma"
       },
       "table_note": "",
       "in_tables": false,
@@ -6862,16 +6877,20 @@
         "6": "DS17",
         "8": "NV26",
         "10": "RankZeroLemma",
-        "12": "RankZeroLemma"
+        "12": "RankZeroLemma",
+        "14": "RankZeroLemma"
       },
       "table_note": "",
       "in_tables": false,
-      "n_points": 0,
-      "n_certified": 0,
+      "n_points": 4,
+      "n_certified": 4,
       "n_verified": 0,
-      "n_sporadic": 0,
-      "n_isolated": 0,
-      "degrees_present": []
+      "n_sporadic": 4,
+      "n_isolated": 4,
+      "degrees_present": [
+        12,
+        14
+      ]
     },
     {
       "m": 4,
