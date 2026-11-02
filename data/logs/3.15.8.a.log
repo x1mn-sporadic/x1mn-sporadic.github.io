@@ -1,0 +1,15 @@
+[0.000000 s] start: X_1(3,15) mode=ainvs
+[0.000000 s] field: degree 8, x^8 + 8*x^6 + 10*x^4 + 15*x^2 + 9
+[0.0100000 s] curve: [
+1/252*(15*a^7 + 8*a^6 + 165*a^5 + 130*a^4 + 519*a^3 + 617*a^2 + 648*a + 879),
+0,
+1/504*(154*a^7 + 17*a^6 + 1148*a^5 - 23*a^4 + 679*a^3 - 1075*a^2 + 147*a - 849),
+0,
+0
+]
+[0.0100000 s] orders verified: ord P = 3, ord Q = 15, <P,Q> = Z/3 x Z/15
+[0.0100000 s] torsion bound from reductions: |E(K)_tors| divides 45 (primes [ 5, 5, 11, 11, 17 ])
+[0.0200000 s] Tate normal form done; residue field of the point has degree 8 (K has degree 8)
+[0.0200000 s] j: degree 1, CM false 0
+[0.100000 s] conductor norm 256
+[0.100000 s] VERIFY_DONE
