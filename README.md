@@ -40,8 +40,10 @@ pipeline/                see pipeline/README.md
 ## Conventions
 
 X₁(m,n), m | n, is defined over ℚ(ζ_m); n is the full cyclic order (Derickx–Sutherland's X₁(m, mn) is our
-X₁(m, mn)). Degrees are absolute degrees over ℚ. A point is recorded once per diamond orbit. The rules behind
-the three answers, with their sources, are in `pipeline/knowledge.py` and explained on the
+X₁(m, mn)). Degrees are absolute degrees over ℚ. A point is recorded once per elliptic curve over its residue
+field: level structures that differ by a diamond operator, the choice of torsion basis or Galois conjugation
+give the same entry, which for X₁(N) means once per diamond orbit. The rules behind the three answers, with
+their sources, are in `pipeline/knowledge.py` and explained on the
 [about page](https://x1mn-sporadic.github.io/about.html).
 
 ## Credits
