@@ -22,15 +22,32 @@
     },
     "isolated": {
       "value": "maybe",
-      "rule": "dim L(x) not computed (not attempted (--no-isolation))",
-      "sources": []
+      "rule": "dim L(x mod q) >= 2 for q = 3, 5, 11, 13: the point probably moves in a pencil of degree 28 (not proven: a jump of h^0 modulo q cannot be excluded)",
+      "sources": [
+        "BELOV"
+      ]
     }
   },
   "isolation": {
-    "computed": false,
-    "p1_isolated": null,
+    "computed": true,
+    "p1_isolated": false,
     "method": "reduction modulo good primes (upper semicontinuity of h^0)",
-    "note": "not attempted (--no-isolation)"
+    "primes": [
+      3,
+      5,
+      11,
+      13
+    ],
+    "l_values": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "model": "mdmagma MDX1(49) (Sutherland's optimised model of X_1(49))",
+    "cputime_seconds": "3344.54",
+    "isolation_lib_sha256": "6aed3641fad595ce77f55c7a3b27726fdf9c75d5bdcee97ab3778ae3668218cb",
+    "note": "dim L(x mod q) >= 2 for every prime tried: the point probably moves in a pencil (not proven)"
   },
   "discovery": {
     "by": "M. van Hoeij",
@@ -255,6 +272,6 @@
     "cputime_seconds": "0.220000",
     "verify_lib_sha256": "7b19e3206e1dbc910f4c97b142a0b69f69b0507808c5cbab2a0d723f3ef84683",
     "log": "data/logs/1.49.28.l.log",
-    "isolation_log": ""
+    "isolation_log": "data/logs/batch_1_49.isolation.log"
   }
 }

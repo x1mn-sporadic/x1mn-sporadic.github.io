@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26 11:35 UTC",
+  "generated": "2026-11-02 13:13 UTC",
   "m": 1,
   "n": 54,
   "points": [
@@ -8,7 +8,7 @@
       "m": 1,
       "n": 54,
       "degree": 13,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 13,
       "cm": false,
       "field_poly": "x^13 - 6*x^12 + 14*x^11 - 17*x^10 + 8*x^9 + 34*x^8 - 114*x^7 + 132*x^6 - 22*x^5 - 86*x^4 + 90*x^3 - 42*x^2 + 10*x - 1",
@@ -20,11 +20,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 13",
         "sporadic": "finitely many points of degree 10, 11, 12, 13 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -37,7 +37,7 @@
       "m": 1,
       "n": 54,
       "degree": 13,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 13,
       "cm": false,
       "field_poly": "x^13 - 3*x^12 - 10*x^10 + 12*x^9 + 7*x^8 - 14*x^6 - x^5 + 4*x^4 + 10*x^3 - 7*x^2 - x + 1",
@@ -49,11 +49,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 13",
         "sporadic": "finitely many points of degree 10, 11, 12, 13 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -66,7 +66,7 @@
       "m": 1,
       "n": 54,
       "degree": 15,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 5,
       "cm": false,
       "field_poly": "x^15 - 20*x^13 + 8*x^12 + 114*x^11 - 169*x^10 - 191*x^9 + 656*x^8 - 384*x^7 - 409*x^6 + 627*x^5 - 210*x^4 - 72*x^3 + 51*x^2 - 3",
@@ -78,11 +78,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 15",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -95,7 +95,7 @@
       "m": 1,
       "n": 54,
       "degree": 15,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 5,
       "cm": false,
       "field_poly": "x^15 - 22*x^14 + 148*x^13 - 228*x^12 - 1161*x^11 + 4006*x^10 - 1010*x^9 - 6088*x^8 + 4287*x^7 + 2456*x^6 - 2589*x^5 - 189*x^4 + 264*x^3 + 153*x^2 - 9",
@@ -107,11 +107,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 15",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -124,7 +124,7 @@
       "m": 1,
       "n": 54,
       "degree": 15,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 15,
       "cm": false,
       "field_poly": "x^15 - 7*x^13 + 5*x^12 + 11*x^11 - 14*x^10 + 6*x^9 - 3*x^8 - 16*x^7 + 41*x^6 - 12*x^5 - 38*x^4 + 25*x^3 + 8*x^2 - 7*x + 1",
@@ -136,11 +136,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 15",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -153,7 +153,7 @@
       "m": 1,
       "n": 54,
       "degree": 15,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 15,
       "cm": false,
       "field_poly": "x^15 - 5*x^14 + 8*x^13 - 9*x^12 - 3*x^11 - 3*x^10 + 21*x^9 - 39*x^8 + 27*x^7 + 46*x^6 - 76*x^5 + 13*x^4 + 38*x^3 - 30*x^2 + 9*x - 1",
@@ -165,11 +165,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 15",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -182,7 +182,7 @@
       "m": 1,
       "n": 54,
       "degree": 15,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 15,
       "cm": false,
       "field_poly": "x^15 - 5*x^14 + 12*x^13 - 21*x^12 + 23*x^11 - 27*x^10 + 36*x^9 - 39*x^8 + 31*x^7 + 12*x^6 - 19*x^5 - 5*x^4 - 8*x^3 + 4*x^2 + x + 1",
@@ -194,11 +194,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 15",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -211,7 +211,7 @@
       "m": 1,
       "n": 54,
       "degree": 15,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 15,
       "cm": false,
       "field_poly": "x^15 - 8*x^14 + 11*x^13 + 57*x^12 - 149*x^11 - 88*x^10 + 491*x^9 - 209*x^8 - 436*x^7 + 488*x^6 - 250*x^5 + 144*x^4 - 55*x^3 - 3*x^2 + 6*x - 1",
@@ -223,11 +223,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 15",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -240,7 +240,7 @@
       "m": 1,
       "n": 54,
       "degree": 16,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 16,
       "cm": false,
       "field_poly": "x^16 - x^15 - 2*x^14 + 2*x^13 + 11*x^12 - 13*x^11 - 20*x^10 + 20*x^9 + 8*x^8 + 5*x^7 - 18*x^6 + 16*x^5 - 5*x^4 - 5*x^3 + 3*x^2 - 2*x + 1",
@@ -252,11 +252,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 16",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -269,7 +269,7 @@
       "m": 1,
       "n": 54,
       "degree": 17,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 17,
       "cm": false,
       "field_poly": "x^17 - 6*x^16 + 7*x^15 + 15*x^14 - 11*x^13 - 64*x^12 + 46*x^11 + 53*x^10 - 57*x^9 + 29*x^8 - 15*x^7 - 29*x^6 + 36*x^5 + 2*x^4 - 12*x^3 - x^2 + 4*x - 1",
@@ -281,11 +281,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 17",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -298,7 +298,7 @@
       "m": 1,
       "n": 54,
       "degree": 17,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 17,
       "cm": false,
       "field_poly": "x^17 - x^16 + 5*x^15 - 9*x^13 - 32*x^12 + 49*x^11 + 22*x^10 - 16*x^9 - 67*x^8 + 49*x^7 + 27*x^6 - 31*x^5 - 3*x^4 + 13*x^3 - 2*x^2 - 3*x + 1",
@@ -310,11 +310,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 17",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -327,7 +327,7 @@
       "m": 1,
       "n": 54,
       "degree": 17,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 17,
       "cm": false,
       "field_poly": "x^17 - 6*x^16 + 11*x^15 - 52*x^13 + 133*x^12 - 222*x^11 + 221*x^10 - 162*x^9 + 86*x^8 - 38*x^7 + 44*x^6 - 21*x^5 - 13*x^4 + 9*x^3 + 3*x^2 - 4*x + 1",
@@ -339,11 +339,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 17",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -356,7 +356,7 @@
       "m": 1,
       "n": 54,
       "degree": 17,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 17,
       "cm": false,
       "field_poly": "x^17 - 5*x^16 + 14*x^15 - 33*x^14 + 74*x^13 - 134*x^12 + 212*x^11 - 286*x^10 + 372*x^9 - 452*x^8 + 421*x^7 - 277*x^6 + 200*x^5 - 202*x^4 + 110*x^3 - 20*x^2 - 3*x + 9",
@@ -368,11 +368,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 17",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -385,7 +385,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - 11*x^18 + 47*x^17 - 89*x^16 + 30*x^15 + 157*x^14 - 199*x^13 - 88*x^12 + 288*x^11 - 40*x^10 - 212*x^9 + 73*x^8 + 89*x^7 - 31*x^6 - 15*x^5 + 2*x^4 - 5*x^3 + 3*x + 1",
@@ -397,11 +397,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -414,7 +414,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - 9*x^18 + 38*x^17 - 96*x^16 + 141*x^15 - 134*x^14 + 3*x^13 + 241*x^12 - 356*x^11 - 89*x^10 + 660*x^9 - 502*x^8 - 121*x^7 + 250*x^6 + 27*x^5 - 86*x^4 - 5*x^3 + 25*x^2 + 10*x + 1",
@@ -426,11 +426,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -443,7 +443,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - x^18 - 12*x^17 + 28*x^16 + 81*x^15 - 139*x^14 - 345*x^13 + 304*x^12 + 846*x^11 - 287*x^10 - 1232*x^9 + 12*x^8 + 1038*x^7 + 220*x^6 - 457*x^5 - 187*x^4 + 69*x^3 + 52*x^2 + 11*x - 1",
@@ -455,11 +455,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -472,7 +472,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - 7*x^18 + x^17 + 97*x^16 - 224*x^15 - 158*x^14 + 1193*x^13 - 1044*x^12 - 1197*x^11 - 601*x^10 + 10749*x^9 - 16163*x^8 + 6209*x^7 + 4428*x^6 - 3685*x^5 + 23*x^4 + 405*x^3 - 13*x^2 - 6*x - 9",
@@ -484,11 +484,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -501,7 +501,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - 4*x^17 - 6*x^16 + 11*x^15 + 33*x^14 - 31*x^13 - 70*x^12 + 53*x^11 + 93*x^10 - 67*x^9 - 64*x^8 + 21*x^7 + 76*x^6 - 34*x^5 - 34*x^4 + 27*x^3 - 2*x^2 - 3*x + 1",
@@ -513,11 +513,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -530,7 +530,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - 2*x^17 + 19*x^16 - 20*x^15 - 140*x^14 + 8*x^13 + 163*x^12 - 94*x^11 + 157*x^10 + 146*x^9 - 350*x^8 + 188*x^7 - 138*x^6 + 5*x^5 + 63*x^4 + 2*x^3 - 5*x^2 - 3*x - 1",
@@ -542,11 +542,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -559,7 +559,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - 4*x^18 - 3*x^17 + 18*x^16 + 8*x^15 - 55*x^14 + 20*x^13 + 49*x^12 + 58*x^11 - 138*x^10 + 18*x^9 + 17*x^8 + 29*x^7 - 29*x^6 + 45*x^5 - 33*x^4 + 2*x^3 + 10*x^2 - 5*x + 1",
@@ -571,11 +571,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -588,7 +588,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - 5*x^18 + 2*x^17 + 10*x^16 + 23*x^15 - 17*x^14 - 95*x^13 + 17*x^12 + 139*x^11 + 27*x^10 - 133*x^9 - 83*x^8 + 133*x^7 + 44*x^6 - 65*x^5 - 24*x^4 + 31*x^3 - 5*x + 1",
@@ -600,11 +600,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -617,7 +617,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - 9*x^18 + 27*x^17 - 13*x^16 - 105*x^15 + 237*x^14 - 73*x^13 - 461*x^12 + 830*x^11 - 497*x^10 - 94*x^9 + 109*x^8 + 117*x^7 + 30*x^6 - 129*x^5 - 4*x^4 + 40*x^3 - 6*x - 1",
@@ -629,11 +629,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -646,7 +646,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - 6*x^18 + 4*x^17 + 8*x^16 + 56*x^15 - 7*x^14 - 47*x^13 - 163*x^12 - 133*x^11 - 30*x^10 + 145*x^9 + 285*x^8 - 10*x^7 - 210*x^6 - 22*x^5 + 95*x^4 - 8*x^3 - 23*x^2 + 9*x - 1",
@@ -658,11 +658,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -675,7 +675,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - 15*x^18 + 55*x^17 - 84*x^16 + 71*x^15 - 188*x^14 + 264*x^13 - 165*x^12 + 164*x^11 - 233*x^10 + 77*x^9 - 16*x^8 + 65*x^7 - 10*x^6 + 9*x^5 - 16*x^4 - x^3 + 2*x^2 + 2*x - 1",
@@ -687,11 +687,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -704,7 +704,7 @@
       "m": 1,
       "n": 54,
       "degree": 19,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 19,
       "cm": false,
       "field_poly": "x^19 - 9*x^18 + 25*x^17 - 22*x^16 + 29*x^15 - 79*x^14 + 54*x^13 - 258*x^12 + 267*x^11 - 124*x^10 + 466*x^9 - 309*x^8 - 69*x^7 - 57*x^6 + 95*x^5 + 26*x^4 - 40*x^3 - 5*x^2 + 5*x + 1",
@@ -716,11 +716,11 @@
       "torsion_known": true,
       "infinite": "maybe",
       "sporadic": "maybe",
-      "isolated": "maybe",
+      "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(54) has finitely many points of degree 19",
         "sporadic": "finitely many points of degree 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 on X_1(54): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (not attempted (--no-isolation))"
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,

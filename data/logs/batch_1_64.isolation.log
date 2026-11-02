@@ -1,0 +1,24 @@
+[0.000000 s] === 1.64.24.a
+[0.0100000 s] point: X_1(1,64), residue field degree 24
+[1.62000 s] q = 3: model built (1.62000 s); computing the maximal orders of its function field (genus check)
+[1655.73 s] q = 3: genus 93 (expected 93), 1655.73 s
+[1665.89 s] q = 3: D_q = 2 places of degrees [ 12, 12 ], dim L(D_q) = 1 (1665.89 s)
+[1665.89 s] === 1.64.25.a
+[1665.90 s] point: X_1(1,64), residue field degree 25
+[1672.10 s] q = 3: D_q = 2 places of degrees [ 12, 13 ], dim L(D_q) = 1 (1672.10 s)
+[1672.10 s] === 1.64.26.a
+[1672.11 s] point: X_1(1,64), residue field degree 26
+[1676.90 s] q = 3: D_q = 2 places of degrees [ 13, 13 ], dim L(D_q) = 1 (1676.90 s)
+[1676.90 s] === 1.64.27.a
+[1676.91 s] point: X_1(1,64), residue field degree 27
+[1683.91 s] q = 3: D_q = 3 places of degrees [ 6, 10, 11 ], dim L(D_q) = 1 (1683.91 s)
+[1683.91 s] === 1.64.28.a
+[1683.91 s] point: X_1(1,64), residue field degree 28
+[1690.20 s] q = 3: D_q = 2 places of degrees [ 8, 20 ], dim L(D_q) = 1 (1690.20 s)
+[1690.20 s] === 1.64.29.a
+[1690.21 s] point: X_1(1,64), residue field degree 29
+[1697.34 s] q = 3: D_q = 2 places of degrees [ 6, 23 ], dim L(D_q) = 1 (1697.34 s)
+[1697.34 s] === 1.64.30.a
+[1697.35 s] point: X_1(1,64), residue field degree 30
+[1702.67 s] q = 3: D_q = 1 places of degrees [ 30 ], dim L(D_q) = 1 (1702.67 s)
+[1702.68 s] BATCH_DONE

@@ -38,10 +38,18 @@
     }
   },
   "isolation": {
-    "computed": false,
-    "p1_isolated": null,
+    "computed": true,
+    "p1_isolated": true,
     "method": "reduction modulo good primes (upper semicontinuity of h^0)",
-    "note": "not attempted (--no-isolation)"
+    "primes": [
+      3
+    ],
+    "l_values": [
+      1
+    ],
+    "model": "mdmagma MDX1(47) (Sutherland's optimised model of X_1(47))",
+    "cputime_seconds": "280.500",
+    "isolation_lib_sha256": "6aed3641fad595ce77f55c7a3b27726fdf9c75d5bdcee97ab3778ae3668218cb"
   },
   "discovery": {
     "by": "M. van Hoeij",
@@ -233,6 +241,6 @@
     "cputime_seconds": "0.0400000",
     "verify_lib_sha256": "7b19e3206e1dbc910f4c97b142a0b69f69b0507808c5cbab2a0d723f3ef84683",
     "log": "data/logs/1.47.24.c.log",
-    "isolation_log": ""
+    "isolation_log": "data/logs/batch_1_47.isolation.log"
   }
 }
