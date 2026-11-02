@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01 18:46 UTC",
+  "generated": "2026-11-02 13:02 UTC",
   "points": [
     {
       "id": "1.21.3.a",
@@ -43585,6 +43585,23 @@
       "j_rational": "",
       "infinite": "yes",
       "sporadic": "no",
+      "isolated": "yes",
+      "discovered_by": "F. Najman",
+      "year": 2026
+    },
+    {
+      "id": "3.15.8.a",
+      "m": 3,
+      "n": 15,
+      "degree": 8,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": false,
+      "field_poly": "x^8 + 8*x^6 + 10*x^4 + 15*x^2 + 9",
+      "field_disc": "2313441",
+      "j_rational": "1331/8",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "discovered_by": "F. Najman",
       "year": 2026

@@ -1,8 +1,38 @@
 {
-  "generated": "2026-10-29 14:20 UTC",
+  "generated": "2026-11-02 13:02 UTC",
   "m": 3,
   "n": 15,
   "points": [
+    {
+      "id": "3.15.8.a",
+      "m": 3,
+      "n": 15,
+      "degree": 8,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": false,
+      "field_poly": "x^8 + 8*x^6 + 10*x^4 + 15*x^2 + 9",
+      "field_disc": "2313441",
+      "j_rational": "1331/8",
+      "torsion": [
+        3,
+        15
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(3,15) has only finitely many points of absolute degree 8",
+        "sporadic": "finitely many points of each absolute degree <= 8 on X_1(3,15)",
+        "isolated": "finitely many points of absolute degree 8 on X_1(3,15), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, Torsion of elliptic curves over number fields of degree 6, 7, 8 and 9 (2026), in preparation",
+      "verified": "2026-11-02 13:02:19 UTC"
+    },
     {
       "id": "3.15.10.a",
       "m": 3,
