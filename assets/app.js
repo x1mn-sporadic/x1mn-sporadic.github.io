@@ -24,6 +24,8 @@
     return node;
   };
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  // free text with its http(s) URLs as links (a trailing period or comma stays text)
+  const linkify = (s) => String(s).split(/(https?:\/\/[^\s]*[^\s.,;:)])/).map((t, i) => (i % 2 ? el("a", { href: t }, t) : t));
   const params = new URLSearchParams(location.search);
   const cache = {};
   async function load(name) {
@@ -324,7 +326,7 @@
         el("dt", null, "discovered by"), el("dd", null, discovery(p.discovery.by, p.discovery.year)),
         creditRow("proved sporadic by", cl.sporadic, credits.sporadic, fromResults(cl.sporadic)),
         creditRow("proved isolated by", cl.isolated, credits.isolated, isoDerived, isoConfirmed)),
-      p.reference ? el("p", { class: "wide" }, el("b", null, "Reference: "), p.reference) : null,
+      p.reference ? el("p", { class: "wide" }, el("b", null, "Reference: "), linkify(p.reference)) : null,
       p.notes ? el("p", { class: "wide" }, el("b", null, "Notes: "), p.notes) : null));
 
     if (p.supporting_data && p.supporting_data.length) {
