@@ -1,0 +1,258 @@
+[0.000000 s] === 1.47.20.a
+[0.000000 s] point: X_1(1,47), residue field degree 20
+[0.900000 s] q = 3: model built (0.900000 s); computing the maximal orders of its function field (genus check)
+[262.990 s] q = 3: genus 70 (expected 70), 262.990 s
+[266.180 s] q = 3: D_q = 3 places of degrees [ 6, 7, 7 ], dim L(D_q) = 1 (266.180 s)
+[266.180 s] === 1.47.21.a
+[266.180 s] point: X_1(1,47), residue field degree 21
+[267.820 s] q = 3: D_q = 2 places of degrees [ 8, 13 ], dim L(D_q) = 1 (267.820 s)
+[267.820 s] === 1.47.22.a
+[267.820 s] point: X_1(1,47), residue field degree 22
+[269.470 s] q = 3: D_q = 2 places of degrees [ 7, 15 ], dim L(D_q) = 1 (269.470 s)
+[269.470 s] === 1.47.23.a
+[269.480 s] point: X_1(1,47), residue field degree 23
+[271.080 s] q = 3: D_q = 2 places of degrees [ 11, 12 ], dim L(D_q) = 1 (271.080 s)
+[271.080 s] === 1.47.23.b
+[271.080 s] point: X_1(1,47), residue field degree 23
+[272.310 s] q = 3: D_q = 2 places of degrees [ 11, 12 ], dim L(D_q) = 1 (272.310 s)
+[272.310 s] === 1.47.23.c
+[272.310 s] point: X_1(1,47), residue field degree 23
+[273.550 s] q = 3: D_q = 2 places of degrees [ 6, 17 ], dim L(D_q) = 1 (273.550 s)
+[273.550 s] === 1.47.23.d
+[273.550 s] point: X_1(1,47), residue field degree 23
+[274.830 s] q = 3: D_q = 2 places of degrees [ 6, 17 ], dim L(D_q) = 1 (274.830 s)
+[274.830 s] === 1.47.23.e
+[274.840 s] point: X_1(1,47), residue field degree 23
+[276.100 s] q = 3: D_q = 2 places of degrees [ 11, 12 ], dim L(D_q) = 1 (276.100 s)
+[276.100 s] === 1.47.24.a
+[276.110 s] point: X_1(1,47), residue field degree 24
+[277.330 s] q = 3: D_q = 2 places of degrees [ 6, 18 ], dim L(D_q) = 1 (277.330 s)
+[277.330 s] === 1.47.24.b
+[277.330 s] point: X_1(1,47), residue field degree 24
+[279.080 s] q = 3: D_q = 3 places of degrees [ 6, 7, 11 ], dim L(D_q) = 1 (279.080 s)
+[279.080 s] === 1.47.24.c
+[279.080 s] point: X_1(1,47), residue field degree 24
+[280.500 s] q = 3: D_q = 2 places of degrees [ 11, 13 ], dim L(D_q) = 1 (280.500 s)
+[280.500 s] === 1.47.24.d
+[280.500 s] point: X_1(1,47), residue field degree 24
+[282.150 s] q = 3: D_q = 2 places of degrees [ 12, 12 ], dim L(D_q) = 1 (282.150 s)
+[282.150 s] === 1.47.25.a
+[282.160 s] point: X_1(1,47), residue field degree 25
+[283.440 s] q = 3: D_q = 1 places of degrees [ 25 ], dim L(D_q) = 1 (283.440 s)
+[283.440 s] === 1.47.25.b
+[283.450 s] point: X_1(1,47), residue field degree 25
+[284.640 s] q = 3: D_q = 1 places of degrees [ 25 ], dim L(D_q) = 1 (284.640 s)
+[284.640 s] === 1.47.25.c
+[284.640 s] point: X_1(1,47), residue field degree 25
+[285.970 s] q = 3: D_q = 2 places of degrees [ 12, 13 ], dim L(D_q) = 1 (285.970 s)
+[285.970 s] === 1.47.25.d
+[285.970 s] point: X_1(1,47), residue field degree 25
+[287.400 s] q = 3: D_q = 2 places of degrees [ 12, 13 ], dim L(D_q) = 1 (287.400 s)
+[287.400 s] === 1.47.25.e
+[287.400 s] point: X_1(1,47), residue field degree 25
+[288.400 s] q = 3: D_q = 1 places of degrees [ 25 ], dim L(D_q) = 1 (288.400 s)
+[288.400 s] === 1.47.25.f
+[288.400 s] point: X_1(1,47), residue field degree 25
+[289.700 s] q = 3: D_q = 2 places of degrees [ 6, 19 ], dim L(D_q) = 1 (289.700 s)
+[289.700 s] === 1.47.25.g
+[289.700 s] point: X_1(1,47), residue field degree 25
+[291.060 s] q = 3: D_q = 2 places of degrees [ 6, 19 ], dim L(D_q) = 1 (291.060 s)
+[291.060 s] === 1.47.26.a
+[291.070 s] point: X_1(1,47), residue field degree 26
+[292.780 s] q = 3: D_q = 3 places of degrees [ 6, 6, 14 ], dim L(D_q) = 1 (292.780 s)
+[292.780 s] === 1.47.26.b
+[292.790 s] point: X_1(1,47), residue field degree 26
+[294.560 s] q = 3: D_q = 2 places of degrees [ 6, 20 ], dim L(D_q) = 1 (294.560 s)
+[294.560 s] === 1.47.26.c
+[294.570 s] point: X_1(1,47), residue field degree 26
+[295.870 s] q = 3: D_q = 1 places of degrees [ 26 ], dim L(D_q) = 1 (295.870 s)
+[295.870 s] === 1.47.26.d
+[295.870 s] point: X_1(1,47), residue field degree 26
+[297.210 s] q = 3: D_q = 1 places of degrees [ 26 ], dim L(D_q) = 1 (297.210 s)
+[297.210 s] === 1.47.26.e
+[297.220 s] point: X_1(1,47), residue field degree 26
+[299.030 s] q = 3: D_q = 2 places of degrees [ 13, 13 ], dim L(D_q) = 1 (299.030 s)
+[299.030 s] === 1.47.26.f
+[299.040 s] point: X_1(1,47), residue field degree 26
+[300.430 s] q = 3: D_q = 1 places of degrees [ 26 ], dim L(D_q) = 1 (300.430 s)
+[300.430 s] === 1.47.26.g
+[300.440 s] point: X_1(1,47), residue field degree 26
+[301.810 s] q = 3: D_q = 1 places of degrees [ 26 ], dim L(D_q) = 1 (301.810 s)
+[301.810 s] === 1.47.26.h
+[301.810 s] point: X_1(1,47), residue field degree 26
+[303.550 s] q = 3: D_q = 2 places of degrees [ 7, 19 ], dim L(D_q) = 1 (303.550 s)
+[303.550 s] === 1.47.26.i
+[303.560 s] point: X_1(1,47), residue field degree 26
+[304.890 s] q = 3: D_q = 2 places of degrees [ 6, 20 ], dim L(D_q) = 1 (304.890 s)
+[304.890 s] === 1.47.26.j
+[304.890 s] point: X_1(1,47), residue field degree 26
+[306.840 s] q = 3: D_q = 3 places of degrees [ 8, 9, 9 ], dim L(D_q) = 1 (306.840 s)
+[306.840 s] === 1.47.26.k
+[306.840 s] point: X_1(1,47), residue field degree 26
+[307.980 s] q = 3: D_q = 1 places of degrees [ 26 ], dim L(D_q) = 1 (307.980 s)
+[307.980 s] === 1.47.26.l
+[307.980 s] point: X_1(1,47), residue field degree 26
+[309.140 s] q = 3: D_q = 1 places of degrees [ 26 ], dim L(D_q) = 1 (309.140 s)
+[309.140 s] === 1.47.26.m
+[309.150 s] point: X_1(1,47), residue field degree 26
+[311.240 s] q = 3: D_q = 3 places of degrees [ 6, 9, 11 ], dim L(D_q) = 1 (311.240 s)
+[311.240 s] === 1.47.26.n
+[311.250 s] point: X_1(1,47), residue field degree 26
+[312.520 s] q = 3: D_q = 2 places of degrees [ 6, 20 ], dim L(D_q) = 1 (312.520 s)
+[312.520 s] === 1.47.26.o
+[312.530 s] point: X_1(1,47), residue field degree 26
+[313.920 s] q = 3: D_q = 2 places of degrees [ 8, 18 ], dim L(D_q) = 1 (313.920 s)
+[313.920 s] === 1.47.26.p
+[313.920 s] point: X_1(1,47), residue field degree 26
+[315.120 s] q = 3: D_q = 1 places of degrees [ 26 ], dim L(D_q) = 1 (315.120 s)
+[315.120 s] === 1.47.26.q
+[315.120 s] point: X_1(1,47), residue field degree 26
+[316.860 s] q = 3: D_q = 2 places of degrees [ 12, 14 ], dim L(D_q) = 1 (316.860 s)
+[316.860 s] === 1.47.26.r
+[316.870 s] point: X_1(1,47), residue field degree 26
+[318.340 s] q = 3: D_q = 2 places of degrees [ 10, 16 ], dim L(D_q) = 1 (318.340 s)
+[318.340 s] === 1.47.26.s
+[318.340 s] point: X_1(1,47), residue field degree 26
+[319.740 s] q = 3: D_q = 1 places of degrees [ 26 ], dim L(D_q) = 1 (319.740 s)
+[319.740 s] === 1.47.26.t
+[319.740 s] point: X_1(1,47), residue field degree 26
+[321.580 s] q = 3: D_q = 2 places of degrees [ 13, 13 ], dim L(D_q) = 1 (321.580 s)
+[321.580 s] === 1.47.27.a
+[321.580 s] point: X_1(1,47), residue field degree 27
+[323.330 s] q = 3: D_q = 2 places of degrees [ 7, 20 ], dim L(D_q) = 1 (323.330 s)
+[323.330 s] === 1.47.27.b
+[323.340 s] point: X_1(1,47), residue field degree 27
+[324.610 s] q = 3: D_q = 1 places of degrees [ 27 ], dim L(D_q) = 1 (324.610 s)
+[324.610 s] === 1.47.27.c
+[324.620 s] point: X_1(1,47), residue field degree 27
+[326.420 s] q = 3: D_q = 3 places of degrees [ 7, 7, 13 ], dim L(D_q) = 1 (326.420 s)
+[326.420 s] === 1.47.27.d
+[326.420 s] point: X_1(1,47), residue field degree 27
+[327.410 s] q = 3: D_q = 1 places of degrees [ 27 ], dim L(D_q) = 1 (327.410 s)
+[327.410 s] === 1.47.27.e
+[327.420 s] point: X_1(1,47), residue field degree 27
+[328.820 s] q = 3: D_q = 2 places of degrees [ 12, 15 ], dim L(D_q) = 1 (328.820 s)
+[328.820 s] === 1.47.27.f
+[328.820 s] point: X_1(1,47), residue field degree 27
+[330.170 s] q = 3: D_q = 2 places of degrees [ 13, 14 ], dim L(D_q) = 1 (330.170 s)
+[330.170 s] === 1.47.27.g
+[330.180 s] point: X_1(1,47), residue field degree 27
+[332.020 s] q = 3: D_q = 2 places of degrees [ 7, 20 ], dim L(D_q) = 1 (332.020 s)
+[332.020 s] === 1.47.27.h
+[332.020 s] point: X_1(1,47), residue field degree 27
+[334.110 s] q = 3: D_q = 3 places of degrees [ 6, 8, 13 ], dim L(D_q) = 1 (334.110 s)
+[334.110 s] === 1.47.27.i
+[334.120 s] point: X_1(1,47), residue field degree 27
+[335.650 s] q = 3: D_q = 1 places of degrees [ 27 ], dim L(D_q) = 1 (335.650 s)
+[335.650 s] === 1.47.27.j
+[335.650 s] point: X_1(1,47), residue field degree 27
+[336.940 s] q = 3: D_q = 1 places of degrees [ 27 ], dim L(D_q) = 1 (336.940 s)
+[336.940 s] === 1.47.27.k
+[336.950 s] point: X_1(1,47), residue field degree 27
+[338.340 s] q = 3: D_q = 1 places of degrees [ 27 ], dim L(D_q) = 1 (338.340 s)
+[338.340 s] === 1.47.27.l
+[338.350 s] point: X_1(1,47), residue field degree 27
+[339.670 s] q = 3: D_q = 1 places of degrees [ 27 ], dim L(D_q) = 1 (339.670 s)
+[339.670 s] === 1.47.27.m
+[339.680 s] point: X_1(1,47), residue field degree 27
+[341.070 s] q = 3: D_q = 1 places of degrees [ 27 ], dim L(D_q) = 1 (341.070 s)
+[341.070 s] === 1.47.27.n
+[341.080 s] point: X_1(1,47), residue field degree 27
+[342.810 s] q = 3: D_q = 2 places of degrees [ 8, 19 ], dim L(D_q) = 1 (342.810 s)
+[342.810 s] === 1.47.27.o
+[342.810 s] point: X_1(1,47), residue field degree 27
+[344.130 s] q = 3: D_q = 2 places of degrees [ 13, 14 ], dim L(D_q) = 1 (344.130 s)
+[344.130 s] === 1.47.27.p
+[344.130 s] point: X_1(1,47), residue field degree 27
+[345.160 s] q = 3: D_q = 1 places of degrees [ 27 ], dim L(D_q) = 1 (345.160 s)
+[345.160 s] === 1.47.27.q
+[345.170 s] point: X_1(1,47), residue field degree 27
+[346.620 s] q = 3: D_q = 2 places of degrees [ 6, 21 ], dim L(D_q) = 1 (346.620 s)
+[346.620 s] === 1.47.27.r
+[346.620 s] point: X_1(1,47), residue field degree 27
+[348.270 s] q = 3: D_q = 2 places of degrees [ 10, 17 ], dim L(D_q) = 1 (348.270 s)
+[348.270 s] === 1.47.27.s
+[348.270 s] point: X_1(1,47), residue field degree 27
+[350.150 s] q = 3: D_q = 2 places of degrees [ 10, 17 ], dim L(D_q) = 1 (350.150 s)
+[350.150 s] === 1.47.28.a
+[350.150 s] point: X_1(1,47), residue field degree 28
+[352.000 s] q = 3: D_q = 2 places of degrees [ 12, 16 ], dim L(D_q) = 1 (352.000 s)
+[352.000 s] === 1.47.28.aa
+[352.010 s] point: X_1(1,47), residue field degree 28
+[353.660 s] q = 3: D_q = 2 places of degrees [ 6, 22 ], dim L(D_q) = 1 (353.660 s)
+[353.660 s] === 1.47.28.b
+[353.670 s] point: X_1(1,47), residue field degree 28
+[356.040 s] q = 3: D_q = 4 places of degrees [ 6, 6, 8, 8 ], dim L(D_q) = 1 (356.040 s)
+[356.050 s] === 1.47.28.c
+[356.050 s] point: X_1(1,47), residue field degree 28
+[357.210 s] q = 3: D_q = 1 places of degrees [ 28 ], dim L(D_q) = 1 (357.210 s)
+[357.210 s] === 1.47.28.d
+[357.210 s] point: X_1(1,47), residue field degree 28
+[358.560 s] q = 3: D_q = 2 places of degrees [ 7, 21 ], dim L(D_q) = 1 (358.560 s)
+[358.560 s] === 1.47.28.e
+[358.560 s] point: X_1(1,47), residue field degree 28
+[359.650 s] q = 3: D_q = 1 places of degrees [ 28 ], dim L(D_q) = 1 (359.650 s)
+[359.660 s] === 1.47.28.f
+[359.660 s] point: X_1(1,47), residue field degree 28
+[361.020 s] q = 3: D_q = 2 places of degrees [ 7, 21 ], dim L(D_q) = 1 (361.020 s)
+[361.020 s] === 1.47.28.g
+[361.030 s] point: X_1(1,47), residue field degree 28
+[362.720 s] q = 3: D_q = 2 places of degrees [ 9, 19 ], dim L(D_q) = 1 (362.720 s)
+[362.730 s] === 1.47.28.h
+[362.730 s] point: X_1(1,47), residue field degree 28
+[364.570 s] q = 3: D_q = 2 places of degrees [ 7, 21 ], dim L(D_q) = 1 (364.570 s)
+[364.570 s] === 1.47.28.i
+[364.580 s] point: X_1(1,47), residue field degree 28
+[366.810 s] q = 3: D_q = 3 places of degrees [ 6, 9, 13 ], dim L(D_q) = 1 (366.810 s)
+[366.810 s] === 1.47.28.j
+[366.810 s] point: X_1(1,47), residue field degree 28
+[368.200 s] q = 3: D_q = 1 places of degrees [ 28 ], dim L(D_q) = 1 (368.200 s)
+[368.200 s] === 1.47.28.k
+[368.210 s] point: X_1(1,47), residue field degree 28
+[370.390 s] q = 3: D_q = 3 places of degrees [ 6, 9, 13 ], dim L(D_q) = 1 (370.390 s)
+[370.390 s] === 1.47.28.l
+[370.390 s] point: X_1(1,47), residue field degree 28
+[371.330 s] q = 3: D_q = 1 places of degrees [ 28 ], dim L(D_q) = 1 (371.330 s)
+[371.330 s] === 1.47.28.m
+[371.330 s] point: X_1(1,47), residue field degree 28
+[373.020 s] q = 3: D_q = 3 places of degrees [ 7, 10, 11 ], dim L(D_q) = 1 (373.020 s)
+[373.020 s] === 1.47.28.n
+[373.030 s] point: X_1(1,47), residue field degree 28
+[374.550 s] q = 3: D_q = 2 places of degrees [ 11, 17 ], dim L(D_q) = 1 (374.550 s)
+[374.550 s] === 1.47.28.o
+[374.560 s] point: X_1(1,47), residue field degree 28
+[376.150 s] q = 3: D_q = 2 places of degrees [ 6, 22 ], dim L(D_q) = 1 (376.150 s)
+[376.150 s] === 1.47.28.p
+[376.150 s] point: X_1(1,47), residue field degree 28
+[377.990 s] q = 3: D_q = 2 places of degrees [ 14, 14 ], dim L(D_q) = 1 (377.990 s)
+[377.990 s] === 1.47.28.q
+[378.000 s] point: X_1(1,47), residue field degree 28
+[379.740 s] q = 3: D_q = 2 places of degrees [ 9, 19 ], dim L(D_q) = 1 (379.740 s)
+[379.740 s] === 1.47.28.r
+[379.750 s] point: X_1(1,47), residue field degree 28
+[381.620 s] q = 3: D_q = 2 places of degrees [ 12, 16 ], dim L(D_q) = 1 (381.620 s)
+[381.620 s] === 1.47.28.s
+[381.630 s] point: X_1(1,47), residue field degree 28
+[383.640 s] q = 3: D_q = 3 places of degrees [ 6, 10, 12 ], dim L(D_q) = 1 (383.640 s)
+[383.640 s] === 1.47.28.t
+[383.640 s] point: X_1(1,47), residue field degree 28
+[385.270 s] q = 3: D_q = 2 places of degrees [ 9, 19 ], dim L(D_q) = 1 (385.270 s)
+[385.270 s] === 1.47.28.u
+[385.270 s] point: X_1(1,47), residue field degree 28
+[386.720 s] q = 3: D_q = 2 places of degrees [ 6, 22 ], dim L(D_q) = 1 (386.720 s)
+[386.720 s] === 1.47.28.v
+[386.720 s] point: X_1(1,47), residue field degree 28
+[388.110 s] q = 3: D_q = 2 places of degrees [ 7, 21 ], dim L(D_q) = 1 (388.110 s)
+[388.110 s] === 1.47.28.w
+[388.110 s] point: X_1(1,47), residue field degree 28
+[389.440 s] q = 3: D_q = 1 places of degrees [ 28 ], dim L(D_q) = 1 (389.440 s)
+[389.440 s] === 1.47.28.x
+[389.450 s] point: X_1(1,47), residue field degree 28
+[391.370 s] q = 3: D_q = 2 places of degrees [ 13, 15 ], dim L(D_q) = 1 (391.370 s)
+[391.370 s] === 1.47.28.y
+[391.380 s] point: X_1(1,47), residue field degree 28
+[392.820 s] q = 3: D_q = 2 places of degrees [ 6, 22 ], dim L(D_q) = 1 (392.820 s)
+[392.820 s] === 1.47.28.z
+[392.820 s] point: X_1(1,47), residue field degree 28
+[394.440 s] q = 3: D_q = 2 places of degrees [ 13, 15 ], dim L(D_q) = 1 (394.440 s)
+[394.450 s] BATCH_DONE
