@@ -230,7 +230,7 @@
     "github": "F-Najman",
     "affiliation": ""
   },
-  "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+  "reference": "F. Najman, Torsion of elliptic curves over number fields of degree 10 (2026), https://hexagonmath.org/2611.00234v1, Proposition 11.7.",
   "notes": "An explicit degree-10 point on X1(6,12), of relative degree 5 over Q(zeta_6). The full torsion is C6 x C12: the displayed generators have exact orders 6 and 12 and Weil pairing e_6(P,2Q) of order 6; good unramified degree-one reduction at 61, with a mapping to 23 in F_61, has 72 points. The field, points, pairing and reduction were also checked independently in Sage. Sporadicity follows from rank zero (Derickx-Sutherland, Theorem 4.1) and gonality at least 6 over Q(zeta_6) (Najman-Varivoda, Table 1), greater than relative degree 5. One representative is recorded following the census convention for level structures.",
   "source": {},
   "dates": {

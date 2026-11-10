@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06 07:00 UTC",
+  "generated": "2026-11-10 06:42 UTC",
   "m": 3,
   "n": 15,
   "points": [
@@ -60,7 +60,7 @@
       "discovered_by": "F. Najman",
       "year": 2026,
       "submitter": "Filip Najman",
-      "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+      "reference": "F. Najman, Torsion of elliptic curves over number fields of degree 10 (2026), https://hexagonmath.org/2611.00234v1, Proposition 11.10.",
       "verified": "2026-10-29 14:19:20 UTC"
     }
   ]

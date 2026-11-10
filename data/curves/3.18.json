@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31 12:22 UTC",
+  "generated": "2026-11-10 06:42 UTC",
   "m": 3,
   "n": 18,
   "points": [
@@ -30,7 +30,7 @@
       "discovered_by": "F. Najman",
       "year": 2026,
       "submitter": "Filip Najman",
-      "reference": "F. Najman, degree-10 torsion computations (2026), unpublished. Sporadicity: Derickx-Sutherland, Theorem 4.1; Najman-Varivoda, Table 1.",
+      "reference": "F. Najman, Torsion of elliptic curves over number fields of degree 10 (2026), https://hexagonmath.org/2611.00234v1, Proposition 11.18. Sporadicity: Derickx-Sutherland, Theorem 4.1; Najman-Varivoda, Table 1.",
       "verified": "2026-10-31 12:21:08 UTC"
     },
     {
@@ -60,7 +60,7 @@
       "discovered_by": "F. Najman",
       "year": 2026,
       "submitter": "Filip Najman",
-      "reference": "F. Najman, degree-10 torsion computations (2026), unpublished. Sporadicity: Derickx-Sutherland, Theorem 4.1; Najman-Varivoda, Table 1.",
+      "reference": "F. Najman, Torsion of elliptic curves over number fields of degree 10 (2026), https://hexagonmath.org/2611.00234v1, Proposition 11.18. Sporadicity: Derickx-Sutherland, Theorem 4.1; Najman-Varivoda, Table 1.",
       "verified": "2026-10-31 12:21:08 UTC"
     }
   ]

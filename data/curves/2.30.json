@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29 14:20 UTC",
+  "generated": "2026-11-10 06:42 UTC",
   "m": 2,
   "n": 30,
   "points": [
@@ -30,7 +30,7 @@
       "discovered_by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
       "year": 2026,
       "submitter": "Filip Najman",
-      "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+      "reference": "F. Najman, Torsion of elliptic curves over number fields of degree 10 (2026), https://hexagonmath.org/2611.00234v1, Proposition 3.5.",
       "verified": "2026-10-29 14:19:20 UTC"
     },
     {
@@ -60,7 +60,7 @@
       "discovered_by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
       "year": 2026,
       "submitter": "Filip Najman",
-      "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+      "reference": "F. Najman, Torsion of elliptic curves over number fields of degree 10 (2026), https://hexagonmath.org/2611.00234v1, the remark after Proposition 3.5.",
       "verified": "2026-10-29 14:19:20 UTC"
     }
   ]
