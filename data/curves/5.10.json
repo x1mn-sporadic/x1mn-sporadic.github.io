@@ -1,0 +1,37 @@
+{
+  "generated": "2026-11-10 09:23 UTC",
+  "m": 5,
+  "n": 10,
+  "points": [
+    {
+      "id": "5.10.8.a",
+      "m": 5,
+      "n": 10,
+      "degree": 8,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": true,
+      "field_poly": "x^8 - x^6 + x^4 - x^2 + 1",
+      "field_disc": "4000000",
+      "j_rational": "1728",
+      "torsion": [
+        5,
+        10
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(5,10) has only finitely many points of absolute degree 8",
+        "sporadic": "finitely many points of each absolute degree <= 8 on X_1(5,10)",
+        "isolated": "finitely many points of absolute degree 8 on X_1(5,10), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "P. L. Clark, P. Corn, A. Rice, J. Stankewicz",
+      "year": 2014,
+      "submitter": "Filip Najman",
+      "reference": "P. L. Clark, P. Corn, A. Rice, J. Stankewicz, Computation on elliptic curves with complex multiplication, LMS J. Comput. Math. 17 (2014), 509-535, Section 4.8; explicit points: F. Najman, Torsion of elliptic curves over number fields of degree 6, 7, 8 and 9 (2026), https://hexagonmath.org/2611.00073v2, Proposition 13.4.",
+      "verified": "2026-11-10 09:22:59 UTC"
+    }
+  ]
+}

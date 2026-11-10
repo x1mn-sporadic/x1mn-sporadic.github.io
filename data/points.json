@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02 13:13 UTC",
+  "generated": "2026-11-10 09:23 UTC",
   "points": [
     {
       "id": "1.21.3.a",
@@ -43741,6 +43741,23 @@
       "isolated": "yes",
       "discovered_by": "F. Najman",
       "year": 2026
+    },
+    {
+      "id": "5.10.8.a",
+      "m": 5,
+      "n": 10,
+      "degree": 8,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": true,
+      "field_poly": "x^8 - x^6 + x^4 - x^2 + 1",
+      "field_disc": "4000000",
+      "j_rational": "1728",
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "discovered_by": "P. L. Clark, P. Corn, A. Rice, J. Stankewicz",
+      "year": 2014
     },
     {
       "id": "6.12.10.a",

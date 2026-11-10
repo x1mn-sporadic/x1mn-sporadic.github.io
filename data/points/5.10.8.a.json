@@ -1,0 +1,249 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "5.10.8.a",
+  "m": 5,
+  "n": 10,
+  "degree": 8,
+  "relative_degree": 2,
+  "base_field": "Q(zeta_5)",
+  "status": "certified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "no",
+      "rule": "X_1(5,10) has only finitely many points of absolute degree 8",
+      "sources": [
+        "NV26"
+      ]
+    },
+    "sporadic": {
+      "value": "yes",
+      "rule": "finitely many points of each absolute degree <= 8 on X_1(5,10)",
+      "sources": [
+        "JKP06",
+        "NV26"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "finitely many points of absolute degree 8 on X_1(5,10), so the point lies in no positive-dimensional family",
+      "sources": [
+        "NV26",
+        "BELOV"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": false,
+    "p1_isolated": null,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "note": "not attempted (--no-isolation)"
+  },
+  "discovery": {
+    "by": "P. L. Clark, P. Corn, A. Rice, J. Stankewicz",
+    "year": 2014
+  },
+  "credits": {},
+  "field": {
+    "poly": "x^8 - x^6 + x^4 - x^2 + 1",
+    "poly_coeffs": [
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1"
+    ],
+    "polredabs": "x^8 - x^6 + x^4 - x^2 + 1",
+    "degree": 8,
+    "disc": "4000000",
+    "disc_factored": "2^8 * 5^6",
+    "signature": [
+      0,
+      4
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "1/25*(4*a^5 - 3)",
+    "tate_c": "1/5*(a^5 - 2)",
+    "tate_b_coeffs": [
+      "-3/25",
+      "0",
+      "0",
+      "0",
+      "0",
+      "4/25",
+      "0",
+      "0"
+    ],
+    "tate_c_coeffs": [
+      "-2/5",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1/5",
+      "0",
+      "0"
+    ],
+    "ainvs": [
+      "1 - (1/5*(a^5 - 2))",
+      "-(1/25*(4*a^5 - 3))",
+      "-(1/25*(4*a^5 - 3))",
+      "0",
+      "0"
+    ],
+    "P": [
+      "1/25*(-4*a^6 + a^5 + a^4 + 7*a^3 - a^2 - 4*a - 6)",
+      "1/125*(13*a^7 + 22*a^6 - 18*a^5 - 20*a^4 - 15*a^3 + 29*a^2 + 11*a + 6)"
+    ],
+    "P_coeffs": [
+      [
+        "-6/25",
+        "-4/25",
+        "-1/25",
+        "7/25",
+        "1/25",
+        "1/25",
+        "-4/25",
+        "0"
+      ],
+      [
+        "6/125",
+        "11/125",
+        "29/125",
+        "-3/25",
+        "-4/25",
+        "-18/125",
+        "22/125",
+        "13/125"
+      ]
+    ],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x - 1728",
+    "j_degree": 1,
+    "j_rational": "1728",
+    "cm": true,
+    "cm_disc": -4,
+    "twist_norm_class": "",
+    "disc_norm": "244140625",
+    "conductor_norm": "1"
+  },
+  "torsion": {
+    "invariants": [
+      5,
+      10
+    ],
+    "known_exactly": true,
+    "order_bound": 50,
+    "bound_primes": [
+      3,
+      3,
+      7,
+      7,
+      11,
+      11,
+      11,
+      11,
+      13,
+      13,
+      17,
+      17,
+      19,
+      19,
+      19,
+      19,
+      23,
+      23,
+      29,
+      29,
+      29,
+      29,
+      31,
+      31,
+      31,
+      31,
+      37,
+      37,
+      41
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^8 - x^6 + x^4 - x^2 + 1",
+      "degree": 8
+    },
+    "mode": "ainvs",
+    "curve": {
+      "ainvs": [
+        "1 - a^5",
+        "-a^5",
+        "-a^5",
+        "0",
+        "0"
+      ]
+    },
+    "points": {
+      "P": [
+        "-1 + a^2 + a^3 - a^4",
+        "-1 + a^4 - a^7"
+      ],
+      "Q": [
+        "1 + a^5",
+        "-2"
+      ]
+    },
+    "ainvs_as_verified": [
+      "-a^5 + 1",
+      "-a^5",
+      "-a^5",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "-a^4 + a^3 + a^2 - 1",
+        "-a^7 + a^4 - 1"
+      ],
+      "Q": [
+        "a^5 + 1",
+        "-2"
+      ],
+      "order_P": 5,
+      "order_Q": 10
+    },
+    "working_field": {
+      "poly": "x^8 - x^6 + x^4 - x^2 + 1",
+      "degree": 8
+    },
+    "claimed_degree": 8,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Filip Najman",
+    "github": "F-Najman",
+    "affiliation": ""
+  },
+  "reference": "P. L. Clark, P. Corn, A. Rice, J. Stankewicz, Computation on elliptic curves with complex multiplication, LMS J. Comput. Math. 17 (2014), 509-535, Section 4.8; explicit points: F. Najman, Torsion of elliptic curves over number fields of degree 6, 7, 8 and 9 (2026), https://hexagonmath.org/2611.00073v2, Proposition 13.4.",
+  "notes": "The CM curve y^2 + (1-i)xy - iy = x^3 - ix^2 (j = 1728) over K = Q(zeta_20) = Q(a), i = a^5, with P of order 5 and Q of order 10; the Weil pairing e_5(P,2Q) = -a^6 is a primitive fifth root of unity. E(K)_tors = Z/5 x Z/10: the reductions at the primes (41, a-2) and (61, a-8) are good with 50 points each. Relative degree 2 over Q(zeta_5). Z/5 x Z/10 is a sporadic torsion group in degree 8; it is not known whether this is the only octic curve with this torsion group.",
+  "source": {},
+  "dates": {
+    "submitted": "2026-11-10",
+    "verified": "2026-11-10 09:22:59 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.30-1",
+    "cputime_seconds": "0.0900000",
+    "verify_lib_sha256": "7b19e3206e1dbc910f4c97b142a0b69f69b0507808c5cbab2a0d723f3ef84683",
+    "log": "data/logs/5.10.8.a.log",
+    "isolation_log": ""
+  }
+}
