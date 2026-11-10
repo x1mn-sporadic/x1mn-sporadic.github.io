@@ -1,0 +1,33 @@
+{
+ "schema": "x1mn-sporadic/submission/1",
+ "m": 5,
+ "n": 10,
+ "field": "x^8 - x^6 + x^4 - x^2 + 1",
+ "curve": {
+  "ainvs": [
+   "1 - a^5",
+   "-a^5",
+   "-a^5",
+   "0",
+   "0"
+  ]
+ },
+ "points": {
+  "P": [
+   "-1 + a^2 + a^3 - a^4",
+   "-1 + a^4 - a^7"
+  ],
+  "Q": [
+   "1 + a^5",
+   "-2"
+  ]
+ },
+ "degree": 8,
+ "submitter": "Filip Najman",
+ "github": "F-Najman",
+ "discoverer": "P. L. Clark, P. Corn, A. Rice, J. Stankewicz",
+ "year": 2014,
+ "reference": "P. L. Clark, P. Corn, A. Rice, J. Stankewicz, Computation on elliptic curves with complex multiplication, LMS J. Comput. Math. 17 (2014), 509-535, Section 4.8; explicit points: F. Najman, Torsion of elliptic curves over number fields of degree 6, 7, 8 and 9 (2026), https://hexagonmath.org/2611.00073v2, Proposition 13.4.",
+ "date": "2026-11-10",
+ "notes": "The CM curve y^2 + (1-i)xy - iy = x^3 - ix^2 (j = 1728) over K = Q(zeta_20) = Q(a), i = a^5, with P of order 5 and Q of order 10; the Weil pairing e_5(P,2Q) = -a^6 is a primitive fifth root of unity. E(K)_tors = Z/5 x Z/10: the reductions at the primes (41, a-2) and (61, a-8) are good with 50 points each. Relative degree 2 over Q(zeta_5). Z/5 x Z/10 is a sporadic torsion group in degree 8; it is not known whether this is the only octic curve with this torsion group."
+}
