@@ -220,7 +220,7 @@
     "github": "F-Najman",
     "affiliation": ""
   },
-  "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+  "reference": "F. Najman, Torsion of elliptic curves over number fields of degree 10 (2026), https://hexagonmath.org/2611.00234v1, Proposition 11.10.",
   "notes": "An explicit degree-10 point on X1(3,15); relative degree 5 over Q(zeta_3). The full torsion is C3 x C15, verified by exact point orders and independence and by good unramified degree-one reduction at 43, where the elliptic curve has 45 points. The j-invariant has degree 5. Sporadicity follows from rank zero and gonality 6 over Q(zeta_3), greater than relative degree 5. One representative per isomorphism class of (K,E), following the verifier deduplication convention. This record does not claim 48 distinct census entries for the 48 closed points with level structures.",
   "source": {},
   "dates": {

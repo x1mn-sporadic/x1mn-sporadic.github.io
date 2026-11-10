@@ -218,7 +218,7 @@
     "github": "F-Najman",
     "affiliation": ""
   },
-  "reference": "F. Najman, degree-10 torsion computations (2026), unpublished.",
+  "reference": "F. Najman, Torsion of elliptic curves over number fields of degree 10 (2026), https://hexagonmath.org/2611.00234v1, Proposition 11.24.",
   "notes": "One of the two Galois and level orbits of degree-10 points on X1(2,26), obtained by resolving the two residual rational divisor classes in the decic torsion computations. This is the representative from class 30. The displayed points have exact orders 2 and 26 and are independent. Full torsion C2 x C26 is proved by a good unramified degree-one reduction of order 52 at 41, independently checked in Sage and Magma. The j-invariant has degree 5; its quintic minimal polynomial differs from that of the other representative. Sporadicity follows from rank zero (Derickx-Sutherland, Theorem 4.1) and gonality at least 12 over Q (Najman-Varivoda, Table 1), greater than degree 10. One representative per isomorphism class of (K,E), following the census convention.",
   "source": {},
   "dates": {
