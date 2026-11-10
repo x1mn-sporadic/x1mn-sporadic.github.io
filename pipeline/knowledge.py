@@ -122,6 +122,55 @@ SOURCES = {
         "transcribed_from": "https://hexagonmath.org/pdf/2610.00219v1, page 2, Theorem D; the upper "
                             "bounds were already proved by Derickx-van Hoeij 2014",
     },
+    "Najman16": {
+        "short": "Najman 2016",
+        "cite": "F. Najman, Torsion of rational elliptic curves over cubic fields and sporadic points on X_1(n), "
+                "Math. Res. Lett. 23 (2016), 245-272.",
+        "used_for": "the cubic point on X_1(21): the curve 162.c3 over Q(zeta_9)^+ (completeness section of the by-degree page)",
+        "transcribed_from": "the bibliography and introduction of arXiv:2609.12846",
+    },
+    "DEvHMZB21": {
+        "short": "Derickx–Etropolski–van Hoeij–Morrow–Zureick-Brown 2021",
+        "cite": "M. Derickx, A. Etropolski, M. van Hoeij, J. S. Morrow, D. Zureick-Brown, Sporadic cubic torsion, "
+                "Algebra Number Theory 15 (2021), 1837-1864.",
+        "used_for": "Phi(3): the only sporadic torsion group in degree 3 is Z/21, realized by a single curve "
+                    "(completeness section of the by-degree page)",
+        "transcribed_from": "the introductions of arXiv:2609.12846 and hexagon:2611.00073v2",
+    },
+    "DN25": {
+        "short": "Derickx–Najman 2025",
+        "cite": "M. Derickx, F. Najman, Classification of torsion of elliptic curves over quartic fields, "
+                "J. Reine Angew. Math. 829 (2025), 123-156.",
+        "used_for": "Phi(4) = Phi^infty(4) (completeness section of the by-degree page)",
+        "transcribed_from": "the introductions of arXiv:2609.12846 and hexagon:2611.00073v2",
+    },
+    "Najman26quintic": {
+        "short": "Najman 2026 (degree 5)",
+        "cite": "F. Najman, Classification of torsion of elliptic curves over quintic fields, arXiv:2609.12846 (2026).",
+        "url": "https://arxiv.org/abs/2609.12846",
+        "used_for": "Phi(5); all quintic curves with torsion Z/28, Z/30, Z/2 x Z/18 (Theorems 1.1-1.3, Corollary 1.4) "
+                    "(completeness section of the by-degree page)",
+        "transcribed_from": "TeX source of the paper (overleaf_degree5_torsion/main.tex), Section 1",
+    },
+    "Najman26deg6to9": {
+        "short": "Najman 2026 (degrees 6–9)",
+        "cite": "F. Najman, Torsion of elliptic curves over number fields of degree 6, 7, 8 and 9, "
+                "Hexagon preprint 2611.00073v2 (2026).",
+        "url": "https://hexagonmath.org/2611.00073v2",
+        "used_for": "Phi(6), ..., Phi(9) and the sporadic torsion groups in these degrees (Theorem 1.1); all the curves "
+                    "for 13 of the 24 pairs (degree, sporadic group) (Theorem 1.2, Table 5); the octic Z/5 x Z/10 curve "
+                    "(Proposition 13.4) (completeness section of the by-degree page)",
+        "transcribed_from": "https://hexagonmath.org/pdf/2611.00073v2, pages 1-4 and Section 13",
+    },
+    "Najman26deg10": {
+        "short": "Najman 2026 (degree 10)",
+        "cite": "F. Najman, Torsion of elliptic curves over number fields of degree 10, "
+                "Hexagon preprint 2611.00234v1 (2026).",
+        "url": "https://hexagonmath.org/2611.00234v1",
+        "used_for": "Phi(10), the 50 groups known to lie in Phi^infty(10), and all the curves for Z/2 x Z/26, Z/3 x Z/15, "
+                    "Z/3 x Z/18, Z/6 x Z/12 (Theorems 1.1, 1.2) (completeness section of the by-degree page)",
+        "transcribed_from": "https://hexagonmath.org/pdf/2611.00234v1, pages 1-3",
+    },
     "Najman2026": {
         "short": "Najman 2026 (unpublished)",
         "cite": "F. Najman, computations recorded in the tables tables/X1_N.csv and tables/X1_2_N.csv of "
