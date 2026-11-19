@@ -165,11 +165,11 @@ SOURCES = {
     "Najman26deg10": {
         "short": "Najman 2026 (degree 10)",
         "cite": "F. Najman, Torsion of elliptic curves over number fields of degree 10, "
-                "Hexagon preprint 2611.00234v1 (2026).",
-        "url": "https://hexagonmath.org/2611.00234v1",
+                "Hexagon preprint 2611.00234v2 (2026).",
+        "url": "https://hexagonmath.org/2611.00234v2",
         "used_for": "Phi(10), the 50 groups known to lie in Phi^infty(10), and all the curves for Z/2 x Z/26, Z/3 x Z/15, "
                     "Z/3 x Z/18, Z/6 x Z/12 (Theorems 1.1, 1.2) (completeness section of the by-degree page)",
-        "transcribed_from": "https://hexagonmath.org/pdf/2611.00234v1, pages 1-3",
+        "transcribed_from": "https://hexagonmath.org/pdf/2611.00234v2, pages 1-3",
     },
     "Najman2026": {
         "short": "Najman 2026 (unpublished)",
