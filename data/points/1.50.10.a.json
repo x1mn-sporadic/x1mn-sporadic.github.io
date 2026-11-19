@@ -10,29 +10,29 @@
   "classification": {
     "infinite_in_degree": {
       "value": "no",
-      "rule": "rank 0 and 10 < 15 <= gonality of X_1(50) over Q",
+      "rule": "X_1(50) has only finitely many points of degree 10",
       "sources": [
-        "RankZeroLemma",
-        "DvH14",
-        "Varivoda26"
+        "Najman26deg10"
       ]
     },
     "sporadic": {
       "value": "yes",
-      "rule": "finitely many points of degree <= 10: rank 0 and 10 < 15 <= gonality of X_1(50) over Q",
+      "rule": "finitely many points of each degree <= 10 on X_1(50)",
       "sources": [
-        "RankZeroLemma",
         "DvH14",
-        "Varivoda26"
+        "JKP06",
+        "JKS04",
+        "KKM",
+        "Mazur77",
+        "NV26",
+        "Najman26deg10"
       ]
     },
     "isolated": {
       "value": "yes",
       "rule": "finitely many points of degree 10 on X_1(50), so the point lies in no positive-dimensional family",
       "sources": [
-        "RankZeroLemma",
-        "DvH14",
-        "Varivoda26",
+        "Najman26deg10",
         "BELOV"
       ]
     }

@@ -10,29 +10,27 @@
   "classification": {
     "infinite_in_degree": {
       "value": "no",
-      "rule": "rank 0 and 5 < 6 <= gonality of X_1(3,15) over Q(zeta_3)",
+      "rule": "X_1(3,15) has only finitely many points of absolute degree 10",
       "sources": [
-        "RankZeroLemma",
-        "DS17",
-        "NV26"
+        "Najman26deg10"
       ]
     },
     "sporadic": {
       "value": "yes",
-      "rule": "finitely many points of absolute degree <= 10: rank 0 and 5 < 6 <= gonality of X_1(3,15) over Q(zeta_3)",
+      "rule": "finitely many points of each absolute degree <= 10 on X_1(3,15)",
       "sources": [
-        "RankZeroLemma",
         "DS17",
-        "NV26"
+        "JKP06",
+        "KKM",
+        "NV26",
+        "Najman26deg10"
       ]
     },
     "isolated": {
       "value": "yes",
       "rule": "finitely many points of absolute degree 10 on X_1(3,15), so the point lies in no positive-dimensional family",
       "sources": [
-        "RankZeroLemma",
-        "DS17",
-        "NV26",
+        "Najman26deg10",
         "BELOV"
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 15:42 UTC",
+  "generated": "2026-11-19 16:07 UTC",
   "m": 3,
   "n": 15,
   "points": [
@@ -53,8 +53,8 @@
       "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "rank 0 and 5 < 6 <= gonality of X_1(3,15) over Q(zeta_3)",
-        "sporadic": "finitely many points of absolute degree <= 10: rank 0 and 5 < 6 <= gonality of X_1(3,15) over Q(zeta_3)",
+        "infinite_in_degree": "X_1(3,15) has only finitely many points of absolute degree 10",
+        "sporadic": "finitely many points of each absolute degree <= 10 on X_1(3,15)",
         "isolated": "finitely many points of absolute degree 10 on X_1(3,15), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "F. Najman",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 15:42 UTC",
+  "generated": "2026-11-19 16:07 UTC",
   "m": 2,
   "n": 30,
   "points": [
@@ -8,7 +8,7 @@
       "m": 2,
       "n": 30,
       "degree": 10,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 5,
       "cm": false,
       "field_poly": "x^10 - 2*x^7 - 3*x^6 - 3*x^5 - 3*x^4 - 2*x^3 + 1",
@@ -19,13 +19,13 @@
         30
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
-      "isolated": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(2,30) has finitely many points of degree 10",
-        "sporadic": "finitely many points of degree 10 on X_1(2,30): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (no result)"
+        "infinite_in_degree": "X_1(2,30) has only finitely many points of degree 10",
+        "sporadic": "finitely many points of each degree <= 10 on X_1(2,30)",
+        "isolated": "finitely many points of degree 10 on X_1(2,30), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
       "year": 2026,
@@ -38,7 +38,7 @@
       "m": 2,
       "n": 30,
       "degree": 10,
-      "status": "verified",
+      "status": "certified",
       "j_degree": 5,
       "cm": false,
       "field_poly": "x^10 + x^8 + 3*x^6 - 3*x^2 + 1",
@@ -49,13 +49,13 @@
         30
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
-      "isolated": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(2,30) has finitely many points of degree 10",
-        "sporadic": "finitely many points of degree 10 on X_1(2,30): not decided by any recorded result",
-        "isolated": "dim L(x) not computed (no result)"
+        "infinite_in_degree": "X_1(2,30) has only finitely many points of degree 10",
+        "sporadic": "finitely many points of each degree <= 10 on X_1(2,30)",
+        "isolated": "finitely many points of degree 10 on X_1(2,30), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",
       "year": 2026,

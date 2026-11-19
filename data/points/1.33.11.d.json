@@ -17,7 +17,7 @@
       "value": "no",
       "rule": "not sporadic: X_1(33) has a function of degree 10 over Q (its gonality), hence infinitely many points of degree 10 by Hilbert irreducibility",
       "sources": [
-        "DvH14"
+        "Najman26deg10"
       ]
     },
     "isolated": {

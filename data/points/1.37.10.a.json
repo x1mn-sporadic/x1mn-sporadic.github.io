@@ -6,22 +6,33 @@
   "degree": 10,
   "relative_degree": 10,
   "base_field": "Q",
-  "status": "verified",
+  "status": "certified",
   "classification": {
     "infinite_in_degree": {
-      "value": "maybe",
-      "rule": "no recorded result decides whether X_1(37) has finitely many points of degree 10",
-      "sources": []
+      "value": "no",
+      "rule": "X_1(37) has only finitely many points of degree 10",
+      "sources": [
+        "Najman26deg10"
+      ]
     },
     "sporadic": {
-      "value": "maybe",
-      "rule": "finitely many points of degree 10 on X_1(37): not decided by any recorded result",
-      "sources": []
+      "value": "yes",
+      "rule": "finitely many points of each degree <= 10 on X_1(37)",
+      "sources": [
+        "DvH14",
+        "JKP06",
+        "JKS04",
+        "KKM",
+        "Mazur77",
+        "NV26",
+        "Najman26deg10"
+      ]
     },
     "isolated": {
-      "value": "maybe",
-      "rule": "dim L(x) = 1 (P^1-isolated), but the rank of the Jacobian is not known to be 0, so AV-isolation is undecided",
+      "value": "yes",
+      "rule": "finitely many points of degree 10 on X_1(37), so the point lies in no positive-dimensional family",
       "sources": [
+        "Najman26deg10",
         "BELOV"
       ]
     }
