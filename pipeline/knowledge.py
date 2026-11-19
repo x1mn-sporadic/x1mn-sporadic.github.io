@@ -167,8 +167,9 @@ SOURCES = {
         "cite": "F. Najman, Torsion of elliptic curves over number fields of degree 10, "
                 "Hexagon preprint 2611.00234v2 (2026).",
         "url": "https://hexagonmath.org/2611.00234v2",
-        "used_for": "Phi(10), the 50 groups known to lie in Phi^infty(10), and all the curves for Z/2 x Z/26, Z/3 x Z/15, "
-                    "Z/3 x Z/18, Z/6 x Z/12 (Theorems 1.1, 1.2) (completeness section of the by-degree page)",
+        "used_for": "Phi(10) and Phi^infty(10) (Theorems 1.1 and 1.3), and all the curves for Z/2 x Z/26, Z/3 x Z/15, "
+                    "Z/3 x Z/18, Z/6 x Z/12 (Theorem 1.2) (completeness section of the by-degree page; Phi^infty(10) also "
+                    "for the answers in absolute degree 10)",
         "transcribed_from": "https://hexagonmath.org/pdf/2611.00234v2, pages 1-3",
     },
     "Najman2026": {
@@ -237,7 +238,7 @@ SOURCES = {
 # ----------------------------------------------------------------------------
 # Phi^infty(d): the (m, n) [with n the full cyclic order] such that
 # Z/m x Z/n is the torsion subgroup of infinitely many non-isomorphic
-# elliptic curves over number fields of degree d.  Complete lists for d <= 6.
+# elliptic curves over number fields of degree d.  Complete lists for d <= 10.
 #
 # Transcribed from the TeX of arXiv:1608.07549:
 #   Phi(1)      = {(1,n): 1<=n<=12, n!=11} u {(2,2n): 1<=n<=4}                        (Mazur)
@@ -254,6 +255,10 @@ SOURCES = {
 #   Phi^inf(8)  = {(1,n): n in {1..28,30,32,36}} u {(2,2n): 1<=n<=12} u {(3,3n): 1<=n<=4}
 #                 u {(4,4n): 1<=n<=3} u {(5,5),(6,6)}
 #   Phi^inf(9)  = {(1,n): n in {1..28,30,36}} u {(2,2n): 1<=n<=12}
+# Transcribed from hexagon:2611.00234v2 (Najman), Theorem 1.3:
+#   Phi^inf(10) = {(1,n): n in {1..28,30,32,33,34,36}} u {(2,2n): 1<=n<=12} u {(3,3n): 1<=n<=4}
+#                 u {(4,4n): 1<=n<=3} u {(6,6)}
+# (closed under subgroups, like the lists above).
 # First appearance: the (1,n) parts of Phi^inf(d) for d = 5..8 are Theorem 3 of Derickx-van Hoeij
 # (DS17: "For d=5,6,7,8, the elements (1,n) in Phi^infty(d) were determined in [DvH13]"), so for m = 1
 # those degrees are credited to DvH14 and only the m >= 2 pairs to DS17 (d = 5, 6) or NV26 (d = 7, 8);
@@ -305,6 +310,11 @@ PHI_INFINITY = {
     9: {
         "source": "NV26", "source_m2": "NV26",
         "pairs": _pairs(1, list(range(1, 29)) + [30, 36]) + _pairs(2, range(1, 13)),
+    },
+    10: {
+        "source": "Najman26deg10", "source_m2": "Najman26deg10",
+        "pairs": _pairs(1, list(range(1, 29)) + [30, 32, 33, 34, 36]) + _pairs(2, range(1, 13))
+                 + _pairs(3, range(1, 5)) + _pairs(4, range(1, 4)) + [(6, 6)],
     },
 }
 
@@ -454,14 +464,14 @@ def degree_status(curve: dict, e: int) -> tuple:
     """('infinite' | 'finite' | 'unknown', rule, sources) for the points of degree e on the curve.
 
     Rules: (0) phi(m) does not divide e: no points at all (Weil pairing) -> finite;
-    (1) e in degrees_infinite (Phi^infty lists for e <= 9, e = exact gonality);
+    (1) e in degrees_infinite (Phi^infty lists for e <= 10, e = exact gonality);
     (2) e in degrees_finite (complement of the complete Phi^infty(e) lists);
     (3) Frey: 2 e' < gon_lb over the base field, e' = e/phi(m);
     (4) rank 0 over the base field and e' < gon_lb.
     Why (2) is valid: if X_1(m,n) had infinitely many closed points of degree e, they would give
     infinitely many non-isomorphic elliptic curves over degree-e fields whose torsion contains
     Z/m x Z/n (the map to the j-line has finite fibres), hence some torsion group G containing
-    Z/m x Z/n lies in Phi^infty(e); the lists for e <= 9 are closed under passing to subgroups,
+    Z/m x Z/n lies in Phi^infty(e); the lists for e <= 10 are closed under passing to subgroups,
     so (m,n) itself would be in Phi^infty(e).
     """
     m, n = curve["m"], curve["n"]

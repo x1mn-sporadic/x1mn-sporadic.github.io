@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 15:42 UTC",
+  "generated": "2026-11-19 16:07 UTC",
   "m": 2,
   "n": 28,
   "points": [
@@ -23,8 +23,8 @@
       "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "rank 0 and 10 < 12 <= gonality of X_1(2,28) over Q",
-        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(2,28) over Q",
+        "infinite_in_degree": "X_1(2,28) has only finitely many points of degree 10",
+        "sporadic": "finitely many points of each degree <= 10 on X_1(2,28)",
         "isolated": "finitely many points of degree 10 on X_1(2,28), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij (quintic curve); F. Najman (degree-10 lift)",

@@ -6,22 +6,35 @@
   "degree": 10,
   "relative_degree": 10,
   "base_field": "Q",
-  "status": "verified",
+  "status": "certified",
   "classification": {
     "infinite_in_degree": {
-      "value": "maybe",
-      "rule": "no recorded result decides whether X_1(2,30) has finitely many points of degree 10",
-      "sources": []
+      "value": "no",
+      "rule": "X_1(2,30) has only finitely many points of degree 10",
+      "sources": [
+        "Najman26deg10"
+      ]
     },
     "sporadic": {
-      "value": "maybe",
-      "rule": "finitely many points of degree 10 on X_1(2,30): not decided by any recorded result",
-      "sources": []
+      "value": "yes",
+      "rule": "finitely many points of each degree <= 10 on X_1(2,30)",
+      "sources": [
+        "DS17",
+        "JKP06",
+        "JKS04",
+        "KKM",
+        "Mazur77",
+        "NV26",
+        "Najman26deg10"
+      ]
     },
     "isolated": {
-      "value": "maybe",
-      "rule": "dim L(x) not computed (no result)",
-      "sources": []
+      "value": "yes",
+      "rule": "finitely many points of degree 10 on X_1(2,30), so the point lies in no positive-dimensional family",
+      "sources": [
+        "Najman26deg10",
+        "BELOV"
+      ]
     }
   },
   "isolation": {

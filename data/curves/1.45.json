@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26 11:35 UTC",
+  "generated": "2026-11-19 16:07 UTC",
   "m": 1,
   "n": 45,
   "points": [
@@ -22,8 +22,8 @@
       "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "rank 0 and 10 < 18 <= gonality of X_1(45) over Q",
-        "sporadic": "finitely many points of degree <= 10: rank 0 and 10 < 18 <= gonality of X_1(45) over Q",
+        "infinite_in_degree": "X_1(45) has only finitely many points of degree 10",
+        "sporadic": "finitely many points of each degree <= 10 on X_1(45)",
         "isolated": "finitely many points of degree 10 on X_1(45), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10 09:23 UTC",
+  "generated": "2026-11-19 16:07 UTC",
   "magma_version": "2.29-4",
   "conventions": {
     "curve": "X1(m,n), m | n, parametrises (E,P,Q) with <P,Q> = Z/m x Z/n; defined over Q(zeta_m)",
@@ -11,10 +11,10 @@
   },
   "n_curves": 165,
   "n_points": 2575,
-  "n_certified": 2305,
-  "n_verified": 270,
-  "n_sporadic": 330,
-  "n_isolated": 2305,
+  "n_certified": 2308,
+  "n_verified": 267,
+  "n_sporadic": 333,
+  "n_isolated": 2308,
   "n_rejected": 5,
   "curves": [
     {
@@ -419,7 +419,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -502,7 +503,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -548,7 +550,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -594,7 +597,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -640,7 +644,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -684,7 +689,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -732,7 +738,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -775,7 +782,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -823,7 +831,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -868,7 +877,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -916,7 +926,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -959,7 +970,8 @@
       "degrees_infinite": {
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1008,7 +1020,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1051,7 +1064,8 @@
       "degrees_infinite": {
         "5": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1101,7 +1115,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1147,7 +1162,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1193,7 +1209,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1251,7 +1268,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma"
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": true,
@@ -1293,7 +1310,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1350,7 +1368,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "",
@@ -1391,7 +1409,8 @@
         "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
-        "8": "DvH14"
+        "8": "DvH14",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1428,9 +1447,9 @@
         "lb": 10,
         "ub": 10,
         "exact": true,
-        "ub_source": "DvH14",
-        "lb_source": "DvH14",
-        "source": "DvH14"
+        "lb_source": "Najman26deg10",
+        "ub_source": "Najman26deg10",
+        "source": "Najman26deg10"
       },
       "rank": {
         "value": 0,
@@ -1439,7 +1458,7 @@
         "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
-        "10": "DvH14"
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1480,9 +1499,9 @@
         "lb": 10,
         "ub": 10,
         "exact": true,
-        "ub_source": "DvH14",
-        "lb_source": "DvH14",
-        "source": "DvH14"
+        "lb_source": "Najman26deg10",
+        "ub_source": "Najman26deg10",
+        "source": "Najman26deg10"
       },
       "rank": {
         "value": 0,
@@ -1491,7 +1510,7 @@
         "analytic_rank_source": "LMFDB"
       },
       "degrees_infinite": {
-        "10": "DvH14"
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1553,7 +1572,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "",
@@ -1596,7 +1615,8 @@
       },
       "degrees_infinite": {
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -1654,15 +1674,16 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": true,
       "n_points": 34,
-      "n_certified": 2,
-      "n_verified": 32,
-      "n_sporadic": 1,
-      "n_isolated": 2,
+      "n_certified": 3,
+      "n_verified": 31,
+      "n_sporadic": 2,
+      "n_isolated": 3,
       "degrees_present": [
         6,
         10,
@@ -1712,7 +1733,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "",
@@ -1763,7 +1784,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma"
@@ -1821,7 +1842,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "",
@@ -1876,7 +1897,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -1942,7 +1963,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "DT",
@@ -1996,7 +2017,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94"
       },
       "table_note": "cover search",
@@ -2045,7 +2066,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -2102,7 +2123,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -2165,7 +2186,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -2227,7 +2248,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94",
         "13": "Frey94",
@@ -2303,7 +2324,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -2362,7 +2383,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -2431,7 +2452,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -2489,7 +2510,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "abramovich",
@@ -2547,7 +2568,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -2600,7 +2622,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "cover search",
       "in_tables": true,
@@ -2645,7 +2668,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -2697,7 +2721,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -2759,7 +2783,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "abramovich",
@@ -2814,7 +2838,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "cover search",
       "in_tables": true,
@@ -2859,7 +2884,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "abramovich - we know that X1(58) has finitely many points of degree <= 10 because of X1(58)->X1(29)",
       "in_tables": true,
@@ -2905,7 +2931,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -2974,7 +3000,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "abramovich",
@@ -3032,7 +3058,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -3078,7 +3105,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -3137,7 +3164,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "abramovich - X1(63)->63.576.25.g.4 is a map to a curve where the latter has finitely many points of degree <= 11",
       "in_tables": true,
@@ -3183,7 +3211,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -3239,7 +3267,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -3283,7 +3312,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma",
         "13": "RankZeroLemma",
@@ -3344,7 +3373,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94"
       },
       "table_note": "",
@@ -3388,7 +3417,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -3432,7 +3462,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94"
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -3475,7 +3505,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -3519,7 +3550,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -3564,7 +3595,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -3608,7 +3640,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -3654,7 +3686,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94"
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -3698,7 +3730,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94"
       },
       "table_note": "",
@@ -3743,7 +3775,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94"
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -3787,7 +3819,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -3832,7 +3864,8 @@
         "6": "DvH14",
         "7": "DvH14",
         "8": "DvH14",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -3876,7 +3909,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -3922,7 +3955,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94"
       },
       "table_note": "",
@@ -3967,7 +4000,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4013,7 +4046,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4059,7 +4092,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4105,7 +4138,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94"
       },
       "table_note": "",
@@ -4150,7 +4183,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4196,7 +4229,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4242,7 +4275,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4288,7 +4321,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4334,7 +4367,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4380,7 +4413,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4426,7 +4459,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4472,7 +4505,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4518,7 +4551,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4564,7 +4597,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4610,7 +4643,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4656,7 +4689,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4702,7 +4735,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4748,7 +4781,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4794,7 +4827,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -4840,7 +4873,7 @@
         "7": "DvH14",
         "8": "DvH14",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -5033,7 +5066,8 @@
         "6": "DS17",
         "7": "DS17",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -5079,7 +5113,8 @@
         "6": "DS17",
         "7": "DS17",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77"
@@ -5124,7 +5159,8 @@
         "6": "DS17",
         "7": "DS17",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -5169,7 +5205,8 @@
         "6": "DS17",
         "7": "DS17",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -5214,7 +5251,8 @@
         "6": "DS17",
         "7": "DS17",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -5261,7 +5299,8 @@
         "6": "DS17",
         "7": "DS17",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -5305,7 +5344,8 @@
       },
       "degrees_infinite": {
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -5351,7 +5391,8 @@
       },
       "degrees_infinite": {
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "1": "Mazur77",
@@ -5410,7 +5451,7 @@
         "7": "NV26",
         "8": "NV26",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "DT",
@@ -5462,7 +5503,7 @@
         "7": "NV26",
         "8": "NV26",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "DT",
@@ -5510,15 +5551,16 @@
         "6": "DS17",
         "7": "NV26",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "DT - todo probaj gon=12",
       "in_tables": true,
       "n_points": 2,
-      "n_certified": 0,
-      "n_verified": 2,
-      "n_sporadic": 0,
-      "n_isolated": 0,
+      "n_certified": 2,
+      "n_verified": 0,
+      "n_sporadic": 2,
+      "n_isolated": 2,
       "degrees_present": [
         10
       ]
@@ -5557,7 +5599,8 @@
         "6": "DS17",
         "7": "DS17",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5602,7 +5645,8 @@
         "6": "DS17",
         "7": "DS17",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5647,7 +5691,8 @@
         "6": "DS17",
         "7": "DS17",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "DT",
       "in_tables": true,
@@ -5693,7 +5738,7 @@
         "7": "DS17",
         "8": "NV26",
         "9": "NV26",
-        "10": "RankZeroLemma"
+        "10": "Najman26deg10"
       },
       "table_note": "abramovich",
       "in_tables": true,
@@ -5739,7 +5784,7 @@
         "7": "DS17",
         "8": "NV26",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "abramovich",
@@ -5786,7 +5831,7 @@
         "7": "DS17",
         "8": "NV26",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma"
       },
       "table_note": "abramovich",
@@ -5832,7 +5877,8 @@
         "6": "DS17",
         "7": "DS17",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "abramovich - X1(44) has finitely many deg <= 9 points",
       "in_tables": true,
@@ -5877,7 +5923,8 @@
         "6": "DS17",
         "7": "DS17",
         "8": "NV26",
-        "9": "NV26"
+        "9": "NV26",
+        "10": "Najman26deg10"
       },
       "table_note": "abramovich - X1(46) has finitely many degree <=9 points",
       "in_tables": true,
@@ -5923,7 +5970,7 @@
         "7": "DS17",
         "8": "NV26",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
       },
@@ -5971,7 +6018,7 @@
         "7": "DS17",
         "8": "NV26",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
       },
@@ -6019,7 +6066,7 @@
         "7": "DS17",
         "8": "NV26",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
       },
@@ -6067,7 +6114,7 @@
         "7": "DS17",
         "8": "NV26",
         "9": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "11": "RankZeroLemma",
         "12": "RankZeroLemma"
       },
@@ -6115,7 +6162,7 @@
         "7": "DS17",
         "8": "NV26",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94"
       },
       "table_note": "abramovich",
@@ -6162,7 +6209,7 @@
         "7": "DS17",
         "8": "NV26",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "Frey94"
       },
@@ -6210,7 +6257,7 @@
         "7": "DS17",
         "8": "NV26",
         "9": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "11": "Frey94",
         "12": "RankZeroLemma"
       },
@@ -6318,7 +6365,8 @@
       "degrees_infinite": {
         "4": "JKP06",
         "6": "DS17",
-        "8": "NV26"
+        "8": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "2": "KKM"
@@ -6356,7 +6404,8 @@
       },
       "degrees_infinite": {
         "6": "DS17",
-        "8": "NV26"
+        "8": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "2": "KKM",
@@ -6401,7 +6450,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "RankZeroLemma"
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -6443,7 +6492,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "RankZeroLemma"
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -6484,7 +6533,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "RankZeroLemma"
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -6523,7 +6572,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "RankZeroLemma"
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -6562,7 +6611,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "12": "RankZeroLemma"
       },
       "table_note": "",
@@ -6602,7 +6651,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "12": "RankZeroLemma"
       },
       "table_note": "",
@@ -6642,7 +6691,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "12": "Frey94"
       },
       "table_note": "",
@@ -6682,7 +6731,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "12": "Frey94"
       },
       "table_note": "",
@@ -6722,7 +6771,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "12": "Frey94"
       },
       "table_note": "",
@@ -6794,7 +6843,8 @@
       "degrees_infinite": {
         "4": "JKP06",
         "6": "DS17",
-        "8": "NV26"
+        "8": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "2": "KKM"
@@ -6831,7 +6881,8 @@
         "source": "DS17"
       },
       "degrees_infinite": {
-        "8": "NV26"
+        "8": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "2": "KKM",
@@ -6877,7 +6928,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "12": "RankZeroLemma",
         "14": "RankZeroLemma"
       },
@@ -6921,7 +6972,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "RankZeroLemma"
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -6960,7 +7011,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "12": "RankZeroLemma"
       },
       "table_note": "",
@@ -7000,7 +7051,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "Frey94"
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -7039,7 +7090,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "12": "Frey94"
       },
       "table_note": "",
@@ -7079,7 +7130,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "Frey94",
+        "10": "Najman26deg10",
         "12": "Frey94"
       },
       "table_note": "",
@@ -7263,7 +7314,8 @@
       "degrees_infinite": {
         "4": "JKP06",
         "6": "DS17",
-        "8": "NV26"
+        "8": "NV26",
+        "10": "Najman26deg10"
       },
       "degrees_finite": {
         "2": "KKM"
@@ -7305,7 +7357,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "RankZeroLemma"
+        "10": "Najman26deg10"
       },
       "table_note": "",
       "in_tables": false,
@@ -7346,7 +7398,7 @@
         "4": "JKP06",
         "6": "DS17",
         "8": "NV26",
-        "10": "RankZeroLemma",
+        "10": "Najman26deg10",
         "12": "RankZeroLemma"
       },
       "table_note": "",
