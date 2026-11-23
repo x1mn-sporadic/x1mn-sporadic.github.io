@@ -1,0 +1,15 @@
+[0.000000 s] start: X_1(1,22) mode=tate
+[0.0100000 s] field: degree 5, x^5 - 5*x^4 + 8*x^3 - 4*x^2 + 3*x - 2
+[0.0100000 s] curve: [
+1/880*(-353*a^4 + 1551*a^3 - 1966*a^2 + 624*a - 227),
+1/7040*(-3601*a^4 + 15327*a^3 - 17502*a^2 + 1968*a - 9619),
+1/7040*(-3601*a^4 + 15327*a^3 - 17502*a^2 + 1968*a - 9619),
+0,
+0
+]
+[0.0100000 s] orders verified: ord P = 1, ord Q = 22, <P,Q> = Z/1 x Z/22
+[0.0100000 s] torsion bound from reductions: |E(K)_tors| divides 22 (primes [ 13, 13, 17 ])
+[0.0100000 s] Tate normal form done; residue field of the point has degree 5 (K has degree 5)
+[0.0100000 s] j: degree 5, CM false 0
+[0.0400000 s] conductor norm 242
+[0.0400000 s] VERIFY_DONE

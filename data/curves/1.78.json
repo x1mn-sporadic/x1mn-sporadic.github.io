@@ -1,0 +1,63 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 78,
+  "points": [
+    {
+      "id": "1.78.24.a",
+      "m": 1,
+      "n": 78,
+      "degree": 24,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": true,
+      "field_poly": "x^24 - 12*x^23 + 64*x^22 - 209*x^21 + 469*x^20 - 769*x^19 + 987*x^18 - 990*x^17 + 958*x^16 - 661*x^15 + 316*x^14 - 168*x^13 - 479*x^12 + 898*x^11 - 168*x^10 - 439*x^9 + 16*x^8 + 430*x^7 - 321*x^6 + 29*x^5 + 147*x^4 - 111*x^3 + 26*x^2 - 2*x + 1",
+      "field_disc": "not computed",
+      "j_rational": "0",
+      "torsion": [],
+      "torsion_known": false,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "24 < 26 <= minimum density degree of X_1(78) (J_1(78)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5)",
+        "sporadic": "finitely many points of degree <= 24: 24 < 26 <= minimum density degree of X_1(78) (J_1(78)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5)",
+        "isolated": "finitely many points of degree 24 on X_1(78), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 394",
+      "verified": "2026-11-23 21:04:26 UTC"
+    },
+    {
+      "id": "1.78.25.a",
+      "m": 1,
+      "n": 78,
+      "degree": 25,
+      "status": "certified",
+      "j_degree": 25,
+      "cm": false,
+      "field_poly": "x^25 - 8*x^24 + 19*x^23 - 16*x^22 + 29*x^21 - 32*x^20 - 22*x^19 - 94*x^18 + 87*x^17 + 387*x^16 - 258*x^15 + 217*x^14 - 635*x^13 + 140*x^12 + 344*x^11 - 103*x^10 + 283*x^9 - 518*x^8 + 192*x^7 - 18*x^6 + 68*x^5 - 19*x^4 - 21*x^3 + x^2 + 2*x + 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        78
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "25 < 26 <= minimum density degree of X_1(78) (J_1(78)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5)",
+        "sporadic": "finitely many points of degree <= 25: 25 < 26 <= minimum density degree of X_1(78) (J_1(78)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5)",
+        "isolated": "finitely many points of degree 25 on X_1(78), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 395",
+      "verified": "2026-11-23 21:04:26 UTC"
+    }
+  ]
+}

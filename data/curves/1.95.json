@@ -1,0 +1,36 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 95,
+  "points": [
+    {
+      "id": "1.95.54.a",
+      "m": 1,
+      "n": 95,
+      "degree": 54,
+      "status": "certified",
+      "j_degree": 27,
+      "cm": false,
+      "field_poly": "x^54 - 24*x^53 + 267*x^52 - 1786*x^51 + 7750*x^50 - 21116*x^49 + 23869*x^48 + 79929*x^47 - 524430*x^46 + 1571350*x^45 - 2948862*x^44 + 2991992*x^43 + 1015830*x^42 - 9479919*x^41 + 17310953*x^40 - 20650537*x^39 + 31800045*x^38 - 71430136*x^37 + 121027405*x^36 - 105138267*x^35 - 13294312*x^34 + 129923902*x^33 - 112741294*x^32 + 46748707*x^31 - 176522233*x^30 + 491352051*x^29 - 601246052*x^28 + 266742957*x^27 + 165153572*x^26 - 206582254*x^25 - 57847921*x^24 + 139338010*x^23 + 79403265*x^22 - 233080800*x^21 + 122690042*x^20 + 17434282*x^19 + 26866773*x^18 - 145320750*x^17 + 165213580*x^16 - 108479790*x^15 + 75563396*x^14 - 76395966*x^13 + 66547089*x^12 - 37386341*x^11 + 11395148*x^10 - 299520*x^9 - 1193526*x^8 + 422371*x^7 - 18984*x^6 - 27542*x^5 + 8885*x^4 - 1066*x^3 - 7*x^2 + 14*x - 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        95
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "54 < 72 <= minimum density degree of X_1(95) (Corollary 4.10 with p = 3, limiting newform 95.2.l.a)",
+        "sporadic": "finitely many points of degree <= 54: 54 < 72 <= minimum density degree of X_1(95) (Corollary 4.10 with p = 3, limiting newform 95.2.l.a)",
+        "isolated": "finitely many points of degree 54 on X_1(95), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, Isolated and sporadic points on X_1(N) and X_0(N) (2026), https://hexagonmath.org/2611.00884v1, Proposition 7.16 (certificate x1-sporadic/certificates/verify95.m of github.com/F-Najman/isolated_sporadic at revision 88bc530)",
+      "verified": "2026-11-23 21:03:51 UTC"
+    }
+  ]
+}

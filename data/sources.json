@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 16:07 UTC",
+  "generated": "2026-11-23 21:04 UTC",
   "sources": {
     "Mazur77": {
       "short": "Mazur 1977",
@@ -124,6 +124,13 @@
       "short": "rank-0 lemma",
       "cite": "Standard: if J(F) is finite and X has no F-rational map to P^1 of degree <= d, then X has finitely many closed points of degree <= d over F (the fibres of Sym^d X -> Pic^d X over the finitely many F-points are projective spaces, and a positive-dimensional fibre is a base-point-free pencil of degree <= d).  See Derickx-Sutherland arXiv:1608.07549, Proposition 2.3 and Corollary 2.4.",
       "used_for": "rank 0 and d < gon_F  =>  finitely many points of degree d"
+    },
+    "Najman26isolated": {
+      "short": "Najman 2026 (isolated and sporadic points)",
+      "cite": "F. Najman, Isolated and sporadic points on X_1(N) and X_0(N), Hexagon preprint 2611.00884v1 (2026).",
+      "url": "https://hexagonmath.org/2611.00884v1",
+      "used_for": "lower bounds for the gonality of X_1(N) (Corollary 4.3) and for the minimum density degree delta(X_1(N)) (Section 7.3: Lemma 3.1 b), Corollary 4.3, Proposition 4.8, Corollary 4.10 and the refinements of Section 4.4; Proposition 9.7 for N = 83), recorded for every level in the table of levels x1-sporadic/levels.csv of github.com/F-Najman/isolated_sporadic at revision 88bc530; the isolated points of Proposition 6.2 and the sporadic points of Propositions 7.15 and 7.16",
+      "transcribed_from": "https://hexagonmath.org/pdf/2611.00884v1 (statement numbers of version 1) and the columns gonality_lower, density_lower, density_source of x1-sporadic/levels.csv at revision 88bc530"
     },
     "BHKKLMNS25": {
       "short": "Bourdon–Hashimoto–Keller–Klagsbrun–Lowry-Duda–Morrison–Najman–Shukla 2025",

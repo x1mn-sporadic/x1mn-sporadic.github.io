@@ -1,0 +1,65 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 57,
+  "points": [
+    {
+      "id": "1.57.12.a",
+      "m": 1,
+      "n": 57,
+      "degree": 12,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": true,
+      "field_poly": "x^12 - 4*x^11 + 9*x^10 - 6*x^9 - 2*x^8 - 3*x^7 + 11*x^6 - 12*x^4 + 7*x^3 + 2*x^2 - 3*x + 1",
+      "field_disc": "48737056617",
+      "j_rational": "0",
+      "torsion": [
+        57
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "12 < 14 <= minimum density degree of X_1(57) (Proposition 4.8 with p = 5)",
+        "sporadic": "finitely many points of degree <= 12: 12 < 14 <= minimum density degree of X_1(57) (Proposition 4.8 with p = 5)",
+        "isolated": "finitely many points of degree 12 on X_1(57), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (2013/2014), line 2054",
+      "verified": "2026-11-23 21:03:53 UTC"
+    },
+    {
+      "id": "1.57.12.b",
+      "m": 1,
+      "n": 57,
+      "degree": 12,
+      "status": "certified",
+      "j_degree": 2,
+      "cm": false,
+      "field_poly": "x^12 - 3*x^11 - x^10 + 11*x^9 - 10*x^8 - 14*x^7 + 24*x^6 + 10*x^5 - 12*x^4 - 2*x^3 - 3*x^2 - x + 1",
+      "field_disc": "-3722179279923",
+      "j_rational": "",
+      "torsion": [
+        57
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "12 < 14 <= minimum density degree of X_1(57) (Proposition 4.8 with p = 5)",
+        "sporadic": "finitely many points of degree <= 12: 12 < 14 <= minimum density degree of X_1(57) (Proposition 4.8 with p = 5)",
+        "isolated": "finitely many points of degree 12 on X_1(57), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (2013/2014), line 2055",
+      "verified": "2026-11-23 21:03:54 UTC"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[0.000000 s] start: X_1(1,27) mode=tate
+[0.000000 s] field: degree 6, x^6 + 2*x^4 - x - 1
+[0.000000 s] curve: [
+116*a^5 - 73*a^4 + 278*a^3 - 175*a^2 + 110*a - 184,
+13743*a^5 - 8629*a^4 + 32904*a^3 - 20660*a^2 + 12972*a - 21888,
+13743*a^5 - 8629*a^4 + 32904*a^3 - 20660*a^2 + 12972*a - 21888,
+0,
+0
+]
+[0.000000 s] orders verified: ord P = 1, ord Q = 27, <P,Q> = Z/1 x Z/27
+[0.000000 s] torsion bound from reductions: |E(K)_tors| divides 27 (primes [ 5 ])
+[0.000000 s] Tate normal form done; residue field of the point has degree 6 (K has degree 6)
+[0.000000 s] j: degree 6, CM false 0
+[0.0100000 s] conductor norm 27
+[0.0200000 s] VERIFY_DONE

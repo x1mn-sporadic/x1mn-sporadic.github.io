@@ -1,0 +1,5 @@
+[0.0100000 s] point: X_1(1,19), residue field degree 7
+[0.0500000 s] q = 3: model built (0.0500000 s); computing the maximal orders of its function field (genus check)
+[0.0800000 s] q = 3: genus 7 (expected 7), 0.0800000 s
+[0.100000 s] q = 3: D_q = 1 places of degrees [ 7 ], dim L(D_q) = 1 (0.100000 s)
+[0.100000 s] ISOLATION_DONE

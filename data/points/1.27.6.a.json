@@ -1,0 +1,189 @@
+{
+  "schema": "x1mn-sporadic/point/1",
+  "id": "1.27.6.a",
+  "m": 1,
+  "n": 27,
+  "degree": 6,
+  "relative_degree": 6,
+  "base_field": "Q",
+  "status": "certified",
+  "classification": {
+    "infinite_in_degree": {
+      "value": "yes",
+      "rule": "X_1(27) has infinitely many points of degree 6",
+      "sources": [
+        "DvH14"
+      ]
+    },
+    "sporadic": {
+      "value": "no",
+      "rule": "not sporadic: X_1(27) has infinitely many points of degree 6",
+      "sources": [
+        "DvH14"
+      ]
+    },
+    "isolated": {
+      "value": "yes",
+      "rule": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)",
+      "sources": [
+        "BELOV",
+        "DvH14"
+      ]
+    }
+  },
+  "isolation": {
+    "computed": true,
+    "p1_isolated": true,
+    "method": "reduction modulo good primes (upper semicontinuity of h^0)",
+    "primes": [
+      5
+    ],
+    "l_values": [
+      1
+    ],
+    "model": "mdmagma MDX1(27) (Sutherland's optimised model of X_1(27))",
+    "cputime_seconds": "0.260000",
+    "isolation_lib_sha256": "6aed3641fad595ce77f55c7a3b27726fdf9c75d5bdcee97ab3778ae3668218cb"
+  },
+  "discovery": {
+    "by": "F. Najman",
+    "year": 2026
+  },
+  "credits": {
+    "isolated": {
+      "by": "F. Najman",
+      "reference": "https://hexagonmath.org/2611.00884v1, Proposition 6.2",
+      "year": 2026
+    }
+  },
+  "field": {
+    "poly": "x^6 + 2*x^4 - x - 1",
+    "poly_coeffs": [
+      "-1",
+      "-1",
+      "0",
+      "0",
+      "2",
+      "0",
+      "1"
+    ],
+    "polredabs": "x^6 + 2*x^4 - x - 1",
+    "degree": 6,
+    "disc": "63909",
+    "disc_factored": "3^5 * 263",
+    "signature": [
+      2,
+      2
+    ]
+  },
+  "curve": {
+    "model": "Tate normal form over the residue field: y^2 + (1-c)xy - by = x^3 - bx^2, Q = (0,0)",
+    "tate_b": "-13743*a^5 + 8629*a^4 - 32904*a^3 + 20660*a^2 - 12972*a + 21888",
+    "tate_c": "-116*a^5 + 73*a^4 - 278*a^3 + 175*a^2 - 110*a + 185",
+    "tate_b_coeffs": [
+      "21888",
+      "-12972",
+      "20660",
+      "-32904",
+      "8629",
+      "-13743"
+    ],
+    "tate_c_coeffs": [
+      "185",
+      "-110",
+      "175",
+      "-278",
+      "73",
+      "-116"
+    ],
+    "ainvs": [
+      "1 - (-116*a^5 + 73*a^4 - 278*a^3 + 175*a^2 - 110*a + 185)",
+      "-(-13743*a^5 + 8629*a^4 - 32904*a^3 + 20660*a^2 - 12972*a + 21888)",
+      "-(-13743*a^5 + 8629*a^4 - 32904*a^3 + 20660*a^2 - 12972*a + 21888)",
+      "0",
+      "0"
+    ],
+    "P": [],
+    "P_coeffs": [],
+    "Q": [
+      "0",
+      "0"
+    ],
+    "j_minpoly": "x^6 + 94885*x^5 - 127730535*x^4 + 65129882846*x^3 + 29978326755582*x^2 - 37541069913260871*x + 15202407894641025411",
+    "j_degree": 6,
+    "j_rational": "",
+    "cm": false,
+    "cm_disc": 0,
+    "twist_norm_class": "",
+    "disc_norm": "243",
+    "conductor_norm": "27"
+  },
+  "torsion": {
+    "invariants": [
+      27
+    ],
+    "known_exactly": true,
+    "order_bound": 27,
+    "bound_primes": [
+      5
+    ],
+    "contains_Zm_x_Zn": true
+  },
+  "submitted": {
+    "field": {
+      "poly": "x^6 + 2*x^4 - x - 1",
+      "degree": 6
+    },
+    "mode": "tate",
+    "curve": {
+      "tb": "-13743*a^5 + 8629*a^4 - 32904*a^3 + 20660*a^2 - 12972*a + 21888",
+      "tc": "-116*a^5 + 73*a^4 - 278*a^3 + 175*a^2 - 110*a + 185"
+    },
+    "points": {},
+    "ainvs_as_verified": [
+      "116*a^5 - 73*a^4 + 278*a^3 - 175*a^2 + 110*a - 184",
+      "13743*a^5 - 8629*a^4 + 32904*a^3 - 20660*a^2 + 12972*a - 21888",
+      "13743*a^5 - 8629*a^4 + 32904*a^3 - 20660*a^2 + 12972*a - 21888",
+      "0",
+      "0"
+    ],
+    "points_as_verified": {
+      "P": [
+        "0",
+        "1"
+      ],
+      "Q": [
+        "0",
+        "0"
+      ],
+      "order_P": 1,
+      "order_Q": 27
+    },
+    "working_field": {
+      "poly": "x^6 + 2*x^4 - x - 1",
+      "degree": 6
+    },
+    "claimed_degree": 6,
+    "residue_field_equals_submitted_field": true
+  },
+  "submitter": {
+    "name": "Filip Najman",
+    "github": "F-Najman",
+    "affiliation": ""
+  },
+  "reference": "F. Najman, Isolated and sporadic points on X_1(N) and X_0(N) (2026), https://hexagonmath.org/2611.00884v1, Proposition 6.2 (the coordinates are in x1-isolated/points/point27.txt of github.com/F-Najman/isolated_sporadic at revision 88bc530)",
+  "notes": "Converted to Tate normal form from the point on Sutherland's alternative model of X_1(27) in the proof of Proposition 6.2 of the paper, where l(x) = 1 is proved; J_1(27)(Q) is finite, so the point is isolated. It is not sporadic: X_1(27) has gonality smaller than 6.",
+  "source": {},
+  "dates": {
+    "submitted": "2026-11-23",
+    "verified": "2026-11-23 21:03:13 UTC"
+  },
+  "verification": {
+    "host": "Mordell (Dept. of Mathematics, Univ. of Zagreb)",
+    "magma_version": "2.29-4",
+    "cputime_seconds": "0.0100000",
+    "verify_lib_sha256": "7b19e3206e1dbc910f4c97b142a0b69f69b0507808c5cbab2a0d723f3ef84683",
+    "log": "data/logs/1.27.6.a.log",
+    "isolation_log": "data/logs/1.27.6.a.isolation.log"
+  }
+}

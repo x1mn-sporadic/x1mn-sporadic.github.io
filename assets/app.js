@@ -234,6 +234,8 @@
           : ["lower bound: ", sourceLinks(sources, [gon.lb_source]), gon.ub ? ["; upper bound: ", sourceLinks(sources, [gon.ub_source])] : null],
           c.table_note && (gon.lb_source === "Najman2026" || gon.source === "Najman2026") ? "; " + c.table_note : "", ")")),
       el("dt", null, "Abramovich bound"), el("dd", null, "γ ≥ " + c.abramovich_bound, " ", el("span", { class: "src" }, "(", sourceLinks(sources, ["Abramovich96"]), ")")),
+      c.min_density_degree ? [el("dt", null, "minimum density degree"),
+        el("dd", null, el("b", null, "δ ≥ " + c.min_density_degree.lb), " ", el("span", { class: "src" }, "(", sourceLinks(sources, [c.min_density_degree.source]), ": " + c.min_density_degree.how + ")"))] : null,
       el("dt", null, "rank of J₁ over " + (m <= 2 ? "ℚ" : "ℚ(ζ" + m + ")")),
       el("dd", null, c.rank.value === null
         ? (c.rank.analytic_rank !== undefined ? ["analytic rank ", el("b", null, c.rank.analytic_rank), " ", el("span", { class: "src" }, "(", sourceLinks(sources, [c.rank.analytic_rank_source || "LMFDB"]), "; a positive rank is not certified here)")] : el("span", { class: "empty" }, "not recorded"))

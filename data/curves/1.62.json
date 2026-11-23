@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02 13:13 UTC",
+  "generated": "2026-11-23 21:04 UTC",
   "m": 1,
   "n": 62,
   "points": [
@@ -18,13 +18,13 @@
         62
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(62) has finitely many points of degree 22",
-        "sporadic": "finitely many points of degree 15, 16, 17, 18, 19, 20, 21, 22 on X_1(62): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 22 < 24 <= gonality of X_1(62) over Q",
+        "sporadic": "finitely many points of degree <= 22: rank 0 and 22 < 24 <= gonality of X_1(62) over Q",
+        "isolated": "finitely many points of degree 22 on X_1(62), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -47,13 +47,13 @@
         62
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(62) has finitely many points of degree 22",
-        "sporadic": "finitely many points of degree 15, 16, 17, 18, 19, 20, 21, 22 on X_1(62): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 22 < 24 <= gonality of X_1(62) over Q",
+        "sporadic": "finitely many points of degree <= 22: rank 0 and 22 < 24 <= gonality of X_1(62) over Q",
+        "isolated": "finitely many points of degree 22 on X_1(62), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -76,13 +76,13 @@
         62
       ],
       "torsion_known": true,
-      "infinite": "maybe",
-      "sporadic": "maybe",
+      "infinite": "no",
+      "sporadic": "yes",
       "isolated": "yes",
       "rules": {
-        "infinite_in_degree": "no recorded result decides whether X_1(62) has finitely many points of degree 23",
-        "sporadic": "finitely many points of degree 15, 16, 17, 18, 19, 20, 21, 22, 23 on X_1(62): not decided by any recorded result",
-        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+        "infinite_in_degree": "rank 0 and 23 < 24 <= gonality of X_1(62) over Q",
+        "sporadic": "finitely many points of degree <= 23: rank 0 and 23 < 24 <= gonality of X_1(62) over Q",
+        "isolated": "finitely many points of degree 23 on X_1(62), so the point lies in no positive-dimensional family"
       },
       "discovered_by": "M. van Hoeij",
       "year": 2012,
@@ -110,7 +110,7 @@
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(62) has finitely many points of degree 24",
-        "sporadic": "finitely many points of degree 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 on X_1(62): not decided by any recorded result",
+        "sporadic": "finitely many points of degree 24 on X_1(62): not decided by any recorded result",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -139,7 +139,7 @@
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(62) has finitely many points of degree 25",
-        "sporadic": "finitely many points of degree 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 on X_1(62): not decided by any recorded result",
+        "sporadic": "finitely many points of degree 24, 25 on X_1(62): not decided by any recorded result",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -168,7 +168,7 @@
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(62) has finitely many points of degree 26",
-        "sporadic": "finitely many points of degree 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 on X_1(62): not decided by any recorded result",
+        "sporadic": "finitely many points of degree 24, 25, 26 on X_1(62): not decided by any recorded result",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -197,7 +197,7 @@
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(62) has finitely many points of degree 27",
-        "sporadic": "finitely many points of degree 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27 on X_1(62): not decided by any recorded result",
+        "sporadic": "finitely many points of degree 24, 25, 26, 27 on X_1(62): not decided by any recorded result",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -226,7 +226,7 @@
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(62) has finitely many points of degree 28",
-        "sporadic": "finitely many points of degree 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 on X_1(62): not decided by any recorded result",
+        "sporadic": "finitely many points of degree 24, 25, 26, 27, 28 on X_1(62): not decided by any recorded result",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -255,7 +255,7 @@
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(62) has finitely many points of degree 29",
-        "sporadic": "finitely many points of degree 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 on X_1(62): not decided by any recorded result",
+        "sporadic": "finitely many points of degree 24, 25, 26, 27, 28, 29 on X_1(62): not decided by any recorded result",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",
@@ -284,7 +284,7 @@
       "isolated": "yes",
       "rules": {
         "infinite_in_degree": "no recorded result decides whether X_1(62) has finitely many points of degree 30",
-        "sporadic": "finitely many points of degree 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 on X_1(62): not decided by any recorded result",
+        "sporadic": "finitely many points of degree 24, 25, 26, 27, 28, 29, 30 on X_1(62): not decided by any recorded result",
         "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
       },
       "discovered_by": "M. van Hoeij",

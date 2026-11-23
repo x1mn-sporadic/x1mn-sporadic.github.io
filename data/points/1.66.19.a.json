@@ -15,7 +15,7 @@
     },
     "sporadic": {
       "value": "maybe",
-      "rule": "finitely many points of degree 15, 16, 17, 18, 19 on X_1(66): not decided by any recorded result",
+      "rule": "finitely many points of degree 19 on X_1(66): not decided by any recorded result",
       "sources": []
     },
     "isolated": {

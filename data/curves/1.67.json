@@ -1,0 +1,123 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 67,
+  "points": [
+    {
+      "id": "1.67.22.a",
+      "m": 1,
+      "n": 67,
+      "degree": 22,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": true,
+      "field_poly": "x^22 - 10*x^21 + 47*x^20 - 150*x^19 + 396*x^18 - 840*x^17 + 1292*x^16 - 1445*x^15 + 1478*x^14 - 1742*x^13 + 1800*x^12 - 1243*x^11 + 755*x^10 - 767*x^9 + 659*x^8 - 251*x^7 + 72*x^6 - 139*x^5 + 114*x^4 - 19*x^3 - 8*x^2 + 1",
+      "field_disc": "not computed",
+      "j_rational": "0",
+      "torsion": [
+        67
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "22 < 38 <= minimum density degree of X_1(67) (Corollary 4.10 with p = 3, limiting newform 67.2.a.b)",
+        "sporadic": "finitely many points of degree <= 22: 22 < 38 <= minimum density degree of X_1(67) (Corollary 4.10 with p = 3, limiting newform 67.2.a.b)",
+        "isolated": "finitely many points of degree 22 on X_1(67), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 153",
+      "verified": "2026-11-23 21:04:04 UTC"
+    },
+    {
+      "id": "1.67.30.a",
+      "m": 1,
+      "n": 67,
+      "degree": 30,
+      "status": "certified",
+      "j_degree": 10,
+      "cm": false,
+      "field_poly": "x^30 - 15*x^29 + 91*x^28 - 266*x^27 + 217*x^26 + 1000*x^25 - 3188*x^24 + 2048*x^23 + 4961*x^22 - 6838*x^21 - 3536*x^20 + 2036*x^19 + 19247*x^18 - 9915*x^17 - 35141*x^16 + 33121*x^15 + 21627*x^14 - 34388*x^13 - 3958*x^12 + 19264*x^11 - 2211*x^10 - 6947*x^9 + 2316*x^8 + 1175*x^7 - 1110*x^6 + 704*x^5 - 405*x^4 + 133*x^3 - 29*x^2 + 8*x - 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        67
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "30 < 38 <= minimum density degree of X_1(67) (Corollary 4.10 with p = 3, limiting newform 67.2.a.b)",
+        "sporadic": "finitely many points of degree <= 30: 30 < 38 <= minimum density degree of X_1(67) (Corollary 4.10 with p = 3, limiting newform 67.2.a.b)",
+        "isolated": "finitely many points of degree 30 on X_1(67), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 154",
+      "verified": "2026-11-23 21:04:05 UTC"
+    },
+    {
+      "id": "1.67.33.a",
+      "m": 1,
+      "n": 67,
+      "degree": 33,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": true,
+      "field_poly": "x^33 - 15*x^32 - 366*x^31 + 5800*x^30 + 31732*x^29 - 705076*x^28 + 595688*x^27 + 26715065*x^26 - 82641481*x^25 - 326774836*x^24 + 1611597981*x^23 + 850559434*x^22 - 12311604705*x^21 + 9664911172*x^20 + 38650597278*x^19 - 69636871224*x^18 - 20703700467*x^17 + 142899268304*x^16 - 102364269377*x^15 - 48083519083*x^14 + 97898198418*x^13 - 32922382541*x^12 - 17352108755*x^11 + 15535406866*x^10 - 3045444776*x^9 - 555704615*x^8 + 269088174*x^7 - 17696969*x^6 - 4182934*x^5 + 650929*x^4 - 18262*x^3 - 1446*x^2 + 86*x - 1",
+      "field_disc": "not computed",
+      "j_rational": "-147197952000",
+      "torsion": [
+        67
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "33 < 38 <= minimum density degree of X_1(67) (Corollary 4.10 with p = 3, limiting newform 67.2.a.b)",
+        "sporadic": "finitely many points of degree <= 33: 33 < 38 <= minimum density degree of X_1(67) (Corollary 4.10 with p = 3, limiting newform 67.2.a.b)",
+        "isolated": "finitely many points of degree 33 on X_1(67), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 155",
+      "verified": "2026-11-23 21:04:06 UTC"
+    },
+    {
+      "id": "1.67.37.a",
+      "m": 1,
+      "n": 67,
+      "degree": 37,
+      "status": "certified",
+      "j_degree": 37,
+      "cm": false,
+      "field_poly": "x^37 - 8*x^36 + 11*x^35 + 71*x^34 - 372*x^33 + 1114*x^32 - 2537*x^31 + 4373*x^30 - 6566*x^29 + 8270*x^28 - 5360*x^27 - 410*x^26 + 1216*x^25 - 4296*x^24 + 15184*x^23 - 11883*x^22 - 8195*x^21 + 8504*x^20 + 5491*x^19 + 9479*x^18 - 24069*x^17 - 2536*x^16 + 19204*x^15 + 488*x^14 - 8341*x^13 - 4085*x^12 + 6056*x^11 + 1890*x^10 - 3794*x^9 + 568*x^8 + 1009*x^7 - 571*x^6 + 84*x^5 + 26*x^4 - 28*x^3 + 19*x^2 - 7*x + 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        67
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "37 < 38 <= minimum density degree of X_1(67) (Corollary 4.10 with p = 3, limiting newform 67.2.a.b)",
+        "sporadic": "finitely many points of degree <= 37: 37 < 38 <= minimum density degree of X_1(67) (Corollary 4.10 with p = 3, limiting newform 67.2.a.b)",
+        "isolated": "finitely many points of degree 37 on X_1(67), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 156",
+      "verified": "2026-11-23 21:04:07 UTC"
+    }
+  ]
+}

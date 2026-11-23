@@ -1,0 +1,123 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 69,
+  "points": [
+    {
+      "id": "1.69.28.a",
+      "m": 1,
+      "n": 69,
+      "degree": 28,
+      "status": "certified",
+      "j_degree": 14,
+      "cm": false,
+      "field_poly": "x^28 - 2*x^27 - 9*x^26 - 9*x^25 + 184*x^24 - 149*x^23 - 1380*x^22 + 4801*x^21 - 8452*x^20 + 11378*x^19 - 13254*x^18 + 10763*x^17 - 1818*x^16 - 7966*x^15 + 11014*x^14 - 7050*x^13 + 1376*x^12 + 1762*x^11 - 1452*x^10 - 126*x^9 + 619*x^8 - 229*x^7 - 86*x^6 + 82*x^5 + 27*x^4 - 21*x^3 - 8*x^2 + 2*x + 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        69
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "28 < 36 <= minimum density degree of X_1(69) (J_1(69)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "sporadic": "finitely many points of degree <= 28: 28 < 36 <= minimum density degree of X_1(69) (J_1(69)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "isolated": "finitely many points of degree 28 on X_1(69), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 191",
+      "verified": "2026-11-23 21:04:09 UTC"
+    },
+    {
+      "id": "1.69.29.a",
+      "m": 1,
+      "n": 69,
+      "degree": 29,
+      "status": "certified",
+      "j_degree": 29,
+      "cm": false,
+      "field_poly": "x^29 - 4*x^28 + 12*x^27 - 42*x^26 + 59*x^25 - 238*x^24 + 251*x^23 + 630*x^22 - 724*x^21 + 468*x^20 - 1936*x^19 - 41*x^18 + 5156*x^17 - 4436*x^16 - 905*x^15 + 4007*x^14 - 4098*x^13 + 3209*x^12 - 582*x^11 - 4415*x^10 + 6006*x^9 - 917*x^8 - 3645*x^7 + 2569*x^6 + 102*x^5 - 758*x^4 + 308*x^3 - 34*x^2 - 5*x + 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        69
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "29 < 36 <= minimum density degree of X_1(69) (J_1(69)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "sporadic": "finitely many points of degree <= 29: 29 < 36 <= minimum density degree of X_1(69) (J_1(69)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "isolated": "finitely many points of degree 29 on X_1(69), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 192",
+      "verified": "2026-11-23 21:04:10 UTC"
+    },
+    {
+      "id": "1.69.32.a",
+      "m": 1,
+      "n": 69,
+      "degree": 32,
+      "status": "certified",
+      "j_degree": 32,
+      "cm": false,
+      "field_poly": "x^32 + x^31 - 10*x^30 - 79*x^29 + 406*x^28 - 157*x^27 - 2487*x^26 + 4601*x^25 + 4745*x^24 - 20980*x^23 + 4669*x^22 + 47477*x^21 - 39390*x^20 - 61162*x^19 + 86236*x^18 + 42088*x^17 - 105843*x^16 - 6582*x^15 + 81269*x^14 - 12507*x^13 - 39898*x^12 + 9743*x^11 + 12726*x^10 - 2565*x^9 - 2855*x^8 + 96*x^7 + 408*x^6 + 42*x^5 + 51*x^4 - 31*x^3 - 27*x^2 + 14*x - 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        69
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "32 < 36 <= minimum density degree of X_1(69) (J_1(69)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "sporadic": "finitely many points of degree <= 32: 32 < 36 <= minimum density degree of X_1(69) (J_1(69)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "isolated": "finitely many points of degree 32 on X_1(69), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 193",
+      "verified": "2026-11-23 21:04:10 UTC"
+    },
+    {
+      "id": "1.69.34.a",
+      "m": 1,
+      "n": 69,
+      "degree": 34,
+      "status": "certified",
+      "j_degree": 17,
+      "cm": false,
+      "field_poly": "x^34 - 13*x^33 + 71*x^32 - 214*x^31 + 422*x^30 - 653*x^29 + 628*x^28 + 1100*x^27 - 5672*x^26 + 7367*x^25 + 3961*x^24 - 20276*x^23 + 13731*x^22 + 16234*x^21 - 28578*x^20 + 4750*x^19 + 20343*x^18 - 16745*x^17 - 1992*x^16 + 11105*x^15 - 5607*x^14 - 2838*x^13 + 3527*x^12 + 419*x^11 - 1121*x^10 - 454*x^9 + 482*x^8 + 215*x^7 - 235*x^6 + 13*x^5 + 51*x^4 - 26*x^3 + 4*x - 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        69
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "34 < 36 <= minimum density degree of X_1(69) (J_1(69)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "sporadic": "finitely many points of degree <= 34: 34 < 36 <= minimum density degree of X_1(69) (J_1(69)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "isolated": "finitely many points of degree 34 on X_1(69), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 194",
+      "verified": "2026-11-23 21:04:11 UTC"
+    }
+  ]
+}

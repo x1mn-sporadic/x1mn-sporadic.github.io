@@ -99,6 +99,17 @@ def curve_record(m, n, magma_rec, table_row, max_point_degree=0):
         upper_source = gon["ub_source"] if gon["ub"] == published_gonality else "Varivoda26"
         gon = {"lb": published_gonality, "ub": published_gonality, "exact": True,
                "lb_source": "Varivoda26", "ub_source": upper_source, "source": "Varivoda26"}
+    # Najman 2026 (hexagon:2611.00884v1), Corollary 4.3: supersingular lower bound for gon_Qbar X_1(N).
+    paper_gon = knowledge.NAJMAN26_GONALITY_LB.get((m, n))
+    if paper_gon is not None and not gon["exact"] and paper_gon[0] > gon["lb"]:
+        assert gon["ub"] is None or paper_gon[0] <= gon["ub"], (m, n, gon, paper_gon)
+        gon["lb"], gon["lb_source"] = paper_gon[0], "Najman26isolated"
+        gon["exact"] = gon["ub"] == paper_gon[0]
+        gon["source"] = gon["ub_source"] if gon["exact"] else "Najman26isolated"
+    # Najman 2026, Section 7.3: lower bound for the minimum density degree.
+    paper_delta = knowledge.NAJMAN26_DELTA_LB.get((m, n))
+    min_density = ({"lb": paper_delta[0], "source": "Najman26isolated", "how": paper_delta[1]}
+                   if paper_delta is not None else None)
     # Gonality is over Q(zeta_m): the tables are Q-gonalities for m <= 2;
     # for m >= 3 use the cited base-field bounds or Abramovich's geometric lower bound.
     rank_val, rank_src = knowledge.rank_zero_source(m, n, table_row)
@@ -123,7 +134,8 @@ def curve_record(m, n, magma_rec, table_row, max_point_degree=0):
         # Display the full new finiteness range, including the degrees >= 14
         # of the recorded points, rather than stopping at degree 12.
         finite_degree_limit = max(12, max_point_degree,
-                                  (published_gonality - 1) * phi if published_gonality is not None else 0)
+                                  (published_gonality - 1) * phi if published_gonality is not None else 0,
+                                  (min_density["lb"] - 1) * phi if min_density is not None else 0)
         for d in range(1, finite_degree_limit + 1):
             if d % phi:
                 continue
@@ -134,6 +146,8 @@ def curve_record(m, n, magma_rec, table_row, max_point_degree=0):
                 degrees_finite[str(d)] = "Frey94"
             elif rank_val == 0 and dd < gon["lb"]:
                 degrees_finite[str(d)] = "RankZeroLemma"
+            elif min_density is not None and dd < min_density["lb"]:
+                degrees_finite[str(d)] = "Najman26isolated"
     return {
         "m": m, "n": n, "label": f"X1({m},{n})",
         "torsion": f"Z/{m} x Z/{n}" if m > 1 else f"Z/{n}",
@@ -141,6 +155,7 @@ def curve_record(m, n, magma_rec, table_row, max_point_degree=0):
         "genus": genus, "index": index,
         "abramovich_bound": float(round(abr, 3)),
         "gonality": gon,
+        "min_density_degree": min_density,
         "rank": rank,
         "degrees_infinite": degrees_infinite,
         "degrees_finite": degrees_finite,
