@@ -1,0 +1,15 @@
+[0.0100000 s] start: X_1(1,19) mode=tate
+[0.0100000 s] field: degree 7, x^7 - 3*x^6 + x^5 + 10*x^4 - 11*x^3 + x^2 + 3*x - 1
+[0.0100000 s] curve: [
+1/7*(4*a^6 - 11*a^5 - 4*a^4 + 53*a^3 - 36*a^2 - 40*a + 30),
+1/7*(-11*a^6 + 25*a^5 - 3*a^4 - 74*a^3 + 22*a^2 - 30*a + 19),
+1/7*(-11*a^6 + 25*a^5 - 3*a^4 - 74*a^3 + 22*a^2 - 30*a + 19),
+0,
+0
+]
+[0.0100000 s] orders verified: ord P = 1, ord Q = 19, <P,Q> = Z/1 x Z/19
+[0.0100000 s] torsion bound from reductions: |E(K)_tors| divides 19 (primes [ 5, 5 ])
+[0.0100000 s] Tate normal form done; residue field of the point has degree 7 (K has degree 7)
+[0.0100000 s] j: degree 7, CM false 0
+[0.0300000 s] conductor norm 607
+[0.0300000 s] VERIFY_DONE

@@ -1,0 +1,123 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 43,
+  "points": [
+    {
+      "id": "1.43.12.a",
+      "m": 1,
+      "n": 43,
+      "degree": 12,
+      "status": "certified",
+      "j_degree": 4,
+      "cm": false,
+      "field_poly": "x^12 - x^11 - 5*x^10 + 6*x^9 + 9*x^8 - 16*x^7 - 3*x^6 + 19*x^5 - 3*x^4 - 12*x^3 + x^2 + 4*x + 1",
+      "field_disc": "42553255797",
+      "j_rational": "",
+      "torsion": [
+        43
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "12 < 16 <= minimum density degree of X_1(43) (Corollary 4.10 with p = 2, limiting newform 43.2.a.a)",
+        "sporadic": "finitely many points of degree <= 12: 12 < 16 <= minimum density degree of X_1(43) (Corollary 4.10 with p = 2, limiting newform 43.2.a.a)",
+        "isolated": "finitely many points of degree 12 on X_1(43), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (2013/2014), line 284",
+      "verified": "2026-11-23 21:03:51 UTC"
+    },
+    {
+      "id": "1.43.14.a",
+      "m": 1,
+      "n": 43,
+      "degree": 14,
+      "status": "certified",
+      "j_degree": 1,
+      "cm": true,
+      "field_poly": "x^14 - 6*x^13 + 16*x^12 - 23*x^11 + 22*x^10 - 18*x^9 + 11*x^8 - 2*x^6 - 5*x^5 + 9*x^4 - 7*x^3 + 6*x^2 - 4*x + 1",
+      "field_disc": "-13824820988163",
+      "j_rational": "0",
+      "torsion": [
+        43
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "14 < 16 <= minimum density degree of X_1(43) (Corollary 4.10 with p = 2, limiting newform 43.2.a.a)",
+        "sporadic": "finitely many points of degree <= 14: 14 < 16 <= minimum density degree of X_1(43) (Corollary 4.10 with p = 2, limiting newform 43.2.a.a)",
+        "isolated": "finitely many points of degree 14 on X_1(43), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (2013/2014), line 285",
+      "verified": "2026-11-23 21:03:52 UTC"
+    },
+    {
+      "id": "1.43.14.b",
+      "m": 1,
+      "n": 43,
+      "degree": 14,
+      "status": "certified",
+      "j_degree": 14,
+      "cm": false,
+      "field_poly": "x^14 - x^13 - 7*x^12 + 4*x^11 + 20*x^10 - 4*x^9 - 23*x^8 - 8*x^7 + 10*x^6 + 14*x^5 - 3*x^4 - 6*x^3 + x^2 + 1",
+      "field_disc": "51653192589629",
+      "j_rational": "",
+      "torsion": [
+        43
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "14 < 16 <= minimum density degree of X_1(43) (Corollary 4.10 with p = 2, limiting newform 43.2.a.a)",
+        "sporadic": "finitely many points of degree <= 14: 14 < 16 <= minimum density degree of X_1(43) (Corollary 4.10 with p = 2, limiting newform 43.2.a.a)",
+        "isolated": "finitely many points of degree 14 on X_1(43), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (2013/2014), line 286",
+      "verified": "2026-11-23 21:03:52 UTC"
+    },
+    {
+      "id": "1.43.15.a",
+      "m": 1,
+      "n": 43,
+      "degree": 15,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^15 - 9*x^14 + 21*x^13 + 14*x^12 - 85*x^11 + 28*x^10 + 99*x^9 - 59*x^8 - 33*x^7 + 33*x^6 - 12*x^5 - 6*x^4 + 13*x^3 + x^2 - 4*x - 1",
+      "field_disc": "-435204392866061279",
+      "j_rational": "",
+      "torsion": [
+        43
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "15 < 16 <= minimum density degree of X_1(43) (Corollary 4.10 with p = 2, limiting newform 43.2.a.a)",
+        "sporadic": "finitely many points of degree <= 15: 15 < 16 <= minimum density degree of X_1(43) (Corollary 4.10 with p = 2, limiting newform 43.2.a.a)",
+        "isolated": "finitely many points of degree 15 on X_1(43), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces (2013/2014), line 287",
+      "verified": "2026-11-23 21:03:53 UTC"
+    }
+  ]
+}

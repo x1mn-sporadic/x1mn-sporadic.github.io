@@ -1,0 +1,36 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 77,
+  "points": [
+    {
+      "id": "1.77.40.a",
+      "m": 1,
+      "n": 77,
+      "degree": 40,
+      "status": "certified",
+      "j_degree": 20,
+      "cm": false,
+      "field_poly": "x^40 - 15*x^39 + 113*x^38 - 565*x^37 + 2040*x^36 - 5501*x^35 + 11089*x^34 - 15880*x^33 + 12884*x^32 + 5463*x^31 - 41927*x^30 + 93183*x^29 - 148770*x^28 + 183425*x^27 - 158317*x^26 + 51479*x^25 + 109212*x^24 - 252379*x^23 + 300084*x^22 - 213087*x^21 + 27530*x^20 + 165313*x^19 - 292450*x^18 + 318162*x^17 - 210518*x^16 - 2853*x^15 + 176234*x^14 - 181769*x^13 + 61721*x^12 + 48876*x^11 - 76932*x^10 + 40887*x^9 + 2134*x^8 - 13816*x^7 + 2431*x^6 + 5181*x^5 - 2706*x^4 - 495*x^3 + 660*x^2 - 110*x - 11",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        77
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "40 < 48 <= minimum density degree of X_1(77) (Corollary 4.10 with p = 3, limiting newform 77.2.a.a)",
+        "sporadic": "finitely many points of degree <= 40: 40 < 48 <= minimum density degree of X_1(77) (Corollary 4.10 with p = 3, limiting newform 77.2.a.a)",
+        "isolated": "finitely many points of degree 40 on X_1(77), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 369",
+      "verified": "2026-11-23 21:04:25 UTC"
+    }
+  ]
+}

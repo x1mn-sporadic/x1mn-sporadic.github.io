@@ -1,0 +1,15 @@
+[0.000000 s] start: X_1(1,17) mode=tate
+[0.000000 s] field: degree 5, x^5 - 3*x^3 + 2*x + 1
+[0.000000 s] curve: [
+4*a^4 - a^3 - 12*a^2 + 4*a + 9,
+-3*a^4 + 10*a^2 - a - 8,
+-3*a^4 + 10*a^2 - a - 8,
+0,
+0
+]
+[0.0100000 s] orders verified: ord P = 1, ord Q = 17, <P,Q> = Z/1 x Z/17
+[0.0100000 s] torsion bound from reductions: |E(K)_tors| divides 17 (primes [ 7, 7 ])
+[0.0100000 s] Tate normal form done; residue field of the point has degree 5 (K has degree 5)
+[0.0100000 s] j: degree 5, CM false 0
+[0.0200000 s] conductor norm 137
+[0.0200000 s] VERIFY_DONE

@@ -1,0 +1,36 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 80,
+  "points": [
+    {
+      "id": "1.80.20.a",
+      "m": 1,
+      "n": 80,
+      "degree": 20,
+      "status": "certified",
+      "j_degree": 5,
+      "cm": false,
+      "field_poly": "x^20 - 6*x^19 + 20*x^18 - 46*x^17 + 93*x^16 - 145*x^15 + 208*x^14 - 263*x^13 + 263*x^12 - 249*x^11 + 163*x^10 - 43*x^9 - 7*x^8 + 74*x^7 - 73*x^6 + 6*x^5 + 8*x^4 - 17*x^3 + 7*x^2 + 6*x + 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        80
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "20 < 24 <= minimum density degree of X_1(80) (Proposition 4.8 with p = 3)",
+        "sporadic": "finitely many points of degree <= 20: 20 < 24 <= minimum density degree of X_1(80) (Proposition 4.8 with p = 3)",
+        "isolated": "finitely many points of degree 20 on X_1(80), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 448",
+      "verified": "2026-11-23 21:04:27 UTC"
+    }
+  ]
+}

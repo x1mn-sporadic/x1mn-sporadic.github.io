@@ -1,0 +1,36 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 81,
+  "points": [
+    {
+      "id": "1.81.48.a",
+      "m": 1,
+      "n": 81,
+      "degree": 48,
+      "status": "certified",
+      "j_degree": 48,
+      "cm": false,
+      "field_poly": "x^48 + x^47 + 19*x^46 + 39*x^45 + 200*x^44 + 955*x^43 + 2832*x^42 + 9793*x^41 + 36045*x^40 + 104129*x^39 + 259458*x^38 + 623313*x^37 + 1317455*x^36 + 2214155*x^35 + 2822259*x^34 + 1685926*x^33 - 5921221*x^32 - 29696585*x^31 - 79899709*x^30 - 157075513*x^29 - 247325490*x^28 - 335096985*x^27 - 425607576*x^26 - 549450408*x^25 - 738072737*x^24 - 994316643*x^23 - 1279938432*x^22 - 1514396686*x^21 - 1589555818*x^20 - 1424228830*x^19 - 1036561543*x^18 - 556782590*x^17 - 148308631*x^16 + 92917543*x^15 + 172336247*x^14 + 155003511*x^13 + 106082449*x^12 + 61614075*x^11 + 31724577*x^10 + 14580801*x^9 + 5864665*x^8 + 1994487*x^7 + 550455*x^6 + 117292*x^5 + 17870*x^4 + 1630*x^3 + 25*x^2 - 12*x - 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        81
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "48 < 49 <= minimum density degree of X_1(81) (J_1(81)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "sporadic": "finitely many points of degree <= 48: 48 < 49 <= minimum density degree of X_1(81) (J_1(81)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "isolated": "finitely many points of degree 48 on X_1(81), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, Isolated and sporadic points on X_1(N) and X_0(N) (2026), https://hexagonmath.org/2611.00884v1, Proposition 7.15 (certificate x1-sporadic/certificates/verify81.m of github.com/F-Najman/isolated_sporadic at revision 88bc530)",
+      "verified": "2026-11-23 21:03:25 UTC"
+    }
+  ]
+}

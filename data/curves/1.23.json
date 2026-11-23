@@ -1,0 +1,36 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 23,
+  "points": [
+    {
+      "id": "1.23.10.a",
+      "m": 1,
+      "n": 23,
+      "degree": 10,
+      "status": "certified",
+      "j_degree": 10,
+      "cm": false,
+      "field_poly": "x^10 - 5*x^9 + 10*x^8 - 12*x^7 + 18*x^6 - 37*x^5 + 51*x^4 - 38*x^3 + 18*x^2 - 6*x + 1",
+      "field_disc": "936901549",
+      "j_rational": "",
+      "torsion": [
+        23
+      ],
+      "torsion_known": true,
+      "infinite": "yes",
+      "sporadic": "no",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "X_1(23) has infinitely many points of degree 10",
+        "sporadic": "not sporadic: X_1(23) has a function of degree 7 over Q (its gonality), hence infinitely many points of degree 7 by Hilbert irreducibility",
+        "isolated": "dim L(x) = 1 (P^1-isolated) and rank J_1 over Q is 0 (AV-isolated)"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, Isolated and sporadic points on X_1(N) and X_0(N) (2026), https://hexagonmath.org/2611.00884v1, Proposition 6.2 (the coordinates are in x1-isolated/points/point23.txt of github.com/F-Najman/isolated_sporadic at revision 88bc530)",
+      "verified": "2026-11-23 21:03:11 UTC"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 72,
+  "points": [
+    {
+      "id": "1.72.22.a",
+      "m": 1,
+      "n": 72,
+      "degree": 22,
+      "status": "certified",
+      "j_degree": 22,
+      "cm": false,
+      "field_poly": "x^22 - 8*x^21 + 33*x^20 - 89*x^19 + 150*x^18 - 118*x^17 - 118*x^16 + 494*x^15 - 575*x^14 - 24*x^13 + 766*x^12 - 650*x^11 - 113*x^10 + 521*x^9 - 294*x^8 - 102*x^7 + 185*x^6 - 39*x^5 - 34*x^4 + 19*x^3 - 2*x^2 - 2*x + 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        72
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "22 < 23 <= minimum density degree of X_1(72) (J_1(72)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5)",
+        "sporadic": "finitely many points of degree <= 22: 22 < 23 <= minimum density degree of X_1(72) (J_1(72)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5)",
+        "isolated": "finitely many points of degree 22 on X_1(72), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "M. van Hoeij",
+      "year": 2012,
+      "submitter": "Mark van Hoeij",
+      "reference": "M. van Hoeij, Low degree places on the modular curve X1(N), arXiv:1202.4355; data file LowDegreePlaces_61_80 (2013/2014), line 255",
+      "verified": "2026-11-23 21:04:14 UTC"
+    }
+  ]
+}

@@ -218,6 +218,18 @@ SOURCES = {
                 "degree <= d).  See Derickx-Sutherland arXiv:1608.07549, Proposition 2.3 and Corollary 2.4.",
         "used_for": "rank 0 and d < gon_F  =>  finitely many points of degree d",
     },
+    "Najman26isolated": {
+        "short": "Najman 2026 (isolated and sporadic points)",
+        "cite": "F. Najman, Isolated and sporadic points on X_1(N) and X_0(N), Hexagon preprint 2611.00884v1 (2026).",
+        "url": "https://hexagonmath.org/2611.00884v1",
+        "used_for": "lower bounds for the gonality of X_1(N) (Corollary 4.3) and for the minimum density degree "
+                    "delta(X_1(N)) (Section 7.3: Lemma 3.1 b), Corollary 4.3, Proposition 4.8, Corollary 4.10 and the "
+                    "refinements of Section 4.4; Proposition 9.7 for N = 83), recorded for every level in the table of "
+                    "levels x1-sporadic/levels.csv of github.com/F-Najman/isolated_sporadic at revision 88bc530; the "
+                    "isolated points of Proposition 6.2 and the sporadic points of Propositions 7.15 and 7.16",
+        "transcribed_from": "https://hexagonmath.org/pdf/2611.00884v1 (statement numbers of version 1) and the columns "
+                            "gonality_lower, density_lower, density_source of x1-sporadic/levels.csv at revision 88bc530",
+    },
     "BHKKLMNS25": {
         "short": "Bourdon–Hashimoto–Keller–Klagsbrun–Lowry-Duda–Morrison–Najman–Shukla 2025",
         "cite": "A. Bourdon, S. Hashimoto, T. Keller, Z. Klagsbrun, D. Lowry-Duda, T. Morrison, F. Najman, H. Shukla, "
@@ -346,6 +358,122 @@ VARIVODA26_GONALITY = {
     (1, 46): 19, (1, 47): 29, (1, 48): 16, (1, 49): 21, (1, 50): 15,
 }
 
+# Najman, hexagon:2611.00884v1.  Corollary 4.3: gon_Qbar(X_1(N)) >= ceil(S_p(N)/(p^2+1)) with
+# S_p(N) = (p-1) J_2(N)/24 the number of supersingular points; stored as (bound, p).  These are the
+# values of the column gonality_lower of x1-sporadic/levels.csv (revision 88bc530) for 51 <= N <= 100,
+# recomputed from the formula.
+NAJMAN26_GONALITY_LB = {
+    (1, 51): (20, 2),
+    (1, 52): (17, 3),
+    (1, 53): (24, 2),
+    (1, 54): (13, 5),
+    (1, 55): (24, 2),
+    (1, 56): (20, 3),
+    (1, 57): (24, 2),
+    (1, 58): (21, 3),
+    (1, 59): (29, 2),
+    (1, 60): (12, 7),
+    (1, 61): (31, 2),
+    (1, 62): (24, 3),
+    (1, 63): (29, 2),
+    (1, 64): (26, 3),
+    (1, 65): (34, 2),
+    (1, 66): (19, 5),
+    (1, 67): (38, 2),
+    (1, 68): (29, 3),
+    (1, 69): (36, 2),
+    (1, 70): (29, 3),
+    (1, 71): (42, 2),
+    (1, 72): (23, 5),
+    (1, 73): (45, 2),
+    (1, 74): (35, 3),
+    (1, 75): (40, 2),
+    (1, 76): (36, 3),
+    (1, 77): (48, 2),
+    (1, 78): (26, 5),
+    (1, 79): (52, 2),
+    (1, 80): (39, 3),
+    (1, 81): (49, 2),
+    (1, 82): (42, 3),
+    (1, 83): (58, 2),
+    (1, 84): (30, 5),
+    (1, 85): (58, 2),
+    (1, 86): (47, 3),
+    (1, 87): (56, 2),
+    (1, 88): (48, 3),
+    (1, 89): (66, 2),
+    (1, 90): (26, 7),
+    (1, 91): (68, 2),
+    (1, 92): (53, 3),
+    (1, 93): (64, 2),
+    (1, 94): (56, 3),
+    (1, 95): (72, 2),
+    (1, 96): (40, 5),
+    (1, 97): (79, 2),
+    (1, 98): (59, 3),
+    (1, 99): (72, 2),
+    (1, 100): (60, 3),
+}
+
+# Najman, hexagon:2611.00884v1, Section 7.3: lower bounds for the minimum density degree delta(X_1(N))
+# (the least d such that X_1(N) has infinitely many points of degree d), so X_1(N) has only finitely many
+# points of each degree < bound.  Transcribed from the columns density_lower and density_source of
+# x1-sporadic/levels.csv (revision 88bc530); the bounds of Corollary 4.3 and Proposition 4.8 were
+# recomputed from the formulas.  Statement numbers are those of version 1.
+NAJMAN26_DELTA_LB = {
+    (1, 43): (16, "Corollary 4.10 with p = 2, limiting newform 43.2.a.a"),
+    (1, 51): (20, "J_1(51)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2"),
+    (1, 52): (17, "J_1(52)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 3"),
+    (1, 53): (24, "Corollary 4.10 with p = 3, limiting newform 53.2.a.a"),
+    (1, 54): (13, "J_1(54)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5"),
+    (1, 55): (24, "J_1(55)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2"),
+    (1, 56): (20, "J_1(56)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 3"),
+    (1, 57): (14, "Proposition 4.8 with p = 5"),
+    (1, 58): (21, "Corollary 4.10 with p = 3, limiting newform 58.2.a.a"),
+    (1, 59): (29, "J_1(59)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2"),
+    (1, 60): (12, "J_1(60)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 7"),
+    (1, 61): (27, "the refinements of Section 4.4 of Corollary 4.10, see Section 7.3"),
+    (1, 62): (24, "J_1(62)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 3"),
+    (1, 63): (27, "Corollary 4.10 with p = 2, limiting newform 63.2.s.a"),
+    (1, 64): (26, "J_1(64)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 3"),
+    (1, 65): (29, "the refinements of Section 4.4 of Corollary 4.10, see Section 7.3"),
+    (1, 66): (19, "J_1(66)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5"),
+    (1, 67): (38, "Corollary 4.10 with p = 3, limiting newform 67.2.a.b"),
+    (1, 68): (29, "J_1(68)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 3"),
+    (1, 69): (36, "J_1(69)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2"),
+    (1, 70): (29, "J_1(70)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 3"),
+    (1, 71): (42, "J_1(71)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2"),
+    (1, 72): (23, "J_1(72)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5"),
+    (1, 73): (28, "Proposition 4.8 with p = 3"),
+    (1, 74): (22, "Proposition 4.8 with p = 3"),
+    (1, 75): (40, "J_1(75)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2"),
+    (1, 76): (36, "J_1(76)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 3"),
+    (1, 77): (48, "Corollary 4.10 with p = 3, limiting newform 77.2.a.a"),
+    (1, 78): (26, "J_1(78)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5"),
+    (1, 79): (33, "Proposition 4.8 with p = 3"),
+    (1, 80): (24, "Proposition 4.8 with p = 3"),
+    (1, 81): (49, "J_1(81)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2"),
+    (1, 82): (27, "Proposition 4.8 with p = 3"),
+    (1, 83): (52, "Proposition 9.7"),
+    (1, 84): (30, "J_1(84)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5"),
+    (1, 85): (36, "Proposition 4.8 with p = 3"),
+    (1, 86): (42, "the refinements of Section 4.4 of Corollary 4.10, see Section 7.3"),
+    (1, 87): (56, "J_1(87)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2"),
+    (1, 88): (48, "Corollary 4.10 with p = 3, limiting newform 88.2.a.a"),
+    (1, 89): (52, "the refinements of Section 4.4 of Corollary 4.10, see Section 7.3"),
+    (1, 90): (26, "J_1(90)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 7"),
+    (1, 91): (42, "Proposition 4.8 with p = 3"),
+    (1, 92): (53, "Corollary 4.10 with p = 3, limiting newform 92.2.a.a"),
+    (1, 93): (36, "Proposition 4.8 with p = 5"),
+    (1, 94): (56, "J_1(94)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 3"),
+    (1, 95): (72, "Corollary 4.10 with p = 3, limiting newform 95.2.l.a"),
+    (1, 96): (40, "J_1(96)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 5"),
+    (1, 97): (49, "Proposition 4.8 with p = 3"),
+    (1, 98): (59, "J_1(98)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 3"),
+    (1, 99): (60, "the refinements of Section 4.4 of Corollary 4.10, see Section 7.3"),
+    (1, 100): (60, "J_1(100)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 3"),
+}
+
 # Derickx-van Hoeij, Lemma 1(3) (first appearance, via Kato): "If N <= 66 and N != 37, 43, 53, 57, 58,
 # 61, 63, 65 then J_1(N)(Q) is finite."
 RANK_ZERO_DVH14_MAX_N = 66
@@ -467,7 +595,8 @@ def degree_status(curve: dict, e: int) -> tuple:
     (1) e in degrees_infinite (Phi^infty lists for e <= 10, e = exact gonality);
     (2) e in degrees_finite (complement of the complete Phi^infty(e) lists);
     (3) Frey: 2 e' < gon_lb over the base field, e' = e/phi(m);
-    (4) rank 0 over the base field and e' < gon_lb.
+    (4) rank 0 over the base field and e' < gon_lb;
+    (5) e' < a lower bound for the minimum density degree (NAJMAN26_DELTA_LB).
     Why (2) is valid: if X_1(m,n) had infinitely many closed points of degree e, they would give
     infinitely many non-isomorphic elliptic curves over degree-e fields whose torsion contains
     Z/m x Z/n (the map to the j-line has finite fibres), hence some torsion group G containing
@@ -492,7 +621,7 @@ def degree_status(curve: dict, e: int) -> tuple:
         return "infinite", f"{lab} has infinitely many points of {_deg(curve)} {e}", [inf[str(e)]]
     # Derived entries in the curve table still need the gonality and rank
     # sources below, so point certificates credit the complete argument.
-    if str(e) in fin and fin[str(e)] not in ("Frey94", "RankZeroLemma"):
+    if str(e) in fin and fin[str(e)] not in ("Frey94", "RankZeroLemma", "Najman26isolated"):
         return "finite", f"{lab} has only finitely many points of {_deg(curve)} {e}", [fin[str(e)]]
     gon = curve.get("gonality") or {}
     lb = gon.get("lb")
@@ -502,6 +631,9 @@ def degree_status(curve: dict, e: int) -> tuple:
     if rk.get("value") == 0 and lb is not None and ee < lb:
         return "finite", f"rank 0 and {ee} < {lb} <= gonality of {lab} over {curve['base_field']}", \
             ["RankZeroLemma", rk.get("source", ""), gon.get("source", "")]
+    dl = curve.get("min_density_degree") or {}
+    if dl.get("lb") is not None and ee < dl["lb"]:
+        return "finite", f"{ee} < {dl['lb']} <= minimum density degree of {lab} ({dl['how']})", [dl["source"]]
     return "unknown", f"no recorded result decides whether {lab} has finitely many points of {_deg(curve)} {e}", []
 
 
@@ -534,7 +666,7 @@ def classify_point(curve: dict, d: int, iso=None, j_rational: str = "") -> dict:
     elif not unknown:
         # every degree <= d is finite; cite the rule for d if it already covers all smaller degrees,
         # otherwise the whole list
-        if any(k in rule for k in ("Frey", "rank 0")):
+        if any(k in rule for k in ("Frey", "rank 0", "minimum density degree")):
             sporadic = _ans("yes", f"finitely many points of {_deg(curve)} <= {d}: {rule}", src)
         else:
             srcs = sorted({x for t in inf_e for x in t[3] if x})

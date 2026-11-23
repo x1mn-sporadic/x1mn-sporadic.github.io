@@ -62,14 +62,35 @@ class GonalityClassificationTests(unittest.TestCase):
                 self.assertEqual(above["sporadic"]["value"], "no")
 
     def test_level_43_does_not_inherit_rank_zero(self):
+        # J_1(43) has positive rank: below the gonality only Frey (degree <= 11) and the
+        # minimum density degree bound delta >= 16 of hexagon:2611.00884v1 apply, never rank 0.
         curve = self.curves[1, 43]
         self.assertIsNone(curve["rank"]["value"])
         self.assertEqual(knowledge.classify_point(curve, 11)["sporadic"]["value"], "yes")
-        for degree in [12, 14, 23]:
+        for degree in [12, 14, 15]:
+            with self.subTest(degree=degree):
+                result = knowledge.classify_point(curve, degree, {"p1_isolated": True})
+                self.assertEqual(result["sporadic"]["value"], "yes")
+                self.assertIn("Najman26isolated", result["sporadic"]["sources"])
+                self.assertNotIn("RankZeroLemma", result["sporadic"]["sources"])
+        for degree in [16, 23]:
             with self.subTest(degree=degree):
                 result = knowledge.classify_point(curve, degree, {"p1_isolated": True})
                 self.assertEqual(result["sporadic"]["value"], "maybe")
                 self.assertEqual(result["isolated"]["value"], "maybe")
+
+    def test_minimum_density_degree_bounds(self):
+        # hexagon:2611.00884v1, Section 7.3 (table of levels): delta(X_1(N)) >= bound.
+        for n, bound in [(57, 14), (63, 27), (75, 40), (95, 72)]:
+            curve = self.curves[1, n]
+            with self.subTest(n=n):
+                self.assertEqual(curve["min_density_degree"]["lb"], bound)
+                below = knowledge.classify_point(curve, bound - 1)
+                self.assertEqual(below["sporadic"]["value"], "yes")
+                self.assertEqual(below["isolated"]["value"], "yes")
+                self.assertIn("Najman26isolated", below["sporadic"]["sources"])
+                at = knowledge.classify_point(curve, bound, {"p1_isolated": True})
+                self.assertNotEqual(at["sporadic"]["value"], "yes")
 
     def test_isolated_point_can_exceed_the_sporadicity_boundary(self):
         result = knowledge.classify_point(self.curves[1, 49], 22, {"p1_isolated": True})

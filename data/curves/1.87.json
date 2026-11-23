@@ -1,0 +1,36 @@
+{
+  "generated": "2026-11-23 21:04 UTC",
+  "m": 1,
+  "n": 87,
+  "points": [
+    {
+      "id": "1.87.45.a",
+      "m": 1,
+      "n": 87,
+      "degree": 45,
+      "status": "certified",
+      "j_degree": 45,
+      "cm": false,
+      "field_poly": "x^45 + 33*x^44 + 510*x^43 + 4884*x^42 + 32280*x^41 + 154893*x^40 + 550411*x^39 + 1437567*x^38 + 2615876*x^37 + 2671355*x^36 - 801777*x^35 - 7999663*x^34 - 12594901*x^33 - 4736202*x^32 + 14509197*x^31 + 24451029*x^30 + 6060501*x^29 - 24148133*x^28 - 25443805*x^27 + 7407090*x^26 + 27433066*x^25 + 5827851*x^24 - 20027124*x^23 - 9830840*x^22 + 12963444*x^21 + 9218439*x^20 - 7884260*x^19 - 7075846*x^18 + 4209681*x^17 + 4432894*x^16 - 1925940*x^15 - 2183163*x^14 + 793816*x^13 + 823181*x^12 - 306834*x^11 - 226414*x^10 + 104770*x^9 + 39297*x^8 - 27319*x^7 - 1898*x^6 + 4389*x^5 - 752*x^4 - 243*x^3 + 117*x^2 - 18*x + 1",
+      "field_disc": "not computed",
+      "j_rational": "",
+      "torsion": [
+        87
+      ],
+      "torsion_known": true,
+      "infinite": "no",
+      "sporadic": "yes",
+      "isolated": "yes",
+      "rules": {
+        "infinite_in_degree": "45 < 56 <= minimum density degree of X_1(87) (J_1(87)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "sporadic": "finitely many points of degree <= 45: 45 < 56 <= minimum density degree of X_1(87) (J_1(87)(Q) is finite, so delta = gonality (Lemma 3.1 b)), and Corollary 4.3 with p = 2)",
+        "isolated": "finitely many points of degree 45 on X_1(87), so the point lies in no positive-dimensional family"
+      },
+      "discovered_by": "F. Najman",
+      "year": 2026,
+      "submitter": "Filip Najman",
+      "reference": "F. Najman, Isolated and sporadic points on X_1(N) and X_0(N) (2026), https://hexagonmath.org/2611.00884v1, Proposition 7.15 (certificate x1-sporadic/certificates/verify87.m of github.com/F-Najman/isolated_sporadic at revision 88bc530)",
+      "verified": "2026-11-23 21:03:26 UTC"
+    }
+  ]
+}

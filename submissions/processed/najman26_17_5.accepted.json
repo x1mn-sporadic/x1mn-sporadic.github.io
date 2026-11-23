@@ -1,0 +1,27 @@
+{
+ "schema": "x1mn-sporadic/submission/1",
+ "m": 1,
+ "n": 17,
+ "field": "x^5 - 3*x^3 + 2*x + 1",
+ "curve": {
+  "tate": {
+   "b": "3*a^4 - 10*a^2 + a + 8",
+   "c": "-4*a^4 + a^3 + 12*a^2 - 4*a - 8"
+  }
+ },
+ "degree": 5,
+ "submitter": "Filip Najman",
+ "github": "F-Najman",
+ "discoverer": "F. Najman",
+ "year": 2026,
+ "reference": "F. Najman, Isolated and sporadic points on X_1(N) and X_0(N) (2026), https://hexagonmath.org/2611.00884v1, Proposition 6.2 (the coordinates are in x1-isolated/points/point17.txt of github.com/F-Najman/isolated_sporadic at revision 88bc530)",
+ "date": "2026-11-23",
+ "notes": "Converted to Tate normal form from the point on Sutherland's alternative model of X_1(17) in the proof of Proposition 6.2 of the paper, where l(x) = 1 is proved; J_1(17)(Q) is finite, so the point is isolated. It is not sporadic: X_1(17) has gonality smaller than 5.",
+ "credits": {
+  "isolated": {
+   "by": "F. Najman",
+   "year": 2026,
+   "reference": "https://hexagonmath.org/2611.00884v1, Proposition 6.2"
+  }
+ }
+}
